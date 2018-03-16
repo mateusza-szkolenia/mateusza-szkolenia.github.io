@@ -22,7 +22,7 @@
 
 ## Gry do nauki
 * [Nauka selektorów CSS](https://flukeout.github.io/)
-* [Nauka elementu flex](http://flexboxfroggy.com/)
+* [Nauka elementu Flex](http://flexboxfroggy.com/)
 * [Nauka elementu Grid](http://cssgridgarden.com/)
 
 ## Gry w CSS
