@@ -19,6 +19,7 @@
 * [Keylogger zrobiony w samym HTML+CSS](https://github.com/maxchehab/CSS-Keylogging)
 * [CSS Only](https://medium.mybridge.co/26-impressive-web-projects-built-with-css-only-4a4c2f773a21)
 * [CSS Zen Garden - strona na której dokładnie ten sam kod HTML został ostylowany różymi CSS - można porównać wygląd. Trochę stara, ale warto spojrzeć.](http://www.csszengarden.com/)
+* [Efekty obrazów z :hover](https://codepen.io/nxworld/full/ZYNOBZ/)
 
 ## Gry do nauki
 * [Nauka selektorów CSS](https://flukeout.github.io/)
