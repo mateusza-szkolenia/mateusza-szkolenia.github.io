@@ -1,6 +1,6 @@
 # Materiały dodatkowe
 ## [Systemy szablonów](Szablony.md)
 ## [CSS](CSS.md)
-## [Narzędzia](Narzedzia.md)
+## [Narzędzia online](Narzedzia.md)
 ## [Javascript](Javascript.md)
-
+## [Oprogramowanie](Oprogramowanie.md)
