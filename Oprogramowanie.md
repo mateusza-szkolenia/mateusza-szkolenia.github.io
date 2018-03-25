@@ -4,6 +4,8 @@
 
 ### [Notepad++](https://notepad-plus-plus.org/)
 
+### [Visual Studio Code](https://code.visualstudio.com/)
+
 ### [Brackets](http://brackets.io/)
 
 ### [Atom](https://atom.io/)
