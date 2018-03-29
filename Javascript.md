@@ -1,4 +1,7 @@
 # Javascript
+## Przydatne wycinki kodu
+* [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
+
 ## Frameworki i biblioteki
 * [VanillaJS](http://vanilla-js.com/) 😄
 * [jQuery](https://jquery.com/)
