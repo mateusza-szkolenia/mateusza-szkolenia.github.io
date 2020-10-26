@@ -7,7 +7,7 @@ const Dane = {
             "Dariusz", "Maciej", "Wiktor", "Paweł",
             "Jacek", "Julian", "Jakub", "Artur",
             "Tomasz", "Karol", "Maksymilian", "Barnaba",
-            "Kuba", "Jarema", "Kosma", "Bonawantura",
+            "Kuba", "Jarema", "Kosma", "Bonawentura",
             "Marek", "Filip", "Borys", "Janusz",
             "Władysław", "Tadeusz", "Przemysław", "Daniel",
             "Damian", "Kacper"
