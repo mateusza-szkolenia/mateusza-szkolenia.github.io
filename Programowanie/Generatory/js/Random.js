@@ -4,6 +4,9 @@ let Random = {
     "int" :
         (a,b) =>
             a + Math.floor( Math.random() * ( b - a + 1 ) ),
+    "float" : 
+        (a,b) =>
+            a + ( Math.random() * ( b - a ) ),
     "elem" :
         function(a){
             return a[ this.int( 0, a.length - 1 ) ];
