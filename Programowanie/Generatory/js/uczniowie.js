@@ -2,30 +2,26 @@
 
 let GeneratorUczniow = {
     "parametry" : {
-        "liczba_uczniow" : 27,
-        "liczba_ocen" : 12,
-        "powtarzalnosc_imion" : 1.5,
+        "liczba_uczniow" :
+            Random.int(10,20),
+        "liczba_ocen" :
+            Random.int(7,12),
+        "powtarzalnosc_imion" :
+            Random.float( 1.4, 1.7 ),
     },
-    "imiona" : {
-        "m" : Dane.imiona.męskie,
-        "ż" : Dane.imiona.żeńskie
-    },
+    "imiona" : [
+        ... Dane.imiona.męskie,
+        ... Dane.imiona.żeńskie
+    ],
     "uzywane_imiona" : function(){
         let n_imion = Math.round( this.parametry.liczba_uczniow / this.parametry.powtarzalnosc_imion );
-
-        let w = {};
-
-        for ( const x of [ "m", "ż" ] ){
-            w[x] = [ ... Array( n_imion ) ]
-                .fill()
-                .map( () => Random.elem( this.imiona[x] ) )
-        }
-
-        return w;
+        return [ ... Array( n_imion ) ]
+            .fill()
+            .map( () => Random.elem( this.imiona ) )
     },
 
     generuj : function(){
-        const ui = (
+        const uz_im = (
             ( typeof this.uzywane_imiona === "function" )
                 ? this.uzywane_imiona()
                 : this.uzywane_imiona
@@ -35,7 +31,7 @@ let GeneratorUczniow = {
             .fill()
             .map( () => ({
                 "imie" :
-                    Random.elem( ui[ Random.elem( [ "m", "ż" ] ) ] ),
+                    Random.elem( uz_im ),
                 "nazwisko" :
                     Random.elem( "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("") ) + ".",
                 "oceny" : (
