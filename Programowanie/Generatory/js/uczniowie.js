@@ -2,42 +2,30 @@
 
 let GeneratorUczniow = {
     "parametry" : {
-        "liczba_uczniow" : 1000,
+        "liczba_uczniow" : 27,
         "liczba_ocen" : 12,
-        "powtarzalnosc_imion" : 2.9,
+        "powtarzalnosc_imion" : 1.5,
     },
-    "imiona" : { 
-        "m" : [ 
-            "Piotr", "Michał", "Andrzej", "Mateusz",
-            "Dariusz", "Maciej", "Wiktor", "Paweł",
-            "Jacek", "Julian", "Jakub", "Artur",
-            "Tomasz", "Karol", "Maksymilian", "Barnaba",
-            "Kuba", "Jarema", "Kosma", "Bonawantura",
-            "Marek", "Filip", "Borys", "Janusz"
-        ],
-        "ż" : [
-            "Magdalena", "Anna", "Justyna", "Agnieszka",
-            "Alicja", "Wiktoria", "Amelia", "Monika",
-            "Marta", "Katarzyna", "Joanna", "Izabela",
-            "Iwona", "Ilona", "Margaret", "Ester", "Ingrid",
-            "Dolores", "Miriam", "Natalia"
-        ]
+    "imiona" : {
+        "m" : Dane.imiona.męskie,
+        "ż" : Dane.imiona.żeńskie
     },
     "uzywane_imiona" : function(){
         let n_imion = Math.round( this.parametry.liczba_uczniow / this.parametry.powtarzalnosc_imion );
 
-        return {
-            "m" : [ ... Array( n_imion ) ]
+        let w = {};
+
+        for ( const x of [ "m", "ż" ] ){
+            w[x] = [ ... Array( n_imion ) ]
                 .fill()
-                .map( () => Random.elem( this.imiona['m'] ) ),
-            "ż" : [ ... Array( n_imion ) ]
-                .fill()
-                .map( () => Random.elem( this.imiona['ż'] ) )
+                .map( () => Random.elem( this.imiona[x] ) )
         }
+
+        return w;
     },
 
     generuj : function(){
-        let ui = (
+        const ui = (
             ( typeof this.uzywane_imiona === "function" )
                 ? this.uzywane_imiona()
                 : this.uzywane_imiona
@@ -45,7 +33,7 @@ let GeneratorUczniow = {
 
         return [ ... Array( this.parametry.liczba_uczniow ) ]
             .fill()
-            .map(() => ({
+            .map( () => ({
                 "imie" :
                     Random.elem( ui[ Random.elem( [ "m", "ż" ] ) ] ),
                 "nazwisko" :
@@ -54,16 +42,8 @@ let GeneratorUczniow = {
                     ( omin, omax ) => [ ... Array( this.parametry.liczba_ocen ) ]
                         .fill()
                         .map( () => Random.int( omin, omax ) )
-                    )( Random.int( 1,3 ), Random.int( 4, 6 ) )
+                    )( Random.int( 1, 3 ), Random.int( 4, 6 ) )
                     .join(" ")
             }) )
     }
 }
-
-document.querySelector("body").appendChild( 
-    ( () => {
-        let p = document.createElement("pre") 
-        p.innerText = JSON.stringify( GeneratorUczniow.generuj(), null, 2  )
-        return p
-    } )( )
- );
