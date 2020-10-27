@@ -9,8 +9,8 @@ pre {
     padding: 1em;
 }
 
-#output-JSON,
-#output-SQL-I-S {
+html.gen #output-JSON,
+html.gen #output-SQL-I-S {
     display: none;
 }
 

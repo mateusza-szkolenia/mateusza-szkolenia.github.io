@@ -7,12 +7,20 @@ const GeneratorDanychTestowych = ( params ) => {
         }
     )()
 
+    const Dx = params.dane;
+    const Nx = params.nazwa;
+    const N1x = params.nazwa1;
+
+    String.prototype.capitalizeFirstLetter = function() {
+        return this.charAt(0).toUpperCase() + this.slice(1);
+    }
     const xx = [
-        [ "python", Format.python, [ D, N ] ],
-        [ "JSON", Format.JSON, [ D ] ],
-        [ "SQL-I-V", Format.SQL.INSERT.VALUES, [ D, N ] ],
-        [ "SQL-I-S", Format.SQL.INSERT.SELECT, [ D, N ] ],
-        [ "CSV", Format.CSV, [ D ] ],
+        [ "python", Format.python, [ Dx, Nx ] ],
+        [ "JSON", Format.JSON, [ Dx ] ],
+        [ "SQL-I-V", Format.SQL.INSERT.VALUES, [ Dx, Nx ] ],
+        [ "SQL-I-S", Format.SQL.INSERT.SELECT, [ Dx, Nx ] ],
+        [ "CSV", Format.CSV, [ Dx ] ],
+        [ "CPP-V-C", Format.CPP.vector.class, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
     ];
     
     for ( x of xx ){

@@ -1,10 +1,10 @@
 <!doctype html>
-<html>
+<html class="gen">
 <head>
     <meta charset="UTF-8">
     <title>"Uczniowie" - generator danych testowych</title>
 
-    <link rel=stylesheet href='style/main.css'>
+    <link rel=stylesheet href='/style/main.css'>
 
     <script src='js/Random.js'></script>
     <script src='js/Dane.js'></script>
@@ -16,11 +16,12 @@
     <h1><em>Uczniowie</em> - generator danych testowych</h1>
     <script>
         const N = "uczniowie";
+        const N1 = "uczen";
         const D = GeneratorUczniow.generuj();
         const OU = "#x";
         
         GeneratorDanychTestowych( 
-            { "nazwa" : N, "dane" : D, "output" : OU }
+            { "nazwa" : N, "nazwa1" : N1, "dane" : D, "output" : OU }
         )
     </script>
 
