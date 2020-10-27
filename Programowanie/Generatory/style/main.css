@@ -1,0 +1,16 @@
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+pre {
+    font-family: Inconsolata, Consolas, monospace;
+    background-color: #eeeeee;
+    padding: 1em;
+}
+
+#output-JSON,
+#output-SQL-I-S {
+    display: none;
+}
+
