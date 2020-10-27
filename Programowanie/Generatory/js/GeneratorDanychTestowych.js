@@ -17,16 +17,26 @@ const GeneratorDanychTestowych = ( params ) => {
     const xx = [
         [ "python", Format.python, [ Dx, Nx ] ],
         [ "JSON", Format.JSON, [ Dx ] ],
-        [ "SQL-I-V", Format.SQL.INSERT.VALUES, [ Dx, Nx ] ],
-        [ "SQL-I-S", Format.SQL.INSERT.SELECT, [ Dx, Nx ] ],
+        [ "SQL INSERT VALUES", Format.SQL.INSERT.VALUES, [ Dx, Nx ] ],
+        [ "SQL INSERT SELECT", Format.SQL.INSERT.SELECT, [ Dx, Nx ] ],
         [ "CSV", Format.CSV, [ Dx ] ],
-        [ "CPP-V-C", Format.CPP.vector.class, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
+        [ "CPP vector class", Format.CPP.vector.class, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
+        [ "XML Attributes", Format.XML.Attributes, [ Dx, N1x, Nx ]  ]
+
     ];
     
     for ( x of xx ){
+        let os = document.createElement("section")
+        let oh = document.createElement('h2')
         let oo = document.createElement("pre")
-        oo.setAttribute("id","output-" + x[0] )
+
+        oh.innerText = x[0]
+        os.setAttribute("id", "generated-" + x[0].replace(" ","-") )
+        oo.setAttribute("class","output " + x[0].replace(" ","-") )
         oo.innerText = x[1]( ... x[2] )
-        o.appendChild( oo )
+
+        os.appendChild( oh )
+        os.appendChild( oo )
+        o.appendChild( os )
     }
 }

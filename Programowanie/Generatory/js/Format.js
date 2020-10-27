@@ -30,6 +30,35 @@ const Format = {
                 )
             ].join("\n")
         },
+    "XML" : {
+        "Attributes" :
+            ( data, elementname, rootname ) => {
+                return [
+                    '<?xml version="1.0" encoding="UTF-8">',
+                    '<' + rootname + '>',
+                    ... data.map( (de) =>
+                        '  <' 
+                        + elementname 
+                        + ' '
+                        + Object
+                            .keys( de )
+                            .map( x => 
+                                x + "=" + '"' +   
+                                (""+de[x])
+                                    .replace("&","&amp;")
+                                    .replace("<","&lt;")
+                                    .replace("'","&apos;")
+                                    .replace('"',"&quot;")
+                                + '"'
+                            )
+                            .join(" ")
+                        + ' />'
+                    ),
+
+                    '</' + rootname + '>'
+                ].join("\n")
+            }
+    },
 
     "CPP" : {
         "vector" : {
