@@ -2,6 +2,22 @@
 
 const Format = {
 
+    'value' : 
+        ( v, lang, typename ) =>
+            ({
+                "CPP" : {
+                    "long" :
+                        x => "" + x,
+                    "double" :
+                        x => "" + x,
+                    "std::string" :
+                        x => ( '"' + (""+x).replace('"','\\"') + '"' )
+                },
+                "SQL" : {
+                    
+                }
+            })[ lang ][ typename ]( v ),
+
     'python' :
         ( data, varname ) => [
             varname + " = [",
@@ -64,64 +80,39 @@ const Format = {
         "vector" : {
             "class" : 
                 ( data, classname, vectorname ) => {
+                    let probe = Probe( data )
+                    
                     let klass_def = [
                         "#include <vector>",
-
+                        "",
                         "class " + classname + " { ",
                         "  public:",
+                        ... Object
+                            .values( probe.headers )
+                            .map( hdr => "    " + hdr.type.CPP + " " + hdr.safename.CPP + ";" ),
+                        "",
+                        "    " + classname + "(" 
+                            + Object
+                                .values( probe.headers )
+                                .map( hdr => hdr.type.CPP + " " + hdr.safename.CPP )
+                                .join(", ")
+                            + "):",
                         Object
-                            .keys( data[0] )
-                            .map( k => [
-                                k,
-                                ({
-                                    "number" : "double",
-                                    "boolean" : "boolean",
-                                    "string" : "std::string"
-                                })[ typeof( data[0][k] ) ]
-                            ])
-                            .map( k => "    " + k[1] + " " + k[0] + ";")
-                            .join("\n"),
-                        "    " + classname + "(" + 
-                        Object
-                            .keys( data[0] )
-                            .map( k => [
-                                k,
-                                ({
-                                    "number" : "double",
-                                    "boolean" : "boolean",
-                                    "string" : "std::string"
-                                })[ typeof( data[0][k] ) ]
-                            ])
-                            .map( k => k[1] + " " + k[0] )
-                            .join(", ")
-                        + "):",
-                        Object
-                            .keys( data[0] )
-                            .map( k => [
-                                k,
-                                ({
-                                    "number" : "double",
-                                    "boolean" : "boolean",
-                                    "string" : "std::string"
-                                })[ typeof( data[0][k] ) ]
-                            ])
-                            .map( k => "      " + k[0] + "(" + k[0] +")" )
+                            .values( probe.headers )
+                            .map( hdr => "      " + hdr.safename.CPP + "(" + hdr.safename.CPP + ")" )
                             .join(",\n"),
-                            "    {\n     /* Constructor */\n    };",
+                        "    {",
+                        "    };",
                         "};"
                     ].join("\n");
+
                     let vector_def = [
                         "std::vector<" + classname + "> " + vectorname + " { ",
                         data
                             .map( de => {
                                 return "   { " + 
-                                Object
-                                    .values( de )
-                                    .map( v => {
-                                       return ( typeof( v ) == "string" )
-                                        ? ( '"'+v.replace('"','\\"')+'"' )
-                                        : v
-                                    })
+                                Object.values( probe.headers )
+                                    .map( hdr => Format.value( de[ hdr.name ], "CPP", hdr.type.CPP ) )
                                     .join(", ")
                                 + " }"
                             } )

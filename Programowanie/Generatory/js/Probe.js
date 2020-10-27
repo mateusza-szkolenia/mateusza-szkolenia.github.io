@@ -21,6 +21,12 @@ const Probe = ( data ) => {
                 "Postgres" : null
             }
         },
+        "name" : null,
+        "safename" : {
+            "C" : null,
+            "CPP" : null,
+            "SQL" : null
+        },
         "compatible" : {
             "C" : true,
             "CPP" : true,
@@ -44,8 +50,15 @@ const Probe = ( data ) => {
             }
             else {
                 headers[hdr] = Clone( empty_header )
+                headers[hdr].name = hdr
+                headers[hdr].safename.C = hdr.replace(" ","_")
+                headers[hdr].safename.CPP = hdr.replace(" ","_")
+                headers[hdr].safename.SQL = hdr
+                // TODO: more checks:
+                // - digits
+                // - other characters, etc
             }
-            headers[hdr]["values"].push( de[hdr] ) 
+            headers[hdr]["values"].push( de[hdr] )
         }
         count++;
         if ( count >= records_limit ){
