@@ -101,7 +101,7 @@ const Probe = ( data ) => {
             else {
                 header.type.C = "double"
                 header.type.CPP = "double"
-                header.type.SQL.Generic = "FLOATING POINT"
+                header.type.SQL.Generic = "DECIMAL"
                 // TODO
             }
         }
