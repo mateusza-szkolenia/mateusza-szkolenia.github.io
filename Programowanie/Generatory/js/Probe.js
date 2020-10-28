@@ -16,6 +16,7 @@ const Probe = ( data ) => {
             "C" : null,
             "CPP" : null,
             "SQL" : {
+                "Generic" : null,
                 "SQLite" : null,
                 "MySQL" : null,
                 "Postgres" : null
@@ -36,7 +37,7 @@ const Probe = ( data ) => {
             "min" : null,
             "max" : null
         },
-        "length" : {
+        "strlen" : {
             "min" : null,
             "max" : null
         }
@@ -46,9 +47,7 @@ const Probe = ( data ) => {
 
     for ( let de of data ){
         for ( let hdr of Object.keys( de ) ){
-            if ( hdr in headers ){
-            }
-            else {
+            if ( ! ( hdr in headers ) ){
                 headers[hdr] = Clone( empty_header )
                 headers[hdr].name = hdr
                 headers[hdr].safename.C = hdr.replaceAll(" ","_")
@@ -76,6 +75,13 @@ const Probe = ( data ) => {
             if ( header.range.max === null || v > header.range.max ){
                 header.range.max = v
             }
+            let strlen = ("" + v).length
+            if ( header.strlen.min === null || v < header.strlen.min ){
+                header.strlen.min = strlen
+            }
+            if ( header.strlen.max === null || v > header.strlen.max ){
+                header.strlen.max = strlen
+            }
         }
         let vtypes = new Set( header.values.map( x => typeof(x) ) );
         header.homogeneous = vtypes.size == 1;        
@@ -89,13 +95,13 @@ const Probe = ( data ) => {
             if ( header.type._int ){
                 header.type.C = "long"
                 header.type.CPP = "long"
-                header.type.SQL.SQLite = "INTEGER"
+                header.type.SQL.Generic = "INTEGER"
                 // TODO
             }
             else {
                 header.type.C = "double"
                 header.type.CPP = "double"
-                header.type.SQL.SQLite = "FLOATING POINT"
+                header.type.SQL.Generic = "FLOATING POINT"
                 // TODO
             }
         }
@@ -104,7 +110,9 @@ const Probe = ( data ) => {
             header.primitive = true
             header.type.C = "char *"
             header.type.CPP = "std::string"
-            header.type.SQL.SQLite = "VARCHAR()"
+            header.type.SQL.Generic = "VARCHAR(" + 
+                ( 2 << ( Math.log( header.strlen.max ) / Math.log( 2 ) + 1 ) ) +
+                ")"
             // TODO
         }
 

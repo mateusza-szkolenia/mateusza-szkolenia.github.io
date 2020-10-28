@@ -21,8 +21,9 @@ const GeneratorDanychTestowych = ( params ) => {
         [ "SQL INSERT SELECT", Format.SQL.INSERT.SELECT, [ Dx, Nx ] ],
         [ "CSV", Format.CSV, [ Dx ] ],
         [ "CPP vector class", Format.CPP.vector.class, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
-        [ "XML Attributes", Format.XML.Attributes, [ Dx, N1x, Nx ]  ]
-
+        [ "C array struct", Format.C.array.struct, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
+        [ "XML Attributes", Format.XML.Attributes, [ Dx, N1x, Nx ]  ],
+        [ "HTML table", Format.HTML5.table, [ Dx ] ]
     ];
     
     for ( x of xx ){
@@ -31,8 +32,8 @@ const GeneratorDanychTestowych = ( params ) => {
         let oo = document.createElement("pre")
 
         oh.innerText = x[0]
-        os.setAttribute("id", "generated-" + x[0].replace(" ","-") )
-        oo.setAttribute("class","output " + x[0].replace(" ","-") )
+        os.setAttribute("id", "generated-" + x[0].replaceAll(" ","-") )
+        oo.setAttribute("class","output " + x[0].replaceAll(" ","-") )
         oo.innerText = x[1]( ... x[2] )
 
         os.appendChild( oh )

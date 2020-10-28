@@ -16,6 +16,17 @@ const Format = {
                         x => ( typeof(x) === "undefined" || x === null ) ? '""'
                             : ( '"' + (""+x).replaceAll('"','\\"') + '"' )
                 },
+                "C" : {
+                    "long" :
+                        x => ( typeof(x) === "undefined" || x === null ) ? "0"
+                            : ( "" + x ),
+                    "double" :
+                        x => ( typeof(x) === "undefined" || x === null ) ? "0"
+                            : ( "" + x ),
+                    "char *" :
+                        x => ( typeof(x) === "undefined" || x === null ) ? '""'
+                            : ( '"' + (""+x).replaceAll('"','\\"') + '"' )
+                },
                 "XML" : {
                     "attribute" :
                         x => '"'
@@ -27,8 +38,20 @@ const Format = {
                                 .replaceAll('"',"&quot;")
                             + '"'
                 },
+                "HTML" : {
+                    "escape" :
+                        x => ("" + x )
+                            .replaceAll("&","&amp;")
+                            .replaceAll("<","&lt;")
+                            .replaceAll(">","&gt;")          
+                },
                 "SQL" : {
-                    
+                    "colname" :
+                        x => ( [' ','"' ].filter( badchar => x.search( badchar ) >= 0 ).length > 0 ) ?
+                            '"' + ( "" + x ).replaceAll( '"', '""' ) + '"' :
+                            x,
+                    "quote" :
+                        x => "'" + ( "" + x ).replaceAll( "'", "''" ) + "'"
                 },
                 "CSV" : {
                     "text" :
@@ -67,6 +90,7 @@ const Format = {
                 )
             ].join("\n")
         },
+
     "XML" : {
         "Attributes" :
             ( data, elementname, rootname ) => {
@@ -74,17 +98,41 @@ const Format = {
                     '<?xml version="1.0" encoding="UTF-8">',
                     '<' + rootname + '>',
                     ... data.map( (de) =>
-                        '  <' 
-                        + elementname 
-                        + ' '
-                        + Object
+                        '  <' + elementname + ' ' +                        
+                        Object
                             .keys( de )
                             .map( x => x + "=" + Format.value( de[x], "XML", "attribute" ) )
-                            .join(" ")
-                        + ' />'
+                            .join(" ") +
+                        ' />'
                     ),
                     '</' + rootname + '>'
                 ].join("\n")
+            }
+    },
+    
+    "HTML5" : {
+        "table" :
+            ( data ) => {
+                let probe = Probe( data );
+
+                return [
+                    "<table>",
+                    " <tr>",
+                    ... Object.values( probe.headers )
+                        .map( hdr => '  <th>' + Format.value( hdr.name, "HTML", "escape" ) + '</th>' ),
+                    " </tr>",
+                    ... data.map( de => 
+                        [
+                            " <tr>",
+                            Object.values( probe.headers )
+                                .map( hdr => '  <td>' + Format.value( de[ hdr.name ], "HTML", "escape" ) + '</td>' )
+                                .join("\n"),
+                            
+                            " </tr>"
+                        ].join("\n")
+                    ),
+                    "</table>"
+                ].join("\n");
             }
     },
 
@@ -92,9 +140,9 @@ const Format = {
         "vector" : {
             "class" : 
                 ( data, classname, vectorname ) => {
-                    let probe = Probe( data )
+                    let probe = Probe( data );
                     
-                    let klass_def = [
+                    return [
                         "#include <vector>",
                         "",
                         "class " + classname + " { ",
@@ -103,35 +151,65 @@ const Format = {
                             .values( probe.headers )
                             .map( hdr => "    " + hdr.type.CPP + " " + hdr.safename.CPP + ";" ),
                         "",
-                        "    " + classname + "(" 
-                            + Object
+                        "    " + classname + "(" +
+                            Object
                                 .values( probe.headers )
                                 .map( hdr => hdr.type.CPP + " " + hdr.safename.CPP )
-                                .join(", ")
-                            + "):",
+                                .join(", ") +
+                            "):",
                         Object
                             .values( probe.headers )
                             .map( hdr => "      " + hdr.safename.CPP + "(" + hdr.safename.CPP + ")" )
                             .join(",\n"),
                         "    {",
                         "    };",
-                        "};"
-                    ].join("\n");
+                        "};",
 
-                    let vector_def = [
                         "std::vector<" + classname + "> " + vectorname + " { ",
                         data
                             .map( de => {
-                                return "   { " + 
-                                Object.values( probe.headers )
-                                    .map( hdr => Format.value( de[ hdr.name ], "CPP", hdr.type.CPP ) )
-                                    .join(", ")
-                                + " }"
+                                return "   { " +
+                                    Object.values( probe.headers )
+                                        .map( hdr => Format.value( de[ hdr.name ], "CPP", hdr.type.CPP ) )
+                                        .join(", ") +
+                                    " }"
                             } )
                             .join(",\n"),
                         "};"
+
                     ].join("\n")
-                    return klass_def + "\n" + vector_def;
+                }
+        }
+    },
+
+    "C" : {
+        "array" : {
+            "struct" : 
+                ( data, structname, arrayname ) => {
+                    let probe = Probe( data )
+                    
+                    return [
+                        "struct " + structname + " { ",
+                        ... Object
+                            .values( probe.headers )
+                            .map( hdr => "    " + hdr.type.C + ( hdr.type.C.endsWith("*") ? "": " " ) + hdr.safename.C + ";" ),
+                        "};",
+
+                        "const int " + arrayname + "_size = " + data.length + ";",
+
+                        "struct " + structname + " " + arrayname + "[] = { ",
+                        data.map( de => {
+                            return "   { " + 
+                            Object.values( probe.headers )
+                                .map( hdr => Format.value( de[ hdr.name ], "C", hdr.type.C ) )
+                                .join(", ")
+                            + " }"
+                        } )
+                        .join(",\n"),
+                        "};"
+
+                    ].join("\n")
+
                 }
         }
     },
@@ -140,45 +218,49 @@ const Format = {
         "INSERT" : {
             "VALUES" :
                 ( data, table ) => {
-                    return data
-                        .map( (de) => 
-                            "INSERT INTO "
-                            + table 
-                            + "( "
-                            + Object
-                                .keys( de )
-                                .map( x => ["",x,""].join('"') )
-                                .join(", ")
-                            + " ) "
-                            + "VALUES ( "
-                            + Object
-                                .values( de )
-                                .map( x => ["", (""+x).replaceAll("'","''"),""].join("'") )
-                                .join(", ")
-                            + " );"
+                    let probe = Probe( data );
+
+                    return [
+                        "CREATE TABLE " + table +"(",
+                        Object.values( probe.headers )
+                            .map( hdr => " " + hdr.safename.SQL + "  " + hdr.type.SQL.Generic )
+                            .join(",\n"),
+                        ");",
+                        ... data.map( (de) =>
+                            "INSERT INTO " + table + "(" +
+                            Object.keys( de )
+                                .map( colname => Format.value( colname, "SQL", "colname" ) )
+                                .join(", ") +
+                            ") VALUES ( " +
+                            Object.values( de )
+                                .map( colname => Format.value( colname, "SQL", "quote" ) )
+                                .join(", ") +
+                            ");"
                         )
-                        .join("\n")
+                    ].join("\n")
                 },
             "SELECT" :
                 ( data, table ) => {
-                    return data
-                        .map( (de) => 
-                            "INSERT INTO "
-                            + table 
-                            + "( "
-                            + Object
-                                .keys( de )
-                                .map( x => ["",x,""].join('"') )
-                                .join(", ")
-                            + " ) "
-                            + "SELECT "
-                            + Object
-                                .values( de )
-                                .map( x => ["", (""+x).replaceAll("'","''"),""].join("'") )
-                                .join(", ")
-                            + ";"
+                    let probe = Probe( data );
+
+                    return [
+                        "CREATE TABLE " + table +"(",
+                        Object.values( probe.headers )
+                            .map( hdr => " " + hdr.safename.SQL + "  " + hdr.type.SQL.Generic )
+                            .join(",\n"),
+                        ");",
+                        ... data.map( (de) =>
+                            "INSERT INTO " + table + "(" +
+                            Object.keys( de )
+                                .map( colname => Format.value( colname, "SQL", "colname" ) )
+                                .join(", ") +
+                            ") SELECT " +
+                            Object.values( de )
+                                .map( colname => Format.value( colname, "SQL", "quote" ) )
+                                .join(", ") +
+                            ";"
                         )
-                        .join("\n")
+                    ].join("\n")
                 }
         }
     }
