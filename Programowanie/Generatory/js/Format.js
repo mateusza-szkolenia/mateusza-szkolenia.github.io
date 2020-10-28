@@ -13,7 +13,7 @@ const Format = {
                         x => ( typeof(x) === "undefined" || x === null ) ? "0"
                             : ( "" + x ),
                     "std::string" :
-                        x => ( typeof(x) === "undefined" || x === null ) ? "nullptr"
+                        x => ( typeof(x) === "undefined" || x === null ) ? '""'
                             : ( '"' + (""+x).replaceAll('"','\\"') + '"' )
                 },
                 "XML" : {
