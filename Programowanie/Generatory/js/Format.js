@@ -6,6 +6,9 @@ const Format = {
         ( v, lang, typename ) =>
             ({
                 "CPP" : {
+                    "bool": 
+                        x => ( typeof(x) === "undefined" || x === null ) ? "false"
+                            : ( x ? "true" : false ),
                     "long" :
                         x => ( typeof(x) === "undefined" || x === null ) ? "0"
                             : ( "" + x ),
@@ -17,12 +20,18 @@ const Format = {
                             : ( '"' + (""+x).replaceAll('"','\\"') + '"' )
                 },
                 "C" : {
+                    "bool" :
+                        x => ( typeof(x) === "undefined" || x === null ) ? "false"
+                        : ( x ? "true" : "false "),
+                    "int" :
+                        x => ( typeof(x) === "undefined" || x === null ) ? "0"
+                        : ( 0 + x ),
                     "long" :
                         x => ( typeof(x) === "undefined" || x === null ) ? "0"
-                            : ( "" + x ),
+                            : ( 0 + x ),
                     "double" :
                         x => ( typeof(x) === "undefined" || x === null ) ? "0"
-                            : ( "" + x ),
+                            : ( 0.0 + x ),
                     "char *" :
                         x => ( typeof(x) === "undefined" || x === null ) ? '""'
                             : ( '"' + (""+x).replaceAll('"','\\"') + '"' )
@@ -50,8 +59,13 @@ const Format = {
                         x => ( [' ','"' ].filter( badchar => x.search( badchar ) >= 0 ).length > 0 ) ?
                             '"' + ( "" + x ).replaceAll( '"', '""' ) + '"' :
                             x,
-                    "quote" :
-                        x => "'" + ( "" + x ).replaceAll( "'", "''" ) + "'"
+                    "quote" : (x) => {
+                        if ( typeof(x) === "boolean" ){
+                            return ( x ? "TRUE" : "FALSE" )
+                        } else {
+                            return "'" + ( "" + x ).replaceAll( "'", "''" ) + "'"
+                        }
+                    }
                 },
                 "CSV" : {
                     "text" :
@@ -143,7 +157,8 @@ const Format = {
                     let probe = Probe( data );
                     
                     return [
-                        "#include <vector>",
+                        ... [ ... new Set( probe.compat.CPP.includes ) ]
+                            .map( inc => "#include <" + inc + ">" ),
                         "",
                         "class " + classname + " { ",
                         "  public:",
@@ -189,6 +204,9 @@ const Format = {
                     let probe = Probe( data )
                     
                     return [
+                        ... [ ... new Set( probe.compat.C.includes ) ]
+                            .map( inc => "#include <" + inc + ">" ),
+                        "",
                         "struct " + structname + " { ",
                         ... Object
                             .values( probe.headers )

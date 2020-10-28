@@ -1,11 +1,19 @@
 const GeneratorDanychTestowych = ( params ) => {
+    const nav = document.querySelector( params.nav ) ?? (
+        () => {
+            let ooo = document.createElement("nav");
+            document.body.appendChild( ooo );
+            return ooo
+        }
+    )();
+
     const o = document.querySelector( params.output ) ?? (
         () => {
             let ooo = document.createElement("div");
             document.body.appendChild( ooo );
             return ooo
         }
-    )()
+    )();
 
     const Dx = params.dane;
     const Nx = params.nazwa;
@@ -27,17 +35,31 @@ const GeneratorDanychTestowych = ( params ) => {
     ];
     
     for ( x of xx ){
+        let gid =  "generated-" + x[0].replaceAll(" ","-")
+
+        let navlink = document.createElement( "a" )
+        navlink.innerText = "[" + x[0] + "]"
+        navlink.href = "#" + gid
+
         let os = document.createElement("section")
         let oh = document.createElement('h2')
         let oo = document.createElement("pre")
 
         oh.innerText = x[0]
-        os.setAttribute("id", "generated-" + x[0].replaceAll(" ","-") )
+        os.setAttribute("id", gid )
         oo.setAttribute("class","output " + x[0].replaceAll(" ","-") )
-        oo.innerText = x[1]( ... x[2] )
+        try {
+            let generated = x[1]( ... x[2] )
+            oo.innerText = generated
+        }
+        catch( error ){
+            oo.classList.add("error")
+            oo.innerText = error + "\n\n" + error.stack
+        }
 
         os.appendChild( oh )
         os.appendChild( oo )
         o.appendChild( os )
+        nav.appendChild( navlink )
     }
 }

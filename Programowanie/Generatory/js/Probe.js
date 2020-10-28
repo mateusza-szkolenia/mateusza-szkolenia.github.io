@@ -5,8 +5,17 @@ const Clone = (x) => JSON.parse( JSON.stringify(x));
 const Probe = ( data ) => {
     let records_limit = 100;
     let headers = {};
+    let compat = {
+        "CPP" : {
+            includes : [ "vector" ]
+        },
+        "C" : {
+            includes : []
+        }
+    };
     let empty_header = {
         "values" : [],
+        "arrayvalues" : [],
         "primitive" : null,
         "homogeneous" : null,
         "structure" : null,
@@ -19,7 +28,9 @@ const Probe = ( data ) => {
                 "Generic" : null,
                 "SQLite" : null,
                 "MySQL" : null,
-                "Postgres" : null
+                "Postgres" : null,
+                "MSSQL" : null,
+                "Oracle" : null
             }
         },
         "name" : null,
@@ -83,14 +94,19 @@ const Probe = ( data ) => {
                 header.strlen.max = strlen
             }
         }
+
         let vtypes = new Set( header.values.map( x => typeof(x) ) );
         header.homogeneous = vtypes.size == 1;        
 
         if ( header.homogeneous ){
             header.type._native = [ ... vtypes ][0]
-            header.type._int = header.values.map( x => (x % 1) < 0.000000001 ).reduce( (a,b) => a && b )
+        }
+        else {
+            // TODO
+            // Detect string & numbers situation and convert numbers to strings
         }
         if ( header.type._native === "number" ){
+            header.type._int = header.values.map( x => (x % 1) < 0.000000001 ).reduce( (a,b) => a && b )
             header.primitive = true
             if ( header.type._int ){
                 header.type.C = "long"
@@ -110,17 +126,41 @@ const Probe = ( data ) => {
             header.primitive = true
             header.type.C = "char *"
             header.type.CPP = "std::string"
+            compat.CPP.includes.push("string")
             header.type.SQL.Generic = "VARCHAR(" + 
                 ( 2 << ( Math.log( header.strlen.max ) / Math.log( 2 ) + 1 ) ) +
                 ")"
             // TODO
         }
 
+        if ( header.type._native === "boolean" ){
+            header.primitive = true
+            header.type.C = "bool"
+            compat.C.includes.push("stdbool.h")
+            header.type.CPP = "bool"
+            header.type.SQL.Generic = "BOOLEAN"
+            header.type.SQL.Oracle = "INT"
+            header.type.SQL.MSSQL = "BIT"
+        }
+
+        if ( header.type._native === "object" ){
+            if ( Array.isArray( header.values[0] ) ){
+                header.type._native = "Array";
+            }
+            else {
+                header.type._native = "Object";
+            }
+        }
+
+        if ( header.type._native === "Array" ){
+
+        }
+
     }
 
-
     return {
-        "headers" : headers
+        "headers" : headers,
+        "compat" : compat
     }
 
 }

@@ -9,6 +9,19 @@ pre {
     padding: 1em;
 }
 
+section {
+    display:none;
+}
+
+section:target {
+    display: block;
+}
+
+pre.error {
+    background-color: #880000;
+    color: #fff;
+}
+
 html.gen #output-JSON,
 html.gen #output-SQL-I-S {
     display: none;
