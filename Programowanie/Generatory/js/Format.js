@@ -17,7 +17,7 @@ const Format = {
                             : ( "" + x ),
                     "std::string" :
                         x => ( typeof(x) === "undefined" || x === null ) ? '""'
-                            : ( '"' + (""+x).replaceAll('"','\\"') + '"' )
+                        : JSON.stringify( "" + x )
                 },
                 "C" : {
                     "bool" :
@@ -34,7 +34,7 @@ const Format = {
                             : ( 0.0 + x ),
                     "char *" :
                         x => ( typeof(x) === "undefined" || x === null ) ? '""'
-                            : ( '"' + (""+x).replaceAll('"','\\"') + '"' )
+                            : JSON.stringify( "" + x )
                 },
                 "XML" : {
                     "attribute" :
@@ -45,6 +45,9 @@ const Format = {
                                 .replaceAll(">","&gt;")
                                 .replaceAll("'","&apos;")
                                 .replaceAll('"',"&quot;")
+                                .replaceAll("\n","&#10;")
+                                .replaceAll("\r","&#13;")
+                                .replaceAll("\t","&#9;")
                             + '"'
                 },
                 "HTML" : {
@@ -53,6 +56,7 @@ const Format = {
                             .replaceAll("&","&amp;")
                             .replaceAll("<","&lt;")
                             .replaceAll(">","&gt;")          
+                            .replaceAll("\n", "<br>")
                 },
                 "SQL" : {
                     "colname" :
@@ -75,13 +79,84 @@ const Format = {
             })[ lang ][ typename ]( v ),
 
     'python' :
-        ( data, varname ) => [
-            varname + " = [",
-            data
-                .map( ( de ) => "  " + JSON.stringify( de ) )
-                .join(",\n"),
-            "]"
-        ].join("\n"),
+        ( data, varname ) => {
+            let JSON2Python3Literal = ( o ) => {
+                if ( typeof(o) === "number" ){
+                    return JSON.stringify( o )
+                }
+                if ( typeof(o) === "string" ){
+                    return JSON.stringify( o )
+                }
+                if ( typeof(o) === "boolean" ){
+                    return ( o ? "True" : "False" )
+                }
+                if ( typeof(o) === "object" ){
+                    if ( o === null ){
+                        return "None"
+                    }
+                    if ( Array.isArray(o) ){
+                        return "[ " +
+                            o.map( ae => JSON2Python3Literal( ae ) ).join(", ") +
+                            " ]"
+                    }
+                    else {
+                        return "{ " + 
+                            Object.entries( o )
+                                .map( oe => JSON.stringify( ""+oe[0]) + " : " + JSON2Python3Literal( oe[1] ) )
+                                .join( ", " ) +
+                            " }"
+                    }
+                };
+            };
+
+            return [
+                varname + " = [",
+                data
+                    .map( ( de ) => "  " + JSON2Python3Literal( de ) )
+                    .join(",\n"),
+                "]"
+            ].join("\n")
+        },
+
+    'PHP' :
+        ( data, varname ) => {
+            let JSON2PHP7Literal = ( o ) => {
+                if ( typeof(o) === "number" ){
+                    return JSON.stringify( o )
+                }
+                if ( typeof(o) === "string" ){
+                    return JSON.stringify( o )
+                }
+                if ( typeof(o) === "boolean" ){
+                    return ( o ? "TRUE" : "FALSE" )
+                }
+                if ( typeof(o) === "object" ){
+                    if ( o === null ){
+                        return "NULL"
+                    }
+                    if ( Array.isArray(o) ){
+                        return "[ " +
+                            o.map( ae => JSON2PHP7Literal( ae ) ).join(", ") +
+                            " ]"
+                    }
+                    else {
+                        return "[ " + 
+                            Object.entries( o )
+                                .map( oe => JSON.stringify( ""+oe[0]) + " => " + JSON2PHP7Literal( oe[1] ) )
+                                .join( ", " ) +
+                            " ]"
+                    }
+                };
+            };
+
+            return [
+                varname + " = [",
+                data
+                    .map( ( de ) => "  " + JSON2PHP7Literal( de ) )
+                    .join(",\n"),
+                "];"
+            ].join("\n")
+        },
 
     "JSON" : 
         ( data ) =>

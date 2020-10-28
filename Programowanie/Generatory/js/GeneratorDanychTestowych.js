@@ -24,13 +24,14 @@ const GeneratorDanychTestowych = ( params ) => {
     }
     const xx = [
         [ "python", Format.python, [ Dx, Nx ] ],
+        [ "PHP", Format.PHP, [ Dx, '$' + Nx ] ],
         [ "JSON", Format.JSON, [ Dx ] ],
         [ "SQL INSERT VALUES", Format.SQL.INSERT.VALUES, [ Dx, Nx ] ],
         [ "SQL INSERT SELECT", Format.SQL.INSERT.SELECT, [ Dx, Nx ] ],
         [ "CSV", Format.CSV, [ Dx ] ],
-        [ "CPP vector class", Format.CPP.vector.class, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
-        [ "C array struct", Format.C.array.struct, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
-        [ "XML Attributes", Format.XML.Attributes, [ Dx, N1x, Nx ]  ],
+        [ "CPP vector of classes", Format.CPP.vector.class, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
+        [ "C array of structs", Format.C.array.struct, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
+        [ "XML with attributes", Format.XML.Attributes, [ Dx, N1x, Nx ]  ],
         [ "HTML table", Format.HTML5.table, [ Dx ] ]
     ];
     

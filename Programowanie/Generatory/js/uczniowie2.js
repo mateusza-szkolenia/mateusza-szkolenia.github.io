@@ -34,13 +34,21 @@ let GeneratorUczniow = {
                     Random.elem( uz_im ),
                 "nazwisko" :
                     Random.elem( "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("") ) + ".",
+                "waga" :
+                    1.0 * Random.float( 45, 80 ).toFixed(1),
+                "wzrost" :
+                    1.0 * Random.float( 1.5, 1.9 ).toFixed(2),
                 "oceny" : (
                     ( omin, omax ) => [ ... Array( this.parametry.liczba_ocen ) ]
                         .fill()
                         .map( () => Random.int( omin, omax ) )
                     )( Random.int( 1, 3 ), Random.int( 4, 6 ) )
                     .join(","),
-                "grzeczny" : true
+                "grzeczny" : true,
+                "opis" : [ ... Array( Random.int( 1, 4 ) ) ]
+                    .map( x => [ ... Array( Random.int(2,4))].fill("blah").join(" ") )
+                    .join("\n"),
+                "kod" : "x" + Random.elem( "<>\"\'\n\r\\\t_\x00&#$".split("") ) + "y"
             }) )
     }
 }
