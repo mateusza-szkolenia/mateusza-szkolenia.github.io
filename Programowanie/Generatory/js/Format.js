@@ -7,14 +7,33 @@ const Format = {
             ({
                 "CPP" : {
                     "long" :
-                        x => "" + x,
+                        x => ( typeof(x) === "undefined" || x === null ) ? "0"
+                            : ( "" + x ),
                     "double" :
-                        x => "" + x,
+                        x => ( typeof(x) === "undefined" || x === null ) ? "0"
+                            : ( "" + x ),
                     "std::string" :
-                        x => ( '"' + (""+x).replace('"','\\"') + '"' )
+                        x => ( typeof(x) === "undefined" || x === null ) ? "nullptr"
+                            : ( '"' + (""+x).replaceAll('"','\\"') + '"' )
+                },
+                "XML" : {
+                    "attribute" :
+                        x => '"'
+                            + ("" + x )
+                                .replaceAll("&","&amp;")
+                                .replaceAll("<","&lt;")
+                                .replaceAll(">","&gt;")
+                                .replaceAll("'","&apos;")
+                                .replaceAll('"',"&quot;")
+                            + '"'
                 },
                 "SQL" : {
                     
+                },
+                "CSV" : {
+                    "text" :
+                        x => ( typeof(x) === "undefined" ) ? "" :
+                            ( '"' + ("" + x ).replaceAll('"','""') + '"' )
                 }
             })[ lang ][ typename ]( v ),
 
@@ -33,15 +52,17 @@ const Format = {
 
     "CSV" : 
         ( data ) => {
+            let probe = Probe( data );
+            console.log( probe )
             return [
                 Object
-                    .keys( data[0] )
-                    .map( x => ["",x,""].join('"') )
+                    .values( probe.headers )
+                    .map( hdr => Format.value( hdr.name, "CSV", "text" ) )
                     .join(","),
                 ... data.map( (de) =>
                     Object
-                        .values( de )
-                        .map( x => ["", (""+x).replace('"','""'),""].join('"') )
+                        .values( probe.headers )
+                        .map( hdr => Format.value( de[ hdr.name ], "CSV", "text" ) )
                         .join(",")        
                 )
             ].join("\n")
@@ -58,19 +79,10 @@ const Format = {
                         + ' '
                         + Object
                             .keys( de )
-                            .map( x => 
-                                x + "=" + '"' +   
-                                (""+de[x])
-                                    .replace("&","&amp;")
-                                    .replace("<","&lt;")
-                                    .replace("'","&apos;")
-                                    .replace('"',"&quot;")
-                                + '"'
-                            )
+                            .map( x => x + "=" + Format.value( de[x], "XML", "attribute" ) )
                             .join(" ")
                         + ' />'
                     ),
-
                     '</' + rootname + '>'
                 ].join("\n")
             }
@@ -141,7 +153,7 @@ const Format = {
                             + "VALUES ( "
                             + Object
                                 .values( de )
-                                .map( x => ["", (""+x).replace("'","''"),""].join("'") )
+                                .map( x => ["", (""+x).replaceAll("'","''"),""].join("'") )
                                 .join(", ")
                             + " );"
                         )
@@ -162,7 +174,7 @@ const Format = {
                             + "SELECT "
                             + Object
                                 .values( de )
-                                .map( x => ["", (""+x).replace("'","''"),""].join("'") )
+                                .map( x => ["", (""+x).replaceAll("'","''"),""].join("'") )
                                 .join(", ")
                             + ";"
                         )

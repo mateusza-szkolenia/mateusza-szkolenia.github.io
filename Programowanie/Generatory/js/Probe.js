@@ -51,8 +51,8 @@ const Probe = ( data ) => {
             else {
                 headers[hdr] = Clone( empty_header )
                 headers[hdr].name = hdr
-                headers[hdr].safename.C = hdr.replace(" ","_")
-                headers[hdr].safename.CPP = hdr.replace(" ","_")
+                headers[hdr].safename.C = hdr.replaceAll(" ","_")
+                headers[hdr].safename.CPP = hdr.replaceAll(" ","_")
                 headers[hdr].safename.SQL = hdr
                 // TODO: more checks:
                 // - digits
