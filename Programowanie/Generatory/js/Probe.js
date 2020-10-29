@@ -4,6 +4,21 @@ const Clone = (x) => JSON.parse( JSON.stringify(x));
 
 const Probe = ( data ) => {
     let records_limit = 100;
+
+    const ProbeList = ( values ) => {
+        let ret = ({
+            homogeneous : null,
+            type : null
+        });
+        ret.types = new Set( values.map( x => typeof(x) ) );
+        ret.homogeneous = ret.types.size == 1;
+        if ( ret.homogeneous ){
+            ret.type = [ ... ret.types ][0]
+        }
+
+        return ret;
+    };
+
     let headers = {};
     let compat = {
         "CPP" : {
@@ -68,7 +83,7 @@ const Probe = ( data ) => {
                 // - digits
                 // - other characters, etc
             }
-            headers[hdr]["values"].push( de[hdr] )
+            headers[hdr].values.push( de[hdr] )
         }
         count++;
         if ( count >= records_limit ){
@@ -78,35 +93,47 @@ const Probe = ( data ) => {
 
     for ( let hdr of Object.keys( headers ) ){
         let header = headers[hdr];
-        for ( let v of header.values ){
-            // Find min/max
-            if ( header.range.min === null || v < header.range.min ){
-                header.range.min = v
-            }
-            if ( header.range.max === null || v > header.range.max ){
-                header.range.max = v
-            }
-            let strlen = ("" + v).length
-            if ( header.strlen.min === null || v < header.strlen.min ){
-                header.strlen.min = strlen
-            }
-            if ( header.strlen.max === null || v > header.strlen.max ){
-                header.strlen.max = strlen
-            }
-        }
 
-        let vtypes = new Set( header.values.map( x => typeof(x) ) );
-        header.homogeneous = vtypes.size == 1;        
+        let probelist = ProbeList( header.values );
 
-        if ( header.homogeneous ){
-            header.type._native = [ ... vtypes ][0]
+        if ( probelist.homogeneous ){
+            header.type._native = probelist.type    
         }
         else {
             // TODO
             // Detect string & numbers situation and convert numbers to strings
+            
         }
+
+        if ( header.type._native === "object" ){
+            if ( Array.isArray( header.values[0] ) ){
+                header.type._native = "Array";
+            }
+            else {
+                header.type._native = "Object";
+            }
+        }
+
+        if ( header.type._native === "Array" ){
+            header.arrayvalues = [];
+            for ( let av of header.values ){
+                header.arrayvalues = header.arrayvalues.concat( av )
+            }
+            let aprobe = ProbeList( header.arrayvalues )
+            if ( aprobe.homogeneous ){
+                header.structure = "Array"
+                header.type._native = aprobe.type
+                header.values = header.arrayvalues
+            }
+
+            console.log( "in header " + hdr +":", aprobe );
+
+        }
+
         if ( header.type._native === "number" ){
-            header.type._int = header.values.map( x => (x % 1) < 0.000000001 ).reduce( (a,b) => a && b )
+            header.type._int = header.values
+                .map( x => (x % 1) < 0.00000000001 )
+                .reduce( (a,b) => a && b )
             header.primitive = true
             if ( header.type._int ){
                 header.type.C = "long"
@@ -143,18 +170,23 @@ const Probe = ( data ) => {
             header.type.SQL.MSSQL = "BIT"
         }
 
-        if ( header.type._native === "object" ){
-            if ( Array.isArray( header.values[0] ) ){
-                header.type._native = "Array";
+        for ( let v of header.values ){
+            // Find min/max
+            if ( header.range.min === null || v < header.range.min ){
+                header.range.min = v
             }
-            else {
-                header.type._native = "Object";
+            if ( header.range.max === null || v > header.range.max ){
+                header.range.max = v
+            }
+            let strlen = ("" + v).length
+            if ( header.strlen.min === null || v < header.strlen.min ){
+                header.strlen.min = strlen
+            }
+            if ( header.strlen.max === null || v > header.strlen.max ){
+                header.strlen.max = strlen
             }
         }
 
-        if ( header.type._native === "Array" ){
-
-        }
 
     }
 

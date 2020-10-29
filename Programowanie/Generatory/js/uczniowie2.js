@@ -43,12 +43,16 @@ let GeneratorUczniow = {
                         .fill()
                         .map( () => Random.int( omin, omax ) )
                     )( Random.int( 1, 3 ), Random.int( 4, 6 ) )
-                    .join(","),
+                    ,
                 "grzeczny" : true,
+                "przedmioty" : [1,2,3,4].map( x => Random.elem( [ "mat", "fizyka", "chemia", "historia", "infa", "wf", "religia", "WOS", "polski", "angielski" ])),
+                
+                "plec" : Random.elem( "m", "k" ),
                 "opis" : [ ... Array( Random.int( 1, 4 ) ) ]
-                    .map( x => [ ... Array( Random.int(2,4))].fill("blah").join(" ") )
+                    .map( x => [ ... Array( Random.int(2,4))].fill("a").join(" ") )
                     .join("\n"),
-                "kod" : "x" + Random.elem( "<>\"\'\n\r\\\t_\x00&#$".split("") ) + "y"
+                "kod" : "x" + [0,1,2,3,4,5,6].map( x=> Random.elem( "<>\"\'\n\r\\\t_&#$".split("") ) ) + "y "
+                
             }) )
     }
 }

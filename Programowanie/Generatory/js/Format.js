@@ -2,19 +2,34 @@
 
 const Format = {
 
+    'field' :
+        ( h, lang ) => ({
+            "CPP" : ( hdr ) => "    " + (
+                hdr.structure === "Array" ? 
+                    "std::vector<" + hdr.type.CPP + ">" :
+                    hdr.type.CPP
+                ) + " " + hdr.safename.CPP,
+            "C" : ( hdr ) => "    " + (
+                hdr.structure === "Array" ? 
+                    hdr.type.C + " *" :
+                    hdr.type.C + " "
+                ) + hdr.safename.C,
+        })[ lang ]( h )
+    ,
+
     'value' : 
         ( v, lang, typename ) =>
             ({
                 "CPP" : {
                     "bool": 
                         x => ( typeof(x) === "undefined" || x === null ) ? "false"
-                            : ( x ? "true" : false ),
+                            : ( x ? "true" : "false" ),
                     "long" :
                         x => ( typeof(x) === "undefined" || x === null ) ? "0"
-                            : ( "" + x ),
+                            : x,
                     "double" :
                         x => ( typeof(x) === "undefined" || x === null ) ? "0"
-                            : ( "" + x ),
+                            : x,
                     "std::string" :
                         x => ( typeof(x) === "undefined" || x === null ) ? '""'
                         : JSON.stringify( "" + x )
@@ -25,13 +40,13 @@ const Format = {
                         : ( x ? "true" : "false "),
                     "int" :
                         x => ( typeof(x) === "undefined" || x === null ) ? "0"
-                        : ( 0 + x ),
+                        : x,
                     "long" :
                         x => ( typeof(x) === "undefined" || x === null ) ? "0"
-                            : ( 0 + x ),
+                            : x,
                     "double" :
                         x => ( typeof(x) === "undefined" || x === null ) ? "0"
-                            : ( 0.0 + x ),
+                            : x,
                     "char *" :
                         x => ( typeof(x) === "undefined" || x === null ) ? '""'
                             : JSON.stringify( "" + x )
@@ -125,7 +140,7 @@ const Format = {
                     return JSON.stringify( o )
                 }
                 if ( typeof(o) === "string" ){
-                    return JSON.stringify( o )
+                    return JSON.stringify( o ).replaceAll("$","\\$")
                 }
                 if ( typeof(o) === "boolean" ){
                     return ( o ? "TRUE" : "FALSE" )
@@ -142,7 +157,7 @@ const Format = {
                     else {
                         return "[ " + 
                             Object.entries( o )
-                                .map( oe => JSON.stringify( ""+oe[0]) + " => " + JSON2PHP7Literal( oe[1] ) )
+                                .map( oe => JSON2PHP7Literal( ""+oe[0]) + " => " + JSON2PHP7Literal( oe[1] ) )
                                 .join( ", " ) +
                             " ]"
                     }
@@ -165,7 +180,6 @@ const Format = {
     "CSV" : 
         ( data ) => {
             let probe = Probe( data );
-            console.log( probe )
             return [
                 Object
                     .values( probe.headers )
@@ -184,7 +198,7 @@ const Format = {
         "Attributes" :
             ( data, elementname, rootname ) => {
                 return [
-                    '<?xml version="1.0" encoding="UTF-8">',
+                    '<?xml version="1.0" encoding="UTF-8" ?>',
                     '<' + rootname + '>',
                     ... data.map( (de) =>
                         '  <' + elementname + ' ' +                        
@@ -214,7 +228,18 @@ const Format = {
                         [
                             " <tr>",
                             Object.values( probe.headers )
-                                .map( hdr => '  <td>' + Format.value( de[ hdr.name ], "HTML", "escape" ) + '</td>' )
+                                .map( hdr => {
+                                    return '  <td>' + (
+                                    ( hdr.structure === "Array" ) ?
+                                        "<ul>" + 
+                                            de[ hdr.name ]
+                                                .map( ae => "<li>" + Format.value( ae, "HTML", "escape" ) + "</li>" )
+                                                .join("") +
+                                        "</ul>"
+                                        : Format.value( de[ hdr.name ], "HTML", "escape" )
+                                    ) + '</td>'
+                                }
+                                )
                                 .join("\n"),
                             
                             " </tr>"
@@ -232,27 +257,32 @@ const Format = {
                     let probe = Probe( data );
                     
                     return [
+                        // includes
                         ... [ ... new Set( probe.compat.CPP.includes ) ]
                             .map( inc => "#include <" + inc + ">" ),
                         "",
+                        // class definition
                         "class " + classname + " { ",
                         "  public:",
                         ... Object
                             .values( probe.headers )
-                            .map( hdr => "    " + hdr.type.CPP + " " + hdr.safename.CPP + ";" ),
+                            .map( hdr => Format.field( hdr, "CPP" ) + ";" ),
+                        /*
                         "",
+                        // constructor
                         "    " + classname + "(" +
-                            Object
-                                .values( probe.headers )
-                                .map( hdr => hdr.type.CPP + " " + hdr.safename.CPP )
-                                .join(", ") +
-                            "):",
+                        Object
+                            .values( probe.headers )
+                            .map( hdr => Format.field( hdr, "CPP" ) )
+                            .join(", ") +
+                        "):",
                         Object
                             .values( probe.headers )
                             .map( hdr => "      " + hdr.safename.CPP + "(" + hdr.safename.CPP + ")" )
                             .join(",\n"),
                         "    {",
                         "    };",
+                        */
                         "};",
 
                         "std::vector<" + classname + "> " + vectorname + " { ",
@@ -260,7 +290,15 @@ const Format = {
                             .map( de => {
                                 return "   { " +
                                     Object.values( probe.headers )
-                                        .map( hdr => Format.value( de[ hdr.name ], "CPP", hdr.type.CPP ) )
+                                        .map( hdr => 
+                                            (
+                                                hdr.structure === "Array" ?
+                                                    "{ " + de[ hdr.name ]
+                                                        .map ( dee => Format.value( dee, "CPP", hdr.type.CPP ) )
+                                                        .join(", ") + " }":
+                                                    Format.value( de[ hdr.name ], "CPP", hdr.type.CPP )
+                                            )
+                                        )
                                         .join(", ") +
                                     " }"
                             } )
@@ -285,20 +323,40 @@ const Format = {
                         "struct " + structname + " { ",
                         ... Object
                             .values( probe.headers )
-                            .map( hdr => "    " + hdr.type.C + ( hdr.type.C.endsWith("*") ? "": " " ) + hdr.safename.C + ";" ),
+                            .map( hdr => Format.field( hdr, "C" ) + ";" ),
+                        ... Object
+                            .values( probe.headers )
+                            .filter( hdr => hdr.structure === "Array" )
+                            .map( hdr => ({
+                                "type" : { "C" : "int" },
+                                "safename" : { "C" : hdr.safename.C + "_len" }
+                            }) )
+                            .map( hdr => Format.field( hdr, "C" ) + ";" ),
                         "};",
 
                         "const int " + arrayname + "_size = " + data.length + ";",
 
                         "struct " + structname + " " + arrayname + "[] = { ",
                         data.map( de => {
-                            return "   { " + 
-                            Object.values( probe.headers )
-                                .map( hdr => Format.value( de[ hdr.name ], "C", hdr.type.C ) )
-                                .join(", ")
-                            + " }"
-                        } )
-                        .join(",\n"),
+                            return "   { " +
+                                [ ... Object.values( probe.headers )
+                                    .map( hdr => 
+                                        (
+                                            hdr.structure === "Array" ?
+                                                "("+hdr.type.C+"[]){ " + de[ hdr.name ]
+                                                    .map ( dee => Format.value( dee, "C", hdr.type.C ) )
+                                                    .join(", ") + " }":
+                                                Format.value( de[ hdr.name ], "C", hdr.type.C )
+                                        )
+                                    ),
+                                ... Object.values( probe.headers )
+                                .filter( hdr => hdr.structure === "Array" )
+                                .map( hdr => Format.value( de[ hdr.name ].length, "C", "int" ) )
+                                ]
+                                .join(", ") +
+                                " }"
+                            } )
+                            .join(",\n"),
                         "};"
 
                     ].join("\n")

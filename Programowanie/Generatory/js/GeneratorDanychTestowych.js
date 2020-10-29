@@ -59,8 +59,16 @@ const GeneratorDanychTestowych = ( params ) => {
         }
 
         os.appendChild( oh )
+        if ( x[0].search("HTML") >= 0 ){
+            let ot = document.createElement("div")
+            ot.innerHTML = oo.innerText
+            os.appendChild( ot )
+            ot.querySelector("table").setAttribute("border",1)
+        }
         os.appendChild( oo )
         o.appendChild( os )
         nav.appendChild( navlink )
+
+        
     }
 }
