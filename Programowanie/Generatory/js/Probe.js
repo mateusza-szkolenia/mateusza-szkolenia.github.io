@@ -28,7 +28,7 @@ const Probe = ( data ) => {
             includes : []
         },
         "CSharp" : {
-            usings : [ "System", "System.Collections.Generic" ]
+            usings : [ "System.Collections.Generic" ]
         }
     };
     let empty_header = {

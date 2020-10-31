@@ -38,15 +38,15 @@ const GeneratorDanychTestowych = ( params ) => {
         return this.charAt(0).toUpperCase() + this.slice(1);
     }
     const xx = [
+        [ "JSON", Format.JSON, [ Dx ] ],
         [ "python", Format.python, [ Dx, Nx ] ],
         [ "PHP", Format.PHP, [ Dx, '$' + Nx ] ],
-        [ "JSON", Format.JSON, [ Dx ] ],
         [ "SQL INSERT VALUES", Format.SQL.INSERT.VALUES, [ Dx, Nx ] ],
-        [ "SQL INSERT SELECT", Format.SQL.INSERT.SELECT, [ Dx, Nx ] ],
-        [ "CSV", Format.CSV, [ Dx ] ],
-        [ "CPP vector of classes", Format.CPP.vector.class, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
+        //[ "SQL INSERT SELECT", Format.SQL.INSERT.SELECT, [ Dx, Nx ] ],
         [ "C array of structs", Format.C.array.struct, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
+        [ "C++ vector of classes", Format.CPP.vector.class, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
         [ "C# list of classes", Format.CSharp.List.class, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
+        [ "CSV", Format.CSV, [ Dx ] ],
         [ "XML with attributes", Format.XML.Attributes, [ Dx, N1x, Nx ]  ],
         [ "HTML table", Format.HTML5.table, [ Dx ] ]
     ];

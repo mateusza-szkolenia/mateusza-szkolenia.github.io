@@ -11,8 +11,10 @@ const Format = {
                 ) + " " + hdr.safename.CPP,
             "C" : ( hdr ) => "    " + (
                 hdr.structure === "Array" ? 
-                    hdr.type.C + " *" :
-                    hdr.type.C + " "
+                    hdr.type.C + 
+                    ( hdr.type.C.endsWith("*") ? "*" : " *" ) :
+                    hdr.type.C + 
+                    ( hdr.type.C.endsWith("*") ? "" : " " )
                 ) + hdr.safename.C,
             "CSharp" : ( hdr ) => "    public " + (
                 hdr.structure === "Array" ? 
@@ -188,11 +190,18 @@ const Format = {
             };
 
             return [
+                "<?php",
                 varname + " = [",
                 data
                     .map( ( de ) => "  " + JSON2PHP7Literal( de ) )
                     .join(",\n"),
-                "];"
+                "];",
+                "foreach( " + varname + " as $i => $e ){",
+                "    echo \"<p>$i: \";",
+                "    foreach( $e as $k => $v ){",
+                "        echo \"$k = $v \";",
+                "    }",
+                "}"
             ].join("\n")
         },
 
@@ -281,7 +290,7 @@ const Format = {
                     
                     return [
                         // includes
-                        ... [ ... new Set( probe.compat.CPP.includes ) ]
+                        ... [ "iostream", ... new Set( probe.compat.CPP.includes ) ]
                             .map( inc => "#include <" + inc + ">" ),
                         "",
                         // class definition
@@ -290,22 +299,6 @@ const Format = {
                         ... Object
                             .values( probe.headers )
                             .map( hdr => Format.field( hdr, "CPP" ) + ";" ),
-                        /*
-                        "",
-                        // constructor
-                        "    " + classname + "(" +
-                        Object
-                            .values( probe.headers )
-                            .map( hdr => Format.field( hdr, "CPP" ) )
-                            .join(", ") +
-                        "):",
-                        Object
-                            .values( probe.headers )
-                            .map( hdr => "      " + hdr.safename.CPP + "(" + hdr.safename.CPP + ")" )
-                            .join(",\n"),
-                        "    {",
-                        "    };",
-                        */
                         "};",
 
                         "std::vector<" + classname + "> " + vectorname + " { ",
@@ -326,8 +319,13 @@ const Format = {
                                     " }"
                             } )
                             .join(",\n"),
-                        "};"
-
+                        "};",
+                        "int main(){",
+                        "    for ( auto item : " + vectorname + " ){",
+                        // FIXME - filter out vector fields
+                        "        std::cout << item." + Object.values( probe.headers )[0].safename.CPP + " << std::endl;",
+                        "    }",
+                        "}"
                     ].join("\n")
                 }
         }
@@ -340,9 +338,9 @@ const Format = {
                     let probe = Probe( data )
                     
                     return [
-                        ... [ ... new Set( probe.compat.C.includes ) ]
+                        ... [ "stdio.h", ... new Set( probe.compat.C.includes ) ]
                             .map( inc => "#include <" + inc + ">" ),
-                        "",
+                        ... ( probe.compat.C.includes.length > 0 ) ? [ "" ] : [],
                         "struct " + structname + " { ",
                         ... Object
                             .values( probe.headers )
@@ -361,7 +359,7 @@ const Format = {
 
                         "struct " + structname + " " + arrayname + "[] = { ",
                         data.map( de => {
-                            return "   { " +
+                            return "    { " +
                                 [ ... Object.values( probe.headers )
                                     .map( hdr => 
                                         (
@@ -380,8 +378,13 @@ const Format = {
                                 " }"
                             } )
                             .join(",\n"),
-                        "};"
-
+                        "};",
+                        "int main(){",
+                        "    int i;",
+                        "    for ( i = 0; i < " + arrayname + "_size; i++ ){",
+                        "        printf(\"%d: %p\\n\", i, &" + arrayname + "[i] );",
+                        "    }",
+                        "}"
                     ].join("\n")
 
                 }
@@ -397,7 +400,7 @@ const Format = {
                     
                     return [
                         // imports
-                        ... [ ... new Set( probe.compat.CSharp.usings ) ]
+                        ... [ "System", ... new Set( probe.compat.CSharp.usings ) ]
                             .map( using => "using " + using + ";" ),
                         "",
                         // class definition
@@ -411,7 +414,7 @@ const Format = {
                         "    public static List<" + classname + "> " + listname + ";",
                         "",
                         "    static App(){",
-                        "        App.uczniowie = new List<" + classname + "> {",
+                        "        " + listname + " = new List<" + classname + "> {",
                         data.map( de => {
                                 return "            new " + classname + "(){ " +
                                     Object.values( probe.headers )
@@ -430,6 +433,11 @@ const Format = {
                             } )
                             .join(",\n"),
                         "       };",
+                        "    }",
+                        "    public static void Main(){",
+                        "        foreach ( var i in " + listname + " ){",
+                        "            System.Console.WriteLine(\"* {0}\", i." + Object.values( probe.headers )[0].safename.CSharp + ");",
+                        "        }",
                         "    }",
                         "}"
 
@@ -461,7 +469,8 @@ const Format = {
                                 .map( colname => Format.value( colname, "SQL", "quote" ) )
                                 .join(", ") +
                             ");"
-                        )
+                        ),
+                        "SELECT * FROM " + table +";"
                     ].join("\n")
                 },
             "SELECT" :
@@ -484,7 +493,8 @@ const Format = {
                                 .map( colname => Format.value( colname, "SQL", "quote" ) )
                                 .join(", ") +
                             ";"
-                        )
+                        ),
+                        "SELECT * FROM " + table +";"
                     ].join("\n")
                 }
         }
