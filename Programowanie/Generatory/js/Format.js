@@ -14,6 +14,12 @@ const Format = {
                     hdr.type.C + " *" :
                     hdr.type.C + " "
                 ) + hdr.safename.C,
+            "CSharp" : ( hdr ) => "    public " + (
+                hdr.structure === "Array" ? 
+                "List<" + hdr.type.CSharp + ">" :
+                hdr.type.CSharp
+                ) + " " + hdr.safename.CSharp +
+                " { get; set; } "
         })[ lang ]( h )
     ,
 
@@ -31,6 +37,23 @@ const Format = {
                         x => ( typeof(x) === "undefined" || x === null ) ? "0"
                             : x,
                     "std::string" :
+                        x => ( typeof(x) === "undefined" || x === null ) ? '""'
+                        : JSON.stringify( "" + x )
+                },
+                "CSharp" : {
+                    "bool": 
+                        x => ( typeof(x) === "undefined" || x === null ) ? "false"
+                            : ( x ? "true" : "false" ),
+                    "long" :
+                        x => ( typeof(x) === "undefined" || x === null ) ? "0"
+                            : x,
+                    "int" :
+                        x => ( typeof(x) === "undefined" || x === null ) ? "0"
+                            : x,
+                    "double" :
+                        x => ( typeof(x) === "undefined" || x === null ) ? "0"
+                            : x,
+                    "string" :
                         x => ( typeof(x) === "undefined" || x === null ) ? '""'
                         : JSON.stringify( "" + x )
                 },
@@ -364,6 +387,57 @@ const Format = {
                 }
         }
     },
+
+
+    "CSharp" : {
+        "List" : {
+            "class" : 
+                ( data, classname, listname ) => {
+                    let probe = Probe( data );
+                    
+                    return [
+                        // imports
+                        ... [ ... new Set( probe.compat.CSharp.usings ) ]
+                            .map( using => "using " + using + ";" ),
+                        "",
+                        // class definition
+                        "public class " + classname + " { ",
+                        ... Object
+                            .values( probe.headers )
+                            .map( hdr => Format.field( hdr, "CSharp" ) ),
+                        "}",
+                        "",
+                        "public static class App {",
+                        "    public static List<" + classname + "> " + listname + ";",
+                        "",
+                        "    static App(){",
+                        "        App.uczniowie = new List<" + classname + "> {",
+                        data.map( de => {
+                                return "            new " + classname + "(){ " +
+                                    Object.values( probe.headers )
+                                        .map( hdr => 
+                                            (
+                                                hdr.structure === "Array" ?
+                                                    hdr.safename.CSharp + " = new List <" + hdr.type.CSharp + ">{ " +
+                                                        de[ hdr.name ]
+                                                            .map ( dee => Format.value( dee, "CSharp", hdr.type.CSharp ) )
+                                                            .join(", ") + " }" :
+                                                    hdr.safename.CSharp + " = " + Format.value( de[ hdr.name ], "CSharp", hdr.type.CSharp )
+                                            )
+                                        )
+                                        .join(", ") +
+                                    " }"
+                            } )
+                            .join(",\n"),
+                        "       };",
+                        "    }",
+                        "}"
+
+                    ].join("\n")
+                }
+        }
+    },
+
 
     "SQL" : {
         "INSERT" : {

@@ -31,6 +31,7 @@ const GeneratorDanychTestowych = ( params ) => {
         [ "CSV", Format.CSV, [ Dx ] ],
         [ "CPP vector of classes", Format.CPP.vector.class, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
         [ "C array of structs", Format.C.array.struct, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
+        [ "C# list of classes", Format.CSharp.List.class, [ Dx, N1x.capitalizeFirstLetter(), Nx ] ],
         [ "XML with attributes", Format.XML.Attributes, [ Dx, N1x, Nx ]  ],
         [ "HTML table", Format.HTML5.table, [ Dx ] ]
     ];

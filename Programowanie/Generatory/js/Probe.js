@@ -26,6 +26,9 @@ const Probe = ( data ) => {
         },
         "C" : {
             includes : []
+        },
+        "CSharp" : {
+            usings : [ "System", "System.Collections.Generic" ]
         }
     };
     let empty_header = {
@@ -78,6 +81,7 @@ const Probe = ( data ) => {
                 headers[hdr].name = hdr
                 headers[hdr].safename.C = hdr.replaceAll(" ","_")
                 headers[hdr].safename.CPP = hdr.replaceAll(" ","_")
+                headers[hdr].safename.CSharp = hdr.replaceAll(" ","_")
                 headers[hdr].safename.SQL = hdr
                 // TODO: more checks:
                 // - digits
@@ -138,12 +142,14 @@ const Probe = ( data ) => {
             if ( header.type._int ){
                 header.type.C = "long"
                 header.type.CPP = "long"
+                header.type.CSharp = "long"
                 header.type.SQL.Generic = "INTEGER"
                 // TODO
             }
             else {
                 header.type.C = "double"
                 header.type.CPP = "double"
+                header.type.CSharp = "double"
                 header.type.SQL.Generic = "DECIMAL"
                 // TODO
             }
@@ -153,7 +159,9 @@ const Probe = ( data ) => {
             header.primitive = true
             header.type.C = "char *"
             header.type.CPP = "std::string"
+            header.type.CSharp = "string"
             compat.CPP.includes.push("string")
+            compat.CSharp.usings.push("System.Collections.Generic")
             header.type.SQL.Generic = "VARCHAR(" + 
                 ( 2 << ( Math.log( header.strlen.max ) / Math.log( 2 ) + 1 ) ) +
                 ")"
@@ -165,6 +173,7 @@ const Probe = ( data ) => {
             header.type.C = "bool"
             compat.C.includes.push("stdbool.h")
             header.type.CPP = "bool"
+            header.type.CSharp = "bool"
             header.type.SQL.Generic = "BOOLEAN"
             header.type.SQL.Oracle = "INT"
             header.type.SQL.MSSQL = "BIT"
