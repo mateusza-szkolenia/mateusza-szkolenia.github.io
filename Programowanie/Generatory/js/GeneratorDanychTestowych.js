@@ -1,23 +1,38 @@
 const GeneratorDanychTestowych = ( params ) => {
-    const nav = document.querySelector( params.nav ) ?? (
-        () => {
-            let ooo = document.createElement("nav");
-            document.body.appendChild( ooo );
-            return ooo
-        }
-    )();
 
-    const o = document.querySelector( params.output ) ?? (
-        () => {
-            let ooo = document.createElement("div");
-            document.body.appendChild( ooo );
-            return ooo
-        }
-    )();
+    const doc = ( () => {
+        let o = document.createElement("div")
+        o.classList.add("doc")
+        document.body.prepend( o )
+        return o
+    })();
+
+    const nav = ( () => {
+        let o = document.createElement("nav");
+        o.classList.add("navi")
+        document.querySelector('.doc').appendChild( o );
+        return o
+    })();
+
+    const h1 = ( () => {
+        let o = document.createElement("h1");
+        document.querySelector('.navi').appendChild( o );
+        document.querySelector('.navi').appendChild( document.createTextNode(" ") );
+        return o
+    })();
+
+    const o = ( () => {
+        let o = document.createElement("div");
+        o.classList.add("code")
+        document.querySelector('.doc').appendChild( o );
+        return o
+    })();
 
     const Dx = params.dane;
     const Nx = params.nazwa;
     const N1x = params.nazwa1;
+
+    h1.innerText = ( a => a.charAt(0).toUpperCase() + a.slice(1) )( params.nazwa )
 
     String.prototype.capitalizeFirstLetter = function() {
         return this.charAt(0).toUpperCase() + this.slice(1);
@@ -39,9 +54,12 @@ const GeneratorDanychTestowych = ( params ) => {
     for ( x of xx ){
         let gid =  "generated-" + x[0].replaceAll(" ","-")
 
-        let navlink = document.createElement( "a" )
-        navlink.innerText = "[" + x[0] + "]"
-        navlink.href = "#" + gid
+        let navlink = ( () => {
+            let o = document.createElement( "a" )
+            o.innerText = "[" + x[0] + "]"
+            o.href = "#" + gid
+            return o
+        } )();
 
         let os = document.createElement("section")
         let oh = document.createElement('h2')
@@ -69,7 +87,9 @@ const GeneratorDanychTestowych = ( params ) => {
         os.appendChild( oo )
         o.appendChild( os )
         nav.appendChild( navlink )
-
+        nav.appendChild( document.createTextNode(" "))
+        nav.classList.add("navi")
+        o.classList.add("code")
         
     }
 }
