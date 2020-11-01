@@ -45,13 +45,16 @@ let GeneratorUczniow = {
                     )( Random.int( 1, 3 ), Random.int( 4, 6 ) )
                     ,
                 "grzeczny" : true,
-                "przedmioty" : [1,2,3,4].map( x => Random.elem( [ "mat", "fizyka", "chemia", "historia", "infa", "wf", "religia", "WOS", "polski", "angielski" ])),
+                "przedmioty" : [1,2,3,4,5,6,7,8,9,10,11,12]
+                    .map( x => Random.elem( [ "mat", "fizyka", "chemia", "historia", "infa", "wf", "religia", "WOS", "polski", "angielski" ]))
+                    .filter( x => Random.int(0,100) > 75 ),
                 
                 "plec" : Random.elem( "m", "k" ),
                 "opis" : [ ... Array( Random.int( 1, 4 ) ) ]
                     .map( x => [ ... Array( Random.int(2,4))].fill("a").join(" ") )
                     .join("\n"),
-                "kod" : "x" + [0,1,2,3,4,5,6].map( x=> Random.elem( "<>\"\'\n\r\\\t_&#$".split("") ) ) + "y "
+                "kod" : "x" + [0,1,2,3,4,5,6].map( x=> Random.elem( "<>\"\'\n\r\\\t_&#$".split("") ) ) + "y ",
+                [Random.elem(["x","y","LOL","okej","xxx","a-b","123"])] : [1,2,3,4,5,6,7,8,9,10].filter( x => Random.int(0,100) < 30 )
                 
             }) )
     }

@@ -79,9 +79,13 @@ const Probe = ( data ) => {
             if ( ! ( hdr in headers ) ){
                 headers[hdr] = Clone( empty_header )
                 headers[hdr].name = hdr
-                headers[hdr].safename.C = hdr.replaceAll(" ","_")
-                headers[hdr].safename.CPP = hdr.replaceAll(" ","_")
-                headers[hdr].safename.CSharp = hdr.replaceAll(" ","_")
+                let C_safename = hdr.replaceAll(/[^a-zA-Z0-9]/g,"_")
+                if ( C_safename.match( /^[0-9]/) ){
+                    C_safename = "n_" + C_safename
+                }
+                headers[hdr].safename.C = C_safename
+                headers[hdr].safename.CPP = C_safename
+                headers[hdr].safename.CSharp = C_safename
                 headers[hdr].safename.SQL = hdr
                 // TODO: more checks:
                 // - digits
