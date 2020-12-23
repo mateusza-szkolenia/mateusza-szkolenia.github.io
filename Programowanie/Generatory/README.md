@@ -14,3 +14,7 @@ Tworzy losową bazę danych z informacjami o kolejnych tankowaniach samochodu, z
 - przejechany dystans
 - ilość paliwa
 - cenę paliwa
+
+## [Osoby](osoby.html) [[JS]](js/osoby.js)
+
+Tworzy losową bazę danych z informacjami o wadze, wzroście i roku urodzenia pacjentów.
