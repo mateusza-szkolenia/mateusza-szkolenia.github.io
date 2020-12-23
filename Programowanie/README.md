@@ -8,11 +8,11 @@ Zasoby pomocnicze dla kursów programistycznych
 * [Tankowania](Generatory/tankowania.html)
 
 ## [Zasoby](Zasoby)
-* [Systemy szablonów](Zasoby/Szablony)
-* [CSS](Zasoby/CSS)
-* [Narzędzia online](Zasoby/Narzedzia)
-* [Javascript](Zasoby/Javascript)
-* [Oprogramowanie](Zasoby/Oprogramowanie)
+* [Systemy szablonów](Zasoby/Szablony.md)
+* [CSS](Zasoby/CSS.md)
+* [Narzędzia online](Zasoby/Narzedzia.md)
+* [Javascript](Zasoby/Javascript.md)
+* [Oprogramowanie](Zasoby/Oprogramowanie.md)
 
 ## [Zbiory danych](Zbiory_danych)
 
