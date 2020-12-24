@@ -1,7 +1,9 @@
 # 2014 Wybory Samorządowe
 Baza SQL zbudowana w oparciu o dane udostępnione przez Państwową Komisję Wyborczą.
 
-Plik SQL: [2014-wybory-samorzadowe.sql](2014-wybory-samorzadowe.sql)
+Plik SQL: [`2014-wybory-samorzadowe.sql`](2014-wybory-samorzadowe.sql)
+
+SHA-224: `e82f0bf2cc004b4ede4031ce3eb9a5e3d5464acd687b3d9f10c71d89`
 
 Źródło danych: https://samorzad2014.pkw.gov.pl/
 
