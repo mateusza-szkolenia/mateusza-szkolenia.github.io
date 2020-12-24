@@ -6,6 +6,7 @@ Zasoby pomocnicze dla kursów programistycznych
 
 * [Uczniowie](Generatory/uczniowie.html)
 * [Tankowania](Generatory/tankowania.html)
+* [Osoby](Generatory/osoby.html)
 
 ## [Zasoby](Zasoby)
 * [Systemy szablonów](Zasoby/Szablony.md)
