@@ -1,12 +1,12 @@
 # CSS
 ## Gotowe fragmenty kodu
-* [Efektowne fragmenty kodu CSS do wykorzystania](https://atomiks.github.io/30-seconds-of-css/)
-* [Mnóstwo gotowych elementów stron WWW zaimplementowanych w samym CSS](http://youmightnotneedjs.com/)
+* [30 seconds of CSS](https://www.30secondsofcode.org/) - Efektowne fragmenty kodu CSS do wykorzystania
+* [You might not need JS](http://youmightnotneedjs.com/) - mnóstwo gotowych elementów stron zaimplementowanych w samym CSS
 * [Pochylony "akordeon" z zakładkami](https://codepen.io/gdeleon101/pen/muFvf)
 * [Filtry grafiki z Instagrama zaimplementowane w CSS](https://picturepan2.github.io/instagram.css/)
  
 ## Narzędzia
-* [Zestawienie informacji o dostępności różnych funkcji w różnych wersjach przeglądarek](https://caniuse.com/)
+* [Can I use?](https://caniuse.com/) - Zestawienie informacji o dostępności różnych funkcji w różnych wersjach przeglądarek.
 
 ## Projektowanie i porady
 * [Porady dotyczące projektowania interfejsów](https://medium.com/refactoring-ui/7-practical-tips-for-cheating-at-design-40c736799886)
