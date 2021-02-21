@@ -79,7 +79,7 @@ const Probe = ( data ) => {
             if ( ! ( hdr in headers ) ){
                 headers[hdr] = Clone( empty_header )
                 headers[hdr].name = hdr
-                let C_safename = hdr.replaceAll(/[^a-zA-Z0-9]/g,"_")
+                let C_safename = hdr.replace(/[^a-zA-Z0-9]/g, "_")
                 if ( C_safename.match( /^[0-9]/) ){
                     C_safename = "n_" + C_safename
                 }
