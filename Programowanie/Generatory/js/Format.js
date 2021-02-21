@@ -80,42 +80,42 @@ const Format = {
                     "attribute" :
                         x => '"'
                             + ("" + x )
-                                .replaceAll("&","&amp;")
-                                .replaceAll("<","&lt;")
-                                .replaceAll(">","&gt;")
-                                .replaceAll("'","&apos;")
-                                .replaceAll('"',"&quot;")
-                                .replaceAll("\n","&#10;")
-                                .replaceAll("\r","&#13;")
-                                .replaceAll("\t","&#9;")
+                                .replace(/&/g,"&amp;")
+                                .replace(/</g,"&lt;")
+                                .replace(/>/g,"&gt;")
+                                .replace(/'/g,"&apos;")
+                                .replace(/"/g,"&quot;")
+                                .replace(/\n/g,"&#10;")
+                                .replace(/\r/g,"&#13;")
+                                .replace(/\t/g,"&#9;")
                             + '"'
                 },
                 "HTML" : {
                     "escape" :
                         x => ( typeof(x) === "undefined" || x === null ) ? "<i>null</i>" 
                             : ( "" + x )
-                                .replaceAll("&","&amp;")
-                                .replaceAll("<","&lt;")
-                                .replaceAll(">","&gt;")          
-                                .replaceAll("\n", "<br>")
+                                .replace(/&/g,"&amp;")
+                                .replace(/</g,"&lt;")
+                                .replace(/>/g,"&gt;")          
+                                .replace(/\n/g, "<br>")
                 },
                 "SQL" : {
                     "colname" :
                         x => ( [' ','"' ].filter( badchar => x.search( badchar ) >= 0 ).length > 0 ) ?
-                            '"' + ( "" + x ).replaceAll( '"', '""' ) + '"' :
+                            '"' + ( "" + x ).replace( /"/g, '""' ) + '"' :
                             x,
                     "quote" : (x) => {
                         if ( typeof(x) === "boolean" ){
                             return ( x ? "TRUE" : "FALSE" )
                         } else {
-                            return "'" + ( "" + x ).replaceAll( "'", "''" ) + "'"
+                            return "'" + ( "" + x ).replace( /'/g, "''" ) + "'"
                         }
                     }
                 },
                 "CSV" : {
                     "text" :
                         x => ( typeof(x) === "undefined" ) ? "" :
-                            ( '"' + ("" + x ).replaceAll('"','""') + '"' )
+                            ( '"' + ("" + x ).replace(/"/g,'""') + '"' )
                 }
             })[ lang ][ typename ]( v ),
 
@@ -166,7 +166,7 @@ const Format = {
                     return JSON.stringify( o )
                 }
                 if ( typeof(o) === "string" ){
-                    return JSON.stringify( o ).replaceAll("$","\\$")
+                    return JSON.stringify( o ).replace(/$/g,"\\$")
                 }
                 if ( typeof(o) === "boolean" ){
                     return ( o ? "TRUE" : "FALSE" )
