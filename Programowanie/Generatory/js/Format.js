@@ -265,7 +265,7 @@ const Format = {
                                     return '  <td>' + (
                                     ( hdr.structure === "Array" ) ?
                                         "<ul>" + 
-                                            [ ... de[ hdr.name ] ?? [] ]
+                                            [ ... de[ hdr.name ] || [] ]
                                                 .map( ae => "<li>" + Format.value( ae, "HTML", "escape" ) + "</li>" )
                                                 .join("") +
                                         "</ul>"
@@ -310,7 +310,7 @@ const Format = {
                                         .map( hdr => 
                                             (
                                                 hdr.structure === "Array" ?
-                                                    "{ " + [ ... de[ hdr.name ] ?? [] ]
+                                                    "{ " + [ ... de[ hdr.name ] || [] ]
                                                         .map ( dee => Format.value( dee, "CPP", hdr.type.CPP ) )
                                                         .join(", ") + " }":
                                                     Format.value( de[ hdr.name ], "CPP", hdr.type.CPP )
@@ -366,7 +366,7 @@ const Format = {
                                         (
                                             hdr.structure === "Array" ?
                                                 "("+hdr.type.C+"[]){ " + 
-                                                [ ... de[ hdr.name ] ?? [] ]
+                                                [ ... de[ hdr.name ] || [] ]
                                                     .map ( dee => Format.value( dee, "C", hdr.type.C ) )
                                                     .join(", ") + " }":
                                                 Format.value( de[ hdr.name ], "C", hdr.type.C )
@@ -374,7 +374,7 @@ const Format = {
                                     ),
                                 ... Object.values( probe.headers )
                                 .filter( hdr => hdr.structure === "Array" )
-                                .map( hdr => Format.value( [ ... de[ hdr.name ] ?? [] ].length, "C", "int" ) )
+                                .map( hdr => Format.value( [ ... de[ hdr.name ] || [] ].length, "C", "int" ) )
                                 ]
                                 .join(", ") +
                                 " }"
@@ -424,7 +424,7 @@ const Format = {
                                             (
                                                 hdr.structure === "Array" ?
                                                     hdr.safename.CSharp + " = new List <" + hdr.type.CSharp + ">{ " +
-                                                        [ ... de[ hdr.name ] ?? [] ]
+                                                        [ ... de[ hdr.name ] || [] ]
                                                             .map ( dee => Format.value( dee, "CSharp", hdr.type.CSharp ) )
                                                             .join(", ") + " }" :
                                                     hdr.safename.CSharp + " = " + Format.value( de[ hdr.name ], "CSharp", hdr.type.CSharp )
