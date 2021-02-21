@@ -52,7 +52,7 @@ const GeneratorDanychTestowych = ( params ) => {
     ];
     
     for ( x of xx ){
-        let gid =  "generated-" + x[0].replaceAll(" ","-")
+        let gid =  "generated-" + x[0].replace(/ /g,"-")
 
         let navlink = ( () => {
             let o = document.createElement( "a" )
@@ -67,7 +67,7 @@ const GeneratorDanychTestowych = ( params ) => {
 
         oh.innerText = x[0]
         os.setAttribute("id", gid )
-        oo.setAttribute("class","output " + x[0].replaceAll(" ","-") )
+        oo.setAttribute("class","output " + x[0].replace(/ /g,"-") )
         try {
             let generated = x[1]( ... x[2] )
             oo.innerText = generated
