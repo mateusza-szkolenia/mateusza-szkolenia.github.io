@@ -166,7 +166,7 @@ const Format = {
                     return JSON.stringify( o )
                 }
                 if ( typeof(o) === "string" ){
-                    return JSON.stringify( o ).replace(/$/g,"\\$")
+                    return JSON.stringify( o ).replace(/\$/g,"\\\$")
                 }
                 if ( typeof(o) === "boolean" ){
                     return ( o ? "TRUE" : "FALSE" )
