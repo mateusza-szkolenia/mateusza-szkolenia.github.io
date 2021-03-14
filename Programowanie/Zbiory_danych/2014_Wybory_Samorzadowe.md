@@ -5,7 +5,7 @@ Plik SQL: [`2014-wybory-samorzadowe.sql`](2014-wybory-samorzadowe.sql)
 
 SHA-224: `e82f0bf2cc004b4ede4031ce3eb9a5e3d5464acd687b3d9f10c71d89`
 
-Źródło danych: https://samorzad2014.pkw.gov.pl/
+Źródło danych: [https://samorzad2014.pkw.gov.pl](https://samorzad2014.pkw.gov.pl)
 
 ## Tabele
 ### typ_komitetu
