@@ -2,12 +2,17 @@
 
 ## [Programowanie](Programowanie/)
 
-Materiały pomocnicze dla kursów programowania:
+Materiały pomocnicze do kursów programowania:
 - Python
 - C
 - C++
 - JavaScript
 - SQL (SQLite, MySQL, PostgreSQL)
 
+## [Web](Web/)
+
+Materiały pomocnicze do kursów web-development. (Głównie frontend)
+
 ## [Administracja Linux](Administracja_Linux/)
+
 
