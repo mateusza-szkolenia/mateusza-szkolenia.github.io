@@ -7,4 +7,5 @@
 * [CSS](CSS.md)
 * [Narzędzia online](Narzedzia.md)
 * [Javascript](Javascript.md)
+* [PHP](PHP.md)
 * [Oprogramowanie](Oprogramowanie.md)

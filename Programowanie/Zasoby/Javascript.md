@@ -5,6 +5,7 @@
 ## Frameworki i biblioteki
 * [VanillaJS](http://vanilla-js.com/) 😄
 * [jQuery](https://jquery.com/)
+* [Leaflet](https://leafletjs.com/) - osadzanie map
 
 ## Kryptografia
 * [TweetNaCl-JS](https://tweetnacl.js.org/#/)
