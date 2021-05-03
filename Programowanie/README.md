@@ -19,6 +19,8 @@ Zasoby pomocnicze dla kursów programistycznych
 
 ## [Wizualizatory](Wizualizatory) - WIP
 
+## [Zadania](Zadania) - WIP
+
 * NetPBM - PPM
 
 

@@ -21,7 +21,7 @@
 * [CSS Zen Garden - strona na której dokładnie ten sam kod HTML został ostylowany różymi CSS - można porównać wygląd. Trochę stara, ale warto spojrzeć.](http://www.csszengarden.com/)
 * [Efekty obrazów z :hover](https://codepen.io/nxworld/full/ZYNOBZ/)
 
-## Gry do nauki
+## Gry do nauki CSS
 * [Nauka selektorów CSS](https://flukeout.github.io/)
 * [Nauka elementu Flex](http://flexboxfroggy.com/)
 * [Nauka elementu Grid](http://cssgridgarden.com/)
