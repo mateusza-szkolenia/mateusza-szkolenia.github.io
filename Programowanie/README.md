@@ -9,6 +9,7 @@ Zasoby pomocnicze dla kursów programistycznych
 * [Osoby](Generatory/osoby.html)
 
 ## [Zasoby](Zasoby)
+* [Artykuły](Zasoby/Artykuly.md)
 * [Systemy szablonów](Zasoby/Szablony.md)
 * [CSS](Zasoby/CSS.md)
 * [Narzędzia online](Zasoby/Narzedzia.md)
