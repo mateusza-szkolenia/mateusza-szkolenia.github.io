@@ -12,7 +12,6 @@ CORS: `tak`
 
 Przykład:
 ```javascript
-
 fetch('https://api.chucknorris.io/jokes/random')
     .then(resp=>resp.json())
     .then(joke=>console.log("Joke: ", joke.value))
@@ -25,6 +24,8 @@ CORS: `nie`
 
 Przykład:
 ```python
+#!/usr/bin/python3
+
 import json
 import requests
 
