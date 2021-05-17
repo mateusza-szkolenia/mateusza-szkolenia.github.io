@@ -12,4 +12,3 @@
 
 ## Inne
 * [NW.js](https://nwjs.io/)
-* [BrowserSpy.dk](http://browserspy.dk/)

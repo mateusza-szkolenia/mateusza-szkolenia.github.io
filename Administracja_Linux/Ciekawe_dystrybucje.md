@@ -12,3 +12,7 @@
 ## Starsze dystrybucje
 * [Slackware Linux](http://www.slackware.com/)
 * [Gentoo Linux](https://www.gentoo.org/)
+
+## Nowe dystrybucje
+* [Rocky Linux](https://rockylinux.org/)
+

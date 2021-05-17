@@ -1,13 +1,13 @@
-# [mateusza2.github.io](https://mateusza2.github.io/)
+# [mateusza-szkolenia.github.io](https://mateusza-szkolenia.github.io/)
 
 ## [Programowanie](Programowanie/)
 
 Materiały pomocnicze do kursów programowania:
-- Python
-- C
-- C++
-- JavaScript
-- SQL (SQLite, MySQL, PostgreSQL)
+- `Python`
+- `C`
+- `C++`
+- `JavaScript`
+- `SQL` (`SQLite`, `MySQL`, `PostgreSQL`)
 
 ## [Web](Web/)
 

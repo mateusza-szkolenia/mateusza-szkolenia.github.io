@@ -39,3 +39,5 @@
 ### [SQLite](http://sqlite.org/index.html)
 
 ### [SQLiteBrowser](http://sqlitebrowser.org/)
+
+### [DBeaver](https://dbeaver.io/)
