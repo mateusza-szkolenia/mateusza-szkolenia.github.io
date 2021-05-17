@@ -1,0 +1,27 @@
+<!doctype html>
+<html class="gen">
+<head>
+    <meta charset="UTF-8">
+    <title>"Uczniowie 2" - generator danych testowych</title>
+
+    <link rel=stylesheet href='/style/main.css'>
+
+    <script src='js/Random.js'></script>
+    <script src='js/Dane.js'></script>
+    <script src='js/Format.js'></script>
+    <script src='js/Probe.js'></script>
+    <script src="js/GeneratorDanychTestowych.js"></script>
+    <script src='js/uczniowie2.js'></script>
+</head>
+<body>
+    <script>
+        const N = "uczniowie";
+        const N1 = "uczen";
+        const D = GeneratorUczniow.generuj();
+        
+        GeneratorDanychTestowych( 
+            { "nazwa" : N, "nazwa1" : N1, "dane" : D }
+        )
+    </script>
+</body>
+</html>

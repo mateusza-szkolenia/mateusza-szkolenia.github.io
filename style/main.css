@@ -1,0 +1,63 @@
+body {
+    margin: 0; padding: 0; border: 0;
+    font-family: sans-serif;
+}
+
+a {
+    color: #840;
+    text-decoration: none;
+}
+a:hover {
+    color: #f90;
+}
+a:active {
+    color: #fff;
+    background-color: #f90;
+}
+
+pre {
+    font-family: Inconsolata, Consolas, monospace;
+    background-color: #eee;
+    padding: 1em;
+}
+
+section {
+    display:none;
+}
+
+section:target {
+    display: block;
+}
+
+pre.error {
+    background-color: #800;
+    color: #fff;
+}
+
+.doc {
+    margin: auto;
+    width: 95vw;
+    height: 100vh;
+}
+
+.navi {
+    padding: 0.3em;
+    background-color: bisque;
+}
+
+.navi h1 {
+    display: inline;
+    font-size: inherit;
+    
+}
+
+.code { 
+    padding: 0.3em;
+    overflow: scroll;
+    width: 100%;
+    height: calc( 100% - 4em );
+}
+
+.code h2 {
+    margin-top: 0;
+}

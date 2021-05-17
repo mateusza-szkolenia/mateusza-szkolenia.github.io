@@ -1,0 +1,27 @@
+<!doctype html>
+<html class="gen">
+<head>
+    <meta charset="UTF-8">
+    <title>"Tankowania" - generator danych testowych</title>
+
+    <link rel=stylesheet href='/style/main.css'>
+
+    <script src='js/Random.js'></script>
+    <script src='js/Dane.js'></script>
+    <script src='js/Format.js'></script>
+    <script src='js/Probe.js'></script>
+    <script src="js/GeneratorDanychTestowych.js"></script>
+    <script src='js/tankowania.js'></script>
+</head>
+<body>
+    <script>
+        const N = "tankowania";
+        const N1 = "tankowanie";
+        const D = GeneratorTankowania.generuj();
+
+        GeneratorDanychTestowych( 
+            { "nazwa" : N, "nazwa1" : N1, "dane" : D }
+        )
+    </script>
+</body>
+</html>
