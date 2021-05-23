@@ -8,6 +8,8 @@
 ## Dystrybucje LiveCD z dużą ilością narzędzi specjalistycznych
 * [GRML](https://grml.org/)
 * [Kali Linux](https://www.kali.org/)
+* [SystemRescue](https://www.system-rescue.org/)
+* [Tails](https://tails.boum.org/)
 
 ## Dystrybucje specjalizowane pod katem bezpieczeństwa
 * [Qubes OS](https://www.qubes-os.org/)
@@ -25,4 +27,5 @@
 * [Rocky Linux](https://rockylinux.org/)
 * [Alma Linux](https://almalinux.org/)
 
-
+### Inne
+* [Garuda Linux](https://garudalinux.org/)
