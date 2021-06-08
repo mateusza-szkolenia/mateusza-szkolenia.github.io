@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Dystrybucje Linuksa</title>
+
+    <meta name="description" content="Linux - dystrybucje">
+    <meta name="author" content="Mateusz Adamowski">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css" id="theme">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/monokai.min.css">
+</head>
+
+<body>
+<div class="reveal">
+
+<div class="slides">
+<section data-markdown data-separator="^\n\n\n"
+         data-separator-vertical="^\n\n">
+<script data-template type='text/markdown'>
+# Dystrybucje
+
+
+<!-- .slide: data-autofragments -->
+## Różnice
+- brand
+- wydawca
+- cykl wydawniczy
+- założenia, przeznaczenie, filozofia
+- model licencyjny
+- system pakietów
+
+
+<!-- .slide: data-autofragments -->
+### Brand
+- nazwa
+- logo
+- kolorystyka
+- tapety 😀
+
+
+<!-- .slide: data-background="#eee" -->
+![Debian](https://upload.wikimedia.org/wikipedia/commons/0/04/Debian_logo.png)
+
+
+<!-- .slide: data-background="#eee" -->
+![Ubuntu](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Ubuntu_logo.svg/1280px-Ubuntu_logo.svg.png)
+
+
+<!-- .slide: data-background="#111" -->
+![RedHat Enterprise Linux](data:image/png;base64,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)
+
+
+<!-- .slide: data-background="#eee" -->
+![CentOS](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Centos-logo-light.svg/1200px-Centos-logo-light.svg.png)
+
+
+Rocky
+
+
+Alma Linux
+
+
+<!-- .slide: data-background="#eee" -->
+![Void](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Void_Linux_logo.svg/1242px-Void_Linux_logo.svg.png)
+
+
+Alpine
+
+
+Slackware
+
+
+Gentoo
+
+
+<!-- .slide: data-autofragments -->
+### Wydawca
+- firma
+- instytucja
+  - fundacja
+  - NGO, non-profit
+  - uniwersytet
+- niezależni twórcy
+
+
+<!-- .slide: data-autofragments -->
+### Wydawcy znanych dystrybucji
+| dystrybucja | rodzaj | nazwa   |
+|-------------|--------|---------|
+|**RHEL**     |*firma* |RedHat, Inc.  |
+|**Ubuntu**   |*firma* |Canonical|
+|**Debian**   |*non-profit*|
+- **RockyLinux**: fundacja
+- **AlmaLinux**: fundacja
+- **Slackware**: *osoba prywatna* Patric Volkerding
+- **Void Linux**: *nieformalny zespół*
+
+
+<!-- .slide: data-autofragments -->
+### Cykl wydawniczy
+- regularność
+- częstotliwość
+- czas wsparcia
+- **rolling release**
+
+</script>
+</section>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/zoom/zoom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/notes/notes.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/search/search.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/markdown/markdown.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.js"></script>
+<script>
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+    });
+window.setTimeout(
+    () => document
+        .querySelectorAll('section[data-autofragments] ul > li')
+        .forEach(x => x.classList.add('fragment')),
+    1000
+)
+</script>
+
+</body>
+</html>
+
