@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="utf-8">
@@ -25,180 +25,7 @@
 <div class="reveal">
 
 <div class="slides">
-<section data-markdown data-separator="^------"
-         data-separator-vertical="^---">
-<script data-template type='text/markdown'>
-# Dystrybucje
----
-Dlaczego tak dużo?
-- A po co?
-- A dlaczego?
-- A komu to potrzebne?
----
-<iframe style="width: 90vw; height: 70vh;" src="https://www.youtube.com/embed/OO3FANjwKHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay></iframe>
-------
-<!-- .slide: data-autofragments -->
-## Różnice
-- brand
-- wydawca
-- cykl wydawniczy
-- założenia, przeznaczenie, filozofia
-- model licencyjny
-- system pakietów
-------
-<!-- .slide: data-autofragments -->
-## Brand
-- nazwa
-- logo
-- kolorystyka
-- tapety 😀
----
-<!-- .slide: data-background="#eee" -->
-![Debian](img/debian.png)
----
-<!-- .slide: data-background="#eee" -->
-![Ubuntu](img/ubuntu.png)
----
-<!-- .slide: data-background="#434343" -->
-![Red Hat® Enterprise Linux®](https://www.redhat.com/cms/managed-files/Brand_Standars-Red_Hat-_color_on-darkgray.svg) <!-- .element: style="width: 80vw;" -->
----
-<!-- .slide: data-background="#eee" -->
-![Fedora](img/fedora.png)
----
-<!-- .slide: data-background="#eee" -->
-![CentOS](img/centos.png)
----
-<!-- .slide: data-background="#eee" -->
-![RockyLinux](img/rockylinux.png)
----
-<!-- .slide: data-background="#eee" -->
-![AlmaLinux](img/almalinux.png)
-
-AlmaLinux
----
-<!-- .slide: data-background="#eee" -->
-![Void](img/void.png)
----
-<!-- .slide: data-background="#eee" -->
-![Alpine](img/alpinelinux.png)
----
-<!-- .slide: data-background="#eee" -->
-![Slackware](img/slackware.png)
-
-Slackware Linux
----
-<!-- .slide: data-background="#eee" -->
-![Gentoo](img/gentoo.png)
----
-<!-- .slide: data-background="#eee" -->
-![OpenWRT](img/openwrt.png)
----
-<!-- .slide: data-background="#eee" style="font-size: 0.5em;" -->
-## Disclaimer
-
-Product names, logos, and brands are property of their respective owners in the United States and/or other countries.
-
-Author of these slides is not affiliated with any of them.
-------
-## Nazwy
----
-## Debian
-Imię autora i jego żony: Debra + Ian
----
-## Red Hat
-Od czerwonej czapki, którą nosił twórca.
----
-<!-- .slide: data-autofragments -->
-## Ubuntu
-- *humanity towards others*
-- *nie umiem zainstalować Debiana*
----
-## Fedora
-Typ kapelusza
----
-## CentOS
-Community Enterprise Operating System
----
-## RockyLinux
-Na cześć twórcy CentOS-a: Rocky'ego McGaugh
-------
-<!-- .slide: data-autofragments -->
-## Wydawca
-- firma
-- instytucja
-  - fundacja, NGO, non-profit, etc
-  - instytucja rządowa
-  - uniwersytet
-- niezależni twórcy
----
-<!-- .slide: data-autofragments -->
-## Wydawcy znanych dystrybucji
-- **RHEL**: RedHat, Inc. (firma)
-- **Ubuntu**: Canonical (firma)
-- **Debian**: Debian Project/Software in the Public Interest (non-profit)
-- **RockyLinux**: Rocky Enterprise Software Foundation 
-- **AlmaLinux**: AlmaLinux OS Foundation
-- **Slackware**: Patrick Volkerding (osoba prywatna)
-- **Void Linux**: *Void Linux Contributors* (nieformalny zespół wolontariuszy)
-------
-<!-- .slide: data-autofragments -->
-## Cykl wydawniczy
-- regularność
-- częstotliwość
-- czas wsparcia
-- alternatywnie: **rolling release**
-------
-<!-- .slide: data-autofragments -->
-## Ubuntu
-- nowe wydania 2 razy w roku
-  - kwiecień i październik
-- numeracja: ROK.MIESIĄC (np. 21.04)
-- nazwy kodowe
-- raz na dwa lata wydanie LTS (Long Term Support)
----
-## Dotychczasowe wydania
-<ul style="column-count: 3; font-size: 0.4em;">
-<li>Ubuntu 4.10 (Warty Warthog)</li>
-<li>Ubuntu 5.04 (Hoary Hedgehog)</li>
-<li>Ubuntu 5.10 (Breezy Badger)</li>
-<li>Ubuntu 6.06 LTS (Dapper Drake)</li>
-<li>Ubuntu 6.10 (Edgy Eft)</li>
-<li>Ubuntu 7.04 (Feisty Fawn)</li>
-<li>Ubuntu 7.10 (Gutsy Gibbon)</li>
-<li>Ubuntu 8.04 LTS (Hardy Heron)</li>
-<li>Ubuntu 8.10 (Intrepid Ibex)</li>
-<li>Ubuntu 9.04 (Jaunty Jackalope)</li>
-<li>Ubuntu 9.10 (Karmic Koala)</li>
-<li>Ubuntu 10.04 LTS (Lucid Lynx)</li>
-<li>Ubuntu 10.10 (Maverick Meerkat)</li>
-<li>Ubuntu 11.04 (Natty Narwhal)</li>
-<li>Ubuntu 11.10 (Oneiric Ocelot)</li>
-<li>Ubuntu 12.04 LTS (Precise Pangolin)</li>
-<li>Ubuntu 12.10 (Quantal Quetzal)</li>
-<li>Ubuntu 13.04 (Raring Ringtail)</li>
-<li>Ubuntu 13.10 (Saucy Salamander)</li>
-<li>Ubuntu 14.04 LTS (Trusty Tahr)</li>
-<li>Ubuntu 14.10 (Utopic Unicorn)</li>
-<li>Ubuntu 15.04 (Vivid Vervet)</li>
-<li>Ubuntu 15.10 (Wily Werewolf)</li>
-<li>Ubuntu 16.04 LTS (Xenial Xerus)</li>
-<li>Ubuntu 16.10 (Yakkety Yak)</li>
-<li>Ubuntu 17.04 (Zesty Zapus)</li>
-<li>Ubuntu 17.10 (Artful Aardvark)</li>
-<li>Ubuntu 18.04 LTS (Bionic Beaver)</li>
-<li>Ubuntu 18.10 (Cosmic Cuttlefish)</li>
-<li>Ubuntu 19.04 (Disco Dingo)</li>
-<li>Ubuntu 19.10 (Eoan Ermine)</li>
-<li>Ubuntu 20.04 LTS (Focal Fossa)</li>
-<li>Ubuntu 20.10 (Groovy Gorilla)</li>
-<li>Ubuntu 21.04 (Hirsute Hippo)</li>
-<li>Ubuntu 21.10 (Impish Indri)</li>
-</ul>
-------
-<!-- .slide: data-autofragments -->
-<!-- .slide: data-background="#555" -->
-# Koniec
-</script>
+<section data-markdown="Dystrybucje.md" data-separator="^------" data-separator-vertical="^---" data-charset="UTF-8">
 </section>
 
 </div>
@@ -209,6 +36,7 @@ Na cześć twórcy CentOS-a: Rocky'ego McGaugh
 <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/search/search.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/markdown/markdown.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.js"></script>
+<script src='js/autofragments.js'></script>
 <script>
     Reveal.initialize({
         controls: true,
@@ -217,14 +45,12 @@ Na cześć twórcy CentOS-a: Rocky'ego McGaugh
         hash: true,
 
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+        plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ],
+        markdown: {
+            smartypants: true
+        }
     });
-window.setTimeout(
-    () => document
-        .querySelectorAll('section[data-autofragments] ul > li')
-        .forEach(x => x.classList.add('fragment')),
-    1000
-)
+
 </script>
 
 </body>
