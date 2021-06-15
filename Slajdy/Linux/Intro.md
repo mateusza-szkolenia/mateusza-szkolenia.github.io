@@ -18,7 +18,7 @@ PDP-11
 - wielodostępność
 - hierarchiczny system plików
 - pliki tekstowe
----
+------
 <!-- .slide: data-background="img/ibm-pc.jpg" -->
 ---
 <!-- .slide: data-autofragments -->
@@ -27,6 +27,7 @@ PDP-11
 - architektura Intel x86 (8086, 286, 386)
 ---
 <!-- .slide: data-background="img/ms-dos.png" -->
+---
 # DOS
 ------
 # Andrew Tanenbaum
@@ -54,7 +55,7 @@ PDP-11
 <!-- .slide: data-background="#eee" -->
 # GNU
 ![GNU](img/gnu.png)
-----
+---
 <!-- .slide: data-background="#eee" -->
 # GNU GPL
 ![GPL](img/gnu-gpl.png)
@@ -99,14 +100,16 @@ Portable Operating System Interface
 <!-- .slide: data-autofragments -->
 # API i ABI
 - Application Programming Interface
-- Application binary Interface
+- Application Binary Interface
 ---
+<!-- .slide: data-autofragments -->
 # API
 - interfejs programistyczny
 - kod źródłowy
 - protokół komunikacji
 - POSIX
 ---
+<!-- .slide: data-autofragments -->
 # ABI
 - architektura
 - konsolidacja
