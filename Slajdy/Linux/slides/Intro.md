@@ -1,5 +1,7 @@
 <!-- .slide: data-background="#eee" -->
-# Linux
+# Wstęp do Linuksa
+---
+<!-- .slide: data-background="#eee" -->
 ![Tux](img/tux.png)
 ------
 # Historia

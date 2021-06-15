@@ -1,32 +1,34 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl">
 
 <head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
 
-    <title>Linux</title>
+<title>Wstęp do Linuksa</title>
 
-    <meta name="description" content="Linux - historia">
-    <meta name="author" content="Mateusz Adamowski">
+<meta name="description" content="Wstęp do Linuksa">
+<meta name="author" content="Mateusz Adamowski">
 
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reset.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css" id="theme">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reset.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css" id="theme">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/monokai.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/monokai.min.css">
 </head>
 
 <body>
 <div class="reveal">
 
 <div class="slides">
-<section data-markdown="Intro.md" data-separator="^------" data-separator-vertical="^---" data-charset="UTF-8">
+<section data-markdown="slides/Intro.md" data-separator="^------" data-separator-vertical="^---" data-charset="UTF-8">
 </section>
+</div>
+
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.js"></script>
@@ -42,12 +44,12 @@
         progress: true,
         center: true,
         hash: true,
-
-        // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+        plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ],
+        markdown: {
+            smartypants: true
+        }
     });
 </script>
 
 </body>
 </html>
-
