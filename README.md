@@ -15,4 +15,4 @@ Materiały pomocnicze do kursów web-development. (Głównie frontend)
 
 ## [Administracja Linux](Administracja_Linux/)
 
-
+### [Slajdy](Slajdy/)

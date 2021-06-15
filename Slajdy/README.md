@@ -1,0 +1,3 @@
+# Slajdy
+
+## [Linux](Linux/)
