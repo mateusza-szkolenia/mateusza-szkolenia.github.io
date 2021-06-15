@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Linux</title>
+
+    <meta name="description" content="Linux - dystrybucje">
+    <meta name="author" content="Mateusz Adamowski">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css" id="theme">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/monokai.min.css">
+</head>
+
+<body>
+<div class="reveal">
+
+<div class="slides">
+<section data-markdown data-separator="^------"
+         data-separator-vertical="^---">
+<script data-template type='text/markdown'>
+<!-- .slide: data-background="#eee" -->
+# Linux
+![Tux](img/tux.svg)
+------
+# Historia
+------
+<!-- .slide: data-autofragments -->
+# UNIX
+- 1970s
+- Bell Labs
+---
+<!-- .slide: data-autofragments -->
+## Cechy UNIX-a
+- wielozadaniowość
+- wielodostępność
+- hierarchiczny system plików
+- pliki tekstowe
+---
+<!-- .slide: data-background="img/pdp-11.jpg" -->
+PDP-11
+------
+<!-- .slide: data-autofragments -->
+# IBM PC i DOS
+- 1981
+- architektura Intel x86 (8086, 286, 386)
+---
+<!-- .slide: data-background="img/ibm-pc.jpg" -->
+---
+<!-- .slide: data-background="img/ms-dos.png" -->
+------
+<!-- .slide: data-autofragments -->
+# Minix
+- 1987
+- Andrew S. Tanenbaum
+---
+# Andrew Tanenbaum
+![Andrew Tanenbaum](img/andrew-tanenbaum.jpg)
+---
+![Book](img/minix-book.jpg)
+------
+<!-- .slide: data-autofragments -->
+# Linux
+- 1991
+- Linus Torvalds
+---
+# Linus Torvalds
+![Linus Torvalds](img/linus-torvalds.jpg)
+------
+<!-- .slide: data-background="#eee" -->
+# GNU
+![GNU](img/gnu.png)
+------
+# Richard Stallman
+![RMS](img/richard-stallman.jpg)
+------
+<!-- .slide: data-background="#eee" -->
+# GNU GPL
+![GPL](img/gnu-gpl.png)
+------
+<!-- .slide: data-autofragments -->
+# POSIX
+Portable Operating System Interface
+---
+<!-- .slide: data-autofragments -->
+# POSIX
+- procesy
+- signały
+- operacje na plikach i katalogach
+- standardowa biblioteka C
+- I/O
+- shell
+- *etc*
+---
+<!-- .slide: data-autofragments -->
+# POSIX Certified
+- Solaris
+- macOS
+- AIX
+- HP-UX
+- IRIX
+- UnixWare
+- QNX Neutrino
+---
+<!-- .slide: data-autofragments -->
+# Prawie POSIX
+- Android
+- MINIX
+- Linux
+- BSD (FreeBSD, OpenBSD, NetBSD, Dragonfly BSD)
+---
+<!-- .slide: data-autofragments -->
+# Microsoft Windows?
+- POSIX Subsystem
+- Cygwin
+- Git for Windows
+</script>
+</section>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/zoom/zoom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/notes/notes.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/search/search.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/markdown/markdown.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.js"></script>
+<script>
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+    });
+window.setTimeout(
+    () => document
+        .querySelectorAll('section[data-autofragments] ul > li')
+        .forEach(x => x.classList.add('fragment')),
+    1000
+)
+</script>
+
+</body>
+</html>
+
