@@ -1,6 +1,6 @@
 <!-- .slide: data-background="#eee" -->
 # Linux
-![Tux](img/tux.svg)
+![Tux](img/tux.png)
 ------
 # Historia
 ------
