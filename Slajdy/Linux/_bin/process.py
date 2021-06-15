@@ -34,5 +34,5 @@ for slideset in get_slidesets():
     open(reveal_fn, "w").write(reveal)
     os.chmod(reveal_fn, 0o444)
 
-open("Index.html", "w").write(Index_template.render(**{"slidesets": [*get_slidesets()]}))
+open("0.html", "w").write(Index_template.render(**{"slidesets": [*get_slidesets()]}))
 open("README.md", "w").write(README_template.render(**{"slidesets": [*get_slidesets()]}))
