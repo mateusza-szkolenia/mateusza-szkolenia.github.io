@@ -1,0 +1,100 @@
+# Linux
+![Tux](img/tux.svg)
+------
+# Historia
+------
+<!-- .slide: data-autofragments -->
+# UNIX
+- 1970s
+- Bell Labs
+---
+<!-- .slide: data-autofragments -->
+## Cechy UNIX-a
+- wielozadaniowość
+- wielodostępność
+- hierarchiczny system plików
+- pliki tekstowe
+---
+<!-- .slide: data-background="img/pdp-11.jpg" -->
+PDP-11
+------
+<!-- .slide: data-autofragments -->
+# IBM PC i DOS
+- 1981
+- architektura Intel x86 (8086, 286, 386)
+---
+<!-- .slide: data-background="img/ibm-pc.jpg" -->
+---
+<!-- .slide: data-background="img/ms-dos.png" -->
+------
+<!-- .slide: data-autofragments -->
+# Minix
+- 1987
+- Andrew S. Tanenbaum
+---
+# Andrew Tanenbaum
+![Andrew Tanenbaum](img/andrew-tanenbaum.jpg)
+---
+![Book](img/minix-book.jpg)
+------
+<!-- .slide: data-autofragments -->
+# Linux
+- 1991
+- Linus Torvalds
+---
+# Linus Torvalds
+![Linus Torvalds](img/linus-torvalds.jpg)
+------
+<!-- .slide: data-background="#eee" -->
+# GNU
+![GNU](img/gnu.png)
+------
+# Richard Stallman
+![RMS](img/richard-stallman.jpg)
+------
+<!-- .slide: data-background="#eee" -->
+# GNU GPL
+![GPL](img/gnu-gpl.png)
+------
+<!-- .slide: data-autofragments -->
+# POSIX
+Portable Operating System Interface
+---
+<!-- .slide: data-autofragments -->
+# POSIX
+- procesy
+- signały
+- operacje na plikach i katalogach
+- standardowa biblioteka C
+- I/O
+- shell
+- *etc*
+---
+<!-- .slide: data-autofragments -->
+# POSIX Certified
+- Solaris
+- macOS
+- AIX
+- HP-UX
+- IRIX
+- UnixWare
+- QNX Neutrino
+---
+<!-- .slide: data-autofragments -->
+# Prawie POSIX
+- Android
+- MINIX
+- Linux
+- BSD (FreeBSD, OpenBSD, NetBSD, Dragonfly BSD)
+---
+<!-- .slide: data-autofragments -->
+# Microsoft Windows?
+- POSIX Subsystem
+- Cygwin
+- Git for Windows
+------
+<!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#555" -->
+# Koniec
+
+dalej: [Dystrybucje Linuksa](Dystrybucje.html)
