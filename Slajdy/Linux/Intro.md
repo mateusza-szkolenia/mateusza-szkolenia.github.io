@@ -1,3 +1,4 @@
+<!-- .slide: data-background="#eee" -->
 # Linux
 ![Tux](img/tux.svg)
 ------
