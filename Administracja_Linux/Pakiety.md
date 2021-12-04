@@ -10,7 +10,7 @@
 * Strona i repozytorium: [https://snapcraft.io/](https://snapcraft.io/)
 
 ### AppImage
-* Strona: [https://appimage.org/](https://snapcraft.io/)
+* Strona: [https://appimage.org/](https://appimage.org/)
 
 ### Zero Install
 * Strona: [https://0install.net/](https://0install.net/)
