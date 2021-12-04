@@ -11,7 +11,7 @@
 * [SystemRescue](https://www.system-rescue.org/)
 * [Tails](https://tails.boum.org/)
 
-## Dystrybucje specjalizowane pod katem bezpieczeństwa
+## Dystrybucje specjalizowane pod kątem bezpieczeństwa
 * [Qubes OS](https://www.qubes-os.org/)
 
 ## Dystrybucje specjalizowane dla konkretnych urządzeń, usług i zastosowań
@@ -26,6 +26,7 @@
 ### Zamienniki [CentOS](https://www.centos.org/) i [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
 * [Rocky Linux](https://rockylinux.org/)
 * [Alma Linux](https://almalinux.org/)
+* [Oracle Linux](https://www.oracle.com/linux/)
 
 ### Inne
 * [Garuda Linux](https://garudalinux.org/)
