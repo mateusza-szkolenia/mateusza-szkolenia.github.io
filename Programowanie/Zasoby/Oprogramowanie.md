@@ -41,3 +41,4 @@
 ### [SQLiteBrowser](http://sqlitebrowser.org/)
 
 ### [DBeaver](https://dbeaver.io/)
+
