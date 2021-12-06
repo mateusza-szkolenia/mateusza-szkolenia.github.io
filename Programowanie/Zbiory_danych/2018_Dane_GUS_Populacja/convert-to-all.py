@@ -38,7 +38,7 @@ for DB in glob.glob("*-dane-gus-populacja.db"):
             out_file.write(','.join([f'{x}' for x in row]) + '\n')
 
     with open(TXT, "w") as out_file:
-        out_file.write(','.join(columns) + '\n')
+        out_file.write('\t'.join(columns) + '\n')
         for row in dbdata:
             out_file.write('\t'.join([f'{x}' for x in row]) + "\n")
 
