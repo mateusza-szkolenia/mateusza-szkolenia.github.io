@@ -52,13 +52,12 @@ dane = {
 }
 
 for line in data.split('\n'):
-    m = re.match(r'^\W*var\W+(\w+)\W*=(.+)\W*;\W*$', line)
+    m = re.match(r'^\W*var\W+(\w+)\W*=([^;]+)\W*;?\W*$', line)
     try:
         key, value = m[1], m[2]
     except TypeError:
         continue
     value = ast.literal_eval(value.strip())
-
     if key == 'nYrBeg':
         start_year = value
     elif key == 'nYrEnd':
