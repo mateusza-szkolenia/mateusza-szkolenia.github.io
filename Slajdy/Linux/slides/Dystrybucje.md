@@ -188,7 +188,7 @@ Ubuntu 21.10 (Impish Indri)
 - numeracja
   - głównych wydań: 6, 7, 8...
   - poprawek: 8.1, 8.2, 8.3...
-- tylko wydania z długi wsparciem (ok. 10 lat)
+- tylko wydania z długim wsparciem (ok. 10 lat)
 ---
 <!-- .slide: data-background="#fff" -->
 ![RHEL timeline](img/rhel-timeline.png)
