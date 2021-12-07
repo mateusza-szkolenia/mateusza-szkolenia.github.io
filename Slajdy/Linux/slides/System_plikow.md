@@ -249,7 +249,7 @@
 <i class='fa fa-file-audio'></i> piosenka
 
 - nazwa pliku: `piosenka`
-- rozszerzenie `mp3` (ukryte)
+- rozszerzenie `mp3` (niewidoczne)
 - typ pliku: muzyka
 - (typ wynika z rozszerzenia)
 ---
@@ -272,5 +272,5 @@
 - kropka na początku: `.bash_history`
 - kilka rozszerzeń: `archiwum.tar.bz2`
 ---
-
+## Przenośność plików
 
