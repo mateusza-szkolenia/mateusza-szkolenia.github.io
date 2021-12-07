@@ -6,6 +6,7 @@ Dlaczego tak dużo?
 - A komu to potrzebne?
 ---
 <iframe style="width: 90vw; height: 70vh;" src="https://www.youtube.com/embed/OO3FANjwKHY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay></iframe>
+
 ------
 <!-- .slide: data-autofragments -->
 ## Różnice
