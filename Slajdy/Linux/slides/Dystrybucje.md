@@ -112,7 +112,7 @@ Na cześć twórcy CentOS-a: Rocky'ego McGaugha
 - **RHEL**: RedHat, Inc.
 - **Ubuntu**: Canonical Ltd.
 - **Debian**: Debian Project/Software in the Public Interest (non-profit)
-- **RockyLinux**: Rocky Enterprise Software Foundation 
+- **RockyLinux**: Rocky Enterprise Software Foundation
 - **AlmaLinux**: AlmaLinux OS Foundation
 - **Slackware**: Patrick Volkerding (osoba prywatna)
 - **Void Linux**: *Void Linux Contributors* (nieformalny zespół wolontariuszy)
@@ -130,7 +130,7 @@ Na cześć twórcy CentOS-a: Rocky'ego McGaugha
   - kwiecień i październik
 - numeracja: ROK.MIESIĄC (np. 21.04)
 - nazwy kodowe (gatunki zwierząt + przymiotniki)
-- raz na dwa lata wydanie LTS (Long Term Support)
+- co dwa lata wydanie LTS (Long Term Support)
 ---
 ## Dotychczasowe wydania
 
@@ -169,9 +169,11 @@ Ubuntu 20.04 LTS (Focal Fossa)
 Ubuntu 20.10 (Groovy Gorilla)  
 Ubuntu 21.04 (Hirsute Hippo)  
 Ubuntu 21.10 (Impish Indri)  
+*Ubuntu 22.04 LTS (Jammy Jellyfish)*  
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
 ---
 <!-- .slide: data-background="#fff" -->
 ![Ubuntu timeline](img/ubuntu-timeline.png)
 ------
 ## Pochodne RHEL-a
+
