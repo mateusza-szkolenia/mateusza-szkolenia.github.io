@@ -1,0 +1,16 @@
+RHEL:
+    url: https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux
+    size: 1600x960
+    filename: rhel-timeline.png
+Ubuntu:
+    url: https://en.wikipedia.org/wiki/Ubuntu_version_history
+    size: 1600x960
+    filename: ubuntu-timeline.png
+Fedora:
+    url: https://en.wikipedia.org/wiki/Fedora_Linux
+    size: 1600x960
+    filename: fedora-timeline.png
+Debian:
+    url: https://en.wikipedia.org/wiki/Debian_version_history
+    size: 1000x600
+    filename: debian-timeline.png
