@@ -192,13 +192,51 @@ Ubuntu 21.10 (Impish Indri)
 <!-- .slide: data-background="#fff" -->
 ![RHEL timeline](img/rhel-timeline.png)
 ------
-## Pochodne RHEL
+## Fedora
+- wydania średnio dwa razy w roku
+- numeracja: 1, 2, ..., 32, 33, 34...
+---
+<!-- .slide: data-background="#fff" -->
+![Fedora timeline](img/fedora-timeline.png)
+------
+## Debian
+- wydania co kilka lat
+- numery + nazwy kodowe
+- wersja eksperymentalna **Sid**
+---
+### Nazwy kodowe Debiana
+![Toy Story](img/toystory.jpg)
+
+Imiona bohaterów bajki Toy Story
+
+© Disney
+---
+Debian 1.1 (Buzz)  
+Debian 1.2 (Rex)  
+Debian 1.3 (Bo)  
+Debian 2.0 (Hamm)  
+Debian 2.1 (Slink)  
+Debian 2.2 (Potato)  
+Debian 3.0 (Woody)  
+Debian 3.1 (Sarge)  
+Debian 4.0 (Etch)  
+Debian 5.0 (Lenny)  
+Debian 6.0 (Squeeze)  
+Debian 7 (Wheezy)  
+Debian 8 (Jessie)  
+Debian 9 (Stretch)  
+Debian 10 (Buster)  
+Debian 11 (Bullseye)  
+Debian 12 (Bookworm)  
+Debian 13 (Trixie)  
+<!-- .element: style="column-count: 3; font-size: 0.45em;" -->
+------
+## Klony RHEL
 * CentOS
 * CentOS Stream
 * RockyLinux
 * AlmaLinux
 * Oracle Linux
-
 ------
 
 
