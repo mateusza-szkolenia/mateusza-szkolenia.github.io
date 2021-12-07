@@ -45,6 +45,12 @@ Dlaczego tak dużo?
 ![AlmaLinux](img/almalinux.png)
 ---
 <!-- .slide: data-background="#eee" -->
+![Oracle Linux](img/oraclelinux.png)
+---
+<!-- .slide: data-background="#eee" -->
+![SUSE](img/suse.png)
+---
+<!-- .slide: data-background="#eee" -->
 ![Void](img/void.png)
 ---
 <!-- .slide: data-background="#eee" -->
@@ -175,5 +181,24 @@ Ubuntu 21.10 (Impish Indri)
 <!-- .slide: data-background="#fff" -->
 ![Ubuntu timeline](img/ubuntu-timeline.png)
 ------
-## Pochodne RHEL-a
+## RHEL
+- wydania co kilka lat
+- numeracja
+  - głównych wydań: 6, 7, 8...
+  - poprawek: 8.1, 8.2, 8.3...
+- tylko wydania z długi wsparciem (ok. 10 lat)
+---
+<!-- .slide: data-background="#fff" -->
+![RHEL timeline](img/rhel-timeline.png)
+------
+## Pochodne RHEL
+* CentOS
+* CentOS Stream
+* RockyLinux
+* AlmaLinux
+* Oracle Linux
+
+------
+
+
 
