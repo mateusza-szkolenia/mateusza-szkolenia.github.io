@@ -46,9 +46,6 @@ Dlaczego tak dużo?
 ![AlmaLinux](img/almalinux.png)
 ---
 <!-- .slide: data-background="#eee" -->
-![Oracle Linux](img/oraclelinux.png)
----
-<!-- .slide: data-background="#eee" -->
 ![SUSE](img/suse.png)
 ---
 <!-- .slide: data-background="#eee" -->
@@ -129,13 +126,15 @@ Na cześć twórcy CentOS-a: Rocky'ego McGaugha
 - regularność (lub brak)
 - częstotliwość
 - czas wsparcia
-- alternatywnie: **rolling release**
+---
+## Cykl ciągły
+**rolling release**
 ------
 <!-- .slide: data-autofragments -->
 ## Ubuntu
 - nowe wydania 2 razy w roku
   - kwiecień i październik
-- numeracja: ROK.MIESIĄC (np. 21.04)
+- numeracja: `ROK.MIESIĄC` (np. `21.04`)
 - nazwy kodowe (gatunki zwierząt + przymiotniki)
 - co dwa lata wydanie LTS (Long Term Support)
 ---
@@ -178,10 +177,12 @@ Ubuntu 21.04 (Hirsute Hippo)
 Ubuntu 21.10 (Impish Indri)  
 *Ubuntu 22.04 LTS (Jammy Jellyfish)*  
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
+<!-- .slide: data-background="#5e2750" -->
 ---
 <!-- .slide: data-background="#fff" -->
 ![Ubuntu timeline](img/ubuntu-timeline.png)
 ------
+<!-- .slide: data-autofragments -->
 ## RHEL
 - wydania co kilka lat
 - numeracja
@@ -192,25 +193,29 @@ Ubuntu 21.10 (Impish Indri)
 <!-- .slide: data-background="#fff" -->
 ![RHEL timeline](img/rhel-timeline.png)
 ------
+<!-- .slide: data-autofragments -->
 ## Fedora
 - wydania średnio dwa razy w roku
 - numeracja: 1, 2, ..., 32, 33, 34...
+- pole eksperymentalne RedHata
 ---
 <!-- .slide: data-background="#fff" -->
 ![Fedora timeline](img/fedora-timeline.png)
 ------
+<!-- .slide: data-autofragments -->
 ## Debian
 - wydania co kilka lat
 - numery + nazwy kodowe
-- wersja eksperymentalna **Sid**
+- nazwy - imiona bohaterów bajki *Toy Story*
+- **Sid**
 ---
-### Nazwy kodowe Debiana
+<!-- .slide: data-background="#fff" -->
 ![Toy Story](img/toystory.jpg)
-
-Imiona bohaterów bajki Toy Story
 
 © Disney
 ---
+## Dotychczasowe wydania
+
 Debian 1.1 (Buzz)  
 Debian 1.2 (Rex)  
 Debian 1.3 (Bo)  
@@ -229,8 +234,10 @@ Debian 10 (Buster)
 Debian 11 (Bullseye)  
 Debian 12 (Bookworm)  
 Debian 13 (Trixie)  
+<!-- .slide: data-background="#913" -->
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
 ------
+<!-- .slide: data-autofragments -->
 ## Klony RHEL
 * CentOS
 * CentOS Stream
