@@ -10,7 +10,8 @@ Dlaczego tak dużo?
 ------
 <!-- .slide: data-autofragments -->
 ## Różnice
-- brand
+
+- marka (brand)
 - wydawca
 - cykl wydawniczy
 - założenia, przeznaczenie, filozofia
@@ -18,7 +19,8 @@ Dlaczego tak dużo?
 - system pakietów
 ------
 <!-- .slide: data-autofragments -->
-## Brand
+## Marka (brand)
+
 - nazwa
 - logo
 - kolorystyka
@@ -78,32 +80,39 @@ Author of these slides is not affiliated with any of them and they are used for 
 ---
 <!-- .slide: data-autofragments -->
 ## Debian
+
 Imię twórcy i jego żony: Debra + Ian
 ---
 <!-- .slide: data-autofragments -->
 ## Red Hat® Enterprise Linux®
+
 Od czerwonej czapki, którą nosił twórca.
 ---
 <!-- .slide: data-autofragments -->
 ## Ubuntu
+
 *humanity towards others*
 
 *nie umiem zainstalować Debiana*
 ---
 <!-- .slide: data-autofragments -->
 ## Fedora
+
 Typ kapelusza
 ---
 <!-- .slide: data-autofragments -->
 ## CentOS
+
 Community Enterprise Operating System
 ---
 <!-- .slide: data-autofragments -->
 ## RockyLinux
+
 Na cześć twórcy CentOS-a: Rocky'ego McGaugha
 ------
 <!-- .slide: data-autofragments -->
 ## Wydawca
+
 - firma
 - instytucja
   - fundacja, NGO, non-profit, etc
@@ -123,15 +132,18 @@ Na cześć twórcy CentOS-a: Rocky'ego McGaugha
 ------
 <!-- .slide: data-autofragments -->
 ## Cykl wydawniczy
+
 - regularność (lub brak)
 - częstotliwość
 - czas wsparcia
 ---
 ## Cykl ciągły
+
 **rolling release**
 ------
 <!-- .slide: data-autofragments -->
 ## Ubuntu
+
 - nowe wydania 2 razy w roku
   - kwiecień i październik
 - numeracja: `ROK.MIESIĄC` (np. `21.04`)
@@ -184,6 +196,7 @@ Ubuntu 21.10 (Impish Indri)
 ------
 <!-- .slide: data-autofragments -->
 ## RHEL
+
 - wydania co kilka lat
 - numeracja
   - głównych wydań: 6, 7, 8...
@@ -195,8 +208,9 @@ Ubuntu 21.10 (Impish Indri)
 ------
 <!-- .slide: data-autofragments -->
 ## Fedora
+
 - wydania średnio dwa razy w roku
-- numeracja: 1, 2, ..., 32, 33, 34...
+- numeracja: ...31, 32, 33, 34...
 - pole eksperymentalne RedHata
 ---
 <!-- .slide: data-background="#fff" -->
@@ -204,6 +218,7 @@ Ubuntu 21.10 (Impish Indri)
 ------
 <!-- .slide: data-autofragments -->
 ## Debian
+
 - wydania co kilka lat
 - numery + nazwy kodowe
 - nazwy - imiona bohaterów bajki *Toy Story*
@@ -253,13 +268,13 @@ Debian 13 (Trixie)
 ## Dlaczego?
 
 - RHEL - komercyjne wolne oprogramowanie
-- ochronie podlega:
+- ochronie podlegają:
   - nazwa i logo
   - skompilowane paczki
 - ochronie nie podlega:
   - kod źródłowy
 
-**każdy może legalnie wziąć i wydać swoją wersję**
+**Każdy może legalnie skopiować i wydać swoją wersję.**
 ---
 <!-- .slide: data-background="#fff" -->
 ![Praca domowa](img/pracadomowa.jpg)
@@ -267,9 +282,7 @@ Debian 13 (Trixie)
 <!-- .slide: data-autofragments -->
 ## CentOS - różnice
 
-- zmiana nazwy
-- zmiana logo
-- zmiana kolorów, tapet
+- podmiana nazwy, logo, kolorów, tapet
 - samodzielna kompilacja
 - własne repozytoria
 ---
@@ -311,22 +324,40 @@ deweloperzy → testerzy → `RHEL` → `CentOS`
 - z początku niezależna od RedHata
 - RedHat Inc. zaproponował finansowanie
 - ... w zamian za umieszczenie swoich ludzi w zarządzie
-- *what can go wrong?*
+- *What can go wrong?*
 ---
 <!-- .slide: data-autofragments -->
 ## CentOS Stream
 
 - dodatkowa edycja CentOS-a
 - dostawała poprawki przed RHEL
+- poprawki → `CentOS Stream` → `RHEL` → `CentOS`
 ---
 <!-- .slide: data-autofragments -->
 ## CentOS is dead
 
 - decyzja zarządu:
   - zakończenie wsparcia CentOS
-  - pozostawienie wspacia CentOS Stream
+  - kontynuacja rozwoju CentOS Stream
+---
+<!-- .slide: data-background="#fff" -->
+![friendship ended](img/friendship-ended-with-centos.png)
+---
+<!-- .slide: data-autofragments -->
+## Koniec wsparcia CentOS
+
+| wersja | RHEL       | CentOS     |
+|--------|------------|------------|
+| 7      | 2024-06-30 | 2024-06-30 |
+| 8      | 2029-05-01 | 2021-12-31 |
 ---
 <!-- .slide: data-autofragments -->
 ## AlmaLinux i RockyLinux
 
 - tylko wersja 8
+---
+## System pakietów
+
+- `apt` (`dpkg`)
+- `yum` / `dnf` (`rpm`)
+- inne
