@@ -214,6 +214,7 @@ Ubuntu 21.10 (Impish Indri)
 
 © Disney
 ---
+<!-- .slide: data-background="#913" -->
 ## Dotychczasowe wydania
 
 Debian 1.1 (Buzz)  
@@ -234,17 +235,98 @@ Debian 10 (Buster)
 Debian 11 (Bullseye)  
 Debian 12 (Bookworm)  
 Debian 13 (Trixie)  
-<!-- .slide: data-background="#913" -->
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
+---
+<!-- .slide: data-background="#fff" -->
+![Debian timeline](img/debian-timeline.png)
 ------
 <!-- .slide: data-autofragments -->
 ## Klony RHEL
+
 * CentOS
 * CentOS Stream
 * RockyLinux
 * AlmaLinux
 * Oracle Linux
-------
+---
+<!-- .slide: data-autofragments -->
+## Dlaczego?
 
+- RHEL - komercyjne wolne oprogramowanie
+- ochronie podlega:
+  - nazwa i logo
+  - skompilowane paczki
+- ochronie nie podlega:
+  - kod źródłowy
 
+**każdy może legalnie wziąć i wydać swoją wersję**
+---
+<!-- .slide: data-background="#fff" -->
+![Praca domowa](img/pracadomowa.jpg)
+---
+<!-- .slide: data-autofragments -->
+## CentOS - różnice
 
+- zmiana nazwy
+- zmiana logo
+- zmiana kolorów, tapet
+- samodzielna kompilacja
+- własne repozytoria
+---
+<!-- .slide: data-autofragments -->
+## CentOS
+
+- klon RHEL
+- całkowicie kompatybilny
+- darmowy
+---
+<!-- .slide: data-autofragments -->
+## CentOS - kalendarium
+
+| wersja | RHEL       | CentOS     | opóźnienie |
+|--------|------------|------------|------------|
+| 2.1    | 2002-05-17 | 2004-05-14 |        728 |
+| 3.1    | 2003-10-23 | 2004-03-19 |        148 |
+| 3.3    | 2004-09-03 | 2004-09-17 |         14 |
+| ...    | ...        | ...        | ...        |
+| 4.0    | 2005-02-14 | 2005-03-09 |         23 |
+| 5.0    | 2007-03-14 | 2007-04-12 |         28 |
+| 6.0    | 2010-11-10 | 2011-07-10 |        242 |
+| 7.0    | 2014-06-10 | 2014-07-07 |         27 |
+| 8.0    | 2019-05-07 | 2019-09-24 |        140 |
+<!-- .element: style="font-size: 0.55em;" -->
+---
+<!-- .slide: data-autofragments -->
+## Przepływ poprawek
+
+deweloperzy → testerzy → `RHEL` → `CentOS`
+
+- klienci RedHata dostawali poprawki szybciej
+- ... również te błędne
+- CentOS od razu wdrażał poprawione poprawki
+---
+<!-- .slide: data-autofragments -->
+## CentOS - Fundacja
+
+- z początku niezależna od RedHata
+- RedHat Inc. zaproponował finansowanie
+- ... w zamian za umieszczenie swoich ludzi w zarządzie
+- *what can go wrong?*
+---
+<!-- .slide: data-autofragments -->
+## CentOS Stream
+
+- dodatkowa edycja CentOS-a
+- dostawała poprawki przed RHEL
+---
+<!-- .slide: data-autofragments -->
+## CentOS is dead
+
+- decyzja zarządu:
+  - zakończenie wsparcia CentOS
+  - pozostawienie wspacia CentOS Stream
+---
+<!-- .slide: data-autofragments -->
+## AlmaLinux i RockyLinux
+
+- tylko wersja 8
