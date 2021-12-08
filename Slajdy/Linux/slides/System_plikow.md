@@ -224,13 +224,14 @@
   <h3 class='fragment fab fa-windows'></h3>
   <ul>
   <li>rozszerzenie i nazwa to dwie odrębne części</li>
-  <li>znane rozszerzenia domyslnie ukryte</li>
+  <li>znane rozszerzenia domyślnie ukryte</li>
   </ul>
 </div>
 <div style='width: 49%; text-align: center;'>
   <h3 class='fragment fab fa-linux'></i></h3>
   <ul>
-  <li>kropka - dozwolony znak</li>
+  <li>brak formalnego podziału</li>
+  <li>kropka - dozwolony znak w nazwie</li>
   <li>rozszerzenia zawsze widoczne</li>
   </ul>
 </div>
@@ -249,7 +250,7 @@
 <i class='fa fa-file-audio'></i> piosenka
 
 - nazwa pliku: `piosenka`
-- rozszerzenie `mp3` (niewidoczne)
+- rozszerzenie: `mp3` (niewidoczne)
 - typ pliku: muzyka
 - (typ wynika z rozszerzenia)
 ---
@@ -260,17 +261,116 @@
 <i class='fa fa-file-audio'></i> piosenka.mp3
 
 - nazwa pliku: `piosenka.mp3`
-- rozszerzenie `.mp3` (umowne)
+- rozszerzenie: `.mp3` (umowne)
 - typ pliku: muzyka
-- (typ wynika z realnej zawartości)
+- (typ wynika z zawartości)
 ---
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
 ## "Nietypowe" nazwy plików w Linuksie
 
-- brak rozszerzenia: `hosts`
-- kropka na początku: `.bash_history`
-- kilka rozszerzeń: `archiwum.tar.bz2`
+<i class='fa fa-file'></i> `hosts` -- brak rozszerzenia
+
+<i class='fa fa-file'></i> `.bash_history` -- kropka na początku
+
+<i class='fa fa-file'></i> `archiwum.tar.bz2` -- kilka rozszerzeń
 ---
+<!-- .slide: data-autofragments -->
 ## Przenośność plików
+
+Ograniczenia w Windows:
+- nie są ograniczeniami systemu plików
+- zaimplementowane niekonsekwentnie
+- mogą powodować dziwne zachowanie systemu
+------
+<!-- .slide: data-autofragments -->
+## Uprawnienia
+
+- 3 operacje
+- 3 obszary (ang. *scopes*)
+- 3 × 3 = 9 bitów
+---
+## Operacje
+
+<div style='display: flex; justify-content: space-around; flex-wrap: wrap;'>
+<div style='width: 30%' class=fragment>
+<span style='font-size: 5em'>R</span><br>
+read<br>
+(odczyt)
+</div>
+<div style='width: 30%' class=fragment>
+<span style='font-size: 5em'>W</span><br>
+write<br>
+(zapis)
+</div>
+<div style='width: 30%' class=fragment>
+<span style='font-size: 5em'>X</span><br>
+execute<br>
+(uruchomienie)
+</div>
+</div>
+---
+## Obszary
+<div style='display: flex; justify-content: space-around; flex-wrap: wrap;'>
+<div style='width: 30%' class=fragment>
+<span style='font-size: 5em' class='fa fa-user'></span><br>
+owner<br>
+(właściciel)
+</div>
+<div style='width: 30%' class=fragment>
+<span style='font-size: 5em' class='fa fa-users'></span><br>
+group<br>
+(grupa)
+</div>
+<div style='width: 30%' class=fragment>
+<span style='font-size: 5em' class='fa fa-globe'></span><br>
+others<br>
+(inni)
+</div>
+</div>
+---
+## Uprawnienia
+<div style='display: flex; justify-content: space-around; flex-wrap: wrap;'>
+<div style='width: 30%' class=fragment>
+<code style='font-size: 2em'>RWX</code><br>
+właściciel
+</div>
+<div style='width: 30%' class=fragment>
+<code style='font-size: 2em'>R--</code><br>
+grupa
+</div>
+<div style='width: 30%' class=fragment>
+<code style='font-size: 2em'>---</code><br>
+inni
+</div>
+</div>
+---
+<!-- .slide: data-autofragments -->
+## Przykładowe uprawnienia
+
+- `rw-r--r--`
+- `rwxr-xr-x`
+- `r--r--r--`
+- `r--------`
+- `rw-rw----`
+---
+## X - uruchomienie
+
+<div style='display: flex; justify-content: space-around;'>
+<div style='width: 45%; text-align: center' class=fragment>
+  <h3 class='fab fa-windows'></h3>
+  <p><i class='fa fa-file'></i> <code>program.exe</code></p>
+  <ul>
+  <li>rozszerzenie <code>exe</code></li>
+  </ul>
+</div>
+<div style='width: 45%; text-align: center;' class=fragment>
+  <h3 class='fab fa-linux'></h3>
+  <p><i class='fa fa-file'></i> <code>program</code></p>
+  <ul>
+  <li>brak rozszerzenia</li>
+  <li>prawo dostępu <code>X</code></li>
+  </ul>
+</div>
+</div>
 
