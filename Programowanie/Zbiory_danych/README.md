@@ -4,7 +4,7 @@
 
 Baza danych kandydatów i komitetów wg PKW.
 
-## [2018 GUS](2018_Dane_GUS_Populacja/)
+## [Struktura ludności wg GUS](GUS_Struktura_ludnosci/)
 
 Historyczna oraz prognozowana liczebność populacji Rzeczypospolitej Polski.
 
