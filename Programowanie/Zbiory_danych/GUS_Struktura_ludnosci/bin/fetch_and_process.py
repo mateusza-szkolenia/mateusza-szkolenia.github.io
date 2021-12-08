@@ -10,12 +10,14 @@ import datetime
 import re
 import json
 import jinja2
+import tempfile
+import os
 
 TODAY = datetime.date.today().isoformat()
 
-LOCAL = f'{TODAY}-dane.js'
+LOCAL = tempfile.mktemp('.js')
 
-OUTPUT_SQL = f'{datetime.date.today().year}-dane-gus-populacja.sql'
+OUTPUT_SQL = f'../data/{datetime.date.today().year}-dane-gus-populacja.sql'
 
 TEMPLATE = """
 -- data source: {{WEB}}
@@ -92,3 +94,4 @@ dane = {
 with open(OUTPUT_SQL, 'w') as f:
     f.write(template.render(**dane))
 
+os.unlink(LOCAL)
