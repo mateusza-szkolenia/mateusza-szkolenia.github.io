@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd ../data
 for f in *-dane-gus-populacja.sql
 do
     db="${f%.sql}.db"

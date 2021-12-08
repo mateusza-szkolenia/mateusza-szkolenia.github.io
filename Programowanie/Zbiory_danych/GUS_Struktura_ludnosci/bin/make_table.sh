@@ -10,7 +10,7 @@ do
     printf "| %s | YYYY-MM-DD |" "$rok"
     for format in sql db csv txt json
     do
-        printf "[[%s]](%s) |" "${format^^}" "$rok-dane-gus-populacja.$format"
+        printf "[[%s]](%s) |" "${format^^}" "data/$rok-dane-gus-populacja.$format"
     done
     printf "\n"
 done

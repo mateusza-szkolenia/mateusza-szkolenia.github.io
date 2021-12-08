@@ -20,8 +20,8 @@ SQL = '''
         rok, wiek
 '''
 
-for DB in glob.glob("*-dane-gus-populacja.db"):
-    BASENAME = DB.replace('.db','')
+for DB in glob.glob("../data/*-dane-gus-populacja.db"):
+    BASENAME = DB.replace('.db', '')
     CSV = f'{BASENAME}.csv'
     JSON = f'{BASENAME}.json'
     TXT = f'{BASENAME}.txt'
