@@ -12,6 +12,7 @@ import jinja2
 import locale
 import os
 import zipfile
+import sqlite3
 
 YEAR = f'{datetime.date.today().year}'
 OUTPUT = f'data/{YEAR}-{output_fn}'
@@ -114,7 +115,18 @@ Commit;
 """
 template = jinja2.Template(SQL_TEMPLATE)
 
+t_params = {'wojewodztwa': wojewodztwa, 'miasta': miasta}
+sqlscript = template.render(**t_params)
+
 with open(f'{OUTPUT}.sql', 'w') as f:
-    t_params = {'wojewodztwa': wojewodztwa, 'miasta': miasta}
-    f.write(template.render(**t_params))
+    f.write(sqlscript)
+
+try:
+    os.unlink(f'{OUTPUT}.db')
+except FileNotFoundError:
+    pass
+
+db = sqlite3.connect(f'{OUTPUT}.db')
+db.executescript(sqlscript)
+db.commit()
 
