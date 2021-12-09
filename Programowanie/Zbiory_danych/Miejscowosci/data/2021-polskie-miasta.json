@@ -5,7 +5,8 @@
             52.8749,
             18.6946
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "aleksandrowski"
     },
     {
         "n": "Aleksandrów Łódzki",
@@ -13,7 +14,8 @@
             51.8203,
             19.305
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "zgierski"
     },
     {
         "n": "Alwernia",
@@ -21,7 +23,8 @@
             50.0686,
             19.542
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "chrzanowski"
     },
     {
         "n": "Andrychów",
@@ -29,7 +32,8 @@
             49.8529,
             19.3413
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "wadowicki"
     },
     {
         "n": "Annopol",
@@ -37,7 +41,8 @@
             50.8854,
             21.857
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "kraśnicki"
     },
     {
         "n": "Augustów",
@@ -45,7 +50,8 @@
             53.84,
             22.9983
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "augustowski"
     },
     {
         "n": "Babimost",
@@ -53,7 +59,8 @@
             52.1648,
             15.8304
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "zielonogórski"
     },
     {
         "n": "Baborów",
@@ -61,7 +68,8 @@
             50.1566,
             17.9858
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "głubczycki"
     },
     {
         "n": "Baranów Sandomierski",
@@ -69,7 +77,8 @@
             50.4983,
             21.5422
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "tarnobrzeski"
     },
     {
         "n": "Barcin",
@@ -77,7 +86,8 @@
             52.8574,
             17.9419
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "żniński"
     },
     {
         "n": "Barczewo",
@@ -85,7 +95,8 @@
             53.8283,
             20.6903
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "olsztyński"
     },
     {
         "n": "Bardo",
@@ -93,7 +104,8 @@
             50.5063,
             16.7404
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "ząbkowicki"
     },
     {
         "n": "Barlinek",
@@ -101,7 +113,8 @@
             52.9973,
             15.2195
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "myśliborski"
     },
     {
         "n": "Bartoszyce",
@@ -109,7 +122,8 @@
             54.251,
             20.8095
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "bartoszycki"
     },
     {
         "n": "Barwice",
@@ -117,7 +131,8 @@
             53.7448,
             16.3552
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "szczecinecki"
     },
     {
         "n": "Bełchatów",
@@ -125,7 +140,8 @@
             51.3625,
             19.3651
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "bełchatowski"
     },
     {
         "n": "Bełżyce",
@@ -133,7 +149,8 @@
             51.175,
             22.2818
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "lubelski"
     },
     {
         "n": "Będzin",
@@ -141,7 +158,8 @@
             50.3243,
             19.1358
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "będziński"
     },
     {
         "n": "Biała",
@@ -149,7 +167,8 @@
             50.3854,
             17.6598
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "prudnicki"
     },
     {
         "n": "Biała Piska",
@@ -157,7 +176,8 @@
             53.6108,
             22.0619
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "piski"
     },
     {
         "n": "Biała Podlaska",
@@ -165,7 +185,8 @@
             52.0339,
             23.1231
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "Biała Podlaska"
     },
     {
         "n": "Biała Rawska",
@@ -173,7 +194,8 @@
             51.8083,
             20.4742
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "rawski"
     },
     {
         "n": "Białobrzegi",
@@ -181,7 +203,8 @@
             51.6483,
             20.9497
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "białobrzeski"
     },
     {
         "n": "Białogard",
@@ -189,7 +212,8 @@
             54.0083,
             15.9858
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "białogardzki"
     },
     {
         "n": "Biały Bór",
@@ -197,7 +221,8 @@
             53.8962,
             16.8355
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "szczecinecki"
     },
     {
         "n": "Białystok",
@@ -205,7 +230,8 @@
             53.1325,
             23.1631
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "Białystok"
     },
     {
         "n": "Biecz",
@@ -213,7 +239,8 @@
             49.731,
             21.2538
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "gorlicki"
     },
     {
         "n": "Bielawa",
@@ -221,7 +248,8 @@
             50.6845,
             16.6118
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "dzierżoniowski"
     },
     {
         "n": "Bielsk Podlaski",
@@ -229,7 +257,8 @@
             52.7711,
             23.1903
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "bielski"
     },
     {
         "n": "Bielsko-Biała",
@@ -237,7 +266,8 @@
             49.8219,
             19.0444
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Bielsko-Biała"
     },
     {
         "n": "Bieruń",
@@ -245,7 +275,8 @@
             50.0917,
             19.0911
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "bieruńsko-lędziński"
     },
     {
         "n": "Bierutów",
@@ -253,7 +284,8 @@
             51.1253,
             17.5441
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "oleśnicki"
     },
     {
         "n": "Bieżuń",
@@ -261,7 +293,8 @@
             52.9596,
             19.8885
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "żuromiński"
     },
     {
         "n": "Biłgoraj",
@@ -269,7 +302,8 @@
             50.5383,
             22.7204
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "biłgorajski"
     },
     {
         "n": "Biskupiec",
@@ -277,7 +311,8 @@
             53.8644,
             20.9553
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "olsztyński"
     },
     {
         "n": "Bisztynek",
@@ -285,7 +320,8 @@
             54.086,
             20.9014
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "bartoszycki"
     },
     {
         "n": "Blachownia",
@@ -293,7 +329,8 @@
             50.7842,
             18.9625
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "częstochowski"
     },
     {
         "n": "Błaszki",
@@ -301,7 +338,8 @@
             51.6517,
             18.4377
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "sieradzki"
     },
     {
         "n": "Błażowa",
@@ -309,7 +347,8 @@
             49.8853,
             22.1006
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "rzeszowski"
     },
     {
         "n": "Błonie",
@@ -317,7 +356,8 @@
             52.1947,
             20.6171
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "warszawski zachodni"
     },
     {
         "n": "Bobolice",
@@ -325,7 +365,8 @@
             53.9556,
             16.5895
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "koszaliński"
     },
     {
         "n": "Bobowa",
@@ -333,7 +374,8 @@
             49.7053,
             20.95
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "gorlicki"
     },
     {
         "n": "Bochnia",
@@ -341,7 +383,8 @@
             49.9693,
             20.4326
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "bocheński"
     },
     {
         "n": "Bodzentyn",
@@ -349,7 +392,8 @@
             50.941,
             20.957
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "kielecki"
     },
     {
         "n": "Bogatynia",
@@ -357,7 +401,8 @@
             50.9047,
             14.9572
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "zgorzelecki"
     },
     {
         "n": "Boguchwała",
@@ -365,7 +410,8 @@
             49.9823,
             21.9396
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "rzeszowski"
     },
     {
         "n": "Boguszów-Gorce",
@@ -373,7 +419,8 @@
             50.7559,
             16.205
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "wałbrzyski"
     },
     {
         "n": "Bojanowo",
@@ -381,7 +428,8 @@
             51.7074,
             16.7489
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "rawicki"
     },
     {
         "n": "Bolesławiec",
@@ -389,7 +437,8 @@
             51.263,
             15.5648
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "bolesławiecki"
     },
     {
         "n": "Bolków",
@@ -397,7 +446,8 @@
             50.9222,
             16.1007
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "jaworski"
     },
     {
         "n": "Borek Wielkopolski",
@@ -405,7 +455,8 @@
             51.9165,
             17.2422
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "gostyński"
     },
     {
         "n": "Borne Sulinowo",
@@ -413,7 +464,8 @@
             53.5815,
             16.5383
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "szczecinecki"
     },
     {
         "n": "Braniewo",
@@ -421,7 +473,8 @@
             54.3823,
             19.8217
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "braniewski"
     },
     {
         "n": "Brańsk",
@@ -429,7 +482,8 @@
             52.7434,
             22.8417
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "bielski"
     },
     {
         "n": "Brodnica",
@@ -437,7 +491,8 @@
             53.2564,
             19.4027
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "brodnicki"
     },
     {
         "n": "Brok",
@@ -445,7 +500,8 @@
             52.7,
             21.8594
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "ostrowski"
     },
     {
         "n": "Brusy",
@@ -453,7 +509,8 @@
             53.8867,
             17.7178
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "chojnicki"
     },
     {
         "n": "Brwinów",
@@ -461,7 +518,8 @@
             52.1428,
             20.7172
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "pruszkowski"
     },
     {
         "n": "Brzeg",
@@ -469,7 +527,8 @@
             50.8616,
             17.4699
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "brzeski"
     },
     {
         "n": "Brzeg Dolny",
@@ -477,7 +536,8 @@
             51.2603,
             16.7197
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "wołowski"
     },
     {
         "n": "Brzesko",
@@ -485,7 +545,8 @@
             49.9683,
             20.6078
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "brzeski"
     },
     {
         "n": "Brzeszcze",
@@ -493,7 +554,8 @@
             49.983,
             19.1441
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "oświęcimski"
     },
     {
         "n": "Brześć Kujawski",
@@ -501,7 +563,8 @@
             52.6064,
             18.9007
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "włocławski"
     },
     {
         "n": "Brzeziny",
@@ -509,7 +572,8 @@
             51.7996,
             19.7535
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "brzeziński"
     },
     {
         "n": "Brzostek",
@@ -517,7 +581,8 @@
             49.8798,
             21.4105
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "dębicki"
     },
     {
         "n": "Brzozów",
@@ -525,7 +590,8 @@
             49.6943,
             22.0194
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "brzozowski"
     },
     {
         "n": "Budzyń",
@@ -533,7 +599,8 @@
             52.8901,
             16.9878
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "chodzieski"
     },
     {
         "n": "Buk",
@@ -541,7 +608,8 @@
             52.3554,
             16.5197
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "poznański"
     },
     {
         "n": "Bukowno",
@@ -549,7 +617,8 @@
             50.2677,
             19.4627
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "olkuski"
     },
     {
         "n": "Busko-Zdrój",
@@ -557,7 +626,8 @@
             50.4692,
             20.7184
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "buski"
     },
     {
         "n": "Bychawa",
@@ -565,7 +635,8 @@
             51.0144,
             22.5347
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "lubelski"
     },
     {
         "n": "Byczyna",
@@ -573,7 +644,8 @@
             51.1141,
             18.2142
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "kluczborski"
     },
     {
         "n": "Bydgoszcz",
@@ -581,7 +653,8 @@
             53.1254,
             18.0014
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "Bydgoszcz"
     },
     {
         "n": "Bystrzyca Kłodzka",
@@ -589,7 +662,8 @@
             50.2975,
             16.6503
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "kłodzki"
     },
     {
         "n": "Bytom",
@@ -597,7 +671,8 @@
             50.347,
             18.9233
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Bytom"
     },
     {
         "n": "Bytom Odrzański",
@@ -605,7 +680,8 @@
             51.7307,
             15.8264
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "nowosolski"
     },
     {
         "n": "Bytów",
@@ -613,7 +689,8 @@
             54.1689,
             17.4894
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "bytowski"
     },
     {
         "n": "Cedynia",
@@ -621,7 +698,8 @@
             52.8783,
             14.2033
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "gryfiński"
     },
     {
         "n": "Chełm",
@@ -629,7 +707,8 @@
             51.1337,
             23.4717
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "Chełm"
     },
     {
         "n": "Chełmek",
@@ -637,7 +716,8 @@
             50.1006,
             19.2583
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "oświęcimski"
     },
     {
         "n": "Chełmno",
@@ -645,7 +725,8 @@
             53.3507,
             18.4302
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "chełmiński"
     },
     {
         "n": "Chełmża",
@@ -653,7 +734,8 @@
             53.1866,
             18.6096
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "toruński"
     },
     {
         "n": "Chęciny",
@@ -661,7 +743,8 @@
             50.8005,
             20.4623
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "kielecki"
     },
     {
         "n": "Chmielnik",
@@ -669,7 +752,8 @@
             50.6143,
             20.7518
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "kielecki"
     },
     {
         "n": "Chocianów",
@@ -677,7 +761,8 @@
             51.4198,
             15.9025
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "polkowicki"
     },
     {
         "n": "Chociwel",
@@ -685,7 +770,8 @@
             53.4693,
             15.3352
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "stargardzki"
     },
     {
         "n": "Chocz",
@@ -693,7 +779,8 @@
             51.977,
             17.8703
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "pleszewski"
     },
     {
         "n": "Chodecz",
@@ -701,7 +788,8 @@
             52.4047,
             19.0289
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "włocławski"
     },
     {
         "n": "Chodzież",
@@ -709,7 +797,8 @@
             52.9923,
             16.9154
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "chodzieski"
     },
     {
         "n": "Chojna",
@@ -717,7 +806,8 @@
             52.9634,
             14.4327
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "gryfiński"
     },
     {
         "n": "Chojnice",
@@ -725,7 +815,8 @@
             53.6953,
             17.5631
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "chojnicki"
     },
     {
         "n": "Chojnów",
@@ -733,7 +824,8 @@
             51.2734,
             15.9365
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "legnicki"
     },
     {
         "n": "Choroszcz",
@@ -741,7 +833,8 @@
             53.1439,
             22.9889
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "białostocki"
     },
     {
         "n": "Chorzele",
@@ -749,7 +842,8 @@
             53.2586,
             20.8972
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "przasnyski"
     },
     {
         "n": "Chorzów",
@@ -757,7 +851,8 @@
             50.2986,
             18.9547
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Chorzów"
     },
     {
         "n": "Choszczno",
@@ -765,7 +860,8 @@
             53.1674,
             15.4196
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "choszczeński"
     },
     {
         "n": "Chrzanów",
@@ -773,7 +869,8 @@
             50.1416,
             19.4113
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "chrzanowski"
     },
     {
         "n": "Ciechanowiec",
@@ -781,7 +878,8 @@
             52.6792,
             22.4997
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "wysokomazowiecki"
     },
     {
         "n": "Ciechanów",
@@ -789,7 +887,8 @@
             52.8761,
             20.6081
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "ciechanowski"
     },
     {
         "n": "Ciechocinek",
@@ -797,7 +896,8 @@
             52.8787,
             18.7871
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "aleksandrowski"
     },
     {
         "n": "Cieszanów",
@@ -805,7 +905,8 @@
             50.2455,
             23.1305
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "lubaczowski"
     },
     {
         "n": "Cieszyn",
@@ -813,7 +914,8 @@
             49.7486,
             18.6339
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "cieszyński"
     },
     {
         "n": "Ciężkowice",
@@ -821,7 +923,8 @@
             49.7864,
             20.9742
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "tarnowski"
     },
     {
         "n": "Cybinka",
@@ -829,7 +932,8 @@
             52.1939,
             14.7956
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "słubicki"
     },
     {
         "n": "Czaplinek",
@@ -837,7 +941,8 @@
             53.5588,
             16.2331
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "drawski"
     },
     {
         "n": "Czarna Białostocka",
@@ -845,7 +950,8 @@
             53.3058,
             23.2811
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "białostocki"
     },
     {
         "n": "Czarna Woda",
@@ -853,7 +959,8 @@
             53.8447,
             18.0999
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "starogardzki"
     },
     {
         "n": "Czarne",
@@ -861,7 +968,8 @@
             53.6836,
             16.9422
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "człuchowski"
     },
     {
         "n": "Czarnków",
@@ -869,7 +977,8 @@
             52.9047,
             16.5644
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "czarnkowsko-trzcianecki"
     },
     {
         "n": "Czchów",
@@ -877,7 +986,8 @@
             49.8338,
             20.6735
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "brzeski"
     },
     {
         "n": "Czechowice-Dziedzice",
@@ -885,7 +995,8 @@
             49.9112,
             19.0071
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "bielski"
     },
     {
         "n": "Czeladź",
@@ -893,7 +1004,8 @@
             50.3152,
             19.0716
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "będziński"
     },
     {
         "n": "Czempiń",
@@ -901,7 +1013,8 @@
             52.1433,
             16.7573
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "kościański"
     },
     {
         "n": "Czerniejewo",
@@ -909,7 +1022,8 @@
             52.4267,
             17.4893
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "gnieźnieński"
     },
     {
         "n": "Czersk",
@@ -917,7 +1031,8 @@
             53.7947,
             17.9758
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "chojnicki"
     },
     {
         "n": "Czerwieńsk",
@@ -925,7 +1040,8 @@
             52.013,
             15.4229
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "zielonogórski"
     },
     {
         "n": "Czerwińsk nad Wisłą",
@@ -933,7 +1049,8 @@
             52.3939,
             20.3124
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "płoński"
     },
     {
         "n": "Czerwionka-Leszczyny",
@@ -941,7 +1058,8 @@
             50.1592,
             18.6633
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "rybnicki"
     },
     {
         "n": "Częstochowa",
@@ -949,7 +1067,8 @@
             50.8083,
             19.1272
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Częstochowa"
     },
     {
         "n": "Człopa",
@@ -957,7 +1076,8 @@
             53.0863,
             16.1217
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "wałecki"
     },
     {
         "n": "Człuchów",
@@ -965,7 +1085,8 @@
             53.6658,
             17.3578
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "człuchowski"
     },
     {
         "n": "Czyżew",
@@ -973,7 +1094,8 @@
             52.7987,
             22.3165
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "wysokomazowiecki"
     },
     {
         "n": "Ćmielów",
@@ -981,7 +1103,8 @@
             50.8903,
             21.51
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "ostrowiecki"
     },
     {
         "n": "Daleszyce",
@@ -989,7 +1112,8 @@
             50.8014,
             20.8067
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "kielecki"
     },
     {
         "n": "Darłowo",
@@ -997,7 +1121,8 @@
             54.421,
             16.4103
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "sławieński"
     },
     {
         "n": "Dąbie",
@@ -1005,7 +1130,8 @@
             52.0885,
             18.8221
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "kolski"
     },
     {
         "n": "Dąbrowa Białostocka",
@@ -1013,7 +1139,8 @@
             53.6547,
             23.3467
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "sokólski"
     },
     {
         "n": "Dąbrowa Górnicza",
@@ -1021,7 +1148,8 @@
             50.3214,
             19.1872
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Dąbrowa Górnicza"
     },
     {
         "n": "Dąbrowa Tarnowska",
@@ -1029,7 +1157,8 @@
             50.1745,
             20.9864
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "dąbrowski"
     },
     {
         "n": "Debrzno",
@@ -1037,7 +1166,8 @@
             53.5367,
             17.2353
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "człuchowski"
     },
     {
         "n": "Dębica",
@@ -1045,7 +1175,8 @@
             50.0509,
             21.4068
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "dębicki"
     },
     {
         "n": "Dęblin",
@@ -1053,7 +1184,8 @@
             51.5659,
             21.8456
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "rycki"
     },
     {
         "n": "Dębno",
@@ -1061,7 +1193,8 @@
             52.7356,
             14.7022
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "myśliborski"
     },
     {
         "n": "Dobczyce",
@@ -1069,7 +1202,8 @@
             49.8777,
             20.0989
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "myślenicki"
     },
     {
         "n": "Dobiegniew",
@@ -1077,7 +1211,8 @@
             52.9696,
             15.7551
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "strzelecko-drezdenecki"
     },
     {
         "n": "Dobra",
@@ -1085,7 +1220,8 @@
             51.9156,
             18.6163
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "turecki"
     },
     {
         "n": "Dobra",
@@ -1093,7 +1229,8 @@
             53.5862,
             15.3073
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "łobeski"
     },
     {
         "n": "Dobre Miasto",
@@ -1101,7 +1238,8 @@
             53.9862,
             20.3898
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "olsztyński"
     },
     {
         "n": "Dobrodzień",
@@ -1109,7 +1247,8 @@
             50.7285,
             18.4433
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "oleski"
     },
     {
         "n": "Dobrzany",
@@ -1117,7 +1256,8 @@
             53.3583,
             15.4289
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "stargardzki"
     },
     {
         "n": "Dobrzyca",
@@ -1125,7 +1265,8 @@
             51.8634,
             17.6011
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "pleszewski"
     },
     {
         "n": "Dobrzyń nad Wisłą",
@@ -1133,7 +1274,8 @@
             52.6383,
             19.3227
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "lipnowski"
     },
     {
         "n": "Dolsk",
@@ -1141,7 +1283,8 @@
             51.9871,
             17.0638
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "śremski"
     },
     {
         "n": "Drawno",
@@ -1149,7 +1292,8 @@
             53.2185,
             15.7562
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "choszczeński"
     },
     {
         "n": "Drawsko Pomorskie",
@@ -1157,7 +1301,8 @@
             53.5309,
             15.8096
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "drawski"
     },
     {
         "n": "Drezdenko",
@@ -1165,7 +1310,8 @@
             52.8385,
             15.8313
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "strzelecko-drezdenecki"
     },
     {
         "n": "Drobin",
@@ -1173,7 +1319,8 @@
             52.7378,
             19.9903
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "płocki"
     },
     {
         "n": "Drohiczyn",
@@ -1181,7 +1328,8 @@
             52.3968,
             22.6589
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "siemiatycki"
     },
     {
         "n": "Drzewica",
@@ -1189,7 +1337,8 @@
             51.4505,
             20.4773
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "opoczyński"
     },
     {
         "n": "Dubiecko",
@@ -1197,7 +1346,8 @@
             49.825,
             22.3924
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "przemyski"
     },
     {
         "n": "Dukla",
@@ -1205,7 +1355,8 @@
             49.5551,
             21.6843
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "krośnieński"
     },
     {
         "n": "Duszniki-Zdrój",
@@ -1213,7 +1364,8 @@
             50.4041,
             16.39
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "kłodzki"
     },
     {
         "n": "Dynów",
@@ -1221,7 +1373,8 @@
             49.8184,
             22.228
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "rzeszowski"
     },
     {
         "n": "Działdowo",
@@ -1229,7 +1382,8 @@
             53.2386,
             20.1825
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "działdowski"
     },
     {
         "n": "Działoszyce",
@@ -1237,7 +1391,8 @@
             50.3662,
             20.3512
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "pińczowski"
     },
     {
         "n": "Działoszyn",
@@ -1245,7 +1400,8 @@
             51.1169,
             18.8653
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "pajęczański"
     },
     {
         "n": "Dzierzgoń",
@@ -1253,7 +1409,8 @@
             53.9233,
             19.3453
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "sztumski"
     },
     {
         "n": "Dzierżoniów",
@@ -1261,7 +1418,8 @@
             50.7282,
             16.6514
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "dzierżoniowski"
     },
     {
         "n": "Dziwnów",
@@ -1269,7 +1427,8 @@
             54.0276,
             14.7603
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "kamieński"
     },
     {
         "n": "Elbląg",
@@ -1277,7 +1436,8 @@
             54.1614,
             19.4098
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "Elbląg"
     },
     {
         "n": "Ełk",
@@ -1285,7 +1445,8 @@
             53.8229,
             22.3527
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "ełcki"
     },
     {
         "n": "Frampol",
@@ -1293,7 +1454,8 @@
             50.6716,
             22.6706
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "biłgorajski"
     },
     {
         "n": "Frombork",
@@ -1301,7 +1463,8 @@
             54.357,
             19.682
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "braniewski"
     },
     {
         "n": "Garwolin",
@@ -1309,7 +1472,8 @@
             51.8975,
             21.6155
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "garwoliński"
     },
     {
         "n": "Gąbin",
@@ -1317,7 +1481,8 @@
             52.3984,
             19.7341
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "płocki"
     },
     {
         "n": "Gdańsk",
@@ -1325,7 +1490,8 @@
             54.3497,
             18.6536
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "Gdańsk"
     },
     {
         "n": "Gdynia",
@@ -1333,7 +1499,8 @@
             54.5178,
             18.5425
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "Gdynia"
     },
     {
         "n": "Giżycko",
@@ -1341,7 +1508,8 @@
             54.0399,
             21.7715
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "giżycki"
     },
     {
         "n": "Glinojeck",
@@ -1349,7 +1517,8 @@
             52.8186,
             20.2842
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "ciechanowski"
     },
     {
         "n": "Gliwice",
@@ -1357,7 +1526,8 @@
             50.2939,
             18.6656
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Gliwice"
     },
     {
         "n": "Głogów",
@@ -1365,7 +1535,8 @@
             51.6646,
             16.0797
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "głogowski"
     },
     {
         "n": "Głogów Małopolski",
@@ -1373,7 +1544,8 @@
             50.1511,
             21.9602
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "rzeszowski"
     },
     {
         "n": "Głogówek",
@@ -1381,7 +1553,8 @@
             50.3534,
             17.8645
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "prudnicki"
     },
     {
         "n": "Głowno",
@@ -1389,7 +1562,8 @@
             51.9678,
             19.7139
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "zgierski"
     },
     {
         "n": "Głubczyce",
@@ -1397,7 +1571,8 @@
             50.2001,
             17.8303
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "głubczycki"
     },
     {
         "n": "Głuchołazy",
@@ -1405,7 +1580,8 @@
             50.3151,
             17.3835
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "nyski"
     },
     {
         "n": "Głuszyca",
@@ -1413,7 +1589,8 @@
             50.6875,
             16.3717
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "wałbrzyski"
     },
     {
         "n": "Gniew",
@@ -1421,7 +1598,8 @@
             53.8357,
             18.8223
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "tczewski"
     },
     {
         "n": "Gniewkowo",
@@ -1429,7 +1607,8 @@
             52.8928,
             18.4086
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "inowrocławski"
     },
     {
         "n": "Gniezno",
@@ -1437,7 +1616,8 @@
             52.5333,
             17.6014
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "gnieźnieński"
     },
     {
         "n": "Gogolin",
@@ -1445,7 +1625,8 @@
             50.4915,
             18.0222
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "krapkowicki"
     },
     {
         "n": "Golczewo",
@@ -1453,7 +1634,8 @@
             53.8246,
             14.9785
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "kamieński"
     },
     {
         "n": "Goleniów",
@@ -1461,7 +1643,8 @@
             53.5632,
             14.8296
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "goleniowski"
     },
     {
         "n": "Golina",
@@ -1469,7 +1652,8 @@
             52.245,
             18.0941
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "koniński"
     },
     {
         "n": "Golub-Dobrzyń",
@@ -1477,7 +1661,8 @@
             53.1092,
             19.0524
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "golubsko-dobrzyński"
     },
     {
         "n": "Gołańcz",
@@ -1485,7 +1670,8 @@
             52.9434,
             17.3012
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "wągrowiecki"
     },
     {
         "n": "Gołdap",
@@ -1493,7 +1679,8 @@
             54.3071,
             22.3022
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "gołdapski"
     },
     {
         "n": "Goniądz",
@@ -1501,7 +1688,8 @@
             53.4886,
             22.7325
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "moniecki"
     },
     {
         "n": "Goraj",
@@ -1509,7 +1697,8 @@
             50.7213,
             22.6671
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "biłgorajski"
     },
     {
         "n": "Gorlice",
@@ -1517,7 +1706,8 @@
             49.6549,
             21.16
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "gorlicki"
     },
     {
         "n": "Gorzów Śląski",
@@ -1525,7 +1715,8 @@
             51.0282,
             18.4223
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "oleski"
     },
     {
         "n": "Gorzów Wielkopolski",
@@ -1533,7 +1724,8 @@
             52.7319,
             15.2394
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "Gorzów Wielkopolski"
     },
     {
         "n": "Gostynin",
@@ -1541,7 +1733,8 @@
             52.4291,
             19.4619
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "gostyniński"
     },
     {
         "n": "Gostyń",
@@ -1549,7 +1742,8 @@
             51.8821,
             17.0123
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "gostyński"
     },
     {
         "n": "Gościno",
@@ -1557,7 +1751,8 @@
             54.0514,
             15.6526
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "kołobrzeski"
     },
     {
         "n": "Gozdnica",
@@ -1565,7 +1760,8 @@
             51.4379,
             15.0967
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "żagański"
     },
     {
         "n": "Góra",
@@ -1573,7 +1769,8 @@
             51.668,
             16.539
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "górowski"
     },
     {
         "n": "Góra Kalwaria",
@@ -1581,7 +1778,8 @@
             51.9852,
             21.2163
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "piaseczyński"
     },
     {
         "n": "Górowo Iławeckie",
@@ -1589,7 +1787,8 @@
             54.2878,
             20.4909
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "bartoszycki"
     },
     {
         "n": "Górzno",
@@ -1597,7 +1796,8 @@
             53.1977,
             19.6435
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "brodnicki"
     },
     {
         "n": "Grabów nad Prosną",
@@ -1605,7 +1805,8 @@
             51.5082,
             18.1148
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "ostrzeszowski"
     },
     {
         "n": "Grajewo",
@@ -1613,7 +1814,8 @@
             53.6472,
             22.4548
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "grajewski"
     },
     {
         "n": "Grodków",
@@ -1621,7 +1823,8 @@
             50.6985,
             17.3852
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "brzeski"
     },
     {
         "n": "Grodzisk Mazowiecki",
@@ -1629,7 +1832,8 @@
             52.1042,
             20.6267
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "grodziski"
     },
     {
         "n": "Grodzisk Wielkopolski",
@@ -1637,7 +1841,8 @@
             52.2246,
             16.3642
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "grodziski"
     },
     {
         "n": "Grójec",
@@ -1645,7 +1850,8 @@
             51.8656,
             20.8675
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "grójecki"
     },
     {
         "n": "Grudziądz",
@@ -1653,7 +1859,8 @@
             53.488,
             18.753
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "Grudziądz"
     },
     {
         "n": "Grybów",
@@ -1661,7 +1868,8 @@
             49.6248,
             20.9475
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "nowosądecki"
     },
     {
         "n": "Gryfice",
@@ -1669,7 +1877,8 @@
             53.9161,
             15.1987
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "gryficki"
     },
     {
         "n": "Gryfino",
@@ -1677,7 +1886,8 @@
             53.2567,
             14.4894
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "gryfiński"
     },
     {
         "n": "Gryfów Śląski",
@@ -1685,7 +1895,8 @@
             51.0281,
             15.4147
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "lwówecki"
     },
     {
         "n": "Gubin",
@@ -1693,7 +1904,8 @@
             51.9576,
             14.7204
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "krośnieński"
     },
     {
         "n": "Hajnówka",
@@ -1701,7 +1913,8 @@
             52.7433,
             23.5836
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "hajnowski"
     },
     {
         "n": "Halinów",
@@ -1709,7 +1922,8 @@
             52.2265,
             21.3533
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "miński"
     },
     {
         "n": "Hel",
@@ -1717,7 +1931,8 @@
             54.6075,
             18.8031
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "pucki"
     },
     {
         "n": "Hrubieszów",
@@ -1725,7 +1940,8 @@
             50.8051,
             23.8898
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "hrubieszowski"
     },
     {
         "n": "Iława",
@@ -1733,7 +1949,8 @@
             53.5899,
             19.5668
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "iławski"
     },
     {
         "n": "Iłowa",
@@ -1741,7 +1958,8 @@
             51.5035,
             15.2009
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "żagański"
     },
     {
         "n": "Iłża",
@@ -1749,7 +1967,8 @@
             51.1623,
             21.2373
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "radomski"
     },
     {
         "n": "Imielin",
@@ -1757,7 +1976,8 @@
             50.1462,
             19.1857
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "bieruńsko-lędziński"
     },
     {
         "n": "Inowrocław",
@@ -1765,7 +1985,8 @@
             52.7965,
             18.2616
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "inowrocławski"
     },
     {
         "n": "Ińsko",
@@ -1773,7 +1994,8 @@
             53.4357,
             15.5483
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "stargardzki"
     },
     {
         "n": "Iwonicz-Zdrój",
@@ -1781,7 +2003,8 @@
             49.566,
             21.7928
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "krośnieński"
     },
     {
         "n": "Izbica Kujawska",
@@ -1789,7 +2012,8 @@
             52.4206,
             18.7631
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "włocławski"
     },
     {
         "n": "Jabłonowo Pomorskie",
@@ -1797,7 +2021,8 @@
             53.3886,
             19.1536
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "brodnicki"
     },
     {
         "n": "Janikowo",
@@ -1805,7 +2030,8 @@
             52.7542,
             18.1123
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "inowrocławski"
     },
     {
         "n": "Janowiec Wielkopolski",
@@ -1813,7 +2039,8 @@
             52.7569,
             17.4874
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "żniński"
     },
     {
         "n": "Janów Lubelski",
@@ -1821,7 +2048,8 @@
             50.7066,
             22.411
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "janowski"
     },
     {
         "n": "Jaraczewo",
@@ -1829,7 +2057,8 @@
             51.9688,
             17.2973
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "jarociński"
     },
     {
         "n": "Jarocin",
@@ -1837,7 +2066,8 @@
             51.9724,
             17.5016
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "jarociński"
     },
     {
         "n": "Jarosław",
@@ -1845,7 +2075,8 @@
             50.0188,
             22.6835
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "jarosławski"
     },
     {
         "n": "Jasień",
@@ -1853,7 +2084,8 @@
             51.7511,
             15.0122
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "żarski"
     },
     {
         "n": "Jasło",
@@ -1861,7 +2093,8 @@
             49.7458,
             21.4735
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "jasielski"
     },
     {
         "n": "Jastarnia",
@@ -1869,7 +2102,8 @@
             54.7029,
             18.6715
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "pucki"
     },
     {
         "n": "Jastrowie",
@@ -1877,7 +2111,8 @@
             53.4211,
             16.8155
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "złotowski"
     },
     {
         "n": "Jastrzębie-Zdrój",
@@ -1885,7 +2120,8 @@
             49.9503,
             18.5742
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Jastrzębie-Zdrój"
     },
     {
         "n": "Jawor",
@@ -1893,7 +2129,8 @@
             51.0503,
             16.1936
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "jaworski"
     },
     {
         "n": "Jaworzno",
@@ -1901,7 +2138,8 @@
             50.2042,
             19.2644
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Jaworzno"
     },
     {
         "n": "Jaworzyna Śląska",
@@ -1909,7 +2147,8 @@
             50.9144,
             16.4305
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "świdnicki"
     },
     {
         "n": "Jedlicze",
@@ -1917,7 +2156,8 @@
             49.7124,
             21.6415
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "krośnieński"
     },
     {
         "n": "Jedlina-Zdrój",
@@ -1925,7 +2165,8 @@
             50.7249,
             16.3471
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "wałbrzyski"
     },
     {
         "n": "Jedwabne",
@@ -1933,7 +2174,8 @@
             53.2872,
             22.3025
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "łomżyński"
     },
     {
         "n": "Jelcz-Laskowice",
@@ -1941,7 +2183,8 @@
             51.0399,
             17.3499
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "oławski"
     },
     {
         "n": "Jelenia Góra",
@@ -1949,7 +2192,8 @@
             50.9031,
             15.7346
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "Jelenia Góra"
     },
     {
         "n": "Jeziorany",
@@ -1957,7 +2201,8 @@
             53.9765,
             20.7462
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "olsztyński"
     },
     {
         "n": "Jędrzejów",
@@ -1965,7 +2210,8 @@
             50.6403,
             20.3036
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "jędrzejowski"
     },
     {
         "n": "Jordanów",
@@ -1973,7 +2219,8 @@
             49.6494,
             19.8303
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "suski"
     },
     {
         "n": "Józefów",
@@ -1981,7 +2228,8 @@
             50.4811,
             23.0527
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "biłgorajski"
     },
     {
         "n": "Józefów",
@@ -1989,7 +2237,8 @@
             52.1364,
             21.2353
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "otwocki"
     },
     {
         "n": "Józefów nad Wisłą",
@@ -1997,7 +2246,8 @@
             51.0409,
             21.8296
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "opolski"
     },
     {
         "n": "Jutrosin",
@@ -2005,7 +2255,8 @@
             51.6513,
             17.1692
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "rawicki"
     },
     {
         "n": "Kalety",
@@ -2013,7 +2264,8 @@
             50.566,
             18.889
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "tarnogórski"
     },
     {
         "n": "Kalisz",
@@ -2021,7 +2273,8 @@
             51.7611,
             18.0869
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "Kalisz"
     },
     {
         "n": "Kalisz Pomorski",
@@ -2029,7 +2282,8 @@
             53.2984,
             15.9057
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "drawski"
     },
     {
         "n": "Kalwaria Zebrzydowska",
@@ -2037,7 +2291,8 @@
             49.8665,
             19.6759
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "wadowicki"
     },
     {
         "n": "Kałuszyn",
@@ -2045,7 +2300,8 @@
             52.2087,
             21.8124
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "miński"
     },
     {
         "n": "Kamieniec Ząbkowicki",
@@ -2053,7 +2309,8 @@
             50.525,
             16.8781
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "ząbkowicki"
     },
     {
         "n": "Kamienna Góra",
@@ -2061,7 +2318,8 @@
             50.7834,
             16.0327
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "kamiennogórski"
     },
     {
         "n": "Kamień Krajeński",
@@ -2069,7 +2327,8 @@
             53.5328,
             17.5206
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "sępoleński"
     },
     {
         "n": "Kamień Pomorski",
@@ -2077,7 +2336,8 @@
             53.9686,
             14.7727
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "kamieński"
     },
     {
         "n": "Kamieńsk",
@@ -2085,7 +2345,8 @@
             51.2044,
             19.4969
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "radomszczański"
     },
     {
         "n": "Kamionka",
@@ -2093,7 +2354,8 @@
             51.4708,
             22.4624
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "lubartowski"
     },
     {
         "n": "Kańczuga",
@@ -2101,7 +2363,8 @@
             49.9833,
             22.4117
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "przeworski"
     },
     {
         "n": "Karczew",
@@ -2109,7 +2372,8 @@
             52.0758,
             21.2502
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "otwocki"
     },
     {
         "n": "Kargowa",
@@ -2117,7 +2381,8 @@
             52.0718,
             15.8644
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "zielonogórski"
     },
     {
         "n": "Karlino",
@@ -2125,7 +2390,8 @@
             54.0381,
             15.8792
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "białogardzki"
     },
     {
         "n": "Karpacz",
@@ -2133,7 +2399,8 @@
             50.7747,
             15.7546
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "karkonoski"
     },
     {
         "n": "Kartuzy",
@@ -2141,7 +2408,8 @@
             54.3336,
             18.2028
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "kartuski"
     },
     {
         "n": "Katowice",
@@ -2149,7 +2417,8 @@
             50.2597,
             19.0133
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Katowice"
     },
     {
         "n": "Kazimierz Dolny",
@@ -2157,7 +2426,8 @@
             51.3221,
             21.9474
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "puławski"
     },
     {
         "n": "Kazimierza Wielka",
@@ -2165,7 +2435,8 @@
             50.2676,
             20.4868
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "kazimierski"
     },
     {
         "n": "Kąty Wrocławskie",
@@ -2173,7 +2444,8 @@
             51.0299,
             16.7711
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "wrocławski"
     },
     {
         "n": "Kcynia",
@@ -2181,7 +2453,8 @@
             52.9917,
             17.4872
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "nakielski"
     },
     {
         "n": "Kędzierzyn-Koźle",
@@ -2189,7 +2462,8 @@
             50.3442,
             18.2073
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "kędzierzyńsko-kozielski"
     },
     {
         "n": "Kępice",
@@ -2197,7 +2471,8 @@
             54.2422,
             16.8878
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "słupski"
     },
     {
         "n": "Kępno",
@@ -2205,7 +2480,8 @@
             51.2791,
             17.9835
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "kępiński"
     },
     {
         "n": "Kętrzyn",
@@ -2213,7 +2489,8 @@
             54.0772,
             21.3748
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "kętrzyński"
     },
     {
         "n": "Kęty",
@@ -2221,7 +2498,8 @@
             49.8837,
             19.2224
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "oświęcimski"
     },
     {
         "n": "Kielce",
@@ -2229,7 +2507,8 @@
             50.8717,
             20.6315
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "Kielce"
     },
     {
         "n": "Kietrz",
@@ -2237,7 +2516,8 @@
             50.0796,
             18.0022
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "głubczycki"
     },
     {
         "n": "Kisielice",
@@ -2245,7 +2525,8 @@
             53.6091,
             19.259
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "iławski"
     },
     {
         "n": "Kleczew",
@@ -2253,7 +2534,8 @@
             52.3709,
             18.173
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "koniński"
     },
     {
         "n": "Kleszczele",
@@ -2261,7 +2543,8 @@
             52.575,
             23.3258
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "hajnowski"
     },
     {
         "n": "Klimontów",
@@ -2269,7 +2552,8 @@
             50.6565,
             21.4504
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "sandomierski"
     },
     {
         "n": "Kluczbork",
@@ -2277,7 +2561,8 @@
             50.9731,
             18.2146
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "kluczborski"
     },
     {
         "n": "Kłecko",
@@ -2285,7 +2570,8 @@
             52.6318,
             17.4296
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "gnieźnieński"
     },
     {
         "n": "Kłobuck",
@@ -2293,7 +2579,8 @@
             50.9052,
             18.9378
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "kłobucki"
     },
     {
         "n": "Kłodawa",
@@ -2301,7 +2588,8 @@
             52.2535,
             18.9132
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "kolski"
     },
     {
         "n": "Kłodzko",
@@ -2309,7 +2597,8 @@
             50.4374,
             16.6528
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "kłodzki"
     },
     {
         "n": "Knurów",
@@ -2317,7 +2606,8 @@
             50.2231,
             18.6669
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "gliwicki"
     },
     {
         "n": "Knyszyn",
@@ -2325,7 +2615,8 @@
             53.3127,
             22.9195
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "moniecki"
     },
     {
         "n": "Kobylin",
@@ -2333,7 +2624,8 @@
             51.7166,
             17.2267
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "krotoszyński"
     },
     {
         "n": "Kobyłka",
@@ -2341,7 +2633,8 @@
             52.3393,
             21.1973
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "wołomiński"
     },
     {
         "n": "Kock",
@@ -2349,7 +2642,8 @@
             51.6397,
             22.4464
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "lubartowski"
     },
     {
         "n": "Kolbuszowa",
@@ -2357,7 +2651,8 @@
             50.2432,
             21.7741
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "kolbuszowski"
     },
     {
         "n": "Kolno",
@@ -2365,7 +2660,8 @@
             53.4092,
             21.9353
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "kolneński"
     },
     {
         "n": "Kolonowskie",
@@ -2373,7 +2669,8 @@
             50.6532,
             18.3842
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "strzelecki"
     },
     {
         "n": "Koluszki",
@@ -2381,7 +2678,8 @@
             51.745,
             19.8173
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "łódzki wschodni"
     },
     {
         "n": "Kołaczyce",
@@ -2389,7 +2687,8 @@
             49.8071,
             21.4336
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "jasielski"
     },
     {
         "n": "Koło",
@@ -2397,7 +2696,8 @@
             52.2044,
             18.6326
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "kolski"
     },
     {
         "n": "Kołobrzeg",
@@ -2405,7 +2705,8 @@
             54.1798,
             15.5723
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "kołobrzeski"
     },
     {
         "n": "Koniecpol",
@@ -2413,7 +2714,8 @@
             50.7727,
             19.6768
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "częstochowski"
     },
     {
         "n": "Konin",
@@ -2421,7 +2723,8 @@
             52.2281,
             18.2541
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "Konin"
     },
     {
         "n": "Konstancin-Jeziorna",
@@ -2429,7 +2732,8 @@
             52.0928,
             21.1182
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "piaseczyński"
     },
     {
         "n": "Konstantynów Łódzki",
@@ -2437,7 +2741,8 @@
             51.7479,
             19.3255
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "pabianicki"
     },
     {
         "n": "Końskie",
@@ -2445,7 +2750,8 @@
             51.1916,
             20.4071
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "konecki"
     },
     {
         "n": "Koprzywnica",
@@ -2453,7 +2759,8 @@
             50.5932,
             21.5846
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "sandomierski"
     },
     {
         "n": "Korfantów",
@@ -2461,7 +2768,8 @@
             50.4881,
             17.5955
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "nyski"
     },
     {
         "n": "Koronowo",
@@ -2469,7 +2777,8 @@
             53.3101,
             17.9422
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "bydgoski"
     },
     {
         "n": "Korsze",
@@ -2477,7 +2786,8 @@
             54.1723,
             21.1407
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "kętrzyński"
     },
     {
         "n": "Kosów Lacki",
@@ -2485,7 +2795,8 @@
             52.5959,
             22.1471
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "sokołowski"
     },
     {
         "n": "Kostrzyn",
@@ -2493,7 +2804,8 @@
             52.3973,
             17.2255
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "poznański"
     },
     {
         "n": "Kostrzyn nad Odrą",
@@ -2501,7 +2813,8 @@
             52.5899,
             14.6475
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "gorzowski"
     },
     {
         "n": "Koszalin",
@@ -2509,7 +2822,8 @@
             54.1902,
             16.1819
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "Koszalin"
     },
     {
         "n": "Koszyce",
@@ -2517,7 +2831,8 @@
             50.1685,
             20.5777
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "proszowicki"
     },
     {
         "n": "Kościan",
@@ -2525,7 +2840,8 @@
             52.0859,
             16.6442
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "kościański"
     },
     {
         "n": "Kościerzyna",
@@ -2533,7 +2849,8 @@
             54.1211,
             17.9775
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "kościerski"
     },
     {
         "n": "Kowal",
@@ -2541,7 +2858,8 @@
             52.5305,
             19.1487
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "włocławski"
     },
     {
         "n": "Kowalewo Pomorskie",
@@ -2549,7 +2867,8 @@
             53.1547,
             18.8982
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "golubsko-dobrzyński"
     },
     {
         "n": "Kowary",
@@ -2557,7 +2876,8 @@
             50.7924,
             15.8365
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "karkonoski"
     },
     {
         "n": "Koziegłowy",
@@ -2565,7 +2885,8 @@
             50.5983,
             19.1619
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "myszkowski"
     },
     {
         "n": "Kozienice",
@@ -2573,7 +2894,8 @@
             51.585,
             21.5494
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "kozienicki"
     },
     {
         "n": "Koźmin Wielkopolski",
@@ -2581,7 +2903,8 @@
             51.8272,
             17.4529
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "krotoszyński"
     },
     {
         "n": "Koźminek",
@@ -2589,7 +2912,8 @@
             51.7996,
             18.3354
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "kaliski"
     },
     {
         "n": "Kożuchów",
@@ -2597,7 +2921,8 @@
             51.7453,
             15.5944
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "nowosolski"
     },
     {
         "n": "Kórnik",
@@ -2605,7 +2930,8 @@
             52.2486,
             17.0897
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "poznański"
     },
     {
         "n": "Krajenka",
@@ -2613,7 +2939,8 @@
             53.2971,
             16.9904
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "złotowski"
     },
     {
         "n": "Kraków",
@@ -2621,7 +2948,8 @@
             50.0618,
             19.9374
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "Kraków"
     },
     {
         "n": "Krapkowice",
@@ -2629,7 +2957,8 @@
             50.4746,
             17.9671
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "krapkowicki"
     },
     {
         "n": "Krasnobród",
@@ -2637,7 +2966,8 @@
             50.5449,
             23.2113
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "zamojski"
     },
     {
         "n": "Krasnystaw",
@@ -2645,7 +2975,8 @@
             50.9815,
             23.1673
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "krasnostawski"
     },
     {
         "n": "Kraśnik",
@@ -2653,7 +2984,8 @@
             50.9217,
             22.2195
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "kraśnicki"
     },
     {
         "n": "Krobia",
@@ -2661,7 +2993,8 @@
             51.7742,
             16.9846
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "gostyński"
     },
     {
         "n": "Krosno",
@@ -2669,7 +3002,8 @@
             49.692,
             21.767
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "Krosno"
     },
     {
         "n": "Krosno Odrzańskie",
@@ -2677,7 +3011,8 @@
             52.0522,
             15.0973
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "krośnieński"
     },
     {
         "n": "Krośniewice",
@@ -2685,7 +3020,8 @@
             52.2561,
             19.1707
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "kutnowski"
     },
     {
         "n": "Krotoszyn",
@@ -2693,7 +3029,8 @@
             51.6957,
             17.4376
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "krotoszyński"
     },
     {
         "n": "Kruszwica",
@@ -2701,7 +3038,8 @@
             52.6762,
             18.323
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "inowrocławski"
     },
     {
         "n": "Krynica Morska",
@@ -2709,7 +3047,8 @@
             54.38,
             19.4369
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "nowodworski"
     },
     {
         "n": "Krynica-Zdrój",
@@ -2717,7 +3056,8 @@
             49.4214,
             20.9597
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "nowosądecki"
     },
     {
         "n": "Krynki",
@@ -2725,7 +3065,8 @@
             53.2644,
             23.7744
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "sokólski"
     },
     {
         "n": "Krzanowice",
@@ -2733,7 +3074,8 @@
             50.0187,
             18.1252
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "raciborski"
     },
     {
         "n": "Krzepice",
@@ -2741,7 +3083,8 @@
             50.9708,
             18.7283
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "kłobucki"
     },
     {
         "n": "Krzeszowice",
@@ -2749,7 +3092,8 @@
             50.1351,
             19.6366
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "krakowski"
     },
     {
         "n": "Krzywiń",
@@ -2757,7 +3101,8 @@
             51.9617,
             16.8208
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "kościański"
     },
     {
         "n": "Krzyż Wielkopolski",
@@ -2765,7 +3110,8 @@
             52.8791,
             16.0136
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "czarnkowsko-trzcianecki"
     },
     {
         "n": "Książ Wielkopolski",
@@ -2773,7 +3119,8 @@
             52.0624,
             17.2392
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "śremski"
     },
     {
         "n": "Kudowa-Zdrój",
@@ -2781,7 +3128,8 @@
             50.4409,
             16.2406
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "kłodzki"
     },
     {
         "n": "Kunów",
@@ -2789,7 +3137,8 @@
             50.9547,
             21.2794
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "ostrowiecki"
     },
     {
         "n": "Kutno",
@@ -2797,7 +3146,8 @@
             52.2342,
             19.3578
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "kutnowski"
     },
     {
         "n": "Kuźnia Raciborska",
@@ -2805,7 +3155,8 @@
             50.2003,
             18.3113
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "raciborski"
     },
     {
         "n": "Kwidzyn",
@@ -2813,7 +3164,8 @@
             53.7358,
             18.9389
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "kwidzyński"
     },
     {
         "n": "Lądek-Zdrój",
@@ -2821,7 +3173,8 @@
             50.3425,
             16.8872
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "kłodzki"
     },
     {
         "n": "Legionowo",
@@ -2829,7 +3182,8 @@
             52.4033,
             20.9269
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "legionowski"
     },
     {
         "n": "Legnica",
@@ -2837,7 +3191,8 @@
             51.2066,
             16.1628
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "Legnica"
     },
     {
         "n": "Lesko",
@@ -2845,7 +3200,8 @@
             49.4718,
             22.3285
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "leski"
     },
     {
         "n": "Leszno",
@@ -2853,7 +3209,8 @@
             51.8433,
             16.5744
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "Leszno"
     },
     {
         "n": "Leśna",
@@ -2861,7 +3218,8 @@
             51.0238,
             15.264
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "lubański"
     },
     {
         "n": "Leśnica",
@@ -2869,7 +3227,8 @@
             50.4287,
             18.183
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "strzelecki"
     },
     {
         "n": "Lewin Brzeski",
@@ -2877,7 +3236,8 @@
             50.7552,
             17.6161
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "brzeski"
     },
     {
         "n": "Leżajsk",
@@ -2885,7 +3245,8 @@
             50.263,
             22.4183
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "leżajski"
     },
     {
         "n": "Lębork",
@@ -2893,7 +3254,8 @@
             54.5435,
             17.7499
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "lęborski"
     },
     {
         "n": "Lędziny",
@@ -2901,7 +3263,8 @@
             50.1303,
             19.1084
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "bieruńsko-lędziński"
     },
     {
         "n": "Libiąż",
@@ -2909,7 +3272,8 @@
             50.1066,
             19.3298
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "chrzanowski"
     },
     {
         "n": "Lidzbark",
@@ -2917,7 +3281,8 @@
             53.2613,
             19.8222
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "działdowski"
     },
     {
         "n": "Lidzbark Warmiński",
@@ -2925,7 +3290,8 @@
             54.1259,
             20.5829
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "lidzbarski"
     },
     {
         "n": "Limanowa",
@@ -2933,7 +3299,8 @@
             49.7065,
             20.4227
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "limanowski"
     },
     {
         "n": "Lipiany",
@@ -2941,7 +3308,8 @@
             53.0029,
             14.9689
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "pyrzycki"
     },
     {
         "n": "Lipno",
@@ -2949,7 +3317,8 @@
             52.8458,
             19.1815
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "lipnowski"
     },
     {
         "n": "Lipsk",
@@ -2957,7 +3326,8 @@
             53.7331,
             23.4044
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "augustowski"
     },
     {
         "n": "Lipsko",
@@ -2965,7 +3335,8 @@
             51.1581,
             21.6492
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "lipski"
     },
     {
         "n": "Lubaczów",
@@ -2973,7 +3344,8 @@
             50.1574,
             23.1224
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "lubaczowski"
     },
     {
         "n": "Lubań",
@@ -2981,7 +3353,8 @@
             51.12,
             15.2894
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "lubański"
     },
     {
         "n": "Lubartów",
@@ -2989,7 +3362,8 @@
             51.4577,
             22.6095
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "lubartowski"
     },
     {
         "n": "Lubawa",
@@ -2997,7 +3371,8 @@
             53.5035,
             19.7482
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "iławski"
     },
     {
         "n": "Lubawka",
@@ -3005,7 +3380,8 @@
             50.7068,
             15.9999
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "kamiennogórski"
     },
     {
         "n": "Lubień Kujawski",
@@ -3013,7 +3389,8 @@
             52.4053,
             19.1657
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "włocławski"
     },
     {
         "n": "Lubin",
@@ -3021,7 +3398,8 @@
             51.3986,
             16.2033
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "lubiński"
     },
     {
         "n": "Lublin",
@@ -3029,7 +3407,8 @@
             51.2479,
             22.568
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "Lublin"
     },
     {
         "n": "Lubliniec",
@@ -3037,7 +3416,8 @@
             50.6692,
             18.6831
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "lubliniecki"
     },
     {
         "n": "Lubniewice",
@@ -3045,7 +3425,8 @@
             52.5126,
             15.2448
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "sulęciński"
     },
     {
         "n": "Lubomierz",
@@ -3053,7 +3434,8 @@
             51.0128,
             15.5105
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "lwówecki"
     },
     {
         "n": "Luboń",
@@ -3061,7 +3443,8 @@
             52.3459,
             16.8777
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "poznański"
     },
     {
         "n": "Lubowidz",
@@ -3069,7 +3452,8 @@
             53.1202,
             19.8448
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "żuromiński"
     },
     {
         "n": "Lubraniec",
@@ -3077,7 +3461,8 @@
             52.5439,
             18.8357
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "włocławski"
     },
     {
         "n": "Lubsko",
@@ -3085,7 +3470,8 @@
             51.7855,
             14.9685
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "żarski"
     },
     {
         "n": "Lubycza Królewska",
@@ -3093,7 +3479,8 @@
             50.3406,
             23.5207
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "tomaszowski"
     },
     {
         "n": "Lututów",
@@ -3101,7 +3488,8 @@
             51.3713,
             18.4342
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "wieruszowski"
     },
     {
         "n": "Lwówek",
@@ -3109,7 +3497,8 @@
             52.448,
             16.1808
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "nowotomyski"
     },
     {
         "n": "Lwówek Śląski",
@@ -3117,7 +3506,8 @@
             51.1108,
             15.585
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "lwówecki"
     },
     {
         "n": "Łabiszyn",
@@ -3125,7 +3515,8 @@
             52.953,
             17.919
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "żniński"
     },
     {
         "n": "Łagów",
@@ -3133,7 +3524,8 @@
             50.775,
             21.0841
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "kielecki"
     },
     {
         "n": "Łańcut",
@@ -3141,7 +3533,8 @@
             50.0657,
             22.2274
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "łańcucki"
     },
     {
         "n": "Łapy",
@@ -3149,7 +3542,8 @@
             52.9894,
             22.8797
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "białostocki"
     },
     {
         "n": "Łasin",
@@ -3157,7 +3551,8 @@
             53.5186,
             19.0864
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "grudziądzki"
     },
     {
         "n": "Łask",
@@ -3165,7 +3560,8 @@
             51.5914,
             19.1336
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "łaski"
     },
     {
         "n": "Łaskarzew",
@@ -3173,7 +3569,8 @@
             51.7903,
             21.5931
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "garwoliński"
     },
     {
         "n": "Łaszczów",
@@ -3181,7 +3578,8 @@
             50.5318,
             23.7157
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "tomaszowski"
     },
     {
         "n": "Łaziska Górne",
@@ -3189,7 +3587,8 @@
             50.1494,
             18.8397
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "mikołowski"
     },
     {
         "n": "Łazy",
@@ -3197,7 +3596,8 @@
             50.4275,
             19.3942
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "zawierciański"
     },
     {
         "n": "Łeba",
@@ -3205,7 +3605,8 @@
             54.7607,
             17.5566
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "lęborski"
     },
     {
         "n": "Łęczna",
@@ -3213,7 +3614,8 @@
             51.3048,
             22.8822
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "łęczyński"
     },
     {
         "n": "Łęczyca",
@@ -3221,7 +3623,8 @@
             52.0593,
             19.1984
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "łęczycki"
     },
     {
         "n": "Łęknica",
@@ -3229,7 +3632,8 @@
             51.5367,
             14.7426
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "żarski"
     },
     {
         "n": "Łobez",
@@ -3237,7 +3641,8 @@
             53.6394,
             15.6219
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "łobeski"
     },
     {
         "n": "Łobżenica",
@@ -3245,7 +3650,8 @@
             53.2603,
             17.2553
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "pilski"
     },
     {
         "n": "Łochów",
@@ -3253,7 +3659,8 @@
             52.5307,
             21.6816
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "węgrowski"
     },
     {
         "n": "Łomianki",
@@ -3261,7 +3668,8 @@
             52.3336,
             20.8869
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "warszawski zachodni"
     },
     {
         "n": "Łomża",
@@ -3269,7 +3677,8 @@
             53.1786,
             22.0756
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "Łomża"
     },
     {
         "n": "Łosice",
@@ -3277,7 +3686,8 @@
             52.2111,
             22.7177
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "łosicki"
     },
     {
         "n": "Łowicz",
@@ -3285,7 +3695,8 @@
             52.1081,
             19.946
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "łowicki"
     },
     {
         "n": "Łódź",
@@ -3293,7 +3704,8 @@
             51.7644,
             19.4631
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "Łódź"
     },
     {
         "n": "Łuków",
@@ -3301,7 +3713,8 @@
             51.93,
             22.3807
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "łukowski"
     },
     {
         "n": "Maków Mazowiecki",
@@ -3309,7 +3722,8 @@
             52.8631,
             21.1017
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "makowski"
     },
     {
         "n": "Maków Podhalański",
@@ -3317,7 +3731,8 @@
             49.7303,
             19.6764
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "suski"
     },
     {
         "n": "Malbork",
@@ -3325,7 +3740,8 @@
             54.0359,
             19.0285
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "malborski"
     },
     {
         "n": "Małogoszcz",
@@ -3333,7 +3749,8 @@
             50.8121,
             20.2642
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "jędrzejowski"
     },
     {
         "n": "Małomice",
@@ -3341,7 +3758,8 @@
             51.5553,
             15.4486
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "żagański"
     },
     {
         "n": "Margonin",
@@ -3349,7 +3767,8 @@
             52.9734,
             17.0944
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "chodzieski"
     },
     {
         "n": "Marki",
@@ -3357,7 +3776,8 @@
             52.3375,
             21.1146
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "wołomiński"
     },
     {
         "n": "Maszewo",
@@ -3365,7 +3785,8 @@
             53.4978,
             15.0596
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "goleniowski"
     },
     {
         "n": "Miasteczko Śląskie",
@@ -3373,7 +3794,8 @@
             50.4906,
             18.9222
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "tarnogórski"
     },
     {
         "n": "Miastko",
@@ -3381,7 +3803,8 @@
             54.0003,
             16.9764
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "bytowski"
     },
     {
         "n": "Michałowo",
@@ -3389,7 +3812,8 @@
             53.0333,
             23.6064
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "białostocki"
     },
     {
         "n": "Miechów",
@@ -3397,7 +3821,8 @@
             50.3558,
             20.0286
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "miechowski"
     },
     {
         "n": "Miejska Górka",
@@ -3405,7 +3830,8 @@
             51.6554,
             16.9569
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "rawicki"
     },
     {
         "n": "Mielec",
@@ -3413,7 +3839,8 @@
             50.288,
             21.4207
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "mielecki"
     },
     {
         "n": "Mielno",
@@ -3421,7 +3848,8 @@
             54.256,
             16.0521
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "koszaliński"
     },
     {
         "n": "Mieroszów",
@@ -3429,7 +3857,8 @@
             50.6664,
             16.1867
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "wałbrzyski"
     },
     {
         "n": "Mieszkowice",
@@ -3437,7 +3866,8 @@
             52.7868,
             14.4933
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "gryfiński"
     },
     {
         "n": "Międzybórz",
@@ -3445,7 +3875,8 @@
             51.3979,
             17.665
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "oleśnicki"
     },
     {
         "n": "Międzychód",
@@ -3453,7 +3884,8 @@
             52.6045,
             15.8995
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "międzychodzki"
     },
     {
         "n": "Międzylesie",
@@ -3461,7 +3893,8 @@
             50.1477,
             16.6673
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "kłodzki"
     },
     {
         "n": "Międzyrzec Podlaski",
@@ -3469,7 +3902,8 @@
             51.9873,
             22.7807
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "bialski"
     },
     {
         "n": "Międzyrzecz",
@@ -3477,7 +3911,8 @@
             52.4455,
             15.5786
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "międzyrzecki"
     },
     {
         "n": "Międzyzdroje",
@@ -3485,7 +3920,8 @@
             53.9288,
             14.4502
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "kamieński"
     },
     {
         "n": "Mikołajki",
@@ -3493,7 +3929,8 @@
             53.8035,
             21.5718
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "mrągowski"
     },
     {
         "n": "Mikołów",
@@ -3501,7 +3938,8 @@
             50.1697,
             18.9053
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "mikołowski"
     },
     {
         "n": "Mikstat",
@@ -3509,7 +3947,8 @@
             51.5321,
             17.973
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "ostrzeszowski"
     },
     {
         "n": "Milanówek",
@@ -3517,7 +3956,8 @@
             52.1253,
             20.6656
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "grodziski"
     },
     {
         "n": "Milicz",
@@ -3525,7 +3965,8 @@
             51.5243,
             17.2727
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "milicki"
     },
     {
         "n": "Miłakowo",
@@ -3533,7 +3974,8 @@
             54.009,
             20.0697
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "ostródzki"
     },
     {
         "n": "Miłomłyn",
@@ -3541,7 +3983,8 @@
             53.7646,
             19.8367
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "ostródzki"
     },
     {
         "n": "Miłosław",
@@ -3549,7 +3992,8 @@
             52.2028,
             17.4886
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "wrzesiński"
     },
     {
         "n": "Mińsk Mazowiecki",
@@ -3557,7 +4001,8 @@
             52.1784,
             21.5714
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "miński"
     },
     {
         "n": "Mirosławiec",
@@ -3565,7 +4010,8 @@
             53.3415,
             16.0881
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "wałecki"
     },
     {
         "n": "Mirsk",
@@ -3573,7 +4019,8 @@
             50.9701,
             15.3831
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "lwówecki"
     },
     {
         "n": "Mława",
@@ -3581,7 +4028,8 @@
             53.1114,
             20.3817
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "mławski"
     },
     {
         "n": "Młynary",
@@ -3589,7 +4037,8 @@
             54.1878,
             19.7228
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "elbląski"
     },
     {
         "n": "Modliborzyce",
@@ -3597,7 +4046,8 @@
             50.7539,
             22.3294
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "janowski"
     },
     {
         "n": "Mogielnica",
@@ -3605,7 +4055,8 @@
             51.6944,
             20.7231
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "grójecki"
     },
     {
         "n": "Mogilno",
@@ -3613,7 +4064,8 @@
             52.6577,
             17.9499
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "mogileński"
     },
     {
         "n": "Mońki",
@@ -3621,7 +4073,8 @@
             53.405,
             22.7994
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "moniecki"
     },
     {
         "n": "Morawica",
@@ -3629,7 +4082,8 @@
             50.7451,
             20.6203
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "kielecki"
     },
     {
         "n": "Morąg",
@@ -3637,7 +4091,8 @@
             53.9162,
             19.929
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "ostródzki"
     },
     {
         "n": "Mordy",
@@ -3645,7 +4100,8 @@
             52.2109,
             22.5167
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "siedlecki"
     },
     {
         "n": "Moryń",
@@ -3653,7 +4109,8 @@
             52.8576,
             14.3985
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "gryfiński"
     },
     {
         "n": "Mosina",
@@ -3661,7 +4118,8 @@
             52.2446,
             16.8506
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "poznański"
     },
     {
         "n": "Mrągowo",
@@ -3669,7 +4127,8 @@
             53.8767,
             21.3042
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "mrągowski"
     },
     {
         "n": "Mrocza",
@@ -3677,7 +4136,8 @@
             53.2455,
             17.607
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "nakielski"
     },
     {
         "n": "Mrozy",
@@ -3685,7 +4145,8 @@
             52.1657,
             21.8026
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "miński"
     },
     {
         "n": "Mszana Dolna",
@@ -3693,7 +4154,8 @@
             49.678,
             20.0824
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "limanowski"
     },
     {
         "n": "Mszczonów",
@@ -3701,7 +4163,8 @@
             51.9722,
             20.5207
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "żyrardowski"
     },
     {
         "n": "Murowana Goślina",
@@ -3709,7 +4172,8 @@
             52.5758,
             17.0094
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "poznański"
     },
     {
         "n": "Muszyna",
@@ -3717,7 +4181,8 @@
             49.3548,
             20.896
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "nowosądecki"
     },
     {
         "n": "Mysłowice",
@@ -3725,7 +4190,8 @@
             50.245,
             19.1353
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Mysłowice"
     },
     {
         "n": "Myszków",
@@ -3733,7 +4199,8 @@
             50.5739,
             19.3233
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "myszkowski"
     },
     {
         "n": "Myszyniec",
@@ -3741,7 +4208,8 @@
             53.3823,
             21.3447
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "ostrołęcki"
     },
     {
         "n": "Myślenice",
@@ -3749,7 +4217,8 @@
             49.8338,
             19.9381
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "myślenicki"
     },
     {
         "n": "Myślibórz",
@@ -3757,7 +4226,8 @@
             52.9251,
             14.8677
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "myśliborski"
     },
     {
         "n": "Nakło nad Notecią",
@@ -3765,7 +4235,8 @@
             53.1386,
             17.6047
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "nakielski"
     },
     {
         "n": "Nałęczów",
@@ -3773,7 +4244,8 @@
             51.2878,
             22.2153
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "puławski"
     },
     {
         "n": "Namysłów",
@@ -3781,7 +4253,8 @@
             51.0766,
             17.7173
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "namysłowski"
     },
     {
         "n": "Narol",
@@ -3789,7 +4262,8 @@
             50.3488,
             23.3269
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "lubaczowski"
     },
     {
         "n": "Nasielsk",
@@ -3797,7 +4271,8 @@
             52.5922,
             20.8028
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "nowodworski"
     },
     {
         "n": "Nekla",
@@ -3805,7 +4280,8 @@
             52.3644,
             17.4124
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "wrzesiński"
     },
     {
         "n": "Nidzica",
@@ -3813,7 +4289,8 @@
             53.3598,
             20.4259
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "nidzicki"
     },
     {
         "n": "Niemcza",
@@ -3821,7 +4298,8 @@
             50.7167,
             16.835
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "dzierżoniowski"
     },
     {
         "n": "Niemodlin",
@@ -3829,7 +4307,8 @@
             50.6423,
             17.6194
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "opolski"
     },
     {
         "n": "Niepołomice",
@@ -3837,7 +4316,8 @@
             50.0331,
             20.2164
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "wielicki"
     },
     {
         "n": "Nieszawa",
@@ -3845,7 +4325,8 @@
             52.8341,
             18.9024
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "aleksandrowski"
     },
     {
         "n": "Nisko",
@@ -3853,7 +4334,8 @@
             50.5185,
             22.1477
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "niżański"
     },
     {
         "n": "Nowa Dęba",
@@ -3861,7 +4343,8 @@
             50.415,
             21.7528
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "tarnobrzeski"
     },
     {
         "n": "Nowa Ruda",
@@ -3869,7 +4352,8 @@
             50.5788,
             16.5024
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "kłodzki"
     },
     {
         "n": "Nowa Sarzyna",
@@ -3877,7 +4361,8 @@
             50.3204,
             22.3437
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "leżajski"
     },
     {
         "n": "Nowa Słupia",
@@ -3885,7 +4370,8 @@
             50.8638,
             21.0899
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "kielecki"
     },
     {
         "n": "Nowa Sól",
@@ -3893,7 +4379,8 @@
             51.8058,
             15.7164
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "nowosolski"
     },
     {
         "n": "Nowe",
@@ -3901,7 +4388,8 @@
             53.6488,
             18.7262
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "świecki"
     },
     {
         "n": "Nowe Brzesko",
@@ -3909,7 +4397,8 @@
             50.1311,
             20.3744
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "proszowicki"
     },
     {
         "n": "Nowe Miasteczko",
@@ -3917,7 +4406,8 @@
             51.6905,
             15.7306
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "nowosolski"
     },
     {
         "n": "Nowe Miasto Lubawskie",
@@ -3925,7 +4415,8 @@
             53.424,
             19.5923
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "nowomiejski"
     },
     {
         "n": "Nowe Miasto nad Pilicą",
@@ -3933,7 +4424,8 @@
             51.6181,
             20.5814
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "grójecki"
     },
     {
         "n": "Nowe Skalmierzyce",
@@ -3941,7 +4433,8 @@
             51.7087,
             17.9917
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "ostrowski"
     },
     {
         "n": "Nowe Warpno",
@@ -3949,7 +4442,8 @@
             53.7227,
             14.2881
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "policki"
     },
     {
         "n": "Nowogard",
@@ -3957,7 +4451,8 @@
             53.6682,
             15.1244
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "goleniowski"
     },
     {
         "n": "Nowogrodziec",
@@ -3965,7 +4460,8 @@
             51.1971,
             15.398
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "bolesławiecki"
     },
     {
         "n": "Nowogród",
@@ -3973,7 +4469,8 @@
             53.2261,
             21.8792
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "łomżyński"
     },
     {
         "n": "Nowogród Bobrzański",
@@ -3981,7 +4478,8 @@
             51.8012,
             15.2469
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "zielonogórski"
     },
     {
         "n": "Nowy Dwór Gdański",
@@ -3989,7 +4487,8 @@
             54.2139,
             19.1172
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "nowodworski"
     },
     {
         "n": "Nowy Dwór Mazowiecki",
@@ -3997,7 +4496,8 @@
             52.4306,
             20.7164
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "nowodworski"
     },
     {
         "n": "Nowy Korczyn",
@@ -4005,7 +4505,8 @@
             50.2997,
             20.8081
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "buski"
     },
     {
         "n": "Nowy Sącz",
@@ -4013,7 +4514,8 @@
             49.625,
             20.6906
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "Nowy Sącz"
     },
     {
         "n": "Nowy Staw",
@@ -4021,7 +4523,8 @@
             54.1347,
             19.0081
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "malborski"
     },
     {
         "n": "Nowy Targ",
@@ -4029,7 +4532,8 @@
             49.4775,
             20.0321
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "nowotarski"
     },
     {
         "n": "Nowy Tomyśl",
@@ -4037,7 +4541,8 @@
             52.3167,
             16.1326
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "nowotomyski"
     },
     {
         "n": "Nowy Wiśnicz",
@@ -4045,7 +4550,8 @@
             49.9152,
             20.4621
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "bocheński"
     },
     {
         "n": "Nysa",
@@ -4053,7 +4559,8 @@
             50.4737,
             17.3327
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "nyski"
     },
     {
         "n": "Oborniki",
@@ -4061,7 +4568,8 @@
             52.6458,
             16.8089
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "obornicki"
     },
     {
         "n": "Oborniki Śląskie",
@@ -4069,7 +4577,8 @@
             51.2995,
             16.914
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "trzebnicki"
     },
     {
         "n": "Obrzycko",
@@ -4077,7 +4586,8 @@
             52.7081,
             16.5268
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "szamotulski"
     },
     {
         "n": "Odolanów",
@@ -4085,7 +4595,8 @@
             51.5741,
             17.6736
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "ostrowski"
     },
     {
         "n": "Ogrodzieniec",
@@ -4093,7 +4604,8 @@
             50.4514,
             19.5217
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "zawierciański"
     },
     {
         "n": "Okonek",
@@ -4101,7 +4613,8 @@
             53.5352,
             16.8497
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "złotowski"
     },
     {
         "n": "Olecko",
@@ -4109,7 +4622,8 @@
             54.0379,
             22.5027
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "olecki"
     },
     {
         "n": "Olesno",
@@ -4117,7 +4631,8 @@
             50.8766,
             18.4218
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "oleski"
     },
     {
         "n": "Oleszyce",
@@ -4125,7 +4640,8 @@
             50.1681,
             23.0317
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "lubaczowski"
     },
     {
         "n": "Oleśnica",
@@ -4133,7 +4649,8 @@
             51.2095,
             17.3803
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "oleśnicki"
     },
     {
         "n": "Oleśnica",
@@ -4141,7 +4658,8 @@
             50.4505,
             21.064
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "staszowski"
     },
     {
         "n": "Olkusz",
@@ -4149,7 +4667,8 @@
             50.279,
             19.56
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "olkuski"
     },
     {
         "n": "Olsztyn",
@@ -4157,7 +4676,8 @@
             53.7789,
             20.48
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "Olsztyn"
     },
     {
         "n": "Olsztynek",
@@ -4165,7 +4685,8 @@
             53.5833,
             20.2852
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "olsztyński"
     },
     {
         "n": "Olszyna",
@@ -4173,7 +4694,8 @@
             51.0671,
             15.3783
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "lubański"
     },
     {
         "n": "Oława",
@@ -4181,7 +4703,8 @@
             50.9406,
             17.2987
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "oławski"
     },
     {
         "n": "Opalenica",
@@ -4189,7 +4712,8 @@
             52.3075,
             16.4131
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "nowotomyski"
     },
     {
         "n": "Opatowiec",
@@ -4197,7 +4721,8 @@
             50.2417,
             20.7239
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "kazimierski"
     },
     {
         "n": "Opatów",
@@ -4205,7 +4730,8 @@
             50.8014,
             21.4239
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "opatowski"
     },
     {
         "n": "Opatówek",
@@ -4213,7 +4739,8 @@
             51.7395,
             18.2141
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "kaliski"
     },
     {
         "n": "Opoczno",
@@ -4221,7 +4748,8 @@
             51.3761,
             20.283
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "opoczyński"
     },
     {
         "n": "Opole",
@@ -4229,7 +4757,8 @@
             50.6686,
             17.9223
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "Opole"
     },
     {
         "n": "Opole Lubelskie",
@@ -4237,7 +4766,8 @@
             51.1473,
             21.9691
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "opolski"
     },
     {
         "n": "Orneta",
@@ -4245,7 +4775,8 @@
             54.1164,
             20.1311
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "lidzbarski"
     },
     {
         "n": "Orzesze",
@@ -4253,7 +4784,8 @@
             50.1444,
             18.7761
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "mikołowski"
     },
     {
         "n": "Orzysz",
@@ -4261,7 +4793,8 @@
             53.8087,
             21.9465
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "piski"
     },
     {
         "n": "Osieczna",
@@ -4269,7 +4802,8 @@
             51.9043,
             16.6776
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "leszczyński"
     },
     {
         "n": "Osiek",
@@ -4277,7 +4811,8 @@
             50.52,
             21.4428
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "staszowski"
     },
     {
         "n": "Ostrołęka",
@@ -4285,7 +4820,8 @@
             53.0814,
             21.5725
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "Ostrołęka"
     },
     {
         "n": "Ostroróg",
@@ -4293,7 +4829,8 @@
             52.6267,
             16.4508
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "szamotulski"
     },
     {
         "n": "Ostrowiec Świętokrzyski",
@@ -4301,7 +4838,8 @@
             50.9439,
             21.3899
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "ostrowiecki"
     },
     {
         "n": "Ostróda",
@@ -4309,7 +4847,8 @@
             53.6995,
             19.964
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "ostródzki"
     },
     {
         "n": "Ostrów Lubelski",
@@ -4317,7 +4856,8 @@
             51.4946,
             22.8542
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "lubartowski"
     },
     {
         "n": "Ostrów Mazowiecka",
@@ -4325,7 +4865,8 @@
             52.8058,
             21.8978
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "ostrowski"
     },
     {
         "n": "Ostrów Wielkopolski",
@@ -4333,7 +4874,8 @@
             51.6495,
             17.8167
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "ostrowski"
     },
     {
         "n": "Ostrzeszów",
@@ -4341,7 +4883,8 @@
             51.4237,
             17.9315
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "ostrzeszowski"
     },
     {
         "n": "Ośno Lubuskie",
@@ -4349,7 +4892,8 @@
             52.4539,
             14.8711
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "słubicki"
     },
     {
         "n": "Oświęcim",
@@ -4357,7 +4901,8 @@
             50.038,
             19.2209
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "oświęcimski"
     },
     {
         "n": "Otmuchów",
@@ -4365,7 +4910,8 @@
             50.4653,
             17.1725
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "nyski"
     },
     {
         "n": "Otwock",
@@ -4373,7 +4919,8 @@
             52.1072,
             21.2656
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "otwocki"
     },
     {
         "n": "Otyń",
@@ -4381,7 +4928,8 @@
             51.8471,
             15.7102
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "nowosolski"
     },
     {
         "n": "Ozimek",
@@ -4389,7 +4937,8 @@
             50.6788,
             18.2137
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "opolski"
     },
     {
         "n": "Ozorków",
@@ -4397,7 +4946,8 @@
             51.9622,
             19.2949
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "zgierski"
     },
     {
         "n": "Ożarów",
@@ -4405,7 +4955,8 @@
             50.8861,
             21.6652
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "opatowski"
     },
     {
         "n": "Ożarów Mazowiecki",
@@ -4413,7 +4964,8 @@
             52.2104,
             20.794
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "warszawski zachodni"
     },
     {
         "n": "Pabianice",
@@ -4421,7 +4973,8 @@
             51.665,
             19.3592
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "pabianicki"
     },
     {
         "n": "Pacanów",
@@ -4429,7 +4982,8 @@
             50.3998,
             21.0411
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "buski"
     },
     {
         "n": "Paczków",
@@ -4437,7 +4991,8 @@
             50.4643,
             17.0064
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "nyski"
     },
     {
         "n": "Pajęczno",
@@ -4445,7 +5000,8 @@
             51.1469,
             18.995
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "pajęczański"
     },
     {
         "n": "Pakość",
@@ -4453,7 +5009,8 @@
             52.807,
             18.0877
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "inowrocławski"
     },
     {
         "n": "Parczew",
@@ -4461,7 +5018,8 @@
             51.6407,
             22.9001
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "parczewski"
     },
     {
         "n": "Pasłęk",
@@ -4469,7 +5027,8 @@
             54.0653,
             19.6587
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "elbląski"
     },
     {
         "n": "Pasym",
@@ -4477,7 +5036,8 @@
             53.6504,
             20.7918
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "szczycieński"
     },
     {
         "n": "Pelplin",
@@ -4485,7 +5045,8 @@
             53.9282,
             18.6975
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "tczewski"
     },
     {
         "n": "Pełczyce",
@@ -4493,7 +5054,8 @@
             53.0439,
             15.3041
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "choszczeński"
     },
     {
         "n": "Piaseczno",
@@ -4501,7 +5063,8 @@
             52.0697,
             21.0269
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "piaseczyński"
     },
     {
         "n": "Piaski",
@@ -4509,7 +5072,8 @@
             51.1375,
             22.8484
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "świdnicki"
     },
     {
         "n": "Piastów",
@@ -4517,7 +5081,8 @@
             52.1831,
             20.8417
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "pruszkowski"
     },
     {
         "n": "Piątek",
@@ -4525,7 +5090,8 @@
             52.0688,
             19.4797
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "łęczycki"
     },
     {
         "n": "Piechowice",
@@ -4533,7 +5099,8 @@
             50.8498,
             15.5993
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "karkonoski"
     },
     {
         "n": "Piekary Śląskie",
@@ -4541,7 +5108,8 @@
             50.3839,
             18.9447
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Piekary Śląskie"
     },
     {
         "n": "Pieniężno",
@@ -4549,7 +5117,8 @@
             54.2388,
             20.1247
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "braniewski"
     },
     {
         "n": "Pieńsk",
@@ -4557,7 +5126,8 @@
             51.2465,
             15.0456
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "zgorzelecki"
     },
     {
         "n": "Pierzchnica",
@@ -4565,7 +5135,8 @@
             50.6974,
             20.7538
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "kielecki"
     },
     {
         "n": "Pieszyce",
@@ -4573,7 +5144,8 @@
             50.7123,
             16.5804
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "dzierżoniowski"
     },
     {
         "n": "Pilawa",
@@ -4581,7 +5153,8 @@
             51.96,
             21.5322
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "garwoliński"
     },
     {
         "n": "Pilica",
@@ -4589,7 +5162,8 @@
             50.4677,
             19.6572
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "zawierciański"
     },
     {
         "n": "Pilzno",
@@ -4597,7 +5171,8 @@
             49.9783,
             21.2911
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "dębicki"
     },
     {
         "n": "Piła",
@@ -4605,7 +5180,8 @@
             53.1476,
             16.7395
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "pilski"
     },
     {
         "n": "Piława Górna",
@@ -4613,7 +5189,8 @@
             50.6816,
             16.754
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "dzierżoniowski"
     },
     {
         "n": "Pińczów",
@@ -4621,7 +5198,8 @@
             50.5201,
             20.5266
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "pińczowski"
     },
     {
         "n": "Pionki",
@@ -4629,7 +5207,8 @@
             51.4785,
             21.4526
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "radomski"
     },
     {
         "n": "Piotrków Kujawski",
@@ -4637,7 +5216,8 @@
             52.5511,
             18.4976
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "radziejowski"
     },
     {
         "n": "Piotrków Trybunalski",
@@ -4645,7 +5225,8 @@
             51.4111,
             19.6861
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "Piotrków Trybunalski"
     },
     {
         "n": "Pisz",
@@ -4653,7 +5234,8 @@
             53.63,
             21.806
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "piski"
     },
     {
         "n": "Piwniczna-Zdrój",
@@ -4661,7 +5243,8 @@
             49.441,
             20.7161
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "nowosądecki"
     },
     {
         "n": "Pleszew",
@@ -4669,7 +5252,8 @@
             51.8963,
             17.7857
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "pleszewski"
     },
     {
         "n": "Płock",
@@ -4677,7 +5261,8 @@
             52.5408,
             19.6897
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "Płock"
     },
     {
         "n": "Płońsk",
@@ -4685,7 +5270,8 @@
             52.6222,
             20.3739
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "płoński"
     },
     {
         "n": "Płoty",
@@ -4693,7 +5279,8 @@
             53.8044,
             15.2682
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "gryficki"
     },
     {
         "n": "Pniewy",
@@ -4701,7 +5288,8 @@
             52.5079,
             16.2553
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "szamotulski"
     },
     {
         "n": "Pobiedziska",
@@ -4709,7 +5297,8 @@
             52.4774,
             17.285
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "poznański"
     },
     {
         "n": "Poddębice",
@@ -4717,7 +5306,8 @@
             51.893,
             18.955
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "poddębicki"
     },
     {
         "n": "Podkowa Leśna",
@@ -4725,7 +5315,8 @@
             52.1233,
             20.7275
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "grodziski"
     },
     {
         "n": "Pogorzela",
@@ -4733,7 +5324,8 @@
             51.8224,
             17.2304
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "gostyński"
     },
     {
         "n": "Polanica-Zdrój",
@@ -4741,7 +5333,8 @@
             50.4032,
             16.5113
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "kłodzki"
     },
     {
         "n": "Polanów",
@@ -4749,7 +5342,8 @@
             54.1186,
             16.6843
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "koszaliński"
     },
     {
         "n": "Police",
@@ -4757,7 +5351,8 @@
             53.5524,
             14.5721
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "policki"
     },
     {
         "n": "Polkowice",
@@ -4765,7 +5360,8 @@
             51.5033,
             16.0683
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "polkowicki"
     },
     {
         "n": "Połaniec",
@@ -4773,7 +5369,8 @@
             50.4325,
             21.2805
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "staszowski"
     },
     {
         "n": "Połczyn-Zdrój",
@@ -4781,7 +5378,8 @@
             53.767,
             16.0909
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "świdwiński"
     },
     {
         "n": "Poniatowa",
@@ -4789,7 +5387,8 @@
             51.1901,
             22.0675
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "opolski"
     },
     {
         "n": "Poniec",
@@ -4797,7 +5396,8 @@
             51.7647,
             16.8066
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "gostyński"
     },
     {
         "n": "Poręba",
@@ -4805,7 +5405,8 @@
             50.4886,
             19.3406
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "zawierciański"
     },
     {
         "n": "Poznań",
@@ -4813,7 +5414,8 @@
             52.4079,
             16.9335
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "Poznań"
     },
     {
         "n": "Prabuty",
@@ -4821,7 +5423,8 @@
             53.7589,
             19.1989
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "kwidzyński"
     },
     {
         "n": "Praszka",
@@ -4829,7 +5432,8 @@
             51.0538,
             18.4531
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "oleski"
     },
     {
         "n": "Prochowice",
@@ -4837,7 +5441,8 @@
             51.2732,
             16.3622
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "legnicki"
     },
     {
         "n": "Proszowice",
@@ -4845,7 +5450,8 @@
             50.1925,
             20.29
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "proszowicki"
     },
     {
         "n": "Prószków",
@@ -4853,7 +5459,8 @@
             50.5767,
             17.8714
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "opolski"
     },
     {
         "n": "Pruchnik",
@@ -4861,7 +5468,8 @@
             49.9061,
             22.5155
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "jarosławski"
     },
     {
         "n": "Prudnik",
@@ -4869,7 +5477,8 @@
             50.3215,
             17.5806
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "prudnicki"
     },
     {
         "n": "Prusice",
@@ -4877,7 +5486,8 @@
             51.371,
             16.9603
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "trzebnicki"
     },
     {
         "n": "Pruszcz Gdański",
@@ -4885,7 +5495,8 @@
             54.2623,
             18.6362
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "gdański"
     },
     {
         "n": "Pruszków",
@@ -4893,7 +5504,8 @@
             52.17,
             20.805
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "pruszkowski"
     },
     {
         "n": "Przasnysz",
@@ -4901,7 +5513,8 @@
             53.0217,
             20.8821
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "przasnyski"
     },
     {
         "n": "Przecław",
@@ -4909,7 +5522,8 @@
             50.1943,
             21.4798
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "mielecki"
     },
     {
         "n": "Przedbórz",
@@ -4917,7 +5531,8 @@
             51.0875,
             19.8739
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "radomszczański"
     },
     {
         "n": "Przedecz",
@@ -4925,7 +5540,8 @@
             52.3333,
             18.9007
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "kolski"
     },
     {
         "n": "Przemków",
@@ -4933,7 +5549,8 @@
             51.5281,
             15.7883
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "polkowicki"
     },
     {
         "n": "Przemyśl",
@@ -4941,7 +5558,8 @@
             49.7823,
             22.7751
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "Przemyśl"
     },
     {
         "n": "Przeworsk",
@@ -4949,7 +5567,8 @@
             50.0587,
             22.4937
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "przeworski"
     },
     {
         "n": "Przysucha",
@@ -4957,7 +5576,8 @@
             51.3587,
             20.6284
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "przysuski"
     },
     {
         "n": "Pszczyna",
@@ -4965,7 +5585,8 @@
             49.978,
             18.9417
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "pszczyński"
     },
     {
         "n": "Pszów",
@@ -4973,7 +5594,8 @@
             50.0375,
             18.3961
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "wodzisławski"
     },
     {
         "n": "Puck",
@@ -4981,7 +5603,8 @@
             54.7181,
             18.4092
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "pucki"
     },
     {
         "n": "Puławy",
@@ -4989,7 +5612,8 @@
             51.4167,
             21.9677
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "puławski"
     },
     {
         "n": "Pułtusk",
@@ -4997,7 +5621,8 @@
             52.704,
             21.0872
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "pułtuski"
     },
     {
         "n": "Puszczykowo",
@@ -5005,7 +5630,8 @@
             52.2847,
             16.8544
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "poznański"
     },
     {
         "n": "Pyrzyce",
@@ -5013,7 +5639,8 @@
             53.1458,
             14.8925
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "pyrzycki"
     },
     {
         "n": "Pyskowice",
@@ -5021,7 +5648,8 @@
             50.3978,
             18.6275
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "gliwicki"
     },
     {
         "n": "Pyzdry",
@@ -5029,7 +5657,8 @@
             52.1671,
             17.6869
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "wrzesiński"
     },
     {
         "n": "Rabka-Zdrój",
@@ -5037,7 +5666,8 @@
             49.61,
             19.9528
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "nowotarski"
     },
     {
         "n": "Raciąż",
@@ -5045,7 +5675,8 @@
             52.7811,
             20.1194
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "płoński"
     },
     {
         "n": "Racibórz",
@@ -5053,7 +5684,8 @@
             50.0908,
             18.22
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "raciborski"
     },
     {
         "n": "Radków",
@@ -5061,7 +5693,8 @@
             50.5039,
             16.4008
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "kłodzki"
     },
     {
         "n": "Radlin",
@@ -5069,7 +5702,8 @@
             50.0467,
             18.4546
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "wodzisławski"
     },
     {
         "n": "Radłów",
@@ -5077,7 +5711,8 @@
             50.0831,
             20.8478
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "tarnowski"
     },
     {
         "n": "Radom",
@@ -5085,7 +5720,8 @@
             51.4008,
             21.1533
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "Radom"
     },
     {
         "n": "Radomsko",
@@ -5093,7 +5729,8 @@
             51.0675,
             19.4444
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "radomszczański"
     },
     {
         "n": "Radomyśl Wielki",
@@ -5101,7 +5738,8 @@
             50.196,
             21.278
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "mielecki"
     },
     {
         "n": "Radoszyce",
@@ -5109,7 +5747,8 @@
             51.0744,
             20.2551
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "konecki"
     },
     {
         "n": "Radymno",
@@ -5117,7 +5756,8 @@
             49.9516,
             22.8186
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "jarosławski"
     },
     {
         "n": "Radziejów",
@@ -5125,7 +5765,8 @@
             52.623,
             18.5272
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "radziejowski"
     },
     {
         "n": "Radzionków",
@@ -5133,7 +5774,8 @@
             50.4003,
             18.9033
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "tarnogórski"
     },
     {
         "n": "Radzymin",
@@ -5141,7 +5783,8 @@
             52.4183,
             21.1812
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "wołomiński"
     },
     {
         "n": "Radzyń Chełmiński",
@@ -5149,7 +5792,8 @@
             53.3849,
             18.9361
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "grudziądzki"
     },
     {
         "n": "Radzyń Podlaski",
@@ -5157,7 +5801,8 @@
             51.785,
             22.619
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "radzyński"
     },
     {
         "n": "Rajgród",
@@ -5165,7 +5810,8 @@
             53.7308,
             22.6983
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "grajewski"
     },
     {
         "n": "Rakoniewice",
@@ -5173,7 +5819,8 @@
             52.1386,
             16.2733
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "grodziski"
     },
     {
         "n": "Raszków",
@@ -5181,7 +5828,8 @@
             51.7185,
             17.726
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "ostrowski"
     },
     {
         "n": "Rawa Mazowiecka",
@@ -5189,7 +5837,8 @@
             51.765,
             20.2522
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "rawski"
     },
     {
         "n": "Rawicz",
@@ -5197,7 +5846,8 @@
             51.6094,
             16.8584
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "rawicki"
     },
     {
         "n": "Recz",
@@ -5205,7 +5855,8 @@
             53.2598,
             15.5465
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "choszczeński"
     },
     {
         "n": "Reda",
@@ -5213,7 +5864,8 @@
             54.6033,
             18.3492
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "wejherowski"
     },
     {
         "n": "Rejowiec",
@@ -5221,7 +5873,8 @@
             51.0942,
             23.2833
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "chełmski"
     },
     {
         "n": "Rejowiec Fabryczny",
@@ -5229,7 +5882,8 @@
             51.1213,
             23.2434
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "chełmski"
     },
     {
         "n": "Resko",
@@ -5237,7 +5891,8 @@
             53.7725,
             15.4067
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "łobeski"
     },
     {
         "n": "Reszel",
@@ -5245,7 +5900,8 @@
             54.0504,
             21.1454
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "kętrzyński"
     },
     {
         "n": "Rogoźno",
@@ -5253,7 +5909,8 @@
             52.7523,
             16.9917
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "obornicki"
     },
     {
         "n": "Ropczyce",
@@ -5261,7 +5918,8 @@
             50.0529,
             21.611
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "ropczycko-sędziszowski"
     },
     {
         "n": "Różan",
@@ -5269,7 +5927,8 @@
             52.8908,
             21.3994
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "makowski"
     },
     {
         "n": "Ruciane-Nida",
@@ -5277,7 +5936,8 @@
             53.6418,
             21.5371
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "piski"
     },
     {
         "n": "Ruda Śląska",
@@ -5285,7 +5945,8 @@
             50.2806,
             18.8592
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Ruda Śląska"
     },
     {
         "n": "Rudnik nad Sanem",
@@ -5293,7 +5954,8 @@
             50.4416,
             22.2466
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "niżański"
     },
     {
         "n": "Rumia",
@@ -5301,7 +5963,8 @@
             54.5642,
             18.3889
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "wejherowski"
     },
     {
         "n": "Rybnik",
@@ -5309,7 +5972,8 @@
             50.0947,
             18.5422
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Rybnik"
     },
     {
         "n": "Rychwał",
@@ -5317,7 +5981,8 @@
             52.07,
             18.1663
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "koniński"
     },
     {
         "n": "Rydułtowy",
@@ -5325,7 +5990,8 @@
             50.0581,
             18.4178
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "wodzisławski"
     },
     {
         "n": "Rydzyna",
@@ -5333,7 +5999,8 @@
             51.7867,
             16.6672
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "leszczyński"
     },
     {
         "n": "Ryglice",
@@ -5341,7 +6008,8 @@
             49.8792,
             21.1383
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "tarnowski"
     },
     {
         "n": "Ryki",
@@ -5349,7 +6017,8 @@
             51.6258,
             21.9341
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "rycki"
     },
     {
         "n": "Rymanów",
@@ -5357,7 +6026,8 @@
             49.5762,
             21.8676
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "krośnieński"
     },
     {
         "n": "Ryn",
@@ -5365,7 +6035,8 @@
             53.9388,
             21.5466
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "giżycki"
     },
     {
         "n": "Rypin",
@@ -5373,7 +6044,8 @@
             53.0659,
             19.413
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "rypiński"
     },
     {
         "n": "Rzepin",
@@ -5381,7 +6053,8 @@
             52.3482,
             14.827
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "słubicki"
     },
     {
         "n": "Rzeszów",
@@ -5389,7 +6062,8 @@
             50.0411,
             21.9991
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "Rzeszów"
     },
     {
         "n": "Rzgów",
@@ -5397,7 +6071,8 @@
             51.663,
             19.4901
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "łódzki wschodni"
     },
     {
         "n": "Sandomierz",
@@ -5405,7 +6080,8 @@
             50.6793,
             21.7496
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "sandomierski"
     },
     {
         "n": "Sanniki",
@@ -5413,7 +6089,8 @@
             52.3319,
             19.8621
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "gostyniński"
     },
     {
         "n": "Sanok",
@@ -5421,7 +6098,8 @@
             49.5599,
             22.2022
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "sanocki"
     },
     {
         "n": "Sejny",
@@ -5429,7 +6107,8 @@
             54.1064,
             23.3497
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "sejneński"
     },
     {
         "n": "Serock",
@@ -5437,7 +6116,8 @@
             52.5137,
             21.0705
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "legionowski"
     },
     {
         "n": "Sędziszów",
@@ -5445,7 +6125,8 @@
             50.5634,
             20.052
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "jędrzejowski"
     },
     {
         "n": "Sędziszów Małopolski",
@@ -5453,7 +6134,8 @@
             50.071,
             21.702
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "ropczycko-sędziszowski"
     },
     {
         "n": "Sępopol",
@@ -5461,7 +6143,8 @@
             54.2681,
             21.0149
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "bartoszycki"
     },
     {
         "n": "Sępólno Krajeńskie",
@@ -5469,7 +6152,8 @@
             53.4557,
             17.537
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "sępoleński"
     },
     {
         "n": "Sianów",
@@ -5477,7 +6161,8 @@
             54.2254,
             16.2968
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "koszaliński"
     },
     {
         "n": "Siechnice",
@@ -5485,7 +6170,8 @@
             51.0336,
             17.1469
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "wrocławski"
     },
     {
         "n": "Siedlce",
@@ -5493,7 +6179,8 @@
             52.1658,
             22.2769
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "Siedlce"
     },
     {
         "n": "Siedliszcze",
@@ -5501,7 +6188,8 @@
             51.1952,
             23.1644
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "chełmski"
     },
     {
         "n": "Siemianowice Śląskie",
@@ -5509,7 +6197,8 @@
             50.3025,
             19.0336
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Siemianowice Śląskie"
     },
     {
         "n": "Siemiatycze",
@@ -5517,7 +6206,8 @@
             52.4297,
             22.865
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "siemiatycki"
     },
     {
         "n": "Sieniawa",
@@ -5525,7 +6215,8 @@
             50.1778,
             22.6096
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "przeworski"
     },
     {
         "n": "Sieradz",
@@ -5533,7 +6224,8 @@
             51.5961,
             18.7322
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "sieradzki"
     },
     {
         "n": "Sieraków",
@@ -5541,7 +6233,8 @@
             52.6496,
             16.0822
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "międzychodzki"
     },
     {
         "n": "Sierpc",
@@ -5549,7 +6242,8 @@
             52.8542,
             19.6686
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "sierpecki"
     },
     {
         "n": "Siewierz",
@@ -5557,7 +6251,8 @@
             50.4694,
             19.2364
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "będziński"
     },
     {
         "n": "Skalbmierz",
@@ -5565,7 +6260,8 @@
             50.3175,
             20.3978
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "kazimierski"
     },
     {
         "n": "Skała",
@@ -5573,7 +6269,8 @@
             50.2304,
             19.8541
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "krakowski"
     },
     {
         "n": "Skarszewy",
@@ -5581,7 +6278,8 @@
             54.0711,
             18.4403
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "starogardzki"
     },
     {
         "n": "Skaryszew",
@@ -5589,7 +6287,8 @@
             51.3102,
             21.2519
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "radomski"
     },
     {
         "n": "Skarżysko-Kamienna",
@@ -5597,7 +6296,8 @@
             51.1155,
             20.8952
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "skarżyski"
     },
     {
         "n": "Skawina",
@@ -5605,7 +6305,8 @@
             49.975,
             19.8264
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "krakowski"
     },
     {
         "n": "Skępe",
@@ -5613,7 +6314,8 @@
             52.8668,
             19.3578
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "lipnowski"
     },
     {
         "n": "Skierniewice",
@@ -5621,7 +6323,8 @@
             51.9586,
             20.1411
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "Skierniewice"
     },
     {
         "n": "Skoczów",
@@ -5629,7 +6332,8 @@
             49.8019,
             18.7875
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "cieszyński"
     },
     {
         "n": "Skoki",
@@ -5637,7 +6341,8 @@
             52.6735,
             17.1591
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "wągrowiecki"
     },
     {
         "n": "Skórcz",
@@ -5645,7 +6350,8 @@
             53.7939,
             18.525
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "starogardzki"
     },
     {
         "n": "Skwierzyna",
@@ -5653,7 +6359,8 @@
             52.5974,
             15.5033
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "międzyrzecki"
     },
     {
         "n": "Sława",
@@ -5661,7 +6368,8 @@
             51.8806,
             16.0717
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "wschowski"
     },
     {
         "n": "Sławków",
@@ -5669,7 +6377,8 @@
             50.2983,
             19.3883
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "będziński"
     },
     {
         "n": "Sławno",
@@ -5677,7 +6386,8 @@
             54.358,
             16.6776
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "sławieński"
     },
     {
         "n": "Słomniki",
@@ -5685,7 +6395,8 @@
             50.2399,
             20.0821
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "krakowski"
     },
     {
         "n": "Słubice",
@@ -5693,7 +6404,8 @@
             52.3561,
             14.5661
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "słubicki"
     },
     {
         "n": "Słupca",
@@ -5701,7 +6413,8 @@
             52.2893,
             17.8726
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "słupecki"
     },
     {
         "n": "Słupsk",
@@ -5709,7 +6422,8 @@
             54.4656,
             17.0372
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "Słupsk"
     },
     {
         "n": "Sobótka",
@@ -5717,7 +6431,8 @@
             50.8996,
             16.7445
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "wrocławski"
     },
     {
         "n": "Sochaczew",
@@ -5725,7 +6440,8 @@
             52.2297,
             20.2379
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "sochaczewski"
     },
     {
         "n": "Sochocin",
@@ -5733,7 +6449,8 @@
             52.6873,
             20.4722
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "płoński"
     },
     {
         "n": "Sokołów Małopolski",
@@ -5741,7 +6458,8 @@
             50.2303,
             22.12
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "rzeszowski"
     },
     {
         "n": "Sokołów Podlaski",
@@ -5749,7 +6467,8 @@
             52.4079,
             22.2501
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "sokołowski"
     },
     {
         "n": "Sokółka",
@@ -5757,7 +6476,8 @@
             53.4072,
             23.5039
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "sokólski"
     },
     {
         "n": "Solec Kujawski",
@@ -5765,7 +6485,8 @@
             53.0809,
             18.2264
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "bydgoski"
     },
     {
         "n": "Solec nad Wisłą",
@@ -5773,7 +6494,8 @@
             51.1349,
             21.7651
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "lipski"
     },
     {
         "n": "Sompolno",
@@ -5781,7 +6503,8 @@
             52.3889,
             18.5027
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "koniński"
     },
     {
         "n": "Sopot",
@@ -5789,7 +6512,8 @@
             54.4453,
             18.5608
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "Sopot"
     },
     {
         "n": "Sosnowiec",
@@ -5797,7 +6521,8 @@
             50.2789,
             19.1294
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Sosnowiec"
     },
     {
         "n": "Sośnicowice",
@@ -5805,7 +6530,8 @@
             50.2723,
             18.5297
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "gliwicki"
     },
     {
         "n": "Stalowa Wola",
@@ -5813,7 +6539,8 @@
             50.5685,
             22.0655
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "stalowowolski"
     },
     {
         "n": "Starachowice",
@@ -5821,7 +6548,8 @@
             51.0533,
             21.0702
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "starachowicki"
     },
     {
         "n": "Stargard",
@@ -5829,7 +6557,8 @@
             53.3392,
             15.0411
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "stargardzki"
     },
     {
         "n": "Starogard Gdański",
@@ -5837,7 +6566,8 @@
             53.9681,
             18.5308
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "starogardzki"
     },
     {
         "n": "Stary Sącz",
@@ -5845,7 +6575,8 @@
             49.5642,
             20.6349
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "nowosądecki"
     },
     {
         "n": "Staszów",
@@ -5853,7 +6584,8 @@
             50.5642,
             21.1674
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "staszowski"
     },
     {
         "n": "Stawiski",
@@ -5861,7 +6593,8 @@
             53.3794,
             22.1558
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "kolneński"
     },
     {
         "n": "Stawiszyn",
@@ -5869,7 +6602,8 @@
             51.9176,
             18.1116
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "kaliski"
     },
     {
         "n": "Stąporków",
@@ -5877,7 +6611,8 @@
             51.138,
             20.5643
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "konecki"
     },
     {
         "n": "Stepnica",
@@ -5885,7 +6620,8 @@
             53.6523,
             14.6283
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "goleniowski"
     },
     {
         "n": "Stęszew",
@@ -5893,7 +6629,8 @@
             52.2806,
             16.7034
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "poznański"
     },
     {
         "n": "Stoczek Łukowski",
@@ -5901,7 +6638,8 @@
             51.9615,
             21.9694
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "łukowski"
     },
     {
         "n": "Stopnica",
@@ -5909,7 +6647,8 @@
             50.4397,
             20.9394
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "buski"
     },
     {
         "n": "Stronie Śląskie",
@@ -5917,7 +6656,8 @@
             50.2988,
             16.8736
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "kłodzki"
     },
     {
         "n": "Strumień",
@@ -5925,7 +6665,8 @@
             49.9171,
             18.7634
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "cieszyński"
     },
     {
         "n": "Stryków",
@@ -5933,7 +6674,8 @@
             51.9016,
             19.6048
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "zgierski"
     },
     {
         "n": "Strzegom",
@@ -5941,7 +6683,8 @@
             50.9602,
             16.3466
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "świdnicki"
     },
     {
         "n": "Strzelce Krajeńskie",
@@ -5949,7 +6692,8 @@
             52.8786,
             15.5328
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "strzelecko-drezdenecki"
     },
     {
         "n": "Strzelce Opolskie",
@@ -5957,7 +6701,8 @@
             50.511,
             18.3005
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "strzelecki"
     },
     {
         "n": "Strzelin",
@@ -5965,7 +6710,8 @@
             50.7808,
             17.0708
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "strzeliński"
     },
     {
         "n": "Strzelno",
@@ -5973,7 +6719,8 @@
             52.628,
             18.1725
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "mogileński"
     },
     {
         "n": "Strzyżów",
@@ -5981,7 +6728,8 @@
             49.8703,
             21.7867
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "strzyżowski"
     },
     {
         "n": "Sucha Beskidzka",
@@ -5989,7 +6737,8 @@
             49.7403,
             19.5875
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "suski"
     },
     {
         "n": "Suchań",
@@ -5997,7 +6746,8 @@
             53.28,
             15.3174
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "stargardzki"
     },
     {
         "n": "Suchedniów",
@@ -6005,7 +6755,8 @@
             51.0447,
             20.8364
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "skarżyski"
     },
     {
         "n": "Suchowola",
@@ -6013,7 +6764,8 @@
             53.5783,
             23.1064
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "sokólski"
     },
     {
         "n": "Sulechów",
@@ -6021,7 +6773,8 @@
             52.0854,
             15.623
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "zielonogórski"
     },
     {
         "n": "Sulejów",
@@ -6029,7 +6782,8 @@
             51.3542,
             19.8849
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "piotrkowski"
     },
     {
         "n": "Sulejówek",
@@ -6037,7 +6791,8 @@
             52.2432,
             21.2777
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "miński"
     },
     {
         "n": "Sulęcin",
@@ -6045,7 +6800,8 @@
             52.442,
             15.1145
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "sulęciński"
     },
     {
         "n": "Sulmierzyce",
@@ -6053,7 +6809,8 @@
             51.6061,
             17.5307
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "krotoszyński"
     },
     {
         "n": "Sułkowice",
@@ -6061,7 +6818,8 @@
             49.8411,
             19.8015
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "myślenicki"
     },
     {
         "n": "Supraśl",
@@ -6069,7 +6827,8 @@
             53.2053,
             23.3375
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "białostocki"
     },
     {
         "n": "Suraż",
@@ -6077,7 +6836,8 @@
             52.95,
             22.9558
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "białostocki"
     },
     {
         "n": "Susz",
@@ -6085,7 +6845,8 @@
             53.7184,
             19.3388
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "iławski"
     },
     {
         "n": "Suwałki",
@@ -6093,7 +6854,8 @@
             54.1019,
             22.9269
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "Suwałki"
     },
     {
         "n": "Swarzędz",
@@ -6101,7 +6863,8 @@
             52.4101,
             17.0774
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "poznański"
     },
     {
         "n": "Syców",
@@ -6109,7 +6872,8 @@
             51.3095,
             17.7205
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "oleśnicki"
     },
     {
         "n": "Szadek",
@@ -6117,7 +6881,8 @@
             51.6918,
             18.9755
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "zduńskowolski"
     },
     {
         "n": "Szamocin",
@@ -6125,7 +6890,8 @@
             53.0289,
             17.1217
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "chodzieski"
     },
     {
         "n": "Szamotuły",
@@ -6133,7 +6899,8 @@
             52.6117,
             16.5786
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "szamotulski"
     },
     {
         "n": "Szczawnica",
@@ -6141,7 +6908,8 @@
             49.4252,
             20.4828
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "nowotarski"
     },
     {
         "n": "Szczawno-Zdrój",
@@ -6149,7 +6917,8 @@
             50.8004,
             16.2509
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "wałbrzyski"
     },
     {
         "n": "Szczebrzeszyn",
@@ -6157,7 +6926,8 @@
             50.695,
             22.9783
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "zamojski"
     },
     {
         "n": "Szczecin",
@@ -6165,7 +6935,8 @@
             53.4318,
             14.5468
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "Szczecin"
     },
     {
         "n": "Szczecinek",
@@ -6173,7 +6944,8 @@
             53.7027,
             16.7006
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "szczecinecki"
     },
     {
         "n": "Szczekociny",
@@ -6181,7 +6953,8 @@
             50.6258,
             19.8181
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "zawierciański"
     },
     {
         "n": "Szczucin",
@@ -6189,7 +6962,8 @@
             50.3093,
             21.0764
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "dąbrowski"
     },
     {
         "n": "Szczuczyn",
@@ -6197,7 +6971,8 @@
             53.5634,
             22.2851
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "grajewski"
     },
     {
         "n": "Szczyrk",
@@ -6205,7 +6980,8 @@
             49.7119,
             19.0192
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "bielski"
     },
     {
         "n": "Szczytna",
@@ -6213,7 +6989,8 @@
             50.4155,
             16.444
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "kłodzki"
     },
     {
         "n": "Szczytno",
@@ -6221,7 +6998,8 @@
             53.5633,
             20.9952
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "szczycieński"
     },
     {
         "n": "Szepietowo",
@@ -6229,7 +7007,8 @@
             52.8689,
             22.5453
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "wysokomazowiecki"
     },
     {
         "n": "Szklarska Poręba",
@@ -6237,7 +7016,8 @@
             50.8298,
             15.5189
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "karkonoski"
     },
     {
         "n": "Szlichtyngowa",
@@ -6245,7 +7025,8 @@
             51.7119,
             16.2424
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "wschowski"
     },
     {
         "n": "Szprotawa",
@@ -6253,7 +7034,8 @@
             51.5659,
             15.538
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "żagański"
     },
     {
         "n": "Sztum",
@@ -6261,7 +7043,8 @@
             53.9192,
             19.0328
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "sztumski"
     },
     {
         "n": "Szubin",
@@ -6269,7 +7052,8 @@
             53.0075,
             17.7335
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "nakielski"
     },
     {
         "n": "Szydłowiec",
@@ -6277,7 +7061,8 @@
             51.2241,
             20.8573
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "szydłowiecki"
     },
     {
         "n": "Szydłów",
@@ -6285,7 +7070,8 @@
             50.5908,
             21.0065
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "staszowski"
     },
     {
         "n": "Ścinawa",
@@ -6293,7 +7079,8 @@
             51.4128,
             16.4262
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "lubiński"
     },
     {
         "n": "Ślesin",
@@ -6301,7 +7088,8 @@
             52.3704,
             18.3064
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "koniński"
     },
     {
         "n": "Śmigiel",
@@ -6309,7 +7097,8 @@
             52.0121,
             16.5252
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "kościański"
     },
     {
         "n": "Śrem",
@@ -6317,7 +7106,8 @@
             52.0954,
             17.0205
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "śremski"
     },
     {
         "n": "Środa Śląska",
@@ -6325,7 +7115,8 @@
             51.1633,
             16.5977
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "średzki"
     },
     {
         "n": "Środa Wielkopolska",
@@ -6333,7 +7124,8 @@
             52.229,
             17.2751
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "średzki"
     },
     {
         "n": "Świątniki Górne",
@@ -6341,7 +7133,8 @@
             49.9343,
             19.9536
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "krakowski"
     },
     {
         "n": "Świdnica",
@@ -6349,7 +7142,8 @@
             50.8427,
             16.4872
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "świdnicki"
     },
     {
         "n": "Świdnik",
@@ -6357,7 +7151,8 @@
             51.2201,
             22.7004
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "świdnicki"
     },
     {
         "n": "Świdwin",
@@ -6365,7 +7160,8 @@
             53.7747,
             15.7742
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "świdwiński"
     },
     {
         "n": "Świebodzice",
@@ -6373,7 +7169,8 @@
             50.8598,
             16.3199
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "świdnicki"
     },
     {
         "n": "Świebodzin",
@@ -6381,7 +7178,8 @@
             52.2479,
             15.536
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "świebodziński"
     },
     {
         "n": "Świecie",
@@ -6389,7 +7187,8 @@
             53.4094,
             18.4472
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "świecki"
     },
     {
         "n": "Świeradów-Zdrój",
@@ -6397,7 +7196,8 @@
             50.9092,
             15.332
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "lubański"
     },
     {
         "n": "Świerzawa",
@@ -6405,7 +7205,8 @@
             51.0145,
             15.8933
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "złotoryjski"
     },
     {
         "n": "Świętochłowice",
@@ -6413,7 +7214,8 @@
             50.2919,
             18.915
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Świętochłowice"
     },
     {
         "n": "Świnoujście",
@@ -6421,7 +7223,8 @@
             53.9078,
             14.2475
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "Świnoujście"
     },
     {
         "n": "Tarczyn",
@@ -6429,7 +7232,8 @@
             51.9801,
             20.834
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "piaseczyński"
     },
     {
         "n": "Tarnobrzeg",
@@ -6437,7 +7241,8 @@
             50.5701,
             21.6705
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "Tarnobrzeg"
     },
     {
         "n": "Tarnogród",
@@ -6445,7 +7250,8 @@
             50.3607,
             22.742
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "biłgorajski"
     },
     {
         "n": "Tarnowskie Góry",
@@ -6453,7 +7259,8 @@
             50.4457,
             18.8559
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "tarnogórski"
     },
     {
         "n": "Tarnów",
@@ -6461,7 +7268,8 @@
             50.0125,
             20.9884
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "Tarnów"
     },
     {
         "n": "Tczew",
@@ -6469,7 +7277,8 @@
             54.0881,
             18.7994
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "tczewski"
     },
     {
         "n": "Terespol",
@@ -6477,7 +7286,8 @@
             52.076,
             23.616
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "bialski"
     },
     {
         "n": "Tłuszcz",
@@ -6485,7 +7295,8 @@
             52.4299,
             21.4352
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "wołomiński"
     },
     {
         "n": "Tolkmicko",
@@ -6493,7 +7304,8 @@
             54.3202,
             19.5272
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "elbląski"
     },
     {
         "n": "Tomaszów Lubelski",
@@ -6501,7 +7313,8 @@
             50.4511,
             23.4159
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "tomaszowski"
     },
     {
         "n": "Tomaszów Mazowiecki",
@@ -6509,7 +7322,8 @@
             51.5304,
             20.0097
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "tomaszowski"
     },
     {
         "n": "Toruń",
@@ -6517,7 +7331,8 @@
             53.013,
             18.6057
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "Toruń"
     },
     {
         "n": "Torzym",
@@ -6525,7 +7340,8 @@
             52.314,
             15.0725
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "sulęciński"
     },
     {
         "n": "Toszek",
@@ -6533,7 +7349,8 @@
             50.4547,
             18.5199
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "gliwicki"
     },
     {
         "n": "Trzcianka",
@@ -6541,7 +7358,8 @@
             53.04,
             16.4605
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "czarnkowsko-trzcianecki"
     },
     {
         "n": "Trzciel",
@@ -6549,7 +7367,8 @@
             52.3654,
             15.8754
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "międzyrzecki"
     },
     {
         "n": "Trzcińsko-Zdrój",
@@ -6557,7 +7376,8 @@
             52.9666,
             14.6065
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "gryfiński"
     },
     {
         "n": "Trzebiatów",
@@ -6565,7 +7385,8 @@
             54.0632,
             15.266
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "gryficki"
     },
     {
         "n": "Trzebinia",
@@ -6573,7 +7394,8 @@
             50.1584,
             19.4729
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "chrzanowski"
     },
     {
         "n": "Trzebnica",
@@ -6581,7 +7403,8 @@
             51.3084,
             17.0619
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "trzebnicki"
     },
     {
         "n": "Trzemeszno",
@@ -6589,7 +7412,8 @@
             52.5607,
             17.822
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "gnieźnieński"
     },
     {
         "n": "Tuchola",
@@ -6597,7 +7421,8 @@
             53.5883,
             17.8616
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "tucholski"
     },
     {
         "n": "Tuchów",
@@ -6605,7 +7430,8 @@
             49.895,
             21.0544
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "tarnowski"
     },
     {
         "n": "Tuczno",
@@ -6613,7 +7439,8 @@
             53.1944,
             16.1538
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "wałecki"
     },
     {
         "n": "Tuliszków",
@@ -6621,7 +7448,8 @@
             52.0774,
             18.2936
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "turecki"
     },
     {
         "n": "Tułowice",
@@ -6629,7 +7457,8 @@
             50.5936,
             17.6544
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "opolski"
     },
     {
         "n": "Turek",
@@ -6637,7 +7466,8 @@
             52.0156,
             18.5016
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "turecki"
     },
     {
         "n": "Tuszyn",
@@ -6645,7 +7475,8 @@
             51.6039,
             19.5439
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "łódzki wschodni"
     },
     {
         "n": "Twardogóra",
@@ -6653,7 +7484,8 @@
             51.3654,
             17.4678
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "oleśnicki"
     },
     {
         "n": "Tychowo",
@@ -6661,7 +7493,8 @@
             53.9296,
             16.2591
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "białogardzki"
     },
     {
         "n": "Tychy",
@@ -6669,7 +7502,8 @@
             50.1283,
             18.9816
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Tychy"
     },
     {
         "n": "Tyczyn",
@@ -6677,7 +7511,8 @@
             49.964,
             22.0302
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "rzeszowski"
     },
     {
         "n": "Tykocin",
@@ -6685,7 +7520,8 @@
             53.2064,
             22.7731
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "białostocki"
     },
     {
         "n": "Tyszowce",
@@ -6693,7 +7529,8 @@
             50.6171,
             23.7061
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "tomaszowski"
     },
     {
         "n": "Ujazd",
@@ -6701,7 +7538,8 @@
             50.3894,
             18.35
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "strzelecki"
     },
     {
         "n": "Ujście",
@@ -6709,7 +7547,8 @@
             53.053,
             16.7326
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "pilski"
     },
     {
         "n": "Ulanów",
@@ -6717,7 +7556,8 @@
             50.4911,
             22.2673
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "niżański"
     },
     {
         "n": "Uniejów",
@@ -6725,7 +7565,8 @@
             51.9751,
             18.7941
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "poddębicki"
     },
     {
         "n": "Urzędów",
@@ -6733,7 +7574,8 @@
             50.9922,
             22.1429
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "kraśnicki"
     },
     {
         "n": "Ustka",
@@ -6741,7 +7583,8 @@
             54.5847,
             16.8571
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "słupski"
     },
     {
         "n": "Ustroń",
@@ -6749,7 +7592,8 @@
             49.7203,
             18.812
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "cieszyński"
     },
     {
         "n": "Ustrzyki Dolne",
@@ -6757,7 +7601,8 @@
             49.43,
             22.5869
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "bieszczadzki"
     },
     {
         "n": "Wadowice",
@@ -6765,7 +7610,8 @@
             49.8831,
             19.4929
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "wadowicki"
     },
     {
         "n": "Wałbrzych",
@@ -6773,7 +7619,8 @@
             50.7672,
             16.2827
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "Wałbrzych"
     },
     {
         "n": "Wałcz",
@@ -6781,7 +7628,8 @@
             53.273,
             16.4674
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "wałecki"
     },
     {
         "n": "Warka",
@@ -6789,7 +7637,8 @@
             51.7844,
             21.1889
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "grójecki"
     },
     {
         "n": "Warszawa",
@@ -6797,7 +7646,8 @@
             52.2319,
             21.0067
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "Warszawa"
     },
     {
         "n": "Warta",
@@ -6805,7 +7655,8 @@
             51.7069,
             18.6244
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "sieradzki"
     },
     {
         "n": "Wasilków",
@@ -6813,7 +7664,8 @@
             53.1989,
             23.2072
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "białostocki"
     },
     {
         "n": "Wąbrzeźno",
@@ -6821,7 +7673,8 @@
             53.28,
             18.9471
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "wąbrzeski"
     },
     {
         "n": "Wąchock",
@@ -6829,7 +7682,8 @@
             51.074,
             21.0104
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "starachowicki"
     },
     {
         "n": "Wągrowiec",
@@ -6837,7 +7691,8 @@
             52.8068,
             17.2006
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "wągrowiecki"
     },
     {
         "n": "Wąsosz",
@@ -6845,7 +7700,8 @@
             51.5646,
             16.6935
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "górowski"
     },
     {
         "n": "Wejherowo",
@@ -6853,7 +7709,8 @@
             54.6017,
             18.2383
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "wejherowski"
     },
     {
         "n": "Węgliniec",
@@ -6861,7 +7718,8 @@
             51.2861,
             15.2233
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "zgorzelecki"
     },
     {
         "n": "Węgorzewo",
@@ -6869,7 +7727,8 @@
             54.2142,
             21.7409
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "węgorzewski"
     },
     {
         "n": "Węgorzyno",
@@ -6877,7 +7736,8 @@
             53.541,
             15.5594
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "łobeski"
     },
     {
         "n": "Węgrów",
@@ -6885,7 +7745,8 @@
             52.3989,
             22.0173
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "węgrowski"
     },
     {
         "n": "Wiązów",
@@ -6893,7 +7754,8 @@
             50.8138,
             17.2011
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "strzeliński"
     },
     {
         "n": "Wielbark",
@@ -6901,7 +7763,8 @@
             53.3983,
             20.947
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "szczycieński"
     },
     {
         "n": "Wieleń",
@@ -6909,7 +7772,8 @@
             52.8886,
             16.1679
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "czarnkowsko-trzcianecki"
     },
     {
         "n": "Wielichowo",
@@ -6917,7 +7781,8 @@
             52.1175,
             16.3497
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "grodziski"
     },
     {
         "n": "Wieliczka",
@@ -6925,7 +7790,8 @@
             49.9847,
             20.0621
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "wielicki"
     },
     {
         "n": "Wieluń",
@@ -6933,7 +7799,8 @@
             51.221,
             18.5706
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "wieluński"
     },
     {
         "n": "Wieruszów",
@@ -6941,7 +7808,8 @@
             51.295,
             18.155
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "wieruszowski"
     },
     {
         "n": "Więcbork",
@@ -6949,7 +7817,8 @@
             53.3547,
             17.4896
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "sępoleński"
     },
     {
         "n": "Wilamowice",
@@ -6957,7 +7826,8 @@
             49.9163,
             19.1527
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "bielski"
     },
     {
         "n": "Wiskitki",
@@ -6965,7 +7835,8 @@
             52.0869,
             20.3832
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "żyrardowski"
     },
     {
         "n": "Wisła",
@@ -6973,7 +7844,8 @@
             49.6542,
             18.8608
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "cieszyński"
     },
     {
         "n": "Wiślica",
@@ -6981,7 +7853,8 @@
             50.3488,
             20.6741
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "buski"
     },
     {
         "n": "Witkowo",
@@ -6989,7 +7862,8 @@
             52.4401,
             17.7727
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "gnieźnieński"
     },
     {
         "n": "Witnica",
@@ -6997,7 +7871,8 @@
             52.6738,
             14.8962
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "gorzowski"
     },
     {
         "n": "Wleń",
@@ -7005,7 +7880,8 @@
             51.0169,
             15.6742
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "lwówecki"
     },
     {
         "n": "Władysławowo",
@@ -7013,7 +7889,8 @@
             54.7901,
             18.4088
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "pucki"
     },
     {
         "n": "Włocławek",
@@ -7021,7 +7898,8 @@
             52.6572,
             19.0633
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "Włocławek"
     },
     {
         "n": "Włodawa",
@@ -7029,7 +7907,8 @@
             51.5444,
             23.554
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "włodawski"
     },
     {
         "n": "Włoszczowa",
@@ -7037,7 +7916,8 @@
             50.8515,
             19.9692
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "włoszczowski"
     },
     {
         "n": "Wodzisław",
@@ -7045,7 +7925,8 @@
             50.5207,
             20.1917
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "jędrzejowski"
     },
     {
         "n": "Wodzisław Śląski",
@@ -7053,7 +7934,8 @@
             50.0028,
             18.4631
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "wodzisławski"
     },
     {
         "n": "Wojcieszów",
@@ -7061,7 +7943,8 @@
             50.9508,
             15.9223
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "złotoryjski"
     },
     {
         "n": "Wojkowice",
@@ -7069,7 +7952,8 @@
             50.3629,
             19.0446
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "będziński"
     },
     {
         "n": "Wojnicz",
@@ -7077,7 +7961,8 @@
             49.9578,
             20.8375
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "tarnowski"
     },
     {
         "n": "Wolbórz",
@@ -7085,7 +7970,8 @@
             51.5051,
             19.83
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "piotrkowski"
     },
     {
         "n": "Wolbrom",
@@ -7093,7 +7979,8 @@
             50.3853,
             19.76
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "olkuski"
     },
     {
         "n": "Wolin",
@@ -7101,7 +7988,8 @@
             53.8415,
             14.6134
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "kamieński"
     },
     {
         "n": "Wolsztyn",
@@ -7109,7 +7997,8 @@
             52.1146,
             16.1166
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "wolsztyński"
     },
     {
         "n": "Wołczyn",
@@ -7117,7 +8006,8 @@
             51.0181,
             18.0501
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "kluczborski"
     },
     {
         "n": "Wołomin",
@@ -7125,7 +8015,8 @@
             52.3451,
             21.2458
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "wołomiński"
     },
     {
         "n": "Wołów",
@@ -7133,7 +8024,8 @@
             51.3365,
             16.646
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "wołowski"
     },
     {
         "n": "Woźniki",
@@ -7141,7 +8033,8 @@
             50.5869,
             19.06
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "lubliniecki"
     },
     {
         "n": "Wrocław",
@@ -7149,7 +8042,8 @@
             51.11,
             17.032
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "Wrocław"
     },
     {
         "n": "Wronki",
@@ -7157,7 +8051,8 @@
             52.7082,
             16.3785
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "szamotulski"
     },
     {
         "n": "Września",
@@ -7165,7 +8060,8 @@
             52.3258,
             17.5654
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "wrzesiński"
     },
     {
         "n": "Wschowa",
@@ -7173,7 +8069,8 @@
             51.8041,
             16.3168
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "wschowski"
     },
     {
         "n": "Wyrzysk",
@@ -7181,7 +8078,8 @@
             53.1532,
             17.267
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "pilski"
     },
     {
         "n": "Wysoka",
@@ -7189,7 +8087,8 @@
             53.1817,
             17.0797
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "pilski"
     },
     {
         "n": "Wysokie Mazowieckie",
@@ -7197,7 +8096,8 @@
             52.92,
             22.5136
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "wysokomazowiecki"
     },
     {
         "n": "Wyszków",
@@ -7205,7 +8105,8 @@
             52.5959,
             21.4518
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "wyszkowski"
     },
     {
         "n": "Wyszogród",
@@ -7213,7 +8114,8 @@
             52.3889,
             20.1914
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "płocki"
     },
     {
         "n": "Wyśmierzyce",
@@ -7221,7 +8123,8 @@
             51.6252,
             20.8179
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "białobrzeski"
     },
     {
         "n": "Zabłudów",
@@ -7229,7 +8132,8 @@
             53.015,
             23.3339
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "białostocki"
     },
     {
         "n": "Zabrze",
@@ -7237,7 +8141,8 @@
             50.3,
             18.7889
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Zabrze"
     },
     {
         "n": "Zagórów",
@@ -7245,7 +8150,8 @@
             52.1683,
             17.8953
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "słupecki"
     },
     {
         "n": "Zagórz",
@@ -7253,7 +8159,8 @@
             49.5124,
             22.2651
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "sanocki"
     },
     {
         "n": "Zakliczyn",
@@ -7261,7 +8168,8 @@
             49.8561,
             20.8097
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "tarnowski"
     },
     {
         "n": "Zaklików",
@@ -7269,7 +8177,8 @@
             50.7559,
             22.102
         ],
-        "w": "podkarpackie"
+        "w": "podkarpackie",
+        "p": "stalowowolski"
     },
     {
         "n": "Zakopane",
@@ -7277,7 +8186,8 @@
             49.2969,
             19.95
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "tatrzański"
     },
     {
         "n": "Zakroczym",
@@ -7285,7 +8195,8 @@
             52.4333,
             20.6117
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "nowodworski"
     },
     {
         "n": "Zalewo",
@@ -7293,7 +8204,8 @@
             53.845,
             19.6058
         ],
-        "w": "warmińsko-mazurskie"
+        "w": "warmińsko-mazurskie",
+        "p": "iławski"
     },
     {
         "n": "Zambrów",
@@ -7301,7 +8213,8 @@
             52.9814,
             22.2444
         ],
-        "w": "podlaskie"
+        "w": "podlaskie",
+        "p": "zambrowski"
     },
     {
         "n": "Zamość",
@@ -7309,7 +8222,8 @@
             50.7161,
             23.2547
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "Zamość"
     },
     {
         "n": "Zator",
@@ -7317,7 +8231,8 @@
             49.9961,
             19.4369
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "oświęcimski"
     },
     {
         "n": "Zawadzkie",
@@ -7325,7 +8240,8 @@
             50.606,
             18.4825
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "strzelecki"
     },
     {
         "n": "Zawichost",
@@ -7333,7 +8249,8 @@
             50.8061,
             21.8596
         ],
-        "w": "świętokrzyskie"
+        "w": "świętokrzyskie",
+        "p": "sandomierski"
     },
     {
         "n": "Zawidów",
@@ -7341,7 +8258,8 @@
             51.0241,
             15.0635
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "zgorzelecki"
     },
     {
         "n": "Zawiercie",
@@ -7349,7 +8267,8 @@
             50.4878,
             19.4258
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "zawierciański"
     },
     {
         "n": "Ząbki",
@@ -7357,7 +8276,8 @@
             52.2908,
             21.1125
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "wołomiński"
     },
     {
         "n": "Ząbkowice Śląskie",
@@ -7365,7 +8285,8 @@
             50.5888,
             16.8127
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "ząbkowicki"
     },
     {
         "n": "Zbąszynek",
@@ -7373,7 +8294,8 @@
             52.2462,
             15.8159
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "świebodziński"
     },
     {
         "n": "Zbąszyń",
@@ -7381,7 +8303,8 @@
             52.2532,
             15.9188
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "nowotomyski"
     },
     {
         "n": "Zduny",
@@ -7389,7 +8312,8 @@
             51.6452,
             17.3757
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "krotoszyński"
     },
     {
         "n": "Zduńska Wola",
@@ -7397,7 +8321,8 @@
             51.6019,
             18.934
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "zduńskowolski"
     },
     {
         "n": "Zdzieszowice",
@@ -7405,7 +8330,8 @@
             50.4243,
             18.125
         ],
-        "w": "opolskie"
+        "w": "opolskie",
+        "p": "krapkowicki"
     },
     {
         "n": "Zelów",
@@ -7413,7 +8339,8 @@
             51.4643,
             19.22
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "bełchatowski"
     },
     {
         "n": "Zgierz",
@@ -7421,7 +8348,8 @@
             51.8562,
             19.4062
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "zgierski"
     },
     {
         "n": "Zgorzelec",
@@ -7429,7 +8357,8 @@
             51.1497,
             15.0067
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "zgorzelecki"
     },
     {
         "n": "Zielona Góra",
@@ -7437,7 +8366,8 @@
             51.9392,
             15.5038
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "Zielona Góra"
     },
     {
         "n": "Zielonka",
@@ -7445,7 +8375,8 @@
             52.3082,
             21.1584
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "wołomiński"
     },
     {
         "n": "Ziębice",
@@ -7453,7 +8384,8 @@
             50.6003,
             17.0411
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "ząbkowicki"
     },
     {
         "n": "Złocieniec",
@@ -7461,7 +8393,8 @@
             53.5305,
             16.0117
         ],
-        "w": "zachodniopomorskie"
+        "w": "zachodniopomorskie",
+        "p": "drawski"
     },
     {
         "n": "Złoczew",
@@ -7469,7 +8402,8 @@
             51.4181,
             18.6058
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "sieradzki"
     },
     {
         "n": "Złotoryja",
@@ -7477,7 +8411,8 @@
             51.1247,
             15.9158
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "złotoryjski"
     },
     {
         "n": "Złotów",
@@ -7485,7 +8420,8 @@
             53.3631,
             17.0388
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "złotowski"
     },
     {
         "n": "Złoty Stok",
@@ -7493,7 +8429,8 @@
             50.443,
             16.8735
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "ząbkowicki"
     },
     {
         "n": "Zwierzyniec",
@@ -7501,7 +8438,8 @@
             50.614,
             22.9715
         ],
-        "w": "lubelskie"
+        "w": "lubelskie",
+        "p": "zamojski"
     },
     {
         "n": "Zwoleń",
@@ -7509,7 +8447,8 @@
             51.3564,
             21.5842
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "zwoleński"
     },
     {
         "n": "Żabno",
@@ -7517,7 +8456,8 @@
             50.1333,
             20.8862
         ],
-        "w": "małopolskie"
+        "w": "małopolskie",
+        "p": "tarnowski"
     },
     {
         "n": "Żagań",
@@ -7525,7 +8465,8 @@
             51.6154,
             15.3133
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "żagański"
     },
     {
         "n": "Żarki",
@@ -7533,7 +8474,8 @@
             50.6258,
             19.3658
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "myszkowski"
     },
     {
         "n": "Żarów",
@@ -7541,7 +8483,8 @@
             50.9425,
             16.4934
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "świdnicki"
     },
     {
         "n": "Żary",
@@ -7549,7 +8492,8 @@
             51.6357,
             15.1382
         ],
-        "w": "lubuskie"
+        "w": "lubuskie",
+        "p": "żarski"
     },
     {
         "n": "Żelechów",
@@ -7557,7 +8501,8 @@
             51.8096,
             21.8957
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "garwoliński"
     },
     {
         "n": "Żerków",
@@ -7565,7 +8510,8 @@
             52.0684,
             17.5633
         ],
-        "w": "wielkopolskie"
+        "w": "wielkopolskie",
+        "p": "jarociński"
     },
     {
         "n": "Żmigród",
@@ -7573,7 +8519,8 @@
             51.471,
             16.9077
         ],
-        "w": "dolnośląskie"
+        "w": "dolnośląskie",
+        "p": "trzebnicki"
     },
     {
         "n": "Żnin",
@@ -7581,7 +8528,8 @@
             52.8496,
             17.7208
         ],
-        "w": "kujawsko-pomorskie"
+        "w": "kujawsko-pomorskie",
+        "p": "żniński"
     },
     {
         "n": "Żory",
@@ -7589,7 +8537,8 @@
             50.0453,
             18.6942
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "Żory"
     },
     {
         "n": "Żukowo",
@@ -7597,7 +8546,8 @@
             54.346,
             18.3644
         ],
-        "w": "pomorskie"
+        "w": "pomorskie",
+        "p": "kartuski"
     },
     {
         "n": "Żuromin",
@@ -7605,7 +8555,8 @@
             53.0662,
             19.9097
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "żuromiński"
     },
     {
         "n": "Żychlin",
@@ -7613,7 +8564,8 @@
             52.2439,
             19.6264
         ],
-        "w": "łódzkie"
+        "w": "łódzkie",
+        "p": "kutnowski"
     },
     {
         "n": "Żyrardów",
@@ -7621,7 +8573,8 @@
             52.0568,
             20.4484
         ],
-        "w": "mazowieckie"
+        "w": "mazowieckie",
+        "p": "żyrardowski"
     },
     {
         "n": "Żywiec",
@@ -7629,6 +8582,7 @@
             49.6781,
             19.1881
         ],
-        "w": "śląskie"
+        "w": "śląskie",
+        "p": "żywiecki"
     }
 ]
