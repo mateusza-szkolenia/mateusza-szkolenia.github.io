@@ -118,7 +118,7 @@ with open(f'{OUTPUT}.txt', 'w') as f:
 
 print("Zapis csv")
 with open(f'{OUTPUT}.csv', 'w') as f:
-    f.write('nazwa,szerokosc,dlugosc,wojewodztwo\n')
+    f.write('nazwa,szerokosc,dlugosc,wojewodztwo,powiat\n')
     for m in miasta:
         n, (lat, lon), woj, powi = m['n'], m['gps'], m['w'], m['p']
         f.write(f'{n},{lat:.4f},{lon:.4f},{woj},{powi}\n')
