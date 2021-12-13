@@ -47,3 +47,4 @@
 
 ## Obrazy maszyn wirtualnych
 * [TurnKey Linux](https://www.turnkeylinux.org/)
+

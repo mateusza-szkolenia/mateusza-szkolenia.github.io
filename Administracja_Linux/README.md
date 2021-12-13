@@ -7,4 +7,4 @@
 ## Linki
 
 - [Pułapki Basha](https://mywiki.wooledge.org/BashPitfalls)
-
+- [Sheckcheck](https://github.com/koalaman/shellcheck)
