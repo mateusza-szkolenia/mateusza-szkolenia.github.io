@@ -2,8 +2,13 @@
 
 ## isEven API
 
-Dokumentacja: https://isevenapi.xyz/
+Dokumentacja: <https://isevenapi.xyz/>
 CORS: `nie`
+
+Przykład:
+```bash
+curl https://api.isevenapi.xyz/api/iseven/6/
+```
 
 ## Chuck Norris API
 
@@ -19,7 +24,7 @@ fetch('https://api.chucknorris.io/jokes/random')
 
 ## NBP Web API
 
-Doumentacja: http://api.nbp.pl/
+Doumentacja: <http://api.nbp.pl/>
 CORS: `nie`
 
 Przykład:
@@ -27,11 +32,17 @@ Przykład:
 #!/usr/bin/python3
 
 import json
-import requests
+import urllib.request
 
 waluta = 'EUR'
 url = f'http://api.nbp.pl/api/exchangerates/rates/A/{waluta}/today/'
 
-resp = json.loads(requests.get(url).content)
+with urllib.request.urlopen(url) as f:
+    resp = json.load(f)
 print(f"Kurs {waluta}: {resp['rates'][0]['mid']}")
 ```
+
+## Cat as a Service
+
+Dokumentacja: <https://cataas.com/>
+
