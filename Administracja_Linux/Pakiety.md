@@ -6,7 +6,7 @@
 * Strona: [https://flatpak.org/](https://flatpak.org/)
 * Repozytorium: [https://flathub.org/](https://flathub.org/)
 
-### Snapcraft
+### Snap
 * Strona i repozytorium: [https://snapcraft.io/](https://snapcraft.io/)
 
 ### AppImage
@@ -18,3 +18,7 @@
 ## Agregaty informacji
 
 ### [Repology](https://repology.org/)
+
+## Artykuły
+
+* [MF need package management](http://michael.orlitzky.com/articles/motherfuckers_need_package_management.xhtml)
