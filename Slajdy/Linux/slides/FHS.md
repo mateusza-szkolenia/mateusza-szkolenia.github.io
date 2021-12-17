@@ -93,18 +93,19 @@
 ### `home`
 
 - katalogi domowe
-- odpowiedniki `C:/Users/`
+- odpowiednik `C:/Users/`
+### `root`
+
+- katalog domowy **roota**
 ------
 ### `lib`, `lib32`, `lib64`
 
 - biblioteki systemowe
-
 ------ 
 ### `mnt` i `media`
 
 - nośniki zewnętrzne
 - partycje
-
 ------
 ### `proc`
 
@@ -113,7 +114,6 @@
  - procesów
  - pamięci
  - informacji o kernelu itp
-
 ------
 ### `sys`
 
@@ -127,6 +127,39 @@
 ### `usr`
 
 - oprogramowanie użytkowe
+---
+### `usr/share`
+
+- pliki współdzielone między platformami:
+    - mapy
+    - grafika
+    - ikony
+    - słowniki
+    - definicje składni
+---
+### `usr/include`
+
+- nagłówki języka C, C++
+---
+### `usr/src`
+
+- kod źródłowy
+---
+### `usr/share/doc`
+
+- dokumentacja
+---
+### `usr/bin`, `usr/sbin`
+
+- podobnie jak `/bin`
+---
+### `usr/lib`
+
+- podobnie jak `/lib`
+---
+### `usr/local`
+
+- oprogramowanie zainstalowane spoza pakietów
 ------
 ### `var`
 
@@ -141,4 +174,10 @@
 
 - informacje o działających podsystemach
 ------
-### 
+### `lost+found`
+
+- odzyskane fragmenty plików
+------
+### `opt`
+
+- dodatkowe oprogramowanie niezależne od dystrybucji
