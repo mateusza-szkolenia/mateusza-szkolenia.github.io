@@ -84,6 +84,7 @@
 ------
 ### `etc`
 
+- konfiguracja
 ------
 ### `dev`
 
