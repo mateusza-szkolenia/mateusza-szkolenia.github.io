@@ -67,5 +67,77 @@
 <i class='fa fa-folder'></i> <code>var</code>
 </div>
 </div>
+------
+### `bin`, `sbin`
+
+- pliki wykonywalne
+- *binarne*
 ---
-### `bin`
+### podział na `bin` i `sbin`
+
+- użytkowe i systemowe
+- pomijany w niektórych dystrybucjach
+------
+### `boot`
+
+- kernele
+------
+### `etc`
+
+------
+### `dev`
+
+- pliki urządzeń
+------
+### `home`
+
+- katalogi domowe
+- odpowiedniki `C:/Users/`
+------
+### `lib`, `lib32`, `lib64`
+
+- biblioteki systemowe
+
+------ 
+### `mnt` i `media`
+
+- nośniki zewnętrzne
+- partycje
+
+------
+### `proc`
+
+- interfejs kernela do:
+ - procesora (CPU)
+ - procesów
+ - pamięci
+ - informacji o kernelu itp
+
+------
+### `sys`
+
+- podobnie jak `proc`
+- interfejs do urządzeń i podsystemów
+------
+### `tmp`
+
+- pliki tymczasoe
+------
+### `usr`
+
+- oprogramowanie użytkowe
+------
+### `var`
+
+- pliki zmienne
+- bazy danych:
+------
+### `srv`
+
+- dane serwowane
+------
+### `run`
+
+- informacje o działających podsystemach
+------
+### 
