@@ -2,7 +2,7 @@
 # Wstęp do Linuksa
 ---
 <!-- .slide: data-background="#eee" -->
-![Tux](img/tux.png)
+![Tux](img/tux.png) <!-- .element: style="height: 60vh;" -->
 ------
 # Historia
 ------
@@ -37,7 +37,7 @@ PDP-11
 ------
 # Andrew Tanenbaum
 
-![Andrew Tanenbaum](img/andrew-tanenbaum.jpg)
+![Andrew Tanenbaum](img/andrew-tanenbaum.jpg) <!-- .element: style="height: 30vh;" -->
 ---
 <!-- .slide: data-autofragments -->
 # Minix
@@ -60,12 +60,12 @@ PDP-11
 ------
 # Richard Stallman
 
-![RMS](img/richard-stallman.jpg)
+![RMS](img/richard-stallman.jpg) <!-- .element: style="height: 40vh;" -->
 ---
 <!-- .slide: data-background="#eee" -->
 # GNU
 
-![GNU](img/gnu.png)
+![GNU](img/gnu.png) <!-- .element: style="height: 40vh;" -->
 ---
 <!-- .slide: data-background="#eee" -->
 # GNU GPL
@@ -136,7 +136,19 @@ Portable Operating System Interface
 - konwencja wołania
 ------
 <!-- .slide: data-autofragments -->
+# Komputer i OS 
+------
+<!-- .slide: data-autofragments -->
+# Rola OS
+
+- dostęp do urządzeń (drivery)
+- zarządzanie pamięcią
+- zarządzanie procesami
+- udostępnienie interfejsu
+------
+<!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#555" -->
 # Koniec
 
 dalej: [Dystrybucje Linuksa](Dystrybucje.html)
+
