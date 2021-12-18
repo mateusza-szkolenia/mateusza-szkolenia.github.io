@@ -274,6 +274,8 @@
 <i class='fa fa-file'></i> `.bash_history` -- kropka na początku
 
 <i class='fa fa-file'></i> `archiwum.tar.bz2` -- kilka rozszerzeń
+
+libpng15.so.15.13.0
 ---
 <!-- .slide: data-autofragments -->
 ## Przenośność plików

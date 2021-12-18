@@ -93,7 +93,8 @@
 ### `home`
 
 - katalogi domowe
-- odpowiednik `C:/Users/`
+- odpowiednik `C:\Users\`
+---
 ### `root`
 
 - katalog domowy **roota**
@@ -101,6 +102,7 @@
 ### `lib`, `lib32`, `lib64`
 
 - biblioteki systemowe
+- odpowiednik DLL
 ------ 
 ### `mnt` i `media`
 
@@ -122,7 +124,7 @@
 ------
 ### `tmp`
 
-- pliki tymczasoe
+- pliki tymczasowe
 ------
 ### `usr`
 
