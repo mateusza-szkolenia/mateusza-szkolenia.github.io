@@ -275,7 +275,7 @@
 
 <i class='fa fa-file'></i> `archiwum.tar.bz2` -- kilka rozszerzeń
 
-libpng15.so.15.13.0
+<i class='fa fa-file'></i> `libpng15.so.15.13.0` -- rozszerzenie `.so` w środku
 ---
 <!-- .slide: data-autofragments -->
 ## Przenośność plików
