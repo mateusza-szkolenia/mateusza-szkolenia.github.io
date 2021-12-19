@@ -144,7 +144,6 @@
   <p><i class='fa fa-hdd'></i> C:</p>
   <p><i class='fa fa-hdd'></i> D:</p>
   <p><i class='fa fa-hdd'></i> E:</p>
-  </p>
 </div>
 <div style='width: 40%; text-align: center;'>
   <h3 class='fragment fab fa-linux'></i></h3>
