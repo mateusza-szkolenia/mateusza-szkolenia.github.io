@@ -120,6 +120,7 @@
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 40%; text-align: center'>
   <h3 class='fragment fab fa-windows'></h3>
+  <p>
   <code>con</code><br>
   <code>nul</code><br>
   <code>com1</code><br>
