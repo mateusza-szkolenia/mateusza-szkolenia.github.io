@@ -1,6 +1,7 @@
 # Linux
 
 
+1. [Uprawnienia w Linuksie](Uprawnienia.html)
 1. [Podstawowe pojęcia](Podstawy.html)
 1. [Shell w Linuksie](Shell.html)
 1. [System plików w Linuksie](System_plikow.html)

@@ -17,7 +17,7 @@
 ## Drzewo katalogów
 
 - pliki i katalogi mają unikalne nazwy
-- katalogi mogą zawierać inne pliki i katalogi
+- katalogi zawierają pliki i katalogi
 ---
 <!-- .slide: data-autofragments -->
 ## Pliki
@@ -33,6 +33,7 @@
 ## Katalogi
 
 - służą organizacji danych
+- mogą zawierać inne pliki i katalogi
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -44,6 +45,7 @@
 - rozszerzenia i typy plików
 - uprawnienia i pliki ukryte
 - pliki specjalne
+- znak końca linii w plikach tekstowych
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -98,27 +100,26 @@
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
-## Dozwolone znaki
+## Zastrzeżone znaki
 
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 40%; text-align: center'>
   <h3 class='fragment fab fa-windows'></h3>
-  <p>sporo zastrzeżonych:<br> <code>/ \ * : < > ? %</code></p>
+  <p>sporo:<br> <code>/ \ * : < > ? %</code></p>
 </div>
 <div style='width: 40%; text-align: center;'>
   <h3 class='fragment fab fa-linux'></i></h3>
-  <p>jeden zastrzeżony:<br> <code>/</code></p>
+  <p>jeden:<br> <code>/</code></p>
 </div>
 </div>
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
-## Dozwolone nazwy
+## Zastrzeżone nazwy
 
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 40%; text-align: center'>
   <h3 class='fragment fab fa-windows'></h3>
-  <p>sporo zastrzeżonych:<br>
   <code>con</code><br>
   <code>nul</code><br>
   <code>com1</code><br>
@@ -263,7 +264,7 @@
 - nazwa pliku: `piosenka.mp3`
 - rozszerzenie: `.mp3` (umowne)
 - typ pliku: muzyka
-- (typ wynika z zawartości)
+- (typ może też wynikać z zawartości)
 ---
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -281,98 +282,6 @@
 ## Przenośność plików
 
 Ograniczenia w Windows:
-- nie są ograniczeniami systemu plików
+- nie zawsze są ograniczeniami systemu plików
 - zaimplementowane niekonsekwentnie
 - mogą powodować dziwne zachowanie systemu
-------
-<!-- .slide: data-autofragments -->
-## Uprawnienia
-
-- 3 operacje
-- 3 obszary (ang. *scopes*)
-- 3 × 3 = 9 bitów
----
-## Operacje
-
-<div style='display: flex; justify-content: space-around; flex-wrap: wrap;'>
-<div style='width: 30%' class=fragment>
-<span style='font-size: 5em'>R</span><br>
-read<br>
-(odczyt)
-</div>
-<div style='width: 30%' class=fragment>
-<span style='font-size: 5em'>W</span><br>
-write<br>
-(zapis)
-</div>
-<div style='width: 30%' class=fragment>
-<span style='font-size: 5em'>X</span><br>
-execute<br>
-(uruchomienie)
-</div>
-</div>
----
-## Obszary
-<div style='display: flex; justify-content: space-around; flex-wrap: wrap;'>
-<div style='width: 30%' class=fragment>
-<span style='font-size: 5em' class='fa fa-user'></span><br>
-owner<br>
-(właściciel)
-</div>
-<div style='width: 30%' class=fragment>
-<span style='font-size: 5em' class='fa fa-users'></span><br>
-group<br>
-(grupa)
-</div>
-<div style='width: 30%' class=fragment>
-<span style='font-size: 5em' class='fa fa-globe'></span><br>
-others<br>
-(inni)
-</div>
-</div>
----
-## Uprawnienia
-<div style='display: flex; justify-content: space-around; flex-wrap: wrap;'>
-<div style='width: 30%' class=fragment>
-<code style='font-size: 2em'>RWX</code><br>
-właściciel
-</div>
-<div style='width: 30%' class=fragment>
-<code style='font-size: 2em'>R--</code><br>
-grupa
-</div>
-<div style='width: 30%' class=fragment>
-<code style='font-size: 2em'>---</code><br>
-inni
-</div>
-</div>
----
-<!-- .slide: data-autofragments -->
-## Przykładowe uprawnienia
-
-- `rw-r--r--`
-- `rwxr-xr-x`
-- `r--r--r--`
-- `r--------`
-- `rw-rw----`
----
-## X - uruchomienie
-
-<div style='display: flex; justify-content: space-around;'>
-<div style='width: 45%; text-align: center' class=fragment>
-  <h3 class='fab fa-windows'></h3>
-  <p><i class='fa fa-file'></i> <code>program.exe</code></p>
-  <ul>
-  <li>rozszerzenie <code>exe</code></li>
-  </ul>
-</div>
-<div style='width: 45%; text-align: center;' class=fragment>
-  <h3 class='fab fa-linux'></h3>
-  <p><i class='fa fa-file'></i> <code>program</code></p>
-  <ul>
-  <li>brak rozszerzenia</li>
-  <li>prawo dostępu <code>X</code></li>
-  </ul>
-</div>
-</div>
-
