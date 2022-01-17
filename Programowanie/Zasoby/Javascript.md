@@ -1,29 +1,42 @@
 # Javascript
+
 ## Przydatne wycinki kodu
+
 * [You Might Not Need jQuery](http://youmightnotneedjquery.com/)
 
 ## Frameworki i biblioteki
+
 * [VanillaJS](http://vanilla-js.com/) 😄
 * [jQuery](https://jquery.com/)
 * [Leaflet](https://leafletjs.com/) - osadzanie map
 * [ChartJS](https://www.chartjs.org/) - wykresy i grafy
 
 ## Kryptografia
+
 * [TweetNaCl-JS](https://tweetnacl.js.org/#/)
 
 ## Narzędzia
+
 * [Babel](https://babeljs.io/) - narzędzie dostosowujące kod do przeglądarek nieobsługujących nowszych cech języka JavaScript
 
+## Platofrmy
+
+* [Electron](https://www.electronjs.org/) - platforma do tworzenia aplikacji desktopowych na bazie technologii webowych (HTML/CSS/JS)
+
 ## Języki kompilowane do JavaScriptu
+
 * [Coffeescript](https://coffeescript.org/)
 * [TypeScript](https://www.typescriptlang.org/)
 * [Haxe](https://haxe.org/)
 
-## Alternatywne implementacji JavaScript (ECMAScript)
+## Pozaprzeglądarkowe implementacje JavaScript (ECMAScript)
 
-* [QuickJS](https://bellard.org/quickjs/)
-* [Duktape](https://duktape.org/)
-* [JerryScript](https://jerryscript.net/)
+* [NodeJS](https://nodejs.org/en/)
+* [QuickJS](https://bellard.org/quickjs/) - ES2020
+* [Duktape](https://duktape.org/) - ES5/6 dla mikrokontrolerów
+* [JerryScript](https://jerryscript.net/) - ES5.1 dla mikrokontrolerów
+* [Boa](https://github.com/boa-dev/boa) - napisany w Rust
+* [Elk](https://github.com/cesanta/elk) - podzbiór ES6 dla mikrokontrolerów
 
 * [GNOME JavaScript `gjs`](https://gjs-docs.gnome.org/)
 * [Windows Scripting Host](https://en.wikipedia.org/wiki/Windows_Script_Host)
