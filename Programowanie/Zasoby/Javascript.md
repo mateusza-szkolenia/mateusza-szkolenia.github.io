@@ -19,7 +19,7 @@
 
 * [Babel](https://babeljs.io/) - narzędzie dostosowujące kod do przeglądarek nieobsługujących nowszych cech języka JavaScript
 
-## Platofrmy
+## Platformy
 
 * [Electron](https://www.electronjs.org/) - platforma do tworzenia aplikacji desktopowych na bazie technologii webowych (HTML/CSS/JS)
 
@@ -38,7 +38,7 @@
 * [Boa](https://github.com/boa-dev/boa) - napisany w Rust
 * [Elk](https://github.com/cesanta/elk) - podzbiór ES6 dla mikrokontrolerów
 
-* [GNOME JavaScript `gjs`](https://gjs-docs.gnome.org/)
-* [Windows Scripting Host](https://en.wikipedia.org/wiki/Windows_Script_Host)
-* [JScript.NET](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/ms974588%28v=msdn.10%29?redirectedfrom=MSDN)
+* [GNOME JavaScript `gjs`](https://gjs-docs.gnome.org/) - API do automatyzacji aplikacji środowiska GNOME
+* [Windows Scripting Host](https://en.wikipedia.org/wiki/Windows_Script_Host) - API do automatyzacji systemu Windows
+* [JScript.NET](https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/ms974588%28v=msdn.10%29?redirectedfrom=MSDN) - nierozwijany już język JScript.NET dla platformy **Microsoft .NET**
 
