@@ -388,4 +388,10 @@ CentOS Stream - cały czas wspierany
 - `apt` (`dpkg`)
 - `yum` / `dnf` (`rpm`)
 - inne
+------
+<!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#555" -->
+# Koniec
+
+<!-- dalej: [Dystrybucje Linuksdda](Dystrybucje.html) -->
 
