@@ -1,38 +1,54 @@
 #!/usr/bin/python3
 
+"Generate listings"
+
 import glob
-import jinja2
 import os
-
-os.chdir(os.path.dirname(__file__)+"/..")
-
-j2 = jinja2.Environment(loader=jinja2.FileSystemLoader("_templates"))
-reveal_template = j2.get_template("Reveal.html.j2")
-README_template = j2.get_template("README.md.j2")
-Index_template = j2.get_template("Index.html.j2")
+import jinja2
 
 def get_slidesets():
-    for p in glob.glob("slides/*.md"):
-        ss = open(p).read()
-        st = [x for x in ss.split("\n") if x.startswith("# ")][0][2:]
-        hfn = os.path.basename(p)[:-3] + ".html"
+    "Get slides filenames"
+    for s_filename in glob.glob("slides/*.md"):
+        s_content = open(s_filename).read()
+        s_title = [x for x in s_content.split("\n") if x.startswith("# ")][0][2:]
+        hfn = os.path.basename(s_filename)[:-3] + ".html"
         yield {
-            "title": st,
-            "filename": p,
-            "md_filename": os.path.basename(p),
+            "title": s_title,
+            "filename": s_filename,
+            "md_filename": os.path.basename(s_filename),
             "html_filename": hfn
         }
 
-for slideset in get_slidesets():
-    reveal = reveal_template.render(**slideset)
-    reveal_fn = slideset['html_filename']
+def main():
+    "Main"
+    os.chdir(os.path.dirname(__file__) + "/..")
 
-    try:
-        os.unlink(reveal_fn)
-    except:
-        pass
-    open(reveal_fn, "w").write(reveal)
-    os.chmod(reveal_fn, 0o444)
+    j2env = jinja2.Environment(loader=jinja2.FileSystemLoader("_templates"))
 
-open("0.html", "w").write(Index_template.render(**{"slidesets": [*get_slidesets()]}))
-open("README.md", "w").write(README_template.render(**{"slidesets": [*get_slidesets()]}))
+    for slideset in get_slidesets():
+        reveal_template = j2env.get_template("Reveal.html.j2")
+        reveal = reveal_template.render(**slideset)
+        reveal_fn = slideset['html_filename']
+
+        try:
+            os.unlink(reveal_fn)
+        except FileNotFoundError:
+            pass
+        open(reveal_fn, "w").write(reveal)
+        os.chmod(reveal_fn, 0o444)
+
+    outputs = [
+        ('0.html', 'Index.html.j2'),
+        ('README.md', 'README.md.j2'),
+    ]
+
+    slidesets = [*get_slidesets()]
+
+    for filename, templatename in outputs:
+        with open(filename, 'w') as output_file:
+            template = j2env.get_template(templatename)
+            content = template.render(slidesets=slidesets)
+            output_file.write(content)
+
+if __name__ == '__main__':
+    main()
