@@ -119,7 +119,9 @@ Portable Operating System Interface
 - Android
 - MINIX
 - Linux
-- BSD (FreeBSD, OpenBSD, NetBSD, Dragonfly BSD)
+- BSD
+  
+  FreeBSD, OpenBSD, NetBSD, Dragonfly BSD
 ---
 <!-- .slide: data-autofragments -->
 # Microsoft Windows?
@@ -172,7 +174,7 @@ Portable Operating System Interface
 <!-- .slide: data-autofragments -->
 # Linux
 
-- nazwa kernela
+- nazwa oznacza sam kernel
 - <https://www.kernel.org>
 ---
 <!-- .slide: data-autofragments -->
@@ -187,7 +189,7 @@ Portable Operating System Interface
 - system operacyjny oparty na Linuksie (niekoniecznie GNU):
   - dostosowany do konkretnego zastosowania
   - wydany przez konkretny podmiot
-  - instalator, system pakietów
+  - z instalatorem i system pakietów
   - usługi dodatkowe
 ------
 <!-- .slide: data-autofragments -->
