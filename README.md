@@ -4,8 +4,7 @@
 
 Materiały pomocnicze do kursów programowania:
 - `Python`
-- `C`
-- `C++`
+- `C`, `C++`
 - `JavaScript`
 - `SQL` (`SQLite`, `MySQL`, `PostgreSQL`)
 
