@@ -68,48 +68,49 @@
 </div>
 </div>
 ------
-### `bin`, `sbin`
+### `/bin`, `/sbin`
 
 - pliki wykonywalne
 - *binarne*
 ---
-### podział na `bin` i `sbin`
+### podział na `/bin` i `/sbin`
 
 - użytkowe i systemowe
 - pomijany w niektórych dystrybucjach
 ------
-### `boot`
+### `/boot`
 
 - kernele
+- pliki potrezbne do uruchomienia systemu
 ------
-### `etc`
+### `/etc`
 
 - konfiguracja
 ------
-### `dev`
+### `/dev`
 
 - pliki urządzeń
 ------
-### `home`
+### `/home`
 
 - katalogi domowe
 - odpowiednik `C:\Users\`
 ---
-### `root`
+### `/root`
 
 - katalog domowy **roota**
 ------
-### `lib`, `lib32`, `lib64`
+### `/lib`, `/lib32`, `/lib64`
 
 - biblioteki systemowe
 - odpowiednik DLL
 ------ 
-### `mnt` i `media`
+### `/mnt` i `/media`
 
 - nośniki zewnętrzne
-- partycje
+- dodatkowe partycje
 ------
-### `proc`
+### `/proc`
 
 - interfejs kernela do:
  - procesora (CPU)
@@ -117,69 +118,95 @@
  - pamięci
  - informacji o kernelu itp
 ------
-### `sys`
+### `/sys`
 
 - podobnie jak `proc`
 - interfejs do urządzeń i podsystemów
 ------
-### `tmp`
+### `/tmp`
 
 - pliki tymczasowe
 ------
-### `usr`
+### `/usr`
 
 - oprogramowanie użytkowe
 ---
-### `usr/share`
+### `/usr/share`
 
-- pliki współdzielone między platformami:
+- pliki niezależne od platformy:
     - mapy
     - grafika
     - ikony
     - słowniki
     - definicje składni
 ---
-### `usr/include`
+### `/usr/include`
 
 - nagłówki języka C, C++
 ---
-### `usr/src`
+### `/usr/src`
 
 - kod źródłowy
 ---
-### `usr/share/doc`
+### `/usr/share/doc`
 
 - dokumentacja
 ---
-### `usr/bin`, `usr/sbin`
+### `/usr/bin`, `/usr/sbin`
 
 - podobnie jak `/bin`
 ---
-### `usr/lib`
+### `/usr/lib`
 
 - podobnie jak `/lib`
 ---
-### `usr/local`
+### `/usr/local`
 
 - oprogramowanie zainstalowane spoza pakietów
 ------
-### `var`
+### `/var`
 
 - pliki zmienne
-- bazy danych:
+- *szeroko pojęte bazy danych*
+- jedyne miejsce modyfikowane przez usługi
+---
+### `/var/log`
+
+- logi (dzienniki) systemowe
+---
+### `/var/lib`
+
+- zbiory danych aplikacji
+- bazy danych (np. MySQL, Postgresql)
+---
+### `/var/cache`
+
+- pamięć podręczna aplikacji
+---
+### `/var/spool`
+
+- kolejki przetwarzania
+  - drukarki
+  - poczty
+  - etc.
 ------
-### `srv`
+### `/srv`
 
 - dane serwowane
 ------
-### `run`
+### `/run` (lub `/var/run`)
 
-- informacje o działających podsystemach
+- informacje o działających usługach
 ------
-### `lost+found`
+### `/lost+found`
 
 - odzyskane fragmenty plików
 ------
-### `opt`
+### `/opt`
 
-- dodatkowe oprogramowanie niezależne od dystrybucji
+- dodatkowe oprogramowanie niepochodzące dystrybucji
+------
+### `/etc/*.d`
+
+- katalogi zawierające konfigurację rozbitą na odrębne pliki
+
