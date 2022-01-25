@@ -15,7 +15,7 @@
 * 8 bitów
 
 (256 wartości)
--------
+------
 ## Kilobajt (1kB)
 
 * 1024 B?
@@ -42,7 +42,7 @@
 
 *Błąd: 7.3%*
 ------
-## Przedrostki i wielokrotności SI
+## System SI
 
 | jednostka| symbol |wartość | wartość |
 |----------|--------|-------:|--------:|
@@ -53,7 +53,7 @@
 | terabajt | TB     | 1000 GB | 1000000000000 B |
 | petabajt | PT     | 1000 TB | 1000000000000000 B |
 ---
-## Przedrostki i wielokrotności binarne
+## System "informatyczny"
 
 | jednostka| symbol |wartość | wartość |
 |----------|--------|-------:|--------:|

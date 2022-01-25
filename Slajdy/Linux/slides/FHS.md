@@ -67,6 +67,7 @@
 <i class='fa fa-folder'></i> <code>var</code>
 </div>
 </div>
+
 ------
 ### `/bin`, `/sbin`
 
