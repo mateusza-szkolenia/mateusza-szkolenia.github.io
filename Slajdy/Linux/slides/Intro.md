@@ -89,7 +89,7 @@ PDP-11
 <!-- .slide: data-autofragments -->
 # POSIX
 
-Portable Operating System Interface
+[Portable Operating System Interface](https://en.wikipedia.org/wiki/POSIX)
 ---
 <!-- .slide: data-autofragments -->
 # POSIX
@@ -152,8 +152,8 @@ Portable Operating System Interface
 - konwencja wołania
 ------
 <!-- .slide: data-autofragments -->
-# Komputer i OS 
-------
+# Komputer a OS 
+---
 <!-- .slide: data-autofragments -->
 # Rola OS
 

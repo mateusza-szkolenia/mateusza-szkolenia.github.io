@@ -9,7 +9,7 @@
 ---
 # Ale ile?
 <!-- .slide: data-autofragments -->
-- <q>Almost one thousand Linux distributions exist.</q>
+- *Almost one thousand Linux distributions exist.*
   [Wikipedia](https://en.wikipedia.org/wiki/Linux_distribution)
 - 261 aktywnych notowanych w [Distrowatch](https://distrowatch.com/dwres.php?resource=popularity)
 ---
@@ -127,7 +127,7 @@ Community Enterprise Operating System
 <!-- .slide: data-autofragments -->
 ## RockyLinux
 
-Na cześć twórcy CentOS-a: Rocky'ego McGaugha
+Na cześć Rocky'ego McGaugha (twórcy CentOS)
 ------
 <!-- .slide: data-autofragments -->
 ## Wydawca
@@ -153,7 +153,7 @@ Na cześć twórcy CentOS-a: Rocky'ego McGaugha
 ## Cykl wydawniczy
 
 - regularność (lub brak)
-- częstotliwość
+- okres
 - czas wsparcia
 ---
 ## Cykl ciągły
@@ -221,7 +221,7 @@ Ubuntu 21.10 (Impish Indri)
 - numeracja
   - głównych wydań: 6, 7, 8...
   - poprawek: 8.1, 8.2, 8.3...
-- tylko wydania z długim wsparciem (ok. 10 lat)
+- długie wsparcie (ok. 10 lat)
 ---
 <!-- .slide: data-background="#fff" -->
 ![RHEL timeline](img/rhel-timeline.png)
@@ -231,7 +231,8 @@ Ubuntu 21.10 (Impish Indri)
 
 - wydania średnio dwa razy w roku
 - numeracja: ...31, 32, 33, 34...
-- pole eksperymentalne RedHata
+- krótkie wsparcie
+- pole eksperymentalne RHEL
 ---
 <!-- .slide: data-background="#fff" -->
 ![Fedora timeline](img/fedora-timeline.png)
@@ -242,7 +243,7 @@ Ubuntu 21.10 (Impish Indri)
 - wydania co kilka lat
 - numery + nazwy kodowe
 - nazwy - imiona bohaterów bajki *Toy Story*
-- **Sid**
+- **Sid** - wydanie eksperymentalne
 ---
 <!-- .slide: data-background="#fff" -->
 ![Toy Story](img/toystory.jpg)
@@ -268,8 +269,10 @@ Debian 8 (Jessie)
 Debian 9 (Stretch)  
 Debian 10 (Buster)  
 **Debian 11 (Bullseye)**  
+  
 Debian 12 (Bookworm)  
 Debian 13 (Trixie)  
+  
 Debian Sid  
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
 ---
@@ -284,6 +287,7 @@ Debian Sid
 * RockyLinux
 * AlmaLinux
 * Oracle Linux
+* ...
 ---
 <!-- .slide: data-autofragments -->
 ## Dlaczego?
@@ -303,8 +307,8 @@ Debian Sid
 <!-- .slide: data-autofragments -->
 ## CentOS - różnice
 
-- podmiana nazwy, logo, kolorów, tapet
-- samodzielna kompilacja
+- podmianka nazwy, logo, kolorów, tapet
+- własna kompilacja
 - własne repozytoria
 ---
 <!-- .slide: data-autofragments -->
@@ -333,10 +337,10 @@ Debian Sid
 <!-- .slide: data-autofragments -->
 ## Przepływ poprawek
 
-deweloperzy → testerzy → `RHEL` → `CentOS`
+deweloperzy → testerzy → RHEL → CentOS
 
 - klienci RedHata dostawali poprawki szybciej
-- ... również te błędne
+- ... również te niedoskonałe
 - CentOS od razu wdrażał poprawione poprawki
 ---
 <!-- .slide: data-autofragments -->
@@ -352,7 +356,7 @@ deweloperzy → testerzy → `RHEL` → `CentOS`
 
 - dodatkowa edycja CentOS-a
 - dostawała poprawki przed RHEL
-- poprawki → `CentOS Stream` → `RHEL` → `CentOS`
+- poprawki → CentOS Stream → RHEL → CentOS
 ---
 <!-- .slide: data-autofragments -->
 ## CentOS is dead
@@ -371,14 +375,17 @@ deweloperzy → testerzy → `RHEL` → `CentOS`
 |--------|------------|------------|
 | 7      | 2024-06-30 | 2024-06-30 |
 | 8      | 2029-05-01 | 2021-12-31 |
+
+CentOS Stream - cały czas wspierany
 ---
 <!-- .slide: data-autofragments -->
 ## AlmaLinux i RockyLinux
 
-- tylko wersja 8
+- tylko wersja 8.x
 ---
 ## System pakietów
 
 - `apt` (`dpkg`)
 - `yum` / `dnf` (`rpm`)
 - inne
+
