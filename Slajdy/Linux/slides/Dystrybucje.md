@@ -1,9 +1,28 @@
 # Dystrybucje Linuksa
 ---
+<!-- .slide: data-autofragments -->
+# Ile?
+
+- trudno powiedzieć
+  - co jest dystrybucją a co jeszcze nie?
+  - jak liczyć?
+---
+# Ale ile?
+<!-- .slide: data-autofragments -->
+- <q>Almost one thousand Linux distributions exist.</q>
+  [Wikipedia](https://en.wikipedia.org/wiki/Linux_distribution)
+- 261 aktywnych notowanych w [Distrowatch](https://distrowatch.com/dwres.php?resource=popularity)
+---
+<!-- .slide: data-autofragments -->
+# Drzewo
+
+<https://upload.wikimedia.org/wikipedia/commons/b/b5/Linux_Distribution_Timeline_21_10_2021.svg>
+---
+<!-- .slide: data-autofragments -->
 Dlaczego tak dużo?
-- A po co?
-- A dlaczego?
-- A komu to potrzebne?
+- *A po co?*
+- *A dlaczego?*
+- *A komu to potrzebne?*
 ---
 <iframe style="width: 90vw; height: 70vh;" src="https://www.youtube.com/embed/OO3FANjwKHY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay></iframe>
 
@@ -93,7 +112,7 @@ Od czerwonej czapki, którą nosił twórca.
 
 *humanity towards others*
 
-*nie umiem zainstalować Debiana*
+*nie umiem zainstalować Debiana* (żart)
 ---
 <!-- .slide: data-autofragments -->
 ## Fedora
@@ -188,6 +207,7 @@ Ubuntu 20.10 (Groovy Gorilla)
 Ubuntu 21.04 (Hirsute Hippo)  
 Ubuntu 21.10 (Impish Indri)  
 *Ubuntu 22.04 LTS (Jammy Jellyfish)*  
+
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
 <!-- .slide: data-background="#5e2750" -->
 ---
@@ -227,7 +247,7 @@ Ubuntu 21.10 (Impish Indri)
 <!-- .slide: data-background="#fff" -->
 ![Toy Story](img/toystory.jpg)
 
-© Disney
+© Pixar, Disney
 ---
 <!-- .slide: data-background="#913" -->
 ## Dotychczasowe wydania
@@ -247,9 +267,10 @@ Debian 7 (Wheezy)
 Debian 8 (Jessie)  
 Debian 9 (Stretch)  
 Debian 10 (Buster)  
-Debian 11 (Bullseye)  
+**Debian 11 (Bullseye)**  
 Debian 12 (Bookworm)  
 Debian 13 (Trixie)  
+Debian Sid  
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
 ---
 <!-- .slide: data-background="#fff" -->
@@ -322,7 +343,7 @@ deweloperzy → testerzy → `RHEL` → `CentOS`
 ## CentOS - Fundacja
 
 - z początku niezależna od RedHata
-- RedHat Inc. zaproponował finansowanie
+- RedHat Inc. zaproponował finansowanie...
 - ... w zamian za umieszczenie swoich ludzi w zarządzie
 - *What can go wrong?*
 ---

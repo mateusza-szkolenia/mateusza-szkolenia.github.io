@@ -14,6 +14,7 @@ PDP-11
 
 - 1970s
 - Bell Labs
+- język C
 ---
 <!-- .slide: data-autofragments -->
 ## Cechy UNIX-a
@@ -30,10 +31,18 @@ PDP-11
 
 - 1981
 - architektura Intel x86 (8086, 286, 386)
+- MS-DOS, MS Windows
 ---
 <!-- .slide: data-background="img/ms-dos.png" -->
 ---
+<!-- .slide: data-autofragments -->
 # DOS
+
+- brak wielozadaniowości
+- brak wielodostępności
+- bezpośredni dostęp do zasobów
+- powszechny
+- gry, programy
 ------
 # Andrew Tanenbaum
 
@@ -45,6 +54,7 @@ PDP-11
 - 1987
 - *mini Unix*
 - prosty, do celów dydaktycznych
+- ograniczenia licencyjne wydawcy
 ---
 ![Book](img/minix-book.jpg)
 ------
@@ -66,11 +76,15 @@ PDP-11
 # GNU
 
 ![GNU](img/gnu.png) <!-- .element: style="height: 40vh;" -->
+
+*GNU is Not Unix*
 ---
 <!-- .slide: data-background="#eee" -->
 # GNU GPL
 
 ![GPL](img/gnu-gpl.png)
+
+*GNU General Public License*
 ------
 <!-- .slide: data-autofragments -->
 # POSIX
@@ -145,6 +159,36 @@ Portable Operating System Interface
 - zarządzanie pamięcią
 - zarządzanie procesami
 - udostępnienie interfejsu
+------
+<!-- .slide: data-autofragments -->
+# Pojęcia
+
+- Linux
+- GNU/Linux
+- dystrybucja Linuksa
+  - Ubuntu
+  - RedHat... etc
+---
+<!-- .slide: data-autofragments -->
+# Linux
+
+- nazwa kernela
+- <https://www.kernel.org>
+---
+<!-- .slide: data-autofragments -->
+# GNU/Linux
+
+- system operacyjny z kernelem Linuksa
+- oprogramowanie **GNU coreutils**
+---
+<!-- .slide: data-autofragments -->
+# Dystrybucja
+
+- system operacyjny oparty na Linuksie (niekoniecznie GNU):
+  - dostosowany do konkretnego zastosowania
+  - wydany przez konkretny podmiot
+  - instalator, system pakietów
+  - usługi dodatkowe
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#555" -->
