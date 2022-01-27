@@ -2,20 +2,20 @@
 
 ## isEven API
 
-Dokumentacja: <https://isevenapi.xyz/>
-CORS: `nie`
+Dokumentacja: <https://isevenapi.xyz/>  
+CORS: `nie`  
 
-Przykład:
+### Przykład
 ```bash
 curl https://api.isevenapi.xyz/api/iseven/6/
 ```
 
 ## Chuck Norris API
 
-Dokumentacja: https://api.chucknorris.io/
-CORS: `tak`
+Dokumentacja: https://api.chucknorris.io/  
+CORS: `tak`  
 
-Przykład:
+### Przykład
 ```javascript
 fetch('https://api.chucknorris.io/jokes/random')
     .then(resp=>resp.json())
@@ -24,10 +24,10 @@ fetch('https://api.chucknorris.io/jokes/random')
 
 ## NBP Web API
 
-Doumentacja: <http://api.nbp.pl/>
-CORS: `nie`
+Doumentacja: <http://api.nbp.pl/>  
+CORS: `nie`  
 
-Przykład:
+### Przykład
 ```python
 #!/usr/bin/python3
 
@@ -46,3 +46,8 @@ print(f"Kurs {waluta}: {resp['rates'][0]['mid']}")
 
 Dokumentacja: <https://cataas.com/>
 
+### Przykład
+```html
+
+<img src='https://cataas.com/cat/computer'>
+```
