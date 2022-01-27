@@ -30,13 +30,14 @@
 ## Dystrybucje specjalizowane pod kątem bezpieczeństwa
 * [Qubes OS](https://www.qubes-os.org/)
 
-## Dystrybucje bazujące na Ubuntu:
+## Dystrybucje bazujące na Ubuntu i Debianie:
 * [elementary OS](https://elementary.io/)
 * [Linux Mint](https://linuxmint.com/)
 * [Pop!\_OS](https://pop.system76.com/)
 * [Zorin OS](https://zorin.com/os/)
 * [Ubuntu Budgie](https://ubuntubudgie.org/)
 * [Ubuntu Studio](https://ubuntustudio.org/)
+* [ParrotOS](https://www.parrotsec.org/)
 
 ## Starsze dystrybucje
 * [Slackware Linux](http://www.slackware.com/)
