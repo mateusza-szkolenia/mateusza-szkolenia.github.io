@@ -16,6 +16,10 @@ PDP-11
 - Bell Labs
 - język C
 ---
+## Dennis Ritchie & Ken Thompson
+
+![Ritchie and Thopson](img/ritchie_and_thompson.jpg) <!-- .element: style="height: 30vh;" -->
+---
 <!-- .slide: data-autofragments -->
 ## Cechy UNIX-a
 
@@ -79,6 +83,17 @@ PDP-11
 
 *GNU is Not Unix*
 ---
+<!-- .slide: data-autofragments -->
+# GNU Project
+
+- kernel: GNU Mach/GNU Hurd
+- desktop: GNOME
+- shell: GNU Bash
+- polecenia: GNU Coreutils, grep, tar
+- bootloader: GRUB
+- kompilatory: GCC, Make
+- [i wiele innych](https://en.wikipedia.org/wiki/List_of_GNU_packages)
+---
 <!-- .slide: data-background="#eee" -->
 # GNU GPL
 
@@ -105,8 +120,8 @@ PDP-11
 <!-- .slide: data-autofragments -->
 # POSIX Certified
 
-- Solaris
-- macOS
+- Solaris (SunOS)
+- macOS (Apple)
 - AIX
 - HP-UX
 - IRIX
@@ -119,9 +134,7 @@ PDP-11
 - Android
 - MINIX
 - Linux
-- BSD
-  
-  FreeBSD, OpenBSD, NetBSD, Dragonfly BSD
+- BSD (FreeBSD, OpenBSD, NetBSD, Dragonfly BSD)
 ---
 <!-- .slide: data-autofragments -->
 # Microsoft Windows?
@@ -181,7 +194,7 @@ PDP-11
 # GNU/Linux
 
 - system operacyjny z kernelem Linuksa
-- oprogramowanie **GNU coreutils**
+- oprogramowanie z projektu **GNU**
 ---
 <!-- .slide: data-autofragments -->
 # Dystrybucja
