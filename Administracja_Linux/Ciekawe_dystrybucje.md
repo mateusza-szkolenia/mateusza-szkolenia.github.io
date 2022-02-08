@@ -24,6 +24,7 @@
 ### Serwery lokalne
 * [ClearOS](https://www.clearos.com/)
 * [OpenMediaVault](https://www.openmediavault.org/)
+* [Snakeoil OS](https://www.snakeoil-os.net/)
 ### Centrala telefonicza VoIP
 * [FreePBX](https://www.freepbx.org/)
 
@@ -49,3 +50,13 @@
 ## Obrazy maszyn wirtualnych
 * [TurnKey Linux](https://www.turnkeylinux.org/)
 
+## Inne UNIX-y
+
+Systemy nie bazujące na kernelu Linuksa.
+
+* [Minix](https://www.minix3.org/)
+* [FreeBSD](https://www.freebsd.org/)
+* [OpenBSD](https://www.openbsd.org/)
+* [NetBSD](https://www.netbsd.org/)
+* [DragonflyBSD](https://www.dragonflybsd.org/)
+* [openindiana](https://www.openindiana.org/) - kontynuacja Solarisa
