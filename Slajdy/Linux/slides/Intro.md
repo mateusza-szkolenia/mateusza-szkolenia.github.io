@@ -147,6 +147,28 @@ PDP-11
 - Cygwin
 - Git for Windows
 ------
+<!-- .slide: data-background="#eee" -->
+# TOP500
+
+![TOP500](img/top500.png) <!-- .element: style="height: 30vh;" -->
+
+Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
+---
+<!-- .slide: data-autofragments -->
+# Linux
+
+- pierwszy raz na liście w 1998
+- 100% udziału od 2017
+- Unix (w tym BSD): spadek z prawie 100% do 0%
+- Windows: w porywach 0.8% (4/500)
+
+\[[1](https://www.top500.org/statistics/details/osfam/1/)\]
+---
+<!-- .slide: data-background="#eee" -->
+# Timeline
+
+![Timeline](img/top500-timeline.png) <!-- .element: style="height: 45vh;" -->
+------
 <!-- .slide: data-autofragments -->
 # API i ABI
 
@@ -206,7 +228,7 @@ PDP-11
 - system operacyjny oparty na Linuksie (niekoniecznie GNU):
   - dostosowany do konkretnego zastosowania
   - wydany przez konkretny podmiot
-  - z instalatorem i system pakietów
+  - instalator i system pakietów
   - usługi dodatkowe
 ------
 <!-- .slide: data-autofragments -->
