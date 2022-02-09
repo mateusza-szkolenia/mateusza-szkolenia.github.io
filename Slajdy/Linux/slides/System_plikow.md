@@ -46,6 +46,7 @@
 - uprawnienia i pliki ukryte
 - pliki specjalne
 - znak końca linii w plikach tekstowych
+- operacje i mechnizmy blokowania
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -53,11 +54,11 @@
 
 <div style='display: flex'>
 <div style='width: 49%' class=fragment>
-  <i class='fab fa-windows'></i><br>
+  <i class='fab fa-windows fa-3x'></i><br>
   bez znaczenia
 </div>
 <div style='width: 49%' class=fragment>
-  <i class='fab fa-linux'></i><br>
+  <i class='fab fa-linux fa-3x'></i><br>
   ma znaczenie
 </div>
 </div>
@@ -104,11 +105,11 @@
 
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 40%; text-align: center'>
-  <h3 class='fragment fab fa-windows'></h3>
+  <h3 class='fragment fab fa-windows fa-3x'></h3>
   <p>sporo:<br> <code>/ \ * : < > ? %</code></p>
 </div>
 <div style='width: 40%; text-align: center;'>
-  <h3 class='fragment fab fa-linux'></i></h3>
+  <h3 class='fragment fab fa-linux fa-3x'></i></h3>
   <p>jeden:<br> <code>/</code></p>
 </div>
 </div>
@@ -119,7 +120,7 @@
 
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 40%; text-align: center'>
-  <h3 class='fragment fab fa-windows'></h3>
+  <h3 class='fragment fab fa-windows fa-3x'></h3>
   <p>
   <code>con</code><br>
   <code>nul</code><br>
@@ -129,7 +130,7 @@
   </p>
 </div>
 <div style='width: 40%; text-align: center;'>
-  <h3 class='fragment fab fa-linux'></i></h3>
+  <h3 class='fragment fab fa-linux fa-3x'></i></h3>
   <p>brak ograniczeń</p>
 </div>
 </div>
@@ -285,3 +286,24 @@ Ograniczenia w Windows:
 - nie zawsze są ograniczeniami systemu plików
 - zaimplementowane niekonsekwentnie
 - mogą powodować dziwne zachowanie systemu
+---
+<!-- .slide: data-autofragments -->
+## Tłumaczone nazwy katalogów w Windows
+
+<div style='display: flex'>
+<div style='width: 49%' class=fragment>
+  <i class='fa fa-folder fa-2x'></i><br>
+  nazwa wyświetlana w GUI
+
+  `C:\Użytkownicy\Mateusz\Pulpit`
+</div>
+
+<div style='width: 49%' class=fragment>
+  <i class='fa fa-terminal fa-2x'></i><br>
+  rzeczywista nazwa  
+
+  `C:\Users\Mateusz\Desktop`
+</div>
+</div>
+
+
