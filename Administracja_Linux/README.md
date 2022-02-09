@@ -27,7 +27,7 @@
 
 ## Narzędzia
 
-- [Sheckcheck](https://github.com/koalaman/shellcheck)
+- [Shellcheck](https://github.com/koalaman/shellcheck)
 - [Bashtop](https://github.com/aristocratos/bashtop)
 - [Neofetch](https://github.com/dylanaraps/neofetch)
 
@@ -46,14 +46,18 @@
 
 * [ngrok](https://ngrok.com/)
 
-### Pośrednik + chrona HTTP
+### Pośrednik + ochrona HTTP/HTTPS
 
 * [Cloudflare](https://www.cloudflare.com/)
 
-### Darmowe DNS-y
+### Darmowy hosting DNS-y
 
 * [FreeDNS 42](https://freedns.42.pl/)
 * [Hurricane Electric DNS](https://dns.he.net/)
+
+### Darmowe domeny
+
+* [Afraid.org](https://freedns.afraid.org/)
 
 ### Wildcard DNS
 
