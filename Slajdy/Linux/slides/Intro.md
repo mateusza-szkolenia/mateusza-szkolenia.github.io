@@ -44,13 +44,15 @@ PDP-11
 
 - brak wielozadaniowości
 - brak wielodostępności
+- brak natywnej obsługi sieci
 - bezpośredni dostęp do zasobów
-- powszechny
 - gry, programy
 ------
 # Andrew Tanenbaum
 
 ![Andrew Tanenbaum](img/andrew-tanenbaum.jpg) <!-- .element: style="height: 30vh;" -->
+---
+![Book](img/minix-book.jpg)
 ---
 <!-- .slide: data-autofragments -->
 # Minix
@@ -58,9 +60,8 @@ PDP-11
 - 1987
 - *mini Unix*
 - prosty, do celów dydaktycznych
+- dostępny dla x86
 - ograniczenia licencyjne wydawcy
----
-![Book](img/minix-book.jpg)
 ------
 # Linus Torvalds
 
@@ -70,7 +71,10 @@ PDP-11
 # Linux
 
 - 1991
-- inspirowany Miniksem
+- inspirowany Miniksem (ale nie bazujący)
+- różnice:
+  - inna architektura kernela
+  - licencjonowanie
 ------
 # Richard Stallman
 
@@ -87,11 +91,11 @@ PDP-11
 # GNU Project
 
 - kernel: GNU Mach/GNU Hurd
-- desktop: GNOME
 - shell: GNU Bash
 - polecenia: GNU Coreutils, grep, tar
 - bootloader: GRUB
 - kompilatory: GCC, Make
+- desktop, aplikacje: GNOME, GIMP
 - [i wiele innych](https://en.wikipedia.org/wiki/List_of_GNU_packages)
 ---
 <!-- .slide: data-background="#eee" -->
@@ -115,7 +119,7 @@ PDP-11
 - standardowa biblioteka C
 - I/O
 - shell - polecenia
-- *etc*
+- *i inne*
 ---
 <!-- .slide: data-autofragments -->
 # POSIX Certified
@@ -131,9 +135,9 @@ PDP-11
 <!-- .slide: data-autofragments -->
 # Prawie POSIX
 
-- Android
 - MINIX
 - Linux
+- Android
 - BSD (FreeBSD, OpenBSD, NetBSD, Dragonfly BSD)
 ---
 <!-- .slide: data-autofragments -->
