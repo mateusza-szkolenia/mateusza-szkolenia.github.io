@@ -30,3 +30,32 @@
 - [Sheckcheck](https://github.com/koalaman/shellcheck)
 - [Bashtop](https://github.com/aristocratos/bashtop)
 - [Neofetch](https://github.com/dylanaraps/neofetch)
+
+## Sieci
+
+### IPv6 Tunnel
+
+* [Hurricane Electric Tunnel Broker](https://tunnelbroker.net/)
+
+### VPN-y
+
+* [Zerotier](https://www.zerotier.com/)
+* [Tailscale](https://tailscale.com/)
+
+### Publiczny IP do testów + dev
+
+* [ngrok](https://ngrok.com/)
+
+### Pośrednik + chrona HTTP
+
+* [Cloudflare](https://www.cloudflare.com/)
+
+### Darmowe DNS-y
+
+* [FreeDNS 42](https://freedns.42.pl/)
+* [Hurricane Electric DNS](https://dns.he.net/)
+
+### Wildcard DNS
+
+* [nip.io](https://nip.io/)
+
