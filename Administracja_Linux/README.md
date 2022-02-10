@@ -24,6 +24,7 @@
 ## Artykuły
 
 - [Pułapki Basha](https://mywiki.wooledge.org/BashPitfalls)
+- [Kompleksowo o hasłach | CERT Polska](https://cert.pl/posts/2022/01/kompleksowo-o-haslach/)
 
 ## Narzędzia
 
