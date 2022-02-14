@@ -16,8 +16,8 @@
 <!-- .slide: data-autofragments -->
 ## Drzewo katalogów
 
-- pliki i katalogi mają unikalne nazwy
 - katalogi zawierają pliki i katalogi
+- obiekty w katalogu mają unikalne nazwy
 ---
 <!-- .slide: data-autofragments -->
 ## Pliki
@@ -305,5 +305,43 @@ Ograniczenia w Windows:
   `C:\Users\Mateusz\Desktop`
 </div>
 </div>
+------
+## Programy
 
+<div style='display: flex; justify-content: space-around;'>
+<div style='width: 40%; text-align: center' class=fragment>
+  <h3 class='fab fa-windows fa-3x'></h3>
+  <p>decyduje rozszerzenie</p>
+  <p>
+  <code>exe</code>, <code>bat</code>, <code>cmd</code>, <code>com</code>...
+  </p>
+</div>
+<div style='width: 40%; text-align: center;' class=fragment>
+  <h3 class='fab fa-linux fa-3x'></i></h3>
+  <p><i>rozszerzenie nie ma znaczenia</i></p>
+</div>
+</div>
+------
+## Pliki ukryte
 
+<div style='display: flex; justify-content: space-around;'>
+<div style='width: 40%; text-align: center' class=fragment>
+  <h3 class='fab fa-windows fa-3x'></h3>
+  <p>attrybut HIDDEN</p>
+</div>
+<div style='width: 40%; text-align: center;' class=fragment>
+  <h3 class='fab fa-linux fa-3x'></i></h3>
+  <p>nie ma plików ukrytych<sup> * </sup></p>
+</div>
+</div>
+------
+## Pliki "ukryte" w Linuksie
+
+* pliki z nazwą zaczynającą się od kropki
+* nie są domyślnie wyświetlane
+* zastosowanie:
+  - pliki konfiguracyjne
+  - pliki pomocnicze
+  - metainformacje
+* "ukrycie" nie ma związku z prywatnością, bezpieczeństwem
+* "ukrycie" realnie oznacza zmianę nazwy
