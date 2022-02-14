@@ -3,12 +3,13 @@
 <!-- .slide: data-autofragments -->
 # Ile?
 
-- trudno powiedzieć
-  - co jest dystrybucją a co jeszcze nie?
-  - jak liczyć?
+Trudno powiedzieć...
+
+- co jest dystrybucją a co jeszcze nie?
+- jak liczyć?
 ---
-# Ale ile?
 <!-- .slide: data-autofragments -->
+# Ale ile?
 - *Almost one thousand Linux distributions exist.*
   [Wikipedia](https://en.wikipedia.org/wiki/Linux_distribution)
 - 261 aktywnych notowanych w [Distrowatch](https://distrowatch.com/dwres.php?resource=popularity)
@@ -382,7 +383,7 @@ CentOS Stream - cały czas wspierany
 <!-- .slide: data-autofragments -->
 ## AlmaLinux i RockyLinux
 
-- tylko wersja 8.x
+Tylko wersja 8.x
 ---
 ## System pakietów
 
@@ -394,5 +395,5 @@ CentOS Stream - cały czas wspierany
 <!-- .slide: data-background="#555" -->
 # Koniec
 
-<!-- dalej: [Dystrybucje Linuksdda](Dystrybucje.html) -->
+<!--dalej: [Dystrybucje Linuksa](Dystrybucje.html) -->
 

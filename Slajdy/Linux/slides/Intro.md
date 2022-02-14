@@ -18,7 +18,10 @@ PDP-11
 ---
 ## Dennis Ritchie & Ken Thompson
 
-![Ritchie and Thopson](img/ritchie_and_thompson.jpg) <!-- .element: style="height: 30vh;" -->
+![Ritchie and Thopson](img/ritchie_and_thompson.jpg) <!-- .element: style="height: 60vh;" -->
+<style>
+#dennis-ritchie--ken-thompson { font-size: 1.2em; }
+</style>
 ---
 <!-- .slide: data-autofragments -->
 ## Cechy UNIX-a
@@ -50,9 +53,12 @@ PDP-11
 ------
 # Andrew Tanenbaum
 
-![Andrew Tanenbaum](img/andrew-tanenbaum.jpg) <!-- .element: style="height: 30vh;" -->
+![Andrew Tanenbaum](img/andrew-tanenbaum.jpg) <!-- .element: style="height: 60vh;" -->
+<style>
+#andrew-tanenbaum { font-size: 1.1em; }
+</style>
 ---
-![Book](img/minix-book.jpg)
+![Book](img/minix-book.jpg) <!-- .element: style='height: 80vh;' -->
 ---
 <!-- .slide: data-autofragments -->
 # Minix
@@ -65,46 +71,35 @@ PDP-11
 ------
 # Linus Torvalds
 
-![Linus Torvalds](img/linus-torvalds.jpg)
+![Linus Torvalds](img/linus-torvalds.jpg) <!-- .element: style="height: 60vh;" -->
+<style>
+#linus-torvalds { font-size: 1.1em; }
+</style>
 ---
 <!-- .slide: data-autofragments -->
 # Linux
 
 - 1991
-- inspirowany Miniksem (ale nie bazujący)
-- różnice:
+- inspirowany Miniksem
+  - (ale nie bazujący na nim)
+- główne różnice:
   - inna architektura kernela
   - licencjonowanie
 ------
 # Richard Stallman
 
-![RMS](img/richard-stallman.jpg) <!-- .element: style="height: 40vh;" -->
----
-<!-- .slide: data-background="#eee" -->
-# GNU
-
-![GNU](img/gnu.png) <!-- .element: style="height: 40vh;" -->
-
-*GNU is Not Unix*
+![RMS](img/richard-stallman.jpg) <!-- .element: style="height: 60vh;" -->
+<style>
+#richard-stallman { font-size: 1.1em; }
+</style>
 ---
 <!-- .slide: data-autofragments -->
-# Działalność FSF, GNU
+# 4 wolności
 
-- [Proprietary Software Is Often Malware](https://www.gnu.org/proprietary/proprietary.html)
-  - [Apple](https://www.gnu.org/proprietary/malware-apple.en.html)
-  - [Microsoft](https://www.gnu.org/proprietary/malware-microsoft.html)
-- tropienie naruszeń licencji GPL
----
-<!-- .slide: data-autofragments -->
-# GNU Project
-
-- kernel: GNU Mach/GNU Hurd
-- shell: GNU Bash
-- polecenia: GNU Coreutils, grep, tar
-- bootloader: GRUB
-- kompilatory: GCC, Make
-- desktop, aplikacje: GNOME, GIMP
-- [i wiele innych](https://en.wikipedia.org/wiki/List_of_GNU_packages)
+- uruchamianie programu w dowolnym celu
+- analiza działania i modyfikacja (*open source*)
+- rozpowszechniania
+- rozpowszechniania swoich modyfikacji
 ---
 <!-- .slide: data-background="#eee" -->
 # GNU GPL
@@ -112,6 +107,51 @@ PDP-11
 ![GPL](img/gnu-gpl.png)
 
 *GNU General Public License*
+---
+<!-- .slide: data-background="#eee" -->
+# Free Software Foundation
+
+![FSF](img/fsf.png) <!-- .element: style="height: 50vh;" -->
+
+*Free as in freedom, not free as in free beer*
+---
+<!-- .slide: data-autofragments -->
+# Działalność FSF, GNU
+
+- Tworzenie oprogramowania
+- Walka ze złymi praktykami twórców oprogramowania
+  - [Proprietary Software Is Often Malware](https://www.gnu.org/proprietary/proprietary.html)
+    ([Apple](https://www.gnu.org/proprietary/malware-apple.en.html),
+     [Microsoft](https://www.gnu.org/proprietary/malware-microsoft.html))
+- Tropienie naruszeń licencji GPL
+<style>
+#działalność-fsf-gnu { font-size: 1.6em; }
+</style>
+---
+<!-- .slide: data-background="#eee" -->
+# GNU
+
+![GNU](img/gnu.png) <!-- .element: style="height: 50vh;" -->
+
+*GNU is Not Unix*
+---
+<!-- .slide: data-autofragments -->
+# Oprogramowanie GNU
+
+- kernel: **GNU Mach/GNU Hurd**
+- shell: **GNU Bash**
+- polecenia: **GNU Coreutils, grep, tar**
+- bootloader: **GRUB**
+- kompilatory: **GCC, Make**
+- biblioteki: **readline**
+- narzędzia: **GnuPG**, **Octave**, **Emacs**
+- desktop, aplikacje: **GNOME, GIMP**
+- [i wiele innych](https://en.wikipedia.org/wiki/List_of_GNU_packages)
+<style>
+#oprogramowanie-gnu { font-size: 1.5em; }
+</style>
+---
+# GNU/Linux
 ------
 <!-- .slide: data-autofragments -->
 # POSIX
@@ -180,7 +220,10 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 <!-- .slide: data-background="#eee" -->
 # Timeline
 
-![Timeline](img/top500-timeline.png) <!-- .element: style="height: 45vh;" -->
+![Timeline](img/top500-timeline.png) <!-- .element: style="height: 65vh;" -->
+<style>
+#timeline {font-size: 1.3em; }
+</style>
 ---
 ![Meme](img/linux-friends-meme.jpg) <!-- .element: style="height: 70vh;" -->
 ------
@@ -223,7 +266,7 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 - GNU/Linux
 - dystrybucja Linuksa
   - Ubuntu
-  - RedHat... etc
+  - Red Hat Enterprise Linux
 ---
 <!-- .slide: data-autofragments -->
 # Linux
@@ -240,11 +283,12 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 <!-- .slide: data-autofragments -->
 # Dystrybucja
 
-- system operacyjny oparty na Linuksie (niekoniecznie GNU):
-  - dostosowany do konkretnego zastosowania
-  - wydany przez konkretny podmiot
-  - instalator i system pakietów
-  - usługi dodatkowe
+System operacyjny oparty na Linuksie (niekoniecznie GNU):
+
+- dostosowany do konkretnego zastosowania
+- wydany przez konkretny podmiot
+- instalator i system pakietów
+- usługi dodatkowe
 ---
 # Komponenty
 
@@ -254,18 +298,24 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 | init | systemd | SysVinit | OpenRC | Runit |
 | pulpit | GNOME | KDE | MATE | XFCE |
 | web | Firefox | Konqueror | Chrome | ... |
-| shell | bash | dash | tcsh | ... |
+| shell | bash | ash | tcsh | zsh |
 | narzędzia | coreutils | busybox | ... | ... |
-| pakiety | deb | rpm | apk | ... |
+| pakiety | deb | rpm | apk | xbps |
+<style>
+#komponenty + table { font-size: 0.7em; }
+</style>
 ---
 # Wersje (wydania)
 
-| dystrybucja | kernel | GNOME | GCC | Python |
-|-------------|--------|-------|-----|--------|
-| RHEL 7 | 3.10 | 3.8 | 4.8 | 2.7 |
-| RHEL 8 | 4.18 | 3.28 | 8.2 | 3.6 |
-| Ubuntu 18.04 | 4.15 | 3.28 | 7.4 | 3.6 |
-| Ubuntu 20.04 | 5.4 | 3.36 | 9.0 | 3.8 |
+| rok | dystrybucja | kernel | GNOME | GCC | Python | 
+|-----|-------------|--------|-------|-----|--------|
+| 2015| RHEL 7 | 3.10 | 3.8 | 4.8 | 2.7 |
+| 2018| Ubuntu 18.04 | 4.15 | 3.28 | 7.4 | 3.6 |
+| 2019| RHEL 8 | 4.18 | 3.28 | 8.2 | 3.6 |
+| 2020| Ubuntu 20.04 | 5.4 | 3.36 | 9.0 | 3.8 |
+<style>
+#wersje-wydania + table { font-size: 0.7em; }
+</style>
 ---
 <!-- .slide: data-background="#fff" -->
 ![Lalka](img/dress-up-doll.jpg) <!-- .element: style="height: 75vh;" -->

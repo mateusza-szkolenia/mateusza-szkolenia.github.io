@@ -21,7 +21,7 @@
 * 1024 B?
 * 1000 B?
 
-*Błąd: 2.4%*
+*Różnica: 2.4%*
 ---
 ## Dlaczego 1024?
 
@@ -38,14 +38,14 @@
 * 1000 × 1000 B?
 * 1000 × 1024 B?
 
-*Błąd: 4.85%*
+*Różnica: 4.85%*
 ------
 ## Gigabajt (1GB)
 
 * 1024 × 1024 × 1024 = 1073741824 B?
 * 1000 × 1000 × 1000 B?
 
-*Błąd: 7.3%*
+*Różnica: 7.3%*
 ------
 ## System SI
 
@@ -57,10 +57,13 @@
 | gigabajt | GB     | 1000 MB | 1000000000 B |
 | terabajt | TB     | 1000 GB | 1000000000000 B |
 | petabajt | PT     | 1000 TB | 1000000000000000 B |
+<style>
+#system-si + table { font-size: 0.8em; }
+</style>
 ---
 ## System "informatyczny"
 
-| jednostka| symbol |wartość | wartość |
+| jednostka| symbol |wartość | wartość |  
 |----------|--------|-------:|--------:|
 | bajt     | B      |     1 B | 1 B |
 | kibibajt | kiB    |  1024 B | 1024 B |
@@ -68,16 +71,19 @@
 | gibibajt | GiB    | 1024 MiB | 1073741824 B |
 | tebibajt | TiB    | 1024 GiB | 1099511627776 B |
 | pebibajt | PiT    | 1024 TiB | 1125899906842624 B |
+<style>
+#system-informatyczny + table { font-size: 0.8em; }
+</style>
 ------
 ## Na co dzień
 
 - Używa się wartości przybliżonych
 - Obu systemów używa się przemiennie
-- Precyzyjny rozmiar podaje się co do bajtu
+- Precyzyjny rozmiar podaje się w bajtach
 ------
 ## Pojemność dysków i zużycie miejsca
 
-- Nie zawsze precyzyjny pomiar
+- Brak możliwości precyzyjnego pomiaru:
   - struktura systemu plików
   - wielkość bloku
   - kompresja i pliki rzadkie
