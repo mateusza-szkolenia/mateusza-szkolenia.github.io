@@ -88,6 +88,12 @@ PDP-11
 *GNU is Not Unix*
 ---
 <!-- .slide: data-autofragments -->
+- [Proprietary Software Is Often Malware](https://www.gnu.org/proprietary/proprietary.html)
+  - [Apple](https://www.gnu.org/proprietary/malware-apple.en.html)
+  - [Microsoft](https://www.gnu.org/proprietary/malware-microsoft.html)
+- GPL Violations
+---
+<!-- .slide: data-autofragments -->
 # GNU Project
 
 - kernel: GNU Mach/GNU Hurd
