@@ -236,6 +236,9 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
   - wydany przez konkretny podmiot
   - instalator i system pakietów
   - usługi dodatkowe
+---
+<!-- .slide: data-background="#fff" -->
+![Lalka](img/dress-up-doll.jpg) <!-- .element: style="height: 45vh;" -->
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#555" -->
