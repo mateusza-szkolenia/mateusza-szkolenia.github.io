@@ -88,10 +88,12 @@ PDP-11
 *GNU is Not Unix*
 ---
 <!-- .slide: data-autofragments -->
+# Działalność FSF, GNU
+
 - [Proprietary Software Is Often Malware](https://www.gnu.org/proprietary/proprietary.html)
   - [Apple](https://www.gnu.org/proprietary/malware-apple.en.html)
   - [Microsoft](https://www.gnu.org/proprietary/malware-microsoft.html)
-- GPL Violations
+- tropienie naruszeń licencji GPL
 ---
 <!-- .slide: data-autofragments -->
 # GNU Project
@@ -145,6 +147,11 @@ PDP-11
 - Linux
 - Android
 - BSD (FreeBSD, OpenBSD, NetBSD, Dragonfly BSD)
+---
+# Dlaczego prawie?
+
+- brak formalnej certyfikacji
+- minimalne odstępstwa od standardu
 ---
 <!-- .slide: data-autofragments -->
 # Microsoft Windows?
@@ -239,8 +246,29 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
   - instalator i system pakietów
   - usługi dodatkowe
 ---
+# Komponenty
+
+| | | | | |
+|-----------|--|--|--|--|
+| kernel | v4.4 | v4.9 | v5.4 | v5.16 |
+| init | systemd | SysVinit | OpenRC | Runit |
+| pulpit | GNOME | KDE | MATE | XFCE |
+| web | Firefox | Konqueror | Chrome | ... |
+| shell | bash | dash | tcsh | ... |
+| narzędzia | coreutils | busybox | ... | ... |
+| pakiety | deb | rpm | apk | ... |
+---
+# Wersje (wydania)
+
+| dystrybucja | kernel | GNOME | GCC | Python |
+|-------------|--------|-------|-----|--------|
+| RHEL 7 | 3.10 | 3.8 | 4.8 | 2.7 |
+| RHEL 8 | 4.18 | 3.28 | 8.2 | 3.6 |
+| Ubuntu 18.04 | 4.15 | 3.28 | 7.4 | 3.6 |
+| Ubuntu 20.04 | 5.4 | 3.36 | 9.0 | 3.8 |
+---
 <!-- .slide: data-background="#fff" -->
-![Lalka](img/dress-up-doll.jpg) <!-- .element: style="height: 45vh;" -->
+![Lalka](img/dress-up-doll.jpg) <!-- .element: style="height: 75vh;" -->
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#555" -->
