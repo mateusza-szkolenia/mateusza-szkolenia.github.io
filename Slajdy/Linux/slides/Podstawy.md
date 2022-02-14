@@ -26,6 +26,11 @@
 ## Dlaczego 1024?
 
 2<sup>10</sup> = 1024 ≈ 1000
+---
+## 1000 vs 1024
+
+- 1000: układ SI
+- 1024: adresowalność, symetria budowy
 ------
 ## Megabajt (1MB)
 
