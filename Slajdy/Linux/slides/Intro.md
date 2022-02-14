@@ -174,6 +174,8 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 # Timeline
 
 ![Timeline](img/top500-timeline.png) <!-- .element: style="height: 45vh;" -->
+---
+![Meme](img/linux-friends-meme.jpg) <!-- .element: style="height: 70vh;" -->
 ------
 <!-- .slide: data-autofragments -->
 # API i ABI
