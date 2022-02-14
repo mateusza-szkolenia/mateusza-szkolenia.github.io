@@ -1,5 +1,5 @@
 <!-- .slide: data-background="#eee" -->
-# Wstęp do Linuksa
+# 10: Wstęp do Linuksa
 ---
 <!-- .slide: data-background="#eee" -->
 ![Tux](img/tux.png) <!-- .element: style="height: 60vh;" -->

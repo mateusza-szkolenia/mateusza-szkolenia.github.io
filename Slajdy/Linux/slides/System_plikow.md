@@ -1,4 +1,4 @@
-# System plików w Linuksie
+# 30: System plików w Linuksie
 ------
 ## Struktura składowania danych
 

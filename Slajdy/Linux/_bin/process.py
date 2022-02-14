@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 "Generate listings"
 
@@ -25,7 +25,10 @@ def main():
 
     j2env = jinja2.Environment(loader=jinja2.FileSystemLoader("_templates"))
 
-    for slideset in get_slidesets():
+    slidesets = [*get_slidesets()]
+    slidesets.sort(key=lambda x: x['title'])
+
+    for slideset in slidesets:
         reveal_template = j2env.get_template("Reveal.html.j2")
         reveal = reveal_template.render(**slideset)
         reveal_fn = slideset['html_filename']
@@ -42,8 +45,6 @@ def main():
         ('README.md', 'README.md.j2'),
     ]
 
-    slidesets = [*get_slidesets()]
-
     for filename, templatename in outputs:
         with open(filename, 'w') as output_file:
             template = j2env.get_template(templatename)
@@ -52,3 +53,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

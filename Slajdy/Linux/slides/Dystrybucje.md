@@ -1,4 +1,4 @@
-# Dystrybucje Linuksa
+# 20: Dystrybucje Linuksa
 ---
 <!-- .slide: data-autofragments -->
 # Ile?
@@ -19,7 +19,7 @@
 <https://upload.wikimedia.org/wikipedia/commons/b/b5/Linux_Distribution_Timeline_21_10_2021.svg>
 ---
 <!-- .slide: data-autofragments -->
-Dlaczego tak dużo?
+# Dlaczego tak dużo?
 - *A po co?*
 - *A dlaczego?*
 - *A komu to potrzebne?*
@@ -112,7 +112,7 @@ Od czerwonej czapki, którą nosił twórca.
 
 *humanity towards others*
 
-*nie umiem zainstalować Debiana* (żart)
+żart branżowy: *nie umiem zainstalować Debiana*
 ---
 <!-- .slide: data-autofragments -->
 ## Fedora
@@ -155,6 +155,7 @@ Na cześć Rocky'ego McGaugha (twórcy CentOS)
 - regularność (lub brak)
 - okres
 - czas wsparcia
+- dojrzałość używanego oprogramowania
 ---
 ## Cykl ciągły
 

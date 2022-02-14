@@ -1,4 +1,4 @@
-# Shell w Linuksie
+# 30: Shell w Linuksie
 ------
 <!-- .slide: data-background="img/teletype.jpg" -->
 # Dalekopis

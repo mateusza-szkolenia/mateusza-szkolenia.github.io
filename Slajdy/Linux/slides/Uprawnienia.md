@@ -1,4 +1,4 @@
-# Uprawnienia w Linuksie
+# 30: Uprawnienia w Linuksie
 ------
 <!-- .slide: data-autofragments -->
 ## Uprawnienia

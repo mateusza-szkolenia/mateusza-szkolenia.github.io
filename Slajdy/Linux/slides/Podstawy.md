@@ -1,4 +1,4 @@
-# Podstawowe pojęcia
+# 00: Podstawowe pojęcia
 ------
 ## Bit
 ------
