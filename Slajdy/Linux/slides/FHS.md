@@ -1,9 +1,9 @@
-# 40: File System Hierarchy
+# 40: Filesystem Hierarchy Standard
 ---
 ## Top level folders
 
-<div style='display: flex; flex-wrap: wrap; justify-content: space-between; padding-bottom: 2em;'>
-<div  class=fragment>
+<div>
+<div class=fragment>
 <i class='fa fa-folder'></i> <code>bin</code>
 </div>
 <div  class=fragment>
@@ -67,11 +67,18 @@
 <i class='fa fa-folder'></i> <code>var</code>
 </div>
 </div>
-
+<style>
+  #top-level-folders + div {
+    display: flex; flex-wrap: wrap; justify-content: space-between; padding-bottom: 2em;
+  }
+  #top-level-folders + div div {
+    padding: 0.3em;
+  }
+</style>
 ------
 ### `/bin`, `/sbin`
 
-- pliki wykonywalne
+- pliki wykonywalne (polecenia)
 - *binarne*
 ---
 ### podział na `/bin` i `/sbin`
@@ -82,7 +89,7 @@
 ### `/boot`
 
 - kernele
-- pliki potrezbne do uruchomienia systemu
+- pliki potrzebne do uruchomienia systemu
 ------
 ### `/etc`
 
@@ -100,16 +107,18 @@
 ### `/root`
 
 - katalog domowy **roota**
+- (celowo poza `/home`)
 ------
 ### `/lib`, `/lib32`, `/lib64`
 
 - biblioteki systemowe
-- odpowiednik DLL
+- odpowiedniki DLL i innych
 ------ 
 ### `/mnt` i `/media`
 
 - nośniki zewnętrzne
 - dodatkowe partycje
+- odpowiednik liter dysków zewnętrznych
 ------
 ### `/proc`
 
@@ -124,7 +133,7 @@ Nie są to prawdziwe pliki na dysku.
 ### `/sys`
 
 - podobnie jak `proc`
-- interfejs do urządzeń i podsystemów
+- interfejs do urządzeń, sterowników i podsystemów
 
 Nie są to prawdziwe pliki na dysku.
 ------
@@ -135,12 +144,13 @@ Nie są to prawdziwe pliki na dysku.
 ### `/usr`
 
 - oprogramowanie użytkowe
+- luźny odpowiednik `C:\Program Files`
 ---
 ### `/usr/share`
 
 - pliki niezależne od platformy:
-    - mapy
     - grafika
+    - mapy
     - ikony
     - słowniki
     - definicje składni
@@ -165,9 +175,20 @@ Nie są to prawdziwe pliki na dysku.
 
 - podobnie jak `/lib`
 ---
+<!-- .slide: data-autofragments -->
+### podział na `/bin` i `/usr/bin`
+
+- `/bin`: potrzebne do startu systemu
+- `/usr/bin`: aplikacje
+- możliwość wydzielenia `/usr`
+  - osobna partycja
+  - współdzielony katalog VM, kontenerów
+  - dysk sieciowy
+  - *read-only*
+---
 ### `/usr/local`
 
-- oprogramowanie zainstalowane spoza pakietów
+- oprogramowanie zainstalowane spoza pakietów dystrybucji
 ------
 ### `/var`
 
@@ -186,13 +207,14 @@ Nie są to prawdziwe pliki na dysku.
 ---
 ### `/var/cache`
 
-- pamięć podręczna aplikacji
+- pliki podręczne i tymczasowe usług
 ---
 ### `/var/spool`
 
 - kolejki przetwarzania
   - drukarki
   - poczty
+  - harmonogramu zadań
   - etc.
 ------
 ### `/srv`
@@ -214,6 +236,5 @@ Nie są to prawdziwe pliki na dysku.
 ------
 ### `/etc/*.d`
 
-- katalog z "rozszerzeniem" `.d`
+- katalogi z "rozszerzeniem" `.d`
 - zawierają konfigurację rozbitą na odrębne pliki
-

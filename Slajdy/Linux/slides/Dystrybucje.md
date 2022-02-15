@@ -392,8 +392,8 @@ Tylko wersja 8.x
 ---
 ## System pakietów
 
-- `apt` (`dpkg`)
-- `yum` / `dnf` (`rpm`)
+- `DEB`
+- `RPM`
 - inne
 ------
 <!-- .slide: data-autofragments -->
