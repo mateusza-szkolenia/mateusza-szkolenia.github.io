@@ -113,16 +113,20 @@
 ------
 ### `/proc`
 
-- interfejs kernela do:
- - procesora (CPU)
- - procesów
- - pamięci
- - informacji o kernelu itp
+Interfejs kernela do:
+- procesora (CPU)
+- procesów
+- pamięci
+- informacji o kernelu itp
+
+Nie są to prawdziwe pliki na dysku.
 ------
 ### `/sys`
 
 - podobnie jak `proc`
 - interfejs do urządzeń i podsystemów
+
+Nie są to prawdziwe pliki na dysku.
 ------
 ### `/tmp`
 
@@ -202,12 +206,14 @@
 ### `/lost+found`
 
 - odzyskane fragmenty plików
+- (występuje tylko w systemie plików ext2/3/4)
 ------
 ### `/opt`
 
-- dodatkowe oprogramowanie niepochodzące dystrybucji
+- dodatkowe oprogramowanie niepochodzące z dystrybucji
 ------
 ### `/etc/*.d`
 
-- katalogi zawierające konfigurację rozbitą na odrębne pliki
+- katalog z "rozszerzeniem" `.d`
+- zawierają konfigurację rozbitą na odrębne pliki
 

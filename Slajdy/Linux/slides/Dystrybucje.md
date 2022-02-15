@@ -141,7 +141,8 @@ Na cześć Rocky'ego McGaugha (twórcy CentOS)
 - niezależni twórcy
 ---
 <!-- .slide: data-autofragments -->
-## Wydawcy znanych dystrybucji
+## Wydawcy dystrybucji
+
 - **RHEL**: RedHat, Inc.
 - **Ubuntu**: Canonical Ltd.
 - **Debian**: Debian Project/Software in the Public Interest (non-profit)
@@ -351,7 +352,8 @@ deweloperzy → testerzy → RHEL → CentOS
 - z początku niezależna od RedHata
 - RedHat Inc. zaproponował finansowanie...
 - ... w zamian za umieszczenie swoich ludzi w zarządzie
-- *What can go wrong?*
+
+*What can go wrong?*
 ---
 <!-- .slide: data-autofragments -->
 ## CentOS Stream
@@ -363,9 +365,9 @@ deweloperzy → testerzy → RHEL → CentOS
 <!-- .slide: data-autofragments -->
 ## CentOS is dead
 
-- decyzja zarządu:
-  - zakończenie wsparcia CentOS
-  - kontynuacja rozwoju CentOS Stream
+Grudzień 2020: "zarząd" fundacji postanawia:
+- zakończenie wsparcia CentOS
+- kontynuacja rozwoju CentOS Stream
 ---
 <!-- .slide: data-background="#fff" -->
 ![friendship ended](img/friendship-ended-with-centos.png)
@@ -379,6 +381,9 @@ deweloperzy → testerzy → RHEL → CentOS
 | 8      | 2029-05-01 | 2021-12-31 |
 
 CentOS Stream - cały czas wspierany
+<style>
+#koniec-wsparcia-centos + table tr:nth-child(2) td:nth-child(3) { color: #f33; }
+</style>
 ---
 <!-- .slide: data-autofragments -->
 ## AlmaLinux i RockyLinux

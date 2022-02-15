@@ -108,10 +108,15 @@ PDP-11
 
 *GNU General Public License*
 ---
+<!-- .slide: data-background="#fff" -->
+# Licencja MIT
+
+![MIT](img/mit-lic.jpg) <!-- .element: style="height: 50vh;" -->
+---
 <!-- .slide: data-background="#eee" -->
 # Free Software Foundation
 
-![FSF](img/fsf.png) <!-- .element: style="height: 50vh;" -->
+![FSF](img/fsf.png) <!-- .element: style="height: 20vh;" -->
 
 *Free as in freedom, not free as in free beer*
 ---
