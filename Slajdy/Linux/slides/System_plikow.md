@@ -137,6 +137,26 @@
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
+## Drzewo katalogów
+
+<div style='display: flex; justify-content: space-around;'>
+<div style='width: 40%; text-align: center'>
+  <h3 class='fragment fab fa-windows'></h3>
+  <p>osobne dla każdego dysku</p>
+  <p>rzeczywiste pliki</p>
+  <p>ew. dyski sieciowe</p>
+</div>
+<div style='width: 40%; text-align: center;'>
+  <h3 class='fragment fab fa-linux'></i></h3>
+  <p>jedno wirtualne drzewo (VFS)</p>
+  <p>rzeczywiste pliki tylko w niektórych gałęziach</p>
+  <p>również pliki i katalogi wirtualne</p>
+</div>
+</div>
+
+------
+<!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#eee" -->
 ## Dyski
 
 <div style='display: flex; justify-content: space-around;'>
@@ -226,7 +246,7 @@
   <h3 class='fragment fab fa-windows'></h3>
   <ul>
   <li>rozszerzenie i nazwa to dwie odrębne części</li>
-  <li>znane rozszerzenia domyślnie ukryte</li>
+  <li>znane rozszerzenia domyślnie niewidoczne</li>
   </ul>
 </div>
 <div style='width: 49%; text-align: center;'>
@@ -271,13 +291,28 @@
 <!-- .slide: data-background="#eee" -->
 ## "Nietypowe" nazwy plików w Linuksie
 
-<i class='fa fa-file'></i> `hosts` -- brak rozszerzenia
-
-<i class='fa fa-file'></i> `.bash_history` -- kropka na początku
-
-<i class='fa fa-file'></i> `archiwum.tar.bz2` -- kilka rozszerzeń
-
-<i class='fa fa-file'></i> `libpng15.so.15.13.0` -- rozszerzenie `.so` w środku
+<table style='font-size: 0.8em;'>
+<tr>
+<th>nazwa pliku</th>
+<th>uwagi</th>
+</tr>
+<tr>
+<td><i class='fa fa-file'></i> <code>hosts</code></td>
+<td>brak rozszerzenia</td>
+</tr>
+<tr>
+<td><i class='fa fa-file'></i> <code>.bash_history</code></td>
+<td>kropka na początku</td>
+</tr>
+<tr>
+<td><i class='fa fa-file'></i> <code>archiwum.tar.bz2</code></td>
+<td>kilka rozszerzeń</td>
+</tr>
+<tr>
+<td><i class='fa fa-file'></i> <code>libpng15.so.15.13.0</code></td>
+<td>rozszerzenie <code>.so</code> w środku</td>
+</tr>
+</table>
 ---
 <!-- .slide: data-autofragments -->
 ## Przenośność plików
@@ -335,13 +370,15 @@ Ograniczenia w Windows:
 </div>
 </div>
 ------
+<!-- .slide: data-autofragments -->
 ## Pliki "ukryte" w Linuksie
 
 * pliki z nazwą zaczynającą się od kropki
 * nie są domyślnie wyświetlane
 * zastosowanie:
   - pliki konfiguracyjne
-  - pliki pomocnicze
+  - pliki pomocnicze, tymczasowe
   - metainformacje
 * "ukrycie" nie ma związku z prywatnością, bezpieczeństwem
 * "ukrycie" realnie oznacza zmianę nazwy
+

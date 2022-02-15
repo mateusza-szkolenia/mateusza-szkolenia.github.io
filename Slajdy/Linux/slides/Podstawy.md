@@ -29,8 +29,24 @@
 ---
 ## 1000 vs 1024
 
-- 1000: układ SI
-- 1024: adresowalność, symetria budowy
+<div style='display: flex'>
+<div style='width: 49%' class=fragment>
+  <h4>1000</h4>
+  <ul>
+  <li>system dziesiętny</li>
+  <li>przedrostki z układu SI</li>
+  </ul>
+</div>
+
+<div style='width: 49%' class=fragment>
+  <h4>1024</h4>
+  <ul>
+  <li>system binarny</li>
+  <li>symetria budowy</li>
+  <li>adresowalność</li>
+  </ul>
+</div>
+</div>
 ------
 ## Megabajt (1MB)
 
