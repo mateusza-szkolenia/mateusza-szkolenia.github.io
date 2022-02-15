@@ -9,3 +9,4 @@
 1. [30: System plików w Linuksie](System_plikow.html)
 1. [30: Uprawnienia w Linuksie](Uprawnienia.html)
 1. [40: Filesystem Hierarchy Standard](FHS.html)
+1. [Dyski](Dyski.html)

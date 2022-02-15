@@ -17,3 +17,11 @@
 ## Ubuntu
 ---
 ## Canonical
+---
+## Ship it
+---
+## Landscape
+---
+## Snapcraft
+
+<https://snapcraft.io/>
