@@ -25,3 +25,40 @@
 ## Snapcraft
 
 <https://snapcraft.io/>
+------
+## Warianty Ubuntu
+---
+### Kubuntu
+
+KDE
+---
+### Xubuntu
+
+XFCE
+---
+### Lubuntu
+
+LXDE
+---
+### Ubuntu MATE
+
+MATE
+---
+### Ubuntu Cinnamon Remix
+
+Cinnamon
+---
+### Ubuntu Studio
+---
+### Ubuntu Budgie
+------
+## Pochodne Ubuntu
+---
+### Linux Mint
+---
+### Pop! OS
+---
+### Elementary OS
+------
+Koniec
+
