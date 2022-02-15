@@ -108,12 +108,22 @@ PDP-11
 
 *GNU General Public License*
 ---
+<!-- .slide: data-background="#fffaf4" -->
+# GNU GPL License
+
+<iframe src='assets/gpl-3.0-standalone.html' style='width: 60vw; height: 50vh;'></iframe>
+---
 <!-- .slide: data-background="#fff" -->
 # Licencja MIT
 
 ![MIT](img/mit-lic.jpg) <!-- .element: style="height: 50vh;" -->
 ---
-<!-- .slide: data-background="#eee" -->
+<!-- .slide: data-background="#fffaf4" -->
+# MIT License
+
+<iframe src='assets/mit.html' style='width: 60vw; height: 50vh;'></iframe>
+---
+<!-- .slide: data-background="#fff" -->
 # Free Software Foundation
 
 ![FSF](img/fsf.png) <!-- .element: style="height: 20vh;" -->
@@ -193,6 +203,7 @@ PDP-11
 - Android
 - BSD (FreeBSD, OpenBSD, NetBSD, Dragonfly BSD)
 ---
+<!-- .slide: data-autofragments -->
 # Dlaczego prawie?
 
 - brak formalnej certyfikacji
