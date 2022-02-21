@@ -19,6 +19,3 @@
 
 ### [Repology](https://repology.org/)
 
-## Artykuły
-
-* [MF need package management](http://michael.orlitzky.com/articles/motherfuckers_need_package_management.xhtml)

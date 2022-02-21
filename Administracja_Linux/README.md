@@ -8,7 +8,7 @@
 
 * [Hetzner](https://hetzner.cloud/?ref=RulTY8jLDwVM) - €20 na próbę
 * [DigitalOcean](https://m.do.co/c/b97bdf0b622f) - $100 na próbę
-* [Vultr](https://www.vultr.com/?ref=9013261-8H) - $100 na próbę
+* [Vultr](https://www.vultr.com/?ref=7128436) - $100 na próbę
 * [Hitme.pl](https://ssl.hitme.net.pl/hb/?affid=799)
 * [Mikr.us](https://mikr.us/)
 
@@ -25,6 +25,7 @@
 
 - [Pułapki Basha](https://mywiki.wooledge.org/BashPitfalls)
 - [Kompleksowo o hasłach | CERT Polska](https://cert.pl/posts/2022/01/kompleksowo-o-haslach/)
+- [MF need package management](http://michael.orlitzky.com/articles/motherfuckers_need_package_management.xhtml)
 
 ## Narzędzia
 
