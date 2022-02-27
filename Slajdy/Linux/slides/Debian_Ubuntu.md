@@ -14,6 +14,8 @@
 
 ![Mark Shuttleworth](img/mark-shuttleworth.jpg) <!-- .element: style="height: 60vh;" -->
 ---
+## Thawte
+---
 ## Ubuntu
 ---
 ## Canonical
@@ -27,6 +29,8 @@
 <https://snapcraft.io/>
 ------
 ## Warianty Ubuntu
+---
+### Ubuntu Server
 ---
 ### Kubuntu
 

@@ -99,9 +99,9 @@
 ------
 ## Pojemność dysków i zużycie miejsca
 
-- Brak możliwości precyzyjnego pomiaru:
-  - struktura systemu plików
-  - wielkość bloku
-  - kompresja i pliki rzadkie
-  - dodatkowe mechanizmy (snapshoty, COW)
+Brak możliwości precyzyjnego pomiaru.
+- struktura systemu plików
+- wielkość bloku
+- kompresja i pliki rzadkie
+- dodatkowe mechanizmy (snapshoty, COW)
 
