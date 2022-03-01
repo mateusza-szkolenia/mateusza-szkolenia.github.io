@@ -151,11 +151,13 @@
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 40%; text-align: center'>
   <h3 class='fragment fab fa-windows fa-3x'></h3>
-  <p>sporo:<br> <code>/ \ * : < > ? %</code></p>
+  <p>drukowalne:<br> <code>/\|*:<>?"</code></p>
+  <p>niedrukowalne:<br> <code>0-31</code></p>
 </div>
 <div style='width: 40%; text-align: center;'>
   <h3 class='fragment fab fa-linux fa-3x'></i></h3>
-  <p>jeden:<br> <code>/</code></p>
+  <p>drukowalne:<br> <code>/</code></p>
+  <p>niedrukowalne:<br> <code>0</code></p>
 </div>
 </div>
 ------
