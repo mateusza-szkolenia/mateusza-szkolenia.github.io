@@ -19,21 +19,66 @@
 - katalogi zawierają pliki i katalogi
 - obiekty w katalogu mają unikalne nazwy
 ---
+*(prawie) wszystko jest plikiem*
+---
 <!-- .slide: data-autofragments -->
 ## Pliki
 
-- typy:
+- zwykłe
+- *niezwykłe* (specjalne)
+  - rurki (pipe)
+  - gniazda (socket)
+  - łącza symboliczne (symlink)
+  - urządzenia (device)
+---
+<!-- .slide: data-autofragments -->
+## Pliki zwykłe
+
+- przechowują:
   - *dokumenty*, dane
   - obrazki, zdjęcia, multimedia
   - programy
-- rozmiar (bajty)
+- mają rozmiar (bajty)
 - znaczniki czasu i inne meta-dane
+---
+<!-- .slide: data-autofragments -->
+## pipe
+
+- inna nazwa: FIFO
+- kolejka
+- komunikacja 1-do-1 między procesami
+- zerowy rozmiar
+- brak buforowania
+---
+<!-- .slide: data-autofragments -->
+## socket
+
+- komunikacja 1-do-wielu
+- odpowiednik łączności TCP/IP, ale bez stosu sieciowego
+- zerowy rozmiar
+- brak buforowania
+---
+<!-- .slide: data-autofragments -->
+## device
+
+- komunikacja między procesami a urządzeniami obsługiwanym przez sterownik kernela
+- tylko w katalogu `/dev/`
+- zerowy rozmiar
+- identyfikacja urządzeń: dwie liczby całkowite (major, minor)
+---
+<!-- .slide: data-autofragments -->
+## symbolic link
+
+- może wskazywać na plik lub katalog
+- przypomina "Skrót" z Windows
+- rozmiar: długość stringa ze ścieżką
 ---
 <!-- .slide: data-autofragments -->
 ## Katalogi
 
 - służą organizacji danych
 - mogą zawierać inne pliki i katalogi
+- mogą być *wirtualne*
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -210,7 +255,7 @@
 
 - ścieżki w Windows (oraz Symbian i UEFI)
 - *eskejpowanie*
-- znacznika LaTeX-a:  
+- znaczniki LaTeX-a:  
   `\begin{article}`
 ------
 <!-- .slide: data-autofragments -->
@@ -381,4 +426,3 @@ Ograniczenia w Windows:
   - metainformacje
 * "ukrycie" nie ma związku z prywatnością, bezpieczeństwem
 * "ukrycie" realnie oznacza zmianę nazwy
-
