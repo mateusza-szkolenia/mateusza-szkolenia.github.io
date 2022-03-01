@@ -7,26 +7,73 @@
 #ian-murdock { font-size: 1.2em; }
 </style>
 ---
-## Debian
+<!-- .slide: data-background="#eee" -->
+![Debian](img/debian.png)
+---
+<!-- .slide: data-autofragments -->
+## Debian Project
 
+- 1993
+- całkowicie niekomercyjny
+- wolontariusze
+- największa baza pakietów (ok. 51 tys.)
 ------
 ## Mark Shuttleworth
 
 ![Mark Shuttleworth](img/mark-shuttleworth.jpg) <!-- .element: style="height: 60vh;" -->
 ---
-## Thawte
+<!-- .slide: data-autofragments -->
+## ![Thawte](img/thawte.png)
+
+- wydawca certyfikatów SSL
+- później kupiony przez Verisign, potem Symantec, Digicert
 ---
+<!-- .slide: data-background="#eee" -->
+![Ubuntu](img/ubuntu.png)
+---
+<!-- .slide: data-autofragments -->
 ## Ubuntu
+
+- bazuje na Debianie
+- komercyjne wsparcie
+- całkowicie darmowy
 ---
+<!-- .slide: data-autofragments -->
 ## Canonical
+
+- firma stworzona przez Marka Shuttlewortha
+- wydaje Ubuntu
 ---
-## Ship it
+## Nazwa
+
+*humanity towards others*
 ---
 ## Landscape
+
+- narzędzie do webowego zarządzania komputerami
 ---
 ## Snapcraft
 
-<https://snapcraft.io/>
+- Menedżer pakietów
+- <https://snapcraft.io/>
+------
+## Ciekawostki o Ubuntu
+---
+### Ship it
+
+![Shipit](img/shipit.jpg)
+
+(2004-2011)
+---
+### Tapety
+
+![Naked people](img/ubuntu-naked-people.png)
+---
+### Nazwa
+
+Żartobliwe tłumaczenie:
+
+*nie umiem zainstalować Debiana*
 ------
 ## Warianty Ubuntu
 ---
@@ -34,23 +81,19 @@
 ---
 ### Kubuntu
 
-KDE
+![Kubuntu](img/kubuntu-kde.png)
 ---
 ### Xubuntu
 
-XFCE
+![Xubuntu](img/xubuntu-xfce.png)
 ---
 ### Lubuntu
 
-LXDE
+![Lubuntu](img/lubuntu.png)
 ---
 ### Ubuntu MATE
-
-MATE
 ---
 ### Ubuntu Cinnamon Remix
-
-Cinnamon
 ---
 ### Ubuntu Studio
 ---
