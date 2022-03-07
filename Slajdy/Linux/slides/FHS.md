@@ -81,7 +81,7 @@
 - pliki wykonywalne (polecenia)
 - *binarne*
 ---
-### podział na `/bin` i `/sbin`
+### podział na `/bin` oraz `/sbin`
 
 - użytkowe i systemowe
 - pomijany w niektórych dystrybucjach
@@ -94,6 +94,7 @@
 ### `/etc`
 
 - konfiguracja
+- pliki tekstowe
 ------
 ### `/dev`
 
@@ -102,7 +103,7 @@
 ### `/home`
 
 - katalogi domowe
-- odpowiednik `C:\Users\`
+- (odpowiednik `C:\Users`)
 ---
 ### `/root`
 
@@ -112,15 +113,16 @@
 ### `/lib`, `/lib32`, `/lib64`
 
 - biblioteki systemowe
-- odpowiedniki DLL i innych
+- sterowniki
+- (odpowiedniki DLL i innych)
 ------ 
-### `/mnt` i `/media`
+### `/mnt`, `/media`
 
 - nośniki zewnętrzne
 - dodatkowe partycje
 - odpowiednik liter dysków zewnętrznych
 ------
-### `/proc`
+### `/proc` (`procfs`)
 
 Interfejs kernela do:
 - procesora (CPU)
@@ -128,9 +130,9 @@ Interfejs kernela do:
 - pamięci
 - informacji o kernelu itp
 
-Nie są to prawdziwe pliki na dysku.
+*Nie są to prawdziwe pliki na dysku.*
 ------
-### `/sys`
+### `/sys` (`sysfs`)
 
 - podobnie jak `proc`
 - interfejs do urządzeń, sterowników i podsystemów
@@ -148,11 +150,9 @@ Nie są to prawdziwe pliki na dysku.
 ---
 ### `/usr/share`
 
-- pliki niezależne od platformy:
-    - grafika
-    - mapy
-    - ikony
-    - słowniki
+- zasoby niezależne od platformy:
+    - grafika, ikony, fonty
+    - słowniki, tłumaczenia
     - definicje składni
 ---
 ### `/usr/include`
@@ -179,7 +179,7 @@ Nie są to prawdziwe pliki na dysku.
 ### podział na `/bin` i `/usr/bin`
 
 - `/bin`: potrzebne do startu systemu
-- `/usr/bin`: aplikacje
+- `/usr/bin`: aplikacje użytkowe
 - możliwość wydzielenia `/usr`
   - osobna partycja
   - współdzielony katalog VM, kontenerów
@@ -224,11 +224,12 @@ Nie są to prawdziwe pliki na dysku.
 ### `/run` (lub `/var/run`)
 
 - informacje o działających usługach
+- dane ulotne
 ------
 ### `/lost+found`
 
 - odzyskane fragmenty plików
-- (występuje tylko w systemie plików ext2/3/4)
+- (występuje tylko w systemie plików `ext2/3/4`)
 ------
 ### `/opt`
 
@@ -238,3 +239,4 @@ Nie są to prawdziwe pliki na dysku.
 
 - katalogi z "rozszerzeniem" `.d`
 - zawierają konfigurację rozbitą na odrębne pliki
+
