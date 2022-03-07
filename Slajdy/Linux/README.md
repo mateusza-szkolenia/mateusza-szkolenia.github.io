@@ -10,3 +10,4 @@
 1. [30: Uprawnienia w Linuksie](Uprawnienia.html)
 1. [40: Filesystem Hierarchy Standard](FHS.html)
 1. [50: Dyski](Dyski.html)
+1. [60: Menedżery pakietów](Menedzery_pakietow.html)
