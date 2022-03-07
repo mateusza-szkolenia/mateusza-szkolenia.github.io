@@ -54,7 +54,7 @@
 ---
 ## Snapcraft
 
-- Menedżer pakietów
+- Dodatkowy menedżer pakietów
 - <https://snapcraft.io/>
 ------
 ## Ciekawostki o Ubuntu
