@@ -1,5 +1,6 @@
 # 60: Menedżery pakietów
 ------
+<!-- .slide: data-autofragments -->
 ## Instalacja oprogramowania
 
 - Windows: plik `setup.exe`
@@ -11,6 +12,7 @@
 
 (zip, lub podobna)
 ---
+<!-- .slide: data-autofragments -->
 ## Zawartość pakietu
 
 - pliki
@@ -20,21 +22,25 @@
 ---
 *Praktycznie każdy plik systemowy pochodzi z jakiegoś pakietu*
 ------
+<!-- .slide: data-autofragments -->
 ## Process instalacji pakietu
 
 - sprawdzenie zależności
 - rozpakowanie zawartości
 - uruchomienie skryptów
 ---
+<!-- .slide: data-autofragments -->
 ## Sprawdzenie zależności
 
 - inne pakiety
 - wersje innych pakietów
 ---
+<!-- .slide: data-autofragments -->
 ## Rozpakowanie zawartości
 
 - nadpisanie drzewa systemowego
 ---
+<!-- .slide: data-autofragments -->
 ## Uruchomienie skryptów
 
 - zatrzymanie/uruchomienie usług
@@ -42,16 +48,39 @@
 ---
 ## Aktualizacja stanu
 
-Menedżer pakietów monitoruje stan instalacji.
+Menedżer pakietów śledzi stan każdego pakietu.
+---
+## Podpisy cyfrowe
 ------
-## `deb`
+## Instalacja oprogramowania
+
+instalacja pakietu + zależności
+---
+
+------
+## `Deb`
 
 - Debian, Ubuntu, pochodne
+---
+## `dpkg`
+---
+## `APT`
+
+- `apt`
+- `apt-get`
 ------
-## `rpm`
+## `RPM`
 
 - RHEL, CentOS, Fedora, SUSE i pochodne
+---
+## `rpm`
+---
+## `yum`
+
+- `yum`
+- `dnf`
 ------
+<!-- .slide: data-autofragments -->
 ## inne
 
 - `apk` (Alpine Linux)
@@ -60,7 +89,6 @@ Menedżer pakietów monitoruje stan instalacji.
 - `tgz` (Slackware)
 ------
 ## Repozytoria
-
 ------
 Koniec
 
