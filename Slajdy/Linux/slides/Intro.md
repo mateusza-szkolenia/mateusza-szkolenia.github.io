@@ -37,7 +37,7 @@ PDP-11
 # IBM PC
 
 - 1981
-- architektura Intel x86 (8086, 286, 386)
+- architektura Intel 8088/x86 (8088, 8086, 286, 386)
 - MS-DOS, MS Windows
 ---
 <!-- .slide: data-background="img/ms-dos.png" -->
@@ -66,7 +66,7 @@ PDP-11
 - 1987
 - *mini Unix*
 - prosty, do celów dydaktycznych
-- dostępny dla x86
+- dostępny dla 8088, potem x86
 - ograniczenia licencyjne wydawcy
 ------
 # Linus Torvalds
