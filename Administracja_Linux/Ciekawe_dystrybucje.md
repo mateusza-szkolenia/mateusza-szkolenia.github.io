@@ -18,13 +18,16 @@
 * [Oracle Linux](https://www.oracle.com/linux/)
 
 ## Dystrybucje specjalizowane dla konkretnych urządzeń, usług i zastosowań
+
 ### Routery i firewalle
 * [OpenWRT](https://openwrt.org/)
 * [OpenWall](https://www.openwall.com/)
+
 ### Serwery lokalne
 * [ClearOS](https://www.clearos.com/)
 * [OpenMediaVault](https://www.openmediavault.org/)
 * [Snakeoil OS](https://www.snakeoil-os.net/)
+
 ### Centrala telefonicza VoIP
 * [FreePBX](https://www.freepbx.org/)
 
