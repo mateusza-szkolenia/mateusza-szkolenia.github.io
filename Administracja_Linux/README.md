@@ -24,7 +24,7 @@
 ## Artykuły
 
 - [Pułapki Basha](https://mywiki.wooledge.org/BashPitfalls)
-- [Kompleksowo o hasłach | CERT Polska](https://cert.pl/posts/2022/01/kompleksowo-o-haslach/)
+- [Kompleksowo o hasłach - CERT Polska](https://cert.pl/posts/2022/01/kompleksowo-o-haslach/)
 - [MF need package management](http://michael.orlitzky.com/articles/motherfuckers_need_package_management.xhtml)
 
 ## Narzędzia
