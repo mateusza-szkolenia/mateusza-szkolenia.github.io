@@ -72,7 +72,7 @@
 | megabajt | MB     | 1000 kB | 1000000 B |
 | gigabajt | GB     | 1000 MB | 1000000000 B |
 | terabajt | TB     | 1000 GB | 1000000000000 B |
-| petabajt | PT     | 1000 TB | 1000000000000000 B |
+| petabajt | PB     | 1000 TB | 1000000000000000 B |
 <style>
 #system-si + table { font-size: 0.8em; }
 </style>
@@ -86,7 +86,7 @@
 | mebibajt | MiB    | 1024 kiB | 1048576 B |
 | gibibajt | GiB    | 1024 MiB | 1073741824 B |
 | tebibajt | TiB    | 1024 GiB | 1099511627776 B |
-| pebibajt | PiT    | 1024 TiB | 1125899906842624 B |
+| pebibajt | PiB    | 1024 TiB | 1125899906842624 B |
 <style>
 #system-informatyczny + table { font-size: 0.8em; }
 </style>
