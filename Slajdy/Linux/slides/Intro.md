@@ -102,9 +102,7 @@ PDP-11
 - rozpowszechniania swoich modyfikacji
 ---
 <!-- .slide: data-background="#eee" -->
-# GNU GPL
-
-![GPL](img/gnu-gpl.png)
+# ![GNU GPL](img/gnu-gpl.png)
 
 *GNU General Public License*
 ---
@@ -171,6 +169,8 @@ PDP-11
 <!-- .slide: data-autofragments -->
 # POSIX
 
+IEEE Standard 1003.1
+
 [Portable Operating System Interface](https://en.wikipedia.org/wiki/POSIX)
 ---
 <!-- .slide: data-autofragments -->
@@ -185,7 +185,7 @@ PDP-11
 - *i inne*
 ---
 <!-- .slide: data-autofragments -->
-# POSIX Certified
+# Certyfikowane z POSIX
 
 - Solaris (SunOS)
 - macOS (Apple)
@@ -196,7 +196,7 @@ PDP-11
 - QNX Neutrino
 ---
 <!-- .slide: data-autofragments -->
-# Prawie POSIX
+# Prawie zgodne z POSIX
 
 - MINIX
 - Linux
@@ -217,9 +217,7 @@ PDP-11
 - Git for Windows
 ------
 <!-- .slide: data-background="#eee" -->
-# TOP500
-
-![TOP500](img/top500.png) <!-- .element: style="height: 30vh;" -->
+# ![TOP500](img/top500.png) <!-- .element: style="height: 30vh;" -->
 
 Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 ---
