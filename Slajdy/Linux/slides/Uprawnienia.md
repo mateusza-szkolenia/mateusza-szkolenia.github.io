@@ -106,18 +106,18 @@ inni
 <!-- .slide: data-autofragments -->
 ## Zabieranie praw
 
-- `chmod -x plik` (dodaj prawo `x` każdemu)
-- `chmod u-x plik` (dodaj prawo `x` właścicielowi)
-- `chmod ug-w plik` (dodaj prawo `w` właścicielowi i grupie)
-- `chmod o-r plik` (dodaj prawo `r` wszystkim innym)
+- `chmod -x plik` (zabierz prawo `x` każdemu)
+- `chmod u-x plik` (zabierz prawo `x` właścicielowi)
+- `chmod ug-w plik` (zabierz prawo `w` właścicielowi i grupie)
+- `chmod o-r plik` (zabierz prawo `r` wszystkim innym)
 ---
 <!-- .slide: data-autofragments -->
 ## Ustawianie praw
 
-- `chmod =x plik` (`---x--x--x`)
+- `chmod =x plik` (`--x--x--x`)
 - `chmod u=rwx plik` (ustaw `rwx` właścicielowi)
-- `chmod ug=rw plik` (ustaw prawa `rw` właścicielowi i grupie)
-- `chmod o=r plik` (ustaw prawo `r` wszystkim innym)
+- `chmod ug=rw plik` (ustaw `rw` właścicielowi i grupie)
+- `chmod o=r plik` (ustaw `r` wszystkim innym)
 ------
 ## Wartości liczbowe
 
@@ -146,6 +146,7 @@ inni
 - `r--` 4
 - `r-x` 5
 - `--x` 1
+- `---` 0
 ---
 <!-- .slide: data-autofragments -->
 ## Pełne wartości
@@ -153,4 +154,4 @@ inni
 - `rwxr-xr-x` (755)
 - `rw-r--r--` (644)
 - `rw-r-----` (640)
-
+- `rwx--x--x` (711)
