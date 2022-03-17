@@ -33,6 +33,8 @@
 - [Bashtop](https://github.com/aristocratos/bashtop)
 - [Neofetch](https://github.com/dylanaraps/neofetch)
 
+- [Implementacje `/sbin/init`](Init.md)
+
 ## Sieci
 
 ### IPv6 Tunnel
