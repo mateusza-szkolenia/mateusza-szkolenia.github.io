@@ -43,6 +43,10 @@
 * [Ubuntu Studio](https://ubuntustudio.org/)
 * [ParrotOS](https://www.parrotsec.org/)
 
+### Instalator sieciowy Ubuntu `mini.iso` (netboot)
+
+* <http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/>
+
 ## Starsze dystrybucje
 * [Slackware Linux](http://www.slackware.com/)
 * [Gentoo Linux](https://www.gentoo.org/)
