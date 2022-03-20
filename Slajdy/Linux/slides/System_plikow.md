@@ -151,13 +151,13 @@
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 40%; text-align: center'>
   <h3 class='fragment fab fa-windows fa-3x'></h3>
-  <p>drukowalne:<br> <code>/\|*:<>?"</code></p>
-  <p>niedrukowalne:<br> <code>0-31</code></p>
+  <p>drukowalne:<br> <code style='font-size: 0.7em;'>/ \ | * : < > ? "</code></p>
+  <p>niedrukowalne:<br> <code>ASCII 0-31</code></p>
 </div>
 <div style='width: 40%; text-align: center;'>
   <h3 class='fragment fab fa-linux fa-3x'></i></h3>
   <p>drukowalne:<br> <code>/</code></p>
-  <p>niedrukowalne:<br> <code>0</code></p>
+  <p>niedrukowalne:<br> <code>ASCII 0</code></p>
 </div>
 </div>
 ------
@@ -168,12 +168,12 @@
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 40%; text-align: center'>
   <h3 class='fragment fab fa-windows fa-3x'></h3>
-  <p>
+  <p style='font-size: 0.5em;'>
   <code>con</code><br>
   <code>nul</code><br>
   <code>com1</code><br>
   <code>lpt1</code><br>
-  ...
+  (również z dowolnym rozszerzeniem)
   </p>
 </div>
 <div style='width: 40%; text-align: center;'>
@@ -333,7 +333,7 @@
 - rozszerzenie: `.mp3` (umowne)
 - typ pliku: muzyka
 - (typ może też wynikać z zawartości)
----
+------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
 ## "Nietypowe" nazwy plików w Linuksie
@@ -360,7 +360,7 @@
 <td>rozszerzenie <code>.so</code> w środku</td>
 </tr>
 </table>
----
+------
 <!-- .slide: data-autofragments -->
 ## Przenośność plików
 
@@ -368,7 +368,7 @@ Ograniczenia w Windows:
 - nie zawsze są ograniczeniami systemu plików
 - zaimplementowane niekonsekwentnie
 - mogą powodować dziwne zachowanie systemu
----
+------
 <!-- .slide: data-autofragments -->
 ## Tłumaczone nazwy katalogów w Windows
 
@@ -385,6 +385,49 @@ Ograniczenia w Windows:
   rzeczywista nazwa  
 
   `C:\Users\Mateusz\Desktop`
+</div>
+</div>
+------
+<!-- .slide: data-autofragments -->
+## Nazwy 8.3
+
+Ograniczenia klasycznego FAT:
+- nazwa do 8 liter
+- rozszerzenia do 3 liter
+- bez spacji
+- bez znaków narodowych
+- *case insensitive*
+- wszystko wielkimi literami
+---
+<!-- .slide: data-autofragments -->
+## VFAT i Long File Names
+
+- wprowadzone z Windows 95
+- rozszerzenie standardu FAT
+- nazwy plików do 255 znaków
+- wsparcie dla znaków międzynarodowych (Unicode UCS)
+- dozwolone spacje
+- respektowanie wielkości liter
+- *case insensitive*
+---
+**Systemy plików w Windows (FAT, NTFS) przechowują obie nazwy: LFN i SFN.**
+---
+<!-- .slide: data-autofragments -->
+## Nazwy SFN (8.3) i LFN
+
+<div style='display: flex'>
+<div style='width: 49%' class=fragment>
+  <i class='fa fa-folder fa-2x'></i><br>
+  nazwa długa<br>
+
+  `C:\Program Files`
+</div>
+
+<div style='width: 49%' class=fragment>
+  <i class='fa fa-terminal fa-2x'></i><br>
+  nazwa krótka<br>
+
+  `C:\PROGRA~1`
 </div>
 </div>
 ------
@@ -428,3 +471,5 @@ Ograniczenia w Windows:
   - metainformacje
 * "ukrycie" nie ma związku z prywatnością, bezpieczeństwem
 * "ukrycie" realnie oznacza zmianę nazwy
+------
+[Koniec](./)
