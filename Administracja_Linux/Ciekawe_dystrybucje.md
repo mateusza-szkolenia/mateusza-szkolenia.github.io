@@ -12,10 +12,11 @@
 * [Tails](https://tails.boum.org/)
 * [Knoppix](https://www.knopper.net/knoppix/)
 
-## Klony [CentOS](https://www.centos.org/) i [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
+## Klony [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
 * [Rocky Linux](https://rockylinux.org/)
 * [Alma Linux](https://almalinux.org/)
 * [Oracle Linux](https://www.oracle.com/linux/)
+* [CentOS](https://www.centos.org/)
 
 ## Dystrybucje specjalizowane dla konkretnych urządzeń, usług i zastosowań
 
@@ -34,7 +35,7 @@
 ## Dystrybucje specjalizowane pod kątem bezpieczeństwa
 * [Qubes OS](https://www.qubes-os.org/)
 
-## Dystrybucje bazujące na Ubuntu i Debianie:
+## Dystrybucje bazujące na [Ubuntu](https://ubuntu.com/) i [Debianie](https://www.debian.org/):
 * [elementary OS](https://elementary.io/)
 * [Linux Mint](https://linuxmint.com/)
 * [Pop!\_OS](https://pop.system76.com/)
@@ -43,9 +44,10 @@
 * [Ubuntu Studio](https://ubuntustudio.org/)
 * [ParrotOS](https://www.parrotsec.org/)
 
-### Instalator sieciowy Ubuntu `mini.iso` (netboot)
+### Instalator sieciowy:
 
-* <http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/>
+#### Ubuntu `mini.iso` (netboot):
+- [Ubuntu 20.04 LTS - x86-64](http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/)
 
 ## Starsze dystrybucje
 * [Slackware Linux](http://www.slackware.com/)

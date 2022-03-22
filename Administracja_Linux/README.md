@@ -19,6 +19,9 @@
 - William Shotts - *Adventures with the Linux Command Line*
 [[WWW](https://linuxcommand.org/tlcl.php)]
 [[PDF](https://sourceforge.net/projects/linuxcommand/files/AWTLCL/21.10/AWTLCL-21.10.pdf/download)]
+- Simson Garfinkel, Daniel Weise, Steven Strassmann - *The UNIX-HATERS Handbook*
+[[PDF](https://web.mit.edu/~simsong/www/ugh.pdf)]
+[[Wikipedia](https://en.wikipedia.org/wiki/The_UNIX-HATERS_Handbook)]
 
 ## Artykuły
 
@@ -31,6 +34,8 @@
 - [Shellcheck](https://github.com/koalaman/shellcheck)
 - [Bashtop](https://github.com/aristocratos/bashtop)
 - [Neofetch](https://github.com/dylanaraps/neofetch)
+
+## Komponenty systemowe
 
 - [Implementacje `/sbin/init`](Init.md)
 
