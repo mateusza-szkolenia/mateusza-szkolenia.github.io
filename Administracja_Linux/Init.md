@@ -1,6 +1,7 @@
 # Implementacje `/sbin/init`
 
-- [systemd](https://systemd.io/) (Ubuntu, Debian, RHEL, i inne)
+- [systemd](https://systemd.io/) (Ubuntu, Debian, RHEL, Arch Linux i inne)
+- [sysvinit](https://github.com/slicer69/sysvinit/)
 - [s6](https://skarnet.org/software/s6/)
 - [OpenRC](https://github.com/OpenRC/openrc) (Gentoo, Alpine Linux)
 - [runit](http://smarden.org/runit/) (Void Linux, GitLab)
