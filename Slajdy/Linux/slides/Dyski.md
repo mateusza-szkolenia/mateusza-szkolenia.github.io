@@ -34,9 +34,9 @@
 ------
 # RAID
 
-Redundant Array of Independent Devices
+Redundant Array of Independent Disks
 
-*również: Inexpensive Drives*
+również: *Inexpensive Drives*
 ---
 # RAID 0
 
@@ -50,4 +50,4 @@ Redundant Array of Independent Devices
 ---
 # RAID 10
 ------
-
+[Koniec](./)

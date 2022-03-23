@@ -306,27 +306,29 @@ System operacyjny oparty na Linuksie (niekoniecznie GNU):
 ---
 # Komponenty
 
-|           |           |           |        |       |
-|-----------|-----------|-----------|--------|-------|
-| kernel    | v4.4      | v4.9      | v5.4   | v5.16 |
-| init      | systemd   | SysVinit  | OpenRC | Runit |
-| pulpit    | GNOME     | KDE       | MATE   | XFCE  |
-| web       | Firefox   | Konqueror | Chrome | ...   |
-| shell     | bash      | ash       | tcsh   | zsh   |
-| narzędzia | coreutils | busybox   | ...    | ...   |
-| pakiety   | deb       | rpm       | apk    | xbps  |
+```txt
+kernel:      v4.4        v4.9        v5.4     v5.16  
+init:        systemd     SysVinit    OpenRC   Runit  
+pulpit:      GNOME       KDE         MATE     XFCE   
+web:         Firefox     Konqueror   Chrome   ...    
+shell:       bash        ash         tcsh     zsh    
+narzędzia:   coreutils   busybox     ...      ...    
+pakiety:     deb         rpm         apk      xbps   
+```
 <style>
-#komponenty + table { font-size: 0.7em; }
+#komponenty + pre { font-size: 0.5em; }
 </style>
 ---
 # Wersje (wydania)
 
-| rok  | dystrybucja  | kernel | GNOME | GCC | Python |
-|------|--------------|--------|-------|-----|--------|
-| 2015 | RHEL 7       | 3.10   | 3.8   | 4.8 | 2.7    |
-| 2018 | Ubuntu 18.04 | 4.15   | 3.28  | 7.4 | 3.6    |
-| 2019 | RHEL 8       | 4.18   | 3.28  | 8.2 | 3.6    |
-| 2020 | Ubuntu 20.04 | 5.4    | 3.36  | 9.0 | 3.8    |
+| rok  | dystrybucja  | kernel | GNOME | GCC  | Python |
+|------|--------------|--------|-------|------|--------|
+| 2015 | RHEL 7       | 3.10   | 3.8   | 4.8  | 2.7    |
+| 2018 | Ubuntu 18.04 | 4.15   | 3.28  | 7.4  | 3.6    |
+| 2019 | RHEL 8       | 4.18   | 3.28  | 8.2  | 3.6    |
+| 2020 | Ubuntu 20.04 | 5.4    | 3.36  | 9.0  | 3.8    |
+| 2022 | Ubuntu 22.04 | 5.15   | 3.42  | 11.0 | 3.10   |
+
 <style>
 #wersje-wydania + table { font-size: 0.7em; }
 </style>
@@ -334,9 +336,4 @@ System operacyjny oparty na Linuksie (niekoniecznie GNU):
 <!-- .slide: data-background="#fff" -->
 ![Lalka](img/dress-up-doll.jpg) <!-- .element: style="height: 75vh;" -->
 ------
-<!-- .slide: data-autofragments -->
-<!-- .slide: data-background="#555" -->
-# Koniec
-
-dalej: [Dystrybucje Linuksa](Dystrybucje.html)
-
+[Koniec](./)

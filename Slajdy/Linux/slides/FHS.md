@@ -75,6 +75,7 @@
     padding: 0.3em;
   }
 </style>
+
 ------
 ### `/bin`, `/sbin`
 
@@ -130,14 +131,14 @@ Interfejs kernela do:
 - pamięci
 - informacji o kernelu itp
 
-*Nie są to prawdziwe pliki na dysku.*
+Uwaga: *Nie są to prawdziwe pliki na dysku.*
 ------
 ### `/sys` (`sysfs`)
 
 - podobnie jak `proc`
 - interfejs do urządzeń, sterowników i podsystemów
 
-Nie są to prawdziwe pliki na dysku.
+Uwaga: *Nie są to prawdziwe pliki na dysku.*
 ------
 ### `/tmp`
 
@@ -239,4 +240,5 @@ Nie są to prawdziwe pliki na dysku.
 
 - katalogi z "rozszerzeniem" `.d`
 - zawierają konfigurację rozbitą na odrębne pliki
-
+------
+[Koniec](./)

@@ -12,6 +12,7 @@
   katalog (folder)
 </div>
 </div>
+
 ---
 <!-- .slide: data-autofragments -->
 ## Drzewo katalogów
@@ -19,7 +20,7 @@
 - katalogi zawierają pliki i katalogi
 - obiekty w katalogu mają unikalne nazwy
 ---
-*(prawie) wszystko jest plikiem*
+Uwaga: *(prawie) wszystko jest plikiem*
 ---
 <!-- .slide: data-autofragments -->
 ## Pliki
@@ -107,6 +108,7 @@
   ma znaczenie
 </div>
 </div>
+
 ---
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -143,10 +145,11 @@
   </ul>
 </div>
 </div>
+
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
-## Zastrzeżone znaki
+## Niedozwolone znaki
 
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 40%; text-align: center'>
@@ -160,6 +163,7 @@
   <p>niedrukowalne:<br> <code>ASCII 0</code></p>
 </div>
 </div>
+
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -181,6 +185,7 @@
   <p>brak ograniczeń</p>
 </div>
 </div>
+
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -220,6 +225,7 @@
   <p>wymagają montowania...</p>
 </div>
 </div>
+
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -227,6 +233,7 @@
 
 <p><i class='fab fa-linux'></i> slash <code> / </code></p>
 <p><i class='fab fa-windows'></i> backslash <code> \ </code></p>
+
 ---
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -234,6 +241,7 @@
 
 <p><i class='fab fa-linux'></i> <code>/home/mateusz/Desktop</code></p>
 <p><i class='fab fa-windows'></i> <code>C:\Users\mateusz\Desktop</code></p>
+
 ---
 <!-- .slide: data-autofragments -->
 ### Uwagi dot. slasha i backslasha
@@ -283,6 +291,7 @@
 <i class='fa fa-file-excel'></i><br>wydatki.xlsx
 </div>
 </div>
+
 ---
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -305,12 +314,14 @@
   </ul>
 </div>
 </div>
+
 ---
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
 ## Rozszerzenia i typy plików
 
 <i class='fa fa-file-audio'></i> piosenka.mp3
+
 ---
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -360,6 +371,7 @@
 <td>rozszerzenie <code>.so</code> w środku</td>
 </tr>
 </table>
+
 ------
 <!-- .slide: data-autofragments -->
 ## Przenośność plików
@@ -387,6 +399,7 @@ Ograniczenia w Windows:
   `C:\Users\Mateusz\Desktop`
 </div>
 </div>
+
 ------
 <!-- .slide: data-autofragments -->
 ## Nazwy 8.3
@@ -430,6 +443,7 @@ Ograniczenia klasycznego FAT:
   `C:\PROGRA~1`
 </div>
 </div>
+
 ------
 ## Programy
 
@@ -446,6 +460,7 @@ Ograniczenia klasycznego FAT:
   <p><i>rozszerzenie nie ma znaczenia</i></p>
 </div>
 </div>
+
 ------
 ## Pliki ukryte
 
@@ -459,6 +474,7 @@ Ograniczenia klasycznego FAT:
   <p>nie ma plików ukrytych<sup> * </sup></p>
 </div>
 </div>
+
 ------
 <!-- .slide: data-autofragments -->
 ## Pliki "ukryte" w Linuksie
@@ -473,3 +489,4 @@ Ograniczenia klasycznego FAT:
 * "ukrycie" realnie oznacza zmianę nazwy
 ------
 [Koniec](./)
+

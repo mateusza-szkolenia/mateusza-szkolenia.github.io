@@ -46,7 +46,7 @@
 ---
 ## Nazwa
 
-*humanity towards others*
+Z afrykańskiego: *humanity towards others*
 ---
 ## Landscape
 
@@ -71,9 +71,7 @@
 ---
 ### Nazwa
 
-Żartobliwe tłumaczenie:
-
-*nie umiem zainstalować Debiana*
+Żartobliwe tłumaczenie: *nie umiem zainstalować Debiana*
 ------
 ## Warianty Ubuntu
 ---
@@ -107,5 +105,4 @@
 ---
 ### Elementary OS
 ------
-Koniec
-
+[Koniec](./)

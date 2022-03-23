@@ -396,9 +396,4 @@ Tylko wersja 8.x
 - `RPM`
 - inne
 ------
-<!-- .slide: data-autofragments -->
-<!-- .slide: data-background="#555" -->
-# Koniec
-
-<!--dalej: [Dystrybucje Linuksa](Dystrybucje.html) -->
-
+[Koniec](./)

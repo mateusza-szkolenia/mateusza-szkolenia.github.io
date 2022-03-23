@@ -26,6 +26,7 @@ execute<br>
 (uruchomienie)
 </div>
 </div>
+
 ---
 ## Obszary
 <div style='display: flex; justify-content: space-around; flex-wrap: wrap;'>
@@ -45,6 +46,7 @@ others<br>
 (inni)
 </div>
 </div>
+
 ---
 ## Uprawnienia
 <div style='display: flex; justify-content: space-around; flex-wrap: wrap;'>
@@ -61,6 +63,7 @@ grupa
 inni
 </div>
 </div>
+
 ---
 <!-- .slide: data-autofragments -->
 ## Przykładowe uprawnienia
@@ -90,10 +93,12 @@ inni
   </ul>
 </div>
 </div>
+
 ------
 ## Zmiana uprawnień
 
 <code style='font-size:4em;'>chmod</code>
+
 ---
 <!-- .slide: data-autofragments -->
 ## Dodawanie praw
@@ -155,3 +160,6 @@ inni
 - `rw-r--r--` (644)
 - `rw-r-----` (640)
 - `rwx--x--x` (711)
+------
+[Koniec](./)
+

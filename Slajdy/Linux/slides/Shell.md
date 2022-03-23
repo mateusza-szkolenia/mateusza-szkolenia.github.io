@@ -54,4 +54,5 @@ Zmiana shella: `chsh`
 # Operatory
 ------
 # Programy
-
+------
+[Koniec](./)

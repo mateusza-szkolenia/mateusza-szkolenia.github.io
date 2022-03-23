@@ -20,7 +20,7 @@
 - zależności
 - skrypty pomocnicze *(pre-install, post-install ...)*
 ---
-*Praktycznie każdy plik systemowy pochodzi z jakiegoś pakietu*
+Uwaga: *Praktycznie każdy plik systemowy pochodzi z jakiegoś pakietu.*
 ------
 <!-- .slide: data-autofragments -->
 ## Process instalacji pakietu
@@ -55,8 +55,6 @@ Menedżer pakietów śledzi stan każdego pakietu.
 ## Instalacja oprogramowania
 
 instalacja pakietu + zależności
----
-
 ------
 ## `Deb`
 
@@ -90,5 +88,5 @@ instalacja pakietu + zależności
 ------
 ## Repozytoria
 ------
-Koniec
+[Koniec](./)
 
