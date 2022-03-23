@@ -3,11 +3,13 @@
 ---
 <!-- .slide: data-background="#eee" -->
 ![Tux](img/tux.png) <!-- .element: style="height: 60vh;" -->
+
 ------
 # Historia
 ------
 <!-- .slide: data-background="img/pdp-11.jpg" -->
 PDP-11
+
 ------
 <!-- .slide: data-autofragments -->
 # UNIX
@@ -15,13 +17,13 @@ PDP-11
 - 1970s
 - Bell Labs
 - język C
+
 ---
 ## Ken Thompson & Dennis Ritchie
 
 ![Ritchie and Thopson](img/ritchie_and_thompson.jpg) <!-- .element: style="height: 60vh;" -->
-<style>
-#ken-thompson--dennis-ritchie { font-size: 1.2em; }
-</style>
+<style> #ken-thompson--dennis-ritchie { font-size: 1.2em; } </style>
+
 ---
 <!-- .slide: data-autofragments -->
 ## Cechy UNIX-a
@@ -30,8 +32,10 @@ PDP-11
 - wielodostępność
 - hierarchiczny system plików
 - pliki tekstowe
+
 ------
 <!-- .slide: data-background="img/ibm-pc.jpg" -->
+
 ---
 <!-- .slide: data-autofragments -->
 # IBM PC
@@ -39,8 +43,10 @@ PDP-11
 - 1981
 - architektura Intel 8088/x86 (8088, 8086, 286, 386)
 - MS-DOS, MS Windows
+
 ---
 <!-- .slide: data-background="img/ms-dos.png" -->
+
 ---
 <!-- .slide: data-autofragments -->
 # DOS
@@ -50,15 +56,16 @@ PDP-11
 - brak natywnej obsługi sieci
 - bezpośredni dostęp do zasobów
 - gry, programy
+
 ------
 # Andrew Tanenbaum
 
 ![Andrew Tanenbaum](img/andrew-tanenbaum.jpg) <!-- .element: style="height: 60vh;" -->
-<style>
-#andrew-tanenbaum { font-size: 1.1em; }
-</style>
+<style> #andrew-tanenbaum { font-size: 1.1em; } </style>
+
 ---
 ![Book](img/minix-book.jpg) <!-- .element: style='height: 80vh;' -->
+
 ---
 <!-- .slide: data-autofragments -->
 # Minix
@@ -68,13 +75,13 @@ PDP-11
 - prosty, do celów dydaktycznych
 - dostępny dla 8088, potem x86
 - ograniczenia licencyjne wydawcy
+
 ------
 # Linus Torvalds
 
 ![Linus Torvalds](img/linus-torvalds.jpg) <!-- .element: style="height: 60vh;" -->
-<style>
-#linus-torvalds { font-size: 1.1em; }
-</style>
+<style> #linus-torvalds { font-size: 1.1em; } </style>
+
 ---
 <!-- .slide: data-autofragments -->
 # Linux
@@ -85,13 +92,13 @@ PDP-11
 - główne różnice:
   - architektura kernela
   - licencjonowanie
+
 ------
 # Richard Stallman
 
 ![RMS](img/richard-stallman.jpg) <!-- .element: style="height: 60vh;" -->
-<style>
-#richard-stallman { font-size: 1.1em; }
-</style>
+<style> #richard-stallman { font-size: 1.1em; } </style>
+
 ---
 <!-- .slide: data-autofragments -->
 # 4 wolności
@@ -100,26 +107,31 @@ PDP-11
 - analiza działania i modyfikacja (*open source*)
 - rozpowszechniania
 - rozpowszechniania swoich modyfikacji
+
 ---
 <!-- .slide: data-background="#eee" -->
 # ![GNU GPL](img/gnu-gpl.png)
 
 *GNU General Public License*
+
 ---
 <!-- .slide: data-background="#fffaf4" -->
 # GNU GPL License
 
 <iframe src='assets/gpl-3.0-standalone.html' style='width: 60vw; height: 50vh;'></iframe>
+
 ---
 <!-- .slide: data-background="#fff" -->
 # Licencja MIT
 
 ![MIT](img/mit-lic.jpg) <!-- .element: style="height: 50vh;" -->
+
 ---
 <!-- .slide: data-background="#fffaf4" -->
 # MIT License
 
 <iframe src='assets/mit.html' style='width: 60vw; height: 50vh;'></iframe>
+
 ---
 <!-- .slide: data-background="#fff" -->
 # Free Software Foundation
@@ -127,6 +139,7 @@ PDP-11
 ![FSF](img/fsf.png) <!-- .element: style="height: 20vh;" -->
 
 *Free as in freedom, not free as in free beer*
+
 ---
 <!-- .slide: data-autofragments -->
 # Działalność FSF, GNU
@@ -137,9 +150,9 @@ PDP-11
     ([Apple](https://www.gnu.org/proprietary/malware-apple.en.html),
      [Microsoft](https://www.gnu.org/proprietary/malware-microsoft.html))
 - Tropienie naruszeń licencji GPL
-<style>
-#działalność-fsf-gnu { font-size: 1.6em; }
-</style>
+
+<style> #działalność-fsf-gnu { font-size: 1.6em; } </style>
+
 ---
 <!-- .slide: data-background="#eee" -->
 # GNU
@@ -147,6 +160,7 @@ PDP-11
 ![GNU](img/gnu.png) <!-- .element: style="height: 50vh;" -->
 
 *GNU is Not Unix*
+
 ---
 <!-- .slide: data-autofragments -->
 # Oprogramowanie GNU
@@ -160,11 +174,12 @@ PDP-11
 - narzędzia: **GnuPG**, **Octave**, **Emacs**
 - desktop, aplikacje: **GNOME, GIMP**
 - [i wiele innych](https://en.wikipedia.org/wiki/List_of_GNU_packages)
-<style>
-#oprogramowanie-gnu { font-size: 1.5em; }
-</style>
+
+<style> #oprogramowanie-gnu { font-size: 1.5em; } </style>
+
 ---
 # GNU/Linux
+
 ------
 <!-- .slide: data-autofragments -->
 # POSIX
@@ -172,6 +187,7 @@ PDP-11
 IEEE Standard 1003.1
 
 [Portable Operating System Interface](https://en.wikipedia.org/wiki/POSIX)
+
 ---
 <!-- .slide: data-autofragments -->
 # POSIX
@@ -183,6 +199,7 @@ IEEE Standard 1003.1
 - I/O
 - shell - polecenia
 - *i inne*
+
 ---
 <!-- .slide: data-autofragments -->
 # Certyfikowane z POSIX
@@ -194,6 +211,7 @@ IEEE Standard 1003.1
 - IRIX
 - UnixWare
 - QNX Neutrino
+
 ---
 <!-- .slide: data-autofragments -->
 # Prawie zgodne z POSIX
@@ -202,12 +220,14 @@ IEEE Standard 1003.1
 - Linux
 - Android
 - BSD (FreeBSD, OpenBSD, NetBSD, Dragonfly BSD)
+
 ---
 <!-- .slide: data-autofragments -->
 # Dlaczego prawie?
 
 - brak formalnej certyfikacji
 - minimalne odstępstwa od standardu
+
 ---
 <!-- .slide: data-autofragments -->
 # Microsoft Windows?
@@ -215,11 +235,13 @@ IEEE Standard 1003.1
 - POSIX Subsystem
 - Cygwin
 - Git for Windows
+
 ------
 <!-- .slide: data-background="#eee" -->
 # ![TOP500](img/top500.png) <!-- .element: style="height: 30vh;" -->
 
 Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
+
 ---
 <!-- .slide: data-autofragments -->
 # Linux
@@ -230,14 +252,15 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 - Windows: w porywach 0.8% (4/500)
 
 \[[1](https://www.top500.org/statistics/details/osfam/1/)\]
+
 ---
 <!-- .slide: data-background="#eee" -->
 # Timeline
 
 ![Timeline](img/top500-timeline.png) <!-- .element: style="height: 65vh;" -->
-<style>
-#timeline {font-size: 1.3em; }
-</style>
+
+<style> #timeline {font-size: 1.3em; } </style>
+
 ---
 ![Meme](img/linux-friends-meme.jpg) <!-- .element: style="height: 70vh;" -->
 ------
@@ -246,6 +269,7 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 
 - Application Programming Interface
 - Application Binary Interface
+
 ---
 <!-- .slide: data-autofragments -->
 # API
@@ -254,6 +278,7 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 - kod źródłowy
 - protokół komunikacji
 - POSIX
+
 ---
 <!-- .slide: data-autofragments -->
 # ABI
@@ -261,9 +286,11 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 - architektura
 - konsolidacja
 - konwencja wołania
+
 ------
 <!-- .slide: data-autofragments -->
 # Komputer a OS 
+
 ---
 <!-- .slide: data-autofragments -->
 # Rola OS
@@ -272,6 +299,7 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 - zarządzanie pamięcią
 - zarządzanie procesami
 - udostępnienie interfejsu
+
 ------
 <!-- .slide: data-autofragments -->
 # Pojęcia
@@ -281,18 +309,21 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 - dystrybucja Linuksa
   - Ubuntu
   - Red Hat Enterprise Linux
+
 ---
 <!-- .slide: data-autofragments -->
 # Linux
 
 - nazwa oznacza sam kernel
 - <https://www.kernel.org>
+
 ---
 <!-- .slide: data-autofragments -->
 # GNU/Linux
 
 - system operacyjny z kernelem Linuksa
 - oprogramowanie z projektu **GNU**
+
 ---
 <!-- .slide: data-autofragments -->
 # Dystrybucja
@@ -303,6 +334,7 @@ System operacyjny oparty na Linuksie (niekoniecznie GNU):
 - wydany przez konkretny podmiot
 - instalator i system pakietów
 - usługi dodatkowe
+
 ---
 # Komponenty
 
@@ -315,9 +347,9 @@ shell:       bash        ash         tcsh     zsh
 narzędzia:   coreutils   busybox     ...      ...    
 pakiety:     deb         rpm         apk      xbps   
 ```
-<style>
-#komponenty + pre { font-size: 0.5em; }
-</style>
+
+<style> #komponenty + pre { font-size: 0.5em; } </style>
+
 ---
 # Wersje (wydania)
 
@@ -329,11 +361,11 @@ pakiety:     deb         rpm         apk      xbps
 | 2020 | Ubuntu 20.04 | 5.4    | 3.36  | 9.0  | 3.8    |
 | 2022 | Ubuntu 22.04 | 5.15   | 3.42  | 11.0 | 3.10   |
 
-<style>
-#wersje-wydania + table { font-size: 0.7em; }
-</style>
+<style> #wersje-wydania + table { font-size: 0.7em; } </style>
+
 ---
 <!-- .slide: data-background="#fff" -->
 ![Lalka](img/dress-up-doll.jpg) <!-- .element: style="height: 75vh;" -->
+
 ------
 [Koniec](./)
