@@ -1,11 +1,13 @@
 <!-- .slide: data-background="#eee" -->
 # 10: Wstęp do Linuksa
+
 ---
 <!-- .slide: data-background="#eee" -->
 ![Tux](img/tux.png) <!-- .element: style="height: 60vh;" -->
 
 ------
 # Historia
+
 ------
 <!-- .slide: data-background="img/pdp-11.jpg" -->
 PDP-11
@@ -263,6 +265,7 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 
 ---
 ![Meme](img/linux-friends-meme.jpg) <!-- .element: style="height: 70vh;" -->
+
 ------
 <!-- .slide: data-autofragments -->
 # API i ABI

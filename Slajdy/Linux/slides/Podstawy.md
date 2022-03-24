@@ -1,20 +1,27 @@
 # 00: Podstawowe pojęcia
+
 ------
 ## Bit
+
 ------
 ## System binarny
+
 ------
 ## System dziesiętny
+
 ------
 ## System szesnastkowy
+
 ------
 ## System ósemkowy
+
 ------
 ## Bajt
 
 * 8 bitów
 
 (256 wartości)
+
 ------
 ## Kilobajt (1kB)
 
@@ -22,10 +29,12 @@
 * 1000 B?
 
 Różnica: *2.4%*
+
 ---
 ## Dlaczego 1024?
 
 2<sup>10</sup> = 1024 ≈ 1000
+
 ---
 ## 1000 vs 1024
 
@@ -56,6 +65,7 @@ Różnica: *2.4%*
 * 1000 × 1024 B?
 
 Różnica: *4.85%*
+
 ------
 ## Gigabajt (1GB)
 
@@ -63,6 +73,7 @@ Różnica: *4.85%*
 * 1000 × 1000 × 1000 B?
 
 Różnica: *7.3%*
+
 ------
 ## System SI
 
@@ -75,9 +86,8 @@ Różnica: *7.3%*
 | terabajt | TB     | 1000 GB | 1000000000000 B |
 | petabajt | PB     | 1000 TB | 1000000000000000 B |
 
-<style>
-#system-si + table { font-size: 0.8em; }
-</style>
+<style> #system-si + table { font-size: 0.8em; } </style>
+
 ---
 ## System "informatyczny"
 
@@ -90,15 +100,15 @@ Różnica: *7.3%*
 | tebibajt | TiB    | 1024 GiB | 1099511627776 B |
 | pebibajt | PiB    | 1024 TiB | 1125899906842624 B |
 
-<style>
-#system-informatyczny + table { font-size: 0.8em; }
-</style>
+<style> #system-informatyczny + table { font-size: 0.8em; } </style>
+
 ------
 ## Na co dzień
 
 - Używa się wartości przybliżonych
 - Obu systemów używa się przemiennie
-- Precyzyjny rozmiar podaje się w bajtach
+- Dokładny rozmiar podaje się w bajtach
+
 ------
 ## Pojemność dysków i zużycie miejsca
 
