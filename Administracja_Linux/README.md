@@ -29,6 +29,10 @@
 - [Kompleksowo o hasłach - CERT Polska](https://cert.pl/posts/2022/01/kompleksowo-o-haslach/)
 - [MF need package management](http://michael.orlitzky.com/articles/motherfuckers_need_package_management.xhtml)
 
+## Filmiki
+
+- [Why so many distros? The Weird History of Linux](https://www.youtube.com/watch?v=ShcR4Zfc6Dw)
+
 ## Narzędzia
 
 - [Shellcheck](https://github.com/koalaman/shellcheck)
