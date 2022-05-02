@@ -32,6 +32,7 @@
 ## Gry online
 
 - [Command Challenge](https://cmdchallenge.com/)
+- [Oops](https://oops.cmdchallenge.com/)
 
 ## Filmiki
 
