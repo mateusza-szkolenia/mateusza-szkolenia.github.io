@@ -136,9 +136,7 @@ PDP-11
 
 ---
 <!-- .slide: data-background="#fff" -->
-# Free Software Foundation
-
-![FSF](img/fsf.png) <!-- .element: style="height: 20vh;" -->
+# ![FSF](img/fsf.png) <!-- .element: style="height: 20vh;" -->
 
 *Free as in freedom, not free as in free beer*
 
@@ -246,7 +244,7 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 
 ---
 <!-- .slide: data-autofragments -->
-# Linux
+# Linux na TOP500
 
 - pierwszy raz na liście w 1998
 - 100% udziału od 2017
