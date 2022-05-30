@@ -1,4 +1,5 @@
 # 30: System plików w Linuksie
+
 ------
 ## Struktura składowania danych
 
@@ -19,8 +20,10 @@
 
 - katalogi zawierają pliki i katalogi
 - obiekty w katalogu mają unikalne nazwy
+
 ---
 Uwaga: *(prawie) wszystko jest plikiem*
+
 ---
 <!-- .slide: data-autofragments -->
 ## Pliki
@@ -31,6 +34,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
   - gniazda (socket)
   - łącza symboliczne (symlink)
   - urządzenia (device)
+
 ---
 <!-- .slide: data-autofragments -->
 ## Pliki zwykłe
@@ -41,31 +45,36 @@ Uwaga: *(prawie) wszystko jest plikiem*
   - programy
 - mają rozmiar (bajty)
 - znaczniki czasu i inne meta-dane
+
 ---
 <!-- .slide: data-autofragments -->
-## pipe
+## pipe (rurka)
 
 - inna nazwa: FIFO
 - kolejka
 - komunikacja 1-do-1 między procesami
 - zerowy rozmiar
 - brak buforowania
+
 ---
 <!-- .slide: data-autofragments -->
-## socket
+## socket (gniazdo)
 
 - komunikacja 1-do-wielu
 - odpowiednik łączności TCP/IP, ale bez stosu sieciowego
 - zerowy rozmiar
 - brak buforowania
+
 ---
 <!-- .slide: data-autofragments -->
-## device
+## device (urządzenie)
 
-- komunikacja między procesami a urządzeniami obsługiwanym przez sterownik kernela
+- komunikacja między procesami a urządzeniami obsługiwanymi przez sterownik kernela
 - tylko w katalogu `/dev/`
 - zerowy rozmiar
-- identyfikacja urządzeń: dwie liczby całkowite (major, minor)
+- identyfikacja urządzeń:
+  - dwie liczby całkowite (*major*, *minor*)
+
 ---
 <!-- .slide: data-autofragments -->
 ## symbolic link
@@ -73,13 +82,15 @@ Uwaga: *(prawie) wszystko jest plikiem*
 - może wskazywać na plik lub katalog
 - przypomina "Skrót" z Windows
 - rozmiar: długość stringa ze ścieżką
+
 ---
 <!-- .slide: data-autofragments -->
-## Katalogi
+## katalogi
 
 - służą organizacji danych
 - mogą zawierać inne pliki i katalogi
 - mogą być *wirtualne*
+
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -93,6 +104,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 - pliki specjalne
 - znak końca linii w plikach tekstowych
 - operacje i mechnizmy blokowania
+
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -248,6 +260,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 - w Windows można użyć slasha zamiast backslasha
 - `C:/Windows/System32` zadziała
+
 ---
 <!-- .slide: data-autofragments -->
 ### Zastosowanie slasha `/`:
@@ -259,6 +272,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
   `<h1>Tytuł</h1>`
 - znak dzielenia:  
   `1/3`
+
 ---
 <!-- .slide: data-autofragments -->
 ### Zastosowanie backslasha `\`:
@@ -267,6 +281,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 - *eskejpowanie*
 - znaczniki LaTeX-a:  
   `\begin{article}`
+
 ------
 <!-- .slide: data-autofragments -->
 ## Rozszerzenia i typy plików
@@ -333,6 +348,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 - rozszerzenie: `mp3` (niewidoczne)
 - typ pliku: muzyka
 - (typ wynika z rozszerzenia)
+
 ---
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -344,6 +360,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 - rozszerzenie: `.mp3` (umowne)
 - typ pliku: muzyka
 - (typ może też wynikać z zawartości)
+
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
@@ -380,6 +397,7 @@ Ograniczenia w Windows:
 - nie zawsze są ograniczeniami systemu plików
 - zaimplementowane niekonsekwentnie
 - mogą powodować dziwne zachowanie systemu
+
 ------
 <!-- .slide: data-autofragments -->
 ## Tłumaczone nazwy katalogów w Windows
@@ -411,19 +429,22 @@ Ograniczenia klasycznego FAT:
 - bez znaków narodowych
 - *case insensitive*
 - wszystko wielkimi literami
+
 ---
 <!-- .slide: data-autofragments -->
 ## VFAT i Long File Names
 
-- wprowadzone z Windows 95
+- wprowadzone wraz z Windows 95
 - rozszerzenie standardu FAT
 - nazwy plików do 255 znaków
 - wsparcie dla znaków międzynarodowych (Unicode UCS)
 - dozwolone spacje
 - respektowanie wielkości liter
 - *case insensitive*
+
 ---
 **Systemy plików w Windows (FAT, NTFS) przechowują obie nazwy: LFN i SFN.**
+
 ---
 <!-- .slide: data-autofragments -->
 ## Nazwy SFN (8.3) i LFN
@@ -485,8 +506,9 @@ Ograniczenia klasycznego FAT:
   - pliki konfiguracyjne
   - pliki pomocnicze, tymczasowe
   - metainformacje
-* "ukrycie" nie ma związku z prywatnością, bezpieczeństwem
-* "ukrycie" realnie oznacza zmianę nazwy
+* "ukrycie" nie implikuje prywatności, bezpieczeństwa
+* "ukrycie" implikuje zmianę nazwy
+
 ------
 [Koniec](./)
 
