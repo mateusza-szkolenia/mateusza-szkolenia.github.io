@@ -131,4 +131,6 @@ Tylko wersje od 8.3 wzwyż.
 | 9.0    | 2022-05-17 | ...        | *work-in-progress* |
 
 ------
+[Powrót do dystrybucji](Dystrybucje.html#/10/1)
+
 [Koniec](./)
