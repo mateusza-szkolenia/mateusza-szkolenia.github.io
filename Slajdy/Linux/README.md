@@ -4,6 +4,7 @@
 * [00: Podstawowe pojęcia](Podstawy.html) \[[MD](slides/Podstawy.md)\]
 * [10: Wstęp do Linuksa](Intro.html) \[[MD](slides/Intro.md)\]
 * [20: Dystrybucje Linuksa](Dystrybucje.html) \[[MD](slides/Dystrybucje.md)\]
+* [24: RHEL i pochodne](Pochodne_RHEL.html) \[[MD](slides/Pochodne_RHEL.md)\]
 * [25: Debian, Ubuntu](Debian_Ubuntu.html) \[[MD](slides/Debian_Ubuntu.md)\]
 * [30: Shell w Linuksie](Shell.html) \[[MD](slides/Shell.md)\]
 * [30: System plików w Linuksie](System_plikow.html) \[[MD](slides/System_plikow.md)\]

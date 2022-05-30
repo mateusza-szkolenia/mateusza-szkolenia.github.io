@@ -1,4 +1,5 @@
 # 20: Dystrybucje Linuksa
+
 ---
 <!-- .slide: data-autofragments -->
 # Ile?
@@ -7,23 +8,27 @@ Trudno powiedzieć...
 
 - co jest dystrybucją a co jeszcze nie?
 - jak liczyć?
+
 ---
 <!-- .slide: data-autofragments -->
 # Ale ile?
 - *Almost one thousand Linux distributions exist.*
   [Wikipedia](https://en.wikipedia.org/wiki/Linux_distribution)
 - 261 aktywnych notowanych w [Distrowatch](https://distrowatch.com/dwres.php?resource=popularity)
+
 ---
 <!-- .slide: data-autofragments -->
 # Drzewo
 
 <https://upload.wikimedia.org/wikipedia/commons/b/b5/Linux_Distribution_Timeline_21_10_2021.svg>
+
 ---
 <!-- .slide: data-autofragments -->
 # Dlaczego tak dużo?
 - *A po co?*
 - *A dlaczego?*
 - *A komu to potrzebne?*
+
 ---
 <iframe style="width: 90vw; height: 70vh;" src="https://www.youtube.com/embed/OO3FANjwKHY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay></iframe>
 
@@ -37,6 +42,7 @@ Trudno powiedzieć...
 - założenia, przeznaczenie, filozofia
 - model licencyjny
 - system pakietów
+
 ------
 <!-- .slide: data-autofragments -->
 ## Marka (brand)
@@ -45,47 +51,61 @@ Trudno powiedzieć...
 - logo
 - kolorystyka
 - tapety 😀
+
 ---
 <!-- .slide: data-background="#eee" -->
 ![Debian](img/debian.png)
+
 ---
 <!-- .slide: data-background="#eee" -->
 ![Ubuntu](img/ubuntu.png)
+
 ---
 <!-- .slide: data-background="#434343" -->
 ![Red Hat® Enterprise Linux®](https://www.redhat.com/cms/managed-files/Brand_Standars-Red_Hat-_color_on-darkgray.svg) <!-- .element: style="width: 80vw;" -->
+
 ---
 <!-- .slide: data-background="#eee" -->
 ![Fedora](img/fedora.png)
+
 ---
 <!-- .slide: data-background="#eee" -->
 ![CentOS](img/centos.png)
+
 ---
 <!-- .slide: data-background="#eee" -->
 ![RockyLinux](img/rockylinux.png)
+
 ---
 <!-- .slide: data-background="#eee" -->
 ![AlmaLinux](img/almalinux.png)
+
 ---
 <!-- .slide: data-background="#eee" -->
 ![SUSE](img/suse.png)
+
 ---
 <!-- .slide: data-background="#eee" -->
 ![Void](img/void.png)
+
 ---
 <!-- .slide: data-background="#eee" -->
 ![Alpine](img/alpinelinux.png)
+
 ---
 <!-- .slide: data-background="#eee" -->
 ![Slackware](img/slackware.png)
 
 Slackware Linux
+
 ---
 <!-- .slide: data-background="#eee" -->
 ![Gentoo](img/gentoo.png)
+
 ---
 <!-- .slide: data-background="#eee" -->
 ![OpenWRT](img/openwrt.png)
+
 ---
 <!-- .slide: data-background="#000" -->
 <!-- .slide: style="font-size: 0.3em; color: #fff;" -->
@@ -95,18 +115,22 @@ Slackware Linux
 Product names, logos, and brands are property of their respective owners in the United States and/or other countries.
 
 Author of these slides is not affiliated with any of them and they are used for educational purpuses only.
+
 ------
 ## Nazwy
+
 ---
 <!-- .slide: data-autofragments -->
 ## Debian
 
 Imię twórcy i jego żony: Debra + Ian
+
 ---
 <!-- .slide: data-autofragments -->
 ## Red Hat® Enterprise Linux®
 
 Od czerwonej czapki, którą nosił twórca.
+
 ---
 <!-- .slide: data-autofragments -->
 ## Ubuntu
@@ -114,21 +138,25 @@ Od czerwonej czapki, którą nosił twórca.
 *humanity towards others*
 
 żart branżowy: *nie umiem zainstalować Debiana*
+
 ---
 <!-- .slide: data-autofragments -->
 ## Fedora
 
 Typ kapelusza
+
 ---
 <!-- .slide: data-autofragments -->
 ## CentOS
 
 Community Enterprise Operating System
+
 ---
 <!-- .slide: data-autofragments -->
 ## RockyLinux
 
 Na cześć Rocky'ego McGaugha (twórcy CentOS)
+
 ------
 <!-- .slide: data-autofragments -->
 ## Wydawca
@@ -139,6 +167,7 @@ Na cześć Rocky'ego McGaugha (twórcy CentOS)
   - instytucja rządowa
   - uniwersytet
 - niezależni twórcy
+
 ---
 <!-- .slide: data-autofragments -->
 ## Wydawcy dystrybucji
@@ -150,6 +179,7 @@ Na cześć Rocky'ego McGaugha (twórcy CentOS)
 - **AlmaLinux**: AlmaLinux OS Foundation
 - **Slackware**: Patrick Volkerding (osoba prywatna)
 - **Void Linux**: *Void Linux Contributors* (nieformalny zespół wolontariuszy)
+
 ------
 <!-- .slide: data-autofragments -->
 ## Cykl wydawniczy
@@ -158,10 +188,12 @@ Na cześć Rocky'ego McGaugha (twórcy CentOS)
 - okres
 - czas wsparcia
 - dojrzałość używanego oprogramowania
+
 ---
 ## Cykl ciągły
 
 **rolling release**
+
 ------
 <!-- .slide: data-autofragments -->
 ## Ubuntu
@@ -171,6 +203,7 @@ Na cześć Rocky'ego McGaugha (twórcy CentOS)
 - numeracja: `ROK.MIESIĄC` (np. `21.04`)
 - nazwy kodowe (gatunki zwierząt + przymiotniki)
 - co dwa lata wydanie LTS (Long Term Support)
+
 ---
 ## Dotychczasowe wydania
 
@@ -213,9 +246,11 @@ Ubuntu 21.04 (Hirsute Hippo)
 
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
 <!-- .slide: data-background="#5e2750" -->
+
 ---
 <!-- .slide: data-background="#fff" -->
 ![Ubuntu timeline](img/ubuntu-timeline.png)
+
 ------
 <!-- .slide: data-autofragments -->
 ## RHEL
@@ -225,9 +260,11 @@ Ubuntu 21.04 (Hirsute Hippo)
   - głównych wydań: 6, 7, 8...
   - poprawek: 8.1, 8.2, 8.3...
 - długie wsparcie (ok. 10 lat)
+
 ---
 <!-- .slide: data-background="#fff" -->
 ![RHEL timeline](img/rhel-timeline.png)
+
 ------
 <!-- .slide: data-autofragments -->
 ## Fedora
@@ -236,9 +273,11 @@ Ubuntu 21.04 (Hirsute Hippo)
 - numeracja: ...31, 32, 33, 34...
 - krótkie wsparcie
 - pole eksperymentalne RHEL
+
 ---
 <!-- .slide: data-background="#fff" -->
 ![Fedora timeline](img/fedora-timeline.png)
+
 ------
 <!-- .slide: data-autofragments -->
 ## Debian
@@ -247,11 +286,13 @@ Ubuntu 21.04 (Hirsute Hippo)
 - numery + nazwy kodowe
 - nazwy - imiona bohaterów bajki *Toy Story*
 - **Sid** - wydanie eksperymentalne
+
 ---
 <!-- .slide: data-background="#fff" -->
 ![Toy Story](img/toystory.jpg)
 
 © Pixar, Disney
+
 ---
 <!-- .slide: data-background="#913" -->
 ## Dotychczasowe wydania
@@ -278,9 +319,11 @@ Debian 10 (Buster)
 ⸱⸱⸱  
 *Debian Sid*  
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
+
 ---
 <!-- .slide: data-background="#fff" -->
 ![Debian timeline](img/debian-timeline.png)
+
 ------
 <!-- .slide: data-autofragments -->
 ## Klony RHEL
@@ -291,109 +334,16 @@ Debian 10 (Buster)
 * AlmaLinux
 * Oracle Linux
 * ...
+
 ---
-<!-- .slide: data-autofragments -->
-## Dlaczego?
+[Pochodne RHEL](Pochodne_RHEL.html)
 
-- RHEL - komercyjne wolne oprogramowanie
-- ochronie podlegają:
-  - nazwa i logo
-  - skompilowane paczki
-- ochronie nie podlega:
-  - kod źródłowy
-
-**Każdy może legalnie skopiować i wydać swoją wersję.**
----
-<!-- .slide: data-background="#fff" -->
-![Praca domowa](img/pracadomowa.jpg)
----
-<!-- .slide: data-autofragments -->
-## CentOS - różnice
-
-- podmianka nazwy, logo, kolorów, tapet
-- własna kompilacja
-- własne repozytoria
----
-<!-- .slide: data-autofragments -->
-## CentOS
-
-- klon RHEL
-- całkowicie kompatybilny
-- darmowy
----
-<!-- .slide: data-autofragments -->
-## CentOS - kalendarium
-
-| wersja | RHEL       | CentOS     | opóźnienie |
-|--------|------------|------------|------------|
-| 2.1    | 2002-05-17 | 2004-05-14 |        728 |
-| 3.1    | 2003-10-23 | 2004-03-19 |        148 |
-| 3.3    | 2004-09-03 | 2004-09-17 |         14 |
-| ...    | ...        | ...        | ...        |
-| 4.0    | 2005-02-14 | 2005-03-09 |         23 |
-| 5.0    | 2007-03-14 | 2007-04-12 |         28 |
-| 6.0    | 2010-11-10 | 2011-07-10 |        242 |
-| 7.0    | 2014-06-10 | 2014-07-07 |         27 |
-| 8.0    | 2019-05-07 | 2019-09-24 |        140 |
-<!-- .element: style="font-size: 0.55em;" -->
----
-<!-- .slide: data-autofragments -->
-## Przepływ poprawek
-
-deweloperzy → testerzy → RHEL → CentOS
-
-- klienci RedHata dostawali poprawki szybciej
-- ... również te niedoskonałe
-- CentOS od razu wdrażał poprawione poprawki
----
-<!-- .slide: data-autofragments -->
-## CentOS - Fundacja
-
-- z początku niezależna od RedHata
-- RedHat Inc. zaproponował finansowanie...
-- ... w zamian za umieszczenie swoich ludzi w zarządzie
-
-*What can go wrong?*
----
-<!-- .slide: data-autofragments -->
-## CentOS Stream
-
-- dodatkowa edycja CentOS-a
-- dostawała poprawki przed RHEL
-- poprawki → CentOS Stream → RHEL → CentOS
----
-<!-- .slide: data-autofragments -->
-## CentOS is dead
-
-Grudzień 2020: "zarząd" fundacji postanawia:
-- zakończenie wsparcia CentOS
-- kontynuacja rozwoju CentOS Stream
----
-<!-- .slide: data-background="#fff" -->
-![friendship ended](img/friendship-ended-with-centos.png)
----
-<!-- .slide: data-autofragments -->
-## Koniec wsparcia CentOS
-
-| wersja | RHEL       | CentOS     |
-|--------|------------|------------|
-| 7      | 2024-06-30 | 2024-06-30 |
-| 8      | 2029-05-01 | 2021-12-31 |
-
-CentOS Stream - cały czas wspierany
-<style>
-#koniec-wsparcia-centos + table tr:nth-child(2) td:nth-child(3) { color: #f33; }
-</style>
----
-<!-- .slide: data-autofragments -->
-## AlmaLinux i RockyLinux
-
-Tylko wersja 8.x
----
+------
 ## System pakietów
 
 - `DEB`
 - `RPM`
 - inne
+
 ------
 [Koniec](./)
