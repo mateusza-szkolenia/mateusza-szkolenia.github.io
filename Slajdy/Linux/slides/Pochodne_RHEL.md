@@ -106,6 +106,29 @@ CentOS Stream - cały czas wspierany
 <!-- .slide: data-autofragments -->
 ## AlmaLinux i RockyLinux
 
-Tylko wersja od 8.
+Tylko wersje od 8.3 wzwyż.
+
+---
+## kalendarium AlmaLinux
+
+| wersja | RHEL       | AlmaLinux  | opóźnienie |
+|--------|------------|------------|------------|
+| 8.3    | 2020-11-03 | 2021-03-30 |        147 |
+| 8.4    | 2021-05-18 | 2021-05-26 |          8 |
+| 8.5    | 2021-11-09 | 2021-11-12 |          3 |
+| 8.6    | 2022-05-10 | 2022-05-12 |          2 |
+| 9.0    | 2022-05-17 | 2022-05-26 |          9 |
+
+---
+## kalendarium Rocky Linux
+
+| wersja | RHEL       | Rocky Linux| opóźnienie |
+|--------|------------|------------|------------|
+| 8.3    | 2020-11-03 | ...        |        ... |
+| 8.4    | 2021-05-18 | 2021-06-21 |         34 |
+| 8.5    | 2021-11-09 | 2021-11-15 |          6 |
+| 8.6    | 2022-05-10 | 2022-05-16 |          6 |
+| 9.0    | 2022-05-17 | ...        | *work-in-progress* |
+
 ------
 [Koniec](./)
