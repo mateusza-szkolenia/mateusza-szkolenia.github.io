@@ -367,23 +367,23 @@ Uwaga: *(prawie) wszystko jest plikiem*
 ## "Nietypowe" nazwy plików w Linuksie
 
 <table style='font-size: 0.8em;'>
-<tr>
+<tr class=fragment>
 <th>nazwa pliku</th>
 <th>uwagi</th>
 </tr>
-<tr>
+<tr class=fragment>
 <td><i class='fa fa-file'></i> <code>hosts</code></td>
 <td>brak rozszerzenia</td>
 </tr>
-<tr>
+<tr class=fragment>
 <td><i class='fa fa-file'></i> <code>.bash_history</code></td>
 <td>kropka na początku</td>
 </tr>
-<tr>
+<tr class=fragment>
 <td><i class='fa fa-file'></i> <code>archiwum.tar.bz2</code></td>
 <td>kilka rozszerzeń</td>
 </tr>
-<tr>
+<tr class=fragment>
 <td><i class='fa fa-file'></i> <code>libpng15.so.15.13.0</code></td>
 <td>rozszerzenie <code>.so</code> w środku</td>
 </tr>
