@@ -263,7 +263,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 ---
 <!-- .slide: data-autofragments -->
-### Zastosowanie slasha `/`:
+### Zastosowanie slasha `/`
 
 - ścieżki w Linuksie, Uniksach, macOS
 - URL-e:  
@@ -275,7 +275,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 ---
 <!-- .slide: data-autofragments -->
-### Zastosowanie backslasha `\`:
+### Zastosowanie backslasha `\`
 
 - ścieżki w Windows (oraz Symbian i UEFI)
 - *eskejpowanie*
