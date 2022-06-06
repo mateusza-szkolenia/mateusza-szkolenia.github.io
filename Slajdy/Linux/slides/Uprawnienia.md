@@ -1,4 +1,5 @@
 # 30: Uprawnienia w Linuksie
+
 ------
 <!-- .slide: data-autofragments -->
 ## Uprawnienia
@@ -6,6 +7,7 @@
 - 3 operacje
 - 3 obszary (ang. *scopes*)
 - 3 × 3 = 9 bitów
+
 ---
 ## Operacje
 
@@ -107,6 +109,7 @@ inni
 - `chmod u+x plik` (dodaj prawo `x` właścicielowi)
 - `chmod ug+w plik` (dodaj prawo `w` właścicielowi i grupie)
 - `chmod o+r plik` (dodaj prawo `r` wszystkim innym)
+
 ---
 <!-- .slide: data-autofragments -->
 ## Zabieranie praw
@@ -115,6 +118,7 @@ inni
 - `chmod u-x plik` (zabierz prawo `x` właścicielowi)
 - `chmod ug-w plik` (zabierz prawo `w` właścicielowi i grupie)
 - `chmod o-r plik` (zabierz prawo `r` wszystkim innym)
+
 ---
 <!-- .slide: data-autofragments -->
 ## Ustawianie praw
@@ -123,6 +127,7 @@ inni
 - `chmod u=rwx plik` (ustaw `rwx` właścicielowi)
 - `chmod ug=rw plik` (ustaw `rw` właścicielowi i grupie)
 - `chmod o=r plik` (ustaw `r` wszystkim innym)
+
 ------
 ## Wartości liczbowe
 
@@ -142,6 +147,7 @@ inni
 </div>
 
 (system ósemkowy)
+
 ---
 <!-- .slide: data-autofragments -->
 ## Pojedynczy obszar
@@ -152,6 +158,7 @@ inni
 - `r-x` 5
 - `--x` 1
 - `---` 0
+
 ---
 <!-- .slide: data-autofragments -->
 ## Pełne wartości
@@ -160,6 +167,7 @@ inni
 - `rw-r--r--` (644)
 - `rw-r-----` (640)
 - `rwx--x--x` (711)
+
 ------
 [Koniec](./)
 

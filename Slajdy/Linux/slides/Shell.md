@@ -1,16 +1,20 @@
 # 30: Shell w Linuksie
+
 ------
 <!-- .slide: data-background="img/teletype.jpg" -->
 # Dalekopis
+
 ---
 <!-- .slide: data-background="img/vt100.jpg" -->
 # Terminal VT100
+
 ------
 <!-- .slide: data-autofragments -->
 # Tryby pracy
 
 1. interaktywny
 2. skryptowy
+
 ------
 <!-- .slide: data-autofragments -->
 # Typowe shelle
@@ -22,6 +26,7 @@
 - `csh` (C Shell)
 - `tcsh` (TENEX C Shell)
 - `zsh` (Z Shell)
+
 ------
 # Shell logowania
 
@@ -30,8 +35,10 @@
 mateusza:x:1000:1000:Mateusz A.,,,:/home/mateusza:/bin/bash
                                                   ^^^^^^^^^
 ```
+
 ---
 Zmiana shella: `chsh`
+
 ------
 <!-- .slide: data-autofragments -->
 # Polecenia wbudowane
@@ -41,18 +48,24 @@ Zmiana shella: `chsh`
 - zmienne (`declare`, `export`, `let`)
 - proste operacje (`echo`, `true`, `false`)
 - inne (`history`, `hash`, `cd`)
+
 ------
 # Aliasy
 
 - pierwszeństwo przed innymi poleceniami
 - wykrywanie cykli
+
 ------
 # Funkcje
+
 ------
 # Operacje arytmetyczne
+
 ------
 # Operatory
+
 ------
 # Programy
+
 ------
 [Koniec](./)

@@ -81,47 +81,56 @@
 
 - pliki wykonywalne (polecenia)
 - *binarne*
+
 ---
 ### podział na `/bin` oraz `/sbin`
 
 - użytkowe i systemowe
 - pomijany w niektórych dystrybucjach
+
 ------
 ### `/boot`
 
 - kernele
 - pliki potrzebne do uruchomienia systemu
+
 ------
 ### `/etc`
 
 - konfiguracja
 - pliki tekstowe
+
 ------
 ### `/dev`
 
 - pliki urządzeń
+
 ------
 ### `/home`
 
 - katalogi domowe
 - (odpowiednik `C:\Users`)
+
 ---
 ### `/root`
 
 - katalog domowy **roota**
 - (celowo poza `/home`)
+
 ------
 ### `/lib`, `/lib32`, `/lib64`
 
 - biblioteki systemowe
 - sterowniki
 - (odpowiedniki DLL i innych)
+
 ------ 
 ### `/mnt`, `/media`
 
 - nośniki zewnętrzne
 - dodatkowe partycje
 - odpowiednik liter dysków zewnętrznych
+
 ------
 ### `/proc` (`procfs`)
 
@@ -132,6 +141,7 @@ Interfejs kernela do:
 - informacji o kernelu itp
 
 Uwaga: *Nie są to prawdziwe pliki na dysku.*
+
 ------
 ### `/sys` (`sysfs`)
 
@@ -139,15 +149,18 @@ Uwaga: *Nie są to prawdziwe pliki na dysku.*
 - interfejs do urządzeń, sterowników i podsystemów
 
 Uwaga: *Nie są to prawdziwe pliki na dysku.*
+
 ------
 ### `/tmp`
 
 - pliki tymczasowe
+
 ------
 ### `/usr`
 
 - oprogramowanie użytkowe
 - luźny odpowiednik `C:\Program Files`
+
 ---
 ### `/usr/share`
 
@@ -155,26 +168,32 @@ Uwaga: *Nie są to prawdziwe pliki na dysku.*
     - grafika, ikony, fonty
     - słowniki, tłumaczenia
     - definicje składni
+
 ---
 ### `/usr/include`
 
 - nagłówki języka C, C++
+
 ---
 ### `/usr/src`
 
 - kod źródłowy
+
 ---
 ### `/usr/share/doc`
 
 - dokumentacja
+
 ---
 ### `/usr/bin`, `/usr/sbin`
 
 - podobnie jak `/bin`
+
 ---
 ### `/usr/lib`
 
 - podobnie jak `/lib`
+
 ---
 <!-- .slide: data-autofragments -->
 ### podział na `/bin` i `/usr/bin`
@@ -186,29 +205,35 @@ Uwaga: *Nie są to prawdziwe pliki na dysku.*
   - współdzielony katalog VM, kontenerów
   - dysk sieciowy
   - *read-only*
+
 ---
 ### `/usr/local`
 
 - oprogramowanie zainstalowane spoza pakietów dystrybucji
+
 ------
 ### `/var`
 
 - pliki zmienne
 - *szeroko pojęte bazy danych*
 - jedyne miejsce modyfikowane przez usługi
+
 ---
 ### `/var/log`
 
 - logi (dzienniki) systemowe
+
 ---
 ### `/var/lib`
 
 - zbiory danych aplikacji
 - bazy danych (np. MySQL, Postgresql)
+
 ---
 ### `/var/cache`
 
 - pliki podręczne i tymczasowe usług
+
 ---
 ### `/var/spool`
 
@@ -217,28 +242,34 @@ Uwaga: *Nie są to prawdziwe pliki na dysku.*
   - poczty
   - harmonogramu zadań
   - etc.
+
 ------
 ### `/srv`
 
 - dane serwowane
+
 ------
 ### `/run` (lub `/var/run`)
 
 - informacje o działających usługach
 - dane ulotne
+
 ------
 ### `/lost+found`
 
 - odzyskane fragmenty plików
 - (występuje tylko w systemie plików `ext2/3/4`)
+
 ------
 ### `/opt`
 
 - dodatkowe oprogramowanie niepochodzące z dystrybucji
+
 ------
 ### `/etc/*.d`
 
 - katalogi z "rozszerzeniem" `.d`
 - zawierają konfigurację rozbitą na odrębne pliki
+
 ------
 [Koniec](./)

@@ -1,4 +1,5 @@
 # 60: Menedżery pakietów
+
 ------
 <!-- .slide: data-autofragments -->
 ## Instalacja oprogramowania
@@ -8,6 +9,7 @@
 
 ------
 ## Anatomia pakietu
+
 ---
 ### Kompresja
 
