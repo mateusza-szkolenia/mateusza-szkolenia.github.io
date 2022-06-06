@@ -59,7 +59,8 @@
 | 6.0    | 2010-11-10 | 2011-07-10 |        242 |
 | 7.0    | 2014-06-10 | 2014-07-07 |         27 |
 | 8.0    | 2019-05-07 | 2019-09-24 |        140 |
-<!-- .element: style="font-size: 0.55em;" -->
+
+<style> #centos---kalendarium + table { font-size: 0.55em; } </style>
 
 ---
 <!-- .slide: data-autofragments -->
