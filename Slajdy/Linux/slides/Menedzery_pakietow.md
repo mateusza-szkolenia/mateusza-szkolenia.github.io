@@ -112,16 +112,26 @@ instalacja pakietu + zależności
 ## `yum`
 
 - `yum` (do RHEL 7)
-- `dnf` (od RHEL 8)
+- `dnf` (od RHEL 8, od Fedory 22)
 
 ------
 <!-- .slide: data-autofragments -->
-## inne
+## inne dystrybucje
 
 - `apk` (Alpine Linux)
 - `xbps` (Void Linux)
 - `opkg` (OpenWRT)
 - `tgz` (Slackware)
+- `pkg.tar.zst` (Arch Linux)
+
+------
+<!-- .slide: data-autofragments -->
+## niezależne od dystrybucji
+
+- Flatpak
+- Snapcraft
+- ZeroInstall
+- AppImage
 
 ------
 ## Repozytoria
