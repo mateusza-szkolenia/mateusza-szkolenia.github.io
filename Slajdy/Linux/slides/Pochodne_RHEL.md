@@ -1,4 +1,5 @@
 # 24: RHEL i pochodne
+
 ------
 <!-- .slide: data-autofragments -->
 ## Klony RHEL
@@ -9,6 +10,7 @@
 * AlmaLinux
 * Oracle Linux
 * ...
+
 ---
 <!-- .slide: data-autofragments -->
 ## Dlaczego?
@@ -21,9 +23,11 @@
   - kod źródłowy
 
 **Każdy może legalnie skopiować i wydać swoją wersję.**
+
 ---
 <!-- .slide: data-background="#fff" -->
 ![Praca domowa](img/pracadomowa.jpg)
+
 ---
 <!-- .slide: data-autofragments -->
 ## CentOS - różnice
@@ -31,6 +35,7 @@
 - podmianka nazwy, logo, kolorów, tapet
 - własna kompilacja
 - własne repozytoria
+
 ---
 <!-- .slide: data-autofragments -->
 ## CentOS
@@ -38,6 +43,7 @@
 - klon RHEL
 - całkowicie kompatybilny
 - darmowy
+
 ---
 <!-- .slide: data-autofragments -->
 ## CentOS - kalendarium
@@ -54,6 +60,7 @@
 | 7.0    | 2014-06-10 | 2014-07-07 |         27 |
 | 8.0    | 2019-05-07 | 2019-09-24 |        140 |
 <!-- .element: style="font-size: 0.55em;" -->
+
 ---
 <!-- .slide: data-autofragments -->
 ## Przepływ poprawek
@@ -63,6 +70,7 @@ deweloperzy → testerzy → RHEL → CentOS
 - klienci RedHata dostawali poprawki szybciej
 - ... również te niedoskonałe
 - CentOS od razu wdrażał poprawione poprawki
+
 ---
 <!-- .slide: data-autofragments -->
 ## CentOS - Fundacja
@@ -72,6 +80,7 @@ deweloperzy → testerzy → RHEL → CentOS
 - ... w zamian za umieszczenie swoich ludzi w zarządzie
 
 *What can go wrong?*
+
 ---
 <!-- .slide: data-autofragments -->
 ## CentOS Stream
@@ -79,6 +88,7 @@ deweloperzy → testerzy → RHEL → CentOS
 - dodatkowa edycja CentOS-a
 - dostawała poprawki przed RHEL
 - poprawki → CentOS Stream → RHEL → CentOS
+
 ---
 <!-- .slide: data-autofragments -->
 ## CentOS is dead
@@ -102,6 +112,7 @@ CentOS Stream - cały czas wspierany
 <style>
 #koniec-wsparcia-centos + table tr:nth-child(2) td:nth-child(3) { color: #f33; }
 </style>
+
 ---
 <!-- .slide: data-autofragments -->
 ## AlmaLinux i RockyLinux
