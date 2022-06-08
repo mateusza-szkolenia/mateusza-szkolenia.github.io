@@ -36,7 +36,7 @@
 
 <style>
 
-@media (min-height: 680px) {
+@media (min-width: 720px) {
     nav
     {
         display: flex;
@@ -59,9 +59,10 @@
         text-align: center;
     }
 }
-
-nav section .ico
-{
-    display: none;
+@media (max-width: 720px) {
+    nav section .ico
+    {
+        display: none;
+    }
 }
 </style>
