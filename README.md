@@ -38,10 +38,11 @@
 <section>
 <figure>👨🏼‍🏫</figure>
 <h2>Szkolenia</h2>
+<h3><a href="https://alx.pl">ALX</a></h3>
 <ul>
-<li><a href="https://www.alx.pl/szkolenia/git-intro/">GIT-INTRO (ALX)</a></li>
-<li><a href="https://www.alx.pl/szkolenia/wireguard/">Wireguard (ALX)</a></li>
-<li><a href="https://www.alx.pl/szkolenia/protokol-ipv6/">IPv6 (ALX)</a></li>
+<li><a href="https://www.alx.pl/szkolenia/git-intro/">Git</a></li>
+<li><a href="https://www.alx.pl/szkolenia/wireguard/">Wireguard</a></li>
+<li><a href="https://www.alx.pl/szkolenia/protokol-ipv6/">IPv6</a></li>
 <li><a href="https://www.alx.pl/pl/administrator-linuksa/">Administrator Linuksa</a></li>
 <li><a href="https://www.alx.pl/szkolenia/linux-essentials/">Linux - essentials</a></li>
 </ul>
