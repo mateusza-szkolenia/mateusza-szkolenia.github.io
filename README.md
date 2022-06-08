@@ -3,7 +3,7 @@
 <nav>
 
 <section>
-<div class=ico>⌨️</div>
+<figure>⌨️</figure>
 <h2><a href='Programowanie/'>Programowanie</a></h2>
 <p>Materiały pomocnicze do kursów programowania:</p>
 <ul>
@@ -15,7 +15,7 @@
 </section>
 
 <section>
-<div class=ico>🕸️</div>
+<figure>🕸️</figure>
 <h2><a href='Web/'>Web</a></h2>
 <p>Materiały pomocnicze do kursów web-development. (Głównie frontend)</p>
 <ul>
@@ -25,10 +25,28 @@
 </section>
 
 <section>
-<div class=ico>🐧</div>
+<figure>🐧</figure>
 <h2><a href="Administracja_Linux/">Administracja Linux</a></h2>
+<p>Materiały pomocnicze do szkoleń z Linuksa.</p>
 <ul>
-<li><a href='Slajdy/'>Slajdy</a></li>
+<li>artykuły</li>
+<li>dystrybucje</li>
+<li>tutoriale</li>
+</ul>
+</section>
+
+<section>
+<figure>🗒️</figure>
+<h2><a href="Tutoriale/">Tutoriale</a></h2>
+<p>Opisy rozwiązania kilku typowych problemów.</p>
+</section>
+
+<section>
+<figure>🎞️</figure>
+<h2><a href="Slajdy/">Slajdy</a></h2>
+<ul>
+<li><a href="Slajdy/Linux/">Linux</a></li>
+<li><a href="Slajdy/Git/">Git</a></li>
 </ul>
 </section>
 
@@ -36,10 +54,16 @@
 
 <style>
 
+nav section figure
+{
+    display: block;
+}
+
 @media (min-width: 720px) {
     nav
     {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 
@@ -48,7 +72,7 @@
         width: 30%;
     }
 
-    nav section .ico
+    nav section figure
     {
         font-size: 6em;
         text-align: center;
@@ -60,7 +84,7 @@
     }
 }
 @media (max-width: 720px) {
-    nav section .ico
+    nav section figure
     {
         display: none;
     }
