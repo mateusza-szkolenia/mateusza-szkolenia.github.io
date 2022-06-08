@@ -35,26 +35,33 @@
 </nav>
 
 <style>
-nav
-{
-    display: flex;
-    justify-content: space-between;
-}
 
 @media (min-height: 680px) {
+    nav
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
     nav section
     {
         width: 30%;
     }
-}
 
-nav section h2
-{
-    text-align: center;
+    nav section .ico
+    {
+        font-size: 6em;
+        text-align: center;
+    }
+
+    nav section h2
+    {
+        text-align: center;
+    }
 }
 
 nav section .ico
 {
-    font-size: 6em;
+    display: none;
 }
 </style>
