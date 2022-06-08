@@ -2,7 +2,7 @@
 
 URL = 'https://opendata.geoportal.gov.pl/prng/PRNG_MIEJSCOWOSCI_GML.zip'
 zip_fn = 'tmp/PRNG_MIEJSCOWOSCI_GML.zip'
-data_fn = 'PRNG_MIEJSCOWOSCI_GML/PRNG_MIEJSCOWOSCI_GML.xml'
+data_fn = 'PRNG_MIEJSCOWOSCI_GML.xml'
 output_fn = 'polskie-miasta'
 
 import datetime
