@@ -5,23 +5,13 @@
 <section>
 <figure>⌨️</figure>
 <h2><a href='Programowanie/'>Programowanie</a></h2>
-<p>Materiały pomocnicze do kursów programowania:</p>
-<ul>
-<li>python</li>
-<li>C, C++</li>
-<li>JavaScript</li>
-<li>SQL (SQLite, MySQL, PostgreSQL)</li>
-</ul>
+<p>Materiały pomocnicze do kursów programowania. (python, C, C++, Javascript, SQL, SQLite, MySQL, PostgreSQL)</p>
 </section>
 
 <section>
 <figure>🕸️</figure>
 <h2><a href='Web/'>Web</a></h2>
-<p>Materiały pomocnicze do kursów web-development. (Głównie frontend)</p>
-<ul>
-<li>HTML5</li>
-<li>CSS, SCSS</li>
-</ul>
+<p>Materiały pomocnicze do kursów web-development. (Głównie frontend, HTML5, CSS)</p>
 </section>
 
 <section>
@@ -74,7 +64,8 @@ nav section figure
 
     nav section figure
     {
-        font-size: 6em;
+        margin: 0.3em;
+        font-size: 5em;
         text-align: center;
     }
 
