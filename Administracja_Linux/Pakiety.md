@@ -8,7 +8,7 @@
 
 ### Snap
 * Strona i repozytorium: [https://snapcraft.io/](https://snapcraft.io/)
-* [Jak zablokować `snapd`](Blokowanie_Snapd.md)
+* [Jak zablokować `snapd`](../Tutoriale/Blokowanie_Snapd/)
 
 ### AppImage
 * Strona: [https://appimage.org/](https://appimage.org/)

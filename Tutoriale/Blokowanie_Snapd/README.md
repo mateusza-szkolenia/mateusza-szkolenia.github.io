@@ -1,4 +1,8 @@
-# Blokowanie SNAPD
+# Blokowanie Snapd
+
+Najnowsza wersja Ubuntu (22.04 LTS) wymusza instalację menedżera pakietów Snap.
+
+Poniższy skrypt blokuje możliwość instalacji `snapd` przez APT-a.
 
 ```bash
 #!/bin/bash
@@ -19,3 +23,4 @@ EOF
 ```
 sudo add-apt-repository ppa:mozillateam/ppa
 ```
+
