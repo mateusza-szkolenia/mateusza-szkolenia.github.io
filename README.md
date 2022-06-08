@@ -57,7 +57,7 @@ nav section figure
     margin: 0.25em;
     font-size: 5em;
     text-align: center;
-    text-shadow: 0.1em 0.1em 0.4em rgba(0, 0, 0, 0.5);
+    text-shadow: 0.1em 0.1em 0.1em rgba(10, 10, 50, 0.2);
 }
 
 @media (min-width: 720px)
@@ -80,3 +80,4 @@ nav section figure
     }
 }
 </style>
+
