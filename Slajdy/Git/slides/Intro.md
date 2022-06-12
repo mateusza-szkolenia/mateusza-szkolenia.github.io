@@ -19,6 +19,9 @@
 ---
 *Subversion has been the most pointless project ever started... Subversion used to say, 'CVS done right.' With that slogan there is nowhere you can go. There is no way to do CVS right."*
 
+---
+*If you like using CVS, you should be in some kind of mental institution or somewhere else.*
+
 ------
 # BitMover
 
