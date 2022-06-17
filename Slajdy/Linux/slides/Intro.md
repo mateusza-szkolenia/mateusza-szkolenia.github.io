@@ -391,6 +391,7 @@ pakiety:     deb         rpm         apk      xbps
 | 2019 | RHEL 8       | 4.18   | 3.28  | 8.2  | 3.6    |
 | 2020 | Ubuntu 20.04 | 5.4    | 3.36  | 9.0  | 3.8    |
 | 2022 | Ubuntu 22.04 | 5.15   | 3.42  | 11.0 | 3.10   |
+| 2022 | RHEL 9       | 5.14   | 3.40  | 11.2 | 3.9    |
 
 <style> #wersje-wydania + table { font-size: 0.7em; } </style>
 
