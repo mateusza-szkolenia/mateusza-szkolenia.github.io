@@ -11,38 +11,46 @@
 * Oracle Linux
 * ...
 
----
+------
 <!-- .slide: data-autofragments -->
 ## Dlaczego?
 
-- RHEL - komercyjne wolne oprogramowanie
-- ochronie podlegają:
-  - nazwa i logo
-  - skompilowane paczki
-- ochronie nie podlega:
-  - kod źródłowy
+RHEL - komercyjne wolne oprogramowanie
 
+---
+## Ochronie podlegają
+
+- nazwa i logo
+- skompilowane paczki
+
+---
+## Ochronie nie podlega:
+
+- kod źródłowy
+
+---
 **Każdy może legalnie skopiować i wydać swoją wersję.**
 
 ---
 <!-- .slide: data-background="#fff" -->
 ![Praca domowa](img/pracadomowa.jpg)
 
+------
+<!-- .slide: data-autofragments -->
+## CentOS
+
+- 2004
+- klon RHEL
+- całkowicie kompatybilny
+- darmowy
+
 ---
 <!-- .slide: data-autofragments -->
 ## CentOS - różnice
 
-- podmianka nazwy, logo, kolorów, tapet
+- podmiana nazwy, logo, kolorów, tapet
 - własna kompilacja
 - własne repozytoria
-
----
-<!-- .slide: data-autofragments -->
-## CentOS
-
-- klon RHEL
-- całkowicie kompatybilny
-- darmowy
 
 ---
 <!-- .slide: data-autofragments -->
@@ -62,7 +70,7 @@
 
 <style> #centos---kalendarium + table { font-size: 0.55em; } </style>
 
----
+------
 <!-- .slide: data-autofragments -->
 ## Przepływ poprawek
 
@@ -87,7 +95,7 @@ deweloperzy → testerzy → RHEL → CentOS
 ## CentOS Stream
 
 - dodatkowa edycja CentOS-a
-- dostawała poprawki przed RHEL
+- dostawała poprawki przed RHEL (tzw. *upstream*)
 - poprawki → CentOS Stream → RHEL → CentOS
 
 ---
@@ -95,11 +103,13 @@ deweloperzy → testerzy → RHEL → CentOS
 ## CentOS is dead
 
 Grudzień 2020: "zarząd" fundacji postanawia:
-- zakończenie wsparcia CentOS
+- zakończenie rozwoju CentOS
 - kontynuacja rozwoju CentOS Stream
+
 ---
 <!-- .slide: data-background="#fff" -->
 ![friendship ended](img/friendship-ended-with-centos.png)
+
 ---
 <!-- .slide: data-autofragments -->
 ## Koniec wsparcia CentOS
@@ -110,15 +120,30 @@ Grudzień 2020: "zarząd" fundacji postanawia:
 | 8      | 2029-05-01 | 2021-12-31 |
 
 CentOS Stream - cały czas wspierany
+
+<style> #koniec-wsparcia-centos + table tr:nth-child(2) td:nth-child(3) { color: #f33; } </style>
+
+------
+<!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#fff" -->
+## AlmaLinux i Rocky Linux
+
+<div>
+<img src='img/almalinux.png'>
+<img src='img/rockylinux.png'>
+</div>
+
+Tylko wersje od 8.3 wzwyż.
+
 <style>
-#koniec-wsparcia-centos + table tr:nth-child(2) td:nth-child(3) { color: #f33; }
+#almalinux-i-rocky-linux { display: none; }
+#almalinux-i-rocky-linux + div { display: flex; justify-content: space-around; }
+#almalinux-i-rocky-linux + div img { width: 40%; }
 </style>
 
 ---
-<!-- .slide: data-autofragments -->
-## AlmaLinux i RockyLinux
 
-Tylko wersje od 8.3 wzwyż.
+*Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux®.*
 
 ---
 ## kalendarium AlmaLinux
@@ -140,7 +165,7 @@ Tylko wersje od 8.3 wzwyż.
 | 8.4    | 2021-05-18 | 2021-06-21 |         34 |
 | 8.5    | 2021-11-09 | 2021-11-15 |          6 |
 | 8.6    | 2022-05-10 | 2022-05-16 |          6 |
-| 9.0    | 2022-05-17 | ...        | *work-in-progress* |
+| 9.0    | 2022-05-17 | ...        | ...        |
 
 ------
 [Powrót do dystrybucji](Dystrybucje.html#/10/1)
