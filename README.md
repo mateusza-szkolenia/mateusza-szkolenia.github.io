@@ -86,4 +86,4 @@ nav section figure
     }
 }
 </style>
-
+<script data-goatcounter="https://mateusza.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
