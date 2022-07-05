@@ -9,7 +9,7 @@
 
 ### Instalacja narzędzi
 
-```
+```console
 $ apt-get install db-util
 ```
 
@@ -17,13 +17,13 @@ $ apt-get install db-util
 
 W formacie hex:
 
-```
+```console
 $ db_dump baza.db
 ```
 
 W formacie drukowalnym:
 
-```
+```console
 $ db_dump -p baza.db
 ```
 
@@ -31,13 +31,13 @@ $ db_dump -p baza.db
 
 Pakiet: [BSDDB3](https://pypi.org/project/bsddb3/)
 
-```
+```console
 $ pip3 install bsddb3
 ```
 
 lub
 
-```
+```console
 $ apt-get install python3-bsddb3
 ```
 
