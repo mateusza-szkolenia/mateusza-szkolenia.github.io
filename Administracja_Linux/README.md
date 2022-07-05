@@ -50,35 +50,4 @@
 
 - [Implementacje `/sbin/init`](Init.md)
 
-## Sieci
-
-### IPv6 Tunnel
-
-* [Hurricane Electric Tunnel Broker](https://tunnelbroker.net/)
-
-### VPN-y
-
-* [Zerotier](https://www.zerotier.com/)
-* [Tailscale](https://tailscale.com/)
-
-### Publiczny IP do testów + dev
-
-* [ngrok](https://ngrok.com/)
-
-### Pośrednik + ochrona HTTP/HTTPS
-
-* [Cloudflare](https://www.cloudflare.com/)
-
-### Darmowy hosting DNS-y
-
-* [FreeDNS 42](https://freedns.42.pl/)
-* [Hurricane Electric DNS](https://dns.he.net/)
-
-### Darmowe domeny
-
-* [Afraid.org](https://freedns.afraid.org/)
-
-### Wildcard DNS
-
-* [nip.io](https://nip.io/)
-
+## [Sieci](Sieci.md)

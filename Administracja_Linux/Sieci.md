@@ -1,0 +1,44 @@
+# Sieci
+
+## IPv6 Tunnel
+
+* [Hurricane Electric Tunnel Broker](https://tunnelbroker.net/)
+    * [szkolenie IPv6 w ALX](https://www.alx.pl/szkolenia/protokol-ipv6/)
+
+## Usługi VPN
+
+* [Zerotier](https://www.zerotier.com/)
+* [Tailscale](https://tailscale.com/)
+
+## Aplikacje VPN
+
+* [WireGuard](https://www.wireguard.com/)
+   * [szkolenie WireGuard w ALX](https://www.alx.pl/szkolenia/wireguard/)
+* [iodine](https://code.kryo.se/iodine/)
+
+## Publiczny IP do testów + dev
+
+* [ngrok](https://ngrok.com/)
+
+## Pośrednik + ochrona HTTP/HTTPS
+
+* [Cloudflare](https://www.cloudflare.com/)
+
+## Darmowy hosting DNS-y
+
+* [FreeDNS 42](https://freedns.42.pl/)
+* [Hurricane Electric DNS](https://dns.he.net/)
+
+## Darmowe domeny
+
+* [Afraid.org](https://freedns.afraid.org/)
+
+## Wildcard DNS
+
+* [nip.io](https://nip.io/)
+
+## Sprawdź swój publiczny IP
+
+* [ifconfig.pro](http://ifconfig.pro/)
+* [ifconfig.me](http://ifconfig.me/)
+
