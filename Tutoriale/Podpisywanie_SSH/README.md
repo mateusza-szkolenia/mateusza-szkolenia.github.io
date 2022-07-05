@@ -4,7 +4,7 @@
 
 Jeśli posiadasz już swoje klucze SSH, możesz pominąć ten krok. Jeśli jednak korzystasz z kluczy starego typu (`rsa`), warto wygenerować sobie nowe typu `ed25519`.
 
-```
+```console
 $ ssh-keygen -t ed25519
 Generating public/private ed25519 key pair.
 Enter passphrase (empty for no passphrase):
@@ -61,7 +61,7 @@ Suma SHA256: `c815c021e5aa48ac71efd24ad192530792a18273909a7e6174257083f74eff54`
 
 Proces podpisywania:
 
-```
+```console
 $ ssh-keygen -Y sign -f ~/.ssh/id_ed25519 -n file nauka1.txt
 Signing file nauka1.txt
 Write signature to nauka1.txt.sig
@@ -69,13 +69,14 @@ Write signature to nauka1.txt.sig
 
 #### Namespace (`-n`)
 
-Parametr `-n` widoczny w poleceniu to *namespace* (*przestrzeń nazw*). Jest to dodatkowy tekst podpisywany razem z zawartością pliku, mający na celu wskazanie przeznaczenia składanego podpisu. Mechanizm ten ma zabezpieczyć przed sytuacją, gdy prawidłowo podpisany plik przeznaczony do jednego zastosowania, mógłby przypadkiem zostać użyty w innej aplikacji, niezgodnie z intencją autora. Na przykład: stworzony przez kogoś skrypt (prawidłowo podpisany i wysłany jako załącznik maila) mógłby zostać użyty w jakimś systemie automatyzacji jako prawidłowy zestaw instrukcji do wykonania, a podpis złożony przez autora na potwierdzenie integralności pliku, zostałby potraktowany jako uwierzytelnienie, pomimo, że intencją autora nie było uwierzytelnienie tego skryptu do takiego zastosowania.
+Parametr `-n` widoczny w poleceniu to *namespace* (*przestrzeń nazw*). Jest to dodatkowy tekst podpisywany razem z zawartością pliku, mający na celu wskazanie przeznaczenia składanego podpisu. Mechanizm ten ma zabezpieczyć przed sytuacją, gdy prawidłowo podpisany plik przeznaczony do jednego zastosowania, mógłby przypadkiem zostać użyty w innej aplikacji, niezgodnie z intencją autora. Na przykład: stworzony przez kogoś skrypt (prawidłowo podpisany i wysłany jako załącznik maila) mógłby zostać użyty w jakimś systemie automatyzacji jako prawidłowy zestaw instrukcji do wykonania, a podpis złożony przez autora na potwierdzenie integralności i autentyczności pliku, zostałby potraktowany jako uwierzytelnienie do wykonania, pomimo, że intencją autora nie było uwierzytelnienie tego skryptu do takiego zastosowania.
 
 W przypadku podpisywania plików do ogólnego zastosowania, rekomendowane jest użycie nazwy `file`. Nazwa ta będzie też potrzebna odbiorcy do sprawdzenia poprawności.
 
 ### Sygnatura `nauka1.txt.sig`
 
 ```
+-----BEGIN SSH SIGNATURE-----
 U1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgJbTxkxjkpjlPLkRqjlpGMZDk5M
 Dd+eI6cmNcXECWxakAAAAEZmlsZQAAAAAAAAAGc2hhNTEyAAAAUwAAAAtzc2gtZWQyNTUx
 OQAAAEDPShjZeepYL79UgmFesZr3twqIlEITXqzJadVPuCXatXpK40ti/N6ElDc2070oym
