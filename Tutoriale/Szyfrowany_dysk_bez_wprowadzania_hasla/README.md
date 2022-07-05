@@ -12,8 +12,8 @@ Uwaga! Poniższa metoda pozwala na automatyczne odszyfrowywanie głównego syste
 
 Klucz może być dowolnym plikiem, np. ciągiem losowych bajtów.
 
-```
-dd if=/dev/urandom of=/tmp/tajny-klucz bs=1024 count=1
+```console
+$ dd if=/dev/urandom of=/tmp/tajny-klucz bs=1024 count=1
 ```
 
 (W tym miejscu warto również zmienić prawa dostępu pliku klucza.)
@@ -22,7 +22,8 @@ dd if=/dev/urandom of=/tmp/tajny-klucz bs=1024 count=1
 
 Szyfrowane urządzenie blokowe możemy zidentyfikować np. poleceniem `lsblk`
 
-```
+```console
+$ lsblk
 NAME                  MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINT
 sda                     8:0    0 111.8G  0 disk  
 ├─sda1                  8:1    0     1G  0 part  /boot
@@ -38,15 +39,15 @@ Tutaj jest to `/dev/sda2`, po odszyfrowaniu widoczne jest jako `luks-67b5ce62ce1
 
 Upewniamy się, że szyfrowane urządzenie jest zdefiniowne w pliku `/etc/crypttab`.
 
-```
+```console
 $ cat /etc/crypttab
 luks-67b5ce62ce1a UUID=67b5ce62ce1a none discard
 ```
 
 ### Dodanie klucza do woluminu:
 
-```
-cryptsetup luksAddKey /dev/sdXXX /tmp/tajny-klucz
+```console
+$ cryptsetup luksAddKey /dev/sdXXX /tmp/tajny-klucz
 ```
 
 ### Umieszczenie klucza w katalogu `/etc`
@@ -79,7 +80,7 @@ Następnie, należy wymusić przebudowanie obrazu poleceniem: `dracut -f`
 
 Aby upewnić się, że pliki zostały wrzucone do obrazu, należy posłużyć się poleceniem `lsinitrd`, np.
 
-```
+```console
 $ lsinitrd /boot/initramfs-*.el*.img | grep cryptsetup
 ```
 
