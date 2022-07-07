@@ -6,8 +6,8 @@ Dokumentacja: <https://isevenapi.xyz/>
 CORS: `nie`  
 
 ### Przykład
-```bash
-curl https://api.isevenapi.xyz/api/iseven/6/
+```shell
+$ curl https://api.isevenapi.xyz/api/iseven/6/
 ```
 
 ## Chuck Norris API
