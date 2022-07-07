@@ -1,6 +1,6 @@
-# Ciekawe dystrybucje
+# Ciekawe dystrybucje Linuksa
 
-## Dystrybucje zorientowane na prostotę i lekkość
+## Zorientowane na prostotę i lekkość
 
 * [Void Linux](https://voidlinux.org/)
 * [Alpine Linux](https://alpinelinux.org/)
@@ -8,7 +8,7 @@
 
 *Uwaga! "Prostota" nie oznacza tu "łatwość użytkowania" - wręcz przeciwnie.*
 
-## Dystrybucje LiveCD z dużą ilością narzędzi specjalistycznych
+## LiveCD z dużą ilością narzędzi specjalistycznych
 
 * [GRML](https://grml.org/)
 * [Kali Linux](https://www.kali.org/)
@@ -19,11 +19,11 @@
 ## Klony [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
 
 * [Rocky Linux](https://rockylinux.org/)
-* [Alma Linux](https://almalinux.org/)
+* [AlmaLinux](https://almalinux.org/)
 * [Oracle Linux](https://www.oracle.com/linux/)
 * [CentOS](https://www.centos.org/)
 
-## Dystrybucje specjalizowane dla konkretnych urządzeń, usług i zastosowań
+## Dedykowane dla konkretnych urządzeń, usług i zastosowań
 
 ### Komputery Apple Macintosh z nowym procesorem Apple M1
 
@@ -44,11 +44,11 @@
 
 * [FreePBX](https://www.freepbx.org/)
 
-## Dystrybucje specjalizowane pod kątem bezpieczeństwa
+## Specjalizowane pod kątem bezpieczeństwa
 
 * [Qubes OS](https://www.qubes-os.org/)
 
-## Dystrybucje bazujące na [Ubuntu](https://ubuntu.com/) i [Debianie](https://www.debian.org/):
+## Bazujące na [Ubuntu](https://ubuntu.com/) i [Debianie](https://www.debian.org/):
 
 * [elementary OS](https://elementary.io/)
 * [Linux Mint](https://linuxmint.com/)
@@ -58,11 +58,10 @@
 * [Ubuntu Studio](https://ubuntustudio.org/)
 * [ParrotOS](https://www.parrotsec.org/)
 
-### Instalator sieciowy:
+### Instalatory sieciowe:
 
-#### Ubuntu `mini.iso` (netboot):
-
-- [Ubuntu 20.04 LTS - x86-64](http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/)
+- [Ubuntu 20.04 LTS - x86-64 `mini.iso`](http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/)
+- [Debian](https://www.debian.org/distrib/netinst)
 
 ## Starsze dystrybucje
 
@@ -78,7 +77,7 @@
 * [TurnKey Linux](https://www.turnkeylinux.org/)
 * [Vulnhub](https://www.vulnhub.com/)
 
-## Inne UNIX-y
+# Inne systemy wzorowane i bazowane na UNIX-ie
 
 Systemy nie bazujące na kernelu Linuksa.
 
@@ -88,5 +87,22 @@ Systemy nie bazujące na kernelu Linuksa.
     * [OpenBSD](https://www.openbsd.org/)
     * [NetBSD](https://www.netbsd.org/)
     * [DragonflyBSD](https://www.dragonflybsd.org/)
-* pochodne Solarisa
-    * [openindiana](https://www.openindiana.org/)
+    * [Debian GNU/kFreeBSD](https://www.debian.org/ports/kfreebsd-gnu/)
+* Solaris i pochodne
+    * [illumos](https://illumos.org/)
+        * [openindiana](https://www.openindiana.org/)
+        * [OmniOS](https://omnios.org/)
+        * [Tribblix](http://www.tribblix.org/)
+    * [Oracle Solaris](https://www.oracle.com/solaris/)
+* macOS
+    * [hackintosh](https://hackintosh.com/)
+* GNU/Hurd
+    * [Debian GNU/Hurd](https://www.debian.org/ports/hurd/)
+
+# Jeszcze inne systemy operacyjne
+
+* [ReactOS](https://reactos.org/) - klon Windows
+* [HaikuOS](https://www.haiku-os.org/) - klon BeOS
+* [Plan 9](https://p9f.org/)
+* [TempleOS](https://templeos.org/)
+

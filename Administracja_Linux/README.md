@@ -2,6 +2,8 @@
 
 ## [Ciekawe dystrybucje](Ciekawe_dystrybucje.md)
 
+* [endoflife.date](https://endoflife.date/)
+
 ## [Pakiety](Pakiety.md)
 
 ## VPS-y
