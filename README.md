@@ -39,6 +39,7 @@
 <figure>👨🏼‍🏫</figure>
 <h2>Szkolenia</h2>
 <h3><a href="https://alx.pl">ALX</a></h3>
+<p>
 <a href="https://www.alx.pl/szkolenia/git-intro/">Git</a> •
 <a href="https://www.alx.pl/szkolenia/wireguard/">Wireguard</a> •
 <a href="https://www.alx.pl/szkolenia/protokol-ipv6/">IPv6</a> •
@@ -48,6 +49,7 @@
 <a href="https://www.alx.pl/szkolenia/programowanie-c-podstawy/">C</a> •
 <a href="https://www.alx.pl/szkolenia/python-pisanie-drobnych-programow/">Python scripting</a> •
 <a href="https://www.alx.pl/pl/bootcamp-python/">Python</a>
+</p>
 </section>
 
 <section>
@@ -80,6 +82,11 @@ nav section figure
     nav section
     {
         width: 30%;
+    }
+
+    nav section p
+    {
+        text-align: justify;
     }
 
     nav section h2
