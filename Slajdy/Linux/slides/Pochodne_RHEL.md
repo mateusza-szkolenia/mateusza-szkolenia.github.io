@@ -6,7 +6,7 @@
 
 * CentOS
 * CentOS Stream
-* RockyLinux
+* Rocky Linux
 * AlmaLinux
 * Oracle Linux
 * ...
@@ -48,7 +48,7 @@ RHEL - komercyjne wolne oprogramowanie
 <!-- .slide: data-autofragments -->
 ## CentOS - różnice
 
-- podmiana nazwy, logo, kolorów, tapet
+- nazwa, logo, kolorystyka, tapety
 - własna kompilacja
 - własne repozytoria
 
@@ -102,6 +102,8 @@ deweloperzy → testerzy → RHEL → CentOS
 <!-- .slide: data-autofragments -->
 ## CentOS is dead
 
+Maj 2019: **IBM** kupuje **RedHat, Inc.**
+
 Grudzień 2020: "zarząd" fundacji postanawia:
 - zakończenie rozwoju CentOS
 - kontynuacja rozwoju CentOS Stream
@@ -116,8 +118,11 @@ Grudzień 2020: "zarząd" fundacji postanawia:
 
 | wersja | RHEL       | CentOS     |
 |--------|------------|------------|
+| ...    | ...        | ...        |
+| 6      | 2020-11-30 | 2020-11-30 |
 | 7      | 2024-06-30 | 2024-06-30 |
 | 8      | 2029-05-01 | 2021-12-31 |
+| 9      | 2032-05-01 | ---        |
 
 CentOS Stream - cały czas wspierany
 
@@ -171,3 +176,4 @@ Tylko wersje od 8.3 wzwyż.
 [Powrót do dystrybucji](Dystrybucje.html#/10/1)
 
 [Koniec](./)
+
