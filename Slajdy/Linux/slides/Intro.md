@@ -94,19 +94,21 @@ PDP-11
 <!-- .slide: data-background="#eee" -->
 # ![GNU GPL](img/gnu-gpl.png)
 
-*GNU General Public License*
+*General Public License* (1989, 1991, 2007)
 
 ---
 <!-- .slide: data-background="#fffaf4" -->
-# GNU GPL License (1989, 1991, 2007)
+# GNU GPL
 
 <iframe src='assets/gpl-3.0-standalone.html' style='width: 60vw; height: 50vh;'></iframe>
 
 ---
 <!-- .slide: data-background="#fff" -->
-# Licencja MIT (1980s)
+# Licencja MIT
 
-![MIT](img/mit-lic.jpg) <!-- .element: style="height: 50vh;" -->
+![MIT](img/mit-lic.jpg) <!-- .element: style="height: 30vh;" -->
+
+*Massachusetts Institute of Technology* (1980s)
 
 ---
 <!-- .slide: data-background="#fffaf4" -->
@@ -122,8 +124,9 @@ PDP-11
 
 ---
 <!-- .slide: data-autofragments -->
-# Działalność FSF, GNU
+# Free Software Foundation (1985)
 
+- Wspieranie ruchu wolnego oprogramowania
 - Tworzenie oprogramowania
 - Tropienie naruszeń licencji GPL
 - Walka ze złymi praktykami twórców oprogramowania
