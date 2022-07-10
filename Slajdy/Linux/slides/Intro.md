@@ -79,53 +79,6 @@ PDP-11
 - ograniczenia licencyjne wydawcy
 
 ------
-# Linus Torvalds
-
-![Linus Torvalds](img/linus-torvalds.jpg) <!-- .element: style="height: 60vh;" -->
-<style> #linus-torvalds { font-size: 1.1em; } </style>
-
----
-# My new operating system
-
-```
-  From: torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds)
-  Newsgroups: comp.os.minix
-  Subject: What would you like to see most in minix?
-  Summary: small poll for my new operating system
-  Date: 25 Aug 91 20:57:08 GMT
-
-
-  Hello everybody out there using minix -
-
-  I'm doing a (free) operating system (just a hobby, won't be big and
-  professional like gnu) for 386(486) AT clones.  This has been brewing
-  since april, and is starting to get ready.  I'd like any feedback on
-  things people like/dislike in minix, as my OS resembles it somewhat
-  (same physical layout of the file-system (due to practical reasons)
-  among other things).
-
-  I've currently ported bash(1.08) and gcc(1.40), and things seem to work.
-  This implies that I'll get something practical within a few months, and
-  I'd like to know what features most people would want.  Any suggestions
-  are welcome, but I won't promise I'll implement them :-)
-
-                Linus (torvalds@kruuna.helsinki.fi)
-```
-<style>#my-new-operating-system { font-size: 0.6em; }
-#my-new-operating-system + pre { font-size: 0.4em; } </style>
-
----
-<!-- .slide: data-autofragments -->
-# Linux
-
-- 1991
-- inspirowany Miniksem
-  - (ale nie bazujący na nim)
-- główne różnice:
-  - architektura kernela
-  - licencjonowanie
-
-------
 # Richard Stallman
 
 ![RMS](img/richard-stallman.jpg) <!-- .element: style="height: 60vh;" -->
@@ -175,11 +128,8 @@ PDP-11
 # Działalność FSF, GNU
 
 - Tworzenie oprogramowania
-- Walka ze złymi praktykami twórców oprogramowania
-  - [Proprietary Software Is Often Malware](https://www.gnu.org/proprietary/proprietary.html)
-    ([Apple](https://www.gnu.org/proprietary/malware-apple.en.html),
-     [Microsoft](https://www.gnu.org/proprietary/malware-microsoft.html))
 - Tropienie naruszeń licencji GPL
+- Walka ze złymi praktykami twórców oprogramowania
 
 <style> #działalność-fsf-gnu { font-size: 1.6em; } </style>
 
@@ -206,6 +156,53 @@ PDP-11
 - [i wiele innych](https://en.wikipedia.org/wiki/List_of_GNU_packages)
 
 <style> #oprogramowanie-gnu { font-size: 1.5em; } </style>
+
+------
+# Linus Torvalds
+
+![Linus Torvalds](img/linus-torvalds.jpg) <!-- .element: style="height: 60vh;" -->
+<style> #linus-torvalds { font-size: 1.1em; } </style>
+
+---
+# My new operating system
+
+```eml
+From: torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds)
+Newsgroups: comp.os.minix
+Subject: What would you like to see most in minix?
+Summary: small poll for my new operating system
+Date: 25 Aug 91 20:57:08 GMT
+
+
+Hello everybody out there using minix -
+
+I'm doing a (free) operating system (just a hobby, won't be big and
+professional like gnu) for 386(486) AT clones.  This has been brewing
+since april, and is starting to get ready.  I'd like any feedback on
+things people like/dislike in minix, as my OS resembles it somewhat
+(same physical layout of the file-system (due to practical reasons)
+among other things).
+
+I've currently ported bash(1.08) and gcc(1.40), and things seem to work.
+This implies that I'll get something practical within a few months, and
+I'd like to know what features most people would want.  Any suggestions
+are welcome, but I won't promise I'll implement them :-)
+
+              Linus (torvalds@kruuna.helsinki.fi)
+```
+<style>#my-new-operating-system { font-size: 0.6em; }
+#my-new-operating-system + pre { font-size: 0.4em; } </style>
+
+---
+<!-- .slide: data-autofragments -->
+# Linux
+
+- 1991
+- inspirowany Miniksem
+  - (ale nie bazujący na nim)
+- główne różnice:
+  - architektura kernela
+  - licencjonowanie
 
 ---
 # GNU/Linux
