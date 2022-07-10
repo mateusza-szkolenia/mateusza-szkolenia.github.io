@@ -126,7 +126,12 @@ Grudzień 2020: "zarząd" fundacji postanawia:
 
 CentOS Stream - cały czas wspierany
 
-<style> #koniec-wsparcia-centos + table tr:nth-child(2) td:nth-child(3) { color: #f33; } </style>
+<style>
+#koniec-wsparcia-centos + table tr:nth-child(1) td { color: #ddd; }
+#koniec-wsparcia-centos + table tr:nth-child(2) td { color: #ddd; }
+#koniec-wsparcia-centos + table tr:nth-child(3) td:nth-child(3) { color: #f33; }
+#koniec-wsparcia-centos + table tr:nth-child(4) td:nth-child(3) { color: #a00; }
+</style>
 
 ------
 <!-- .slide: data-autofragments -->
