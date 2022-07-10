@@ -411,13 +411,13 @@ Ograniczenia w Windows:
 <div style='width: 49%' class=fragment>
   <i class='fa fa-folder fa-2x'></i><br>
   nazwa wyświetlana w GUI<br>
-  <img src='img/windows-sciezka-przetlumaczona.png'>
+  <img src='img/windows-sciezka-przetlumaczona.png' alt="💻 ▸ Ten Komputer ▸ SYSTEM (C:) ▸ Uzytkownicy ▸ mateusza ▸ Pulpit ▸">
 </div>
 
 <div style='width: 49%' class=fragment>
   <i class='fa fa-terminal fa-2x'></i><br>
   rzeczywista nazwa<br>
-  <code style='font-size: 0.7em;'>C:\Users\mateusza\Documents</code>
+  <code style='font-size: 0.7em;'>C:\Users\mateusza\Desktop</code>
 </div>
 </div>
 
