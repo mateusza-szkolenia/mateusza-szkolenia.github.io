@@ -405,16 +405,14 @@ Ograniczenia w Windows:
 <div style='display: flex'>
 <div style='width: 49%' class=fragment>
   <i class='fa fa-folder fa-2x'></i><br>
-  nazwa wyświetlana w GUI
-
-  `C:\Użytkownicy\Mateusz\Pulpit`
+  nazwa wyświetlana w GUI<br>
+  <img src='img/windows-sciezka-przetlumaczona.png'>
 </div>
 
 <div style='width: 49%' class=fragment>
   <i class='fa fa-terminal fa-2x'></i><br>
-  rzeczywista nazwa  
-
-  `C:\Users\Mateusz\Desktop`
+  rzeczywista nazwa<br>
+  <code style='font-size: 0.7em;'>C:\Users\mateusza\Documents</code>
 </div>
 </div>
 
@@ -464,6 +462,12 @@ Ograniczenia klasycznego FAT:
   `C:\PROGRA~1`
 </div>
 </div>
+
+---
+<!-- .slide: data-autofragments -->
+## Alternatywne strumienie danych
+
+- brak w Linuksie
 
 ------
 ## Programy
