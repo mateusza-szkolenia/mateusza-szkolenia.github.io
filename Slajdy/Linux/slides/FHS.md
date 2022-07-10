@@ -134,10 +134,9 @@
 ------
 ### `/proc` (`procfs`)
 
-Interfejs kernela do:
-- procesora (CPU)
+Interfejs plikowy do:
+- procesora (CPU) i pamięci
 - procesów
-- pamięci
 - informacji o kernelu itp
 
 Uwaga: *Nie są to prawdziwe pliki na dysku.*
@@ -167,7 +166,9 @@ Uwaga: *Nie są to prawdziwe pliki na dysku.*
 - zasoby niezależne od platformy:
     - grafika, ikony, fonty
     - słowniki, tłumaczenia
+    - mapy
     - definicje składni
+    - statyczne bazy danych
 
 ---
 ### `/usr/include`
@@ -209,7 +210,7 @@ Uwaga: *Nie są to prawdziwe pliki na dysku.*
 ---
 ### `/usr/local`
 
-- oprogramowanie zainstalowane spoza pakietów dystrybucji
+- oprogramowanie zainstalowane spoza pakietów dystrybucji, najczęściej z paczek źródłowych
 
 ------
 ### `/var`
@@ -263,12 +264,13 @@ Uwaga: *Nie są to prawdziwe pliki na dysku.*
 ------
 ### `/opt`
 
-- dodatkowe oprogramowanie niepochodzące z dystrybucji
+- dodatkowe oprogramowanie firm trzecich
 
 ------
 ### `/etc/*.d`
 
-- katalogi z "rozszerzeniem" `.d`
+Różne katalogi z "rozszerzeniem" `.d`
+
 - zawierają konfigurację rozbitą na odrębne pliki
 
 ------
