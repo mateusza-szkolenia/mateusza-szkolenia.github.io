@@ -411,7 +411,7 @@ Ograniczenia w Windows:
 <div style='width: 49%' class=fragment>
   <i class='fa fa-folder fa-2x'></i><br>
   nazwa wyświetlana w GUI<br>
-  <img src='img/windows-sciezka-przetlumaczona.png' alt="💻 ▸ Ten Komputer ▸ SYSTEM (C:) ▸ Uzytkownicy ▸ mateusza ▸ Pulpit ▸">
+  <img src='img/windows-sciezka-przetlumaczona.png' alt="💻 ▸ Ten Komputer ▸ SYSTEM (C:) ▸ Użytkownicy ▸ mateusza ▸ Pulpit ▸">
 </div>
 
 <div style='width: 49%' class=fragment>
