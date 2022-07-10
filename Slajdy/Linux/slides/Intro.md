@@ -3,7 +3,7 @@
 
 ---
 <!-- .slide: data-background="#eee" -->
-![Tux](img/tux.png) <!-- .element: style="height: 60vh;" -->
+![Tux](img/tux.png) <!-- .element: style="height: 50vh;" -->
 
 ------
 # Historia
@@ -14,9 +14,8 @@ PDP-11
 
 ------
 <!-- .slide: data-autofragments -->
-# UNIX
+# UNIX (1970s)
 
-- 1970s
 - Bell Labs
 - język C
 
@@ -40,10 +39,9 @@ PDP-11
 
 ---
 <!-- .slide: data-autofragments -->
-# IBM PC
+# IBM PC (1981)
 
-- 1981
-- architektura Intel 8088/x86 (8088, 8086, 286, 386)
+- architektura Intel 8088/x86 (8088, 8086, 286, 386...)
 - MS-DOS, MS Windows
 
 ---
@@ -51,7 +49,7 @@ PDP-11
 
 ---
 <!-- .slide: data-autofragments -->
-# DOS
+# DOS (1981)
 
 - brak wielozadaniowości
 - brak wielodostępności
@@ -70,9 +68,8 @@ PDP-11
 
 ---
 <!-- .slide: data-autofragments -->
-# Minix
+# Minix (1987)
 
-- 1987
 - *mini Unix*
 - prosty, do celów dydaktycznych
 - dostępny dla 8088, potem x86
@@ -101,13 +98,13 @@ PDP-11
 
 ---
 <!-- .slide: data-background="#fffaf4" -->
-# GNU GPL License
+# GNU GPL License (1989, 1991, 2007)
 
 <iframe src='assets/gpl-3.0-standalone.html' style='width: 60vw; height: 50vh;'></iframe>
 
 ---
 <!-- .slide: data-background="#fff" -->
-# Licencja MIT
+# Licencja MIT (1980s)
 
 ![MIT](img/mit-lic.jpg) <!-- .element: style="height: 50vh;" -->
 
@@ -135,8 +132,7 @@ PDP-11
 
 ---
 <!-- .slide: data-background="#eee" -->
-# GNU
-
+# GNU (1983)
 ![GNU](img/gnu.png) <!-- .element: style="height: 50vh;" -->
 
 *GNU is Not Unix*
@@ -195,9 +191,8 @@ are welcome, but I won't promise I'll implement them :-)
 
 ---
 <!-- .slide: data-autofragments -->
-# Linux
+# Linux (1991)
 
-- 1991
 - inspirowany Miniksem
   - (ale nie bazujący na nim)
 - główne różnice:
@@ -209,7 +204,7 @@ are welcome, but I won't promise I'll implement them :-)
 
 ------
 <!-- .slide: data-autofragments -->
-# POSIX
+# POSIX (1988)
 
 IEEE Standard 1003.1
 
@@ -284,36 +279,12 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 <!-- .slide: data-background="#eee" -->
 # Timeline
 
-![Timeline](img/top500-timeline.png) <!-- .element: style="height: 65vh;" -->
+![Timeline](img/top500-timeline.png) <!-- .element: style="height: 50vh;" -->
 
 <style> #timeline {font-size: 1.3em; } </style>
 
 ---
-![Meme](img/linux-friends-meme.jpg) <!-- .element: style="height: 70vh;" -->
-
-------
-<!-- .slide: data-autofragments -->
-# API i ABI
-
-- Application Programming Interface
-- Application Binary Interface
-
----
-<!-- .slide: data-autofragments -->
-# API
-
-- interfejs programistyczny
-- kod źródłowy
-- protokół komunikacji
-- POSIX
-
----
-<!-- .slide: data-autofragments -->
-# ABI
-
-- architektura
-- konsolidacja
-- konwencja wołania
+![Meme](img/linux-friends-meme.jpg) <!-- .element: style="height: 50vh;" -->
 
 ------
 <!-- .slide: data-autofragments -->
