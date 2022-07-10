@@ -159,7 +159,7 @@ PDP-11
 ------
 # Linus Torvalds
 
-![Linus Torvalds](img/linus-torvalds.jpg) <!-- .element: style="height: 60vh;" -->
+![Linus Torvalds](img/linus-torvalds.jpg) <!-- .element: style="height: 50vh;" -->
 <style> #linus-torvalds { font-size: 1.1em; } </style>
 
 ---
@@ -368,7 +368,7 @@ pakiety:     deb         rpm         apk      xbps
 
 ---
 <!-- .slide: data-background="#fff" -->
-![Lalka](img/dress-up-doll.jpg) <!-- .element: style="height: 75vh;" -->
+![Lalka](img/dress-up-doll.jpg) <!-- .element: style="height: 55vh;" -->
 
 ------
 [Koniec](./)
