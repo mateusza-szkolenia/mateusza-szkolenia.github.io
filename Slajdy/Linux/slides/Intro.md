@@ -64,7 +64,7 @@ PDP-11
 <style> #andrew-tanenbaum { font-size: 1.1em; } </style>
 
 ---
-![Book](img/minix-book.jpg) <!-- .element: style='height: 80vh;' -->
+![Book](img/minix-book.jpg) <!-- .element: style="height: 70vh;" -->
 
 ---
 <!-- .slide: data-autofragments -->
@@ -78,7 +78,7 @@ PDP-11
 ------
 # Richard Stallman
 
-![RMS](img/richard-stallman.jpg) <!-- .element: style="height: 60vh;" -->
+![RMS](img/richard-stallman.jpg) <!-- .element: style="height: 40vh;" -->
 <style> #richard-stallman { font-size: 1.1em; } </style>
 
 ---
@@ -136,7 +136,7 @@ PDP-11
 ---
 <!-- .slide: data-background="#eee" -->
 # GNU (1983)
-![GNU](img/gnu.png) <!-- .element: style="height: 50vh;" -->
+![GNU](img/gnu.png) <!-- .element: style="height: 40vh;" -->
 
 *GNU is Not Unix*
 
