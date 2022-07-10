@@ -189,6 +189,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
   <code>nul</code><br>
   <code>com1</code><br>
   <code>lpt1</code><br>
+  <i>i inne...</i><br>
   (również z dowolnym rozszerzeniem)
   </p>
 </div>
@@ -206,15 +207,19 @@ Uwaga: *(prawie) wszystko jest plikiem*
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 40%; text-align: center'>
   <h3 class='fragment fab fa-windows'></h3>
-  <p>osobne dla każdego dysku</p>
-  <p>rzeczywiste pliki</p>
-  <p>ew. dyski sieciowe</p>
+  <ul>
+  <li>osobne dla każdego dysku</li>
+  <li>rzeczywiste pliki</li>
+  <li>ew. dyski sieciowe</li>
+  </ul>
 </div>
 <div style='width: 40%; text-align: center;'>
   <h3 class='fragment fab fa-linux'></i></h3>
-  <p>jedno wirtualne drzewo (VFS)</p>
-  <p>rzeczywiste pliki tylko w niektórych gałęziach</p>
-  <p>również pliki i katalogi wirtualne</p>
+  <ul>
+  <li>jedno wirtualne drzewo (VFS)</li>
+  <li>rzeczywiste pliki tylko w niektórych gałęziach</li>
+  <li>również pliki i katalogi wirtualne</li>
+  </ul>
 </div>
 </div>
 
@@ -258,7 +263,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 <!-- .slide: data-autofragments -->
 ### Uwagi dot. slasha i backslasha
 
-- w Windows można użyć slasha zamiast backslasha
+- w Windows można używać slasha zamiast backslasha
 - `C:/Windows/System32` zadziała
 
 ---
@@ -270,7 +275,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
   `https://alx.pl/`
 - zamykanie znaczników HTML:  
   `<h1>Tytuł</h1>`
-- znak dzielenia:  
+- znak dzielenia w programowaniu:  
   `1/3`
 
 ---
@@ -346,7 +351,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 - nazwa pliku: `piosenka`
 - rozszerzenie: `mp3` (niewidoczne)
-- typ pliku: muzyka
+- typ pliku: muzyka (MPEG-1/2 Audio Layer 3)
 - (typ wynika z rozszerzenia)
 
 ---
@@ -358,7 +363,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 - nazwa pliku: `piosenka.mp3`
 - rozszerzenie: `.mp3` (umowne)
-- typ pliku: muzyka
+- typ pliku: muzyka (MPEG-1/2 Audio Layer 3)
 - (typ może też wynikać z zawartości)
 
 ------
