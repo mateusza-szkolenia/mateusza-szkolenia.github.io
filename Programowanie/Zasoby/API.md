@@ -12,7 +12,7 @@ $ curl https://api.isevenapi.xyz/api/iseven/6/
 
 ## Chuck Norris API
 
-Dokumentacja: https://api.chucknorris.io/  
+Dokumentacja: <https://api.chucknorris.io/>
 CORS: `tak`  
 
 ### Przykład
@@ -51,3 +51,16 @@ Dokumentacja: <https://cataas.com/>
 
 <img src='https://cataas.com/cat/computer'>
 ```
+
+## Random User Generator
+
+Dokumentacja: <https://randomuser.me/>
+CORS: `tak`
+
+### Przykład
+```javascript
+fetch('https://randomuser.me/api/')
+    .then(r => r.json())
+    .then(u => console.log(u))
+```
+
