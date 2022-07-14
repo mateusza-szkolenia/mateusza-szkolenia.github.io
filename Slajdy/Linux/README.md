@@ -11,4 +11,5 @@
 * [30: Uprawnienia w Linuksie](Uprawnienia.html) \[[MD](slides/Uprawnienia.md)\]
 * [40: Filesystem Hierarchy Standard](FHS.html) \[[MD](slides/FHS.md)\]
 * [50: Dyski](Dyski.html) \[[MD](slides/Dyski.md)\]
+* [55: FS](FS.html) \[[MD](slides/FS.md)\]
 * [60: Menedżery pakietów](Menedzery_pakietow.html) \[[MD](slides/Menedzery_pakietow.md)\]
