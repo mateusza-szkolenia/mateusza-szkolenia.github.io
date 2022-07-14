@@ -21,12 +21,13 @@ RHEL - komercyjne wolne oprogramowanie
 ## Ochronie podlegają
 
 - nazwa i logo
-- skompilowane paczki
+- skompilowane oprogramowanie
 
 ---
-## Ochronie nie podlega:
+## Ochronie nie podlega
 
 - kod źródłowy
+- dobór oprogramowania
 
 ---
 **Każdy może legalnie skopiować i wydać swoją wersję.**
@@ -37,19 +38,18 @@ RHEL - komercyjne wolne oprogramowanie
 
 ------
 <!-- .slide: data-autofragments -->
-## CentOS
+## CentOS (2004)
 
-- 2004
 - klon RHEL
-- całkowicie kompatybilny
 - darmowy
+- całkowicie kompatybilny
 
 ---
 <!-- .slide: data-autofragments -->
 ## CentOS - różnice
 
 - nazwa, logo, kolorystyka, tapety
-- własna kompilacja
+- niezależna kompilacja
 - własne repozytoria
 
 ---
@@ -84,15 +84,15 @@ deweloperzy → testerzy → RHEL → CentOS
 <!-- .slide: data-autofragments -->
 ## CentOS - Fundacja
 
-- z początku niezależna od RedHata
-- RedHat Inc. zaproponował finansowanie...
+- z początku niezależna od RedHata (2004)
+- RedHat Inc. zaproponował finansowanie... (2014)
 - ... w zamian za umieszczenie swoich ludzi w zarządzie
 
 *What can go wrong?*
 
 ---
 <!-- .slide: data-autofragments -->
-## CentOS Stream
+## CentOS Stream (2019)
 
 - dodatkowa edycja CentOS-a
 - dostawała poprawki przed RHEL (tzw. *upstream*)
@@ -175,7 +175,7 @@ Tylko wersje od 8.3 wzwyż.
 | 8.4    | 2021-05-18 | 2021-06-21 |         34 |
 | 8.5    | 2021-11-09 | 2021-11-15 |          6 |
 | 8.6    | 2022-05-10 | 2022-05-16 |          6 |
-| 9.0    | 2022-05-17 | ...        | ...        |
+| 9.0    | 2022-05-17 | 2022-07-15 |         58 |
 
 ------
 [Powrót do dystrybucji](Dystrybucje.html#/10/1)

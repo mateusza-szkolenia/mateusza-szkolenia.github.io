@@ -74,7 +74,7 @@ Trudno powiedzieć...
 
 ---
 <!-- .slide: data-background="#eee" -->
-![RockyLinux](img/rockylinux.png)
+![Rocky Linux](img/rockylinux.png)
 
 ---
 <!-- .slide: data-background="#eee" -->
@@ -153,7 +153,7 @@ Community Enterprise Operating System
 
 ---
 <!-- .slide: data-autofragments -->
-## RockyLinux
+## Rocky Linux
 
 Na cześć Rocky'ego McGaugha (twórcy CentOS)
 
@@ -175,7 +175,7 @@ Na cześć Rocky'ego McGaugha (twórcy CentOS)
 - **RHEL**: RedHat, Inc.
 - **Ubuntu**: Canonical Ltd.
 - **Debian**: Debian Project/Software in the Public Interest (non-profit)
-- **RockyLinux**: Rocky Enterprise Software Foundation
+- **Rocky Linux**: Rocky Enterprise Software Foundation
 - **AlmaLinux**: AlmaLinux OS Foundation
 - **Slackware**: Patrick Volkerding (osoba prywatna)
 - **Void Linux**: *Void Linux Contributors* (nieformalny zespół wolontariuszy)
@@ -330,7 +330,7 @@ Debian 10 (Buster)
 
 * CentOS
 * CentOS Stream
-* RockyLinux
+* Rocky Linux
 * AlmaLinux
 * Oracle Linux
 * ...
