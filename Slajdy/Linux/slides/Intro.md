@@ -14,7 +14,7 @@ PDP-11
 
 ------
 <!-- .slide: data-autofragments -->
-# UNIX (1970s)
+# UNIX (1970...)
 
 - Bell Labs
 - język C
@@ -91,6 +91,15 @@ PDP-11
 - rozpowszechniania swoich modyfikacji
 
 ---
+<!-- .slide: data-background="#fffaf4" -->
+## "copyleft"
+
+> @COPYLEFT ALL WRONGS RESERVED
+
+---
+> GNU is not in the public domain. Everyone will be permitted to modify and redistribute GNU, but no distributor will be allowed to restrict its further redistribution. That is to say, proprietary modifications will not be allowed. I want to make sure that all versions of GNU remain free.
+
+---
 <!-- .slide: data-background="#eee" -->
 # ![GNU GPL](img/gnu-gpl.png)
 
@@ -120,7 +129,7 @@ PDP-11
 <!-- .slide: data-background="#fff" -->
 # ![FSF](img/fsf.png) <!-- .element: style="height: 20vh;" -->
 
-*Free as in freedom, not free as in free beer*
+> Free as in freedom, not free as in free beer
 
 ---
 <!-- .slide: data-autofragments -->
@@ -131,14 +140,14 @@ PDP-11
 - Tropienie naruszeń licencji GPL
 - Walka ze złymi praktykami twórców oprogramowania
 
-<style> #działalność-fsf-gnu { font-size: 1.6em; } </style>
+<style> #free-software-foundation-1985 { font-size: 1.6em; } </style>
 
 ---
 <!-- .slide: data-background="#eee" -->
 # GNU (1983)
 ![GNU](img/gnu.png) <!-- .element: style="height: 40vh;" -->
 
-*GNU is Not Unix*
+> GNU is Not Unix
 
 ---
 <!-- .slide: data-autofragments -->
@@ -165,7 +174,7 @@ PDP-11
 ---
 # My new operating system
 
-```eml
+```txt
 From: torvalds@klaava.Helsinki.FI (Linus Benedict Torvalds)
 Newsgroups: comp.os.minix
 Subject: What would you like to see most in minix?
@@ -237,6 +246,8 @@ IEEE Standard 1003.1
 - UnixWare
 - QNX Neutrino
 
+<style> #certyfikowane-z-posix {font-size: 1.5em; } </style>
+
 ---
 <!-- .slide: data-autofragments -->
 # Prawie zgodne z POSIX
@@ -245,6 +256,8 @@ IEEE Standard 1003.1
 - Linux
 - Android
 - BSD (FreeBSD, OpenBSD, NetBSD, Dragonfly BSD)
+
+<style> #prawie-zgodne-z-posix {font-size: 1.5em; } </style>
 
 ---
 <!-- .slide: data-autofragments -->
@@ -260,6 +273,8 @@ IEEE Standard 1003.1
 - POSIX Subsystem
 - Cygwin
 - Git for Windows
+
+<style> #microsoft-windows {font-size: 1.5em; } </style>
 
 ------
 <!-- .slide: data-background="#eee" -->
@@ -328,14 +343,25 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 
 ---
 <!-- .slide: data-autofragments -->
-# Dystrybucja
+# Dystrybucja Linuksa
 
-System operacyjny oparty na Linuksie (niekoniecznie GNU):
+System operacyjny oparty na Linuksie
 
 - dostosowany do konkretnego zastosowania
 - wydany przez konkretny podmiot
 - instalator i system pakietów
 - usługi dodatkowe
+- *niekoniecznie GNU*
+
+<style> #dystrybucja-linuksa { font-size: 1.4em; } </style>
+
+---
+# Dystrybucje
+
+- również inne Uniksopodobne
+    - BSD
+    - Solarisy
+    - ...
 
 ---
 # Komponenty

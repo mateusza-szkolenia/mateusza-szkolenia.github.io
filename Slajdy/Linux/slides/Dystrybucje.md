@@ -339,6 +339,9 @@ Debian 10 (Buster)
 [Pochodne RHEL](Pochodne_RHEL.html)
 
 ------
+## Android (2008)
+
+------
 ## System pakietów
 
 - `DEB`
