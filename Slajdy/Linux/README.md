@@ -13,3 +13,4 @@
 * [50: Dyski](Dyski.html) \[[MD](slides/Dyski.md)\]
 * [55: FS](FS.html) \[[MD](slides/FS.md)\]
 * [60: Menedżery pakietów](Menedzery_pakietow.html) \[[MD](slides/Menedzery_pakietow.md)\]
+* [Edytory](Edytory.html) \[[MD](slides/Edytory.md)\]
