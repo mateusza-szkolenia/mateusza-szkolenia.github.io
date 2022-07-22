@@ -120,15 +120,19 @@ PDP-11
 
 ---
 <!-- .slide: data-background="#eee" -->
-# ![GNU GPL](img/gnu-gpl.png)
+# ![GNU GPL](img/gnu-gpl.png) <!-- .element: style="height: 20vh;" -->
 
-*General Public License* (1989, 1991, 2007)
+*General Public License*
+
+- GPL v1 (1989)
+- **GPL v2 (1991)**
+- GPL v3 (2007)
 
 ---
 <!-- .slide: data-background="#fffaf4" -->
 # GNU GPL
 
-<iframe src='assets/gpl-3.0-standalone.html' style='width: 60vw; height: 50vh;'></iframe>
+<iframe src='assets/gpl-2.0-standalone.html' style='width: 60vw; height: 50vh;'></iframe>
 
 ---
 <!-- .slide: data-background="#fff" -->
