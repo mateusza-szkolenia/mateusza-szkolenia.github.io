@@ -1,4 +1,4 @@
-# Edytory
+# 70: Edytory
 
 ------
 ## dalekopis (teletype)
