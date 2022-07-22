@@ -38,24 +38,43 @@ PDP-11
 <!-- .slide: data-background="img/ibm-pc.jpg" -->
 
 ---
-<!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#fff" -->
 # IBM PC (1981)
 
-- architektura Intel 8088/x86 (8088, 8086, 286, 386...)
+<div style='display: flex; justify-content: space-between;'>
+<div style='width: 30vh;'>
+
+![IBM PC](img/ibm-pc.jpg)
+
+</div>
+<div>
+
+- architektura Intel 8088/x86  
+  (8088, 8086, 286, 386...)
 - MS-DOS, MS Windows
 
----
-<!-- .slide: data-background="img/ms-dos.png" -->
+</div>
 
 ---
 <!-- .slide: data-autofragments -->
 # DOS (1981)
+
+<div style='display: flex; justify-content: space-between;'>
+<div style='width: 30vh;'>
+
+![MS DOS](img/ms-dos.png)
+
+</div>
+<div>
 
 - brak wielozadaniowości
 - brak wielodostępności
 - brak natywnej obsługi sieci
 - bezpośredni dostęp do zasobów
 - gry, programy
+
+</div>
+</div>
 
 ------
 # Andrew Tanenbaum
