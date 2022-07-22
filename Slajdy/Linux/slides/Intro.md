@@ -160,6 +160,7 @@ PDP-11
 - WTFPL (Do What the Fuck You Want To Public License)
 - Creative Commons
 
+---
 <!-- .slide: data-background="#fff" -->
 # ![FSF](img/fsf.png) <!-- .element: style="height: 20vh;" -->
 
@@ -337,19 +338,6 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 
 ---
 ![Meme](img/linux-friends-meme.jpg) <!-- .element: style="height: 50vh;" -->
-
-------
-<!-- .slide: data-autofragments -->
-# Komputer a OS 
-
----
-<!-- .slide: data-autofragments -->
-# Rola OS
-
-- dostęp do urządzeń (drivery)
-- zarządzanie pamięcią
-- zarządzanie procesami
-- udostępnienie interfejsu
 
 ------
 <!-- .slide: data-autofragments -->
