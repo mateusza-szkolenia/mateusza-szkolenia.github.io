@@ -124,9 +124,9 @@ PDP-11
 
 *General Public License*
 
-- GPL v1 (1989)
-- **GPL v2 (1991)**
-- GPL v3 (2007)
+- GPLv1 (1989)
+- **GPLv2 (1991)**
+- GPLv3 (2007)
 
 ---
 <!-- .slide: data-background="#fffaf4" -->
@@ -149,6 +149,17 @@ PDP-11
 <iframe src='assets/mit.html' style='width: 60vw; height: 50vh;'></iframe>
 
 ---
+# Inne licencje
+
+- *public domain*
+- LGPL i AGPL
+- BSD License
+- Apache License
+- Mozilla Public License
+- Unlicense
+- WTFPL (Do What the Fuck You Want To Public License)
+- Creative Commons
+
 <!-- .slide: data-background="#fff" -->
 # ![FSF](img/fsf.png) <!-- .element: style="height: 20vh;" -->
 
