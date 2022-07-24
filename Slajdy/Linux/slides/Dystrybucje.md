@@ -14,7 +14,7 @@ Trudno powiedzieć...
 # Ale ile?
 - *Almost one thousand Linux distributions exist.*
   [Wikipedia](https://en.wikipedia.org/wiki/Linux_distribution)
-- 261 aktywnych notowanych w [Distrowatch](https://distrowatch.com/dwres.php?resource=popularity)
+- ok. 260 aktywnych wg [Distrowatch](https://distrowatch.com/dwres.php?resource=popularity)
 
 ---
 <!-- .slide: data-autofragments -->
@@ -31,6 +31,9 @@ Trudno powiedzieć...
 
 ---
 <iframe style="width: 90vw; height: 70vh;" src="https://www.youtube.com/embed/OO3FANjwKHY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay></iframe>
+
+---
+*bo można*
 
 ------
 <!-- .slide: data-autofragments -->
@@ -133,11 +136,16 @@ Od czerwonej czapki, którą nosił twórca.
 
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-auto-animate -->
 ## Ubuntu
 
-*humanity towards others*
+z afrykańskiego: *humanity towards others*
 
-żart branżowy: *nie umiem zainstalować Debiana*
+---
+<!-- .slide: data-auto-animate -->
+## Ubuntu
+
+z afrykańskiego: *nie umiem zainstalować Debiana*
 
 ---
 <!-- .slide: data-autofragments -->
