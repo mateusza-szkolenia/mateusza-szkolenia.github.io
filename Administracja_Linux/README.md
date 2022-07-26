@@ -51,5 +51,6 @@
 ## Komponenty systemowe
 
 - [Implementacje `/sbin/init`](Init.md)
+- [Środowiska graficzne](Srodowiska_graficzne.md)
 
 ## [Sieci](Sieci.md)
