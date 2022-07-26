@@ -3,10 +3,45 @@
 ------
 ## Bit
 
+*binary digit*
+---
+## Bit
+
+- jednostka ilości informacji
+- jeden z dwóch możliwych stanów
+  - prawda/fałsz
+  - zero/jeden
+  - włączony/wyłączony
+
 ------
 ## System binarny
 
 - 2 cyfry: 0 i 1
+
+---
+## Przykład
+
+Liczba binarna: `101111`
+
+---
+## Przykład
+
+```
+ 1  0  1  1  1  1
+32 16  8  4  2  1
+```
+
+---
+## Przykład
+```
+ 1  0  1  1  1  1
+32     8  4  2  1 = 47
+```
+
+---
+## Wynik
+
+`101111` = `47`
 
 ------
 ## System dziesiętny
@@ -17,15 +52,60 @@
 ## System szesnastkowy
 
 - szesnaście cyfr
-- 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-- A, B, C, D, E, F
+- `0, 1, 2, 3, 4, 5, 6, 7, 8, 9`
+- `A, B, C, D, E, F`
 
 ---
 ## zastosowanie
 
-*wygodny zapis wartości binarnych*
-
+- wygodny zapis wartości binarnych
 - cztery bity to jedna cyfra szesnastkowa
+
+---
+## przykład
+
+liczba binarna: `1011011111000110101`
+
+---
+## przykład
+
+```
+1011011111000110101
+```
+
+---
+## przykład
+
+```
+101 1011 1110 0011 0101
+```
+
+---
+## przykład
+
+```
+101 1011 1110 0011 0101
+  5   11   14    3    5
+```
+
+---
+## przykład
+
+```
+101 1011 1110 0011 0101
+  5    B    E    3    5
+```
+
+---
+## wynik
+
+`5be35`
+
+---
+## zapis
+
+- `0x5be35` (C, Java, Python)
+- `5be35h` (Pascal, ASM)
 
 ------
 ## System ósemkowy
@@ -35,15 +115,9 @@
 
 ---
 ## zastosowanie
-*wygodny zapis wartości binarnych*
 
+- wygodny zapis wartości binarnych
 - trzy bity to jedna cyfra ósemkowa
-
----
-## zapis
-
-- `0xfa91` (C, Java, Python)
-- `0fa91h` (Pascal, ASM)
 
 ---
 ## zapis
@@ -77,22 +151,23 @@ Różnica: *2.4%*
 ---
 ## 1000 vs 1024
 
-<div style='display: flex'>
-<div style='width: 49%' class=fragment>
-  <h4>1000</h4>
-  <ul>
-  <li>system dziesiętny</li>
-  <li>przedrostki z układu SI</li>
-  </ul>
-</div>
+<div style='display: flex; justify-content: space-between;'>
+<div style='width: 45%' class=fragment>
 
-<div style='width: 49%' class=fragment>
-  <h4>1024</h4>
-  <ul>
-  <li>system binarny</li>
-  <li>symetria budowy</li>
-  <li>adresowalność</li>
-  </ul>
+### 1000
+
+- system dziesiętny
+- przedrostki z układu SI
+
+</div>
+<div style='width: 45%' class=fragment>
+
+### 1024
+
+- system binarny
+- symetria budowy
+- adresowalność
+
 </div>
 </div>
 
