@@ -79,7 +79,20 @@ PDP-11
 ------
 # Andrew Tanenbaum
 
+<div style='display: flex; justify-content: space-between;'>
+<div style='width: 40vh;'>
+
 ![Andrew Tanenbaum](img/andrew-tanenbaum.jpg) <!-- .element: style="height: 60vh;" -->
+
+</div>
+<div>
+
+- wykładowca
+- specjalizacja: systemy operacyjne
+
+</div>
+</div>
+
 <style> #andrew-tanenbaum { font-size: 1.1em; } </style>
 
 ---
@@ -203,8 +216,20 @@ PDP-11
 ------
 # Linus Torvalds
 
+<div style='display: flex; justify-content: space-between;'>
+<div style='width: 40vh;'>
+
 ![Linus Torvalds](img/linus-torvalds.jpg) <!-- .element: style="height: 50vh;" -->
 <style> #linus-torvalds { font-size: 1.1em; } </style>
+
+</div>
+<div>
+
+- szwedzkojęzyczny Fin
+- w 1991 student Uniwersytetu Helsińskiego
+
+</div>
+</div>
 
 ---
 # My new operating system
