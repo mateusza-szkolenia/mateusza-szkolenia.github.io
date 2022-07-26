@@ -75,6 +75,7 @@ inni
 - `r--r--r--`
 - `r--------`
 - `rw-rw----`
+
 ---
 ## X - uruchomienie
 
