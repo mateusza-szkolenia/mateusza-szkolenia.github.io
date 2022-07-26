@@ -234,7 +234,7 @@ Ubuntu 12.04 LTS (Precise Pangolin)
 Ubuntu 12.10 (Quantal Quetzal)  
 Ubuntu 13.04 (Raring Ringtail)  
 Ubuntu 13.10 (Saucy Salamander)  
-**Ubuntu 14.04 LTS (Trusty Tahr)**  
+Ubuntu 14.04 LTS (Trusty Tahr)  
 Ubuntu 14.10 (Utopic Unicorn)  
 Ubuntu 15.04 (Vivid Vervet)  
 Ubuntu 15.10 (Wily Werewolf)  
@@ -250,7 +250,8 @@ Ubuntu 19.10 (Eoan Ermine)
 Ubuntu 20.10 (Groovy Gorilla)  
 Ubuntu 21.04 (Hirsute Hippo)  
 **Ubuntu 21.10 (Impish Indri)**  
-*Ubuntu 22.04 LTS (Jammy Jellyfish)*  
+Ubuntu 22.04 LTS (Jammy Jellyfish)  
+*Ubuntu 22.10 (Kinetic Kudu)*
 
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
 <!-- .slide: data-background="#5e2750" -->
@@ -265,7 +266,7 @@ Ubuntu 21.04 (Hirsute Hippo)
 
 - wydania co kilka lat
 - numeracja
-  - głównych wydań: 6, 7, 8...
+  - głównych wydań: 7, 8, 9...
   - poprawek: 8.1, 8.2, 8.3...
 - długie wsparcie (ok. 10 lat)
 
@@ -278,7 +279,7 @@ Ubuntu 21.04 (Hirsute Hippo)
 ## Fedora
 
 - wydania średnio dwa razy w roku
-- numeracja: ...31, 32, 33, 34...
+- numeracja: ...33, 34, 35, 36...
 - krótkie wsparcie
 - pole eksperymentalne RHEL
 
