@@ -18,6 +18,9 @@ PDP-11
 
 - Bell Labs
 - język C
+- przeznaczenie:
+  - centrale telefonicznych
+  - serwery
 
 ---
 ## Ken Thompson & Dennis Ritchie
