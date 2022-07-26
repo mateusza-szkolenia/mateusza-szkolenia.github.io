@@ -38,12 +38,13 @@ PDP-11
 - pliki tekstowe
 
 ---
+<!-- .slide: data-autofragments -->
 ## Filozofia UNIXa
 
 - proste programy wykonujące jedno zadanie
 - wynik działania programu łatwy do dalszego przetwarzania
 - unikanie plików binarnych
-- unikanie interaktywnych programów
+- unikanie interaktywności
 - rozbijanie problemów i rozwiązań na mniejsze
 - tworzenie narzędzi pomocniczych, w tym generujących kod
 - samowystarczalność
