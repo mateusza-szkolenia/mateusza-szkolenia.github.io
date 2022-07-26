@@ -384,12 +384,18 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 <style> #timeline {font-size: 1.3em; } </style>
 
 ---
+<!-- .slide: data-background="#fff" -->
+
 ![Meme](img/linux-friends-meme.jpg) <!-- .element: style="height: 50vh;" -->
 
 ---
+<!-- .slide: data-background="#fff" -->
+
 ![Only 2%](img/only_2_percent.png) <!-- .element: style="height: 50vh;" -->
 
 ---
+<!-- .slide: data-background="#fff" -->
+
 ![Linux Desktop](img/year-of-desktop-linux.jpg) <!-- .element: style="height: 50vh;" -->
 
 ------
