@@ -6,13 +6,15 @@
 *binary digit*
 
 ---
+<!-- .slide: data-autofragments -->
+
 ## Bit
 
 - jednostka ilości informacji
 - jeden z dwóch możliwych stanów
-  - prawda/fałsz
-  - zero/jeden
-  - włączony/wyłączony
+  - prawda ⇿ fałsz
+  - zero ⇿ jeden
+  - włączony ⇿ wyłączony
 
 ------
 ## System binarny
