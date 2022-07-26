@@ -19,7 +19,7 @@ PDP-11
 - Bell Labs
 - język C
 - przeznaczenie:
-  - centrale telefonicznych
+  - centrale telefoniczne
   - serwery
 
 ---
@@ -93,23 +93,25 @@ PDP-11
 </div>
 
 ------
+<!-- .slide: data-autofragments -->
 # Andrew Tanenbaum
 
 <div style='display: flex; justify-content: space-between;'>
-<div style='width: 40vh;'>
+<div style='width: 30vw;'>
 
-![Andrew Tanenbaum](img/andrew-tanenbaum.jpg) <!-- .element: style="height: 60vh;" -->
+![Andrew Tanenbaum](img/andrew-tanenbaum.jpg)
 
 </div>
-<div>
+<div style='width: 40vw;'>
 
-- wykładowca
+- profesor nauk technicznych
+- wykładowca na Wolnym Uniwersytecie w Amsterdamie
 - specjalizacja: systemy operacyjne
 
 </div>
 </div>
 
-<style> #andrew-tanenbaum { font-size: 1.1em; } </style>
+<style> #andrew-tanenbaum { font-size: 1.2em; } </style>
 
 ---
 ![Book](img/minix-book.jpg) <!-- .element: style="height: 70vh;" -->
@@ -121,7 +123,7 @@ PDP-11
 - *mini Unix*
 - prosty, do celów dydaktycznych
 - dostępny dla 8088, potem x86
-- ograniczenia licencyjne wydawcy
+- ograniczona licencja
 
 ------
 # Richard Stallman
@@ -178,16 +180,19 @@ PDP-11
 <iframe src='assets/mit.html' style='width: 60vw; height: 50vh;'></iframe>
 
 ---
-# Inne licencje
+<!-- .slide: data-autofragments -->
+# Inne wolne licencje
 
 - *public domain*
 - LGPL i AGPL
 - BSD License
+- Creative Commons
 - Apache License
 - Mozilla Public License
 - Unlicense
 - WTFPL (Do What the Fuck You Want To Public License)
-- Creative Commons
+
+<style> #inne-wolne-licencje { font-size: 1.4em; } </style>
 
 ---
 <!-- .slide: data-background="#fff" -->
@@ -230,16 +235,17 @@ PDP-11
 <style> #oprogramowanie-gnu { font-size: 1.5em; } </style>
 
 ------
+<!-- .slide: data-autofragments -->
 # Linus Torvalds
 
 <div style='display: flex; justify-content: space-between;'>
-<div style='width: 40vh;'>
+<div style='width: 30vw;'>
 
 ![Linus Torvalds](img/linus-torvalds.jpg) <!-- .element: style="height: 50vh;" -->
-<style> #linus-torvalds { font-size: 1.1em; } </style>
+<style> #linus-torvalds { font-size: 1.4em; } </style>
 
 </div>
-<div>
+<div style='width: 40vw;'>
 
 - szwedzkojęzyczny Fin
 - w 1991 student Uniwersytetu Helsińskiego
@@ -421,10 +427,12 @@ System operacyjny oparty na Linuksie
 ---
 # Dystrybucje
 
-- również inne Uniksopodobne
-    - BSD
-    - Solarisy
-    - ...
+Również inne Uniksopodobne
+
+- BSD  
+  (FreeBSD, OpenBSD, NetBSD...)
+- Solarisy
+- ...
 
 ---
 # Komponenty
