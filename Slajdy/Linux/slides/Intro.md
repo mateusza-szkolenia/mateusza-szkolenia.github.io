@@ -30,12 +30,24 @@ PDP-11
 
 ---
 <!-- .slide: data-autofragments -->
-## Cechy UNIX-a
+## Cechy UNIXa
 
 - wielozadaniowość
 - wielodostępność
 - hierarchiczny system plików
 - pliki tekstowe
+
+---
+## Filozofia UNIXa
+
+- proste programy wykonujące jedno zadanie
+- wynik działania programu łatwy do dalszego przetwarzania
+- unikanie plików binarnych
+- unikanie interaktywnych programów
+- rozbijanie problemów i rozwiązań na mniejsze
+- tworzenie narzędzi pomocniczych, w tym generujących kod
+- samowystarczalność
+- nadrzędność przenośności nad wydajnością
 
 ------
 <!-- .slide: data-background="img/ibm-pc.jpg" -->
