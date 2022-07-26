@@ -4,6 +4,7 @@
 ## Bit
 
 *binary digit*
+
 ---
 ## Bit
 
@@ -130,7 +131,12 @@ liczba binarna: `1011011111000110101`
 ------
 ## Bajt
 
-* 8 bitów
+*binary term*
+
+---
+## Bajt
+
+8 bitów
 
 (256 wartości)
 
