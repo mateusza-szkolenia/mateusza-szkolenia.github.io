@@ -22,26 +22,58 @@
 - 2 cyfry: 0 i 1
 
 ---
+<!-- .slide: data-auto-animate -->
 ## Przykład
 
 Liczba binarna: `101111`
 
 ---
+<!-- .slide: data-auto-animate -->
 ## Przykład
 
 ```
  1  0  1  1  1  1
+```
+
+---
+<!-- .slide: data-auto-animate -->
+## Przykład
+
+```
+ 1  0  1  1  1  1
+```
+
+```txt
 32 16  8  4  2  1
 ```
 
 ---
+<!-- .slide: data-auto-animate -->
 ## Przykład
 ```
  1  0  1  1  1  1
-32     8  4  2  1 = 47
+```
+
+```txt
+32  -  8  4  2  1 
 ```
 
 ---
+<!-- .slide: data-auto-animate -->
+## Przykład
+```txt
+32 + 8 + 4 + 2 + 1
+```
+
+---
+<!-- .slide: data-auto-animate -->
+## Przykład
+```txt
+32 + 8 + 4 + 2 + 1 = 47
+```
+
+---
+<!-- .slide: data-auto-animate -->
 ## Wynik
 
 `101111` = `47`
@@ -65,11 +97,13 @@ Liczba binarna: `101111`
 - cztery bity to jedna cyfra szesnastkowa
 
 ---
+<!-- .slide: data-auto-animate -->
 ## przykład
 
 liczba binarna: `1011011111000110101`
 
 ---
+<!-- .slide: data-auto-animate -->
 ## przykład
 
 ```
@@ -77,29 +111,39 @@ liczba binarna: `1011011111000110101`
 ```
 
 ---
+<!-- .slide: data-auto-animate -->
 ## przykład
 
-```
+```txt
 101 1011 1110 0011 0101
 ```
 
 ---
+<!-- .slide: data-auto-animate -->
 ## przykład
 
 ```
 101 1011 1110 0011 0101
+```
+
+```
   5   11   14    3    5
 ```
 
 ---
+<!-- .slide: data-auto-animate -->
 ## przykład
 
 ```
 101 1011 1110 0011 0101
+```
+
+```
   5    B    E    3    5
 ```
 
 ---
+<!-- .slide: data-auto-animate -->
 ## wynik
 
 `5be35`
@@ -131,7 +175,7 @@ liczba binarna: `1011011111000110101`
 - `0o537` (Python3)
 
 ------
-## Bajt
+## Bajt (byte)
 
 *binary term*
 
