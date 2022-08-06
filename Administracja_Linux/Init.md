@@ -10,4 +10,5 @@
 - [daemontools](http://cr.yp.to/daemontools.html)
 - [busybox init](https://github.com/mirror/busybox/tree/master/init)
 - [busybox runit](https://github.com/mirror/busybox/tree/master/runit)
+- [procd](https://git.openwrt.org/?p=project/procd.git;a=summary) (OpenWRT)
 - [upstart](https://upstart.ubuntu.com/) *nie rozwijany*
