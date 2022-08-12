@@ -54,7 +54,7 @@ $ cryptsetup luksAddKey /dev/sdXXX /tmp/tajny-klucz
 
 Rekomendowanym katalogiem do przechowywania statycznych kluczy jest `/etc/cryptsetup-keys.d/`. Jeśli ten katalog nie istnieje, możemy go utworzyć.
 
-Klucz zapisujemy w pliku o nazwie `luks-67b5ce62ce1a.key`
+Klucz zapisujemy w pliku o nazwie odpowiadającej nazwie woluminu, w powyższym przypadku jest to: `luks-67b5ce62ce1a.key`
 
 ### Zdefiniowanie klucza w `/etc/crypttab`
 
@@ -64,7 +64,7 @@ Zawartość pliku po zmianie:
 luks-67b5ce62ce1a UUID=67b5ce62ce1a /etc/cryptsetup-keys.d/luks-67b5ce62ce1a.key discard
 ```
 
-**Uwaga! Nowsze wersje dystrybucji automatycznie będą szukać pliku o takiej nazwie w tej lokalizacji, więc można w nich pominąć zmianę parametru `none`.**
+**Uwaga! Nowsze wersje dystrybucji automatycznie szukają pliku o takiej nazwie w tej lokalizacji, więc można w nich pominąć zmianę parametru `none`.**
 
 ### Umieszczenie kluczy w obrazie `initramfs`
 
