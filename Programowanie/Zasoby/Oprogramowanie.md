@@ -4,9 +4,16 @@
 
 * [Notepad++](https://notepad-plus-plus.org/) (Win)
 * [Visual Studio Code](https://code.visualstudio.com/) (Win, Lin, Mac)
-* [Brackets](http://brackets.io/) (Win, Mac)
-* [Atom](https://atom.io/) (Win, Mac)
 * [Vim](https://www.vim.org/download.php) (Win, Lin, Mac)
+
+## Programy graficzne
+
+* [GIMP](https://www.gimp.org/) (Win, Lin, Mac)
+* [Krita](https://krita.org/) (Win, Lin, Mac)
+* [Inkscape](https://inkscape.org/) (Win, Lin, Mac)
+* [paint.net](https://www.getpaint.net/) (Win)
+* [pinta](https://www.pinta-project.com/) (Lin)
+
 
 ## SFTP/SCP
 
@@ -17,6 +24,7 @@
 ## SSH
 
 * [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) (Win)
+* SSH z pakietu [Git for Windows](https://git-scm.com/)
 
 ## Git
 
@@ -24,9 +32,11 @@
 * [GitHub Desktop](https://desktop.github.com/) (Win, Lin, Mac)
 * [Working Copy](https://apps.apple.com/us/app/working-copy-git-client/id896694807) (iOS)
 
+
 ## Narzędzia Uniksowe dla Windows
 
 * [Busybox Win-32](https://frippery.org/busybox/)
+* narzędzia z pakietu [Git for Windows](https://git-scm.com/)
 
 
 ## SQLite
