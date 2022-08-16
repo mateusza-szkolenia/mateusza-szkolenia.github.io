@@ -2,7 +2,7 @@
 
 <nav>
 
-<section>
+<section markdown="1">
 <figure>⌨️</figure>
 
 ## [Programowanie](Programowanie/)
@@ -11,7 +11,7 @@ Materiały pomocnicze do kursów programowania. (Python, C, C++, Javascript, SQL
 
 </section>
 
-<section>
+<section markdown="1">
 <figure>🕸️</figure>
 
 ## [Web](Web/)
@@ -20,9 +20,8 @@ Materiały pomocnicze do kursów web-development. (Głównie frontend, HTML5, CS
 
 </section>
 
-<section>
+<section markdown="1">
 <figure>🐧</figure>
-<h2><a href="Administracja_Linux/">Administracja Linux</a></h2>
 
 [Administracja Linux](Administracja_Linux/)
 
@@ -39,7 +38,7 @@ Opisy rozwiązania kilku typowych problemów.
 
 </section>
 
-<section>
+<section markdown="1">
 <figure>🎞️</figure>
 
 ## [Slajdy](Slajdy/)
@@ -50,7 +49,7 @@ Opisy rozwiązania kilku typowych problemów.
 
 </section>
 
-<section>
+<section markdown="1">
 <figure>👨🏼‍🏫</figure>
 
 ## Szkolenia
@@ -71,7 +70,7 @@ Opisy rozwiązania kilku typowych problemów.
 
 </section>
 
-<section>
+<section markdown="1">
 <figure>🗄</figure>
 
 ## [Repozytoria](https://github.com/mateusza-szkolenia/)
