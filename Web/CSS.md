@@ -1,6 +1,6 @@
 # CSS
 ## Gotowe fragmenty kodu
-* [Efektowne fragmenty kodu CSS do wykorzystania](https://atomiks.github.io/30-seconds-of-css/)
+* [Efektowne fragmenty kodu CSS do wykorzystania](https://www.30secondsofcode.org/css/)
 * [Mnóstwo gotowych elementów stron WWW zaimplementowanych w samym CSS](http://youmightnotneedjs.com/)
 * [Pochylony "akordeon" z zakładkami](https://codepen.io/gdeleon101/pen/muFvf)
 * [Filtry grafiki z Instagrama zaimplementowane w CSS](https://picturepan2.github.io/instagram.css/)
