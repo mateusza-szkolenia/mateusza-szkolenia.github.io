@@ -23,13 +23,13 @@ Materiały pomocnicze do kursów web-development. (Głównie frontend, HTML5, CS
 <section markdown="1">
 <figure>🐧</figure>
 
-[Administracja Linux](Administracja_Linux/)
+## [Administracja Linux](Administracja_Linux/)
 
 Materiały pomocnicze do szkoleń z Linuksa (artykuły, ciekawe dystrybucje, tutoriale, systemy pakietów).
 
 </section>
 
-<section>
+<section markdown="1">
 <figure>🗒️</figure>
 
 ## [Tutoriale](Tutoriale/)
@@ -56,17 +56,15 @@ Opisy rozwiązania kilku typowych problemów.
 
 ### [ALX](https://alx.pl)
 
-<p>
-<a href="https://www.alx.pl/szkolenia/git-intro/">Git</a> •
-<a href="https://www.alx.pl/szkolenia/wireguard/">Wireguard</a> •
-<a href="https://www.alx.pl/szkolenia/protokol-ipv6/">IPv6</a> •
-<a href="https://www.alx.pl/pl/administrator-linuksa/">Administrator Linuksa</a> •
-<a href="https://www.alx.pl/szkolenia/linux-essentials/">Linux - essentials</a> •
-<a href="https://www.alx.pl/pl/kurs-cpp-programowanie/">C/C++</a> •
-<a href="https://www.alx.pl/szkolenia/programowanie-c-podstawy/">C</a> •
-<a href="https://www.alx.pl/szkolenia/python-pisanie-drobnych-programow/">Python scripting</a> •
-<a href="https://www.alx.pl/pl/bootcamp-python/">Python</a>
-</p>
+[Git](https://www.alx.pl/szkolenia/git-intro/) •
+[Wireguard](https://www.alx.pl/szkolenia/wireguard/) •
+[IPv6](https://www.alx.pl/szkolenia/protokol-ipv6/) •
+[Administrator Linuksa](https://www.alx.pl/pl/administrator-linuksa/) •
+[Linux - essentials](https://www.alx.pl/szkolenia/linux-essentials/) •
+[C/C++](https://www.alx.pl/pl/kurs-cpp-programowanie/) •
+[C](https://www.alx.pl/szkolenia/programowanie-c-podstawy/) •
+[Python scripting](https://www.alx.pl/szkolenia/python-pisanie-drobnych-programow/) •
+[Python](https://www.alx.pl/pl/bootcamp-python/)
 
 </section>
 
