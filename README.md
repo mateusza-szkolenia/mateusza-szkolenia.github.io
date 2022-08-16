@@ -22,17 +22,22 @@
 
 <section>
 <figure>🗒️</figure>
-<h2><a href="Tutoriale/">Tutoriale</a></h2>
-<p>Opisy rozwiązania kilku typowych problemów.</p>
+
+## [Tutoriale](Tutoriale/)
+
+Opisy rozwiązania kilku typowych problemów.
+
 </section>
 
 <section>
 <figure>🎞️</figure>
-<h2><a href="Slajdy/">Slajdy</a></h2>
-<ul>
-<li><a href="Slajdy/Linux/">Linux</a></li>
-<li><a href="Slajdy/Git/">Git</a></li>
-</ul>
+
+## [Slajdy](Slajdy/)
+
+* [Linux](Slajdy/Linux/)
+* [Git](Slajdy/Git/)
+* [Web](Slajdy/Web/)
+
 </section>
 
 <section>
