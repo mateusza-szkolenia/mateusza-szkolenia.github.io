@@ -4,20 +4,30 @@
 
 <section>
 <figure>⌨️</figure>
-<h2><a href='Programowanie/'>Programowanie</a></h2>
-<p>Materiały pomocnicze do kursów programowania. (Python, C, C++, Javascript, SQL, SQLite, MySQL, PostgreSQL)</p>
+
+## [Programowanie](Programowanie/)
+
+Materiały pomocnicze do kursów programowania. (Python, C, C++, Javascript, SQL, SQLite, MySQL, PostgreSQL)
+
 </section>
 
 <section>
 <figure>🕸️</figure>
-<h2><a href='Web/'>Web</a></h2>
-<p>Materiały pomocnicze do kursów web-development. (Głównie frontend, HTML5, CSS)</p>
+
+## [Web](Web/)
+
+Materiały pomocnicze do kursów web-development. (Głównie frontend, HTML5, CSS)
+
 </section>
 
 <section>
 <figure>🐧</figure>
 <h2><a href="Administracja_Linux/">Administracja Linux</a></h2>
-<p>Materiały pomocnicze do szkoleń z Linuksa (artykuły, ciekawe dystrybucje, tutoriale, systemy pakietów).</p>
+
+[Administracja Linux](Administracja_Linux/)
+
+Materiały pomocnicze do szkoleń z Linuksa (artykuły, ciekawe dystrybucje, tutoriale, systemy pakietów).
+
 </section>
 
 <section>
@@ -42,8 +52,11 @@ Opisy rozwiązania kilku typowych problemów.
 
 <section>
 <figure>👨🏼‍🏫</figure>
-<h2>Szkolenia</h2>
-<h3><a href="https://alx.pl">ALX</a></h3>
+
+## Szkolenia
+
+### [ALX](https://alx.pl)
+
 <p>
 <a href="https://www.alx.pl/szkolenia/git-intro/">Git</a> •
 <a href="https://www.alx.pl/szkolenia/wireguard/">Wireguard</a> •
@@ -55,17 +68,22 @@ Opisy rozwiązania kilku typowych problemów.
 <a href="https://www.alx.pl/szkolenia/python-pisanie-drobnych-programow/">Python scripting</a> •
 <a href="https://www.alx.pl/pl/bootcamp-python/">Python</a>
 </p>
+
 </section>
 
 <section>
 <figure>🗄</figure>
-<h2><a href="https://github.com/mateusza-szkolenia/">Repozytoria</a></h2>
-<p>Kod źródłowy z zajęć.</p>
+
+## [Repozytoria](https://github.com/mateusza-szkolenia/)
+
+Kod źródłowy z zajęć.
+
 </section>
 
 </nav>
 
 <style>
+/* <!-- */
 nav section figure
 {
     display: block;
@@ -99,5 +117,7 @@ nav section figure
         text-align: center;
     }
 }
+/* --> */
 </style>
+
 <script data-goatcounter="https://mateusza.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
