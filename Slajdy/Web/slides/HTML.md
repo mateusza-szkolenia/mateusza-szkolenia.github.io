@@ -82,6 +82,37 @@ Znaczniki wyznaczają sekcje, mające początek i koniec
 ```
 
 ---
+## Atrybuty
+
+Znaczniki mogą mieć atrybuty postaci `klucz=wartość`
+
+```html
+<a href="https://alx.pl">ALX Szkolenia</a>
+```
+
+---
+## Atrybuty i cudzysłowy
+
+Wartości atrybutów powinny być w cudzysłowach lub apostrofach
+
+```html
+<p title="Wstęp">Celem niniejszego opracowania jest...</p>
+
+<p title='Zakończenie'>Dziękuję za uwagę...</p>
+```
+
+---
+## Atrybuty i cudzysłowy
+
+Dozwolone jest pominięcie cudzysłowów, jeśli wartość atrybutu nie zawiera spacji i znaków wprowadzających niejednoznaczność.
+
+```html
+<a href=https://alx.pl>ALX Szkolenia</a>
+```
+
+**Uchodzi to jednak za nieelegancki kod**
+
+---
 ## Zagnieżdżenia
 
 Sekcje mogą być zagnieżdżone
@@ -96,6 +127,7 @@ Sekcje mogą być zagnieżdżone
 ```
 
 ---
+<!-- .slide: data-auto-animate -->
 ## Białe znaki
 
 Nowe linie i spacje nie mają znaczenia.
@@ -104,12 +136,46 @@ Nowe linie i spacje nie mają znaczenia.
 <a><b><c>xxx</c></b><b>yyy</b></a>
 ```
 
-To to samo co:
+---
+<!-- .slide: data-auto-animate -->
+## Białe znaki
+
+Nowe linie i spacje nie mają znaczenia.
+
 ```html
 <a>
-    <b> <c>xxx </c>  
+    <b><c>xxx</c></b>
+    <b>yyy</b>
+</a>
+```
+
+---
+<!-- .slide: data-auto-animate -->
+## Białe znaki
+
+Nowe linie i spacje nie mają znaczenia.
+
+```html
+<a>
+    <b>
+        <c>xxx</c>  
     </b>
     <b>yyy</b>
+</a>
+```
+
+---
+<!-- .slide: data-auto-animate -->
+## Białe znaki
+
+Nowe linie i spacje nie mają znaczenia.
+
+```html
+<a>
+<b>
+<c>xxx</c>  
+</b>
+<b>yyy</b>
 </a>
 ```
 
@@ -124,6 +190,18 @@ Znaczniki mogą być puste, tzn. nie posiadają znacznika zamykającego.
 <img src='fotka3.jpg'>
 ```
 
+## Puste znaczniki - notacja XML
+
+Można spotkać się z poniższą notacją pochodzącą z języka XML/XHTML:
+
+```html
+<img src='fotka1.jpg' />
+<img src='fotka2.jpg' />
+<img src='fotka3.jpg' />
+```
+
+Jest ona dopuszczalna ale niepotrzebna.
+
 ---
 ## Przeplatanie znaczników
 
@@ -135,5 +213,39 @@ Znaczniki mogą być puste, tzn. nie posiadają znacznika zamykającego.
   └─u────────────┘      │
         └─────────────b─┘
 ```
+
 ---
+## Encje
+
+
+
+------
+# Działanie przeglądarki
+
+- pobranie kodu strony
+- parsowanie kodu
+- budowanie drzewa elementów
+- renderowanie
+
+------
+## Pobieranie kodu
+
+1. plik lokalny `file:///`
+2. zasoby zdalne: `http://` lub `https://`
+
+------
+## Parsowanie kodu
+
+------
+## Budowanie drzewa
+
+---
+## DOM
+
+*Document Object Model*
+
+(obiektowy model dokumentu)
+
+------
+## Renderowanie
 
