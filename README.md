@@ -77,6 +77,16 @@ Kod źródłowy z zajęć.
 
 </section>
 
+<section markdown="1">
+<figure>👋</figure>
+
+## Kontakt
+
+[LinkedIn](https://www.linkedin.com/in/mateusza/) •
+[Twitter](https://twitter.com/mateusza)
+
+</section>
+
 </nav>
 
 <style>
