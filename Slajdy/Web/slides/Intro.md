@@ -16,7 +16,7 @@
 - JavaScript
 
 ---
-*HTML i CSS nie są językami programowania*
+**HTML i CSS nie są językami programowania**
 
 ------
 # HTML
@@ -38,7 +38,7 @@
 # Przeglądarki
 
 ------
-# Silniki prezglądarek
+# Silniki przeglądarek
 
 ------
 [Koniec](./)
