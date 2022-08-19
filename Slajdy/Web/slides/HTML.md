@@ -190,6 +190,7 @@ Znaczniki mogą być puste, tzn. nie posiadają znacznika zamykającego.
 <img src='fotka3.jpg'>
 ```
 
+---
 ## Puste znaczniki - notacja XML
 
 Można spotkać się z poniższą notacją pochodzącą z języka XML/XHTML:
@@ -217,6 +218,34 @@ Jest ona dopuszczalna ale niepotrzebna.
 ---
 ## Encje
 
+Znaki mające specjalne znaczenie umieszcza się na stronie za pomocą encji:
+
+| znak | encja   |
+|------|---------|
+| `<`  | `&lt;`  |
+| `>`  | `&gt;`  |
+| `&`  | `&amp;` |
+
+
+---
+## Encje - przykład
+
+```html
+<p>Obrazki to znacznik &lt;img src="plik.png"&gt;</p>
+```
+<div class='htmlrender'>
+<p>Obrazki to znacznik &lt;img src="plik.png"&gt;</p>
+</div>
+
+---
+## Gdyby zabrakło encji...
+
+```html
+<p>Obrazki to znacznik <img src="plik.png"></p>
+```
+<div class='htmlrender'>
+<p>Obrazki to znacznik <img src="plik.png"></p>
+</div>
 
 
 ------

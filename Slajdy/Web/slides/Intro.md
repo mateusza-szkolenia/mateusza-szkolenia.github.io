@@ -5,7 +5,16 @@
 # Historia
 
 ---
-# CERN
+# CERN (1989)
+
+Tim Berners-Lee
+- HTTP
+- HTML
+- przeglądarka
+- serwer
+
+---
+# World Wide Web
 
 ------
 <!-- .slide: data-autofragments -->
