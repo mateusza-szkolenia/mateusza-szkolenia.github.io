@@ -35,6 +35,10 @@ Trudno powiedzieć...
 ---
 *bo można*
 
+---
+
+![Buzz](img/buzz_lightyear_distros.jpg)
+
 ------
 <!-- .slide: data-autofragments -->
 ## Różnice
