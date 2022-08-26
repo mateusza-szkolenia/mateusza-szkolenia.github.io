@@ -54,4 +54,9 @@
 * [Pastebin](https://pastebin.com/)
 * [GitHub Gist](https://gist.github.com/)
 
+## Fonty dla programistów
+
+* [iosevka](https://typeof.net/Iosevka/)
+* [FiraCode](https://github.com/tonsky/FiraCode#readme)
+* [Dev Fonts](https://devfonts.gafi.dev/) - porównanie fontów programistycznych
 
