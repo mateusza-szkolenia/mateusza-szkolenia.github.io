@@ -59,4 +59,5 @@
 * [iosevka](https://typeof.net/Iosevka/)
 * [FiraCode](https://github.com/tonsky/FiraCode#readme)
 * [Dev Fonts](https://devfonts.gafi.dev/) - porównanie fontów programistycznych
+* [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
