@@ -7,6 +7,7 @@
 
 ## Gotowe szablony stron i serwisów
 * [HTML5Up](https://html5up.net/)
+* [FreeHTML5.co](https://freehtml5.co/)
 
 ## Szablony prezentacji
 * [S5](https://meyerweb.com/eric/tools/s5/s5-intro.html) - dość stary
