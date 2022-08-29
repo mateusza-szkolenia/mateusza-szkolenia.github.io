@@ -22,8 +22,21 @@
 ------
 ## Mark Shuttleworth
 
-![Mark Shuttleworth](img/mark-shuttleworth.jpg) <!-- .element: style="height: 60vh;" -->
+<div style='display: flex; justify-content: space-between;'>
+<div style='width: 30vw;'>
 
+![Mark Shuttleworth](img/mark-shuttleworth.jpg)
+
+</div>
+<div style='width: 40vw;'>
+
+- informatyk, przedsiębiorca
+- obywatelstwo RPA i UK
+- kosmiczny turysta
+- developer Debiana
+
+</div>
+</div>
 ---
 <!-- .slide: data-autofragments -->
 ## ![Thawte](img/thawte.png)

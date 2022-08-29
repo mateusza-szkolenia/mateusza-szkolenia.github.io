@@ -242,7 +242,7 @@ Ubuntu 14.04 LTS (Trusty Tahr)
 Ubuntu 14.10 (Utopic Unicorn)  
 Ubuntu 15.04 (Vivid Vervet)  
 Ubuntu 15.10 (Wily Werewolf)  
-**Ubuntu 16.04 LTS (Xenial Xerus)**  
+Ubuntu 16.04 LTS (Xenial Xerus)  
 Ubuntu 16.10 (Yakkety Yak)  
 Ubuntu 17.04 (Zesty Zapus)  
 Ubuntu 17.10 (Artful Aardvark)  
@@ -253,8 +253,8 @@ Ubuntu 19.10 (Eoan Ermine)
 **Ubuntu 20.04 LTS (Focal Fossa)**  
 Ubuntu 20.10 (Groovy Gorilla)  
 Ubuntu 21.04 (Hirsute Hippo)  
-**Ubuntu 21.10 (Impish Indri)**  
-Ubuntu 22.04 LTS (Jammy Jellyfish)  
+Ubuntu 21.10 (Impish Indri)  
+**Ubuntu 22.04 LTS (Jammy Jellyfish)**  
 *Ubuntu 22.10 (Kinetic Kudu)*
 
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
