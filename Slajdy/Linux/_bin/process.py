@@ -19,6 +19,10 @@ def get_slidesets():
             "html_filename": hfn
         }
 
+VERSIONS = {
+    'revealjs_version': '4.3.1'
+}
+
 def main():
     "Main"
     os.chdir(os.path.dirname(__file__) + "/..")
@@ -30,7 +34,8 @@ def main():
 
     for slideset in slidesets:
         reveal_template = j2env.get_template("Reveal.html.j2")
-        reveal = reveal_template.render(**slideset)
+        params = {**slideset, **VERSIONS}
+        reveal = reveal_template.render(**params)
         reveal_fn = slideset['html_filename']
 
         try:
