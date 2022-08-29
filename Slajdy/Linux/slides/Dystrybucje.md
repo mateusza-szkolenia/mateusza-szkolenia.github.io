@@ -37,7 +37,7 @@ Trudno powiedzieć...
 
 ---
 
-![Buzz](img/buzz_lightyear_distros.jpg)
+![Buzz](img/buzz_lightyear_distros.jpg) <!-- .element: style="height: 50vh;" -->
 
 ------
 <!-- .slide: data-autofragments -->
