@@ -143,14 +143,14 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 49%; text-align: center'>
-  <h3 class='fragment fab fa-windows'></h3>
+  <h3 class='fragment'><i class='fab fa-windows'></i></h3>
   <ul>
   <li>ta sama nazwa</li>
   <li>nie mogą być w jednym katalogu</li>
   </ul>
 </div>
 <div style='width: 49%; text-align: center;'>
-  <h3 class='fragment fab fa-linux'></i></h3>
+  <h3 class='fragment'><i class='fab fa-linux'></i></h3>
   <ul>
   <li>4 różne nazwy</li>
   <li>mogą być w jednym katalogu</li>
@@ -165,12 +165,12 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 40%; text-align: center'>
-  <h3 class='fragment fab fa-windows fa-3x'></h3>
+  <h3 class='fragment'><i class='fab fa-windows fa-3x'></i></h3>
   <p>drukowalne:<br> <code style='font-size: 0.7em;'>/ \ | * : < > ? "</code></p>
   <p>niedrukowalne:<br> <code>ASCII 0-31</code></p>
 </div>
 <div style='width: 40%; text-align: center;'>
-  <h3 class='fragment fab fa-linux fa-3x'></i></h3>
+  <h3 class='fragment'><i class='fab fa-linux fa-3x'></i></h3>
   <p>drukowalne:<br> <code>/</code></p>
   <p>niedrukowalne:<br> <code>ASCII 0</code></p>
 </div>
@@ -183,7 +183,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 40%; text-align: center'>
-  <h3 class='fragment fab fa-windows fa-3x'></h3>
+  <h3 class='fragment'><i class='fab fa-windows fa-3x'></i></h3>
   <p style='font-size: 0.5em;'>
   <code>con</code><br>
   <code>nul</code><br>
@@ -194,7 +194,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
   </p>
 </div>
 <div style='width: 40%; text-align: center;'>
-  <h3 class='fragment fab fa-linux fa-3x'></i></h3>
+  <h3 class='fragment'><i class='fab fa-linux fa-3x'></i></h3>
   <p>brak ograniczeń</p>
 </div>
 </div>
@@ -206,7 +206,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 40%; text-align: center'>
-  <h3 class='fragment fab fa-windows'></h3>
+  <h3 class='fragment'><i class='fab fa-windows'></i></h3>
   <ul>
   <li>osobne dla każdego dysku</li>
   <li>rzeczywiste pliki</li>
@@ -214,7 +214,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
   </ul>
 </div>
 <div style='width: 40%; text-align: center;'>
-  <h3 class='fragment fab fa-linux'></i></h3>
+  <h3 class='fragment'><i class='fab fa-linux'></i></h3>
   <ul>
   <li>jedno wirtualne drzewo (VFS)</li>
   <li>rzeczywiste pliki tylko w niektórych gałęziach</li>
@@ -230,13 +230,13 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 40%; text-align: center'>
-  <h3 class='fragment fab fa-windows'></h3>
+  <h3 class='fragment'><i class='fab fa-windows'></i></h3>
   <p><i class='fa fa-hdd'></i> C:</p>
   <p><i class='fa fa-hdd'></i> D:</p>
   <p><i class='fa fa-hdd'></i> E:</p>
 </div>
 <div style='width: 40%; text-align: center;'>
-  <h3 class='fragment fab fa-linux'></i></h3>
+  <h3 class='fragment'><i class='fab fa-linux'></i></h3>
   <p><i class='fa fa-hdd'></i> /dev/sda</p>
   <p><i class='fa fa-hdd'></i> /dev/sda2</p>
   <p>wymagają montowania...</p>
@@ -319,14 +319,14 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 <div style='display: flex; justify-content: space-around;'>
 <div style='width: 49%; text-align: center'>
-  <h3 class='fragment fab fa-windows'></h3>
+  <h3 class='fragment'><i class='fab fa-windows'></i></h3>
   <ul>
   <li>rozszerzenie i nazwa to dwie odrębne części</li>
   <li>znane rozszerzenia domyślnie niewidoczne</li>
   </ul>
 </div>
 <div style='width: 49%; text-align: center;'>
-  <h3 class='fragment fab fa-linux'></i></h3>
+  <h3 class='fragment'><i class='fab fa-linux'></i></h3>
   <ul>
   <li>brak formalnego podziału</li>
   <li>kropka - dozwolony znak w nazwie</li>
@@ -486,7 +486,7 @@ Ograniczenia klasycznego FAT:
   </p>
 </div>
 <div style='width: 40%; text-align: center;' class=fragment>
-  <h3 class='fab fa-linux fa-3x'></i></h3>
+  <h3><i class='fab fa-linux fa-3x'></i></h3>
   <p><i>rozszerzenie nie ma znaczenia</i></p>
 </div>
 </div>
@@ -500,7 +500,7 @@ Ograniczenia klasycznego FAT:
   <p>attrybut HIDDEN</p>
 </div>
 <div style='width: 40%; text-align: center;' class=fragment>
-  <h3 class='fab fa-linux fa-3x'></i></h3>
+  <h3><i class='fab fa-linux fa-3x'></i></h3>
   <p>nie ma plików ukrytych<sup> * </sup></p>
 </div>
 </div>
