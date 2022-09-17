@@ -103,7 +103,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 - uprawnienia i pliki ukryte
 - pliki specjalne
 - znak końca linii w plikach tekstowych
-- operacje i mechnizmy blokowania
+- operacje i mechanizmy blokowania
 
 ------
 <!-- .slide: data-autofragments -->
