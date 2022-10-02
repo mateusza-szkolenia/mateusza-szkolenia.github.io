@@ -352,9 +352,9 @@ IEEE Standard 1003.1
 <!-- .slide: data-autofragments -->
 # Microsoft Windows?
 
-- POSIX Subsystem
-- Cygwin
-- Git for Windows
+- [*POSIX Subsystem*](https://en.wikipedia.org/wiki/Microsoft_POSIX_subsystem)
+- [Cygwin](https://www.cygwin.com/)
+- [Git for Windows](https://gitforwindows.org/)
 
 <style> #microsoft-windows {font-size: 1.5em; } </style>
 
@@ -402,6 +402,7 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 <!-- .slide: data-autofragments -->
 # Pojęcia
 
+- UNIX
 - Linux
 - GNU/Linux
 - dystrybucja Linuksa
@@ -412,8 +413,8 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 <!-- .slide: data-autofragments -->
 # Linux
 
-- nazwa oznacza sam kernel
-- <https://www.kernel.org>
+- nazwa oznacza sam kernel:  
+  <https://www.kernel.org>
 
 ---
 <!-- .slide: data-autofragments -->
@@ -432,14 +433,14 @@ System operacyjny oparty na Linuksie
 - wydany przez konkretny podmiot
 - instalator i system pakietów
 - usługi dodatkowe
-- *niekoniecznie GNU*
+- **niekoniecznie GNU** (np. *Alpine Linux*)
 
 <style> #dystrybucja-linuksa { font-size: 1.4em; } </style>
 
 ---
 # Dystrybucje
 
-Również inne Uniksopodobne
+Również inne Uniksy i Uniksopodobne
 
 - BSD  
   (FreeBSD, OpenBSD, NetBSD...)
