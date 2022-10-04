@@ -24,9 +24,14 @@
 - Simson Garfinkel, Daniel Weise, Steven Strassmann - *The UNIX-HATERS Handbook*
 [[PDF](https://web.mit.edu/~simsong/www/ugh.pdf)]
 [[Wikipedia](https://en.wikipedia.org/wiki/The_UNIX-HATERS_Handbook)]
+- Pure Bash Bible
+[[web](https://github.com/dylanaraps/pure-bash-bible)]
+- Bash handbook
+[[web](https://github.com/denysdovhan/bash-handbook)]
 
 ## Artykuły
 
+### Bash
 - [Pułapki Basha](https://mywiki.wooledge.org/BashPitfalls)
 - [Kompleksowo o hasłach - CERT Polska](https://cert.pl/posts/2022/01/kompleksowo-o-haslach/)
 - [MF need package management](http://michael.orlitzky.com/articles/motherfuckers_need_package_management.xhtml)
