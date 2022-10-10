@@ -30,6 +30,10 @@ Subiektywny wybór odcinków [XKCD](https://xkcd.com/)
 
 ![est](https://imgs.xkcd.com/comics/estimation.png)
 
+## 722: Computer problems
+
+![buttons](https://imgs.xkcd.com/comics/computer_problems.png)
+
 ## 838: Incident
 
 ![incident](https://imgs.xkcd.com/comics/incident.png)
@@ -61,6 +65,10 @@ Subiektywny wybór odcinków [XKCD](https://xkcd.com/)
 ## 1538: Lyrics
 
 ![lyrics](https://imgs.xkcd.com/comics/lyrics.png)
+
+## 1553: Public Key
+
+![pubkey](https://imgs.xkcd.com/comics/public_key.png)
 
 ## 1597: Git
 
