@@ -10,6 +10,26 @@ Subiektywny wybór odcinków [XKCD](https://xkcd.com/)
 
 ![random](https://imgs.xkcd.com/comics/random_number.png)
 
+## 378: Real Programmers
+
+![real](https://imgs.xkcd.com/comics/real_programmers.png)
+
+## 386: Duty Calls
+
+![duty](https://imgs.xkcd.com/comics/duty_calls.png)
+
+## 435: Purity
+
+![purity](https://imgs.xkcd.com/comics/purity.png)
+
+## 538: Security
+
+![security](https://imgs.xkcd.com/comics/security.png)
+
+## 612: Estimation
+
+![est](https://imgs.xkcd.com/comics/estimation.png)
+
 ## 838: Incident
 
 ![incident](https://imgs.xkcd.com/comics/incident.png)
@@ -22,9 +42,21 @@ Subiektywny wybór odcinków [XKCD](https://xkcd.com/)
 
 ![password](https://imgs.xkcd.com/comics/password_strength.png)
 
+## 1118: Microsoft
+
+![ms](https://imgs.xkcd.com/comics/microsoft.png)
+
+## 1122: Electoral Precedent
+
+~![electoral](https://imgs.xkcd.com/comics/electoral_precedent.png)
+
 ## 1181: PGP
 
 ![ppg](https://imgs.xkcd.com/comics/pgp.png)
+
+## 1739: Fixing Problems
+
+![fixing](https://imgs.xkcd.com/comics/fixing_problems.png)
 
 ## 1892: USB Cables
 
