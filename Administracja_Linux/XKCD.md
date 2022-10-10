@@ -62,6 +62,10 @@ Subiektywny wybór odcinków [XKCD](https://xkcd.com/)
 
 ![git](https://imgs.xkcd.com/comics/git_commit.png)
 
+## 1354: Heartbleed Explanation
+
+![hearbleed](https://imgs.xkcd.com/comics/heartbleed_explanation.png)
+
 ## 1538: Lyrics
 
 ![lyrics](https://imgs.xkcd.com/comics/lyrics.png)
