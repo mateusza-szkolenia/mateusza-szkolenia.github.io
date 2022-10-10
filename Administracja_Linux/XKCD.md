@@ -54,6 +54,18 @@ Subiektywny wybór odcinków [XKCD](https://xkcd.com/)
 
 ![ppg](https://imgs.xkcd.com/comics/pgp.png)
 
+## 1296: Git Commit
+
+![git](https://imgs.xkcd.com/comics/git_commit.png)
+
+## 1538: Lyrics
+
+![lyrics](https://imgs.xkcd.com/comics/lyrics.png)
+
+## 1597: Git
+
+![git](https://imgs.xkcd.com/comics/git.png)
+
 ## 1739: Fixing Problems
 
 ![fixing](https://imgs.xkcd.com/comics/fixing_problems.png)
