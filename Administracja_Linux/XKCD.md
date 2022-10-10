@@ -58,6 +58,10 @@ Subiektywny wybór odcinków [XKCD](https://xkcd.com/)
 
 ![fixing](https://imgs.xkcd.com/comics/fixing_problems.png)
 
+## 1865: Wifi vs Cellular
+
+![mobile](https://imgs.xkcd.com/comics/wifi_vs_cellular.png)
+
 ## 1892: USB Cables
 
 ![usb](https://imgs.xkcd.com/comics/usb_cables.png)
