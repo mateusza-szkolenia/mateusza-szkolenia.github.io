@@ -26,6 +26,10 @@ Subiektywny wybór odcinków [XKCD](https://xkcd.com/)
 
 ![ppg](https://imgs.xkcd.com/comics/pgp.png)
 
+## 1892: USB Cables
+
+![usb](https://imgs.xkcd.com/comics/usb_cables.png)
+
 ## 2205: Types of Approximation
 
 ![types](https://imgs.xkcd.com/comics/types_of_approximation.png)
