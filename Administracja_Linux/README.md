@@ -59,3 +59,7 @@
 - [Środowiska graficzne](Srodowiska_graficzne.md)
 
 ## [Sieci](Sieci.md)
+
+## Inne
+
+- [Prezentacja działania algorytmu SHA-2 (256)](https://sha256algorithm.com/)

@@ -16,3 +16,4 @@
 ## Inne
 
 * [NW.js](https://nwjs.io/)
+* [Prezentacja działania algorytmu SHA-2 (256)](https://sha256algorithm.com/)
