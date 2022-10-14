@@ -66,3 +66,4 @@
 
 - [Prezentacja działania algorytmu SHA-2 (256)](https://sha256algorithm.com/)
 - [XKCD](XKCD.md)
+- [TLDRLegal - skrótowy opis popularnych licencji oprogramowania](https://tldrlegal.com/)
