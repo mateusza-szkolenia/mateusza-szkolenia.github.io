@@ -57,8 +57,8 @@ PDP-11
 <!-- .slide: data-background="#fff" -->
 # IBM PC (1981)
 
-<div style='display: flex; justify-content: space-between;'>
-<div style='width: 30vh;'>
+<div class='cols cols-2'>
+<div>
 
 ![IBM PC](img/ibm-pc.jpg)
 
@@ -70,13 +70,14 @@ PDP-11
 - MS-DOS, MS Windows
 
 </div>
+</div>
 
 ---
 <!-- .slide: data-autofragments -->
 # DOS (1981)
 
-<div style='display: flex; justify-content: space-between;'>
-<div style='width: 30vh;'>
+<div class='cols cols-2'>
+<div>
 
 ![MS DOS](img/ms-dos.png)
 
@@ -96,13 +97,13 @@ PDP-11
 <!-- .slide: data-autofragments -->
 # Andrew Tanenbaum
 
-<div style='display: flex; justify-content: space-between;'>
-<div style='width: 30vw;'>
+<div class='cols cols-2'>
+<div>
 
 ![Andrew Tanenbaum](img/andrew-tanenbaum.jpg)
 
 </div>
-<div style='width: 40vw;'>
+<div>
 
 - profesor nauk technicznych
 - wykładowca na Wolnym Uniwersytecie w Amsterdamie
@@ -238,14 +239,14 @@ PDP-11
 <!-- .slide: data-autofragments -->
 # Linus Torvalds
 
-<div style='display: flex; justify-content: space-between;'>
-<div style='width: 30vw;'>
+<div class='cols cols-2'>
+<div>
 
 ![Linus Torvalds](img/linus-torvalds.jpg) <!-- .element: style="height: 50vh;" -->
 <style> #linus-torvalds { font-size: 1.4em; } </style>
 
 </div>
-<div style='width: 40vw;'>
+<div>
 
 - szwedzkojęzyczny Fin
 - w 1991 student Uniwersytetu Helsińskiego
