@@ -83,7 +83,8 @@ Kod źródłowy z zajęć.
 ## Kontakt
 
 [LinkedIn](https://www.linkedin.com/in/mateusza/) •
-[Twitter](https://twitter.com/mateusza)
+[Twitter](https://twitter.com/mateusza) •
+[✉️ alx.pl](mailto:m.adamowski@alx.pl)
 
 </section>
 

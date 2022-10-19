@@ -67,3 +67,7 @@
 - [Prezentacja działania algorytmu SHA-2 (256)](https://sha256algorithm.com/)
 - [XKCD](XKCD.md)
 - [TLDRLegal - skrótowy opis popularnych licencji oprogramowania](https://tldrlegal.com/)
+
+## Materiały do szkoleń w [ALX](https://alx.pl)
+
+- <http://students.alx.pl/zdalnie/admin.html>
