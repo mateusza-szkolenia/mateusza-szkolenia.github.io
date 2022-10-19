@@ -23,6 +23,7 @@ PDP-11
   - serwery
 
 ---
+<!-- .slide: data-autofragments -->
 ## Ken Thompson & Dennis Ritchie
 
 <div class='cols cols-2'>
@@ -133,7 +134,21 @@ PDP-11
 <style> #andrew-tanenbaum { font-size: 1.2em; } </style>
 
 ---
-![Book](img/minix-book.jpg) <!-- .element: style="height: 70vh;" -->
+<!-- .slide: data-autofragments -->
+# Książka "Systemy Operacyjne"
+
+<div class='cols cols-2'>
+<div>
+
+![Book](img/minix-book.jpg)
+
+</div>
+<div>
+
+
+
+</div>
+</div>
 
 ---
 <!-- .slide: data-autofragments -->
@@ -145,6 +160,7 @@ PDP-11
 - ograniczona licencja
 
 ------
+<!-- .slide: data-autofragments -->
 # Richard Stallman
 
 <div class='cols cols-2'>
