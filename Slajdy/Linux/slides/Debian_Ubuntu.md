@@ -3,7 +3,20 @@
 ------
 ## Ian Murdock
 
-![Ian Murdock](img/ian-murdock.jpg) <!-- .element: style="height: 60vh;" -->
+<div class='cols cols-2'>
+<div>
+
+![Ian Murdock](img/ian-murdock.jpg)
+
+</div>
+<div>
+
+- programista
+- (1973-2015)
+
+</div>
+</div>
+
 <style> #ian-murdock { font-size: 1.2em; } </style>
 
 ---
@@ -22,18 +35,19 @@
 ------
 ## Mark Shuttleworth
 
-<div style='display: flex; justify-content: space-between;'>
-<div style='width: 30vw;'>
+<div class='cols cols-2'>
+<div>
 
 ![Mark Shuttleworth](img/mark-shuttleworth.jpg)
 
 </div>
-<div style='width: 40vw;'>
+<div>
 
-- informatyk, przedsiębiorca
+- informatyk, przedsiębiorca, milioner
 - obywatelstwo RPA i UK
 - kosmiczny turysta
 - developer Debiana
+- (1973)
 
 </div>
 </div>

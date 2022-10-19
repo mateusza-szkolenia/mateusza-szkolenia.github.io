@@ -25,7 +25,22 @@ PDP-11
 ---
 ## Ken Thompson & Dennis Ritchie
 
-![Ritchie and Thopson](img/ritchie_and_thompson.jpg) <!-- .element: style="height: 60vh;" -->
+<div class='cols cols-2'>
+<div>
+
+![Ritchie and Thopson](img/ritchie_and_thompson.jpg)
+
+</div>
+<div>
+
+- pionierzy informatyki
+- twórcy m.in. UNIX-a i C
+- KT (1943)
+- DR (1941-2011)
+
+</div>
+</div>
+
 <style> #ken-thompson--dennis-ritchie { font-size: 1.2em; } </style>
 
 ---
@@ -108,6 +123,7 @@ PDP-11
 - profesor nauk technicznych
 - wykładowca na Wolnym Uniwersytecie w Amsterdamie
 - specjalizacja: systemy operacyjne
+- (1944)
 
 </div>
 </div>
@@ -129,7 +145,22 @@ PDP-11
 ------
 # Richard Stallman
 
-![RMS](img/richard-stallman.jpg) <!-- .element: style="height: 40vh;" -->
+<div class='cols cols-2'>
+<div>
+
+![RMS](img/richard-stallman.jpg)
+
+</div>
+<div>
+
+- programista
+- aktywista, działacz społeczny
+- filozof
+- (1953)
+
+</div>
+</div>
+
 <style> #richard-stallman { font-size: 1.1em; } </style>
 
 ---
@@ -250,6 +281,7 @@ PDP-11
 
 - szwedzkojęzyczny Fin
 - w 1991 student Uniwersytetu Helsińskiego
+- (1969)
 
 </div>
 </div>
