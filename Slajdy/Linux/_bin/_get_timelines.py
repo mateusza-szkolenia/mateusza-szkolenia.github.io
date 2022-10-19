@@ -10,9 +10,8 @@ OUTPUTDIR = '../img'
 
 def get_timeline(wiki_url, size, filename):
     output = f'{OUTPUTDIR}/{filename}'
-    htmlsrc = urllib.request.urlopen(wiki_url).read().decode('UTF-8')
-    x = find_timeline_image(htmlsrc)
-    pngimg = urllib.request.urlopen(x).read()
+
+    pngimg = get_png_from_url(wiki_url)
 
     TEMP_OUTPUT = tempfile.mktemp('.png')
     with open(TEMP_OUTPUT, 'wb') as f:
@@ -26,6 +25,17 @@ def get_timeline(wiki_url, size, filename):
         output
     ])
     os.unlink(TEMP_OUTPUT)
+
+
+def get_png_from_url(url):
+    x = find_timeline_image_from_url(url)
+    return urllib.request.urlopen(x).read()
+
+
+def find_timeline_image_from_url(url):
+    htmlsrc = urllib.request.urlopen(wiki_url).read().decode('UTF-8')
+    return find_timeline_image(htmlsrc)
+
 
 def find_timeline_image(htmlsrc):
     import html.parser
