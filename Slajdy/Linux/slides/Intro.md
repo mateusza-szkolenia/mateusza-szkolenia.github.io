@@ -30,13 +30,14 @@ PDP-11
 
 ![Ritchie and Thopson](img/ritchie_and_thompson.jpg)
 
+1943- (KT)  
+1941-2011 (DR)
+
 </div>
 <div>
 
 - pionierzy informatyki
 - twórcy m.in. UNIX-a i C
-- KT (1943)
-- DR (1941-2011)
 
 </div>
 </div>
@@ -117,13 +118,14 @@ PDP-11
 
 ![Andrew Tanenbaum](img/andrew-tanenbaum.jpg)
 
+1944-
+
 </div>
 <div>
 
 - profesor nauk technicznych
 - wykładowca na Wolnym Uniwersytecie w Amsterdamie
 - specjalizacja: systemy operacyjne
-- (1944)
 
 </div>
 </div>
@@ -150,13 +152,14 @@ PDP-11
 
 ![RMS](img/richard-stallman.jpg)
 
+1953-
+
 </div>
 <div>
 
 - programista
 - aktywista, działacz społeczny
 - filozof
-- (1953)
 
 </div>
 </div>
@@ -246,9 +249,24 @@ PDP-11
 ---
 <!-- .slide: data-background="#eee" -->
 # GNU (1983)
-![GNU](img/gnu.png) <!-- .element: style="height: 40vh;" -->
 
-> GNU is Not Unix
+<div class='cols cols-2'>
+<div>
+
+![GNU](img/gnu.png)
+
+GNU is Not Unix
+
+</div>
+<div>
+
+- system operacyjny
+  - kernel
+  - oprogramowanie
+  - programy użytkowe
+
+</div>
+</div>
 
 ---
 <!-- .slide: data-autofragments -->
@@ -273,18 +291,20 @@ PDP-11
 <div class='cols cols-2'>
 <div>
 
-![Linus Torvalds](img/linus-torvalds.jpg) <!-- .element: style="height: 50vh;" -->
-<style> #linus-torvalds { font-size: 1.4em; } </style>
+![Linus Torvalds](img/linus-torvalds.jpg)
+
+1969-
 
 </div>
 <div>
 
 - szwedzkojęzyczny Fin
 - w 1991 student Uniwersytetu Helsińskiego
-- (1969)
 
 </div>
 </div>
+
+<style> #linus-torvalds { font-size: 1.4em; } </style>
 
 ---
 # My new operating system
@@ -506,6 +526,7 @@ pakiety:     deb         rpm         apk      xbps
 | 2020 | Ubuntu 20.04 | 5.4    | 3.36  | 9.0  | 3.8    |
 | 2022 | Ubuntu 22.04 | 5.15   | 3.42  | 11.0 | 3.10   |
 | 2022 | RHEL 9       | 5.14   | 3.40  | 11.2 | 3.9    |
+| 2022 | Ubuntu 22.10 | 5.19   | 3.43  | 12.2 | 3.10   |
 
 <style> #wersje-wydania + table { font-size: 0.7em; } </style>
 
