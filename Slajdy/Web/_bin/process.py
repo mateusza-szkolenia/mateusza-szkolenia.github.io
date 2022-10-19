@@ -1,1 +1,1 @@
-/home/mateusza/Documents/ALX/mateusza-szkolenia.github.io/Slajdy/.common/process.py
+../../.common/process.py
