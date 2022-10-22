@@ -8,7 +8,7 @@ div.cols-2 div {
 }
 
 div.cols div:first-child img {
-    max-height: 55vh;
+    max-height: calc(var(--slide-height) * 0.5);
 }
 
 div.cols div img + p {
