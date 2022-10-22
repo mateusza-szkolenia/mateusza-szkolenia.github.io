@@ -131,7 +131,7 @@ PDP-11
 </div>
 </div>
 
-<style> #andrew-tanenbaum { font-size: 1.2em; } </style>
+<style> #andrew-tanenbaum { font-size: 1.4em; } </style>
 
 ---
 <!-- .slide: data-autofragments -->
