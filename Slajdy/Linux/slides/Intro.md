@@ -145,10 +145,10 @@ PDP-11
 </div>
 <div>
 
-
-
 </div>
 </div>
+
+<style> #książka-systemy-operacyjne { font-size: 1.3em; } </style>
 
 ---
 <!-- .slide: data-autofragments -->
@@ -179,8 +179,6 @@ PDP-11
 
 </div>
 </div>
-
-<style> #richard-stallman { font-size: 1.1em; } </style>
 
 ---
 <!-- .slide: data-autofragments -->
