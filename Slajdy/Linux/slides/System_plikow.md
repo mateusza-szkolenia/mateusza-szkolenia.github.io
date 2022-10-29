@@ -52,9 +52,8 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 - inna nazwa: FIFO
 - kolejka
-- komunikacja 1-do-1 między procesami
-- zerowy rozmiar
-- brak buforowania
+- komunikacja 1-do-1 między procesami (jednokierunkowa)
+- zerowy rozmiar na dysku
 
 ---
 <!-- .slide: data-autofragments -->
@@ -62,8 +61,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 - komunikacja 1-do-wielu
 - odpowiednik łączności TCP/IP, ale bez stosu sieciowego
-- zerowy rozmiar
-- brak buforowania
+- zerowy rozmiar na dysku
 
 ---
 <!-- .slide: data-autofragments -->
@@ -71,7 +69,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 - komunikacja między procesami a urządzeniami obsługiwanymi przez sterownik kernela
 - tylko w katalogu `/dev/`
-- zerowy rozmiar
+- zerowy rozmiar na dysku
 - identyfikacja urządzeń:
   - dwie liczby całkowite (*major*, *minor*)
 
@@ -90,6 +88,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 - służą organizacji danych
 - mogą zawierać inne pliki i katalogi
 - mogą być *wirtualne*
+- są specjalnym rodzajem pliku
 
 ------
 <!-- .slide: data-autofragments -->
@@ -516,7 +515,7 @@ Ograniczenia klasycznego FAT:
   - pliki pomocnicze, tymczasowe
   - metainformacje
 * "ukrycie" nie implikuje prywatności, bezpieczeństwa
-* "ukrycie" implikuje zmianę nazwy
+* "ukrycie" oznacza zmianę nazwy
 
 ------
 [Koniec](./)
