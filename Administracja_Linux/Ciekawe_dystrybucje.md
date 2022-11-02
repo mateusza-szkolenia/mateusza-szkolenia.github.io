@@ -8,6 +8,10 @@
 
 *Uwaga! "Prostota" nie oznacza tu "łatwość użytkowania" - wręcz przeciwnie.*
 
+## Linux bez dystrybucji
+
+* [Linux From Scratch](https://www.linuxfromscratch.org/)
+
 ## LiveCD z dużą ilością narzędzi specjalistycznych
 
 * [GRML](https://grml.org/)
