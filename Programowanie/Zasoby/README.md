@@ -9,5 +9,6 @@
 * [Narzędzia online](Narzedzia.md)
 * [Javascript](Javascript.md)
 * [PHP](PHP.md)
+* [Python](Python.md)
 * [Oprogramowanie](Oprogramowanie.md)
 * [API](API.md)
