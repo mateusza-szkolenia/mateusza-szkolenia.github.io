@@ -8,16 +8,17 @@
 
 ![Ian Murdock](img/ian-murdock.jpg)
 
+1973-2015
+
 </div>
 <div>
 
 - programista
-- (1973-2015)
 
 </div>
 </div>
 
-<style> #ian-murdock { font-size: 1.2em; } </style>
+<style> #ian-murdock { font-size: 1.4em; } </style>
 
 ---
 <!-- .slide: data-background="#eee" -->
@@ -40,6 +41,8 @@
 
 ![Mark Shuttleworth](img/mark-shuttleworth.jpg)
 
+1973
+
 </div>
 <div>
 
@@ -47,7 +50,6 @@
 - obywatelstwo RPA i UK
 - kosmiczny turysta
 - developer Debiana
-- (1973)
 
 </div>
 </div>
@@ -98,15 +100,45 @@ Z afrykańskiego: *humanity towards others*
 ---
 ### Ship it
 
+<div class='cols cols-2'>
+<div>
+
 ![Shipit](img/shipit.jpg)
 
-(2004-2011)
+2004-2011
+
+</div>
+<div>
+
+- darmowa wysyłka płyt z Ubuntu
+- wersje Live + Installer
+- 3 platformy:
+  - x86 32-bit
+  - x86 64-bit
+  - PPC (Macintosh)
+
+</div>
+</div>
+
 
 ---
 ### Tapety
 
+<div class='cols cols-2'>
+<div>
+
 ![Naked people](img/ubuntu-naked-people.png)
 
+</div>
+<div>
+
+- akty
+  - na tapetach 
+  - w mediach
+- *Linux z gołymi ludźmi*
+
+</div>
+</div>
 ---
 ### Nazwa
 

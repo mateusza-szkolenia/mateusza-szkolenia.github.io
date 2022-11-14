@@ -170,5 +170,38 @@ inni
 - `rwx--x--x` (711)
 
 ------
+## Dodatkowe mechanizmy
+
+- setuid, setgid
+- sticky bit
+- ACL
+- capabilities
+
+---
+## suid, setgid
+
+- dodatkowy bit
+- uruchomienie programu na prawach właściciela pliku
+
+---
+## sticky bit
+
+- ogranicznenie kasowania plików
+- patrz: `/tmp`
+
+---
+## ACL
+
+Access Control List
+- prawa `RWX`
+- przydzielane dowolnym użytkownikom, grupom
+
+---
+## capabilities
+
+Uruchomienie programu z rozszerzonymi prawami.
+
+------
+
 [Koniec](./)
 

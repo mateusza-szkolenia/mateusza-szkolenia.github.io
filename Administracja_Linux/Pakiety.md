@@ -3,20 +3,25 @@
 ## Systemy pakietów niezależne od dystrybucji
 
 ### Flatpak
-* Strona: [https://flatpak.org/](https://flatpak.org/)
-* Repozytorium: [https://flathub.org/](https://flathub.org/)
+* Strona: <https://flatpak.org/>
+* Repozytorium: <https://flathub.org/>
 
 ### Snap
-* Strona i repozytorium: [https://snapcraft.io/](https://snapcraft.io/)
+* Strona i repozytorium: <https://snapcraft.io/>
 * [Jak zablokować `snapd`](../Tutoriale/Blokowanie_Snapd/)
 
 ### AppImage
-* Strona: [https://appimage.org/](https://appimage.org/)
+* Strona: <https://appimage.org/>
 
 ### Zero Install
-* Strona: [https://0install.net/](https://0install.net/)
+* Strona: <https://0install.net/>
 
 ## Agregaty informacji
 
-### [Repology](https://repology.org/)
+### Repology:
+* Strona <https://repology.org/>
 
+## Dodatkowe paczki dla RHEL i CentOS 7
+
+### IUS.io
+* Strona: <https://ius.io/>
