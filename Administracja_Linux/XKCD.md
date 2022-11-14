@@ -94,10 +94,15 @@ Subiektywny wybór odcinków [XKCD](https://xkcd.com/)
 
 ![types](https://imgs.xkcd.com/comics/types_of_approximation.png)
 
-## [2347]: Dependency
+## 2347: Dependency
 
 ![dep](https://imgs.xkcd.com/comics/dependency.png)
 
-## [2671]: Rotation
+## 2671: Rotation
 
 ![rot](https://imgs.xkcd.com/comics/rotation.png)
+
+## 2697: Y2K and 2038
+
+![bug](https://imgs.xkcd.com/comics/y2k_and_2038.png)
+
