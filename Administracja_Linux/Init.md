@@ -12,3 +12,7 @@
 - [busybox runit](https://github.com/mirror/busybox/tree/master/runit)
 - [procd](https://git.openwrt.org/?p=project/procd.git;a=summary) (OpenWRT)
 - [upstart](https://upstart.ubuntu.com/) *nie rozwijany*
+
+## Inne
+
+- [The Tragedy of systemd](https://www.youtube.com/watch?v=o_AIw9bGogo) - ciekawy wykład o `systemd`, systemach operacyjnych, `init`.
