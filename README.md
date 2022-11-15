@@ -7,7 +7,7 @@
 
 ## [Programowanie](Programowanie/)
 
-Materiały pomocnicze do kursów programowania. (Python, C, C++, Javascript, SQL, SQLite, MySQL, PostgreSQL)
+Materiały do kursów programowania. (Python, C, C++, Javascript, SQL, SQLite, MySQL, PostgreSQL)
 
 </section>
 
@@ -16,7 +16,7 @@ Materiały pomocnicze do kursów programowania. (Python, C, C++, Javascript, SQL
 
 ## [Web](Web/)
 
-Materiały pomocnicze do kursów web-development. (Głównie frontend, HTML5, CSS)
+Materiały do kursów web-development. (Głównie frontend, HTML5, CSS)
 
 </section>
 
@@ -25,7 +25,16 @@ Materiały pomocnicze do kursów web-development. (Głównie frontend, HTML5, CS
 
 ## [Administracja Linux](Administracja_Linux/)
 
-Materiały pomocnicze do szkoleń z Linuksa (artykuły, ciekawe dystrybucje, tutoriale, systemy pakietów).
+Materiały do szkoleń z Linuksa (artykuły, ciekawe dystrybucje, tutoriale, systemy pakietów).
+
+</section>
+
+<section markdown="1">
+<figure>🕵️</figure>
+
+## [Bezpieczeństwo](Bezpieczenstwo/)
+
+Security, kryptografia, hacking, informatyka śledcza, prywatność.
 
 </section>
 
