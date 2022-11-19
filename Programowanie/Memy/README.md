@@ -45,6 +45,10 @@
 
 ![in-scope-out-of-scope.jpg](in-scope-out-of-scope.jpg)
 
+## `python-lists.jpg`
+
+![python-lists.jpg](python-lists.jpg)
+
 ## `libreoffice-crack.jpg`
 
 ![libreoffice-crack.jpg](libreoffice-crack.jpg)
