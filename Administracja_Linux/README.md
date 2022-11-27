@@ -31,6 +31,7 @@
 - [Bash Pitfalls](https://mywiki.wooledge.org/BashPitfalls)
 - [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
 - [Bash handbook](https://github.com/denysdovhan/bash-handbook)
+- [Bashism](https://mywiki.wooledge.org/Bashism)
 
 ### Bezpieczeństwo
 - [Kompleksowo o hasłach - CERT Polska](https://cert.pl/posts/2022/01/kompleksowo-o-haslach/)
