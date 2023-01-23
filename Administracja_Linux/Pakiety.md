@@ -29,6 +29,12 @@
 ### IUS.io (RHEL i CentOS)
 * Strona: <https://ius.io/>
 
+### Termux
+Podsystem Linux z menedżerem pakietów dla Androida.
+
+* Strona: <https://termux.dev/>
+* Pakiety: <https://packages.termux.dev/>
+
 ## Inne systemy pakietów i repozytoria
 
 ### Python Package Index

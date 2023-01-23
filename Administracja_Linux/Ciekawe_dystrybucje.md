@@ -48,6 +48,10 @@
 
 * [FreePBX](https://www.freepbx.org/)
 
+### Smartfony z Androidem
+
+* [Termux](https://termux.dev/) - podsystem Linux dla Androida
+
 ## Specjalizowane pod kątem bezpieczeństwa
 
 * [Qubes OS](https://www.qubes-os.org/)
@@ -109,4 +113,3 @@ Systemy nie bazujące na kernelu Linuksa.
 * [HaikuOS](https://www.haiku-os.org/) - klon BeOS
 * [Plan 9](https://p9f.org/)
 * [TempleOS](https://templeos.org/)
-
