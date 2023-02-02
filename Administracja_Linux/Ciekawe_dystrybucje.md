@@ -79,6 +79,7 @@
 ## Inne
 
 * [Garuda Linux](https://garudalinux.org/)
+* [NixOS](https://nixos.org)
 
 ## Obrazy maszyn wirtualnych
 
