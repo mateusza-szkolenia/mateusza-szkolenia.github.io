@@ -32,6 +32,7 @@
 ## Pozaprzeglądarkowe implementacje JavaScript (ECMAScript)
 
 * [NodeJS](https://nodejs.org/en/)
+* [Bun](https://bun.sh/)
 * [QuickJS](https://bellard.org/quickjs/) - ES2020
 * [Duktape](https://duktape.org/) - ES5/6 dla mikrokontrolerów
 * [JerryScript](https://jerryscript.net/) - ES5.1 dla mikrokontrolerów
