@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>IPv6</title>
-  <meta name="description" content="Protokół IPv6">
+  <meta name="description" content="The IPv6 Protocol">
   <meta name="author" content="Mateusz Adamowski">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -78,61 +78,61 @@
 
       <section>
         <section data-background="bg/evan-dennis-i--IN3cvEjg-unsplash.jpg">
-          <h3>Wstęp</h3>
-          <p><span style='font-size: 2em;'>Po co IPv6?</span></p>
-          <p class="fragment">(skoro jest IPv4)</p>
+          <h3>Intro</h3>
+          <p><span style='font-size: 2em;'>Why IPv6?</span></p>
+          <p class="fragment">(given we have IPv4)</p>
         </section>
 
         <section data-background-image="bg/dylan-collette-bVk6C1emSxk-unsplash.jpg">
           <h3>IPv4</h3>
-          <p class="fragment">Stworzony w 1981</p>
-          <p class="fragment">Konkurował z protokołem IPX</p>
-          <p class="fragment">Rozpowszechniony po 1990 wraz z powstaniem WWW</p>
+          <p class="fragment">created in 1981</p>
+          <p class="fragment">competing with IPX</p>
+          <p class="fragment">become popular after 1990 (WWW)</p>
           <aside class="rfc fragment">
             <a href="https://tools.ietf.org/html/rfc791">RFC 791</a>
           </aside>
         </section>
 
         <section data-background="#fff">
-          <h3>Nagłówek IPv4</h3><img src="assets/ipv6/ipv4-header.png">
+          <h3>IPv4 header</h3><img src="assets/ipv6/ipv4-header.png">
         </section>
 
         <section data-background-image="bg/dylan-collette-bVk6C1emSxk-unsplash.jpg">
-          <h3>Ograniczenia i wady IPv4</h3>
+          <h3>IPv4 disadvantages and limitations</h3>
           <ul>
-            <li class="fragment">długość adresu <span class="fragment">⇔ liczba możliwych adresów</span></li>
+            <li class="fragment">address length <span class="fragment">⇔ number of possible addresses</span></li>
             <li class="fragment">NAT (Network Address Translation)</li>
-            <li class="fragment">fragmentacja</li>
-            <li class="fragment">rekalkulacja sumy kontrolnej</li>
+            <li class="fragment">fragmentation</li>
+            <li class="fragment">header checksum calculation</li>
           </ul>
         </section>
 
         <section data-background-image="bg/dylan-collette-bVk6C1emSxk-unsplash.jpg">
-          <h3>IPv4: długość adresu</h3>
-          <p class="fragment">32 bity</p>
-          <p class="fragment">4 wartości 8-bitowe (dziesiętnie 0÷255)</p>
-          <p class="fragment">Przykład:<br>
+          <h3>IPv4: address length</h3>
+          <p class="fragment">32 bits</p>
+          <p class="fragment">four 8-bit values (0..255 decimal)</p>
+          <p class="fragment">example:<br>
           <code>194.29.151.5</code></p>
         </section>
 
         <section data-background-image="bg/dylan-collette-bVk6C1emSxk-unsplash.jpg">
-          <h3>IPv4: liczba możliwych adresów</h3>
+          <h3>IPv4: number of possible addresses</h3>
           <p class="fragment">2<sup>32</sup> ≈ 4&nbsp;000&nbsp;000&nbsp;000</p>
-          <p><small class="fragment">(4 miliardy)</small></p>
-          <p class="fragment"><small>W tym sporo adresów o specjalnym znaczniu/zastosowaniu</small></p>
+          <p><small class="fragment">(4 billions)</small></p>
+          <p class="fragment"><small>this includes many addresses of special meaning/purpose</small></p>
         </section>
 
         <section data-background-image="bg/danny-g-ka4wDQPFm2c-unsplash.jpg">
           <h3>NAT - Network Address Translation</h3>
           <ul>
-            <li class="fragment">pot. maskarada (ang. <em>masquerade</em>)</li>
-            <li class="fragment">mechanizm stanowy (ang. <em>stateful</em>)</li>
-            <li class="fragment">tablica śledzenia połączeń
+            <li class="fragment"><em>masquerade</em></li>
+            <li class="fragment"><em>stateful</em></li>
+            <li class="fragment">connection tracking table
               <ul>
-                <li class="fragment">zużycie pamięci</li>
-                <li class="fragment">czasochłonne przeszukiwanie tablicy</li>
-                <li class="fragment">ulotność</li>
-                <li class="fragment">brak rozproszenia i przenośności</li>
+                <li class="fragment">memory usage</li>
+                <li class="fragment">lookups</li>
+                <li class="fragment">data volatility</li>
+                <li class="fragment">not distributed, not persistent</li>
               </ul>
             </li>
           </ul>
@@ -140,12 +140,12 @@
 
         <section data-background-image="bg/breno-assis-r3WAWU5Fi5Q-unsplash.jpg">
           <h3>IPv4: NAT</h3>
-          <p>podsieci prywatne:</p>
+          <p>private subnets:</p>
           <ul>
             <li class="fragment"><code>192.168.0.0<span style='color:red'>/24</span></code></li>
             <li class="fragment"><code>10.0.0.0<span style='color:red'>/8</span></code></li>
             <li class="fragment"><code>172.16.0.0<span style='color:red'>/20</span></code></li>
-            <li class="fragment"><code>100.64.0.0<span style='color:red'>/10</span></code> (operatorska)</li>
+            <li class="fragment"><code>100.64.0.0<span style='color:red'>/10</span></code> (carrier-grade)</li>
           </ul>
           <aside class="rfc fragment">
             <a href="https://tools.ietf.org/html/rfc1918">RFC 1918</a>, <a href="https://tools.ietf.org/html/rfc6598">RFC 6598</a>
@@ -153,7 +153,7 @@
         </section>
 
         <section data-background-image="bg/web-hosting-tN344soypQM-unsplash.jpg">
-          <h3>IPv4: NAT zalety</h3>
+          <h3>IPv4: NAT </h3>
           <ul>
             <li class="fragment">rozwiązuje problem organiczonej puli adresów</li>
             <li class="fragment">w pewnym sensie działa jak firewall</li>
