@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>IPv6</title>
+  <meta name="description" content="Protokół IPv6">
+  <meta name="author" content="Mateusz Adamowski">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reset.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.css">
+  <link rel="stylesheet" href="css/ma.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/theme/black.min.css" id="theme">
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/zenburn.min.css">
+  <style>
+  .reveal h1,
+  .reveal h2,
+  .reveal h3,
+  .reveal h4,
+  .reveal h5 { text-transform: none; font-variant: small-caps; }
+
+  span.noupper { text-transform: none; font-variant: normal; }
+
+  aside.rfc { font-size: 65%; }
+
+  section.wow.white h2
+  {
+        font-size: 400%;
+        animation-duration: 5s;
+        animation-name: whitefire;
+        animation-iteration-count: infinite;
+  }
+
+  @keyframes whitefire {
+
+        0% {
+        text-shadow:
+                rgba( 100%, 100%, 100%, 100% ) 0 0 0.2vmax,
+                rgba( 100%, 100%, 100%, 100% ) 0 0 1vmax ;
+        }
+
+        20% {
+        text-shadow:
+                rgba( 70%, 70%, 100%, 80% ) 0 0.1vmax 0.1vmax,
+                rgba( 100%, 100%, 100%, 100% ) 0 0 2vmax ;
+        }
+
+        40% {
+        text-shadow:
+                rgba( 100%, 100%, 100%, 100% ) 0 0 0.25vmax,
+                rgba( 80%, 80%, 100%, 100% ) 0 0 0.5vmax ;
+        }
+
+        100% {
+        text-shadow:
+                rgba( 100%, 100%, 100%, 100% ) 0 0 0.2vmax,
+                rgba( 100%, 100%, 100%, 100% ) 0 0 1vmax ;
+        }
+
+  }
+
+  </style>
+  <link rel="icon" href="icons/ipv6.png" type="image/png">
+</head>
+<body>
+  <div class="reveal">
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+      <section>
+        <section data-background="bg/hal-gatewood-OgvqXGL7XO4-unsplash.jpg">
+          <h1>IPv6</h1>
+          <h2 class="fragment">The Internet Protocol<br>
+          version 6</h2>
+        </section>
+      </section>
+
+      <section>
+        <section data-background="bg/evan-dennis-i--IN3cvEjg-unsplash.jpg">
+          <h3>Wstęp</h3>
+          <p><span style='font-size: 2em;'>Po co IPv6?</span></p>
+          <p class="fragment">(skoro jest IPv4)</p>
+        </section>
+
+        <section data-background-image="bg/dylan-collette-bVk6C1emSxk-unsplash.jpg">
+          <h3>IPv4</h3>
+          <p class="fragment">Stworzony w 1981</p>
+          <p class="fragment">Konkurował z protokołem IPX</p>
+          <p class="fragment">Rozpowszechniony po 1990 wraz z powstaniem WWW</p>
+          <aside class="rfc fragment">
+            <a href="https://tools.ietf.org/html/rfc791">RFC 791</a>
+          </aside>
+        </section>
+
+        <section data-background="#fff">
+          <h3>Nagłówek IPv4</h3><img src="assets/ipv6/ipv4-header.png">
+        </section>
+
+        <section data-background-image="bg/dylan-collette-bVk6C1emSxk-unsplash.jpg">
+          <h3>Ograniczenia i wady IPv4</h3>
+          <ul>
+            <li class="fragment">długość adresu <span class="fragment">⇔ liczba możliwych adresów</span></li>
+            <li class="fragment">NAT (Network Address Translation)</li>
+            <li class="fragment">fragmentacja</li>
+            <li class="fragment">rekalkulacja sumy kontrolnej</li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/dylan-collette-bVk6C1emSxk-unsplash.jpg">
+          <h3>IPv4: długość adresu</h3>
+          <p class="fragment">32 bity</p>
+          <p class="fragment">4 wartości 8-bitowe (dziesiętnie 0÷255)</p>
+          <p class="fragment">Przykład:<br>
+          <code>194.29.151.5</code></p>
+        </section>
+
+        <section data-background-image="bg/dylan-collette-bVk6C1emSxk-unsplash.jpg">
+          <h3>IPv4: liczba możliwych adresów</h3>
+          <p class="fragment">2<sup>32</sup> ≈ 4&nbsp;000&nbsp;000&nbsp;000</p>
+          <p><small class="fragment">(4 miliardy)</small></p>
+          <p class="fragment"><small>W tym sporo adresów o specjalnym znaczniu/zastosowaniu</small></p>
+        </section>
+
+        <section data-background-image="bg/danny-g-ka4wDQPFm2c-unsplash.jpg">
+          <h3>NAT - Network Address Translation</h3>
+          <ul>
+            <li class="fragment">pot. maskarada (ang. <em>masquerade</em>)</li>
+            <li class="fragment">mechanizm stanowy (ang. <em>stateful</em>)</li>
+            <li class="fragment">tablica śledzenia połączeń
+              <ul>
+                <li class="fragment">zużycie pamięci</li>
+                <li class="fragment">czasochłonne przeszukiwanie tablicy</li>
+                <li class="fragment">ulotność</li>
+                <li class="fragment">brak rozproszenia i przenośności</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/breno-assis-r3WAWU5Fi5Q-unsplash.jpg">
+          <h3>IPv4: NAT</h3>
+          <p>podsieci prywatne:</p>
+          <ul>
+            <li class="fragment"><code>192.168.0.0<span style='color:red'>/24</span></code></li>
+            <li class="fragment"><code>10.0.0.0<span style='color:red'>/8</span></code></li>
+            <li class="fragment"><code>172.16.0.0<span style='color:red'>/20</span></code></li>
+            <li class="fragment"><code>100.64.0.0<span style='color:red'>/10</span></code> (operatorska)</li>
+          </ul>
+          <aside class="rfc fragment">
+            <a href="https://tools.ietf.org/html/rfc1918">RFC 1918</a>, <a href="https://tools.ietf.org/html/rfc6598">RFC 6598</a>
+          </aside>
+        </section>
+
+        <section data-background-image="bg/web-hosting-tN344soypQM-unsplash.jpg">
+          <h3>IPv4: NAT zalety</h3>
+          <ul>
+            <li class="fragment">rozwiązuje problem organiczonej puli adresów</li>
+            <li class="fragment">w pewnym sensie działa jak firewall</li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/web-hosting-tN344soypQM-unsplash.jpg">
+          <h3>IPv4: NAT wady</h3>
+          <ul>
+            <li class="fragment">uniemożliwia połączenia bezpośrednie<sup>*</sup></li>
+            <li class="fragment">utrudnia identyfikację</li>
+            <li class="fragment">rozłącza bezczynne połączenia</li>
+            <li class="fragment">jest kosztowny dla operatorów</li>
+            <li class="fragment">utrudnia integrowanie sieci w dużych instytucjach</li>
+            <li class="fragment">problemy z VPN (możliwy konflikt adresów)</li>
+          </ul>
+          <aside class="notes">
+            *) połączenia bezpośrednie są możliwe dzięki technikom NAT-traversal, ale nie jest możliwe ich nawiązanie bez aktywnego udziału strony trzeciej
+          </aside>
+        </section>
+
+        <section data-background-image="bg/jordan-harrison-40XgDxBfYXM-unsplash.jpg">
+          <h3>IPv4: fragmentacja</h3>
+          <p class="fragment">Fragmentacja pakietu może następować na każdym routerze.</p>
+          <ul>
+            <li class="fragment">nieoptymalne wykorzystanie łącza</li>
+            <li class="fragment">niepotrzebne obciążenie routerów</li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/magnus-engo-mbXEkW5ZyBQ-unsplash.jpg">
+          <h3>IPv4: rekalkulacja sumy kontrolnej</h3>
+          <p class="fragment">Suma kontrolna obejmuje wartość TTL...</p>
+          <p class="fragment"><small>TTL: Time To Live</small></p>
+          <p class="fragment">Musi być przeliczona <span class="fragment">na każdym skoku</span></p>
+        </section>
+      </section>
+
+      <section>
+        <section data-background-color="#215" class='wow white'>
+          <h2>IPv6</h2>
+          <p class="fragment">Nowy (1999) protokół rozwiązujący powyższe problemy i ograniczenia IPv4.</p>
+          <ul>
+            <li class="fragment">większa przestrzeń adresowa</li>
+            <li class="fragment">uproszczony nagłówek</li>
+            <li class="fragment">uproszczone mechanizmy routingu</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
+          <h3>Adresy IPv6</h3>
+          <p class="fragment">Rozmiar: 128 bitów</p>
+          <p class="fragment"><small>(czyli 16 bajtów lub 32 cyfry szesnastkowe)</small></p>
+          <p class="fragment">2<sup>128</sup> ≈ 3.4 × 10<sup>38</sup></p>
+          <p class="fragment"><small>340 sekstylionów</small></p>
+          <aside class="rfc fragment">
+            <a href="https://tools.ietf.org/html/rfc3513">RFC 3513</a>
+          </aside>
+        </section>
+
+        <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
+          <h3>Notacja adresów</h3>
+          <ul>
+            <li class="fragment">zapis szesnastkowy</li>
+            <li class="fragment">bloki po 4 cyfry</li>
+            <li class="fragment">8 bloków</li>
+            <li class="fragment">bloki oddzielone dwukropkiem</li>
+          </ul>
+          <p class="fragment" style='font-size: 80%'>Przykład:<br>
+          <code class="fragment">2a02:a310:a822:810a:1d14:e14d:2347:eeac</code></p>
+          <aside class="rfc fragment">
+            <a href="https://tools.ietf.org/html/rfc3513">RFC 3513</a>
+          </aside>
+        </section>
+
+        <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
+          <h3>Notacja adresów - przykłady</h3>
+          <ul style='font-size:80%'>
+            <li class="fragment"><code>2a02:a310:a822:810a:1d14:e14d:2347:eeac</code></li>
+            <li class="fragment"><code>2a00:0f41:1cc3:45f7:9c2a:4741:c13d:39a0</code></li>
+            <li class="fragment"><code>2a03:b0c0:002a:a0d0:0000:0000:0813:9001</code></li>
+            <li class="fragment"><code>fe80:0000:0000:0000:0000:0000:0000:0001</code></li>
+            <li class="fragment"><code>0000:0000:0000:0000:0000:0000:0000:0001</code></li>
+            <li class="fragment"><code>fde4:8dba:82e1:1234:bc73:cade:7ac9:bc82</code></li>
+          </ul>
+          <p class="fragment">Za długie?</p>
+        </section>
+
+        <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
+          <h3>Skrócona notacja adresów</h3>
+          <ul>
+            <li class="fragment">Początkowe zera w bloku można pominąć.</li>
+            <li class="fragment">Ciąg sąsiadujących bloków <code>0000</code> można pominąć. (raz)</li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
+          <h3>Notacja skrócona - przykład I</h3>
+          <p style='font-size:80%'><code>2a02:<span class='fragment highlight-red'>0</span>310:<span class=
+          'fragment highlight-red'>00</span>22:810a:<span class='fragment highlight-red'>0</span>d14:e14d:<span class=
+          'fragment highlight-red'>000</span>6:eeac</code></p>
+          <p style='font-size:80%' class="fragment"><code>2a02:&nbsp;310:&nbsp;&nbsp;22:810a:&nbsp;d14:e14d:&nbsp;&nbsp;&nbsp;6:eeac</code></p>
+          <p style='font-size:80%; color: #3f3' class="fragment"><code>2a02:310:22:810a:d14:e14d:6:eeac</code></p>
+        </section>
+
+        <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
+          <h3>Notacja skrócona - przykład II</h3>
+          <p style='font-size:80%'><code>2a02:310:22:810a:<span class='fragment highlight-red'>0000</span>:<span class=
+          'fragment highlight-red'>0000</span>:<span class='fragment highlight-red'>0000</span>:7</code></p>
+          <p style='font-size:80%' class="fragment">
+          <code>2a02:310:22:810a:&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;:7</code></p>
+          <p class="fragment" style='color: #3f3; font-size:80%;'><code>2a02:310:22:810a::7</code></p>
+        </section>
+
+        <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
+          <h3>Notacja skrócona - przykłady</h3>
+          <p class="fragment"><code>2001:470:6229:1::2</code></p>
+          <p class="fragment"><code>fe80::1</code></p>
+          <p class="fragment"><code>::1</code></p>
+          <p class="fragment"><code>::</code></p>
+        </section>
+
+        <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
+          <h3>Notacja w programach i URL</h3>
+          <p class="fragment">Zapis w kwadratowym nawiasie</p>
+          <p class="fragment">Wymagany w niektórych programach i protokołach</p>
+          <p class="fragment"><code>HTTP_ADDR = [::1]</code></p>
+          <p class="fragment"><code>http://[::1]:8030/</code></p>
+        </section>
+      </section>
+
+      <section>
+        <section data-background-image="bg/atik-sulianami-Ko9JTVSt6Ok-unsplash.jpg">
+          <h3>Sieci i maski (prefixy)</h3>
+          <ul>
+            <li class="fragment">zapis: <code>/64</code></li>
+            <li class="fragment">nazwa: <strong>prefix length</strong></li>
+            <li class="fragment">brak odpowiednika zapisu <code style='color: #f44'>255.255.255.0</code> z IPv4 (maska)</li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/atik-sulianami-Ko9JTVSt6Ok-unsplash.jpg">
+          <h3>Podsieci</h3>
+          <p class="fragment">Standardowa długość prefixu: <strong>64</strong>.</p>
+          <p class=fragment><em>one-size-fits-all</em></p>
+          <table class="fragment" style='border:2px;'>
+            <tr>
+              <th>adres sieci</th>
+              <th>adres hosta</th>
+            </tr>
+            <tr>
+              <td>64 bity</td>
+              <td>64 bity</td>
+            </tr>
+          </table>
+          <p class="fragment">pojemność: 2<sup>64</sup> ≈ 18 000 000 000 000 000 000</p>
+          <p class="fragment"><small>(18 trylionów)</small></p>
+          <p class="fragment">Inne długości prefixu: zakresy sieci, trasy.</p>
+        </section>
+      </section>
+
+      <section>
+        <section data-background="bg/kyle-glenn-nXt5HtLmlgE-unsplash.jpg">
+          <h3>Liczba adresów w praktyce</h3>
+          <ul>
+            <li>liczba adresów na km²</li>
+            <li>liczba adresów na osobę</li>
+          </ul>
+        </section>
+
+        <section data-background="bg/kyle-glenn-nXt5HtLmlgE-unsplash.jpg">
+          <h3>powierzchnia Ziemi</h3>
+          <p class="fragment">510 000 000 km²</p>
+          <p class="fragment">w tym ląd: 153 000 000 km² (ok. 30%)</p>
+        </section>
+
+        <section data-background="bg/kyle-glenn-nXt5HtLmlgE-unsplash.jpg">
+          <h3>IPv4</h3>
+          <ul>
+            <li class="fragment">liczba adresów: 2<sup>32</sup> ≈ 4 000 000 000</li>
+            <li class="fragment">średnia gęstość: 8.4 <math>
+                <mfrac><mrow><mtext>adres</mtext></mrow><mrow><msup><mi>km</mi><mn>2</mn></msup></mrow></mfrac>
+                </math>
+            </li>
+            <li class="fragment">tylko lądy: 28.1 <math>
+                <mfrac><mrow><mtext>adres</mtext></mrow><mrow><msup><mi>km</mi><mn>2</mn></msup></mrow></mfrac>
+                </math>
+            </li>
+          </ul>
+        </section>
+
+        <section data-background="bg/kyle-glenn-nXt5HtLmlgE-unsplash.jpg">
+          <h3>IPv6</h3>
+          <ul>
+            <li class="fragment">liczba <u>podsieci</u>: 2<sup>64</sup> ≈ 18 × 10<sup>18</sup></li>
+            <li class="fragment">średnia gęstość: 36000 <math>
+                <mfrac><mrow><mtext>podsieć</mtext></mrow><mrow><msup><mi>m</mi><mn>2</mn></msup></mrow></mfrac>
+              </math>
+            </li>
+            <li class="fragment">tylko lądy: 120000 <math>
+                <mfrac><mrow><mtext>podsieć</mtext></mrow><mrow><msup><mi>m</mi><mn>2</mn></msup></mrow></mfrac>
+              </math>
+            </li>
+          </ul>
+        </section>
+
+        <section data-background="bg/jose-martin-ramirez-c-45sjAjSjArQ-unsplash.jpg">
+          <h3>Populacja Ziemi</h3>
+          <p class="fragment"><output id='worldpopulation'>7 800 000 000</output> osób</p>
+        </section>
+
+        <section data-background="bg/jose-martin-ramirez-c-45sjAjSjArQ-unsplash.jpg">
+          <h3>IPv4</h3>
+          <ul>
+            <li class="fragment">liczba adresów: 2<sup>32</sup> ≈ 4 000 000 000</li>
+            <li class="fragment">średnia liczba: 
+                <script>document.write( (Math.pow(2,32)/7800000000).toFixed(3) )</script>
+                <math>
+                <mfrac><mrow><mtext>adres</mtext></mrow><mrow><mtext>osoba</mtext></mrow></mfrac>
+                </math>
+            </li>
+          </ul>
+        </section>
+
+        <section data-background="bg/jose-martin-ramirez-c-45sjAjSjArQ-unsplash.jpg">
+          <h3>IPv6</h3>
+          <ul>
+            <li class="fragment">liczba <u>podsieci</u>: 2<sup>64</sup> ≈ 18 × 10<sup>18</sup></li>
+            <li class="fragment">średnia liczba: 2.3 × 10<sup>9</sup> <math>
+               <mfrac><mrow><mtext>podsieci</mtext></mrow><mrow><mtext>osoba</mtext></mrow></mfrac>
+              </math>
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <section data-background-image="bg/imgix-klWUhr-wPJ8-unsplash.jpg">
+          <h3>Konfiguracja adresów urządzeń</h3>
+          <ul>
+            <li class="fragment">statyczna</li>
+            <li class="fragment">dynamiczna</li>
+          </ul>
+          <p class="fragment">Typowo po kilka adresów IPv6 na jednym interfejsie.</p>
+          <p class="fragment"><small>(W IPv4 zwykle był to jeden adres.)</small></p>
+        </section>
+
+        <section data-background-image="bg/imgix-klWUhr-wPJ8-unsplash.jpg">
+          <h3>Adresy typu Link-Local</h3>
+          <ul>
+            <li class="fragment">adresy z klasy: <code>fe80::/64</code></li>
+            <li class="fragment">konfigurowane automatycznie w chwili uruchomienia interfejsu</li>
+            <li class="fragment">nieroutowalne</li>
+            <li class="fragment">niekoniecznie unikalne</li>
+            <li class="fragment">kilka metod generowania</li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/imgix-klWUhr-wPJ8-unsplash.jpg">
+          <h3>Metody generowania adresów</h3>
+          <ul>
+            <li class="fragment">EUI-64 (w oparciu o MAC)</li>
+            <li class="fragment">całkowicie losowe</li>
+            <li class="fragment">ustawione ręcznie: np. <code>fe80::1</code></li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/imgix-klWUhr-wPJ8-unsplash.jpg">
+          <h3>EUI-64 dla adresów Link-Local</h3>
+          <p class="fragment">MAC adres:</p>
+          <p class="fragment"><code style='color:red;'>4c:eb:42:17:65:a1</code></p>
+          <p class="fragment">IPv6 link local:</p>
+          <p class="fragment"><code>fe80::<span class="fragment"><span style='color:red'>4<u>e</u>eb:42</span><span class=
+          "fragment">ff</span></span><span class="fragment">:fe<span style='color:red' class="fragment">17:65a1</span></span></code></p>
+          <aside class="rfc fragment">
+            <a href="https://tools.ietf.org/html/rfc2373#section-2.5.1">RFC 2373 sec. 2.5.1</a>
+          </aside>
+          <aside class="notes">
+            The motivation for inverting the "u" bit when forming the interface
+            identifier is to make it easy for system administrators to hand
+            configure local scope identifiers when hardware tokens are not
+            available.  This is expected to be case for serial links, tunnel end-
+            points, etc.  The alternative would have been for these to be of the
+            form <code>0200:0:0:1</code>, <code>0200:0:0:2</code>, etc., instead of the much simpler <code>::1</code>,
+            <code>::2</code>, etc.
+          </aside>
+        </section>
+
+        <section data-background='#fff'>
+          <h3>Link local w Windows</h3><img src='assets/ipv6/win-ll1.png'>
+        </section>
+
+        <section data-background='#fff'>
+          <h3>Link local w Windows</h3><img src='assets/ipv6/win-ll2.png'>
+        </section>
+
+        <section data-background-image="bg/imgix-klWUhr-wPJ8-unsplash.jpg">
+          <h3>Oznaczenie interfejsu w adresie LL</h3>
+          <p class="fragment">Adresy LL najczęściej zapisywane są wraz z symbolem lub numerem interfejsu.</p>
+          <p class="fragment"><code>fe80::1234<u>%3</u></code></p>
+          <p class="fragment"><code>fe80::1234<u>%eth0</u></code></p>
+        </section>
+      </section>
+
+      <section>
+        <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
+          <h3>Autokonfiguracja w IPv6</h3>
+          <ul>
+            <li class="fragment">SLAAC - StateLess Address AutoConfiguration</li>
+            <li class="fragment">DHCPv6</li>
+            <li class="fragment">Stateless DHCPv6</li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
+          <h3>SLAAC</h3>
+          <p class="fragment">Router rozgłasza prefix używany w danej sieci.</p>
+          <p class="fragment">Stała długość&nbsp;prefixu: <strong>64</strong></p>
+          <p class="fragment">Metody wyboru adresu - analogiczne jak przy LinkLocal.</p>
+          <aside class="rfc fragment">
+            <a href="https://tools.ietf.org/html/rfc4862">RFC 4862</a>
+          </aside>
+        </section>
+
+        <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
+          <h3>SLAAC - metody wyboru adresu</h3>
+          <ul>
+            <li class="fragment">EUI-64 (w oparciu o MAC)</li>
+            <li class="fragment">losowo</li>
+            <li class="fragment">token <span class="fragment">(stała końcówka, nie mylić z <i>token ring</i>)</span></li>
+          </ul>
+          <p class="fragment">Duplikaty?</p>
+        </section>
+
+        <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
+          <h3>Adresy tokenowe</h3>
+          <p class="fragment">Końcówka adresu sklejana z rozgłoszonym prefixem</p>
+          <table>
+            <tr>
+              <td class='fragment'>token:</td>
+              <td class='fragment'><code style='color:#f93'>71</code></td>
+            </tr>
+            <tr>
+              <td class='fragment'>prefix:</td>
+              <td class='fragment'><code style='color:#35e'>2001:db8:4acf:9900::/64</code></td>
+            </tr>
+            <tr>
+              <td class='fragment'>adres:</td>
+              <td class='fragment'><code style='color:#35e'>2001:db8:4acf:9900::<span style='color:#f93'>71</span></code></td>
+            </tr>
+          </table>
+          <ul>
+            <li class="fragment">Linux: <code>ip token set ::71 dev eth0</code></li>
+            <li class="fragment">macOS, Windows: <strong>nie obsługuje</strong></li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
+          <h3>SLAAC ograniczenia</h3>
+          <p class="fragment">Ograniczona możliwość konfiguracji adresu serwera DNS.</p>
+          <p class="fragment">Ograniczona możliwość&nbsp;aktualizacji wpisów w DNS.</p>
+        </section>
+
+        <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
+          <h3>SLAAC EUI-64 przykład</h3>
+          <p class="fragment">Router ogłasza prefix</p>
+          <p class="fragment"><code style='color:#35e'>2001:db8:11:77::/64</code></p>
+          <p class="fragment">Komputer ma MAC</p>
+          <p class="fragment"><code style='color:#f93'>4c:eb:00:11:22:33</code></p>
+          <p class="fragment">Adres IPv6: <code style='color: #35e' class="fragment">2001:db8:11:77:<span style='color:#f93' class=
+          "fragment">4eeb:00<span style='color:#aaa'>ff</span><span style='color: #f93' class="fragment">:<span style=
+          'color:#aaa'>fe</span>11:2233</span></span></code></p>
+        </section>
+
+        <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
+          <h3>EUI-64 - brak prywatności</h3>
+          <p class="fragment">Ten sam identyfikator EUI-64 w różnych sieciach.</p>
+          <ul style='text-align:right; font-size: 80%;'>
+            <li class="fragment"><code style='color:#35e'>2001:db8:11:77:</code><code style='color:#f93'>4eeb:00ff:fe11:2233</code></li>
+            <li class="fragment"><code style='color:#35e'>2001:1234:a:77:</code><code style='color:#f93'>4eeb:00ff:fe11:2233</code></li>
+            <li class="fragment"><code style='color:#35e'>2a01:470:530:aa90:</code><code style='color:#f93'>4eeb:00ff:fe11:2233</code></li>
+            <li class="fragment"><code style='color:#35e'>2001:100:aa9:9782:</code><code style='color:#f93'>4eeb:00ff:fe11:2233</code></li>
+            <li class="fragment"><code style='color:#35e'>2a01:99::</code><code style='color:#f93'>4eeb:00ff:fe11:2233</code></li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
+          <h3>EUI-64 - wady i zalety</h3>
+          <ul>
+            <li class="fragment">Identyfikuje urządzenie, gdy przełącza się&nbsp;ono między różymi sieciami. (telefon, tablet, laptop)</li>
+            <li class="fragment">... również po całkowitej reinstalacji systemu!</li>
+            <li class="fragment">Zdradza informację o producencie, typie urządzenia itp.</li>
+            <li class="fragment">Adres można przewidzieć znając MAC adres.</li>
+          </ul>
+          <aside class="rfc fragment">
+            <a href="https://tools.ietf.org/html/rfc4291">RFC 4291</a>
+          </aside>
+        </section>
+
+        <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
+          <h3>Privacy Extensions for SLAAC</h3>
+          <ul>
+            <li class="fragment">dodatkowy adres</li>
+            <li class="fragment">generowany losowo</li>
+            <li class="fragment">używany do połączeń wychodzących</li>
+            <li class="fragment">zmieniany co kilka godzin</li>
+          </ul>
+          <aside class="rfc fragment">
+            <a href="https://tools.ietf.org/html/rfc4941">RFC 4941</a>
+          </aside>
+        </section>
+
+        <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
+          <h3>Adresy IPv6 pod Linuksem</h3>
+          <pre style='color: #999;'>
+<span class="fragment">$ <kbd style='color:#fff'>ip addr show wlan0</kbd></span>
+<span class="fragment">3: <span style='color:#fff'>wlan0</span>: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1500 state UP qlen 1000</span>
+<span class="fragment">    link/ether <span style='color:yellow'>4c:eb:42:17:65:a1</span> brd ff:ff:ff:ff:ff:ff</span>
+<span class="fragment">    inet 192.168.0.166/24 brd 192.168.0.255 scope global dynamic wlan0
+valid_lft 3413sec preferred_lft 3413sec</span>
+<span class="fragment">    inet6 <span style='color:lightgreen;'>2a02:a310:22:6000:fcf1:5d4a:7148:a2be</span>/64 scope global temporary dynamic 
+valid_lft 580286sec preferred_lft 61616sec</span>
+<span class="fragment">    inet6 <span style='color:orange;'>2a02:a310:22:6000:<span style='color:yellow'>4eeb:42</span>ff:fe<span style=
+'color:yellow'>17:65a1</span></span>/64 scope global mngtmpaddr noprefixroute dynamic
+valid_lft 1143688sec preferred_lft 538888sec</span>
+<span class="fragment">    inet6 <span style='color:red;'>fe80::<span style='color:yellow'>4eeb:42</span>ff:fe<span style=
+'color:yellow'>17:65a1</span></span>/64 scope link 
+valid_lft forever preferred_lft forever</span>
+        </pre>
+        </section>
+
+        <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
+          <h3>DHCPv6</h3>
+          <ul>
+            <li class="fragment">analogia do DHCP w IPv4</li>
+            <li class="fragment">dzierżawa adresu oraz dodatkowe informacje, np. DNS</li>
+            <li class="fragment">możliwość aktualizacji wpisów DNS</li>
+            <li class="fragment"><strong>Informacje o bramie domyślnej otrzymywane są inną&nbsp;drogą!</strong></li>
+          </ul>
+          <aside class="rfc fragment">
+            <a href="https://tools.ietf.org/html/rfc3315">RFC 3315</a>
+          </aside>
+        </section>
+
+        <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
+          <h3>Stateless DHCPv6</h3>
+          <ul>
+            <li class="fragment">podzbiór funkcjonalności DHCPv6</li>
+            <li class="fragment">konfiguracja DNS i innych opcji</li>
+            <li class="fragment">adres uzyskiwany metodą SLAAC</li>
+          </ul>
+          <aside class="rfc fragment">
+            <a href="https://tools.ietf.org/html/rfc3736">RFC 3736</a>
+          </aside>
+        </section>
+      </section>
+
+      <section>
+        <section data-background-image="bg/leon-seibert-2m71l9fA6mg-unsplash.jpg">
+          <h3>IPv6 - dostępność</h3>
+          <ul>
+            <li class="fragment">Dostęp natywny</li>
+            <li class="fragment">Technologie przejściowe:
+              <ul>
+                <li>Tunele 6in4</li>
+                <li>Teredo</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section data-background="#fff">
+          <h3>Czy mam IPv6?</h3><img src='assets/ipv6/win-my-ip.png'>
+        </section>
+
+        <section data-background="#fff">
+          <h3>Czy mam IPv6?</h3><img src='assets/ipv6/linux-my-ip.png'>
+        </section>
+
+        <section data-background="#fff">
+          <h3>Czy mam IPv6?</h3><img src='assets/ipv6/ipv6-test-1.png'>
+        </section>
+
+        <section data-background="#fff">
+          <h3>Czy mam IPv6?</h3><img src='assets/ipv6/ipv6-test-2.png'>
+        </section>
+
+        <section data-background-image="bg/leon-seibert-2m71l9fA6mg-unsplash.jpg">
+          <h3>Dostęp natywny</h3>
+          <p class="fragment">Łączność IPv6 u operatorów działających w Polsce:</p>
+          <ul class="fragment">
+            <li>UPC</li>
+            <li>Orange</li>
+            <li><i>inni?</i></li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/leon-seibert-2m71l9fA6mg-unsplash.jpg">
+          <h3>IPv6 w UPC</h3>
+          <ul>
+            <li class="fragment">Dostępny dla części klientów (zależnie od regionu, taryfy i używanego modemu)</li>
+            <li class="fragment">Łączność IPv4 w oparciu o <strong>Dual Stack-Lite</strong></li>
+            <li class="fragment">W przypadku korzystania z IPv6 traci się&nbsp;publiczny adres IPv4</li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/leon-seibert-2m71l9fA6mg-unsplash.jpg">
+          <h3>Technologia Dual-Stack Lite</h3>
+          <p class="fragment">Zapewnia łączność IPv4 na łączu działającym po IPv6</p>
+          <p class="fragment">Działa jak NAT - brak publicznego IPv4</p>
+          <p class="fragment">Może sprawiać problemy z niektórymi usługami, np. VPN</p>
+          <p class="fragment"><small>(MTU i fragmentacja)</small></p>
+        </section>
+
+        <section data-background-image="bg/daniel-jerez-CD4WHrWio6Q-unsplash.jpg">
+          <h3>Tunele 6in4</h3>
+          <ul>
+            <li class="fragment">Technologia przejściowa</li>
+            <li class="fragment">Łączność IPv6 jest kapsułkowana w IPv4</li>
+            <li class="fragment">Najlepiej skonfigurować&nbsp;na routerze</li>
+            <li class="fragment">Dostawcy tuneli: <a href='https://en.wikipedia.org/wiki/List_of_IPv6_tunnel_brokers'>Wikipedia: List of IPv6 tunnel
+            brokers</a>
+            </li>
+          </ul>
+          <aside class="rfc fragment">
+            <a href="https://tools.ietf.org/html/rfc1933">RFC 1933</a>
+          </aside>
+        </section>
+
+        <section data-background-image="bg/daniel-jerez-CD4WHrWio6Q-unsplash.jpg">
+          <h3>Tunnel Broker</h3>
+          <ul>
+            <li class="fragment">Darmowa usługa oferowana przez firmę&nbsp;Hurricane Electric</li>
+            <li class="fragment">Wraz z tunelem dostaje się&nbsp;pulę adresów (<code>/64</code> lub nawet <code>/48</code>)</li>
+            <li class="fragment">Końcówki tuneli znajdują&nbsp;się&nbsp;w różnych krajach, w tym w Polsce.</li>
+          </ul>
+          <p class="fragment">Szczegóły: <a href='https://tunnelbroker.net/'>https://tunnelbroker.net/</a></p>
+        </section>
+
+        <section data-background-image="bg/daniel-jerez-CD4WHrWio6Q-unsplash.jpg">
+          <h3>Tunnel Broker - Certyfikaty</h3>
+          <p>Hurricane Electric oferuje darmowe materiały szkoleniowe i egzamin online zakończony certyfikatem potwierdzającym znajomość&nbsp;IPv6.</p>
+        </section>
+
+        <section data-background-color="#fff" data-background-image='assets/ipv6/he-tshirt.png'>
+          <h3>Tunnel Broker - Koszulki</h3>
+          <p>Koszulka gratis po zdaniu egzaminu online!</p>
+          <p class='fragment'><small>(chyba już się skończyły)</small>
+        </section>
+
+        <section data-background-image="bg/daniel-jerez-CD4WHrWio6Q-unsplash.jpg">
+          <h3>Teredo</h3>
+          <ul>
+            <li class="fragment">Technologia przejściowa</li>
+            <li class="fragment">Mechanizm uzyskiwania łączności IPv6 w sieciach IPv4 opracowany przez Microsoft</li>
+            <li class="fragment">Działa za NAT</li>
+            <li class="fragment">Domyślnie włączony w Windows 10, ale blokowany przez przeglądarki</li>
+            <li class="fragment">Działa w oparciu o sieć "przekaźników" (ang. <i>relays</i>)</li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/daniel-jerez-CD4WHrWio6Q-unsplash.jpg">
+          <h3>Budowa adresu Teredo</h3>
+          <pre>
+<span class="fragment">2001:0000:ssss:ssss:flag:port:cccc:cccc</span>
+<span class="fragment">^^^^ ^^^^                               prefix 2001::/32</span>
+<span class="fragment">          ^^^^ ^^^^                     adres IP serwera teredo</span>
+<span class="fragment">                    ^^^^                flagi</span>
+<span class="fragment">                         ^^^^           port UDP klienta (neg)</span>
+<span class="fragment">                              ^^^^ ^^^^ adres IP klienta (neg)</span>
+</pre>
+          <p class="fragment">neg = negacja bitów</p>
+          <aside class="notes">
+            Negację bitów stosuje się, aby routery, w szczególności realizujące NAT (maskaradę), nie próbowały być zbyt mądre i nie ingerowały w zawartość
+            pakietu - nie modyfikowały wykrytego adresu IP.
+          </aside>
+        </section>
+
+        <section data-background-image="bg/meng-ji-8BH_M-53CyA-unsplash.jpg">
+          <h3>Dostępność&nbsp;serwisów po IPv6</h3>
+          <ul>
+            <li class="fragment">Google (Youtube, GMail, Maps...)</li>
+            <li class="fragment">Facebook (Instagram)</li>
+            <li class="fragment">Wikipedia</li>
+            <li class="fragment">Yahoo</li>
+            <li class="fragment">OpenStreetMap</li>
+            <li class="fragment">Netflix</li>
+            <li class="fragment">klienci Cloudflare CDN</li>
+            <li class="fragment"><i>i inne!</i></li>
+          </ul>
+        </section>
+
+        <section data-background='#fff'>
+          <h3>Czy serwis działa po IPv6?</h3><img src='assets/ipv6/ipv6-artcore.png'>
+        </section>
+
+        <section data-background='#fff'>
+          <h3>Czy serwis działa po IPv6?</h3><img src='assets/ipv6/ipv6-pw-edu-pl.png'>
+        </section>
+
+        <section data-background='#fff'>
+          <h3>Czy serwis działa po IPv6?</h3>
+          <p><code>nslookup DOMENA</code> <img src='assets/ipv6/ipv6-nslookup.png'></p>
+        </section>
+
+        <section data-background-image="bg/meng-ji-8BH_M-53CyA-unsplash.jpg">
+          <h3>Dostępność łączności IPv6 w usługach hostingu, kolokacji, VPS, serwerów dedykowanych</h3>
+          <ul>
+            <li class="fragment">Digital Ocean</li>
+            <li class="fragment">Vultr</li>
+            <li class="fragment">Hetzner</li>
+            <li class="fragment">OVH</li>
+            <li class="fragment">Nodeteria</li>
+            <li class="fragment"><i>i inne!</i></li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <section data-background="#fff">
+          <h2>Udział ruchu IPv6 wg Google</h2><img src="assets/ipv6/google-ipv6.png">
+        </section>
+
+        <section data-background="#fff">
+          <h2>IPv6 w Polsce (wg Google)</h2><img src="assets/ipv6/google-stats-pl.png">
+        </section>
+
+        <section data-background-image="bg/brett-zeck-eyfMgGvo9PA-unsplash.jpg">
+          <table style='font-size: 60%'>
+            <tr>
+              <th>kraj</th>
+              <th>udział IPv6</th>
+            </tr>
+            <tr>
+              <td>Belgia</td>
+              <td>52%</td>
+            </tr>
+            <tr>
+              <td>Niemcy</td>
+              <td>53%</td>
+            </tr>
+            <tr>
+              <td>Indie</td>
+              <td>62%</td>
+            </tr>
+            <tr>
+              <td>Francja</td>
+              <td>49%</td>
+            </tr>
+            <tr>
+              <td>USA</td>
+              <td>45%</td>
+            </tr>
+            <tr>
+              <td>Wietnam</td>
+              <td>48%</td>
+            </tr>
+            <tr>
+              <td>Japonia</td>
+              <td>42%</td>
+            </tr>
+            <tr>
+              <td>Kanada</td>
+              <td>35%</td>
+            </tr>
+            <tr>
+              <td>Polska</td>
+              <td>15%</td>
+            </tr>
+            <tr>
+              <td>Korea Południowa</td>
+              <td>13%</td>
+            </tr>
+          </table>
+          <p><small>Stan na sierpień 2021, źródło: <a href="https://www.google.com/intl/en/ipv6/statistics.html#tab=per-country-ipv6-adoption">Google IPv6 Adoption</a></small></p>
+        </section>
+      </section>
+
+      <section data-background-image="bg/atik-sulianami-Ko9JTVSt6Ok-unsplash.jpg">
+          <h3>Adresy multicastowe</h3>
+          <ul>
+              <li><code>ff02::1</code> - wszystkie hosty</li>
+              <li><code>ff02::2</code> - wszystkie routery</li>
+          </ul>
+          <aside class="rfc fragment">
+            <a href="https://tools.ietf.org/html/rfc4291">RFC 4291</a>
+          </aside>
+      </section>
+      <section>
+        <section data-background-image="bg/bill-oxford--fGqsewtsJY-unsplash.jpg">
+          <h3>PD - Prefix Delegation</h3>
+          <ul>
+            <li class="fragment">rozszerzenie DHCPv6</li>
+            <li class="fragment">delegacja routowalnego prefixu do klienta DHCP</li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/bill-oxford--fGqsewtsJY-unsplash.jpg">
+          <h3>ULA - Unique Local Address</h3>
+          <ul>
+            <li class="fragment"><code>fd00::/8</code></li>
+            <li class="fragment">randomizacja prefixu</li>
+            <li class="fragment">odpowiedniki sieci <code>10.0.0.0</code>, <code>192.168.0.0</code> etc z IPv4</li>
+            <li class="fragment">zastosowanie: fragmenty sieci <u>odcięte od internetu</u></li>
+            <li class="fragment">możliwość stosowania NAT (maskarady)</li>
+            <li class="fragment">wirtualne maszyny, kontenery, podsieci - którym nie da się przydzielić adresów globalnych</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <section data-background-image="bg/daniel-mccullough--FPFq_trr2Y-unsplash.jpg">
+          <h3>Projektowanie sieci z IPv6</h3>
+          <ul>
+            <li class="fragment">Stała wielkość podsieci /64</li>
+            <li class="fragment">Brak ograniczeń liczby hostów w sieci</li>
+            <li class="fragment">Brak konieczności przypisywania adresów IPv6 na poszczególnych interfejsach routera<sup>*</sup></li>
+            <li class="fragment">Unikanie stosowania NAT<sup>*</sup></li>
+            <li class="fragment">Konieczność konfiguracji firewalli</li>
+            <li class="fragment">Alokacja co najmniej /64 na jednego klienta! (odsprzedaż usług)</li>
+          </ul>
+          <aside class="rfc fragment">
+            <a href="https://tools.ietf.org/html/rfc6177">RFC 6177</a>, <a href="https://tools.ietf.org/html/rfc6598">RFC 6598</a>
+          </aside>
+          <aside class="notes">
+            w uzasadnionych przypadkach można stosować NAT, głównie z adresami ULA
+          </aside>
+        </section>
+      </section>
+
+      <section>
+        <section data-background-image="bg/johannes-plenio-GmBT6GQEOs0-unsplash.jpg">
+          <h3>Stan wdrożenia i perspektywy</h3>
+          <ul>
+            <li class="fragment">Wyczerpany zasób adresów IPv4</li>
+            <li class="fragment">Masowe stosowanie NAT</li>
+            <li class="fragment">Brak realnej potrzeby nawiązywania połączeń peer-to-peer</li>
+            <li class="fragment"><i>Internet of Things</i></li>
+            <li class="fragment">Popularność chmury</li>
+            <li class="fragment">Brak tzw. <strong>killer app</strong></li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/moritz-kindler-G66K_ERZRhM-unsplash.jpg">
+          <h3>Inne zagadnienia:</h3>
+          <ul>
+            <li class="fragment">Adresy multicast (zamiast broadcastów)</li>
+            <li class="fragment">Neighbour discovery (odpowiednik ARP)</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <section data-background-image="bg/bryan-minear-YWAVTqGnyjI-unsplash.jpg">
+          <h2>Dziękuję za uwagę</h2>
+          <p>Pytania?</p>
+        </section>
+      </section>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/zoom/zoom.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/search/search.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/notes/notes.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/markdown/markdown.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.min.js"></script> 
+  <script>
+  // More info https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+        controls: true,
+        progress: true,
+        hash: true,
+        center: true,
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+        plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+  });
+
+  [... document.querySelectorAll(".reveal section h3, .reveal section h2, .reveal section h1")]
+    .forEach(x => {
+      x.innerHTML = x.innerHTML
+        .replace( "IPv4", "<span class=noupper>IPv4</span>" )
+        .replace( "IPv6", "<span class=noupper>IPv6</span>" );
+    });
+  </script>
+</body>
+</html>
