@@ -130,9 +130,9 @@
             <li class="fragment">connection tracking table
               <ul>
                 <li class="fragment">memory usage</li>
-                <li class="fragment">lookups</li>
-                <li class="fragment">data volatility</li>
-                <li class="fragment">not distributed, not persistent</li>
+                <li class="fragment">lookups + CPU</li>
+                <li class="fragment">data volatility (no persistence)</li>
+                <li class="fragment">hard to make distributed</li>
               </ul>
             </li>
           </ul>
@@ -161,17 +161,18 @@
         </section>
 
         <section data-background-image="bg/web-hosting-tN344soypQM-unsplash.jpg">
-          <h3>IPv4: NAT wady</h3>
+          <h3>IPv4: NAT disadvantages</h3>
           <ul>
             <li class="fragment">does not allow direct connections<sup>*</sup></li>
             <li class="fragment">makes identification difficult</li>
             <li class="fragment">disconnects idle connections</li>
             <li class="fragment">expensive for providers</li>
-            <li class="fragment">hinders network integration in large institutions</li>
+            <li class="fragment">hinders network integration in large institutions<sup>**</sup></li>
             <li class="fragment">VPN problems (possible address conflict)</li>
           </ul>
           <aside class="notes">
-            *) direct connections are possible thanks to NAT-traversal techniques, but it is not possible to establish them without the active participation of a third party
+              *) direct connections are possible thanks to NAT-traversal techniques, but it is not possible to establish them without the active participation of a third party<br>
+              **) specifically speaking not NAT itself, but the use of the same private addresses
           </aside>
         </section>
 
@@ -195,7 +196,7 @@
       <section>
         <section data-background-color="#215" class='wow white'>
           <h2>IPv6</h2>
-          <p class="fragment">A new (1999) protocol to solve the above problems and limitations of IPv4.</p>
+          <p class="fragment">A new <span class=fragment>(1999)</span> <span class=fragment> protocol </span> <span class=fragment>to solve the above problems and limitations of IPv4.</span></p>
           <ul>
             <li class="fragment">larger address space</li>
             <li class="fragment">simplified header</li>
@@ -248,8 +249,8 @@
         <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
           <h3>Shortened notation</h3>
           <ul>
-            <li class="fragment">Leading zeros to be omitted.</li>
-            <li class="fragment">Adjacent <code>0000</code> to be omitted (once)</li>
+            <li class="fragment">Leading zeros can be skipped.</li>
+            <li class="fragment">Adjacent <code>0000</code> can be skipped (once)</li>
           </ul>
         </section>
 
@@ -396,12 +397,12 @@
 
       <section>
         <section data-background-image="bg/imgix-klWUhr-wPJ8-unsplash.jpg">
-          <h3>Devince configuration</h3>
+          <h3>Device configuration</h3>
           <ul>
             <li class="fragment">static</li>
             <li class="fragment">dynamic</li>
           </ul>
-          <p class="fragment">Usually many addresses per interface</p>
+          <p class="fragment">Multiple addresses per interface</p>
           <p class="fragment"><small>(In IPv4 usually single address)</small></p>
         </section>
 
@@ -412,7 +413,7 @@
             <li class="fragment">configured automatically when device goes up</li>
             <li class="fragment">non-routable</li>
             <li class="fragment">not necessarily unique</li>
-            <li class="fragment">few generation methods</li>
+            <li class="fragment">few methods of generation</li>
           </ul>
         </section>
 
@@ -421,7 +422,7 @@
           <ul>
             <li class="fragment">EUI-64 (based on MAC)</li>
             <li class="fragment">totally random</li>
-            <li class="fragment">manual: i.e. <code>fe80::1</code></li>
+            <li class="fragment">fixed/manual: i.e. <code>fe80::1</code></li>
           </ul>
         </section>
 
@@ -474,27 +475,27 @@
 
         <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
           <h3>SLAAC</h3>
-          <p class="fragment">Router rozgłasza prefix używany w danej sieci.</p>
-          <p class="fragment">Stała długość&nbsp;prefixu: <strong>64</strong></p>
-          <p class="fragment">Metody wyboru adresu - analogiczne jak przy LinkLocal.</p>
+          <p class="fragment">Router broadcasts a prefix used in a network</p>
+          <p class="fragment">Fixed prefix length: <strong>64</strong></p>
+          <p class="fragment">Address selection method - the same as Link Local</p>
           <aside class="rfc fragment">
             <a href="https://tools.ietf.org/html/rfc4862">RFC 4862</a>
           </aside>
         </section>
 
         <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
-          <h3>SLAAC - metody wyboru adresu</h3>
+          <h3>SLAAC - address assignment methods</h3>
           <ul>
-            <li class="fragment">EUI-64 (w oparciu o MAC)</li>
-            <li class="fragment">losowo</li>
-            <li class="fragment">token <span class="fragment">(stała końcówka, nie mylić z <i>token ring</i>)</span></li>
+            <li class="fragment">EUI-64 (MAC-based)</li>
+            <li class="fragment">random</li>
+            <li class="fragment">token <span class="fragment">(fixed suffix, not to be confused with <i>token ring</i>)</span></li>
           </ul>
-          <p class="fragment">Duplikaty?</p>
+          <p class="fragment">Duplicates?</p>
         </section>
 
         <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
-          <h3>Adresy tokenowe</h3>
-          <p class="fragment">Końcówka adresu sklejana z rozgłoszonym prefixem</p>
+          <h3>Tokenized addresses</h3>
+          <p class="fragment">Concatenation of advertised prefix with fixed suffix.</p>
           <table>
             <tr>
               <td class='fragment'>token:</td>
@@ -505,36 +506,36 @@
               <td class='fragment'><code style='color:#35e'>2001:db8:4acf:9900::/64</code></td>
             </tr>
             <tr>
-              <td class='fragment'>adres:</td>
+              <td class='fragment'>address:</td>
               <td class='fragment'><code style='color:#35e'>2001:db8:4acf:9900::<span style='color:#f93'>71</span></code></td>
             </tr>
           </table>
           <ul>
             <li class="fragment">Linux: <code>ip token set ::71 dev eth0</code></li>
-            <li class="fragment">macOS, Windows: <strong>nie obsługuje</strong></li>
+            <li class="fragment">macOS, Windows: <strong>not supported</strong></li>
           </ul>
         </section>
 
         <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
-          <h3>SLAAC ograniczenia</h3>
-          <p class="fragment">Ograniczona możliwość konfiguracji adresu serwera DNS.</p>
-          <p class="fragment">Ograniczona możliwość&nbsp;aktualizacji wpisów w DNS.</p>
+          <h3>SLAAC limitations</h3>
+          <p class="fragment">DNS address setting</p>
+          <p class="fragment">DNS record updates</p>
         </section>
 
         <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
-          <h3>SLAAC EUI-64 przykład</h3>
-          <p class="fragment">Router ogłasza prefix</p>
+          <h3>SLAAC EUI-64 example</h3>
+          <p class="fragment">Announced prefix</p>
           <p class="fragment"><code style='color:#35e'>2001:db8:11:77::/64</code></p>
-          <p class="fragment">Komputer ma MAC</p>
+          <p class="fragment">MAC</p>
           <p class="fragment"><code style='color:#f93'>4c:eb:00:11:22:33</code></p>
-          <p class="fragment">Adres IPv6: <code style='color: #35e' class="fragment">2001:db8:11:77:<span style='color:#f93' class=
+          <p class="fragment">IPv6: <code style='color: #35e' class="fragment">2001:db8:11:77:<span style='color:#f93' class=
           "fragment">4eeb:00<span style='color:#aaa'>ff</span><span style='color: #f93' class="fragment">:<span style=
           'color:#aaa'>fe</span>11:2233</span></span></code></p>
         </section>
 
         <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
-          <h3>EUI-64 - brak prywatności</h3>
-          <p class="fragment">Ten sam identyfikator EUI-64 w różnych sieciach.</p>
+          <h3>EUI-64 - privacy issues</h3>
+          <p class="fragment">The same EUI-64 suffix in different networks.</p>
           <ul style='text-align:right; font-size: 80%;'>
             <li class="fragment"><code style='color:#35e'>2001:db8:11:77:</code><code style='color:#f93'>4eeb:00ff:fe11:2233</code></li>
             <li class="fragment"><code style='color:#35e'>2001:1234:a:77:</code><code style='color:#f93'>4eeb:00ff:fe11:2233</code></li>
@@ -545,12 +546,12 @@
         </section>
 
         <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
-          <h3>EUI-64 - wady i zalety</h3>
+          <h3>EUI-64 - advantages and disadvantages</h3>
           <ul>
-            <li class="fragment">Identyfikuje urządzenie, gdy przełącza się&nbsp;ono między różymi sieciami. (telefon, tablet, laptop)</li>
-            <li class="fragment">... również po całkowitej reinstalacji systemu!</li>
-            <li class="fragment">Zdradza informację o producencie, typie urządzenia itp.</li>
-            <li class="fragment">Adres można przewidzieć znając MAC adres.</li>
+            <li class="fragment">Ability to identify a device in any network.</li>
+            <li class="fragment">... even after full reinstall!</li>
+            <li class="fragment">Reveals information about manufacturer, hardware type etc.</li>
+            <li class="fragment">Predictable, based on MAC.</li>
           </ul>
           <aside class="rfc fragment">
             <a href="https://tools.ietf.org/html/rfc4291">RFC 4291</a>
@@ -560,16 +561,17 @@
         <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
           <h3>Privacy Extensions for SLAAC</h3>
           <ul>
-            <li class="fragment">dodatkowy adres</li>
-            <li class="fragment">generowany losowo</li>
-            <li class="fragment">używany do połączeń wychodzących</li>
-            <li class="fragment">zmieniany co kilka godzin</li>
+            <li class="fragment">additional address</li>
+            <li class="fragment">random</li>
+            <li class="fragment">used for outgoing connections</li>
+            <li class="fragment">changed periodically</li>
           </ul>
           <aside class="rfc fragment">
             <a href="https://tools.ietf.org/html/rfc4941">RFC 4941</a>
           </aside>
         </section>
 
+        <!--
         <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
           <h3>Adresy IPv6 pod Linuksem</h3>
           <pre style='color: #999;'>
@@ -588,14 +590,13 @@ valid_lft 1143688sec preferred_lft 538888sec</span>
 valid_lft forever preferred_lft forever</span>
         </pre>
         </section>
-
+        -->
         <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
           <h3>DHCPv6</h3>
           <ul>
-            <li class="fragment">analogia do DHCP w IPv4</li>
-            <li class="fragment">dzierżawa adresu oraz dodatkowe informacje, np. DNS</li>
-            <li class="fragment">możliwość aktualizacji wpisów DNS</li>
-            <li class="fragment"><strong>Informacje o bramie domyślnej otrzymywane są inną&nbsp;drogą!</strong></li>
+            <li class="fragment">similar to DHCP w IPv4</li>
+            <li class="fragment">lease of IP address + extra info DNS</li>
+            <li class="fragment"><strong>Default gateway not included!</strong></li>
           </ul>
           <aside class="rfc fragment">
             <a href="https://tools.ietf.org/html/rfc3315">RFC 3315</a>
@@ -605,9 +606,9 @@ valid_lft forever preferred_lft forever</span>
         <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
           <h3>Stateless DHCPv6</h3>
           <ul>
-            <li class="fragment">podzbiór funkcjonalności DHCPv6</li>
-            <li class="fragment">konfiguracja DNS i innych opcji</li>
-            <li class="fragment">adres uzyskiwany metodą SLAAC</li>
+            <li class="fragment">Subset of DHCPv6 functionality</li>
+            <li class="fragment">DNS settings etc.</li>
+            <li class="fragment">address assignment method: SLAAC</li>
           </ul>
           <aside class="rfc fragment">
             <a href="https://tools.ietf.org/html/rfc3736">RFC 3736</a>
@@ -617,12 +618,12 @@ valid_lft forever preferred_lft forever</span>
 
       <section>
         <section data-background-image="bg/leon-seibert-2m71l9fA6mg-unsplash.jpg">
-          <h3>IPv6 - dostępność</h3>
+          <h3>IPv6 - availability</h3>
           <ul>
-            <li class="fragment">Dostęp natywny</li>
-            <li class="fragment">Technologie przejściowe:
+            <li class="fragment">Native access</li>
+            <li class="fragment">Transition technologies:
               <ul>
-                <li>Tunele 6in4</li>
+                <li>6in4 tunnels</li>
                 <li>Teredo</li>
               </ul>
             </li>
@@ -630,63 +631,63 @@ valid_lft forever preferred_lft forever</span>
         </section>
 
         <section data-background="#fff">
-          <h3>Czy mam IPv6?</h3><img src='assets/ipv6/win-my-ip.png'>
+          <h3>Do I have IPv6?</h3><img src='assets/ipv6/win-my-ip.png'>
         </section>
 
         <section data-background="#fff">
-          <h3>Czy mam IPv6?</h3><img src='assets/ipv6/linux-my-ip.png'>
+          <h3>Do I have IPv6?</h3><img src='assets/ipv6/linux-my-ip.png'>
         </section>
 
         <section data-background="#fff">
-          <h3>Czy mam IPv6?</h3><img src='assets/ipv6/ipv6-test-1.png'>
+          <h3>Do I have IPv6?</h3><img src='assets/ipv6/ipv6-test-1.png'>
         </section>
 
         <section data-background="#fff">
-          <h3>Czy mam IPv6?</h3><img src='assets/ipv6/ipv6-test-2.png'>
+          <h3>Do I have IPv6?</h3><img src='assets/ipv6/ipv6-test-2.png'>
         </section>
 
         <section data-background-image="bg/leon-seibert-2m71l9fA6mg-unsplash.jpg">
-          <h3>Dostęp natywny</h3>
-          <p class="fragment">Łączność IPv6 u operatorów działających w Polsce:</p>
+          <h3>Native access</h3>
+          <p class="fragment">IPv6 connectivity in Poland:</p>
           <ul class="fragment">
             <li>UPC</li>
             <li>Orange</li>
-            <li><i>inni?</i></li>
+            <li><i>others?</i></li>
           </ul>
         </section>
 
         <section data-background-image="bg/leon-seibert-2m71l9fA6mg-unsplash.jpg">
-          <h3>IPv6 w UPC</h3>
+          <h3>IPv6 in UPC</h3>
           <ul>
-            <li class="fragment">Dostępny dla części klientów (zależnie od regionu, taryfy i używanego modemu)</li>
-            <li class="fragment">Łączność IPv4 w oparciu o <strong>Dual Stack-Lite</strong></li>
-            <li class="fragment">W przypadku korzystania z IPv6 traci się&nbsp;publiczny adres IPv4</li>
+            <li class="fragment">Available for most customers (depending on region, tariff, modem)</li>
+            <li class="fragment">IPv4 fallback using <strong>Dual Stack-Lite</strong></li>
+            <li class="fragment">When using IPv6 - no public IPv4</li>
           </ul>
         </section>
 
         <section data-background-image="bg/leon-seibert-2m71l9fA6mg-unsplash.jpg">
-          <h3>Technologia Dual-Stack Lite</h3>
-          <p class="fragment">Zapewnia łączność IPv4 na łączu działającym po IPv6</p>
-          <p class="fragment">Działa jak NAT - brak publicznego IPv4</p>
-          <p class="fragment">Może sprawiać problemy z niektórymi usługami, np. VPN</p>
-          <p class="fragment"><small>(MTU i fragmentacja)</small></p>
+          <h3>Dual-Stack Lite</h3>
+          <p class="fragment">Provides IPv4 connectivity on IPv6 link</p>
+          <p class="fragment">Works like NAT - no public IPv4</p>
+          <p class="fragment">May cause problems with specific protocols (games, VPN)</p>
+          <p class="fragment"><small>(MTU i fragmentation)</small></p>
         </section>
 
         <section data-background-image="bg/daniel-jerez-CD4WHrWio6Q-unsplash.jpg">
-          <h3>Tunele 6in4</h3>
+          <h3>6in4 tunnel</h3>
           <ul>
-            <li class="fragment">Technologia przejściowa</li>
-            <li class="fragment">Łączność IPv6 jest kapsułkowana w IPv4</li>
-            <li class="fragment">Najlepiej skonfigurować&nbsp;na routerze</li>
-            <li class="fragment">Dostawcy tuneli: <a href='https://en.wikipedia.org/wiki/List_of_IPv6_tunnel_brokers'>Wikipedia: List of IPv6 tunnel
+            <li class="fragment">Transition technology</li>
+            <li class="fragment">IPv6 encapsulated in IPv4</li>
+            <li class="fragment">Tunnel providers: <a href='https://en.wikipedia.org/wiki/List_of_IPv6_tunnel_brokers'>Wikipedia: List of IPv6 tunnel
             brokers</a>
             </li>
+            <li class="fragment"><em>VPN with no encryption</em></li>
           </ul>
           <aside class="rfc fragment">
             <a href="https://tools.ietf.org/html/rfc1933">RFC 1933</a>
           </aside>
         </section>
-
+        <!--
         <section data-background-image="bg/daniel-jerez-CD4WHrWio6Q-unsplash.jpg">
           <h3>Tunnel Broker</h3>
           <ul>
@@ -700,12 +701,6 @@ valid_lft forever preferred_lft forever</span>
         <section data-background-image="bg/daniel-jerez-CD4WHrWio6Q-unsplash.jpg">
           <h3>Tunnel Broker - Certyfikaty</h3>
           <p>Hurricane Electric oferuje darmowe materiały szkoleniowe i egzamin online zakończony certyfikatem potwierdzającym znajomość&nbsp;IPv6.</p>
-        </section>
-
-        <section data-background-color="#fff" data-background-image='assets/ipv6/he-tshirt.png'>
-          <h3>Tunnel Broker - Koszulki</h3>
-          <p>Koszulka gratis po zdaniu egzaminu online!</p>
-          <p class='fragment'><small>(chyba już się skończyły)</small>
         </section>
 
         <section data-background-image="bg/daniel-jerez-CD4WHrWio6Q-unsplash.jpg">
@@ -735,9 +730,9 @@ valid_lft forever preferred_lft forever</span>
             pakietu - nie modyfikowały wykrytego adresu IP.
           </aside>
         </section>
-
+        -->
         <section data-background-image="bg/meng-ji-8BH_M-53CyA-unsplash.jpg">
-          <h3>Dostępność&nbsp;serwisów po IPv6</h3>
+          <h3>IPv6 sites availbility</h3>
           <ul>
             <li class="fragment">Google (Youtube, GMail, Maps...)</li>
             <li class="fragment">Facebook (Instagram)</li>
@@ -745,46 +740,46 @@ valid_lft forever preferred_lft forever</span>
             <li class="fragment">Yahoo</li>
             <li class="fragment">OpenStreetMap</li>
             <li class="fragment">Netflix</li>
-            <li class="fragment">klienci Cloudflare CDN</li>
-            <li class="fragment"><i>i inne!</i></li>
+            <li class="fragment">Cloudflare CDN customers</li>
+            <li class="fragment"><i>and others!</i></li>
           </ul>
         </section>
 
         <section data-background='#fff'>
-          <h3>Czy serwis działa po IPv6?</h3><img src='assets/ipv6/ipv6-artcore.png'>
+          <h3>Does a website work with IPv6?</h3><img src='assets/ipv6/ipv6-artcore.png'>
         </section>
 
         <section data-background='#fff'>
-          <h3>Czy serwis działa po IPv6?</h3><img src='assets/ipv6/ipv6-pw-edu-pl.png'>
+          <h3>Does a website work with IPv6?</h3><img src='assets/ipv6/ipv6-pw-edu-pl.png'>
         </section>
 
         <section data-background='#fff'>
-          <h3>Czy serwis działa po IPv6?</h3>
-          <p><code>nslookup DOMENA</code> <img src='assets/ipv6/ipv6-nslookup.png'></p>
+          <h3>Does a website work with IPv6?</h3>
+          <p><code>nslookup DOMAIN</code> <img src='assets/ipv6/ipv6-nslookup.png'></p>
         </section>
 
         <section data-background-image="bg/meng-ji-8BH_M-53CyA-unsplash.jpg">
-          <h3>Dostępność łączności IPv6 w usługach hostingu, kolokacji, VPS, serwerów dedykowanych</h3>
+          <h3>IPv6 availability with providers:</h3>
           <ul>
             <li class="fragment">Digital Ocean</li>
             <li class="fragment">Vultr</li>
             <li class="fragment">Hetzner</li>
             <li class="fragment">OVH</li>
             <li class="fragment">Nodeteria</li>
-            <li class="fragment"><i>i inne!</i></li>
+            <li class="fragment"><i>and others!</i></li>
           </ul>
         </section>
       </section>
 
       <section>
         <section data-background="#fff">
-          <h2>Udział ruchu IPv6 wg Google</h2><img src="assets/ipv6/google-ipv6.png">
+          <h2>IPv6 traffic share (by Google)</h2><img src="assets/ipv6/google-ipv6.png">
         </section>
 
+        <!--
         <section data-background="#fff">
           <h2>IPv6 w Polsce (wg Google)</h2><img src="assets/ipv6/google-stats-pl.png">
         </section>
-
         <section data-background-image="bg/brett-zeck-eyfMgGvo9PA-unsplash.jpg">
           <table style='font-size: 60%'>
             <tr>
@@ -834,13 +829,14 @@ valid_lft forever preferred_lft forever</span>
           </table>
           <p><small>Stan na sierpień 2021, źródło: <a href="https://www.google.com/intl/en/ipv6/statistics.html#tab=per-country-ipv6-adoption">Google IPv6 Adoption</a></small></p>
         </section>
+        -->
       </section>
 
       <section data-background-image="bg/atik-sulianami-Ko9JTVSt6Ok-unsplash.jpg">
-          <h3>Adresy multicastowe</h3>
+          <h3>Multicast address</h3>
           <ul>
-              <li><code>ff02::1</code> - wszystkie hosty</li>
-              <li><code>ff02::2</code> - wszystkie routery</li>
+              <li><code>ff02::1</code> - all hosts</li>
+              <li><code>ff02::2</code> - all routers</li>
           </ul>
           <aside class="rfc fragment">
             <a href="https://tools.ietf.org/html/rfc4291">RFC 4291</a>
@@ -850,8 +846,8 @@ valid_lft forever preferred_lft forever</span>
         <section data-background-image="bg/bill-oxford--fGqsewtsJY-unsplash.jpg">
           <h3>PD - Prefix Delegation</h3>
           <ul>
-            <li class="fragment">rozszerzenie DHCPv6</li>
-            <li class="fragment">delegacja routowalnego prefixu do klienta DHCP</li>
+            <li class="fragment">DHCPv6 extension</li>
+            <li class="fragment">routed prefix delegation</li>
           </ul>
         </section>
 
@@ -859,20 +855,21 @@ valid_lft forever preferred_lft forever</span>
           <h3>ULA - Unique Local Address</h3>
           <ul>
             <li class="fragment"><code>fd00::/8</code></li>
-            <li class="fragment">randomizacja prefixu</li>
-            <li class="fragment">odpowiedniki sieci <code>10.0.0.0</code>, <code>192.168.0.0</code> etc z IPv4</li>
-            <li class="fragment">zastosowanie: fragmenty sieci <u>odcięte od internetu</u></li>
-            <li class="fragment">możliwość stosowania NAT (maskarady)</li>
-            <li class="fragment">wirtualne maszyny, kontenery, podsieci - którym nie da się przydzielić adresów globalnych</li>
+            <li class="fragment">random prefix</li>
+            <li class="fragment">equivalent of <code>10.0.0.0</code>, <code>192.168.0.0</code> etc z IPv4</li>
+            <li class="fragment">use: <u>inaccessible subnets</u></li>
+            <li class="fragment">ability to use NAT (maskarady)</li>
+            <li class="fragment">virtual machines, containers, subnets that cannot have stable global address</li>
           </ul>
         </section>
       </section>
 
+      <!--
       <section>
         <section data-background-image="bg/daniel-mccullough--FPFq_trr2Y-unsplash.jpg">
-          <h3>Projektowanie sieci z IPv6</h3>
+          <h3>IPv6 network planning</h3>
           <ul>
-            <li class="fragment">Stała wielkość podsieci /64</li>
+            <li class="fragment"> wielkość podsieci /64</li>
             <li class="fragment">Brak ograniczeń liczby hostów w sieci</li>
             <li class="fragment">Brak konieczności przypisywania adresów IPv6 na poszczególnych interfejsach routera<sup>*</sup></li>
             <li class="fragment">Unikanie stosowania NAT<sup>*</sup></li>
@@ -916,6 +913,7 @@ valid_lft forever preferred_lft forever</span>
           <p>Pytania?</p>
         </section>
       </section>
+      -->
     </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js"></script> 
