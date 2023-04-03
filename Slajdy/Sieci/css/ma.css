@@ -1,0 +1,17 @@
+section[ data-background-image ].has-light-background{
+    background: rgba( 100%, 100%, 100%, 0.7 );
+    box-shadow: rgba( 100%, 100%, 100%, 0.6 ) 1vmin 1vmin 4vmin;
+}
+section[ data-background-image ] {
+    background: rgba( 0, 0, 0, 0.9 );
+    box-shadow: rgba( 0, 0, 0, 0.6 ) 1vmin 1vmin 4vmin;
+    border-radius: 3vmin;
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+section[ data-background-image ] h1,
+section[ data-background-image ] > ul
+ {
+    padding: 5vmin;
+}
