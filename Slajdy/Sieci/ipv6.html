@@ -119,14 +119,14 @@
           <h3>IPv4: number of possible addresses</h3>
           <p class="fragment">2<sup>32</sup> ≈ 4&nbsp;000&nbsp;000&nbsp;000</p>
           <p><small class="fragment">(4 billions)</small></p>
-          <p class="fragment"><small>this includes many addresses of special meaning/purpose</small></p>
+          <p class="fragment"><small>including addresses of special meaning/purpose</small></p>
         </section>
 
         <section data-background-image="bg/danny-g-ka4wDQPFm2c-unsplash.jpg">
           <h3>NAT - Network Address Translation</h3>
           <ul>
             <li class="fragment"><em>masquerade</em></li>
-            <li class="fragment"><em>stateful</em></li>
+            <li class="fragment">stateful</li>
             <li class="fragment">connection tracking table
               <ul>
                 <li class="fragment">memory usage</li>
@@ -155,76 +155,77 @@
         <section data-background-image="bg/web-hosting-tN344soypQM-unsplash.jpg">
           <h3>IPv4: NAT </h3>
           <ul>
-            <li class="fragment">rozwiązuje problem organiczonej puli adresów</li>
-            <li class="fragment">w pewnym sensie działa jak firewall</li>
+            <li class="fragment">solves a problem of limited address space</li>
+            <li class="fragment">works like a firewall (kind of...)</li>
           </ul>
         </section>
 
         <section data-background-image="bg/web-hosting-tN344soypQM-unsplash.jpg">
           <h3>IPv4: NAT wady</h3>
           <ul>
-            <li class="fragment">uniemożliwia połączenia bezpośrednie<sup>*</sup></li>
-            <li class="fragment">utrudnia identyfikację</li>
-            <li class="fragment">rozłącza bezczynne połączenia</li>
-            <li class="fragment">jest kosztowny dla operatorów</li>
-            <li class="fragment">utrudnia integrowanie sieci w dużych instytucjach</li>
-            <li class="fragment">problemy z VPN (możliwy konflikt adresów)</li>
+            <li class="fragment">does not allow direct connections<sup>*</sup></li>
+            <li class="fragment">makes identification difficult</li>
+            <li class="fragment">disconnects idle connections</li>
+            <li class="fragment">expensive for providers</li>
+            <li class="fragment">hinders network integration in large institutions</li>
+            <li class="fragment">VPN problems (possible address conflict)</li>
           </ul>
           <aside class="notes">
-            *) połączenia bezpośrednie są możliwe dzięki technikom NAT-traversal, ale nie jest możliwe ich nawiązanie bez aktywnego udziału strony trzeciej
+            *) direct connections are possible thanks to NAT-traversal techniques, but it is not possible to establish them without the active participation of a third party
           </aside>
         </section>
 
         <section data-background-image="bg/jordan-harrison-40XgDxBfYXM-unsplash.jpg">
-          <h3>IPv4: fragmentacja</h3>
-          <p class="fragment">Fragmentacja pakietu może następować na każdym routerze.</p>
+          <h3>IPv4: fragmentation</h3>
+          <p class="fragment">Fragmentation can occur on every router</p>
           <ul>
-            <li class="fragment">nieoptymalne wykorzystanie łącza</li>
-            <li class="fragment">niepotrzebne obciążenie routerów</li>
+            <li class="fragment">suboptimal use of the link</li>
+            <li class="fragment">unnecessary load on routers</li>
           </ul>
         </section>
 
         <section data-background-image="bg/magnus-engo-mbXEkW5ZyBQ-unsplash.jpg">
-          <h3>IPv4: rekalkulacja sumy kontrolnej</h3>
-          <p class="fragment">Suma kontrolna obejmuje wartość TTL...</p>
+          <h3>IPv4: checksum recalculation</h3>
+          <p class="fragment">The checksum includes the TTL value...</p>
           <p class="fragment"><small>TTL: Time To Live</small></p>
-          <p class="fragment">Musi być przeliczona <span class="fragment">na każdym skoku</span></p>
+          <p class="fragment">Must be recalculated <span class="fragment">on each hop</span></p>
         </section>
       </section>
 
       <section>
         <section data-background-color="#215" class='wow white'>
           <h2>IPv6</h2>
-          <p class="fragment">Nowy (1999) protokół rozwiązujący powyższe problemy i ograniczenia IPv4.</p>
+          <p class="fragment">A new (1999) protocol to solve the above problems and limitations of IPv4.</p>
           <ul>
-            <li class="fragment">większa przestrzeń adresowa</li>
-            <li class="fragment">uproszczony nagłówek</li>
-            <li class="fragment">uproszczone mechanizmy routingu</li>
+            <li class="fragment">larger address space</li>
+            <li class="fragment">simplified header</li>
+            <li class="fragment">simplified routing mechanisms</li>
           </ul>
         </section>
       </section>
 
       <section>
         <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
-          <h3>Adresy IPv6</h3>
-          <p class="fragment">Rozmiar: 128 bitów</p>
-          <p class="fragment"><small>(czyli 16 bajtów lub 32 cyfry szesnastkowe)</small></p>
+          <h3>IPv6 addresses</h3>
+          <p class="fragment">Length: 128 bits</p>
+          <p class="fragment"><small>(aka 16 bytes aka 32 hex digits)</small></p>
           <p class="fragment">2<sup>128</sup> ≈ 3.4 × 10<sup>38</sup></p>
-          <p class="fragment"><small>340 sekstylionów</small></p>
+          <p class="fragment"><small>340 undecillions</small></p>
           <aside class="rfc fragment">
-            <a href="https://tools.ietf.org/html/rfc3513">RFC 3513</a>
+            <a href="https://tools.ietf.org/html/rfc3513">RFC 3513</a>,
+            <a href="https://www.ibiblio.org/units/large.html">Large numbers</a>
           </aside>
         </section>
 
         <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
-          <h3>Notacja adresów</h3>
+          <h3>Address notation</h3>
           <ul>
-            <li class="fragment">zapis szesnastkowy</li>
-            <li class="fragment">bloki po 4 cyfry</li>
-            <li class="fragment">8 bloków</li>
-            <li class="fragment">bloki oddzielone dwukropkiem</li>
+            <li class="fragment">hexdecimal</li>
+            <li class="fragment">4-digit segments</li>
+            <li class="fragment">8 segments</li>
+            <li class="fragment">segments separated with colons</li>
           </ul>
-          <p class="fragment" style='font-size: 80%'>Przykład:<br>
+          <p class="fragment" style='font-size: 80%'>Example:<br>
           <code class="fragment">2a02:a310:a822:810a:1d14:e14d:2347:eeac</code></p>
           <aside class="rfc fragment">
             <a href="https://tools.ietf.org/html/rfc3513">RFC 3513</a>
@@ -232,7 +233,7 @@
         </section>
 
         <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
-          <h3>Notacja adresów - przykłady</h3>
+          <h3>Address notation - examples</h3>
           <ul style='font-size:80%'>
             <li class="fragment"><code>2a02:a310:a822:810a:1d14:e14d:2347:eeac</code></li>
             <li class="fragment"><code>2a00:0f41:1cc3:45f7:9c2a:4741:c13d:39a0</code></li>
@@ -241,19 +242,19 @@
             <li class="fragment"><code>0000:0000:0000:0000:0000:0000:0000:0001</code></li>
             <li class="fragment"><code>fde4:8dba:82e1:1234:bc73:cade:7ac9:bc82</code></li>
           </ul>
-          <p class="fragment">Za długie?</p>
+          <p class="fragment">Too long?</p>
         </section>
 
         <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
-          <h3>Skrócona notacja adresów</h3>
+          <h3>Shortened notation</h3>
           <ul>
-            <li class="fragment">Początkowe zera w bloku można pominąć.</li>
-            <li class="fragment">Ciąg sąsiadujących bloków <code>0000</code> można pominąć. (raz)</li>
+            <li class="fragment">Leading zeros to be omitted.</li>
+            <li class="fragment">Adjacent <code>0000</code> to be omitted (once)</li>
           </ul>
         </section>
 
         <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
-          <h3>Notacja skrócona - przykład I</h3>
+          <h3>Shortened notation - example #1</h3>
           <p style='font-size:80%'><code>2a02:<span class='fragment highlight-red'>0</span>310:<span class=
           'fragment highlight-red'>00</span>22:810a:<span class='fragment highlight-red'>0</span>d14:e14d:<span class=
           'fragment highlight-red'>000</span>6:eeac</code></p>
@@ -262,7 +263,7 @@
         </section>
 
         <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
-          <h3>Notacja skrócona - przykład II</h3>
+          <h3>Shortened notation - example #2</h3>
           <p style='font-size:80%'><code>2a02:310:22:810a:<span class='fragment highlight-red'>0000</span>:<span class=
           'fragment highlight-red'>0000</span>:<span class='fragment highlight-red'>0000</span>:7</code></p>
           <p style='font-size:80%' class="fragment">
@@ -271,7 +272,7 @@
         </section>
 
         <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
-          <h3>Notacja skrócona - przykłady</h3>
+          <h3>Shortened notation - more examples</h3>
           <p class="fragment"><code>2001:470:6229:1::2</code></p>
           <p class="fragment"><code>fe80::1</code></p>
           <p class="fragment"><code>::1</code></p>
@@ -279,9 +280,9 @@
         </section>
 
         <section data-background-image="bg/hanson-lu-CT2jvXtFQ_g-unsplash.jpg">
-          <h3>Notacja w programach i URL</h3>
-          <p class="fragment">Zapis w kwadratowym nawiasie</p>
-          <p class="fragment">Wymagany w niektórych programach i protokołach</p>
+          <h3>Application and URL notation</h3>
+          <p class="fragment">Square brackets</p>
+          <p class="fragment">Required in some protocols and config files</p>
           <p class="fragment"><code>HTTP_ADDR = [::1]</code></p>
           <p class="fragment"><code>http://[::1]:8030/</code></p>
         </section>
@@ -289,59 +290,60 @@
 
       <section>
         <section data-background-image="bg/atik-sulianami-Ko9JTVSt6Ok-unsplash.jpg">
-          <h3>Sieci i maski (prefixy)</h3>
+          <h3>Networks and netmasks (prefixes)</h3>
           <ul>
-            <li class="fragment">zapis: <code>/64</code></li>
-            <li class="fragment">nazwa: <strong>prefix length</strong></li>
-            <li class="fragment">brak odpowiednika zapisu <code style='color: #f44'>255.255.255.0</code> z IPv4 (maska)</li>
+            <li class="fragment">notation: <code>/64</code></li>
+            <li class="fragment">name: <strong>prefix length</strong></li>
+            <li class="fragment">no equivalent of IPv4-style mask <code style='color: #f44'>255.255.255.0</code></li>
           </ul>
         </section>
 
         <section data-background-image="bg/atik-sulianami-Ko9JTVSt6Ok-unsplash.jpg">
-          <h3>Podsieci</h3>
-          <p class="fragment">Standardowa długość prefixu: <strong>64</strong>.</p>
+          <h3>Subnets</h3>
+          <p class="fragment">Standard prefix length: <strong>64</strong>.</p>
           <p class=fragment><em>one-size-fits-all</em></p>
           <table class="fragment" style='border:2px;'>
             <tr>
-              <th>adres sieci</th>
-              <th>adres hosta</th>
+              <th>network</th>
+              <th>host</th>
             </tr>
             <tr>
-              <td>64 bity</td>
-              <td>64 bity</td>
+              <td>64 bits</td>
+              <td>64 bits</td>
             </tr>
           </table>
-          <p class="fragment">pojemność: 2<sup>64</sup> ≈ 18 000 000 000 000 000 000</p>
-          <p class="fragment"><small>(18 trylionów)</small></p>
-          <p class="fragment">Inne długości prefixu: zakresy sieci, trasy.</p>
+          <p class="fragment">capacity: 2<sup>64</sup> ≈ 18 000 000 000 000 000 000</p>
+          <p class="fragment"><small>(18 quintillion)</small></p>
+          <p class="fragment">Other prefix lengths: ranges, routes.</p>
         </section>
       </section>
 
       <section>
         <section data-background="bg/kyle-glenn-nXt5HtLmlgE-unsplash.jpg">
-          <h3>Liczba adresów w praktyce</h3>
+          <h3>
+          The number of address</h3>
           <ul>
-            <li>liczba adresów na km²</li>
-            <li>liczba adresów na osobę</li>
+            <li>per km²</li>
+            <li>per person</li>
           </ul>
         </section>
 
         <section data-background="bg/kyle-glenn-nXt5HtLmlgE-unsplash.jpg">
-          <h3>powierzchnia Ziemi</h3>
+          <h3>Earth surface area</h3>
           <p class="fragment">510 000 000 km²</p>
-          <p class="fragment">w tym ląd: 153 000 000 km² (ok. 30%)</p>
+          <p class="fragment">land: 153 000 000 km² (around 30%)</p>
         </section>
 
         <section data-background="bg/kyle-glenn-nXt5HtLmlgE-unsplash.jpg">
           <h3>IPv4</h3>
           <ul>
-            <li class="fragment">liczba adresów: 2<sup>32</sup> ≈ 4 000 000 000</li>
-            <li class="fragment">średnia gęstość: 8.4 <math>
-                <mfrac><mrow><mtext>adres</mtext></mrow><mrow><msup><mi>km</mi><mn>2</mn></msup></mrow></mfrac>
+            <li class="fragment">number of addresses: 2<sup>32</sup> ≈ 4 000 000 000</li>
+            <li class="fragment">avg. density: 8.4 <math>
+                <mfrac><mrow><mtext>addr</mtext></mrow><mrow><msup><mi>km</mi><mn>2</mn></msup></mrow></mfrac>
                 </math>
             </li>
-            <li class="fragment">tylko lądy: 28.1 <math>
-                <mfrac><mrow><mtext>adres</mtext></mrow><mrow><msup><mi>km</mi><mn>2</mn></msup></mrow></mfrac>
+            <li class="fragment">lands only: 28.1 <math>
+                <mfrac><mrow><mtext>addr</mtext></mrow><mrow><msup><mi>km</mi><mn>2</mn></msup></mrow></mfrac>
                 </math>
             </li>
           </ul>
@@ -350,31 +352,31 @@
         <section data-background="bg/kyle-glenn-nXt5HtLmlgE-unsplash.jpg">
           <h3>IPv6</h3>
           <ul>
-            <li class="fragment">liczba <u>podsieci</u>: 2<sup>64</sup> ≈ 18 × 10<sup>18</sup></li>
-            <li class="fragment">średnia gęstość: 36000 <math>
-                <mfrac><mrow><mtext>podsieć</mtext></mrow><mrow><msup><mi>m</mi><mn>2</mn></msup></mrow></mfrac>
+            <li class="fragment">number of <u>subnets</u>: 2<sup>64</sup> ≈ 18 × 10<sup>18</sup></li>
+            <li class="fragment">average density: 36000 <math>
+                <mfrac><mrow><mtext>subnets</mtext></mrow><mrow><msup><mi>m</mi><mn>2</mn></msup></mrow></mfrac>
               </math>
             </li>
-            <li class="fragment">tylko lądy: 120000 <math>
-                <mfrac><mrow><mtext>podsieć</mtext></mrow><mrow><msup><mi>m</mi><mn>2</mn></msup></mrow></mfrac>
+            <li class="fragment">lands only: 120000 <math>
+                <mfrac><mrow><mtext>subnets</mtext></mrow><mrow><msup><mi>m</mi><mn>2</mn></msup></mrow></mfrac>
               </math>
             </li>
           </ul>
         </section>
 
         <section data-background="bg/jose-martin-ramirez-c-45sjAjSjArQ-unsplash.jpg">
-          <h3>Populacja Ziemi</h3>
-          <p class="fragment"><output id='worldpopulation'>7 800 000 000</output> osób</p>
+          <h3>Earth population</h3>
+          <p class="fragment"><output id='worldpopulation'>8 000 000 000</output> people</p>
         </section>
 
         <section data-background="bg/jose-martin-ramirez-c-45sjAjSjArQ-unsplash.jpg">
           <h3>IPv4</h3>
           <ul>
-            <li class="fragment">liczba adresów: 2<sup>32</sup> ≈ 4 000 000 000</li>
-            <li class="fragment">średnia liczba: 
-                <script>document.write( (Math.pow(2,32)/7800000000).toFixed(3) )</script>
+            <li class="fragment">number of addresses: 2<sup>32</sup> ≈ 4 000 000 000</li>
+            <li class="fragment">avg: 
+                <script>document.write( (Math.pow(2,32)/8000000000).toFixed(3) )</script>
                 <math>
-                <mfrac><mrow><mtext>adres</mtext></mrow><mrow><mtext>osoba</mtext></mrow></mfrac>
+                <mfrac><mrow><mtext>addr</mtext></mrow><mrow><mtext>person</mtext></mrow></mfrac>
                 </math>
             </li>
           </ul>
@@ -383,9 +385,9 @@
         <section data-background="bg/jose-martin-ramirez-c-45sjAjSjArQ-unsplash.jpg">
           <h3>IPv6</h3>
           <ul>
-            <li class="fragment">liczba <u>podsieci</u>: 2<sup>64</sup> ≈ 18 × 10<sup>18</sup></li>
-            <li class="fragment">średnia liczba: 2.3 × 10<sup>9</sup> <math>
-               <mfrac><mrow><mtext>podsieci</mtext></mrow><mrow><mtext>osoba</mtext></mrow></mfrac>
+            <li class="fragment">number of <u>subnets</u>: 2<sup>64</sup> ≈ 18 × 10<sup>18</sup></li>
+            <li class="fragment">avg: 2.3 × 10<sup>9</sup> <math>
+               <mfrac><mrow><mtext>subnets</mtext></mrow><mrow><mtext>person</mtext></mrow></mfrac>
               </math>
             </li>
           </ul>
@@ -394,38 +396,38 @@
 
       <section>
         <section data-background-image="bg/imgix-klWUhr-wPJ8-unsplash.jpg">
-          <h3>Konfiguracja adresów urządzeń</h3>
+          <h3>Devince configuration</h3>
           <ul>
-            <li class="fragment">statyczna</li>
-            <li class="fragment">dynamiczna</li>
+            <li class="fragment">static</li>
+            <li class="fragment">dynamic</li>
           </ul>
-          <p class="fragment">Typowo po kilka adresów IPv6 na jednym interfejsie.</p>
-          <p class="fragment"><small>(W IPv4 zwykle był to jeden adres.)</small></p>
+          <p class="fragment">Usually many addresses per interface</p>
+          <p class="fragment"><small>(In IPv4 usually single address)</small></p>
         </section>
 
         <section data-background-image="bg/imgix-klWUhr-wPJ8-unsplash.jpg">
-          <h3>Adresy typu Link-Local</h3>
+          <h3>Link-Local Addresses</h3>
           <ul>
-            <li class="fragment">adresy z klasy: <code>fe80::/64</code></li>
-            <li class="fragment">konfigurowane automatycznie w chwili uruchomienia interfejsu</li>
-            <li class="fragment">nieroutowalne</li>
-            <li class="fragment">niekoniecznie unikalne</li>
-            <li class="fragment">kilka metod generowania</li>
-          </ul>
-        </section>
-
-        <section data-background-image="bg/imgix-klWUhr-wPJ8-unsplash.jpg">
-          <h3>Metody generowania adresów</h3>
-          <ul>
-            <li class="fragment">EUI-64 (w oparciu o MAC)</li>
-            <li class="fragment">całkowicie losowe</li>
-            <li class="fragment">ustawione ręcznie: np. <code>fe80::1</code></li>
+            <li class="fragment">address class: <code>fe80::/64</code></li>
+            <li class="fragment">configured automatically when device goes up</li>
+            <li class="fragment">non-routable</li>
+            <li class="fragment">not necessarily unique</li>
+            <li class="fragment">few generation methods</li>
           </ul>
         </section>
 
         <section data-background-image="bg/imgix-klWUhr-wPJ8-unsplash.jpg">
-          <h3>EUI-64 dla adresów Link-Local</h3>
-          <p class="fragment">MAC adres:</p>
+          <h3>Address generation methods</h3>
+          <ul>
+            <li class="fragment">EUI-64 (based on MAC)</li>
+            <li class="fragment">totally random</li>
+            <li class="fragment">manual: i.e. <code>fe80::1</code></li>
+          </ul>
+        </section>
+
+        <section data-background-image="bg/imgix-klWUhr-wPJ8-unsplash.jpg">
+          <h3>Link-Local EUI-64</h3>
+          <p class="fragment">MAC:</p>
           <p class="fragment"><code style='color:red;'>4c:eb:42:17:65:a1</code></p>
           <p class="fragment">IPv6 link local:</p>
           <p class="fragment"><code>fe80::<span class="fragment"><span style='color:red'>4<u>e</u>eb:42</span><span class=
@@ -445,16 +447,16 @@
         </section>
 
         <section data-background='#fff'>
-          <h3>Link local w Windows</h3><img src='assets/ipv6/win-ll1.png'>
+          <h3>Link local on Windows</h3><img src='assets/ipv6/win-ll1.png'>
         </section>
 
         <section data-background='#fff'>
-          <h3>Link local w Windows</h3><img src='assets/ipv6/win-ll2.png'>
+          <h3>Link local on Windows</h3><img src='assets/ipv6/win-ll2.png'>
         </section>
 
         <section data-background-image="bg/imgix-klWUhr-wPJ8-unsplash.jpg">
-          <h3>Oznaczenie interfejsu w adresie LL</h3>
-          <p class="fragment">Adresy LL najczęściej zapisywane są wraz z symbolem lub numerem interfejsu.</p>
+          <h3>Link local and interface id</h3>
+          <p class="fragment">Link Local addresses usually include interface id:</p>
           <p class="fragment"><code>fe80::1234<u>%3</u></code></p>
           <p class="fragment"><code>fe80::1234<u>%eth0</u></code></p>
         </section>
@@ -462,7 +464,7 @@
 
       <section>
         <section data-background-image="bg/burst-kUqqaRjJuw0-unsplash.jpg">
-          <h3>Autokonfiguracja w IPv6</h3>
+          <h3>IPv6 autoconfiguration</h3>
           <ul>
             <li class="fragment">SLAAC - StateLess Address AutoConfiguration</li>
             <li class="fragment">DHCPv6</li>
