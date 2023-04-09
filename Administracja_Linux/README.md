@@ -24,6 +24,9 @@
 - Simson Garfinkel, Daniel Weise, Steven Strassmann - *The UNIX-HATERS Handbook*
 [[PDF](https://web.mit.edu/~simsong/www/ugh.pdf)]
 [[Wikipedia](https://en.wikipedia.org/wiki/The_UNIX-HATERS_Handbook)]
+- Mark Mitchell, Jeffrey Oldham, and Alex Samuel - *Advanced Linux Programming*
+[[WWW](https://mentorembedded.github.io/advancedlinuxprogramming/)]
+[[PDF](https://mentorembedded.github.io/advancedlinuxprogramming/alp-folder/advanced-linux-programming.pdf)]
 
 ## Artykuły
 
