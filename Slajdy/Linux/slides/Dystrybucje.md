@@ -256,7 +256,8 @@ Ubuntu 21.04 (Hirsute Hippo)
 Ubuntu 21.10 (Impish Indri)  
 **Ubuntu 22.04 LTS (Jammy Jellyfish)**  
 Ubuntu 22.10 (Kinetic Kudu)  
-*Ubuntu 23.04 (?)*
+Ubuntu 23.04 (Lunar Lobster)
+*Ubuntu 23.10 (?)*
 
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
 <!-- .slide: data-background="#5e2750" -->
