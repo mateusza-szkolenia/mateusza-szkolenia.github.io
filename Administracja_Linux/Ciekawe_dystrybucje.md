@@ -58,6 +58,7 @@
 
 ## Bazujące na [Ubuntu](https://ubuntu.com/) i [Debianie](https://www.debian.org/):
 
+* [Vanilla OS](https://vanillaos.org/)
 * [elementary OS](https://elementary.io/)
 * [Linux Mint](https://linuxmint.com/)
 * [Pop!\_OS](https://pop.system76.com/)
@@ -70,6 +71,7 @@
 
 - [Ubuntu 20.04 LTS - x86-64 `mini.iso`](http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/)
 - [Debian](https://www.debian.org/distrib/netinst)
+- [netboot.xyz](https://netboot.xyz/)
 
 ## Starsze dystrybucje
 
@@ -86,9 +88,13 @@
 * [TurnKey Linux](https://www.turnkeylinux.org/)
 * [Vulnhub](https://www.vulnhub.com/)
 
+## Dystrybucje żarty
+
+* [Justin Bieber Linux](https://biebian.sourceforge.net/)
+
 # Inne systemy wzorowane i bazowane na UNIX-ie
 
-Systemy nie bazujące na kernelu Linuksa.
+*Systemy nie bazujące na kernelu Linuksa.*
 
 * [Minix](https://www.minix3.org/)
 * rodzina BSD
@@ -114,3 +120,9 @@ Systemy nie bazujące na kernelu Linuksa.
 * [HaikuOS](https://www.haiku-os.org/) - klon BeOS
 * [Plan 9](https://p9f.org/)
 * [TempleOS](https://templeos.org/)
+
+# Emulator PC w przeglądarce
+
+* [JSLinux by Fabrice Bellard](https://bellard.org/jslinux/)
+* [Virtual x86](https://copy.sh/v86/)
+
