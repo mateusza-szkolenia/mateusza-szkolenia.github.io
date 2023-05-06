@@ -1,0 +1,8804 @@
+[
+    {
+        "n": "Aleksandrów Kujawski",
+        "gps": [
+            52.8766,
+            18.6934
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "aleksandrowski"
+    },
+    {
+        "n": "Aleksandrów Łódzki",
+        "gps": [
+            51.8194,
+            19.3038
+        ],
+        "w": "łódzkie",
+        "p": "zgierski"
+    },
+    {
+        "n": "Alwernia",
+        "gps": [
+            50.0598,
+            19.5396
+        ],
+        "w": "małopolskie",
+        "p": "chrzanowski"
+    },
+    {
+        "n": "Andrychów",
+        "gps": [
+            49.8552,
+            19.3375
+        ],
+        "w": "małopolskie",
+        "p": "wadowicki"
+    },
+    {
+        "n": "Annopol",
+        "gps": [
+            50.8854,
+            21.8569
+        ],
+        "w": "lubelskie",
+        "p": "kraśnicki"
+    },
+    {
+        "n": "Augustów",
+        "gps": [
+            53.8442,
+            22.9802
+        ],
+        "w": "podlaskie",
+        "p": "augustowski"
+    },
+    {
+        "n": "Babimost",
+        "gps": [
+            52.1647,
+            15.8275
+        ],
+        "w": "lubuskie",
+        "p": "zielonogórski"
+    },
+    {
+        "n": "Baborów",
+        "gps": [
+            50.1573,
+            17.9889
+        ],
+        "w": "opolskie",
+        "p": "głubczycki"
+    },
+    {
+        "n": "Baranów Sandomierski",
+        "gps": [
+            50.4973,
+            21.5432
+        ],
+        "w": "podkarpackie",
+        "p": "tarnobrzeski"
+    },
+    {
+        "n": "Barcin",
+        "gps": [
+            52.8574,
+            17.9419
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "żniński"
+    },
+    {
+        "n": "Barczewo",
+        "gps": [
+            53.8283,
+            20.6903
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "olsztyński"
+    },
+    {
+        "n": "Bardo",
+        "gps": [
+            50.5063,
+            16.7404
+        ],
+        "w": "dolnośląskie",
+        "p": "ząbkowicki"
+    },
+    {
+        "n": "Barlinek",
+        "gps": [
+            52.9973,
+            15.2195
+        ],
+        "w": "zachodniopomorskie",
+        "p": "myśliborski"
+    },
+    {
+        "n": "Bartoszyce",
+        "gps": [
+            54.251,
+            20.8095
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "bartoszycki"
+    },
+    {
+        "n": "Barwice",
+        "gps": [
+            53.7448,
+            16.3552
+        ],
+        "w": "zachodniopomorskie",
+        "p": "szczecinecki"
+    },
+    {
+        "n": "Bełchatów",
+        "gps": [
+            51.3625,
+            19.3651
+        ],
+        "w": "łódzkie",
+        "p": "bełchatowski"
+    },
+    {
+        "n": "Bełżyce",
+        "gps": [
+            51.175,
+            22.2818
+        ],
+        "w": "lubelskie",
+        "p": "lubelski"
+    },
+    {
+        "n": "Będzin",
+        "gps": [
+            50.3243,
+            19.1358
+        ],
+        "w": "śląskie",
+        "p": "będziński"
+    },
+    {
+        "n": "Biała",
+        "gps": [
+            50.3854,
+            17.6598
+        ],
+        "w": "opolskie",
+        "p": "prudnicki"
+    },
+    {
+        "n": "Biała Piska",
+        "gps": [
+            53.6108,
+            22.0619
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "piski"
+    },
+    {
+        "n": "Biała Podlaska",
+        "gps": [
+            52.0324,
+            23.1165
+        ],
+        "w": "lubelskie",
+        "p": "Biała Podlaska"
+    },
+    {
+        "n": "Biała Rawska",
+        "gps": [
+            51.8083,
+            20.4742
+        ],
+        "w": "łódzkie",
+        "p": "rawski"
+    },
+    {
+        "n": "Białobrzegi",
+        "gps": [
+            51.6454,
+            20.9539
+        ],
+        "w": "mazowieckie",
+        "p": "białobrzeski"
+    },
+    {
+        "n": "Białogard",
+        "gps": [
+            54.0083,
+            15.9858
+        ],
+        "w": "zachodniopomorskie",
+        "p": "białogardzki"
+    },
+    {
+        "n": "Biały Bór",
+        "gps": [
+            53.8962,
+            16.8355
+        ],
+        "w": "zachodniopomorskie",
+        "p": "szczecinecki"
+    },
+    {
+        "n": "Białystok",
+        "gps": [
+            53.1323,
+            23.1687
+        ],
+        "w": "podlaskie",
+        "p": "Białystok"
+    },
+    {
+        "n": "Biecz",
+        "gps": [
+            49.731,
+            21.2538
+        ],
+        "w": "małopolskie",
+        "p": "gorlicki"
+    },
+    {
+        "n": "Bielawa",
+        "gps": [
+            50.6845,
+            16.6118
+        ],
+        "w": "dolnośląskie",
+        "p": "dzierżoniowski"
+    },
+    {
+        "n": "Bielsk Podlaski",
+        "gps": [
+            52.7686,
+            23.1916
+        ],
+        "w": "podlaskie",
+        "p": "bielski"
+    },
+    {
+        "n": "Bielsko-Biała",
+        "gps": [
+            49.8222,
+            19.0451
+        ],
+        "w": "śląskie",
+        "p": "Bielsko-Biała"
+    },
+    {
+        "n": "Bieruń",
+        "gps": [
+            50.0917,
+            19.0911
+        ],
+        "w": "śląskie",
+        "p": "bieruńsko-lędziński"
+    },
+    {
+        "n": "Bierutów",
+        "gps": [
+            51.1253,
+            17.5441
+        ],
+        "w": "dolnośląskie",
+        "p": "oleśnicki"
+    },
+    {
+        "n": "Bieżuń",
+        "gps": [
+            52.9596,
+            19.8885
+        ],
+        "w": "mazowieckie",
+        "p": "żuromiński"
+    },
+    {
+        "n": "Biłgoraj",
+        "gps": [
+            50.5355,
+            22.7203
+        ],
+        "w": "lubelskie",
+        "p": "biłgorajski"
+    },
+    {
+        "n": "Biskupiec",
+        "gps": [
+            53.8644,
+            20.9553
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "olsztyński"
+    },
+    {
+        "n": "Bisztynek",
+        "gps": [
+            54.086,
+            20.9014
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "bartoszycki"
+    },
+    {
+        "n": "Blachownia",
+        "gps": [
+            50.7842,
+            18.9625
+        ],
+        "w": "śląskie",
+        "p": "częstochowski"
+    },
+    {
+        "n": "Błaszki",
+        "gps": [
+            51.6517,
+            18.4377
+        ],
+        "w": "łódzkie",
+        "p": "sieradzki"
+    },
+    {
+        "n": "Błażowa",
+        "gps": [
+            49.8853,
+            22.1006
+        ],
+        "w": "podkarpackie",
+        "p": "rzeszowski"
+    },
+    {
+        "n": "Błonie",
+        "gps": [
+            52.195,
+            20.6178
+        ],
+        "w": "mazowieckie",
+        "p": "warszawski zachodni"
+    },
+    {
+        "n": "Bobolice",
+        "gps": [
+            53.9556,
+            16.5895
+        ],
+        "w": "zachodniopomorskie",
+        "p": "koszaliński"
+    },
+    {
+        "n": "Bobowa",
+        "gps": [
+            49.7053,
+            20.95
+        ],
+        "w": "małopolskie",
+        "p": "gorlicki"
+    },
+    {
+        "n": "Bochnia",
+        "gps": [
+            49.9693,
+            20.4326
+        ],
+        "w": "małopolskie",
+        "p": "bocheński"
+    },
+    {
+        "n": "Bodzanów",
+        "gps": [
+            52.5,
+            20.0324
+        ],
+        "w": "mazowieckie",
+        "p": "płocki"
+    },
+    {
+        "n": "Bodzentyn",
+        "gps": [
+            50.941,
+            20.957
+        ],
+        "w": "świętokrzyskie",
+        "p": "kielecki"
+    },
+    {
+        "n": "Bogatynia",
+        "gps": [
+            50.9047,
+            14.9572
+        ],
+        "w": "dolnośląskie",
+        "p": "zgorzelecki"
+    },
+    {
+        "n": "Boguchwała",
+        "gps": [
+            49.9823,
+            21.9396
+        ],
+        "w": "podkarpackie",
+        "p": "rzeszowski"
+    },
+    {
+        "n": "Boguszów-Gorce",
+        "gps": [
+            50.7559,
+            16.205
+        ],
+        "w": "dolnośląskie",
+        "p": "wałbrzyski"
+    },
+    {
+        "n": "Bojanowo",
+        "gps": [
+            51.7074,
+            16.7489
+        ],
+        "w": "wielkopolskie",
+        "p": "rawicki"
+    },
+    {
+        "n": "Bolesławiec",
+        "gps": [
+            51.263,
+            15.5648
+        ],
+        "w": "dolnośląskie",
+        "p": "bolesławiecki"
+    },
+    {
+        "n": "Bolimów",
+        "gps": [
+            52.0764,
+            20.1636
+        ],
+        "w": "łódzkie",
+        "p": "skierniewicki"
+    },
+    {
+        "n": "Bolków",
+        "gps": [
+            50.9222,
+            16.1007
+        ],
+        "w": "dolnośląskie",
+        "p": "jaworski"
+    },
+    {
+        "n": "Borek Wielkopolski",
+        "gps": [
+            51.9165,
+            17.2422
+        ],
+        "w": "wielkopolskie",
+        "p": "gostyński"
+    },
+    {
+        "n": "Borne Sulinowo",
+        "gps": [
+            53.5815,
+            16.5383
+        ],
+        "w": "zachodniopomorskie",
+        "p": "szczecinecki"
+    },
+    {
+        "n": "Braniewo",
+        "gps": [
+            54.3823,
+            19.8217
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "braniewski"
+    },
+    {
+        "n": "Brańsk",
+        "gps": [
+            52.7433,
+            22.8414
+        ],
+        "w": "podlaskie",
+        "p": "bielski"
+    },
+    {
+        "n": "Brodnica",
+        "gps": [
+            53.2564,
+            19.4027
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "brodnicki"
+    },
+    {
+        "n": "Brok",
+        "gps": [
+            52.6984,
+            21.8575
+        ],
+        "w": "mazowieckie",
+        "p": "ostrowski"
+    },
+    {
+        "n": "Brusy",
+        "gps": [
+            53.8852,
+            17.7243
+        ],
+        "w": "pomorskie",
+        "p": "chojnicki"
+    },
+    {
+        "n": "Brwinów",
+        "gps": [
+            52.1422,
+            20.7169
+        ],
+        "w": "mazowieckie",
+        "p": "pruszkowski"
+    },
+    {
+        "n": "Brzeg",
+        "gps": [
+            50.8616,
+            17.4699
+        ],
+        "w": "opolskie",
+        "p": "brzeski"
+    },
+    {
+        "n": "Brzeg Dolny",
+        "gps": [
+            51.2603,
+            16.7197
+        ],
+        "w": "dolnośląskie",
+        "p": "wołowski"
+    },
+    {
+        "n": "Brzesko",
+        "gps": [
+            49.9683,
+            20.6078
+        ],
+        "w": "małopolskie",
+        "p": "brzeski"
+    },
+    {
+        "n": "Brzeszcze",
+        "gps": [
+            49.983,
+            19.1441
+        ],
+        "w": "małopolskie",
+        "p": "oświęcimski"
+    },
+    {
+        "n": "Brześć Kujawski",
+        "gps": [
+            52.6064,
+            18.9007
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "włocławski"
+    },
+    {
+        "n": "Brzeziny",
+        "gps": [
+            51.7996,
+            19.7535
+        ],
+        "w": "łódzkie",
+        "p": "brzeziński"
+    },
+    {
+        "n": "Brzostek",
+        "gps": [
+            49.8798,
+            21.4105
+        ],
+        "w": "podkarpackie",
+        "p": "dębicki"
+    },
+    {
+        "n": "Brzozów",
+        "gps": [
+            49.6943,
+            22.0194
+        ],
+        "w": "podkarpackie",
+        "p": "brzozowski"
+    },
+    {
+        "n": "Budzyń",
+        "gps": [
+            52.8901,
+            16.9878
+        ],
+        "w": "wielkopolskie",
+        "p": "chodzieski"
+    },
+    {
+        "n": "Buk",
+        "gps": [
+            52.3554,
+            16.5197
+        ],
+        "w": "wielkopolskie",
+        "p": "poznański"
+    },
+    {
+        "n": "Bukowno",
+        "gps": [
+            50.2677,
+            19.4627
+        ],
+        "w": "małopolskie",
+        "p": "olkuski"
+    },
+    {
+        "n": "Busko-Zdrój",
+        "gps": [
+            50.4692,
+            20.7184
+        ],
+        "w": "świętokrzyskie",
+        "p": "buski"
+    },
+    {
+        "n": "Bychawa",
+        "gps": [
+            51.0144,
+            22.5347
+        ],
+        "w": "lubelskie",
+        "p": "lubelski"
+    },
+    {
+        "n": "Byczyna",
+        "gps": [
+            51.1141,
+            18.2142
+        ],
+        "w": "opolskie",
+        "p": "kluczborski"
+    },
+    {
+        "n": "Bydgoszcz",
+        "gps": [
+            53.1254,
+            18.0014
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "Bydgoszcz"
+    },
+    {
+        "n": "Bystrzyca Kłodzka",
+        "gps": [
+            50.2975,
+            16.6503
+        ],
+        "w": "dolnośląskie",
+        "p": "kłodzki"
+    },
+    {
+        "n": "Bytom",
+        "gps": [
+            50.3484,
+            18.9157
+        ],
+        "w": "śląskie",
+        "p": "Bytom"
+    },
+    {
+        "n": "Bytom Odrzański",
+        "gps": [
+            51.7296,
+            15.8254
+        ],
+        "w": "lubuskie",
+        "p": "nowosolski"
+    },
+    {
+        "n": "Bytów",
+        "gps": [
+            54.1698,
+            17.4893
+        ],
+        "w": "pomorskie",
+        "p": "bytowski"
+    },
+    {
+        "n": "Cedynia",
+        "gps": [
+            52.8783,
+            14.2033
+        ],
+        "w": "zachodniopomorskie",
+        "p": "gryfiński"
+    },
+    {
+        "n": "Cegłów",
+        "gps": [
+            52.1469,
+            21.74
+        ],
+        "w": "mazowieckie",
+        "p": "miński"
+    },
+    {
+        "n": "Chełm",
+        "gps": [
+            51.1336,
+            23.4702
+        ],
+        "w": "lubelskie",
+        "p": "Chełm"
+    },
+    {
+        "n": "Chełmek",
+        "gps": [
+            50.1006,
+            19.2583
+        ],
+        "w": "małopolskie",
+        "p": "oświęcimski"
+    },
+    {
+        "n": "Chełmno",
+        "gps": [
+            53.3507,
+            18.4302
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "chełmiński"
+    },
+    {
+        "n": "Chełmża",
+        "gps": [
+            53.1866,
+            18.6096
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "toruński"
+    },
+    {
+        "n": "Chęciny",
+        "gps": [
+            50.8005,
+            20.4623
+        ],
+        "w": "świętokrzyskie",
+        "p": "kielecki"
+    },
+    {
+        "n": "Chmielnik",
+        "gps": [
+            50.6143,
+            20.7518
+        ],
+        "w": "świętokrzyskie",
+        "p": "kielecki"
+    },
+    {
+        "n": "Chocianów",
+        "gps": [
+            51.4198,
+            15.9025
+        ],
+        "w": "dolnośląskie",
+        "p": "polkowicki"
+    },
+    {
+        "n": "Chociwel",
+        "gps": [
+            53.4693,
+            15.3352
+        ],
+        "w": "zachodniopomorskie",
+        "p": "stargardzki"
+    },
+    {
+        "n": "Chocz",
+        "gps": [
+            51.977,
+            17.8703
+        ],
+        "w": "wielkopolskie",
+        "p": "pleszewski"
+    },
+    {
+        "n": "Chodecz",
+        "gps": [
+            52.4047,
+            19.0289
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "włocławski"
+    },
+    {
+        "n": "Chodzież",
+        "gps": [
+            52.9923,
+            16.9154
+        ],
+        "w": "wielkopolskie",
+        "p": "chodzieski"
+    },
+    {
+        "n": "Chojna",
+        "gps": [
+            52.9634,
+            14.4327
+        ],
+        "w": "zachodniopomorskie",
+        "p": "gryfiński"
+    },
+    {
+        "n": "Chojnice",
+        "gps": [
+            53.6943,
+            17.5668
+        ],
+        "w": "pomorskie",
+        "p": "chojnicki"
+    },
+    {
+        "n": "Chojnów",
+        "gps": [
+            51.2734,
+            15.9365
+        ],
+        "w": "dolnośląskie",
+        "p": "legnicki"
+    },
+    {
+        "n": "Choroszcz",
+        "gps": [
+            53.1451,
+            22.9918
+        ],
+        "w": "podlaskie",
+        "p": "białostocki"
+    },
+    {
+        "n": "Chorzele",
+        "gps": [
+            53.26,
+            20.9009
+        ],
+        "w": "mazowieckie",
+        "p": "przasnyski"
+    },
+    {
+        "n": "Chorzów",
+        "gps": [
+            50.2995,
+            18.9524
+        ],
+        "w": "śląskie",
+        "p": "Chorzów"
+    },
+    {
+        "n": "Choszczno",
+        "gps": [
+            53.1674,
+            15.4196
+        ],
+        "w": "zachodniopomorskie",
+        "p": "choszczeński"
+    },
+    {
+        "n": "Chrzanów",
+        "gps": [
+            50.1416,
+            19.4113
+        ],
+        "w": "małopolskie",
+        "p": "chrzanowski"
+    },
+    {
+        "n": "Ciechanowiec",
+        "gps": [
+            52.6791,
+            22.5001
+        ],
+        "w": "podlaskie",
+        "p": "wysokomazowiecki"
+    },
+    {
+        "n": "Ciechanów",
+        "gps": [
+            52.8823,
+            20.6096
+        ],
+        "w": "mazowieckie",
+        "p": "ciechanowski"
+    },
+    {
+        "n": "Ciechocinek",
+        "gps": [
+            52.8787,
+            18.7871
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "aleksandrowski"
+    },
+    {
+        "n": "Cieszanów",
+        "gps": [
+            50.2455,
+            23.1305
+        ],
+        "w": "podkarpackie",
+        "p": "lubaczowski"
+    },
+    {
+        "n": "Cieszyn",
+        "gps": [
+            49.7486,
+            18.6339
+        ],
+        "w": "śląskie",
+        "p": "cieszyński"
+    },
+    {
+        "n": "Ciężkowice",
+        "gps": [
+            49.7864,
+            20.9742
+        ],
+        "w": "małopolskie",
+        "p": "tarnowski"
+    },
+    {
+        "n": "Cybinka",
+        "gps": [
+            52.1946,
+            14.7959
+        ],
+        "w": "lubuskie",
+        "p": "słubicki"
+    },
+    {
+        "n": "Czaplinek",
+        "gps": [
+            53.5588,
+            16.2331
+        ],
+        "w": "zachodniopomorskie",
+        "p": "drawski"
+    },
+    {
+        "n": "Czarna Białostocka",
+        "gps": [
+            53.3058,
+            23.2822
+        ],
+        "w": "podlaskie",
+        "p": "białostocki"
+    },
+    {
+        "n": "Czarna Woda",
+        "gps": [
+            53.8445,
+            18.0999
+        ],
+        "w": "pomorskie",
+        "p": "starogardzki"
+    },
+    {
+        "n": "Czarne",
+        "gps": [
+            53.6836,
+            16.9402
+        ],
+        "w": "pomorskie",
+        "p": "człuchowski"
+    },
+    {
+        "n": "Czarnków",
+        "gps": [
+            52.9047,
+            16.5644
+        ],
+        "w": "wielkopolskie",
+        "p": "czarnkowsko-trzcianecki"
+    },
+    {
+        "n": "Czchów",
+        "gps": [
+            49.8338,
+            20.6735
+        ],
+        "w": "małopolskie",
+        "p": "brzeski"
+    },
+    {
+        "n": "Czechowice-Dziedzice",
+        "gps": [
+            49.9112,
+            19.0071
+        ],
+        "w": "śląskie",
+        "p": "bielski"
+    },
+    {
+        "n": "Czeladź",
+        "gps": [
+            50.3152,
+            19.0716
+        ],
+        "w": "śląskie",
+        "p": "będziński"
+    },
+    {
+        "n": "Czempiń",
+        "gps": [
+            52.1429,
+            16.7613
+        ],
+        "w": "wielkopolskie",
+        "p": "kościański"
+    },
+    {
+        "n": "Czerniejewo",
+        "gps": [
+            52.4267,
+            17.4893
+        ],
+        "w": "wielkopolskie",
+        "p": "gnieźnieński"
+    },
+    {
+        "n": "Czersk",
+        "gps": [
+            53.7951,
+            17.9764
+        ],
+        "w": "pomorskie",
+        "p": "chojnicki"
+    },
+    {
+        "n": "Czerwieńsk",
+        "gps": [
+            52.013,
+            15.4234
+        ],
+        "w": "lubuskie",
+        "p": "zielonogórski"
+    },
+    {
+        "n": "Czerwińsk nad Wisłą",
+        "gps": [
+            52.3938,
+            20.3128
+        ],
+        "w": "mazowieckie",
+        "p": "płoński"
+    },
+    {
+        "n": "Czerwionka-Leszczyny",
+        "gps": [
+            50.159,
+            18.6636
+        ],
+        "w": "śląskie",
+        "p": "rybnicki"
+    },
+    {
+        "n": "Częstochowa",
+        "gps": [
+            50.8119,
+            19.1279
+        ],
+        "w": "śląskie",
+        "p": "Częstochowa"
+    },
+    {
+        "n": "Człopa",
+        "gps": [
+            53.0863,
+            16.1217
+        ],
+        "w": "zachodniopomorskie",
+        "p": "wałecki"
+    },
+    {
+        "n": "Człuchów",
+        "gps": [
+            53.6672,
+            17.3589
+        ],
+        "w": "pomorskie",
+        "p": "człuchowski"
+    },
+    {
+        "n": "Czyżew",
+        "gps": [
+            52.7987,
+            22.3166
+        ],
+        "w": "podlaskie",
+        "p": "wysokomazowiecki"
+    },
+    {
+        "n": "Ćmielów",
+        "gps": [
+            50.8903,
+            21.51
+        ],
+        "w": "świętokrzyskie",
+        "p": "ostrowiecki"
+    },
+    {
+        "n": "Daleszyce",
+        "gps": [
+            50.8014,
+            20.8067
+        ],
+        "w": "świętokrzyskie",
+        "p": "kielecki"
+    },
+    {
+        "n": "Darłowo",
+        "gps": [
+            54.421,
+            16.4103
+        ],
+        "w": "zachodniopomorskie",
+        "p": "sławieński"
+    },
+    {
+        "n": "Dąbie",
+        "gps": [
+            52.0884,
+            18.8223
+        ],
+        "w": "wielkopolskie",
+        "p": "kolski"
+    },
+    {
+        "n": "Dąbrowa Białostocka",
+        "gps": [
+            53.6536,
+            23.348
+        ],
+        "w": "podlaskie",
+        "p": "sokólski"
+    },
+    {
+        "n": "Dąbrowa Górnicza",
+        "gps": [
+            50.3261,
+            19.2054
+        ],
+        "w": "śląskie",
+        "p": "Dąbrowa Górnicza"
+    },
+    {
+        "n": "Dąbrowa Tarnowska",
+        "gps": [
+            50.1745,
+            20.9864
+        ],
+        "w": "małopolskie",
+        "p": "dąbrowski"
+    },
+    {
+        "n": "Dąbrowice",
+        "gps": [
+            52.3154,
+            19.0847
+        ],
+        "w": "łódzkie",
+        "p": "kutnowski"
+    },
+    {
+        "n": "Debrzno",
+        "gps": [
+            53.5384,
+            17.2354
+        ],
+        "w": "pomorskie",
+        "p": "człuchowski"
+    },
+    {
+        "n": "Dębica",
+        "gps": [
+            50.0509,
+            21.4068
+        ],
+        "w": "podkarpackie",
+        "p": "dębicki"
+    },
+    {
+        "n": "Dęblin",
+        "gps": [
+            51.5615,
+            21.8428
+        ],
+        "w": "lubelskie",
+        "p": "rycki"
+    },
+    {
+        "n": "Dębno",
+        "gps": [
+            52.7356,
+            14.7022
+        ],
+        "w": "zachodniopomorskie",
+        "p": "myśliborski"
+    },
+    {
+        "n": "Dobczyce",
+        "gps": [
+            49.8777,
+            20.0989
+        ],
+        "w": "małopolskie",
+        "p": "myślenicki"
+    },
+    {
+        "n": "Dobiegniew",
+        "gps": [
+            52.9704,
+            15.7531
+        ],
+        "w": "lubuskie",
+        "p": "strzelecko-drezdenecki"
+    },
+    {
+        "n": "Dobra",
+        "gps": [
+            51.916,
+            18.6152
+        ],
+        "w": "wielkopolskie",
+        "p": "turecki"
+    },
+    {
+        "n": "Dobra",
+        "gps": [
+            53.5862,
+            15.3073
+        ],
+        "w": "zachodniopomorskie",
+        "p": "łobeski"
+    },
+    {
+        "n": "Dobre Miasto",
+        "gps": [
+            53.9862,
+            20.3898
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "olsztyński"
+    },
+    {
+        "n": "Dobrodzień",
+        "gps": [
+            50.7285,
+            18.4433
+        ],
+        "w": "opolskie",
+        "p": "oleski"
+    },
+    {
+        "n": "Dobrzany",
+        "gps": [
+            53.3583,
+            15.4289
+        ],
+        "w": "zachodniopomorskie",
+        "p": "stargardzki"
+    },
+    {
+        "n": "Dobrzyca",
+        "gps": [
+            51.8634,
+            17.6011
+        ],
+        "w": "wielkopolskie",
+        "p": "pleszewski"
+    },
+    {
+        "n": "Dobrzyń nad Wisłą",
+        "gps": [
+            52.6383,
+            19.3227
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "lipnowski"
+    },
+    {
+        "n": "Dolsk",
+        "gps": [
+            51.9871,
+            17.0638
+        ],
+        "w": "wielkopolskie",
+        "p": "śremski"
+    },
+    {
+        "n": "Drawno",
+        "gps": [
+            53.2185,
+            15.7562
+        ],
+        "w": "zachodniopomorskie",
+        "p": "choszczeński"
+    },
+    {
+        "n": "Drawsko Pomorskie",
+        "gps": [
+            53.5309,
+            15.8096
+        ],
+        "w": "zachodniopomorskie",
+        "p": "drawski"
+    },
+    {
+        "n": "Drezdenko",
+        "gps": [
+            52.836,
+            15.8312
+        ],
+        "w": "lubuskie",
+        "p": "strzelecko-drezdenecki"
+    },
+    {
+        "n": "Drobin",
+        "gps": [
+            52.7372,
+            19.9955
+        ],
+        "w": "mazowieckie",
+        "p": "płocki"
+    },
+    {
+        "n": "Drohiczyn",
+        "gps": [
+            52.3986,
+            22.6588
+        ],
+        "w": "podlaskie",
+        "p": "siemiatycki"
+    },
+    {
+        "n": "Drzewica",
+        "gps": [
+            51.4505,
+            20.4773
+        ],
+        "w": "łódzkie",
+        "p": "opoczyński"
+    },
+    {
+        "n": "Dubiecko",
+        "gps": [
+            49.825,
+            22.3924
+        ],
+        "w": "podkarpackie",
+        "p": "przemyski"
+    },
+    {
+        "n": "Dukla",
+        "gps": [
+            49.5551,
+            21.6843
+        ],
+        "w": "podkarpackie",
+        "p": "krośnieński"
+    },
+    {
+        "n": "Duszniki-Zdrój",
+        "gps": [
+            50.4041,
+            16.39
+        ],
+        "w": "dolnośląskie",
+        "p": "kłodzki"
+    },
+    {
+        "n": "Dynów",
+        "gps": [
+            49.8184,
+            22.228
+        ],
+        "w": "podkarpackie",
+        "p": "rzeszowski"
+    },
+    {
+        "n": "Działdowo",
+        "gps": [
+            53.2386,
+            20.1825
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "działdowski"
+    },
+    {
+        "n": "Działoszyce",
+        "gps": [
+            50.3656,
+            20.3517
+        ],
+        "w": "świętokrzyskie",
+        "p": "pińczowski"
+    },
+    {
+        "n": "Działoszyn",
+        "gps": [
+            51.1169,
+            18.8653
+        ],
+        "w": "łódzkie",
+        "p": "pajęczański"
+    },
+    {
+        "n": "Dzierzgoń",
+        "gps": [
+            53.9224,
+            19.3468
+        ],
+        "w": "pomorskie",
+        "p": "sztumski"
+    },
+    {
+        "n": "Dzierżoniów",
+        "gps": [
+            50.7282,
+            16.6514
+        ],
+        "w": "dolnośląskie",
+        "p": "dzierżoniowski"
+    },
+    {
+        "n": "Dziwnów",
+        "gps": [
+            54.0276,
+            14.7603
+        ],
+        "w": "zachodniopomorskie",
+        "p": "kamieński"
+    },
+    {
+        "n": "Elbląg",
+        "gps": [
+            54.1614,
+            19.4098
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "Elbląg"
+    },
+    {
+        "n": "Ełk",
+        "gps": [
+            53.8229,
+            22.3527
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "ełcki"
+    },
+    {
+        "n": "Frampol",
+        "gps": [
+            50.6716,
+            22.6707
+        ],
+        "w": "lubelskie",
+        "p": "biłgorajski"
+    },
+    {
+        "n": "Frombork",
+        "gps": [
+            54.357,
+            19.682
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "braniewski"
+    },
+    {
+        "n": "Garwolin",
+        "gps": [
+            51.8972,
+            21.6149
+        ],
+        "w": "mazowieckie",
+        "p": "garwoliński"
+    },
+    {
+        "n": "Gąbin",
+        "gps": [
+            52.399,
+            19.7328
+        ],
+        "w": "mazowieckie",
+        "p": "płocki"
+    },
+    {
+        "n": "Gdańsk",
+        "gps": [
+            54.3519,
+            18.6463
+        ],
+        "w": "pomorskie",
+        "p": "Gdańsk"
+    },
+    {
+        "n": "Gdynia",
+        "gps": [
+            54.5177,
+            18.5388
+        ],
+        "w": "pomorskie",
+        "p": "Gdynia"
+    },
+    {
+        "n": "Giżycko",
+        "gps": [
+            54.0399,
+            21.7715
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "giżycki"
+    },
+    {
+        "n": "Glinojeck",
+        "gps": [
+            52.8194,
+            20.2913
+        ],
+        "w": "mazowieckie",
+        "p": "ciechanowski"
+    },
+    {
+        "n": "Gliwice",
+        "gps": [
+            50.2921,
+            18.6671
+        ],
+        "w": "śląskie",
+        "p": "Gliwice"
+    },
+    {
+        "n": "Głogów",
+        "gps": [
+            51.6646,
+            16.0797
+        ],
+        "w": "dolnośląskie",
+        "p": "głogowski"
+    },
+    {
+        "n": "Głogów Małopolski",
+        "gps": [
+            50.1511,
+            21.9602
+        ],
+        "w": "podkarpackie",
+        "p": "rzeszowski"
+    },
+    {
+        "n": "Głogówek",
+        "gps": [
+            50.3534,
+            17.8645
+        ],
+        "w": "opolskie",
+        "p": "prudnicki"
+    },
+    {
+        "n": "Głowno",
+        "gps": [
+            51.9678,
+            19.7139
+        ],
+        "w": "łódzkie",
+        "p": "zgierski"
+    },
+    {
+        "n": "Głubczyce",
+        "gps": [
+            50.2001,
+            17.8303
+        ],
+        "w": "opolskie",
+        "p": "głubczycki"
+    },
+    {
+        "n": "Głuchołazy",
+        "gps": [
+            50.3151,
+            17.3835
+        ],
+        "w": "opolskie",
+        "p": "nyski"
+    },
+    {
+        "n": "Głuszyca",
+        "gps": [
+            50.6875,
+            16.3717
+        ],
+        "w": "dolnośląskie",
+        "p": "wałbrzyski"
+    },
+    {
+        "n": "Gniew",
+        "gps": [
+            53.8354,
+            18.8223
+        ],
+        "w": "pomorskie",
+        "p": "tczewski"
+    },
+    {
+        "n": "Gniewkowo",
+        "gps": [
+            52.8928,
+            18.4086
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "inowrocławski"
+    },
+    {
+        "n": "Gniezno",
+        "gps": [
+            52.5333,
+            17.6014
+        ],
+        "w": "wielkopolskie",
+        "p": "gnieźnieński"
+    },
+    {
+        "n": "Gogolin",
+        "gps": [
+            50.4915,
+            18.0222
+        ],
+        "w": "opolskie",
+        "p": "krapkowicki"
+    },
+    {
+        "n": "Golczewo",
+        "gps": [
+            53.8246,
+            14.9785
+        ],
+        "w": "zachodniopomorskie",
+        "p": "kamieński"
+    },
+    {
+        "n": "Goleniów",
+        "gps": [
+            53.5632,
+            14.8296
+        ],
+        "w": "zachodniopomorskie",
+        "p": "goleniowski"
+    },
+    {
+        "n": "Golina",
+        "gps": [
+            52.2443,
+            18.095
+        ],
+        "w": "wielkopolskie",
+        "p": "koniński"
+    },
+    {
+        "n": "Golub-Dobrzyń",
+        "gps": [
+            53.1092,
+            19.0524
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "golubsko-dobrzyński"
+    },
+    {
+        "n": "Gołańcz",
+        "gps": [
+            52.9434,
+            17.3012
+        ],
+        "w": "wielkopolskie",
+        "p": "wągrowiecki"
+    },
+    {
+        "n": "Gołdap",
+        "gps": [
+            54.3071,
+            22.3022
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "gołdapski"
+    },
+    {
+        "n": "Goniądz",
+        "gps": [
+            53.4881,
+            22.7347
+        ],
+        "w": "podlaskie",
+        "p": "moniecki"
+    },
+    {
+        "n": "Goraj",
+        "gps": [
+            50.7213,
+            22.6671
+        ],
+        "w": "lubelskie",
+        "p": "biłgorajski"
+    },
+    {
+        "n": "Gorlice",
+        "gps": [
+            49.6549,
+            21.16
+        ],
+        "w": "małopolskie",
+        "p": "gorlicki"
+    },
+    {
+        "n": "Gorzów Śląski",
+        "gps": [
+            51.0282,
+            18.4223
+        ],
+        "w": "opolskie",
+        "p": "oleski"
+    },
+    {
+        "n": "Gorzów Wielkopolski",
+        "gps": [
+            52.731,
+            15.2383
+        ],
+        "w": "lubuskie",
+        "p": "Gorzów Wielkopolski"
+    },
+    {
+        "n": "Gostynin",
+        "gps": [
+            52.4292,
+            19.4619
+        ],
+        "w": "mazowieckie",
+        "p": "gostyniński"
+    },
+    {
+        "n": "Gostyń",
+        "gps": [
+            51.8821,
+            17.0123
+        ],
+        "w": "wielkopolskie",
+        "p": "gostyński"
+    },
+    {
+        "n": "Gościno",
+        "gps": [
+            54.0514,
+            15.6526
+        ],
+        "w": "zachodniopomorskie",
+        "p": "kołobrzeski"
+    },
+    {
+        "n": "Gozdnica",
+        "gps": [
+            51.438,
+            15.0966
+        ],
+        "w": "lubuskie",
+        "p": "żagański"
+    },
+    {
+        "n": "Góra",
+        "gps": [
+            51.668,
+            16.539
+        ],
+        "w": "dolnośląskie",
+        "p": "górowski"
+    },
+    {
+        "n": "Góra Kalwaria",
+        "gps": [
+            51.9817,
+            21.216
+        ],
+        "w": "mazowieckie",
+        "p": "piaseczyński"
+    },
+    {
+        "n": "Górowo Iławeckie",
+        "gps": [
+            54.2878,
+            20.4909
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "bartoszycki"
+    },
+    {
+        "n": "Górzno",
+        "gps": [
+            53.1977,
+            19.6435
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "brodnicki"
+    },
+    {
+        "n": "Grabów nad Prosną",
+        "gps": [
+            51.5082,
+            18.1148
+        ],
+        "w": "wielkopolskie",
+        "p": "ostrzeszowski"
+    },
+    {
+        "n": "Grajewo",
+        "gps": [
+            53.647,
+            22.4549
+        ],
+        "w": "podlaskie",
+        "p": "grajewski"
+    },
+    {
+        "n": "Grodków",
+        "gps": [
+            50.6985,
+            17.3852
+        ],
+        "w": "opolskie",
+        "p": "brzeski"
+    },
+    {
+        "n": "Grodzisk Mazowiecki",
+        "gps": [
+            52.1036,
+            20.626
+        ],
+        "w": "mazowieckie",
+        "p": "grodziski"
+    },
+    {
+        "n": "Grodzisk Wielkopolski",
+        "gps": [
+            52.2246,
+            16.3642
+        ],
+        "w": "wielkopolskie",
+        "p": "grodziski"
+    },
+    {
+        "n": "Grójec",
+        "gps": [
+            51.8655,
+            20.8667
+        ],
+        "w": "mazowieckie",
+        "p": "grójecki"
+    },
+    {
+        "n": "Grudziądz",
+        "gps": [
+            53.488,
+            18.753
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "Grudziądz"
+    },
+    {
+        "n": "Grybów",
+        "gps": [
+            49.6248,
+            20.9475
+        ],
+        "w": "małopolskie",
+        "p": "nowosądecki"
+    },
+    {
+        "n": "Gryfice",
+        "gps": [
+            53.9161,
+            15.1987
+        ],
+        "w": "zachodniopomorskie",
+        "p": "gryficki"
+    },
+    {
+        "n": "Gryfino",
+        "gps": [
+            53.2567,
+            14.4894
+        ],
+        "w": "zachodniopomorskie",
+        "p": "gryfiński"
+    },
+    {
+        "n": "Gryfów Śląski",
+        "gps": [
+            51.0281,
+            15.4147
+        ],
+        "w": "dolnośląskie",
+        "p": "lwówecki"
+    },
+    {
+        "n": "Gubin",
+        "gps": [
+            51.9549,
+            14.727
+        ],
+        "w": "lubuskie",
+        "p": "krośnieński"
+    },
+    {
+        "n": "Hajnówka",
+        "gps": [
+            52.7431,
+            23.5831
+        ],
+        "w": "podlaskie",
+        "p": "hajnowski"
+    },
+    {
+        "n": "Halinów",
+        "gps": [
+            52.2242,
+            21.3597
+        ],
+        "w": "mazowieckie",
+        "p": "miński"
+    },
+    {
+        "n": "Hel",
+        "gps": [
+            54.6053,
+            18.8026
+        ],
+        "w": "pomorskie",
+        "p": "pucki"
+    },
+    {
+        "n": "Hrubieszów",
+        "gps": [
+            50.8051,
+            23.8898
+        ],
+        "w": "lubelskie",
+        "p": "hrubieszowski"
+    },
+    {
+        "n": "Iława",
+        "gps": [
+            53.5899,
+            19.5668
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "iławski"
+    },
+    {
+        "n": "Iłowa",
+        "gps": [
+            51.5047,
+            15.2018
+        ],
+        "w": "lubuskie",
+        "p": "żagański"
+    },
+    {
+        "n": "Iłża",
+        "gps": [
+            51.1637,
+            21.237
+        ],
+        "w": "mazowieckie",
+        "p": "radomski"
+    },
+    {
+        "n": "Imielin",
+        "gps": [
+            50.1462,
+            19.1857
+        ],
+        "w": "śląskie",
+        "p": "bieruńsko-lędziński"
+    },
+    {
+        "n": "Inowrocław",
+        "gps": [
+            52.7965,
+            18.2616
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "inowrocławski"
+    },
+    {
+        "n": "Ińsko",
+        "gps": [
+            53.4357,
+            15.5483
+        ],
+        "w": "zachodniopomorskie",
+        "p": "stargardzki"
+    },
+    {
+        "n": "Iwaniska",
+        "gps": [
+            50.7315,
+            21.2807
+        ],
+        "w": "świętokrzyskie",
+        "p": "opatowski"
+    },
+    {
+        "n": "Iwonicz-Zdrój",
+        "gps": [
+            49.566,
+            21.7928
+        ],
+        "w": "podkarpackie",
+        "p": "krośnieński"
+    },
+    {
+        "n": "Izbica",
+        "gps": [
+            50.8932,
+            23.1583
+        ],
+        "w": "lubelskie",
+        "p": "krasnostawski"
+    },
+    {
+        "n": "Izbica Kujawska",
+        "gps": [
+            52.4206,
+            18.7631
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "włocławski"
+    },
+    {
+        "n": "Jabłonowo Pomorskie",
+        "gps": [
+            53.3878,
+            19.1536
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "brodnicki"
+    },
+    {
+        "n": "Jadów",
+        "gps": [
+            52.4783,
+            21.632
+        ],
+        "w": "mazowieckie",
+        "p": "wołomiński"
+    },
+    {
+        "n": "Janikowo",
+        "gps": [
+            52.7542,
+            18.1123
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "inowrocławski"
+    },
+    {
+        "n": "Janowiec Wielkopolski",
+        "gps": [
+            52.7569,
+            17.4874
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "żniński"
+    },
+    {
+        "n": "Janów Lubelski",
+        "gps": [
+            50.7067,
+            22.4107
+        ],
+        "w": "lubelskie",
+        "p": "janowski"
+    },
+    {
+        "n": "Jaraczewo",
+        "gps": [
+            51.9688,
+            17.2973
+        ],
+        "w": "wielkopolskie",
+        "p": "jarociński"
+    },
+    {
+        "n": "Jarocin",
+        "gps": [
+            51.9724,
+            17.5016
+        ],
+        "w": "wielkopolskie",
+        "p": "jarociński"
+    },
+    {
+        "n": "Jarosław",
+        "gps": [
+            50.0188,
+            22.6835
+        ],
+        "w": "podkarpackie",
+        "p": "jarosławski"
+    },
+    {
+        "n": "Jasień",
+        "gps": [
+            51.7514,
+            15.0122
+        ],
+        "w": "lubuskie",
+        "p": "żarski"
+    },
+    {
+        "n": "Jasło",
+        "gps": [
+            49.7458,
+            21.4735
+        ],
+        "w": "podkarpackie",
+        "p": "jasielski"
+    },
+    {
+        "n": "Jastarnia",
+        "gps": [
+            54.6991,
+            18.6728
+        ],
+        "w": "pomorskie",
+        "p": "pucki"
+    },
+    {
+        "n": "Jastrowie",
+        "gps": [
+            53.4211,
+            16.8155
+        ],
+        "w": "wielkopolskie",
+        "p": "złotowski"
+    },
+    {
+        "n": "Jastrząb",
+        "gps": [
+            51.2461,
+            20.9477
+        ],
+        "w": "mazowieckie",
+        "p": "szydłowiecki"
+    },
+    {
+        "n": "Jastrzębie-Zdrój",
+        "gps": [
+            49.9519,
+            18.6023
+        ],
+        "w": "śląskie",
+        "p": "Jastrzębie-Zdrój"
+    },
+    {
+        "n": "Jawor",
+        "gps": [
+            51.0503,
+            16.1936
+        ],
+        "w": "dolnośląskie",
+        "p": "jaworski"
+    },
+    {
+        "n": "Jaworzno",
+        "gps": [
+            50.2037,
+            19.2702
+        ],
+        "w": "śląskie",
+        "p": "Jaworzno"
+    },
+    {
+        "n": "Jaworzyna Śląska",
+        "gps": [
+            50.9144,
+            16.4305
+        ],
+        "w": "dolnośląskie",
+        "p": "świdnicki"
+    },
+    {
+        "n": "Jedlicze",
+        "gps": [
+            49.7124,
+            21.6415
+        ],
+        "w": "podkarpackie",
+        "p": "krośnieński"
+    },
+    {
+        "n": "Jedlina-Zdrój",
+        "gps": [
+            50.7249,
+            16.3471
+        ],
+        "w": "dolnośląskie",
+        "p": "wałbrzyski"
+    },
+    {
+        "n": "Jedlnia-Letnisko",
+        "gps": [
+            51.4312,
+            21.3314
+        ],
+        "w": "mazowieckie",
+        "p": "radomski"
+    },
+    {
+        "n": "Jedwabne",
+        "gps": [
+            53.2856,
+            22.3035
+        ],
+        "w": "podlaskie",
+        "p": "łomżyński"
+    },
+    {
+        "n": "Jelcz-Laskowice",
+        "gps": [
+            51.0399,
+            17.3499
+        ],
+        "w": "dolnośląskie",
+        "p": "oławski"
+    },
+    {
+        "n": "Jelenia Góra",
+        "gps": [
+            50.9031,
+            15.7346
+        ],
+        "w": "dolnośląskie",
+        "p": "Jelenia Góra"
+    },
+    {
+        "n": "Jeziorany",
+        "gps": [
+            53.9765,
+            20.7462
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "olsztyński"
+    },
+    {
+        "n": "Jeżów",
+        "gps": [
+            51.8134,
+            19.9688
+        ],
+        "w": "łódzkie",
+        "p": "brzeziński"
+    },
+    {
+        "n": "Jędrzejów",
+        "gps": [
+            50.6403,
+            20.3036
+        ],
+        "w": "świętokrzyskie",
+        "p": "jędrzejowski"
+    },
+    {
+        "n": "Jordanów",
+        "gps": [
+            49.6494,
+            19.8303
+        ],
+        "w": "małopolskie",
+        "p": "suski"
+    },
+    {
+        "n": "Józefów",
+        "gps": [
+            50.4808,
+            23.0551
+        ],
+        "w": "lubelskie",
+        "p": "biłgorajski"
+    },
+    {
+        "n": "Józefów",
+        "gps": [
+            52.1333,
+            21.2286
+        ],
+        "w": "mazowieckie",
+        "p": "otwocki"
+    },
+    {
+        "n": "Józefów nad Wisłą",
+        "gps": [
+            51.0412,
+            21.8304
+        ],
+        "w": "lubelskie",
+        "p": "opolski"
+    },
+    {
+        "n": "Jutrosin",
+        "gps": [
+            51.6513,
+            17.1692
+        ],
+        "w": "wielkopolskie",
+        "p": "rawicki"
+    },
+    {
+        "n": "Kaczory",
+        "gps": [
+            53.1019,
+            16.8848
+        ],
+        "w": "wielkopolskie",
+        "p": "pilski"
+    },
+    {
+        "n": "Kalety",
+        "gps": [
+            50.5643,
+            18.8842
+        ],
+        "w": "śląskie",
+        "p": "tarnogórski"
+    },
+    {
+        "n": "Kalisz",
+        "gps": [
+            51.7608,
+            18.0868
+        ],
+        "w": "wielkopolskie",
+        "p": "Kalisz"
+    },
+    {
+        "n": "Kalisz Pomorski",
+        "gps": [
+            53.2984,
+            15.9057
+        ],
+        "w": "zachodniopomorskie",
+        "p": "drawski"
+    },
+    {
+        "n": "Kalwaria Zebrzydowska",
+        "gps": [
+            49.8665,
+            19.6759
+        ],
+        "w": "małopolskie",
+        "p": "wadowicki"
+    },
+    {
+        "n": "Kałuszyn",
+        "gps": [
+            52.2086,
+            21.8126
+        ],
+        "w": "mazowieckie",
+        "p": "miński"
+    },
+    {
+        "n": "Kamieniec Ząbkowicki",
+        "gps": [
+            50.525,
+            16.8781
+        ],
+        "w": "dolnośląskie",
+        "p": "ząbkowicki"
+    },
+    {
+        "n": "Kamienna Góra",
+        "gps": [
+            50.7834,
+            16.0327
+        ],
+        "w": "dolnośląskie",
+        "p": "kamiennogórski"
+    },
+    {
+        "n": "Kamień Krajeński",
+        "gps": [
+            53.5328,
+            17.5206
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "sępoleński"
+    },
+    {
+        "n": "Kamień Pomorski",
+        "gps": [
+            53.9686,
+            14.7727
+        ],
+        "w": "zachodniopomorskie",
+        "p": "kamieński"
+    },
+    {
+        "n": "Kamieńsk",
+        "gps": [
+            51.2044,
+            19.4969
+        ],
+        "w": "łódzkie",
+        "p": "radomszczański"
+    },
+    {
+        "n": "Kamionka",
+        "gps": [
+            51.4708,
+            22.4624
+        ],
+        "w": "lubelskie",
+        "p": "lubartowski"
+    },
+    {
+        "n": "Kańczuga",
+        "gps": [
+            49.9833,
+            22.4117
+        ],
+        "w": "podkarpackie",
+        "p": "przeworski"
+    },
+    {
+        "n": "Karczew",
+        "gps": [
+            52.0781,
+            21.2432
+        ],
+        "w": "mazowieckie",
+        "p": "otwocki"
+    },
+    {
+        "n": "Kargowa",
+        "gps": [
+            52.072,
+            15.8652
+        ],
+        "w": "lubuskie",
+        "p": "zielonogórski"
+    },
+    {
+        "n": "Karlino",
+        "gps": [
+            54.0381,
+            15.8792
+        ],
+        "w": "zachodniopomorskie",
+        "p": "białogardzki"
+    },
+    {
+        "n": "Karpacz",
+        "gps": [
+            50.7747,
+            15.7546
+        ],
+        "w": "dolnośląskie",
+        "p": "karkonoski"
+    },
+    {
+        "n": "Kartuzy",
+        "gps": [
+            54.3344,
+            18.1995
+        ],
+        "w": "pomorskie",
+        "p": "kartuski"
+    },
+    {
+        "n": "Katowice",
+        "gps": [
+            50.2644,
+            19.0236
+        ],
+        "w": "śląskie",
+        "p": "Katowice"
+    },
+    {
+        "n": "Kazimierz Dolny",
+        "gps": [
+            51.3221,
+            21.9474
+        ],
+        "w": "lubelskie",
+        "p": "puławski"
+    },
+    {
+        "n": "Kazimierza Wielka",
+        "gps": [
+            50.2655,
+            20.4933
+        ],
+        "w": "świętokrzyskie",
+        "p": "kazimierski"
+    },
+    {
+        "n": "Kąty Wrocławskie",
+        "gps": [
+            51.0299,
+            16.7711
+        ],
+        "w": "dolnośląskie",
+        "p": "wrocławski"
+    },
+    {
+        "n": "Kcynia",
+        "gps": [
+            52.9917,
+            17.4872
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "nakielski"
+    },
+    {
+        "n": "Kędzierzyn-Koźle",
+        "gps": [
+            50.3442,
+            18.2073
+        ],
+        "w": "opolskie",
+        "p": "kędzierzyńsko-kozielski"
+    },
+    {
+        "n": "Kępice",
+        "gps": [
+            54.2427,
+            16.8878
+        ],
+        "w": "pomorskie",
+        "p": "słupski"
+    },
+    {
+        "n": "Kępno",
+        "gps": [
+            51.2791,
+            17.9835
+        ],
+        "w": "wielkopolskie",
+        "p": "kępiński"
+    },
+    {
+        "n": "Kętrzyn",
+        "gps": [
+            54.0772,
+            21.3748
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "kętrzyński"
+    },
+    {
+        "n": "Kęty",
+        "gps": [
+            49.8837,
+            19.2224
+        ],
+        "w": "małopolskie",
+        "p": "oświęcimski"
+    },
+    {
+        "n": "Kielce",
+        "gps": [
+            50.8717,
+            20.6315
+        ],
+        "w": "świętokrzyskie",
+        "p": "Kielce"
+    },
+    {
+        "n": "Kietrz",
+        "gps": [
+            50.0796,
+            18.0022
+        ],
+        "w": "opolskie",
+        "p": "głubczycki"
+    },
+    {
+        "n": "Kisielice",
+        "gps": [
+            53.6091,
+            19.259
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "iławski"
+    },
+    {
+        "n": "Kleczew",
+        "gps": [
+            52.3709,
+            18.173
+        ],
+        "w": "wielkopolskie",
+        "p": "koniński"
+    },
+    {
+        "n": "Kleszczele",
+        "gps": [
+            52.5747,
+            23.3264
+        ],
+        "w": "podlaskie",
+        "p": "hajnowski"
+    },
+    {
+        "n": "Klimontów",
+        "gps": [
+            50.6565,
+            21.4504
+        ],
+        "w": "świętokrzyskie",
+        "p": "sandomierski"
+    },
+    {
+        "n": "Kluczbork",
+        "gps": [
+            50.9731,
+            18.2146
+        ],
+        "w": "opolskie",
+        "p": "kluczborski"
+    },
+    {
+        "n": "Kłecko",
+        "gps": [
+            52.6318,
+            17.4296
+        ],
+        "w": "wielkopolskie",
+        "p": "gnieźnieński"
+    },
+    {
+        "n": "Kłobuck",
+        "gps": [
+            50.9052,
+            18.9378
+        ],
+        "w": "śląskie",
+        "p": "kłobucki"
+    },
+    {
+        "n": "Kłodawa",
+        "gps": [
+            52.2543,
+            18.9135
+        ],
+        "w": "wielkopolskie",
+        "p": "kolski"
+    },
+    {
+        "n": "Kłodzko",
+        "gps": [
+            50.4374,
+            16.6528
+        ],
+        "w": "dolnośląskie",
+        "p": "kłodzki"
+    },
+    {
+        "n": "Knurów",
+        "gps": [
+            50.2231,
+            18.6669
+        ],
+        "w": "śląskie",
+        "p": "gliwicki"
+    },
+    {
+        "n": "Knyszyn",
+        "gps": [
+            53.3127,
+            22.9197
+        ],
+        "w": "podlaskie",
+        "p": "moniecki"
+    },
+    {
+        "n": "Kobylin",
+        "gps": [
+            51.7166,
+            17.2267
+        ],
+        "w": "wielkopolskie",
+        "p": "krotoszyński"
+    },
+    {
+        "n": "Kobyłka",
+        "gps": [
+            52.3393,
+            21.196
+        ],
+        "w": "mazowieckie",
+        "p": "wołomiński"
+    },
+    {
+        "n": "Kock",
+        "gps": [
+            51.6397,
+            22.4464
+        ],
+        "w": "lubelskie",
+        "p": "lubartowski"
+    },
+    {
+        "n": "Kolbuszowa",
+        "gps": [
+            50.2432,
+            21.7741
+        ],
+        "w": "podkarpackie",
+        "p": "kolbuszowski"
+    },
+    {
+        "n": "Kolno",
+        "gps": [
+            53.4091,
+            21.9336
+        ],
+        "w": "podlaskie",
+        "p": "kolneński"
+    },
+    {
+        "n": "Kolonowskie",
+        "gps": [
+            50.6532,
+            18.3842
+        ],
+        "w": "opolskie",
+        "p": "strzelecki"
+    },
+    {
+        "n": "Koluszki",
+        "gps": [
+            51.745,
+            19.8173
+        ],
+        "w": "łódzkie",
+        "p": "łódzki wschodni"
+    },
+    {
+        "n": "Kołaczyce",
+        "gps": [
+            49.8071,
+            21.4336
+        ],
+        "w": "podkarpackie",
+        "p": "jasielski"
+    },
+    {
+        "n": "Koło",
+        "gps": [
+            52.2052,
+            18.6351
+        ],
+        "w": "wielkopolskie",
+        "p": "kolski"
+    },
+    {
+        "n": "Kołobrzeg",
+        "gps": [
+            54.1798,
+            15.5723
+        ],
+        "w": "zachodniopomorskie",
+        "p": "kołobrzeski"
+    },
+    {
+        "n": "Koniecpol",
+        "gps": [
+            50.7727,
+            19.6768
+        ],
+        "w": "śląskie",
+        "p": "częstochowski"
+    },
+    {
+        "n": "Konin",
+        "gps": [
+            52.2295,
+            18.245
+        ],
+        "w": "wielkopolskie",
+        "p": "Konin"
+    },
+    {
+        "n": "Konstancin-Jeziorna",
+        "gps": [
+            52.0939,
+            21.1176
+        ],
+        "w": "mazowieckie",
+        "p": "piaseczyński"
+    },
+    {
+        "n": "Konstantynów Łódzki",
+        "gps": [
+            51.7479,
+            19.3255
+        ],
+        "w": "łódzkie",
+        "p": "pabianicki"
+    },
+    {
+        "n": "Końskie",
+        "gps": [
+            51.1916,
+            20.4071
+        ],
+        "w": "świętokrzyskie",
+        "p": "konecki"
+    },
+    {
+        "n": "Koprzywnica",
+        "gps": [
+            50.5932,
+            21.5846
+        ],
+        "w": "świętokrzyskie",
+        "p": "sandomierski"
+    },
+    {
+        "n": "Korfantów",
+        "gps": [
+            50.4881,
+            17.5955
+        ],
+        "w": "opolskie",
+        "p": "nyski"
+    },
+    {
+        "n": "Koronowo",
+        "gps": [
+            53.3101,
+            17.9422
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "bydgoski"
+    },
+    {
+        "n": "Korsze",
+        "gps": [
+            54.1723,
+            21.1407
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "kętrzyński"
+    },
+    {
+        "n": "Kosów Lacki",
+        "gps": [
+            52.5959,
+            22.147
+        ],
+        "w": "mazowieckie",
+        "p": "sokołowski"
+    },
+    {
+        "n": "Kostrzyn",
+        "gps": [
+            52.3973,
+            17.2255
+        ],
+        "w": "wielkopolskie",
+        "p": "poznański"
+    },
+    {
+        "n": "Kostrzyn nad Odrą",
+        "gps": [
+            52.5873,
+            14.6497
+        ],
+        "w": "lubuskie",
+        "p": "gorzowski"
+    },
+    {
+        "n": "Koszalin",
+        "gps": [
+            54.1902,
+            16.1819
+        ],
+        "w": "zachodniopomorskie",
+        "p": "Koszalin"
+    },
+    {
+        "n": "Koszyce",
+        "gps": [
+            50.1685,
+            20.5777
+        ],
+        "w": "małopolskie",
+        "p": "proszowicki"
+    },
+    {
+        "n": "Kościan",
+        "gps": [
+            52.0859,
+            16.6442
+        ],
+        "w": "wielkopolskie",
+        "p": "kościański"
+    },
+    {
+        "n": "Kościerzyna",
+        "gps": [
+            54.1213,
+            17.9805
+        ],
+        "w": "pomorskie",
+        "p": "kościerski"
+    },
+    {
+        "n": "Kowal",
+        "gps": [
+            52.5305,
+            19.1487
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "włocławski"
+    },
+    {
+        "n": "Kowalewo Pomorskie",
+        "gps": [
+            53.1547,
+            18.8982
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "golubsko-dobrzyński"
+    },
+    {
+        "n": "Kowary",
+        "gps": [
+            50.7924,
+            15.8365
+        ],
+        "w": "dolnośląskie",
+        "p": "karkonoski"
+    },
+    {
+        "n": "Koziegłowy",
+        "gps": [
+            50.5999,
+            19.163
+        ],
+        "w": "śląskie",
+        "p": "myszkowski"
+    },
+    {
+        "n": "Kozienice",
+        "gps": [
+            51.5842,
+            21.5491
+        ],
+        "w": "mazowieckie",
+        "p": "kozienicki"
+    },
+    {
+        "n": "Koźmin Wielkopolski",
+        "gps": [
+            51.8272,
+            17.4529
+        ],
+        "w": "wielkopolskie",
+        "p": "krotoszyński"
+    },
+    {
+        "n": "Koźminek",
+        "gps": [
+            51.7996,
+            18.3354
+        ],
+        "w": "wielkopolskie",
+        "p": "kaliski"
+    },
+    {
+        "n": "Kożuchów",
+        "gps": [
+            51.7451,
+            15.595
+        ],
+        "w": "lubuskie",
+        "p": "nowosolski"
+    },
+    {
+        "n": "Kórnik",
+        "gps": [
+            52.2486,
+            17.0897
+        ],
+        "w": "wielkopolskie",
+        "p": "poznański"
+    },
+    {
+        "n": "Krajenka",
+        "gps": [
+            53.2971,
+            16.9904
+        ],
+        "w": "wielkopolskie",
+        "p": "złotowski"
+    },
+    {
+        "n": "Kraków",
+        "gps": [
+            50.0618,
+            19.9374
+        ],
+        "w": "małopolskie",
+        "p": "Kraków"
+    },
+    {
+        "n": "Krapkowice",
+        "gps": [
+            50.4746,
+            17.9671
+        ],
+        "w": "opolskie",
+        "p": "krapkowicki"
+    },
+    {
+        "n": "Krasnobród",
+        "gps": [
+            50.5449,
+            23.2113
+        ],
+        "w": "lubelskie",
+        "p": "zamojski"
+    },
+    {
+        "n": "Krasnystaw",
+        "gps": [
+            50.9845,
+            23.1733
+        ],
+        "w": "lubelskie",
+        "p": "krasnostawski"
+    },
+    {
+        "n": "Kraśnik",
+        "gps": [
+            50.9231,
+            22.2267
+        ],
+        "w": "lubelskie",
+        "p": "kraśnicki"
+    },
+    {
+        "n": "Krobia",
+        "gps": [
+            51.7742,
+            16.9846
+        ],
+        "w": "wielkopolskie",
+        "p": "gostyński"
+    },
+    {
+        "n": "Krosno",
+        "gps": [
+            49.692,
+            21.767
+        ],
+        "w": "podkarpackie",
+        "p": "Krosno"
+    },
+    {
+        "n": "Krosno Odrzańskie",
+        "gps": [
+            52.0551,
+            15.0958
+        ],
+        "w": "lubuskie",
+        "p": "krośnieński"
+    },
+    {
+        "n": "Krośniewice",
+        "gps": [
+            52.2561,
+            19.1707
+        ],
+        "w": "łódzkie",
+        "p": "kutnowski"
+    },
+    {
+        "n": "Krotoszyn",
+        "gps": [
+            51.6957,
+            17.4376
+        ],
+        "w": "wielkopolskie",
+        "p": "krotoszyński"
+    },
+    {
+        "n": "Kruszwica",
+        "gps": [
+            52.6762,
+            18.323
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "inowrocławski"
+    },
+    {
+        "n": "Krynica Morska",
+        "gps": [
+            54.3779,
+            19.4364
+        ],
+        "w": "pomorskie",
+        "p": "nowodworski"
+    },
+    {
+        "n": "Krynica-Zdrój",
+        "gps": [
+            49.4214,
+            20.9597
+        ],
+        "w": "małopolskie",
+        "p": "nowosądecki"
+    },
+    {
+        "n": "Krynki",
+        "gps": [
+            53.2642,
+            23.7721
+        ],
+        "w": "podlaskie",
+        "p": "sokólski"
+    },
+    {
+        "n": "Krzanowice",
+        "gps": [
+            50.0182,
+            18.1254
+        ],
+        "w": "śląskie",
+        "p": "raciborski"
+    },
+    {
+        "n": "Krzepice",
+        "gps": [
+            50.9708,
+            18.7283
+        ],
+        "w": "śląskie",
+        "p": "kłobucki"
+    },
+    {
+        "n": "Krzeszowice",
+        "gps": [
+            50.1351,
+            19.6366
+        ],
+        "w": "małopolskie",
+        "p": "krakowski"
+    },
+    {
+        "n": "Krzywiń",
+        "gps": [
+            51.9617,
+            16.8208
+        ],
+        "w": "wielkopolskie",
+        "p": "kościański"
+    },
+    {
+        "n": "Krzyż Wielkopolski",
+        "gps": [
+            52.8791,
+            16.0136
+        ],
+        "w": "wielkopolskie",
+        "p": "czarnkowsko-trzcianecki"
+    },
+    {
+        "n": "Książ Wielki",
+        "gps": [
+            50.4432,
+            20.1397
+        ],
+        "w": "małopolskie",
+        "p": "miechowski"
+    },
+    {
+        "n": "Książ Wielkopolski",
+        "gps": [
+            52.0624,
+            17.2392
+        ],
+        "w": "wielkopolskie",
+        "p": "śremski"
+    },
+    {
+        "n": "Kudowa-Zdrój",
+        "gps": [
+            50.4409,
+            16.2406
+        ],
+        "w": "dolnośląskie",
+        "p": "kłodzki"
+    },
+    {
+        "n": "Kunów",
+        "gps": [
+            50.9547,
+            21.2794
+        ],
+        "w": "świętokrzyskie",
+        "p": "ostrowiecki"
+    },
+    {
+        "n": "Kutno",
+        "gps": [
+            52.2342,
+            19.3578
+        ],
+        "w": "łódzkie",
+        "p": "kutnowski"
+    },
+    {
+        "n": "Kuźnia Raciborska",
+        "gps": [
+            50.2,
+            18.3118
+        ],
+        "w": "śląskie",
+        "p": "raciborski"
+    },
+    {
+        "n": "Kwidzyn",
+        "gps": [
+            53.735,
+            18.9357
+        ],
+        "w": "pomorskie",
+        "p": "kwidzyński"
+    },
+    {
+        "n": "Latowicz",
+        "gps": [
+            52.0261,
+            21.8082
+        ],
+        "w": "mazowieckie",
+        "p": "miński"
+    },
+    {
+        "n": "Lądek-Zdrój",
+        "gps": [
+            50.3425,
+            16.8872
+        ],
+        "w": "dolnośląskie",
+        "p": "kłodzki"
+    },
+    {
+        "n": "Legionowo",
+        "gps": [
+            52.4068,
+            20.9319
+        ],
+        "w": "mazowieckie",
+        "p": "legionowski"
+    },
+    {
+        "n": "Legnica",
+        "gps": [
+            51.2066,
+            16.1628
+        ],
+        "w": "dolnośląskie",
+        "p": "Legnica"
+    },
+    {
+        "n": "Lesko",
+        "gps": [
+            49.4718,
+            22.3285
+        ],
+        "w": "podkarpackie",
+        "p": "leski"
+    },
+    {
+        "n": "Leszno",
+        "gps": [
+            51.8433,
+            16.5744
+        ],
+        "w": "wielkopolskie",
+        "p": "Leszno"
+    },
+    {
+        "n": "Leśna",
+        "gps": [
+            51.0238,
+            15.264
+        ],
+        "w": "dolnośląskie",
+        "p": "lubański"
+    },
+    {
+        "n": "Leśnica",
+        "gps": [
+            50.4287,
+            18.183
+        ],
+        "w": "opolskie",
+        "p": "strzelecki"
+    },
+    {
+        "n": "Lewin Brzeski",
+        "gps": [
+            50.7552,
+            17.6161
+        ],
+        "w": "opolskie",
+        "p": "brzeski"
+    },
+    {
+        "n": "Leżajsk",
+        "gps": [
+            50.263,
+            22.4183
+        ],
+        "w": "podkarpackie",
+        "p": "leżajski"
+    },
+    {
+        "n": "Lębork",
+        "gps": [
+            54.541,
+            17.7497
+        ],
+        "w": "pomorskie",
+        "p": "lęborski"
+    },
+    {
+        "n": "Lędziny",
+        "gps": [
+            50.1303,
+            19.1084
+        ],
+        "w": "śląskie",
+        "p": "bieruńsko-lędziński"
+    },
+    {
+        "n": "Libiąż",
+        "gps": [
+            50.1066,
+            19.3298
+        ],
+        "w": "małopolskie",
+        "p": "chrzanowski"
+    },
+    {
+        "n": "Lidzbark",
+        "gps": [
+            53.2613,
+            19.8222
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "działdowski"
+    },
+    {
+        "n": "Lidzbark Warmiński",
+        "gps": [
+            54.1259,
+            20.5829
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "lidzbarski"
+    },
+    {
+        "n": "Limanowa",
+        "gps": [
+            49.7065,
+            20.4227
+        ],
+        "w": "małopolskie",
+        "p": "limanowski"
+    },
+    {
+        "n": "Lipiany",
+        "gps": [
+            53.0029,
+            14.9709
+        ],
+        "w": "zachodniopomorskie",
+        "p": "pyrzycki"
+    },
+    {
+        "n": "Lipno",
+        "gps": [
+            52.8458,
+            19.1815
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "lipnowski"
+    },
+    {
+        "n": "Lipsk",
+        "gps": [
+            53.7337,
+            23.4036
+        ],
+        "w": "podlaskie",
+        "p": "augustowski"
+    },
+    {
+        "n": "Lipsko",
+        "gps": [
+            51.1582,
+            21.65
+        ],
+        "w": "mazowieckie",
+        "p": "lipski"
+    },
+    {
+        "n": "Lubaczów",
+        "gps": [
+            50.1574,
+            23.1224
+        ],
+        "w": "podkarpackie",
+        "p": "lubaczowski"
+    },
+    {
+        "n": "Lubań",
+        "gps": [
+            51.12,
+            15.2894
+        ],
+        "w": "dolnośląskie",
+        "p": "lubański"
+    },
+    {
+        "n": "Lubartów",
+        "gps": [
+            51.4577,
+            22.6095
+        ],
+        "w": "lubelskie",
+        "p": "lubartowski"
+    },
+    {
+        "n": "Lubawa",
+        "gps": [
+            53.5035,
+            19.7482
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "iławski"
+    },
+    {
+        "n": "Lubawka",
+        "gps": [
+            50.7068,
+            15.9999
+        ],
+        "w": "dolnośląskie",
+        "p": "kamiennogórski"
+    },
+    {
+        "n": "Lubień Kujawski",
+        "gps": [
+            52.4053,
+            19.1657
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "włocławski"
+    },
+    {
+        "n": "Lubin",
+        "gps": [
+            51.3986,
+            16.2033
+        ],
+        "w": "dolnośląskie",
+        "p": "lubiński"
+    },
+    {
+        "n": "Lublin",
+        "gps": [
+            51.2479,
+            22.568
+        ],
+        "w": "lubelskie",
+        "p": "Lublin"
+    },
+    {
+        "n": "Lubliniec",
+        "gps": [
+            50.6688,
+            18.6847
+        ],
+        "w": "śląskie",
+        "p": "lubliniecki"
+    },
+    {
+        "n": "Lubniewice",
+        "gps": [
+            52.5122,
+            15.2442
+        ],
+        "w": "lubuskie",
+        "p": "sulęciński"
+    },
+    {
+        "n": "Lubomierz",
+        "gps": [
+            51.0128,
+            15.5105
+        ],
+        "w": "dolnośląskie",
+        "p": "lwówecki"
+    },
+    {
+        "n": "Luboń",
+        "gps": [
+            52.3459,
+            16.8777
+        ],
+        "w": "wielkopolskie",
+        "p": "poznański"
+    },
+    {
+        "n": "Lubowidz",
+        "gps": [
+            53.1208,
+            19.8415
+        ],
+        "w": "mazowieckie",
+        "p": "żuromiński"
+    },
+    {
+        "n": "Lubraniec",
+        "gps": [
+            52.5439,
+            18.8357
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "włocławski"
+    },
+    {
+        "n": "Lubsko",
+        "gps": [
+            51.7855,
+            14.9685
+        ],
+        "w": "lubuskie",
+        "p": "żarski"
+    },
+    {
+        "n": "Lubycza Królewska",
+        "gps": [
+            50.3406,
+            23.5207
+        ],
+        "w": "lubelskie",
+        "p": "tomaszowski"
+    },
+    {
+        "n": "Lutomiersk",
+        "gps": [
+            51.7542,
+            19.2117
+        ],
+        "w": "łódzkie",
+        "p": "pabianicki"
+    },
+    {
+        "n": "Lututów",
+        "gps": [
+            51.3713,
+            18.4342
+        ],
+        "w": "łódzkie",
+        "p": "wieruszowski"
+    },
+    {
+        "n": "Lwówek",
+        "gps": [
+            52.448,
+            16.1808
+        ],
+        "w": "wielkopolskie",
+        "p": "nowotomyski"
+    },
+    {
+        "n": "Lwówek Śląski",
+        "gps": [
+            51.1108,
+            15.585
+        ],
+        "w": "dolnośląskie",
+        "p": "lwówecki"
+    },
+    {
+        "n": "Łabiszyn",
+        "gps": [
+            52.953,
+            17.919
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "żniński"
+    },
+    {
+        "n": "Łagów",
+        "gps": [
+            50.775,
+            21.0841
+        ],
+        "w": "świętokrzyskie",
+        "p": "kielecki"
+    },
+    {
+        "n": "Łańcut",
+        "gps": [
+            50.0657,
+            22.2274
+        ],
+        "w": "podkarpackie",
+        "p": "łańcucki"
+    },
+    {
+        "n": "Łapy",
+        "gps": [
+            52.9912,
+            22.8794
+        ],
+        "w": "podlaskie",
+        "p": "białostocki"
+    },
+    {
+        "n": "Łasin",
+        "gps": [
+            53.5186,
+            19.0864
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "grudziądzki"
+    },
+    {
+        "n": "Łask",
+        "gps": [
+            51.5914,
+            19.1336
+        ],
+        "w": "łódzkie",
+        "p": "łaski"
+    },
+    {
+        "n": "Łaskarzew",
+        "gps": [
+            51.7895,
+            21.5925
+        ],
+        "w": "mazowieckie",
+        "p": "garwoliński"
+    },
+    {
+        "n": "Łaszczów",
+        "gps": [
+            50.5318,
+            23.7157
+        ],
+        "w": "lubelskie",
+        "p": "tomaszowski"
+    },
+    {
+        "n": "Łaziska Górne",
+        "gps": [
+            50.1493,
+            18.8402
+        ],
+        "w": "śląskie",
+        "p": "mikołowski"
+    },
+    {
+        "n": "Łazy",
+        "gps": [
+            50.4278,
+            19.3934
+        ],
+        "w": "śląskie",
+        "p": "zawierciański"
+    },
+    {
+        "n": "Łeba",
+        "gps": [
+            54.7587,
+            17.5559
+        ],
+        "w": "pomorskie",
+        "p": "lęborski"
+    },
+    {
+        "n": "Łęczna",
+        "gps": [
+            51.3003,
+            22.8872
+        ],
+        "w": "lubelskie",
+        "p": "łęczyński"
+    },
+    {
+        "n": "Łęczyca",
+        "gps": [
+            52.0593,
+            19.1984
+        ],
+        "w": "łódzkie",
+        "p": "łęczycki"
+    },
+    {
+        "n": "Łęknica",
+        "gps": [
+            51.5367,
+            14.7426
+        ],
+        "w": "lubuskie",
+        "p": "żarski"
+    },
+    {
+        "n": "Łobez",
+        "gps": [
+            53.6394,
+            15.6219
+        ],
+        "w": "zachodniopomorskie",
+        "p": "łobeski"
+    },
+    {
+        "n": "Łobżenica",
+        "gps": [
+            53.2603,
+            17.2553
+        ],
+        "w": "wielkopolskie",
+        "p": "pilski"
+    },
+    {
+        "n": "Łochów",
+        "gps": [
+            52.5284,
+            21.6853
+        ],
+        "w": "mazowieckie",
+        "p": "węgrowski"
+    },
+    {
+        "n": "Łomianki",
+        "gps": [
+            52.3336,
+            20.8869
+        ],
+        "w": "mazowieckie",
+        "p": "warszawski zachodni"
+    },
+    {
+        "n": "Łomża",
+        "gps": [
+            53.1733,
+            22.0686
+        ],
+        "w": "podlaskie",
+        "p": "Łomża"
+    },
+    {
+        "n": "Łopuszno",
+        "gps": [
+            50.9486,
+            20.2506
+        ],
+        "w": "świętokrzyskie",
+        "p": "kielecki"
+    },
+    {
+        "n": "Łosice",
+        "gps": [
+            52.211,
+            22.7177
+        ],
+        "w": "mazowieckie",
+        "p": "łosicki"
+    },
+    {
+        "n": "Łowicz",
+        "gps": [
+            52.1081,
+            19.946
+        ],
+        "w": "łódzkie",
+        "p": "łowicki"
+    },
+    {
+        "n": "Łódź",
+        "gps": [
+            51.7644,
+            19.4631
+        ],
+        "w": "łódzkie",
+        "p": "Łódź"
+    },
+    {
+        "n": "Łuków",
+        "gps": [
+            51.9282,
+            22.3802
+        ],
+        "w": "lubelskie",
+        "p": "łukowski"
+    },
+    {
+        "n": "Maków Mazowiecki",
+        "gps": [
+            52.865,
+            21.1007
+        ],
+        "w": "mazowieckie",
+        "p": "makowski"
+    },
+    {
+        "n": "Maków Podhalański",
+        "gps": [
+            49.7303,
+            19.6764
+        ],
+        "w": "małopolskie",
+        "p": "suski"
+    },
+    {
+        "n": "Malbork",
+        "gps": [
+            54.0356,
+            19.0321
+        ],
+        "w": "pomorskie",
+        "p": "malborski"
+    },
+    {
+        "n": "Małogoszcz",
+        "gps": [
+            50.8121,
+            20.2642
+        ],
+        "w": "świętokrzyskie",
+        "p": "jędrzejowski"
+    },
+    {
+        "n": "Małomice",
+        "gps": [
+            51.5556,
+            15.4502
+        ],
+        "w": "lubuskie",
+        "p": "żagański"
+    },
+    {
+        "n": "Margonin",
+        "gps": [
+            52.9734,
+            17.0943
+        ],
+        "w": "wielkopolskie",
+        "p": "chodzieski"
+    },
+    {
+        "n": "Marki",
+        "gps": [
+            52.3344,
+            21.1142
+        ],
+        "w": "mazowieckie",
+        "p": "wołomiński"
+    },
+    {
+        "n": "Maszewo",
+        "gps": [
+            53.4978,
+            15.0596
+        ],
+        "w": "zachodniopomorskie",
+        "p": "goleniowski"
+    },
+    {
+        "n": "Miasteczko Krajeńskie",
+        "gps": [
+            53.0976,
+            17.0051
+        ],
+        "w": "wielkopolskie",
+        "p": "pilski"
+    },
+    {
+        "n": "Miasteczko Śląskie",
+        "gps": [
+            50.4902,
+            18.9222
+        ],
+        "w": "śląskie",
+        "p": "tarnogórski"
+    },
+    {
+        "n": "Miastko",
+        "gps": [
+            54.0002,
+            16.9757
+        ],
+        "w": "pomorskie",
+        "p": "bytowski"
+    },
+    {
+        "n": "Michałowo",
+        "gps": [
+            53.0355,
+            23.6083
+        ],
+        "w": "podlaskie",
+        "p": "białostocki"
+    },
+    {
+        "n": "Miechów",
+        "gps": [
+            50.3558,
+            20.0286
+        ],
+        "w": "małopolskie",
+        "p": "miechowski"
+    },
+    {
+        "n": "Miejska Górka",
+        "gps": [
+            51.6554,
+            16.9569
+        ],
+        "w": "wielkopolskie",
+        "p": "rawicki"
+    },
+    {
+        "n": "Mielec",
+        "gps": [
+            50.288,
+            21.4207
+        ],
+        "w": "podkarpackie",
+        "p": "mielecki"
+    },
+    {
+        "n": "Mielno",
+        "gps": [
+            54.256,
+            16.0521
+        ],
+        "w": "zachodniopomorskie",
+        "p": "koszaliński"
+    },
+    {
+        "n": "Mieroszów",
+        "gps": [
+            50.6664,
+            16.1867
+        ],
+        "w": "dolnośląskie",
+        "p": "wałbrzyski"
+    },
+    {
+        "n": "Mieszkowice",
+        "gps": [
+            52.7868,
+            14.4933
+        ],
+        "w": "zachodniopomorskie",
+        "p": "gryfiński"
+    },
+    {
+        "n": "Międzybórz",
+        "gps": [
+            51.3979,
+            17.665
+        ],
+        "w": "dolnośląskie",
+        "p": "oleśnicki"
+    },
+    {
+        "n": "Międzychód",
+        "gps": [
+            52.6045,
+            15.8995
+        ],
+        "w": "wielkopolskie",
+        "p": "międzychodzki"
+    },
+    {
+        "n": "Międzylesie",
+        "gps": [
+            50.1477,
+            16.6673
+        ],
+        "w": "dolnośląskie",
+        "p": "kłodzki"
+    },
+    {
+        "n": "Międzyrzec Podlaski",
+        "gps": [
+            51.9839,
+            22.783
+        ],
+        "w": "lubelskie",
+        "p": "bialski"
+    },
+    {
+        "n": "Międzyrzecz",
+        "gps": [
+            52.4471,
+            15.5785
+        ],
+        "w": "lubuskie",
+        "p": "międzyrzecki"
+    },
+    {
+        "n": "Międzyzdroje",
+        "gps": [
+            53.9288,
+            14.4502
+        ],
+        "w": "zachodniopomorskie",
+        "p": "kamieński"
+    },
+    {
+        "n": "Miękinia",
+        "gps": [
+            51.1905,
+            16.7362
+        ],
+        "w": "dolnośląskie",
+        "p": "średzki"
+    },
+    {
+        "n": "Mikołajki",
+        "gps": [
+            53.8035,
+            21.5718
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "mrągowski"
+    },
+    {
+        "n": "Mikołów",
+        "gps": [
+            50.1683,
+            18.9039
+        ],
+        "w": "śląskie",
+        "p": "mikołowski"
+    },
+    {
+        "n": "Mikstat",
+        "gps": [
+            51.5321,
+            17.973
+        ],
+        "w": "wielkopolskie",
+        "p": "ostrzeszowski"
+    },
+    {
+        "n": "Milanówek",
+        "gps": [
+            52.1248,
+            20.6693
+        ],
+        "w": "mazowieckie",
+        "p": "grodziski"
+    },
+    {
+        "n": "Milicz",
+        "gps": [
+            51.5243,
+            17.2727
+        ],
+        "w": "dolnośląskie",
+        "p": "milicki"
+    },
+    {
+        "n": "Miłakowo",
+        "gps": [
+            54.0083,
+            20.0695
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "ostródzki"
+    },
+    {
+        "n": "Miłomłyn",
+        "gps": [
+            53.7643,
+            19.8381
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "ostródzki"
+    },
+    {
+        "n": "Miłosław",
+        "gps": [
+            52.2028,
+            17.4886
+        ],
+        "w": "wielkopolskie",
+        "p": "wrzesiński"
+    },
+    {
+        "n": "Mińsk Mazowiecki",
+        "gps": [
+            52.1793,
+            21.5721
+        ],
+        "w": "mazowieckie",
+        "p": "miński"
+    },
+    {
+        "n": "Mirosławiec",
+        "gps": [
+            53.3415,
+            16.0881
+        ],
+        "w": "zachodniopomorskie",
+        "p": "wałecki"
+    },
+    {
+        "n": "Mirsk",
+        "gps": [
+            50.9701,
+            15.3831
+        ],
+        "w": "dolnośląskie",
+        "p": "lwówecki"
+    },
+    {
+        "n": "Mława",
+        "gps": [
+            53.1123,
+            20.3837
+        ],
+        "w": "mazowieckie",
+        "p": "mławski"
+    },
+    {
+        "n": "Młynary",
+        "gps": [
+            54.1878,
+            19.7228
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "elbląski"
+    },
+    {
+        "n": "Modliborzyce",
+        "gps": [
+            50.7541,
+            22.3294
+        ],
+        "w": "lubelskie",
+        "p": "janowski"
+    },
+    {
+        "n": "Mogielnica",
+        "gps": [
+            51.6936,
+            20.7215
+        ],
+        "w": "mazowieckie",
+        "p": "grójecki"
+    },
+    {
+        "n": "Mogilno",
+        "gps": [
+            52.6577,
+            17.9499
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "mogileński"
+    },
+    {
+        "n": "Mońki",
+        "gps": [
+            53.4049,
+            22.7971
+        ],
+        "w": "podlaskie",
+        "p": "moniecki"
+    },
+    {
+        "n": "Morawica",
+        "gps": [
+            50.7451,
+            20.6203
+        ],
+        "w": "świętokrzyskie",
+        "p": "kielecki"
+    },
+    {
+        "n": "Morąg",
+        "gps": [
+            53.9152,
+            19.9272
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "ostródzki"
+    },
+    {
+        "n": "Mordy",
+        "gps": [
+            52.2113,
+            22.5171
+        ],
+        "w": "mazowieckie",
+        "p": "siedlecki"
+    },
+    {
+        "n": "Moryń",
+        "gps": [
+            52.8576,
+            14.3985
+        ],
+        "w": "zachodniopomorskie",
+        "p": "gryfiński"
+    },
+    {
+        "n": "Mosina",
+        "gps": [
+            52.2446,
+            16.8506
+        ],
+        "w": "wielkopolskie",
+        "p": "poznański"
+    },
+    {
+        "n": "Mrągowo",
+        "gps": [
+            53.8767,
+            21.3042
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "mrągowski"
+    },
+    {
+        "n": "Mrocza",
+        "gps": [
+            53.2455,
+            17.607
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "nakielski"
+    },
+    {
+        "n": "Mrozy",
+        "gps": [
+            52.1656,
+            21.8026
+        ],
+        "w": "mazowieckie",
+        "p": "miński"
+    },
+    {
+        "n": "Mszana Dolna",
+        "gps": [
+            49.678,
+            20.0824
+        ],
+        "w": "małopolskie",
+        "p": "limanowski"
+    },
+    {
+        "n": "Mszczonów",
+        "gps": [
+            51.9744,
+            20.5126
+        ],
+        "w": "mazowieckie",
+        "p": "żyrardowski"
+    },
+    {
+        "n": "Murowana Goślina",
+        "gps": [
+            52.5758,
+            17.0094
+        ],
+        "w": "wielkopolskie",
+        "p": "poznański"
+    },
+    {
+        "n": "Muszyna",
+        "gps": [
+            49.3548,
+            20.896
+        ],
+        "w": "małopolskie",
+        "p": "nowosądecki"
+    },
+    {
+        "n": "Mysłowice",
+        "gps": [
+            50.2121,
+            19.1476
+        ],
+        "w": "śląskie",
+        "p": "Mysłowice"
+    },
+    {
+        "n": "Myszków",
+        "gps": [
+            50.5754,
+            19.326
+        ],
+        "w": "śląskie",
+        "p": "myszkowski"
+    },
+    {
+        "n": "Myszyniec",
+        "gps": [
+            53.3804,
+            21.3496
+        ],
+        "w": "mazowieckie",
+        "p": "ostrołęcki"
+    },
+    {
+        "n": "Myślenice",
+        "gps": [
+            49.8338,
+            19.9381
+        ],
+        "w": "małopolskie",
+        "p": "myślenicki"
+    },
+    {
+        "n": "Myślibórz",
+        "gps": [
+            52.9251,
+            14.8677
+        ],
+        "w": "zachodniopomorskie",
+        "p": "myśliborski"
+    },
+    {
+        "n": "Nakło nad Notecią",
+        "gps": [
+            53.1386,
+            17.6047
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "nakielski"
+    },
+    {
+        "n": "Nałęczów",
+        "gps": [
+            51.2877,
+            22.2149
+        ],
+        "w": "lubelskie",
+        "p": "puławski"
+    },
+    {
+        "n": "Namysłów",
+        "gps": [
+            51.0766,
+            17.7173
+        ],
+        "w": "opolskie",
+        "p": "namysłowski"
+    },
+    {
+        "n": "Narol",
+        "gps": [
+            50.3488,
+            23.3269
+        ],
+        "w": "podkarpackie",
+        "p": "lubaczowski"
+    },
+    {
+        "n": "Nasielsk",
+        "gps": [
+            52.5901,
+            20.8047
+        ],
+        "w": "mazowieckie",
+        "p": "nowodworski"
+    },
+    {
+        "n": "Nekla",
+        "gps": [
+            52.3644,
+            17.4124
+        ],
+        "w": "wielkopolskie",
+        "p": "wrzesiński"
+    },
+    {
+        "n": "Nidzica",
+        "gps": [
+            53.3598,
+            20.4259
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "nidzicki"
+    },
+    {
+        "n": "Niemcza",
+        "gps": [
+            50.7167,
+            16.835
+        ],
+        "w": "dolnośląskie",
+        "p": "dzierżoniowski"
+    },
+    {
+        "n": "Niemodlin",
+        "gps": [
+            50.6423,
+            17.6194
+        ],
+        "w": "opolskie",
+        "p": "opolski"
+    },
+    {
+        "n": "Niepołomice",
+        "gps": [
+            50.0331,
+            20.2164
+        ],
+        "w": "małopolskie",
+        "p": "wielicki"
+    },
+    {
+        "n": "Nieszawa",
+        "gps": [
+            52.8341,
+            18.9024
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "aleksandrowski"
+    },
+    {
+        "n": "Nisko",
+        "gps": [
+            50.5185,
+            22.1477
+        ],
+        "w": "podkarpackie",
+        "p": "niżański"
+    },
+    {
+        "n": "Nowa Dęba",
+        "gps": [
+            50.4164,
+            21.7503
+        ],
+        "w": "podkarpackie",
+        "p": "tarnobrzeski"
+    },
+    {
+        "n": "Nowa Ruda",
+        "gps": [
+            50.5788,
+            16.5024
+        ],
+        "w": "dolnośląskie",
+        "p": "kłodzki"
+    },
+    {
+        "n": "Nowa Sarzyna",
+        "gps": [
+            50.3204,
+            22.3437
+        ],
+        "w": "podkarpackie",
+        "p": "leżajski"
+    },
+    {
+        "n": "Nowa Słupia",
+        "gps": [
+            50.8638,
+            21.0899
+        ],
+        "w": "świętokrzyskie",
+        "p": "kielecki"
+    },
+    {
+        "n": "Nowa Sól",
+        "gps": [
+            51.8011,
+            15.7074
+        ],
+        "w": "lubuskie",
+        "p": "nowosolski"
+    },
+    {
+        "n": "Nowe",
+        "gps": [
+            53.6488,
+            18.7262
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "świecki"
+    },
+    {
+        "n": "Nowe Brzesko",
+        "gps": [
+            50.1311,
+            20.3744
+        ],
+        "w": "małopolskie",
+        "p": "proszowicki"
+    },
+    {
+        "n": "Nowe Miasteczko",
+        "gps": [
+            51.6902,
+            15.7308
+        ],
+        "w": "lubuskie",
+        "p": "nowosolski"
+    },
+    {
+        "n": "Nowe Miasto",
+        "gps": [
+            52.6578,
+            20.6286
+        ],
+        "w": "mazowieckie",
+        "p": "płoński"
+    },
+    {
+        "n": "Nowe Miasto Lubawskie",
+        "gps": [
+            53.424,
+            19.5923
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "nowomiejski"
+    },
+    {
+        "n": "Nowe Miasto nad Pilicą",
+        "gps": [
+            51.6176,
+            20.5767
+        ],
+        "w": "mazowieckie",
+        "p": "grójecki"
+    },
+    {
+        "n": "Nowe Skalmierzyce",
+        "gps": [
+            51.7087,
+            17.9917
+        ],
+        "w": "wielkopolskie",
+        "p": "ostrowski"
+    },
+    {
+        "n": "Nowe Warpno",
+        "gps": [
+            53.7227,
+            14.2881
+        ],
+        "w": "zachodniopomorskie",
+        "p": "policki"
+    },
+    {
+        "n": "Nowogard",
+        "gps": [
+            53.6682,
+            15.1244
+        ],
+        "w": "zachodniopomorskie",
+        "p": "goleniowski"
+    },
+    {
+        "n": "Nowogrodziec",
+        "gps": [
+            51.1971,
+            15.398
+        ],
+        "w": "dolnośląskie",
+        "p": "bolesławiecki"
+    },
+    {
+        "n": "Nowogród",
+        "gps": [
+            53.2266,
+            21.879
+        ],
+        "w": "podlaskie",
+        "p": "łomżyński"
+    },
+    {
+        "n": "Nowogród Bobrzański",
+        "gps": [
+            51.8017,
+            15.2468
+        ],
+        "w": "lubuskie",
+        "p": "zielonogórski"
+    },
+    {
+        "n": "Nowy Dwór Gdański",
+        "gps": [
+            54.2138,
+            19.1188
+        ],
+        "w": "pomorskie",
+        "p": "nowodworski"
+    },
+    {
+        "n": "Nowy Dwór Mazowiecki",
+        "gps": [
+            52.4303,
+            20.7162
+        ],
+        "w": "mazowieckie",
+        "p": "nowodworski"
+    },
+    {
+        "n": "Nowy Korczyn",
+        "gps": [
+            50.2997,
+            20.8081
+        ],
+        "w": "świętokrzyskie",
+        "p": "buski"
+    },
+    {
+        "n": "Nowy Sącz",
+        "gps": [
+            49.6203,
+            20.7021
+        ],
+        "w": "małopolskie",
+        "p": "Nowy Sącz"
+    },
+    {
+        "n": "Nowy Staw",
+        "gps": [
+            54.1361,
+            19.0094
+        ],
+        "w": "pomorskie",
+        "p": "malborski"
+    },
+    {
+        "n": "Nowy Targ",
+        "gps": [
+            49.4775,
+            20.0321
+        ],
+        "w": "małopolskie",
+        "p": "nowotarski"
+    },
+    {
+        "n": "Nowy Tomyśl",
+        "gps": [
+            52.3167,
+            16.1326
+        ],
+        "w": "wielkopolskie",
+        "p": "nowotomyski"
+    },
+    {
+        "n": "Nowy Wiśnicz",
+        "gps": [
+            49.9152,
+            20.4621
+        ],
+        "w": "małopolskie",
+        "p": "bocheński"
+    },
+    {
+        "n": "Nysa",
+        "gps": [
+            50.4737,
+            17.3327
+        ],
+        "w": "opolskie",
+        "p": "nyski"
+    },
+    {
+        "n": "Oborniki",
+        "gps": [
+            52.6458,
+            16.8089
+        ],
+        "w": "wielkopolskie",
+        "p": "obornicki"
+    },
+    {
+        "n": "Oborniki Śląskie",
+        "gps": [
+            51.2995,
+            16.914
+        ],
+        "w": "dolnośląskie",
+        "p": "trzebnicki"
+    },
+    {
+        "n": "Obrzycko",
+        "gps": [
+            52.7081,
+            16.5268
+        ],
+        "w": "wielkopolskie",
+        "p": "szamotulski"
+    },
+    {
+        "n": "Odolanów",
+        "gps": [
+            51.5741,
+            17.6736
+        ],
+        "w": "wielkopolskie",
+        "p": "ostrowski"
+    },
+    {
+        "n": "Ogrodzieniec",
+        "gps": [
+            50.4517,
+            19.5217
+        ],
+        "w": "śląskie",
+        "p": "zawierciański"
+    },
+    {
+        "n": "Okonek",
+        "gps": [
+            53.5352,
+            16.8497
+        ],
+        "w": "wielkopolskie",
+        "p": "złotowski"
+    },
+    {
+        "n": "Olecko",
+        "gps": [
+            54.0379,
+            22.5027
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "olecki"
+    },
+    {
+        "n": "Olesno",
+        "gps": [
+            50.8766,
+            18.4218
+        ],
+        "w": "opolskie",
+        "p": "oleski"
+    },
+    {
+        "n": "Oleszyce",
+        "gps": [
+            50.1681,
+            23.0317
+        ],
+        "w": "podkarpackie",
+        "p": "lubaczowski"
+    },
+    {
+        "n": "Oleśnica",
+        "gps": [
+            51.2095,
+            17.3803
+        ],
+        "w": "dolnośląskie",
+        "p": "oleśnicki"
+    },
+    {
+        "n": "Oleśnica",
+        "gps": [
+            50.4505,
+            21.064
+        ],
+        "w": "świętokrzyskie",
+        "p": "staszowski"
+    },
+    {
+        "n": "Olkusz",
+        "gps": [
+            50.279,
+            19.56
+        ],
+        "w": "małopolskie",
+        "p": "olkuski"
+    },
+    {
+        "n": "Olsztyn",
+        "gps": [
+            50.7506,
+            19.2674
+        ],
+        "w": "śląskie",
+        "p": "częstochowski"
+    },
+    {
+        "n": "Olsztyn",
+        "gps": [
+            53.7765,
+            20.4877
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "Olsztyn"
+    },
+    {
+        "n": "Olsztynek",
+        "gps": [
+            53.5833,
+            20.2852
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "olsztyński"
+    },
+    {
+        "n": "Olszyna",
+        "gps": [
+            51.0671,
+            15.3783
+        ],
+        "w": "dolnośląskie",
+        "p": "lubański"
+    },
+    {
+        "n": "Oława",
+        "gps": [
+            50.9406,
+            17.2987
+        ],
+        "w": "dolnośląskie",
+        "p": "oławski"
+    },
+    {
+        "n": "Opalenica",
+        "gps": [
+            52.3075,
+            16.4131
+        ],
+        "w": "wielkopolskie",
+        "p": "nowotomyski"
+    },
+    {
+        "n": "Opatowiec",
+        "gps": [
+            50.2423,
+            20.7238
+        ],
+        "w": "świętokrzyskie",
+        "p": "kazimierski"
+    },
+    {
+        "n": "Opatów",
+        "gps": [
+            50.8014,
+            21.4239
+        ],
+        "w": "świętokrzyskie",
+        "p": "opatowski"
+    },
+    {
+        "n": "Opatówek",
+        "gps": [
+            51.7395,
+            18.2141
+        ],
+        "w": "wielkopolskie",
+        "p": "kaliski"
+    },
+    {
+        "n": "Opoczno",
+        "gps": [
+            51.3768,
+            20.2865
+        ],
+        "w": "łódzkie",
+        "p": "opoczyński"
+    },
+    {
+        "n": "Opole",
+        "gps": [
+            50.6677,
+            17.9286
+        ],
+        "w": "opolskie",
+        "p": "Opole"
+    },
+    {
+        "n": "Opole Lubelskie",
+        "gps": [
+            51.1474,
+            21.9691
+        ],
+        "w": "lubelskie",
+        "p": "opolski"
+    },
+    {
+        "n": "Orneta",
+        "gps": [
+            54.1164,
+            20.1311
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "lidzbarski"
+    },
+    {
+        "n": "Orzesze",
+        "gps": [
+            50.1087,
+            18.7926
+        ],
+        "w": "śląskie",
+        "p": "mikołowski"
+    },
+    {
+        "n": "Orzysz",
+        "gps": [
+            53.8099,
+            21.9473
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "piski"
+    },
+    {
+        "n": "Osieczna",
+        "gps": [
+            51.9043,
+            16.6776
+        ],
+        "w": "wielkopolskie",
+        "p": "leszczyński"
+    },
+    {
+        "n": "Osiek",
+        "gps": [
+            50.52,
+            21.4428
+        ],
+        "w": "świętokrzyskie",
+        "p": "staszowski"
+    },
+    {
+        "n": "Ostrołęka",
+        "gps": [
+            53.0814,
+            21.5715
+        ],
+        "w": "mazowieckie",
+        "p": "Ostrołęka"
+    },
+    {
+        "n": "Ostroróg",
+        "gps": [
+            52.6267,
+            16.4508
+        ],
+        "w": "wielkopolskie",
+        "p": "szamotulski"
+    },
+    {
+        "n": "Ostrowiec Świętokrzyski",
+        "gps": [
+            50.9439,
+            21.3899
+        ],
+        "w": "świętokrzyskie",
+        "p": "ostrowiecki"
+    },
+    {
+        "n": "Ostróda",
+        "gps": [
+            53.6993,
+            19.9607
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "ostródzki"
+    },
+    {
+        "n": "Ostrów Lubelski",
+        "gps": [
+            51.4946,
+            22.8542
+        ],
+        "w": "lubelskie",
+        "p": "lubartowski"
+    },
+    {
+        "n": "Ostrów Mazowiecka",
+        "gps": [
+            52.8025,
+            21.895
+        ],
+        "w": "mazowieckie",
+        "p": "ostrowski"
+    },
+    {
+        "n": "Ostrów Wielkopolski",
+        "gps": [
+            51.6495,
+            17.8167
+        ],
+        "w": "wielkopolskie",
+        "p": "ostrowski"
+    },
+    {
+        "n": "Ostrzeszów",
+        "gps": [
+            51.4237,
+            17.9315
+        ],
+        "w": "wielkopolskie",
+        "p": "ostrzeszowski"
+    },
+    {
+        "n": "Ośno Lubuskie",
+        "gps": [
+            52.4559,
+            14.8768
+        ],
+        "w": "lubuskie",
+        "p": "słubicki"
+    },
+    {
+        "n": "Oświęcim",
+        "gps": [
+            50.038,
+            19.2209
+        ],
+        "w": "małopolskie",
+        "p": "oświęcimski"
+    },
+    {
+        "n": "Otmuchów",
+        "gps": [
+            50.4653,
+            17.1725
+        ],
+        "w": "opolskie",
+        "p": "nyski"
+    },
+    {
+        "n": "Otwock",
+        "gps": [
+            52.1088,
+            21.2649
+        ],
+        "w": "mazowieckie",
+        "p": "otwocki"
+    },
+    {
+        "n": "Otyń",
+        "gps": [
+            51.8459,
+            15.7084
+        ],
+        "w": "lubuskie",
+        "p": "nowosolski"
+    },
+    {
+        "n": "Ozimek",
+        "gps": [
+            50.6788,
+            18.2137
+        ],
+        "w": "opolskie",
+        "p": "opolski"
+    },
+    {
+        "n": "Ozorków",
+        "gps": [
+            51.9622,
+            19.2949
+        ],
+        "w": "łódzkie",
+        "p": "zgierski"
+    },
+    {
+        "n": "Ożarów",
+        "gps": [
+            50.8861,
+            21.6652
+        ],
+        "w": "świętokrzyskie",
+        "p": "opatowski"
+    },
+    {
+        "n": "Ożarów Mazowiecki",
+        "gps": [
+            52.2105,
+            20.794
+        ],
+        "w": "mazowieckie",
+        "p": "warszawski zachodni"
+    },
+    {
+        "n": "Pabianice",
+        "gps": [
+            51.665,
+            19.3592
+        ],
+        "w": "łódzkie",
+        "p": "pabianicki"
+    },
+    {
+        "n": "Pacanów",
+        "gps": [
+            50.3998,
+            21.0411
+        ],
+        "w": "świętokrzyskie",
+        "p": "buski"
+    },
+    {
+        "n": "Paczków",
+        "gps": [
+            50.4643,
+            17.0064
+        ],
+        "w": "opolskie",
+        "p": "nyski"
+    },
+    {
+        "n": "Pajęczno",
+        "gps": [
+            51.1469,
+            18.995
+        ],
+        "w": "łódzkie",
+        "p": "pajęczański"
+    },
+    {
+        "n": "Pakość",
+        "gps": [
+            52.807,
+            18.0877
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "inowrocławski"
+    },
+    {
+        "n": "Parczew",
+        "gps": [
+            51.6407,
+            22.9001
+        ],
+        "w": "lubelskie",
+        "p": "parczewski"
+    },
+    {
+        "n": "Pasłęk",
+        "gps": [
+            54.0653,
+            19.6587
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "elbląski"
+    },
+    {
+        "n": "Pasym",
+        "gps": [
+            53.6502,
+            20.7915
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "szczycieński"
+    },
+    {
+        "n": "Pelplin",
+        "gps": [
+            53.9282,
+            18.6977
+        ],
+        "w": "pomorskie",
+        "p": "tczewski"
+    },
+    {
+        "n": "Pełczyce",
+        "gps": [
+            53.0439,
+            15.3041
+        ],
+        "w": "zachodniopomorskie",
+        "p": "choszczeński"
+    },
+    {
+        "n": "Piaseczno",
+        "gps": [
+            52.0757,
+            21.027
+        ],
+        "w": "mazowieckie",
+        "p": "piaseczyński"
+    },
+    {
+        "n": "Piaski",
+        "gps": [
+            51.1388,
+            22.8485
+        ],
+        "w": "lubelskie",
+        "p": "świdnicki"
+    },
+    {
+        "n": "Piastów",
+        "gps": [
+            52.1845,
+            20.84
+        ],
+        "w": "mazowieckie",
+        "p": "pruszkowski"
+    },
+    {
+        "n": "Piątek",
+        "gps": [
+            52.0688,
+            19.4797
+        ],
+        "w": "łódzkie",
+        "p": "łęczycki"
+    },
+    {
+        "n": "Piechowice",
+        "gps": [
+            50.8498,
+            15.5993
+        ],
+        "w": "dolnośląskie",
+        "p": "karkonoski"
+    },
+    {
+        "n": "Piekary Śląskie",
+        "gps": [
+            50.3779,
+            18.9437
+        ],
+        "w": "śląskie",
+        "p": "Piekary Śląskie"
+    },
+    {
+        "n": "Piekoszów",
+        "gps": [
+            50.8817,
+            20.4659
+        ],
+        "w": "świętokrzyskie",
+        "p": "kielecki"
+    },
+    {
+        "n": "Pieniężno",
+        "gps": [
+            54.2388,
+            20.1247
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "braniewski"
+    },
+    {
+        "n": "Pieńsk",
+        "gps": [
+            51.2465,
+            15.0456
+        ],
+        "w": "dolnośląskie",
+        "p": "zgorzelecki"
+    },
+    {
+        "n": "Pierzchnica",
+        "gps": [
+            50.6974,
+            20.7538
+        ],
+        "w": "świętokrzyskie",
+        "p": "kielecki"
+    },
+    {
+        "n": "Pieszyce",
+        "gps": [
+            50.7123,
+            16.5804
+        ],
+        "w": "dolnośląskie",
+        "p": "dzierżoniowski"
+    },
+    {
+        "n": "Pilawa",
+        "gps": [
+            51.9589,
+            21.5327
+        ],
+        "w": "mazowieckie",
+        "p": "garwoliński"
+    },
+    {
+        "n": "Pilica",
+        "gps": [
+            50.4682,
+            19.6581
+        ],
+        "w": "śląskie",
+        "p": "zawierciański"
+    },
+    {
+        "n": "Pilzno",
+        "gps": [
+            49.9783,
+            21.2911
+        ],
+        "w": "podkarpackie",
+        "p": "dębicki"
+    },
+    {
+        "n": "Piła",
+        "gps": [
+            53.1476,
+            16.7395
+        ],
+        "w": "wielkopolskie",
+        "p": "pilski"
+    },
+    {
+        "n": "Piława Górna",
+        "gps": [
+            50.6816,
+            16.754
+        ],
+        "w": "dolnośląskie",
+        "p": "dzierżoniowski"
+    },
+    {
+        "n": "Pińczów",
+        "gps": [
+            50.5206,
+            20.5266
+        ],
+        "w": "świętokrzyskie",
+        "p": "pińczowski"
+    },
+    {
+        "n": "Pionki",
+        "gps": [
+            51.4757,
+            21.4501
+        ],
+        "w": "mazowieckie",
+        "p": "radomski"
+    },
+    {
+        "n": "Piotrków Kujawski",
+        "gps": [
+            52.5511,
+            18.4976
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "radziejowski"
+    },
+    {
+        "n": "Piotrków Trybunalski",
+        "gps": [
+            51.4111,
+            19.6861
+        ],
+        "w": "łódzkie",
+        "p": "Piotrków Trybunalski"
+    },
+    {
+        "n": "Pisz",
+        "gps": [
+            53.63,
+            21.806
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "piski"
+    },
+    {
+        "n": "Piwniczna-Zdrój",
+        "gps": [
+            49.441,
+            20.7161
+        ],
+        "w": "małopolskie",
+        "p": "nowosądecki"
+    },
+    {
+        "n": "Pleszew",
+        "gps": [
+            51.8963,
+            17.7857
+        ],
+        "w": "wielkopolskie",
+        "p": "pleszewski"
+    },
+    {
+        "n": "Płock",
+        "gps": [
+            52.5453,
+            19.6849
+        ],
+        "w": "mazowieckie",
+        "p": "Płock"
+    },
+    {
+        "n": "Płońsk",
+        "gps": [
+            52.6223,
+            20.3701
+        ],
+        "w": "mazowieckie",
+        "p": "płoński"
+    },
+    {
+        "n": "Płoty",
+        "gps": [
+            53.8044,
+            15.2682
+        ],
+        "w": "zachodniopomorskie",
+        "p": "gryficki"
+    },
+    {
+        "n": "Pniewy",
+        "gps": [
+            52.5079,
+            16.2553
+        ],
+        "w": "wielkopolskie",
+        "p": "szamotulski"
+    },
+    {
+        "n": "Pobiedziska",
+        "gps": [
+            52.4774,
+            17.285
+        ],
+        "w": "wielkopolskie",
+        "p": "poznański"
+    },
+    {
+        "n": "Poddębice",
+        "gps": [
+            51.893,
+            18.955
+        ],
+        "w": "łódzkie",
+        "p": "poddębicki"
+    },
+    {
+        "n": "Podkowa Leśna",
+        "gps": [
+            52.123,
+            20.725
+        ],
+        "w": "mazowieckie",
+        "p": "grodziski"
+    },
+    {
+        "n": "Pogorzela",
+        "gps": [
+            51.8224,
+            17.2304
+        ],
+        "w": "wielkopolskie",
+        "p": "gostyński"
+    },
+    {
+        "n": "Polanica-Zdrój",
+        "gps": [
+            50.4032,
+            16.5113
+        ],
+        "w": "dolnośląskie",
+        "p": "kłodzki"
+    },
+    {
+        "n": "Polanów",
+        "gps": [
+            54.1186,
+            16.6843
+        ],
+        "w": "zachodniopomorskie",
+        "p": "koszaliński"
+    },
+    {
+        "n": "Police",
+        "gps": [
+            53.5524,
+            14.5721
+        ],
+        "w": "zachodniopomorskie",
+        "p": "policki"
+    },
+    {
+        "n": "Polkowice",
+        "gps": [
+            51.5033,
+            16.0683
+        ],
+        "w": "dolnośląskie",
+        "p": "polkowicki"
+    },
+    {
+        "n": "Połaniec",
+        "gps": [
+            50.4325,
+            21.2805
+        ],
+        "w": "świętokrzyskie",
+        "p": "staszowski"
+    },
+    {
+        "n": "Połczyn-Zdrój",
+        "gps": [
+            53.767,
+            16.0909
+        ],
+        "w": "zachodniopomorskie",
+        "p": "świdwiński"
+    },
+    {
+        "n": "Poniatowa",
+        "gps": [
+            51.1929,
+            22.0647
+        ],
+        "w": "lubelskie",
+        "p": "opolski"
+    },
+    {
+        "n": "Poniec",
+        "gps": [
+            51.7634,
+            16.8087
+        ],
+        "w": "wielkopolskie",
+        "p": "gostyński"
+    },
+    {
+        "n": "Poręba",
+        "gps": [
+            50.4879,
+            19.3383
+        ],
+        "w": "śląskie",
+        "p": "zawierciański"
+    },
+    {
+        "n": "Poznań",
+        "gps": [
+            52.4079,
+            16.9335
+        ],
+        "w": "wielkopolskie",
+        "p": "Poznań"
+    },
+    {
+        "n": "Prabuty",
+        "gps": [
+            53.756,
+            19.2045
+        ],
+        "w": "pomorskie",
+        "p": "kwidzyński"
+    },
+    {
+        "n": "Praszka",
+        "gps": [
+            51.0538,
+            18.4531
+        ],
+        "w": "opolskie",
+        "p": "oleski"
+    },
+    {
+        "n": "Prochowice",
+        "gps": [
+            51.2732,
+            16.3622
+        ],
+        "w": "dolnośląskie",
+        "p": "legnicki"
+    },
+    {
+        "n": "Proszowice",
+        "gps": [
+            50.1925,
+            20.29
+        ],
+        "w": "małopolskie",
+        "p": "proszowicki"
+    },
+    {
+        "n": "Prószków",
+        "gps": [
+            50.5767,
+            17.8714
+        ],
+        "w": "opolskie",
+        "p": "opolski"
+    },
+    {
+        "n": "Pruchnik",
+        "gps": [
+            49.9061,
+            22.5155
+        ],
+        "w": "podkarpackie",
+        "p": "jarosławski"
+    },
+    {
+        "n": "Prudnik",
+        "gps": [
+            50.3215,
+            17.5806
+        ],
+        "w": "opolskie",
+        "p": "prudnicki"
+    },
+    {
+        "n": "Prusice",
+        "gps": [
+            51.371,
+            16.9603
+        ],
+        "w": "dolnośląskie",
+        "p": "trzebnicki"
+    },
+    {
+        "n": "Pruszcz",
+        "gps": [
+            53.3308,
+            18.1972
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "świecki"
+    },
+    {
+        "n": "Pruszcz Gdański",
+        "gps": [
+            54.2615,
+            18.6415
+        ],
+        "w": "pomorskie",
+        "p": "gdański"
+    },
+    {
+        "n": "Pruszków",
+        "gps": [
+            52.1625,
+            20.8034
+        ],
+        "w": "mazowieckie",
+        "p": "pruszkowski"
+    },
+    {
+        "n": "Przasnysz",
+        "gps": [
+            53.0187,
+            20.8848
+        ],
+        "w": "mazowieckie",
+        "p": "przasnyski"
+    },
+    {
+        "n": "Przecław",
+        "gps": [
+            50.1943,
+            21.4798
+        ],
+        "w": "podkarpackie",
+        "p": "mielecki"
+    },
+    {
+        "n": "Przedbórz",
+        "gps": [
+            51.0875,
+            19.8739
+        ],
+        "w": "łódzkie",
+        "p": "radomszczański"
+    },
+    {
+        "n": "Przedecz",
+        "gps": [
+            52.3339,
+            18.899
+        ],
+        "w": "wielkopolskie",
+        "p": "kolski"
+    },
+    {
+        "n": "Przemków",
+        "gps": [
+            51.5281,
+            15.7883
+        ],
+        "w": "dolnośląskie",
+        "p": "polkowicki"
+    },
+    {
+        "n": "Przemyśl",
+        "gps": [
+            49.7823,
+            22.7751
+        ],
+        "w": "podkarpackie",
+        "p": "Przemyśl"
+    },
+    {
+        "n": "Przeworsk",
+        "gps": [
+            50.0587,
+            22.4937
+        ],
+        "w": "podkarpackie",
+        "p": "przeworski"
+    },
+    {
+        "n": "Przysucha",
+        "gps": [
+            51.3588,
+            20.6284
+        ],
+        "w": "mazowieckie",
+        "p": "przysuski"
+    },
+    {
+        "n": "Pszczyna",
+        "gps": [
+            49.9764,
+            18.9586
+        ],
+        "w": "śląskie",
+        "p": "pszczyński"
+    },
+    {
+        "n": "Pszów",
+        "gps": [
+            50.037,
+            18.3962
+        ],
+        "w": "śląskie",
+        "p": "wodzisławski"
+    },
+    {
+        "n": "Puck",
+        "gps": [
+            54.7172,
+            18.4076
+        ],
+        "w": "pomorskie",
+        "p": "pucki"
+    },
+    {
+        "n": "Puławy",
+        "gps": [
+            51.4165,
+            21.9692
+        ],
+        "w": "lubelskie",
+        "p": "puławski"
+    },
+    {
+        "n": "Pułtusk",
+        "gps": [
+            52.704,
+            21.0872
+        ],
+        "w": "mazowieckie",
+        "p": "pułtuski"
+    },
+    {
+        "n": "Puszczykowo",
+        "gps": [
+            52.2847,
+            16.8544
+        ],
+        "w": "wielkopolskie",
+        "p": "poznański"
+    },
+    {
+        "n": "Pyrzyce",
+        "gps": [
+            53.1458,
+            14.8925
+        ],
+        "w": "zachodniopomorskie",
+        "p": "pyrzycki"
+    },
+    {
+        "n": "Pyskowice",
+        "gps": [
+            50.3978,
+            18.6275
+        ],
+        "w": "śląskie",
+        "p": "gliwicki"
+    },
+    {
+        "n": "Pyzdry",
+        "gps": [
+            52.1671,
+            17.6869
+        ],
+        "w": "wielkopolskie",
+        "p": "wrzesiński"
+    },
+    {
+        "n": "Rabka-Zdrój",
+        "gps": [
+            49.61,
+            19.9528
+        ],
+        "w": "małopolskie",
+        "p": "nowotarski"
+    },
+    {
+        "n": "Raciąż",
+        "gps": [
+            52.7804,
+            20.1192
+        ],
+        "w": "mazowieckie",
+        "p": "płoński"
+    },
+    {
+        "n": "Racibórz",
+        "gps": [
+            50.0906,
+            18.2197
+        ],
+        "w": "śląskie",
+        "p": "raciborski"
+    },
+    {
+        "n": "Radków",
+        "gps": [
+            50.5039,
+            16.4008
+        ],
+        "w": "dolnośląskie",
+        "p": "kłodzki"
+    },
+    {
+        "n": "Radlin",
+        "gps": [
+            50.0478,
+            18.4714
+        ],
+        "w": "śląskie",
+        "p": "wodzisławski"
+    },
+    {
+        "n": "Radłów",
+        "gps": [
+            50.0831,
+            20.8478
+        ],
+        "w": "małopolskie",
+        "p": "tarnowski"
+    },
+    {
+        "n": "Radom",
+        "gps": [
+            51.4007,
+            21.1578
+        ],
+        "w": "mazowieckie",
+        "p": "Radom"
+    },
+    {
+        "n": "Radomsko",
+        "gps": [
+            51.0675,
+            19.4444
+        ],
+        "w": "łódzkie",
+        "p": "radomszczański"
+    },
+    {
+        "n": "Radomyśl Wielki",
+        "gps": [
+            50.196,
+            21.278
+        ],
+        "w": "podkarpackie",
+        "p": "mielecki"
+    },
+    {
+        "n": "Radoszyce",
+        "gps": [
+            51.0744,
+            20.2551
+        ],
+        "w": "świętokrzyskie",
+        "p": "konecki"
+    },
+    {
+        "n": "Radymno",
+        "gps": [
+            49.9516,
+            22.8186
+        ],
+        "w": "podkarpackie",
+        "p": "jarosławski"
+    },
+    {
+        "n": "Radziejów",
+        "gps": [
+            52.623,
+            18.5272
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "radziejowski"
+    },
+    {
+        "n": "Radzionków",
+        "gps": [
+            50.3999,
+            18.9031
+        ],
+        "w": "śląskie",
+        "p": "tarnogórski"
+    },
+    {
+        "n": "Radzymin",
+        "gps": [
+            52.4183,
+            21.1812
+        ],
+        "w": "mazowieckie",
+        "p": "wołomiński"
+    },
+    {
+        "n": "Radzyń Chełmiński",
+        "gps": [
+            53.3849,
+            18.9361
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "grudziądzki"
+    },
+    {
+        "n": "Radzyń Podlaski",
+        "gps": [
+            51.785,
+            22.619
+        ],
+        "w": "lubelskie",
+        "p": "radzyński"
+    },
+    {
+        "n": "Rajgród",
+        "gps": [
+            53.7297,
+            22.6916
+        ],
+        "w": "podlaskie",
+        "p": "grajewski"
+    },
+    {
+        "n": "Rakoniewice",
+        "gps": [
+            52.1386,
+            16.2733
+        ],
+        "w": "wielkopolskie",
+        "p": "grodziski"
+    },
+    {
+        "n": "Raszków",
+        "gps": [
+            51.7185,
+            17.726
+        ],
+        "w": "wielkopolskie",
+        "p": "ostrowski"
+    },
+    {
+        "n": "Rawa Mazowiecka",
+        "gps": [
+            51.765,
+            20.2522
+        ],
+        "w": "łódzkie",
+        "p": "rawski"
+    },
+    {
+        "n": "Rawicz",
+        "gps": [
+            51.6094,
+            16.8584
+        ],
+        "w": "wielkopolskie",
+        "p": "rawicki"
+    },
+    {
+        "n": "Recz",
+        "gps": [
+            53.2598,
+            15.5465
+        ],
+        "w": "zachodniopomorskie",
+        "p": "choszczeński"
+    },
+    {
+        "n": "Reda",
+        "gps": [
+            54.6052,
+            18.3473
+        ],
+        "w": "pomorskie",
+        "p": "wejherowski"
+    },
+    {
+        "n": "Rejowiec",
+        "gps": [
+            51.0946,
+            23.2835
+        ],
+        "w": "lubelskie",
+        "p": "chełmski"
+    },
+    {
+        "n": "Rejowiec Fabryczny",
+        "gps": [
+            51.1188,
+            23.2467
+        ],
+        "w": "lubelskie",
+        "p": "chełmski"
+    },
+    {
+        "n": "Resko",
+        "gps": [
+            53.7725,
+            15.4067
+        ],
+        "w": "zachodniopomorskie",
+        "p": "łobeski"
+    },
+    {
+        "n": "Reszel",
+        "gps": [
+            54.0504,
+            21.1454
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "kętrzyński"
+    },
+    {
+        "n": "Rogoźno",
+        "gps": [
+            52.7523,
+            16.9917
+        ],
+        "w": "wielkopolskie",
+        "p": "obornicki"
+    },
+    {
+        "n": "Ropczyce",
+        "gps": [
+            50.0529,
+            21.611
+        ],
+        "w": "podkarpackie",
+        "p": "ropczycko-sędziszowski"
+    },
+    {
+        "n": "Rozprza",
+        "gps": [
+            51.3026,
+            19.6461
+        ],
+        "w": "łódzkie",
+        "p": "piotrkowski"
+    },
+    {
+        "n": "Różan",
+        "gps": [
+            52.8873,
+            21.391
+        ],
+        "w": "mazowieckie",
+        "p": "makowski"
+    },
+    {
+        "n": "Ruciane-Nida",
+        "gps": [
+            53.6418,
+            21.5371
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "piski"
+    },
+    {
+        "n": "Ruda Śląska",
+        "gps": [
+            50.2765,
+            18.8639
+        ],
+        "w": "śląskie",
+        "p": "Ruda Śląska"
+    },
+    {
+        "n": "Rudnik nad Sanem",
+        "gps": [
+            50.4416,
+            22.2466
+        ],
+        "w": "podkarpackie",
+        "p": "niżański"
+    },
+    {
+        "n": "Rumia",
+        "gps": [
+            54.5785,
+            18.3978
+        ],
+        "w": "pomorskie",
+        "p": "wejherowski"
+    },
+    {
+        "n": "Rybnik",
+        "gps": [
+            50.0929,
+            18.5416
+        ],
+        "w": "śląskie",
+        "p": "Rybnik"
+    },
+    {
+        "n": "Rychwał",
+        "gps": [
+            52.0698,
+            18.1663
+        ],
+        "w": "wielkopolskie",
+        "p": "koniński"
+    },
+    {
+        "n": "Rydułtowy",
+        "gps": [
+            50.0634,
+            18.4208
+        ],
+        "w": "śląskie",
+        "p": "wodzisławski"
+    },
+    {
+        "n": "Rydzyna",
+        "gps": [
+            51.7867,
+            16.6672
+        ],
+        "w": "wielkopolskie",
+        "p": "leszczyński"
+    },
+    {
+        "n": "Ryglice",
+        "gps": [
+            49.8792,
+            21.1383
+        ],
+        "w": "małopolskie",
+        "p": "tarnowski"
+    },
+    {
+        "n": "Ryki",
+        "gps": [
+            51.6257,
+            21.9325
+        ],
+        "w": "lubelskie",
+        "p": "rycki"
+    },
+    {
+        "n": "Rymanów",
+        "gps": [
+            49.5762,
+            21.8676
+        ],
+        "w": "podkarpackie",
+        "p": "krośnieński"
+    },
+    {
+        "n": "Ryn",
+        "gps": [
+            53.9388,
+            21.5466
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "giżycki"
+    },
+    {
+        "n": "Rypin",
+        "gps": [
+            53.0659,
+            19.413
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "rypiński"
+    },
+    {
+        "n": "Rzepin",
+        "gps": [
+            52.3466,
+            14.8324
+        ],
+        "w": "lubuskie",
+        "p": "słubicki"
+    },
+    {
+        "n": "Rzeszów",
+        "gps": [
+            50.0411,
+            21.9991
+        ],
+        "w": "podkarpackie",
+        "p": "Rzeszów"
+    },
+    {
+        "n": "Rzgów",
+        "gps": [
+            51.663,
+            19.4901
+        ],
+        "w": "łódzkie",
+        "p": "łódzki wschodni"
+    },
+    {
+        "n": "Sandomierz",
+        "gps": [
+            50.6797,
+            21.7491
+        ],
+        "w": "świętokrzyskie",
+        "p": "sandomierski"
+    },
+    {
+        "n": "Sanniki",
+        "gps": [
+            52.332,
+            19.8615
+        ],
+        "w": "mazowieckie",
+        "p": "gostyniński"
+    },
+    {
+        "n": "Sanok",
+        "gps": [
+            49.5599,
+            22.2022
+        ],
+        "w": "podkarpackie",
+        "p": "sanocki"
+    },
+    {
+        "n": "Sejny",
+        "gps": [
+            54.1073,
+            23.3481
+        ],
+        "w": "podlaskie",
+        "p": "sejneński"
+    },
+    {
+        "n": "Serock",
+        "gps": [
+            52.5138,
+            21.0695
+        ],
+        "w": "mazowieckie",
+        "p": "legionowski"
+    },
+    {
+        "n": "Sędziszów",
+        "gps": [
+            50.5634,
+            20.052
+        ],
+        "w": "świętokrzyskie",
+        "p": "jędrzejowski"
+    },
+    {
+        "n": "Sędziszów Małopolski",
+        "gps": [
+            50.071,
+            21.702
+        ],
+        "w": "podkarpackie",
+        "p": "ropczycko-sędziszowski"
+    },
+    {
+        "n": "Sępopol",
+        "gps": [
+            54.2681,
+            21.0149
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "bartoszycki"
+    },
+    {
+        "n": "Sępólno Krajeńskie",
+        "gps": [
+            53.4557,
+            17.537
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "sępoleński"
+    },
+    {
+        "n": "Sianów",
+        "gps": [
+            54.2254,
+            16.2968
+        ],
+        "w": "zachodniopomorskie",
+        "p": "koszaliński"
+    },
+    {
+        "n": "Siechnice",
+        "gps": [
+            51.0336,
+            17.1469
+        ],
+        "w": "dolnośląskie",
+        "p": "wrocławski"
+    },
+    {
+        "n": "Siedlce",
+        "gps": [
+            52.1637,
+            22.2876
+        ],
+        "w": "mazowieckie",
+        "p": "Siedlce"
+    },
+    {
+        "n": "Siedliszcze",
+        "gps": [
+            51.1946,
+            23.164
+        ],
+        "w": "lubelskie",
+        "p": "chełmski"
+    },
+    {
+        "n": "Siemianowice Śląskie",
+        "gps": [
+            50.3048,
+            19.0262
+        ],
+        "w": "śląskie",
+        "p": "Siemianowice Śląskie"
+    },
+    {
+        "n": "Siemiatycze",
+        "gps": [
+            52.4283,
+            22.8711
+        ],
+        "w": "podlaskie",
+        "p": "siemiatycki"
+    },
+    {
+        "n": "Sieniawa",
+        "gps": [
+            50.1778,
+            22.6096
+        ],
+        "w": "podkarpackie",
+        "p": "przeworski"
+    },
+    {
+        "n": "Sieradz",
+        "gps": [
+            51.5961,
+            18.7322
+        ],
+        "w": "łódzkie",
+        "p": "sieradzki"
+    },
+    {
+        "n": "Sieraków",
+        "gps": [
+            52.6496,
+            16.0822
+        ],
+        "w": "wielkopolskie",
+        "p": "międzychodzki"
+    },
+    {
+        "n": "Sierpc",
+        "gps": [
+            52.8563,
+            19.6688
+        ],
+        "w": "mazowieckie",
+        "p": "sierpecki"
+    },
+    {
+        "n": "Siewierz",
+        "gps": [
+            50.4694,
+            19.2364
+        ],
+        "w": "śląskie",
+        "p": "będziński"
+    },
+    {
+        "n": "Skalbmierz",
+        "gps": [
+            50.3197,
+            20.3991
+        ],
+        "w": "świętokrzyskie",
+        "p": "kazimierski"
+    },
+    {
+        "n": "Skała",
+        "gps": [
+            50.2304,
+            19.8541
+        ],
+        "w": "małopolskie",
+        "p": "krakowski"
+    },
+    {
+        "n": "Skarszewy",
+        "gps": [
+            54.0716,
+            18.4398
+        ],
+        "w": "pomorskie",
+        "p": "starogardzki"
+    },
+    {
+        "n": "Skaryszew",
+        "gps": [
+            51.3106,
+            21.2523
+        ],
+        "w": "mazowieckie",
+        "p": "radomski"
+    },
+    {
+        "n": "Skarżysko-Kamienna",
+        "gps": [
+            51.1155,
+            20.8952
+        ],
+        "w": "świętokrzyskie",
+        "p": "skarżyski"
+    },
+    {
+        "n": "Skawina",
+        "gps": [
+            49.975,
+            19.8264
+        ],
+        "w": "małopolskie",
+        "p": "krakowski"
+    },
+    {
+        "n": "Skępe",
+        "gps": [
+            52.8678,
+            19.3563
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "lipnowski"
+    },
+    {
+        "n": "Skierniewice",
+        "gps": [
+            51.9586,
+            20.1411
+        ],
+        "w": "łódzkie",
+        "p": "Skierniewice"
+    },
+    {
+        "n": "Skoczów",
+        "gps": [
+            49.8019,
+            18.7875
+        ],
+        "w": "śląskie",
+        "p": "cieszyński"
+    },
+    {
+        "n": "Skoki",
+        "gps": [
+            52.6735,
+            17.1591
+        ],
+        "w": "wielkopolskie",
+        "p": "wągrowiecki"
+    },
+    {
+        "n": "Skórcz",
+        "gps": [
+            53.7939,
+            18.525
+        ],
+        "w": "pomorskie",
+        "p": "starogardzki"
+    },
+    {
+        "n": "Skwierzyna",
+        "gps": [
+            52.599,
+            15.5059
+        ],
+        "w": "lubuskie",
+        "p": "międzyrzecki"
+    },
+    {
+        "n": "Sława",
+        "gps": [
+            51.881,
+            16.0716
+        ],
+        "w": "lubuskie",
+        "p": "wschowski"
+    },
+    {
+        "n": "Sławków",
+        "gps": [
+            50.2983,
+            19.3883
+        ],
+        "w": "śląskie",
+        "p": "będziński"
+    },
+    {
+        "n": "Sławno",
+        "gps": [
+            54.358,
+            16.6776
+        ],
+        "w": "zachodniopomorskie",
+        "p": "sławieński"
+    },
+    {
+        "n": "Słomniki",
+        "gps": [
+            50.2399,
+            20.0821
+        ],
+        "w": "małopolskie",
+        "p": "krakowski"
+    },
+    {
+        "n": "Słubice",
+        "gps": [
+            52.3535,
+            14.5673
+        ],
+        "w": "lubuskie",
+        "p": "słubicki"
+    },
+    {
+        "n": "Słupca",
+        "gps": [
+            52.2893,
+            17.8726
+        ],
+        "w": "wielkopolskie",
+        "p": "słupecki"
+    },
+    {
+        "n": "Słupsk",
+        "gps": [
+            54.467,
+            17.0274
+        ],
+        "w": "pomorskie",
+        "p": "Słupsk"
+    },
+    {
+        "n": "Sobótka",
+        "gps": [
+            50.8996,
+            16.7445
+        ],
+        "w": "dolnośląskie",
+        "p": "wrocławski"
+    },
+    {
+        "n": "Sochaczew",
+        "gps": [
+            52.2293,
+            20.2384
+        ],
+        "w": "mazowieckie",
+        "p": "sochaczewski"
+    },
+    {
+        "n": "Sochocin",
+        "gps": [
+            52.6873,
+            20.4722
+        ],
+        "w": "mazowieckie",
+        "p": "płoński"
+    },
+    {
+        "n": "Sokołów Małopolski",
+        "gps": [
+            50.2303,
+            22.12
+        ],
+        "w": "podkarpackie",
+        "p": "rzeszowski"
+    },
+    {
+        "n": "Sokołów Podlaski",
+        "gps": [
+            52.4079,
+            22.2499
+        ],
+        "w": "mazowieckie",
+        "p": "sokołowski"
+    },
+    {
+        "n": "Sokółka",
+        "gps": [
+            53.4063,
+            23.5035
+        ],
+        "w": "podlaskie",
+        "p": "sokólski"
+    },
+    {
+        "n": "Solec Kujawski",
+        "gps": [
+            53.0809,
+            18.2264
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "bydgoski"
+    },
+    {
+        "n": "Solec nad Wisłą",
+        "gps": [
+            51.1349,
+            21.7651
+        ],
+        "w": "mazowieckie",
+        "p": "lipski"
+    },
+    {
+        "n": "Sompolno",
+        "gps": [
+            52.3887,
+            18.5029
+        ],
+        "w": "wielkopolskie",
+        "p": "koniński"
+    },
+    {
+        "n": "Sopot",
+        "gps": [
+            54.4431,
+            18.5614
+        ],
+        "w": "pomorskie",
+        "p": "Sopot"
+    },
+    {
+        "n": "Sosnowiec",
+        "gps": [
+            50.2853,
+            19.178
+        ],
+        "w": "śląskie",
+        "p": "Sosnowiec"
+    },
+    {
+        "n": "Sośnicowice",
+        "gps": [
+            50.2723,
+            18.5297
+        ],
+        "w": "śląskie",
+        "p": "gliwicki"
+    },
+    {
+        "n": "Stalowa Wola",
+        "gps": [
+            50.5762,
+            22.0612
+        ],
+        "w": "podkarpackie",
+        "p": "stalowowolski"
+    },
+    {
+        "n": "Starachowice",
+        "gps": [
+            51.0533,
+            21.0702
+        ],
+        "w": "świętokrzyskie",
+        "p": "starachowicki"
+    },
+    {
+        "n": "Stargard",
+        "gps": [
+            53.3392,
+            15.0411
+        ],
+        "w": "zachodniopomorskie",
+        "p": "stargardzki"
+    },
+    {
+        "n": "Starogard Gdański",
+        "gps": [
+            53.9641,
+            18.5262
+        ],
+        "w": "pomorskie",
+        "p": "starogardzki"
+    },
+    {
+        "n": "Stary Sącz",
+        "gps": [
+            49.5642,
+            20.6349
+        ],
+        "w": "małopolskie",
+        "p": "nowosądecki"
+    },
+    {
+        "n": "Staszów",
+        "gps": [
+            50.5642,
+            21.1674
+        ],
+        "w": "świętokrzyskie",
+        "p": "staszowski"
+    },
+    {
+        "n": "Stawiski",
+        "gps": [
+            53.3799,
+            22.1546
+        ],
+        "w": "podlaskie",
+        "p": "kolneński"
+    },
+    {
+        "n": "Stawiszyn",
+        "gps": [
+            51.9176,
+            18.1116
+        ],
+        "w": "wielkopolskie",
+        "p": "kaliski"
+    },
+    {
+        "n": "Stąporków",
+        "gps": [
+            51.138,
+            20.5643
+        ],
+        "w": "świętokrzyskie",
+        "p": "konecki"
+    },
+    {
+        "n": "Stepnica",
+        "gps": [
+            53.6523,
+            14.6283
+        ],
+        "w": "zachodniopomorskie",
+        "p": "goleniowski"
+    },
+    {
+        "n": "Stęszew",
+        "gps": [
+            52.2806,
+            16.7034
+        ],
+        "w": "wielkopolskie",
+        "p": "poznański"
+    },
+    {
+        "n": "Stoczek Łukowski",
+        "gps": [
+            51.9616,
+            21.9687
+        ],
+        "w": "lubelskie",
+        "p": "łukowski"
+    },
+    {
+        "n": "Stopnica",
+        "gps": [
+            50.4397,
+            20.9394
+        ],
+        "w": "świętokrzyskie",
+        "p": "buski"
+    },
+    {
+        "n": "Stronie Śląskie",
+        "gps": [
+            50.2988,
+            16.8736
+        ],
+        "w": "dolnośląskie",
+        "p": "kłodzki"
+    },
+    {
+        "n": "Strumień",
+        "gps": [
+            49.9171,
+            18.7634
+        ],
+        "w": "śląskie",
+        "p": "cieszyński"
+    },
+    {
+        "n": "Stryków",
+        "gps": [
+            51.9016,
+            19.6048
+        ],
+        "w": "łódzkie",
+        "p": "zgierski"
+    },
+    {
+        "n": "Strzegom",
+        "gps": [
+            50.9602,
+            16.3466
+        ],
+        "w": "dolnośląskie",
+        "p": "świdnicki"
+    },
+    {
+        "n": "Strzelce Krajeńskie",
+        "gps": [
+            52.8789,
+            15.5334
+        ],
+        "w": "lubuskie",
+        "p": "strzelecko-drezdenecki"
+    },
+    {
+        "n": "Strzelce Opolskie",
+        "gps": [
+            50.511,
+            18.3005
+        ],
+        "w": "opolskie",
+        "p": "strzelecki"
+    },
+    {
+        "n": "Strzelin",
+        "gps": [
+            50.7808,
+            17.0708
+        ],
+        "w": "dolnośląskie",
+        "p": "strzeliński"
+    },
+    {
+        "n": "Strzelno",
+        "gps": [
+            52.628,
+            18.1725
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "mogileński"
+    },
+    {
+        "n": "Strzyżów",
+        "gps": [
+            49.8704,
+            21.794
+        ],
+        "w": "podkarpackie",
+        "p": "strzyżowski"
+    },
+    {
+        "n": "Sucha Beskidzka",
+        "gps": [
+            49.7403,
+            19.5875
+        ],
+        "w": "małopolskie",
+        "p": "suski"
+    },
+    {
+        "n": "Suchań",
+        "gps": [
+            53.28,
+            15.3174
+        ],
+        "w": "zachodniopomorskie",
+        "p": "stargardzki"
+    },
+    {
+        "n": "Suchedniów",
+        "gps": [
+            51.0447,
+            20.8364
+        ],
+        "w": "świętokrzyskie",
+        "p": "skarżyski"
+    },
+    {
+        "n": "Suchowola",
+        "gps": [
+            53.5776,
+            23.1058
+        ],
+        "w": "podlaskie",
+        "p": "sokólski"
+    },
+    {
+        "n": "Sulechów",
+        "gps": [
+            52.0853,
+            15.6234
+        ],
+        "w": "lubuskie",
+        "p": "zielonogórski"
+    },
+    {
+        "n": "Sulejów",
+        "gps": [
+            51.3542,
+            19.8849
+        ],
+        "w": "łódzkie",
+        "p": "piotrkowski"
+    },
+    {
+        "n": "Sulejówek",
+        "gps": [
+            52.2415,
+            21.2906
+        ],
+        "w": "mazowieckie",
+        "p": "miński"
+    },
+    {
+        "n": "Sulęcin",
+        "gps": [
+            52.4392,
+            15.1154
+        ],
+        "w": "lubuskie",
+        "p": "sulęciński"
+    },
+    {
+        "n": "Sulmierzyce",
+        "gps": [
+            51.6061,
+            17.5307
+        ],
+        "w": "wielkopolskie",
+        "p": "krotoszyński"
+    },
+    {
+        "n": "Sułkowice",
+        "gps": [
+            49.8411,
+            19.8015
+        ],
+        "w": "małopolskie",
+        "p": "myślenicki"
+    },
+    {
+        "n": "Supraśl",
+        "gps": [
+            53.2056,
+            23.3382
+        ],
+        "w": "podlaskie",
+        "p": "białostocki"
+    },
+    {
+        "n": "Suraż",
+        "gps": [
+            52.9491,
+            22.9564
+        ],
+        "w": "podlaskie",
+        "p": "białostocki"
+    },
+    {
+        "n": "Susz",
+        "gps": [
+            53.7184,
+            19.3388
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "iławski"
+    },
+    {
+        "n": "Suwałki",
+        "gps": [
+            54.1014,
+            22.9283
+        ],
+        "w": "podlaskie",
+        "p": "Suwałki"
+    },
+    {
+        "n": "Swarzędz",
+        "gps": [
+            52.4101,
+            17.0774
+        ],
+        "w": "wielkopolskie",
+        "p": "poznański"
+    },
+    {
+        "n": "Syców",
+        "gps": [
+            51.3095,
+            17.7205
+        ],
+        "w": "dolnośląskie",
+        "p": "oleśnicki"
+    },
+    {
+        "n": "Szadek",
+        "gps": [
+            51.6918,
+            18.9755
+        ],
+        "w": "łódzkie",
+        "p": "zduńskowolski"
+    },
+    {
+        "n": "Szamocin",
+        "gps": [
+            53.0289,
+            17.1217
+        ],
+        "w": "wielkopolskie",
+        "p": "chodzieski"
+    },
+    {
+        "n": "Szamotuły",
+        "gps": [
+            52.6117,
+            16.5786
+        ],
+        "w": "wielkopolskie",
+        "p": "szamotulski"
+    },
+    {
+        "n": "Szczawnica",
+        "gps": [
+            49.4252,
+            20.4828
+        ],
+        "w": "małopolskie",
+        "p": "nowotarski"
+    },
+    {
+        "n": "Szczawno-Zdrój",
+        "gps": [
+            50.8004,
+            16.2509
+        ],
+        "w": "dolnośląskie",
+        "p": "wałbrzyski"
+    },
+    {
+        "n": "Szczebrzeszyn",
+        "gps": [
+            50.695,
+            22.9783
+        ],
+        "w": "lubelskie",
+        "p": "zamojski"
+    },
+    {
+        "n": "Szczecin",
+        "gps": [
+            53.4251,
+            14.5508
+        ],
+        "w": "zachodniopomorskie",
+        "p": "Szczecin"
+    },
+    {
+        "n": "Szczecinek",
+        "gps": [
+            53.7027,
+            16.7006
+        ],
+        "w": "zachodniopomorskie",
+        "p": "szczecinecki"
+    },
+    {
+        "n": "Szczekociny",
+        "gps": [
+            50.6261,
+            19.8186
+        ],
+        "w": "śląskie",
+        "p": "zawierciański"
+    },
+    {
+        "n": "Szczucin",
+        "gps": [
+            50.3093,
+            21.0764
+        ],
+        "w": "małopolskie",
+        "p": "dąbrowski"
+    },
+    {
+        "n": "Szczuczyn",
+        "gps": [
+            53.563,
+            22.2857
+        ],
+        "w": "podlaskie",
+        "p": "grajewski"
+    },
+    {
+        "n": "Szczyrk",
+        "gps": [
+            49.7119,
+            19.0192
+        ],
+        "w": "śląskie",
+        "p": "bielski"
+    },
+    {
+        "n": "Szczytna",
+        "gps": [
+            50.4155,
+            16.444
+        ],
+        "w": "dolnośląskie",
+        "p": "kłodzki"
+    },
+    {
+        "n": "Szczytno",
+        "gps": [
+            53.5635,
+            20.995
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "szczycieński"
+    },
+    {
+        "n": "Szepietowo",
+        "gps": [
+            52.8703,
+            22.5438
+        ],
+        "w": "podlaskie",
+        "p": "wysokomazowiecki"
+    },
+    {
+        "n": "Szklarska Poręba",
+        "gps": [
+            50.8298,
+            15.5189
+        ],
+        "w": "dolnośląskie",
+        "p": "karkonoski"
+    },
+    {
+        "n": "Szlichtyngowa",
+        "gps": [
+            51.7123,
+            16.2443
+        ],
+        "w": "lubuskie",
+        "p": "wschowski"
+    },
+    {
+        "n": "Szprotawa",
+        "gps": [
+            51.5651,
+            15.5335
+        ],
+        "w": "lubuskie",
+        "p": "żagański"
+    },
+    {
+        "n": "Sztum",
+        "gps": [
+            53.9209,
+            19.0296
+        ],
+        "w": "pomorskie",
+        "p": "sztumski"
+    },
+    {
+        "n": "Szubin",
+        "gps": [
+            53.0075,
+            17.7335
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "nakielski"
+    },
+    {
+        "n": "Szydłowiec",
+        "gps": [
+            51.2244,
+            20.8578
+        ],
+        "w": "mazowieckie",
+        "p": "szydłowiecki"
+    },
+    {
+        "n": "Szydłów",
+        "gps": [
+            50.5908,
+            21.0065
+        ],
+        "w": "świętokrzyskie",
+        "p": "staszowski"
+    },
+    {
+        "n": "Ścinawa",
+        "gps": [
+            51.4128,
+            16.4262
+        ],
+        "w": "dolnośląskie",
+        "p": "lubiński"
+    },
+    {
+        "n": "Ślesin",
+        "gps": [
+            52.3704,
+            18.3064
+        ],
+        "w": "wielkopolskie",
+        "p": "koniński"
+    },
+    {
+        "n": "Śmigiel",
+        "gps": [
+            52.0121,
+            16.5252
+        ],
+        "w": "wielkopolskie",
+        "p": "kościański"
+    },
+    {
+        "n": "Śrem",
+        "gps": [
+            52.0954,
+            17.0205
+        ],
+        "w": "wielkopolskie",
+        "p": "śremski"
+    },
+    {
+        "n": "Środa Śląska",
+        "gps": [
+            51.1633,
+            16.5977
+        ],
+        "w": "dolnośląskie",
+        "p": "średzki"
+    },
+    {
+        "n": "Środa Wielkopolska",
+        "gps": [
+            52.229,
+            17.2751
+        ],
+        "w": "wielkopolskie",
+        "p": "średzki"
+    },
+    {
+        "n": "Świątniki Górne",
+        "gps": [
+            49.9343,
+            19.9536
+        ],
+        "w": "małopolskie",
+        "p": "krakowski"
+    },
+    {
+        "n": "Świdnica",
+        "gps": [
+            50.8427,
+            16.4872
+        ],
+        "w": "dolnośląskie",
+        "p": "świdnicki"
+    },
+    {
+        "n": "Świdnik",
+        "gps": [
+            51.2159,
+            22.6987
+        ],
+        "w": "lubelskie",
+        "p": "świdnicki"
+    },
+    {
+        "n": "Świdwin",
+        "gps": [
+            53.7747,
+            15.7742
+        ],
+        "w": "zachodniopomorskie",
+        "p": "świdwiński"
+    },
+    {
+        "n": "Świebodzice",
+        "gps": [
+            50.8598,
+            16.3199
+        ],
+        "w": "dolnośląskie",
+        "p": "świdnicki"
+    },
+    {
+        "n": "Świebodzin",
+        "gps": [
+            52.2477,
+            15.5359
+        ],
+        "w": "lubuskie",
+        "p": "świebodziński"
+    },
+    {
+        "n": "Świecie",
+        "gps": [
+            53.4094,
+            18.4472
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "świecki"
+    },
+    {
+        "n": "Świeradów-Zdrój",
+        "gps": [
+            50.9092,
+            15.332
+        ],
+        "w": "dolnośląskie",
+        "p": "lubański"
+    },
+    {
+        "n": "Świerzawa",
+        "gps": [
+            51.0145,
+            15.8933
+        ],
+        "w": "dolnośląskie",
+        "p": "złotoryjski"
+    },
+    {
+        "n": "Świętochłowice",
+        "gps": [
+            50.292,
+            18.9159
+        ],
+        "w": "śląskie",
+        "p": "Świętochłowice"
+    },
+    {
+        "n": "Świnoujście",
+        "gps": [
+            53.9078,
+            14.2475
+        ],
+        "w": "zachodniopomorskie",
+        "p": "Świnoujście"
+    },
+    {
+        "n": "Tarczyn",
+        "gps": [
+            51.9801,
+            20.834
+        ],
+        "w": "mazowieckie",
+        "p": "piaseczyński"
+    },
+    {
+        "n": "Tarnobrzeg",
+        "gps": [
+            50.5692,
+            21.6775
+        ],
+        "w": "podkarpackie",
+        "p": "Tarnobrzeg"
+    },
+    {
+        "n": "Tarnogród",
+        "gps": [
+            50.3608,
+            22.7419
+        ],
+        "w": "lubelskie",
+        "p": "biłgorajski"
+    },
+    {
+        "n": "Tarnowskie Góry",
+        "gps": [
+            50.4454,
+            18.853
+        ],
+        "w": "śląskie",
+        "p": "tarnogórski"
+    },
+    {
+        "n": "Tarnów",
+        "gps": [
+            50.0125,
+            20.9884
+        ],
+        "w": "małopolskie",
+        "p": "Tarnów"
+    },
+    {
+        "n": "Tczew",
+        "gps": [
+            54.0881,
+            18.7994
+        ],
+        "w": "pomorskie",
+        "p": "tczewski"
+    },
+    {
+        "n": "Terespol",
+        "gps": [
+            52.0746,
+            23.6164
+        ],
+        "w": "lubelskie",
+        "p": "bialski"
+    },
+    {
+        "n": "Tłuszcz",
+        "gps": [
+            52.4299,
+            21.4352
+        ],
+        "w": "mazowieckie",
+        "p": "wołomiński"
+    },
+    {
+        "n": "Tolkmicko",
+        "gps": [
+            54.3202,
+            19.5272
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "elbląski"
+    },
+    {
+        "n": "Tomaszów Lubelski",
+        "gps": [
+            50.4511,
+            23.4159
+        ],
+        "w": "lubelskie",
+        "p": "tomaszowski"
+    },
+    {
+        "n": "Tomaszów Mazowiecki",
+        "gps": [
+            51.5304,
+            20.0097
+        ],
+        "w": "łódzkie",
+        "p": "tomaszowski"
+    },
+    {
+        "n": "Toruń",
+        "gps": [
+            53.0132,
+            18.615
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "Toruń"
+    },
+    {
+        "n": "Torzym",
+        "gps": [
+            52.314,
+            15.0732
+        ],
+        "w": "lubuskie",
+        "p": "sulęciński"
+    },
+    {
+        "n": "Toszek",
+        "gps": [
+            50.4547,
+            18.5199
+        ],
+        "w": "śląskie",
+        "p": "gliwicki"
+    },
+    {
+        "n": "Trzcianka",
+        "gps": [
+            53.04,
+            16.4605
+        ],
+        "w": "wielkopolskie",
+        "p": "czarnkowsko-trzcianecki"
+    },
+    {
+        "n": "Trzciel",
+        "gps": [
+            52.3648,
+            15.873
+        ],
+        "w": "lubuskie",
+        "p": "międzyrzecki"
+    },
+    {
+        "n": "Trzcińsko-Zdrój",
+        "gps": [
+            52.9666,
+            14.6065
+        ],
+        "w": "zachodniopomorskie",
+        "p": "gryfiński"
+    },
+    {
+        "n": "Trzebiatów",
+        "gps": [
+            54.0632,
+            15.266
+        ],
+        "w": "zachodniopomorskie",
+        "p": "gryficki"
+    },
+    {
+        "n": "Trzebinia",
+        "gps": [
+            50.1584,
+            19.4729
+        ],
+        "w": "małopolskie",
+        "p": "chrzanowski"
+    },
+    {
+        "n": "Trzebnica",
+        "gps": [
+            51.3084,
+            17.0619
+        ],
+        "w": "dolnośląskie",
+        "p": "trzebnicki"
+    },
+    {
+        "n": "Trzemeszno",
+        "gps": [
+            52.5607,
+            17.822
+        ],
+        "w": "wielkopolskie",
+        "p": "gnieźnieński"
+    },
+    {
+        "n": "Tuchola",
+        "gps": [
+            53.5883,
+            17.8616
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "tucholski"
+    },
+    {
+        "n": "Tuchów",
+        "gps": [
+            49.895,
+            21.0544
+        ],
+        "w": "małopolskie",
+        "p": "tarnowski"
+    },
+    {
+        "n": "Tuczno",
+        "gps": [
+            53.1944,
+            16.1538
+        ],
+        "w": "zachodniopomorskie",
+        "p": "wałecki"
+    },
+    {
+        "n": "Tuliszków",
+        "gps": [
+            52.0766,
+            18.2938
+        ],
+        "w": "wielkopolskie",
+        "p": "turecki"
+    },
+    {
+        "n": "Tułowice",
+        "gps": [
+            50.5936,
+            17.6544
+        ],
+        "w": "opolskie",
+        "p": "opolski"
+    },
+    {
+        "n": "Turek",
+        "gps": [
+            52.0155,
+            18.5016
+        ],
+        "w": "wielkopolskie",
+        "p": "turecki"
+    },
+    {
+        "n": "Tuszyn",
+        "gps": [
+            51.6039,
+            19.5439
+        ],
+        "w": "łódzkie",
+        "p": "łódzki wschodni"
+    },
+    {
+        "n": "Twardogóra",
+        "gps": [
+            51.3654,
+            17.4678
+        ],
+        "w": "dolnośląskie",
+        "p": "oleśnicki"
+    },
+    {
+        "n": "Tychowo",
+        "gps": [
+            53.9296,
+            16.2591
+        ],
+        "w": "zachodniopomorskie",
+        "p": "białogardzki"
+    },
+    {
+        "n": "Tychy",
+        "gps": [
+            50.1236,
+            18.9869
+        ],
+        "w": "śląskie",
+        "p": "Tychy"
+    },
+    {
+        "n": "Tyczyn",
+        "gps": [
+            49.964,
+            22.0302
+        ],
+        "w": "podkarpackie",
+        "p": "rzeszowski"
+    },
+    {
+        "n": "Tykocin",
+        "gps": [
+            53.2064,
+            22.7739
+        ],
+        "w": "podlaskie",
+        "p": "białostocki"
+    },
+    {
+        "n": "Tyszowce",
+        "gps": [
+            50.6171,
+            23.7061
+        ],
+        "w": "lubelskie",
+        "p": "tomaszowski"
+    },
+    {
+        "n": "Ujazd",
+        "gps": [
+            50.3894,
+            18.35
+        ],
+        "w": "opolskie",
+        "p": "strzelecki"
+    },
+    {
+        "n": "Ujazd",
+        "gps": [
+            51.5978,
+            19.9219
+        ],
+        "w": "łódzkie",
+        "p": "tomaszowski"
+    },
+    {
+        "n": "Ujście",
+        "gps": [
+            53.053,
+            16.7326
+        ],
+        "w": "wielkopolskie",
+        "p": "pilski"
+    },
+    {
+        "n": "Ulanów",
+        "gps": [
+            50.4911,
+            22.2673
+        ],
+        "w": "podkarpackie",
+        "p": "niżański"
+    },
+    {
+        "n": "Uniejów",
+        "gps": [
+            51.9751,
+            18.7941
+        ],
+        "w": "łódzkie",
+        "p": "poddębicki"
+    },
+    {
+        "n": "Urzędów",
+        "gps": [
+            50.993,
+            22.1424
+        ],
+        "w": "lubelskie",
+        "p": "kraśnicki"
+    },
+    {
+        "n": "Ustka",
+        "gps": [
+            54.5805,
+            16.862
+        ],
+        "w": "pomorskie",
+        "p": "słupski"
+    },
+    {
+        "n": "Ustroń",
+        "gps": [
+            49.7203,
+            18.812
+        ],
+        "w": "śląskie",
+        "p": "cieszyński"
+    },
+    {
+        "n": "Ustrzyki Dolne",
+        "gps": [
+            49.43,
+            22.5869
+        ],
+        "w": "podkarpackie",
+        "p": "bieszczadzki"
+    },
+    {
+        "n": "Wadowice",
+        "gps": [
+            49.8831,
+            19.4929
+        ],
+        "w": "małopolskie",
+        "p": "wadowicki"
+    },
+    {
+        "n": "Wałbrzych",
+        "gps": [
+            50.7672,
+            16.2827
+        ],
+        "w": "dolnośląskie",
+        "p": "Wałbrzych"
+    },
+    {
+        "n": "Wałcz",
+        "gps": [
+            53.273,
+            16.4674
+        ],
+        "w": "zachodniopomorskie",
+        "p": "wałecki"
+    },
+    {
+        "n": "Warka",
+        "gps": [
+            51.7869,
+            21.1833
+        ],
+        "w": "mazowieckie",
+        "p": "grójecki"
+    },
+    {
+        "n": "Warszawa",
+        "gps": [
+            52.2298,
+            21.0117
+        ],
+        "w": "mazowieckie",
+        "p": "Warszawa"
+    },
+    {
+        "n": "Warta",
+        "gps": [
+            51.7069,
+            18.6244
+        ],
+        "w": "łódzkie",
+        "p": "sieradzki"
+    },
+    {
+        "n": "Wasilków",
+        "gps": [
+            53.1989,
+            23.2063
+        ],
+        "w": "podlaskie",
+        "p": "białostocki"
+    },
+    {
+        "n": "Wąbrzeźno",
+        "gps": [
+            53.28,
+            18.9471
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "wąbrzeski"
+    },
+    {
+        "n": "Wąchock",
+        "gps": [
+            51.074,
+            21.0104
+        ],
+        "w": "świętokrzyskie",
+        "p": "starachowicki"
+    },
+    {
+        "n": "Wągrowiec",
+        "gps": [
+            52.8068,
+            17.2006
+        ],
+        "w": "wielkopolskie",
+        "p": "wągrowiecki"
+    },
+    {
+        "n": "Wąsosz",
+        "gps": [
+            51.5646,
+            16.6935
+        ],
+        "w": "dolnośląskie",
+        "p": "górowski"
+    },
+    {
+        "n": "Wejherowo",
+        "gps": [
+            54.6062,
+            18.2333
+        ],
+        "w": "pomorskie",
+        "p": "wejherowski"
+    },
+    {
+        "n": "Węgliniec",
+        "gps": [
+            51.2861,
+            15.2233
+        ],
+        "w": "dolnośląskie",
+        "p": "zgorzelecki"
+    },
+    {
+        "n": "Węgorzewo",
+        "gps": [
+            54.2142,
+            21.7409
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "węgorzewski"
+    },
+    {
+        "n": "Węgorzyno",
+        "gps": [
+            53.541,
+            15.5594
+        ],
+        "w": "zachodniopomorskie",
+        "p": "łobeski"
+    },
+    {
+        "n": "Węgrów",
+        "gps": [
+            52.3989,
+            22.0173
+        ],
+        "w": "mazowieckie",
+        "p": "węgrowski"
+    },
+    {
+        "n": "Wiązów",
+        "gps": [
+            50.8138,
+            17.2011
+        ],
+        "w": "dolnośląskie",
+        "p": "strzeliński"
+    },
+    {
+        "n": "Wielbark",
+        "gps": [
+            53.3982,
+            20.9458
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "szczycieński"
+    },
+    {
+        "n": "Wieleń",
+        "gps": [
+            52.8886,
+            16.1679
+        ],
+        "w": "wielkopolskie",
+        "p": "czarnkowsko-trzcianecki"
+    },
+    {
+        "n": "Wielichowo",
+        "gps": [
+            52.1175,
+            16.3497
+        ],
+        "w": "wielkopolskie",
+        "p": "grodziski"
+    },
+    {
+        "n": "Wieliczka",
+        "gps": [
+            49.9844,
+            20.0611
+        ],
+        "w": "małopolskie",
+        "p": "wielicki"
+    },
+    {
+        "n": "Wieluń",
+        "gps": [
+            51.221,
+            18.5706
+        ],
+        "w": "łódzkie",
+        "p": "wieluński"
+    },
+    {
+        "n": "Wieruszów",
+        "gps": [
+            51.295,
+            18.155
+        ],
+        "w": "łódzkie",
+        "p": "wieruszowski"
+    },
+    {
+        "n": "Więcbork",
+        "gps": [
+            53.3547,
+            17.4896
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "sępoleński"
+    },
+    {
+        "n": "Wilamowice",
+        "gps": [
+            49.9163,
+            19.1527
+        ],
+        "w": "śląskie",
+        "p": "bielski"
+    },
+    {
+        "n": "Wiskitki",
+        "gps": [
+            52.0869,
+            20.3829
+        ],
+        "w": "mazowieckie",
+        "p": "żyrardowski"
+    },
+    {
+        "n": "Wisła",
+        "gps": [
+            49.6542,
+            18.8608
+        ],
+        "w": "śląskie",
+        "p": "cieszyński"
+    },
+    {
+        "n": "Wiślica",
+        "gps": [
+            50.3488,
+            20.6741
+        ],
+        "w": "świętokrzyskie",
+        "p": "buski"
+    },
+    {
+        "n": "Witkowo",
+        "gps": [
+            52.4401,
+            17.7727
+        ],
+        "w": "wielkopolskie",
+        "p": "gnieźnieński"
+    },
+    {
+        "n": "Witnica",
+        "gps": [
+            52.6733,
+            14.8952
+        ],
+        "w": "lubuskie",
+        "p": "gorzowski"
+    },
+    {
+        "n": "Wleń",
+        "gps": [
+            51.0168,
+            15.675
+        ],
+        "w": "dolnośląskie",
+        "p": "lwówecki"
+    },
+    {
+        "n": "Władysławowo",
+        "gps": [
+            54.7901,
+            18.4087
+        ],
+        "w": "pomorskie",
+        "p": "pucki"
+    },
+    {
+        "n": "Włocławek",
+        "gps": [
+            52.6572,
+            19.0633
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "Włocławek"
+    },
+    {
+        "n": "Włodawa",
+        "gps": [
+            51.5444,
+            23.554
+        ],
+        "w": "lubelskie",
+        "p": "włodawski"
+    },
+    {
+        "n": "Włodowice",
+        "gps": [
+            50.5522,
+            19.4504
+        ],
+        "w": "śląskie",
+        "p": "zawierciański"
+    },
+    {
+        "n": "Włoszczowa",
+        "gps": [
+            50.8515,
+            19.9692
+        ],
+        "w": "świętokrzyskie",
+        "p": "włoszczowski"
+    },
+    {
+        "n": "Wodzisław",
+        "gps": [
+            50.5207,
+            20.1917
+        ],
+        "w": "świętokrzyskie",
+        "p": "jędrzejowski"
+    },
+    {
+        "n": "Wodzisław Śląski",
+        "gps": [
+            50.0045,
+            18.4618
+        ],
+        "w": "śląskie",
+        "p": "wodzisławski"
+    },
+    {
+        "n": "Wojcieszów",
+        "gps": [
+            50.9508,
+            15.9223
+        ],
+        "w": "dolnośląskie",
+        "p": "złotoryjski"
+    },
+    {
+        "n": "Wojkowice",
+        "gps": [
+            50.3629,
+            19.0446
+        ],
+        "w": "śląskie",
+        "p": "będziński"
+    },
+    {
+        "n": "Wojnicz",
+        "gps": [
+            49.9578,
+            20.8375
+        ],
+        "w": "małopolskie",
+        "p": "tarnowski"
+    },
+    {
+        "n": "Wolbórz",
+        "gps": [
+            51.5051,
+            19.83
+        ],
+        "w": "łódzkie",
+        "p": "piotrkowski"
+    },
+    {
+        "n": "Wolbrom",
+        "gps": [
+            50.3853,
+            19.76
+        ],
+        "w": "małopolskie",
+        "p": "olkuski"
+    },
+    {
+        "n": "Wolin",
+        "gps": [
+            53.8415,
+            14.6134
+        ],
+        "w": "zachodniopomorskie",
+        "p": "kamieński"
+    },
+    {
+        "n": "Wolsztyn",
+        "gps": [
+            52.1146,
+            16.1166
+        ],
+        "w": "wielkopolskie",
+        "p": "wolsztyński"
+    },
+    {
+        "n": "Wołczyn",
+        "gps": [
+            51.0181,
+            18.0501
+        ],
+        "w": "opolskie",
+        "p": "kluczborski"
+    },
+    {
+        "n": "Wołomin",
+        "gps": [
+            52.3495,
+            21.2498
+        ],
+        "w": "mazowieckie",
+        "p": "wołomiński"
+    },
+    {
+        "n": "Wołów",
+        "gps": [
+            51.3365,
+            16.646
+        ],
+        "w": "dolnośląskie",
+        "p": "wołowski"
+    },
+    {
+        "n": "Woźniki",
+        "gps": [
+            50.5858,
+            19.0592
+        ],
+        "w": "śląskie",
+        "p": "lubliniecki"
+    },
+    {
+        "n": "Wrocław",
+        "gps": [
+            51.1078,
+            17.0387
+        ],
+        "w": "dolnośląskie",
+        "p": "Wrocław"
+    },
+    {
+        "n": "Wronki",
+        "gps": [
+            52.7082,
+            16.3785
+        ],
+        "w": "wielkopolskie",
+        "p": "szamotulski"
+    },
+    {
+        "n": "Września",
+        "gps": [
+            52.3258,
+            17.5654
+        ],
+        "w": "wielkopolskie",
+        "p": "wrzesiński"
+    },
+    {
+        "n": "Wschowa",
+        "gps": [
+            51.8064,
+            16.3191
+        ],
+        "w": "lubuskie",
+        "p": "wschowski"
+    },
+    {
+        "n": "Wyrzysk",
+        "gps": [
+            53.1532,
+            17.267
+        ],
+        "w": "wielkopolskie",
+        "p": "pilski"
+    },
+    {
+        "n": "Wysoka",
+        "gps": [
+            53.1817,
+            17.0797
+        ],
+        "w": "wielkopolskie",
+        "p": "pilski"
+    },
+    {
+        "n": "Wysokie Mazowieckie",
+        "gps": [
+            52.9165,
+            22.5171
+        ],
+        "w": "podlaskie",
+        "p": "wysokomazowiecki"
+    },
+    {
+        "n": "Wyszków",
+        "gps": [
+            52.5959,
+            21.4518
+        ],
+        "w": "mazowieckie",
+        "p": "wyszkowski"
+    },
+    {
+        "n": "Wyszogród",
+        "gps": [
+            52.3899,
+            20.1907
+        ],
+        "w": "mazowieckie",
+        "p": "płocki"
+    },
+    {
+        "n": "Wyśmierzyce",
+        "gps": [
+            51.6247,
+            20.8183
+        ],
+        "w": "mazowieckie",
+        "p": "białobrzeski"
+    },
+    {
+        "n": "Zabłudów",
+        "gps": [
+            53.0142,
+            23.3383
+        ],
+        "w": "podlaskie",
+        "p": "białostocki"
+    },
+    {
+        "n": "Zabrze",
+        "gps": [
+            50.2986,
+            18.7869
+        ],
+        "w": "śląskie",
+        "p": "Zabrze"
+    },
+    {
+        "n": "Zagórów",
+        "gps": [
+            52.1683,
+            17.8953
+        ],
+        "w": "wielkopolskie",
+        "p": "słupecki"
+    },
+    {
+        "n": "Zagórz",
+        "gps": [
+            49.5143,
+            22.267
+        ],
+        "w": "podkarpackie",
+        "p": "sanocki"
+    },
+    {
+        "n": "Zakliczyn",
+        "gps": [
+            49.8561,
+            20.8097
+        ],
+        "w": "małopolskie",
+        "p": "tarnowski"
+    },
+    {
+        "n": "Zaklików",
+        "gps": [
+            50.7559,
+            22.102
+        ],
+        "w": "podkarpackie",
+        "p": "stalowowolski"
+    },
+    {
+        "n": "Zakopane",
+        "gps": [
+            49.2969,
+            19.95
+        ],
+        "w": "małopolskie",
+        "p": "tatrzański"
+    },
+    {
+        "n": "Zakroczym",
+        "gps": [
+            52.4333,
+            20.6113
+        ],
+        "w": "mazowieckie",
+        "p": "nowodworski"
+    },
+    {
+        "n": "Zalewo",
+        "gps": [
+            53.845,
+            19.6058
+        ],
+        "w": "warmińsko-mazurskie",
+        "p": "iławski"
+    },
+    {
+        "n": "Zambrów",
+        "gps": [
+            52.9838,
+            22.2448
+        ],
+        "w": "podlaskie",
+        "p": "zambrowski"
+    },
+    {
+        "n": "Zamość",
+        "gps": [
+            50.7161,
+            23.2547
+        ],
+        "w": "lubelskie",
+        "p": "Zamość"
+    },
+    {
+        "n": "Zator",
+        "gps": [
+            49.9961,
+            19.4369
+        ],
+        "w": "małopolskie",
+        "p": "oświęcimski"
+    },
+    {
+        "n": "Zawadzkie",
+        "gps": [
+            50.606,
+            18.4825
+        ],
+        "w": "opolskie",
+        "p": "strzelecki"
+    },
+    {
+        "n": "Zawichost",
+        "gps": [
+            50.8061,
+            21.8596
+        ],
+        "w": "świętokrzyskie",
+        "p": "sandomierski"
+    },
+    {
+        "n": "Zawidów",
+        "gps": [
+            51.0241,
+            15.0635
+        ],
+        "w": "dolnośląskie",
+        "p": "zgorzelecki"
+    },
+    {
+        "n": "Zawiercie",
+        "gps": [
+            50.4909,
+            19.4241
+        ],
+        "w": "śląskie",
+        "p": "zawierciański"
+    },
+    {
+        "n": "Ząbki",
+        "gps": [
+            52.2893,
+            21.118
+        ],
+        "w": "mazowieckie",
+        "p": "wołomiński"
+    },
+    {
+        "n": "Ząbkowice Śląskie",
+        "gps": [
+            50.5888,
+            16.8127
+        ],
+        "w": "dolnośląskie",
+        "p": "ząbkowicki"
+    },
+    {
+        "n": "Zbąszynek",
+        "gps": [
+            52.2463,
+            15.8155
+        ],
+        "w": "lubuskie",
+        "p": "świebodziński"
+    },
+    {
+        "n": "Zbąszyń",
+        "gps": [
+            52.2532,
+            15.9188
+        ],
+        "w": "wielkopolskie",
+        "p": "nowotomyski"
+    },
+    {
+        "n": "Zduny",
+        "gps": [
+            51.6451,
+            17.3756
+        ],
+        "w": "wielkopolskie",
+        "p": "krotoszyński"
+    },
+    {
+        "n": "Zduńska Wola",
+        "gps": [
+            51.6019,
+            18.934
+        ],
+        "w": "łódzkie",
+        "p": "zduńskowolski"
+    },
+    {
+        "n": "Zdzieszowice",
+        "gps": [
+            50.4243,
+            18.125
+        ],
+        "w": "opolskie",
+        "p": "krapkowicki"
+    },
+    {
+        "n": "Zelów",
+        "gps": [
+            51.4643,
+            19.22
+        ],
+        "w": "łódzkie",
+        "p": "bełchatowski"
+    },
+    {
+        "n": "Zgierz",
+        "gps": [
+            51.8562,
+            19.4062
+        ],
+        "w": "łódzkie",
+        "p": "zgierski"
+    },
+    {
+        "n": "Zgorzelec",
+        "gps": [
+            51.1497,
+            15.0067
+        ],
+        "w": "dolnośląskie",
+        "p": "zgorzelecki"
+    },
+    {
+        "n": "Zielona Góra",
+        "gps": [
+            51.9392,
+            15.5038
+        ],
+        "w": "lubuskie",
+        "p": "Zielona Góra"
+    },
+    {
+        "n": "Zielonka",
+        "gps": [
+            52.3066,
+            21.1536
+        ],
+        "w": "mazowieckie",
+        "p": "wołomiński"
+    },
+    {
+        "n": "Ziębice",
+        "gps": [
+            50.6003,
+            17.0411
+        ],
+        "w": "dolnośląskie",
+        "p": "ząbkowicki"
+    },
+    {
+        "n": "Złocieniec",
+        "gps": [
+            53.5305,
+            16.0117
+        ],
+        "w": "zachodniopomorskie",
+        "p": "drawski"
+    },
+    {
+        "n": "Złoczew",
+        "gps": [
+            51.4181,
+            18.6058
+        ],
+        "w": "łódzkie",
+        "p": "sieradzki"
+    },
+    {
+        "n": "Złotoryja",
+        "gps": [
+            51.1247,
+            15.9158
+        ],
+        "w": "dolnośląskie",
+        "p": "złotoryjski"
+    },
+    {
+        "n": "Złotów",
+        "gps": [
+            53.3631,
+            17.0388
+        ],
+        "w": "wielkopolskie",
+        "p": "złotowski"
+    },
+    {
+        "n": "Złoty Stok",
+        "gps": [
+            50.443,
+            16.8735
+        ],
+        "w": "dolnośląskie",
+        "p": "ząbkowicki"
+    },
+    {
+        "n": "Zwierzyniec",
+        "gps": [
+            50.614,
+            22.9715
+        ],
+        "w": "lubelskie",
+        "p": "zamojski"
+    },
+    {
+        "n": "Zwoleń",
+        "gps": [
+            51.3555,
+            21.5877
+        ],
+        "w": "mazowieckie",
+        "p": "zwoleński"
+    },
+    {
+        "n": "Żabno",
+        "gps": [
+            50.1333,
+            20.8862
+        ],
+        "w": "małopolskie",
+        "p": "tarnowski"
+    },
+    {
+        "n": "Żagań",
+        "gps": [
+            51.6175,
+            15.3148
+        ],
+        "w": "lubuskie",
+        "p": "żagański"
+    },
+    {
+        "n": "Żarki",
+        "gps": [
+            50.6265,
+            19.364
+        ],
+        "w": "śląskie",
+        "p": "myszkowski"
+    },
+    {
+        "n": "Żarów",
+        "gps": [
+            50.9425,
+            16.4934
+        ],
+        "w": "dolnośląskie",
+        "p": "świdnicki"
+    },
+    {
+        "n": "Żary",
+        "gps": [
+            51.6357,
+            15.1382
+        ],
+        "w": "lubuskie",
+        "p": "żarski"
+    },
+    {
+        "n": "Żelechów",
+        "gps": [
+            51.8084,
+            21.8962
+        ],
+        "w": "mazowieckie",
+        "p": "garwoliński"
+    },
+    {
+        "n": "Żerków",
+        "gps": [
+            52.0684,
+            17.5633
+        ],
+        "w": "wielkopolskie",
+        "p": "jarociński"
+    },
+    {
+        "n": "Żmigród",
+        "gps": [
+            51.471,
+            16.9077
+        ],
+        "w": "dolnośląskie",
+        "p": "trzebnicki"
+    },
+    {
+        "n": "Żnin",
+        "gps": [
+            52.8496,
+            17.7208
+        ],
+        "w": "kujawsko-pomorskie",
+        "p": "żniński"
+    },
+    {
+        "n": "Żory",
+        "gps": [
+            50.0455,
+            18.6943
+        ],
+        "w": "śląskie",
+        "p": "Żory"
+    },
+    {
+        "n": "Żukowo",
+        "gps": [
+            54.3456,
+            18.3645
+        ],
+        "w": "pomorskie",
+        "p": "kartuski"
+    },
+    {
+        "n": "Żuromin",
+        "gps": [
+            53.0658,
+            19.9098
+        ],
+        "w": "mazowieckie",
+        "p": "żuromiński"
+    },
+    {
+        "n": "Żychlin",
+        "gps": [
+            52.2439,
+            19.6264
+        ],
+        "w": "łódzkie",
+        "p": "kutnowski"
+    },
+    {
+        "n": "Żyrardów",
+        "gps": [
+            52.0562,
+            20.4469
+        ],
+        "w": "mazowieckie",
+        "p": "żyrardowski"
+    },
+    {
+        "n": "Żywiec",
+        "gps": [
+            49.6849,
+            19.192
+        ],
+        "w": "śląskie",
+        "p": "żywiecki"
+    }
+]
