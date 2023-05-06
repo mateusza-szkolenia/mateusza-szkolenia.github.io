@@ -5,7 +5,7 @@ cat <<'EOF'
 |-----|-----------------|-------|----------|-------|-------|--------|
 EOF
 
-for rok in 2018 2021
+for rok in 2018 2021 2023
 do
     printf "| %s | YYYY-MM-DD |" "$rok"
     for format in sql db csv txt json

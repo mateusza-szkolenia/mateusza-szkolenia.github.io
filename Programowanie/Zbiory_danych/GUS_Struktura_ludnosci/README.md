@@ -4,9 +4,9 @@
 
 | rok | data pozyskania | `SQL` | `SQLite` | `CSV` | `TXT` | `JSON` |
 |-----|-----------------|-------|----------|-------|-------|--------|
-| 2018 | 2018-06-01 |[[SQL]](data/2018-dane-gus-populacja.sql) |[[DB]](data/2018-dane-gus-populacja.db) |[[CSV]](data/2018-dane-gus-populacja.csv) |[[TXT]](data/2018-dane-gus-populacja.txt) |[[JSON]](data/2018-dane-gus-populacja.json) |
-| 2021 | 2021-12-08 |[[SQL]](data/2021-dane-gus-populacja.sql) |[[DB]](data/2021-dane-gus-populacja.db) |[[CSV]](data/2021-dane-gus-populacja.csv) |[[TXT]](data/2021-dane-gus-populacja.txt) |[[JSON]](data/2021-dane-gus-populacja.json) |
-
+| 2018 | YYYY-MM-DD |[[SQL]](data/2018-dane-gus-populacja.sql) |[[DB]](data/2018-dane-gus-populacja.db) |[[CSV]](data/2018-dane-gus-populacja.csv) |[[TXT]](data/2018-dane-gus-populacja.txt) |[[JSON]](data/2018-dane-gus-populacja.json) |
+| 2021 | YYYY-MM-DD |[[SQL]](data/2021-dane-gus-populacja.sql) |[[DB]](data/2021-dane-gus-populacja.db) |[[CSV]](data/2021-dane-gus-populacja.csv) |[[TXT]](data/2021-dane-gus-populacja.txt) |[[JSON]](data/2021-dane-gus-populacja.json) |
+| 2023 | YYYY-MM-DD |[[SQL]](data/2023-dane-gus-populacja.sql) |[[DB]](data/2023-dane-gus-populacja.db) |[[CSV]](data/2023-dane-gus-populacja.csv) |[[TXT]](data/2023-dane-gus-populacja.txt) |[[JSON]](data/2023-dane-gus-populacja.json) |
 
 ## Opis formatów
 
