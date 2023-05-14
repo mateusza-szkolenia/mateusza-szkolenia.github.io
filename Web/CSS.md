@@ -23,8 +23,11 @@
 
 ## Gry do nauki CSS
 * [Nauka selektorów CSS](https://flukeout.github.io/)
-* [Nauka elementu Flex](http://flexboxfroggy.com/)
-* [Nauka elementu Grid](http://cssgridgarden.com/)
+* [Flexbox Froggy - nauka elementu Flex](http://flexboxfroggy.com/)
+* [Grid Garden - nauka elementu Grid](http://cssgridgarden.com/)
+* [Grid Attack](https://codingfantasy.com/games/css-grid-attack/play)
+* [Grid Critters](https://gridcritters.com/)
+
 
 ## Gry w CSS
 * [Gry](https://dzone.com/articles/css3-games-collection)
