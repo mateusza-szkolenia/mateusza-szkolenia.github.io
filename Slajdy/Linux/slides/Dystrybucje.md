@@ -212,7 +212,7 @@ Na cześć Rocky'ego McGaugha (twórcy CentOS)
 
 - nowe wydania 2 razy w roku
   - kwiecień i październik
-- numeracja: `ROK.MIESIĄC` (np. `21.04`)
+- numeracja: `ROK.MIESIĄC` (np. `23.04`)
 - nazwy kodowe (gatunki zwierząt + przymiotniki)
 - co dwa lata wydanie LTS (Long Term Support)
 
@@ -287,7 +287,7 @@ Ubuntu 23.04 (Lunar Lobster)
 ## Fedora
 
 - wydania średnio dwa razy w roku
-- numeracja: ...33, 34, 35, 36...
+- numeracja: ...35, 36, 37, 38...
 - krótkie wsparcie
 - pole eksperymentalne RHEL
 
@@ -329,8 +329,8 @@ Debian 7 (Wheezy)
 Debian 8 (Jessie)  
 Debian 9 (Stretch)  
 Debian 10 (Buster)  
-**Debian 11 (Bullseye)**  
-Debian 12 (Bookworm)  
+Debian 11 (Bullseye)  
+**Debian 12 (Bookworm)**  
 ⸱⸱⸱  
 *Debian 13 (Trixie)*  
 *Debian 14 (Forky)*  
@@ -362,7 +362,7 @@ Debian 12 (Bookworm)
 ------
 ## System pakietów
 
-- `DEB`
+- `Deb`
 - `RPM`
 - inne
 
