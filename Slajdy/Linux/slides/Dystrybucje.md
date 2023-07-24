@@ -81,6 +81,10 @@ Trudno powiedzieć...
 
 ---
 <!-- .slide: data-background="#eee" -->
+![CentOS Stream](img/centos-stream.png)
+
+---
+<!-- .slide: data-background="#eee" -->
 ![Rocky Linux](img/rockylinux.png)
 
 ---
