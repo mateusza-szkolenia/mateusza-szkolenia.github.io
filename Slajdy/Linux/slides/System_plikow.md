@@ -518,5 +518,29 @@ Ograniczenia klasycznego FAT:
 * "ukrycie" oznacza zmianę nazwy
 
 ------
+<!-- .slide: data-autofragments -->
+## Znaki końca linii
+
+<div style='display: flex; justify-content: space-around;'>
+<div style='width: 40%; text-align: center' class=fragment>
+  <h3 class='fab fa-windows fa-3x'></h3>
+  <p>dwa bajty</p>
+  <p>CR LF</p>
+  <p>0x0d 0x0a, (13, 10)</p>
+  <p><tt>\r\n</tt></p>
+  <p>separator linii</p>
+</div>
+<div style='width: 40%; text-align: center;' class=fragment>
+  <h3><i class='fab fa-linux fa-3x'></i></h3>
+  <p>jeden bajt</p>
+  <p>LF</p>
+  <p>0x0a (10)</p>
+  <p><tt>\n</tt></p>
+  <p>na końcu linii</p>
+</div>
+</div>
+
+------
+
 [Koniec](./)
 
