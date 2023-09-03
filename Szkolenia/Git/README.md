@@ -4,31 +4,33 @@
 
 - Historia i okoliczności powstania
 - Zastosowanie
-- Podobieństwa i różnice w stosunku do innych narzędzi (SVN, CVS)
+- Podobieństwa i różnice w stosunku do innych narzędzi (SVN, CVS, Bazaar, Mercurial Hg, Fossil SCM)
 
 ## Oprogramowanie
 
 - Klienckie
   - `git`
-  - `tig`
-  - Working Copy (iOS)
+  - `tig` <https://jonas.github.io/tig/>
+  - Working Copy (iOS) <https://workingcopy.app/>
+  - Fork <https://git-fork.com/>
+  - GitHub Desktop <https://desktop.github.com/> <https://github.com/shiftkey/desktop>
 - Serwerowe
-  - GitLab
-  - Gitea
+  - GitLab <https://about.gitlab.com/>
+  - Gitea <https://about.gitea.com/>
 - Usługi web
   - GitHub.com
   - GitLab.com
 - Edytory i IDE
   - Visual Studio Code
   - PyCharm
-  - Joplin
 
-## Zasada działania i architektura
+## Zasada działania, architektura, narzędzia pomocnicze
 
 - Hashe SHA1, DAG
 - Budowa i struktura repozytorium
   - BLOB, tree, commit
 - Język Markdown
+- BASH
 
 ## Instalacja i prekonfiguracja
 
@@ -40,7 +42,7 @@
 - Tworzenie repozytorium
 - Śledzenie zmian
 - Rejestrowanie zmian
-- Operacje na gałęziach rozwojowych (scalanie zmian)
+- Operacje na gałęziach rozwojowych (scalanie zmian, rozwiązywanie konfliktów)
 - Tagi
 - Praca ze zdalnym repozytorium (SSH)
 - Praca w zespole
@@ -59,13 +61,12 @@
 - Warsztaty praktyczne
 - Prawa dostępu
 - Merge/pull request
-- Code review (inspekcja kodu)
+- Code review (recenzja kodu)
 
 ## Inne zagadnienia
 
 - Bezpieczeństwo i integralność kodu
 - Systemy CI/CD
-- Narzędzia pomocnicze
 - Migracja kodu z innych narzędzi
 - Git w zastosowaniach nieprogramistycznych
 
