@@ -82,6 +82,7 @@
 
 * [Garuda Linux](https://garudalinux.org/)
 * [NixOS](https://nixos.org)
+* [Bedrock Linux](https://bedrocklinux.org/)
 
 ## Obrazy maszyn wirtualnych
 
