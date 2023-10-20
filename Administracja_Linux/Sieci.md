@@ -9,6 +9,7 @@
 
 * [Zerotier](https://www.zerotier.com/)
 * [Tailscale](https://tailscale.com/)
+* [Surfshark VPN](https://surfshark.com/)
 
 ## Aplikacje VPN
 
@@ -45,3 +46,8 @@
 ## Oprogramowanie serwerowe
 
 * [WHMCS](https://www.whmcs.com/) (komercyjne)
+
+# Kalkulatory IP
+
+- [WireGuard AllowedIPs Calculator](https://www.procustodibus.com/blog/2021/03/wireguard-allowedips-calculator/)
+- [ipcalc](https://jodies.de/ipcalc)
