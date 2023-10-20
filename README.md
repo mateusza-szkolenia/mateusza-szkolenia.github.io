@@ -5,7 +5,7 @@
 <section markdown="1">
 <figure>⌨️</figure>
 
-##  [Programowanie](Programowanie/)
+## [Programowanie](Programowanie/)
 
 Materiały do kursów programowania. (Python, C, C++, Javascript, SQL, SQLite, MySQL, PostgreSQL)
 
