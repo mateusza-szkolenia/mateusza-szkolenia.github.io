@@ -73,7 +73,8 @@ Opisy rozwiązania kilku typowych problemów.
 [C/C++](https://www.alx.pl/pl/kurs-cpp-programowanie/) •
 [C](https://www.alx.pl/szkolenia/programowanie-c-podstawy/) •
 [Python scripting](https://www.alx.pl/szkolenia/python-pisanie-drobnych-programow/) •
-[Python](https://www.alx.pl/pl/bootcamp-python/)
+[Python](https://www.alx.pl/pl/bootcamp-python/) •
+[Python dla młodzieży](https://www.alx.pl/pl/kurs-nauka-programowania-python-dla-mlodziezy/)
 
 </section>
 
