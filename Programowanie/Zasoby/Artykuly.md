@@ -7,3 +7,4 @@
 # Filmiki
 
 * [31 nooby C++ habits you need to ditch](https://www.youtube.com/watch?v=i_wDa2AS_8w)
+* [C++ Features You Might Not Know](https://www.youtube.com/watch?v=zGWj7Qo_POY)
