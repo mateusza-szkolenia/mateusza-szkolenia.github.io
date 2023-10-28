@@ -58,7 +58,7 @@
 ## ![Thawte](img/thawte.png)
 
 - wydawca certyfikatów SSL
-- później kupiony przez Verisign, potem Symantec, Digicert
+- kupiony przez Verisign, potem Symantec, Digicert
 
 ---
 <!-- .slide: data-background="#eee" -->
@@ -69,8 +69,8 @@
 ## Ubuntu
 
 - bazuje na Debianie
-- komercyjne wsparcie
 - całkowicie darmowy
+- komercyjne wsparcie
 
 ---
 <!-- .slide: data-autofragments -->
@@ -82,18 +82,19 @@
 ---
 ## Nazwa
 
-Z afrykańskiego: *humanity towards others*
+Z afrykańskiego:  
+*humanity towards others*
 
 ---
 ## Landscape
 
-- narzędzie do webowego zarządzania komputerami
+narzędzie do webowego zarządzania komputerami
 
 ---
 ## Snapcraft
 
-- Dodatkowy menedżer pakietów
-- <https://snapcraft.io/>
+Dodatkowy menedżer pakietów  
+<https://snapcraft.io/>
 
 ------
 ## Ciekawostki o Ubuntu
@@ -132,9 +133,9 @@ Z afrykańskiego: *humanity towards others*
 </div>
 <div>
 
-- akty
+- użycie aktów
   - na tapetach 
-  - w mediach
+  - w materiałach promocyjnych
 - *Linux z gołymi ludźmi*
 
 </div>
@@ -142,7 +143,8 @@ Z afrykańskiego: *humanity towards others*
 ---
 ### Nazwa
 
-Żartobliwe tłumaczenie: *nie umiem zainstalować Debiana*
+Żartobliwe tłumaczenie:  
+*nie umiem zainstalować Debiana*
 
 ------
 ## Warianty Ubuntu
@@ -166,28 +168,19 @@ Z afrykańskiego: *humanity towards others*
 ![Lubuntu](img/lubuntu.png)
 
 ---
-### Ubuntu MATE
+## Inne
 
----
-### Ubuntu Cinnamon Remix
-
----
-### Ubuntu Studio
-
----
-### Ubuntu Budgie
+- Ubuntu MATE
+- Ubuntu Cinnamon Remix
+- Ubuntu Studio
+- Ubuntu Budgie
 
 ------
 ## Pochodne Ubuntu
 
----
-### Linux Mint
-
----
-### Pop! OS
-
----
-### Elementary OS
+- Linux Mint
+- Pop! OS
+- Elementary OS
 
 ------
 [Koniec](./)

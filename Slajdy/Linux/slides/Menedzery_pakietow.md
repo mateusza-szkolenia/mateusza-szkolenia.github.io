@@ -13,7 +13,7 @@
 ---
 ### Kompresja
 
-(zip, lub podobna)
+(gzip lub podobna)
 
 ---
 <!-- .slide: data-autofragments -->
@@ -55,6 +55,7 @@ Uwaga: *Praktycznie każdy plik systemowy pochodzi z jakiegoś pakietu.*
 ## Rozpakowanie zawartości
 
 - nadpisanie drzewa systemowego
+- podmiana starych wersji plików
 
 ---
 <!-- .slide: data-autofragments -->
@@ -69,7 +70,7 @@ Uwaga: *Praktycznie każdy plik systemowy pochodzi z jakiegoś pakietu.*
 ---
 ## Aktualizacja stanu
 
-Menedżer pakietów śledzi stan każdego pakietu.
+Menedżer pakietów rejestruje stan każdego pakietu.
 
 ---
 ## Podpisy cyfrowe
@@ -106,10 +107,10 @@ instalacja pakietu + zależności
 - RHEL, CentOS, Fedora, SUSE i pochodne
 
 ---
-## `rpm`
+## narzędzie `rpm`
 
 ---
-## `yum`
+## narzędzie `yum` / `dnf`
 
 - `yum` (do RHEL 7)
 - `dnf` (od RHEL 8, od Fedory 22)
@@ -132,6 +133,17 @@ instalacja pakietu + zależności
 - Snapcraft
 - ZeroInstall
 - AppImage
+- Homebrew
+- Nix
+
+------
+<!-- .slide: data-autofragments -->
+## specyficzne dla języków programowania
+
+- `pip` (`Python`)
+- `npm` (`JavaScript, NodeJS`)
+- `CPAN` (`perl`)
+- `Composer` (`PHP`)
 
 ------
 ## Repozytoria
