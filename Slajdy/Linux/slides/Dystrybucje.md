@@ -195,6 +195,7 @@ Na cześć Rocky'ego McGaugha (twórcy CentOS)
 - **AlmaLinux**: AlmaLinux OS Foundation
 - **Slackware**: Patrick Volkerding (osoba prywatna)
 - **Void Linux**: *Void Linux Contributors* (nieformalny zespół wolontariuszy)
+- **Arch Linux**: niezależni twórcy
 
 ------
 <!-- .slide: data-autofragments -->
@@ -261,9 +262,10 @@ Ubuntu 21.10 (Impish Indri)
 **Ubuntu 22.04 LTS (Jammy Jellyfish)**  
 Ubuntu 22.10 (Kinetic Kudu)  
 Ubuntu 23.04 (Lunar Lobster)  
+Ubuntu 23.10 (Mantric Minotaur)  
 ⸱⸱⸱  
-*Ubuntu 23.10 (Mantric Minotaur)  
-*Ubuntu 24.04 LTS (...)
+*Ubuntu 24.04 LTS (Noble Numbat)*  
+*Ubuntu 24.10 ...*
 
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
 <!-- .slide: data-background="#5e2750" -->
