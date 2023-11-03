@@ -12,9 +12,11 @@ Trudno powiedzieć...
 ---
 <!-- .slide: data-autofragments -->
 # Ale ile?
+
 - *Almost one thousand Linux distributions exist.*
-  [Wikipedia](https://en.wikipedia.org/wiki/Linux_distribution)
+  wg [Wikipedii](https://en.wikipedia.org/wiki/Linux_distribution)
 - ok. 260 aktywnych wg [Distrowatch](https://distrowatch.com/dwres.php?resource=popularity)
+- ok. 600 wg [ChatGPT](https://chat.openai.com/)
 
 ---
 <!-- .slide: data-autofragments -->
@@ -49,6 +51,7 @@ Trudno powiedzieć...
 - założenia, przeznaczenie, filozofia
 - model licencyjny
 - system pakietów
+- wsparcie i społeczność
 
 ------
 <!-- .slide: data-autofragments -->
