@@ -1,6 +1,6 @@
 # Administracja Linux
 
-## [Ciekawe dystrybucje](Ciekawe_dystrybucje.md)
+## [Dystrybucje](Dystrybucje.md)
 
 * [endoflife.date](https://endoflife.date/)
 
