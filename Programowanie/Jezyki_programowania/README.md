@@ -8,6 +8,7 @@
 * [Vale](https://vale.dev/)
 * [Vala](https://vala.dev/)
 * [Carbon](https://github.com/carbon-language/carbon-lang)
+* [Dart](https://dart.dev/)
 * [Rust](https://www.rust-lang.org/)
 * [Go](https://go.dev/)
 * [Lua](https://www.lua.org/)
