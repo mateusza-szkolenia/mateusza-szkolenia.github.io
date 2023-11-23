@@ -48,7 +48,8 @@
 ## Narzędzia Online
 
 * [Replit](https://replit.com/)
-* [Compiler Explorer](https://godbolt.org/)
+* [Riju](https://riju.codes/) [[kod źródłowy na github.com]](https://github.com/radian-software/riju)
+* [Godbolt Compiler Explorer](https://godbolt.org/)
 * [Phoenix](https://phcode.dev/)
 * [JSFiddle](https://jsfiddle.net/)
 * [Pastebin](https://pastebin.com/)
