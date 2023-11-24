@@ -1,6 +1,6 @@
 # Zbiory danych
 
-## [2014 Wybory Samorządowe](2014_Wybory_Samorzadowe.md)
+## [2014 Wybory Samorządowe](2014_Wybory_Samorzadowe/)
 
 Baza danych kandydatów i komitetów wg PKW.
 
