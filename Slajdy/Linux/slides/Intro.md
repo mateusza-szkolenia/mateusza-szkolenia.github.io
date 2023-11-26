@@ -476,7 +476,8 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 
 <https://www.gnu.org/gnu/incorrect-quotation.en.html>
 
-<style> #cgnulinux-copypasta + blockquote { font-size: 0.6em; } </style>
+<style> #gnulinux-copypasta { font-size: 1em; } 
+#gnulinux-copypasta + blockquote p { font-size: 0.5em; line-height: 1.0; text-align: justify; padding: 0.2em; margin: 0.4em; } </style>
 
 ------
 <!-- .slide: data-autofragments -->
@@ -518,6 +519,7 @@ System operacyjny oparty na Linuksie
 <style> #dystrybucja-linuksa { font-size: 1.4em; } </style>
 
 ---
+<!-- .slide: data-autofragments -->
 # Dystrybucje
 
 Również inne Uniksy i Uniksopodobne

@@ -50,7 +50,7 @@ Trudno powiedzieć...
 - cykl wydawniczy
 - założenia, przeznaczenie, filozofia
 - model licencyjny
-- system pakietów
+- dobór oprogramowania
 - wsparcie i społeczność
 
 ------
@@ -206,8 +206,8 @@ Na cześć Rocky'ego McGaugha (twórcy CentOS)
 
 - regularność (lub brak)
 - okres
-- czas wsparcia
-- dojrzałość używanego oprogramowania
+- czas wsparcia (poprawki)
+- dojrzałość zawartego oprogramowania
 
 ---
 ## Cykl ciągły
@@ -369,11 +369,23 @@ Debian 11 (Bullseye)
 ## Android (2008)
 
 ------
-## System pakietów
+<!-- .slide: data-autofragments -->
+## Dobór oprogramowania
 
-- `Deb`
+- dojrzałość
+- dostępność
+- rodzaje licencji
+- sterowniki
+- system pakietów
+
+----
+<!-- .slide: data-autofragments -->
+## Systemy pakietów
+- `deb`
 - `RPM`
 - inne
+  - specyficzne dla dystrybucji
+  - niezależne od dystrybucji
 
 ------
 [Koniec](./)
