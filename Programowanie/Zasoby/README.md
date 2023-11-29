@@ -2,13 +2,20 @@
 
 * [Semantyczne wersjonowanie](https://semver.org/)
 
-## Programowanie webowe
+## Programowanie
+
 * [Artykuły](Artykuly.md)
+* [C/C++](C_C++.md)
+* [Python](Python.md)
+* [Oprogramowanie](Oprogramowanie.md)
+
+## Programowanie webowe
+
 * [Systemy szablonów](Szablony.md)
 * [CSS](CSS.md)
 * [Narzędzia online](Narzedzia.md)
 * [Javascript](Javascript.md)
 * [PHP](PHP.md)
-* [Python](Python.md)
-* [Oprogramowanie](Oprogramowanie.md)
 * [API](API.md)
+
+
