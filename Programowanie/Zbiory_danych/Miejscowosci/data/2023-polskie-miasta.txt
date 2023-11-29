@@ -9,13 +9,13 @@ Babimost	52.1647	15.8275	lubuskie	zielonogórski
 Baborów	50.1573	17.9889	opolskie	głubczycki
 Baranów Sandomierski	50.4973	21.5432	podkarpackie	tarnobrzeski
 Barcin	52.8574	17.9419	kujawsko-pomorskie	żniński
-Barczewo	53.8283	20.6903	warmińsko-mazurskie	olsztyński
+Barczewo	53.8302	20.6927	warmińsko-mazurskie	olsztyński
 Bardo	50.5063	16.7404	dolnośląskie	ząbkowicki
 Barlinek	52.9973	15.2195	zachodniopomorskie	myśliborski
 Bartoszyce	54.2510	20.8095	warmińsko-mazurskie	bartoszycki
 Barwice	53.7448	16.3552	zachodniopomorskie	szczecinecki
 Bełchatów	51.3625	19.3651	łódzkie	bełchatowski
-Bełżyce	51.1750	22.2818	lubelskie	lubelski
+Bełżyce	51.1746	22.2819	lubelskie	lubelski
 Będzin	50.3243	19.1358	śląskie	będziński
 Biała	50.3854	17.6598	opolskie	prudnicki
 Biała Piska	53.6108	22.0619	warmińsko-mazurskie	piski
@@ -33,14 +33,14 @@ Bieruń	50.0917	19.0911	śląskie	bieruńsko-lędziński
 Bierutów	51.1253	17.5441	dolnośląskie	oleśnicki
 Bieżuń	52.9596	19.8885	mazowieckie	żuromiński
 Biłgoraj	50.5355	22.7203	lubelskie	biłgorajski
-Biskupiec	53.8644	20.9553	warmińsko-mazurskie	olsztyński
+Biskupiec	53.8634	20.9563	warmińsko-mazurskie	olsztyński
 Bisztynek	54.0860	20.9014	warmińsko-mazurskie	bartoszycki
 Blachownia	50.7842	18.9625	śląskie	częstochowski
 Błaszki	51.6517	18.4377	łódzkie	sieradzki
 Błażowa	49.8853	22.1006	podkarpackie	rzeszowski
 Błonie	52.1950	20.6178	mazowieckie	warszawski zachodni
 Bobolice	53.9556	16.5895	zachodniopomorskie	koszaliński
-Bobowa	49.7053	20.9500	małopolskie	gorlicki
+Bobowa	49.7089	20.9451	małopolskie	gorlicki
 Bochnia	49.9693	20.4326	małopolskie	bocheński
 Bodzanów	52.5000	20.0324	mazowieckie	płocki
 Bodzentyn	50.9410	20.9570	świętokrzyskie	kielecki
@@ -65,13 +65,13 @@ Brzesko	49.9683	20.6078	małopolskie	brzeski
 Brzeszcze	49.9830	19.1441	małopolskie	oświęcimski
 Brześć Kujawski	52.6064	18.9007	kujawsko-pomorskie	włocławski
 Brzeziny	51.7996	19.7535	łódzkie	brzeziński
-Brzostek	49.8798	21.4105	podkarpackie	dębicki
+Brzostek	49.8791	21.4117	podkarpackie	dębicki
 Brzozów	49.6943	22.0194	podkarpackie	brzozowski
 Budzyń	52.8901	16.9878	wielkopolskie	chodzieski
 Buk	52.3554	16.5197	wielkopolskie	poznański
 Bukowno	50.2677	19.4627	małopolskie	olkuski
-Busko-Zdrój	50.4692	20.7184	świętokrzyskie	buski
-Bychawa	51.0144	22.5347	lubelskie	lubelski
+Busko-Zdrój	50.4707	20.7197	świętokrzyskie	buski
+Bychawa	51.0149	22.5351	lubelskie	lubelski
 Byczyna	51.1141	18.2142	opolskie	kluczborski
 Bydgoszcz	53.1254	18.0014	kujawsko-pomorskie	Bydgoszcz
 Bystrzyca Kłodzka	50.2975	16.6503	dolnośląskie	kłodzki
@@ -95,14 +95,14 @@ Chojna	52.9634	14.4327	zachodniopomorskie	gryfiński
 Chojnice	53.6943	17.5668	pomorskie	chojnicki
 Chojnów	51.2734	15.9365	dolnośląskie	legnicki
 Choroszcz	53.1451	22.9918	podlaskie	białostocki
-Chorzele	53.2600	20.9009	mazowieckie	przasnyski
+Chorzele	53.2602	20.8970	mazowieckie	przasnyski
 Chorzów	50.2995	18.9524	śląskie	Chorzów
 Choszczno	53.1674	15.4196	zachodniopomorskie	choszczeński
 Chrzanów	50.1416	19.4113	małopolskie	chrzanowski
 Ciechanowiec	52.6791	22.5001	podlaskie	wysokomazowiecki
 Ciechanów	52.8823	20.6096	mazowieckie	ciechanowski
 Ciechocinek	52.8787	18.7871	kujawsko-pomorskie	aleksandrowski
-Cieszanów	50.2455	23.1305	podkarpackie	lubaczowski
+Cieszanów	50.2456	23.1317	podkarpackie	lubaczowski
 Cieszyn	49.7486	18.6339	śląskie	cieszyński
 Ciężkowice	49.7864	20.9742	małopolskie	tarnowski
 Cybinka	52.1946	14.7959	lubuskie	słubicki
@@ -111,6 +111,7 @@ Czarna Białostocka	53.3058	23.2822	podlaskie	białostocki
 Czarna Woda	53.8445	18.0999	pomorskie	starogardzki
 Czarne	53.6836	16.9402	pomorskie	człuchowski
 Czarnków	52.9047	16.5644	wielkopolskie	czarnkowsko-trzcianecki
+Czarny Dunajec	49.4401	19.8530	małopolskie	nowotarski
 Czchów	49.8338	20.6735	małopolskie	brzeski
 Czechowice-Dziedzice	49.9112	19.0071	śląskie	bielski
 Czeladź	50.3152	19.0716	śląskie	będziński
@@ -136,11 +137,11 @@ Debrzno	53.5384	17.2354	pomorskie	człuchowski
 Dębica	50.0509	21.4068	podkarpackie	dębicki
 Dęblin	51.5615	21.8428	lubelskie	rycki
 Dębno	52.7356	14.7022	zachodniopomorskie	myśliborski
-Dobczyce	49.8777	20.0989	małopolskie	myślenicki
+Dobczyce	49.8807	20.0928	małopolskie	myślenicki
 Dobiegniew	52.9704	15.7531	lubuskie	strzelecko-drezdenecki
 Dobra	51.9160	18.6152	wielkopolskie	turecki
 Dobra	53.5862	15.3073	zachodniopomorskie	łobeski
-Dobre Miasto	53.9862	20.3898	warmińsko-mazurskie	olsztyński
+Dobre Miasto	53.9893	20.3953	warmińsko-mazurskie	olsztyński
 Dobrodzień	50.7285	18.4433	opolskie	oleski
 Dobrzany	53.3583	15.4289	zachodniopomorskie	stargardzki
 Dobrzyca	51.8634	17.6011	wielkopolskie	pleszewski
@@ -160,7 +161,7 @@ Działdowo	53.2386	20.1825	warmińsko-mazurskie	działdowski
 Działoszyce	50.3656	20.3517	świętokrzyskie	pińczowski
 Działoszyn	51.1169	18.8653	łódzkie	pajęczański
 Dzierzgoń	53.9224	19.3468	pomorskie	sztumski
-Dzierżoniów	50.7282	16.6514	dolnośląskie	dzierżoniowski
+Dzierżoniów	50.7291	16.6488	dolnośląskie	dzierżoniowski
 Dziwnów	54.0276	14.7603	zachodniopomorskie	kamieński
 Elbląg	54.1614	19.4098	warmińsko-mazurskie	Elbląg
 Ełk	53.8229	22.3527	warmińsko-mazurskie	ełcki
@@ -192,7 +193,7 @@ Gołańcz	52.9434	17.3012	wielkopolskie	wągrowiecki
 Gołdap	54.3071	22.3022	warmińsko-mazurskie	gołdapski
 Goniądz	53.4881	22.7347	podlaskie	moniecki
 Goraj	50.7213	22.6671	lubelskie	biłgorajski
-Gorlice	49.6549	21.1600	małopolskie	gorlicki
+Gorlice	49.6549	21.1598	małopolskie	gorlicki
 Gorzów Śląski	51.0282	18.4223	opolskie	oleski
 Gorzów Wielkopolski	52.7310	15.2383	lubuskie	Gorzów Wielkopolski
 Gostynin	52.4292	19.4619	mazowieckie	gostyniński
@@ -203,14 +204,14 @@ Góra	51.6680	16.5390	dolnośląskie	górowski
 Góra Kalwaria	51.9817	21.2160	mazowieckie	piaseczyński
 Górowo Iławeckie	54.2878	20.4909	warmińsko-mazurskie	bartoszycki
 Górzno	53.1977	19.6435	kujawsko-pomorskie	brodnicki
-Grabów nad Prosną	51.5082	18.1148	wielkopolskie	ostrzeszowski
+Grabów nad Prosną	51.5083	18.1145	wielkopolskie	ostrzeszowski
 Grajewo	53.6470	22.4549	podlaskie	grajewski
 Grodków	50.6985	17.3852	opolskie	brzeski
 Grodzisk Mazowiecki	52.1036	20.6260	mazowieckie	grodziski
 Grodzisk Wielkopolski	52.2246	16.3642	wielkopolskie	grodziski
 Grójec	51.8655	20.8667	mazowieckie	grójecki
 Grudziądz	53.4880	18.7530	kujawsko-pomorskie	Grudziądz
-Grybów	49.6248	20.9475	małopolskie	nowosądecki
+Grybów	49.6243	20.9477	małopolskie	nowosądecki
 Gryfice	53.9161	15.1987	zachodniopomorskie	gryficki
 Gryfino	53.2567	14.4894	zachodniopomorskie	gryfiński
 Gryfów Śląski	51.0281	15.4147	dolnośląskie	lwówecki
@@ -219,13 +220,13 @@ Hajnówka	52.7431	23.5831	podlaskie	hajnowski
 Halinów	52.2242	21.3597	mazowieckie	miński
 Hel	54.6053	18.8026	pomorskie	pucki
 Hrubieszów	50.8051	23.8898	lubelskie	hrubieszowski
-Iława	53.5899	19.5668	warmińsko-mazurskie	iławski
+Iława	53.5902	19.5698	warmińsko-mazurskie	iławski
 Iłowa	51.5047	15.2018	lubuskie	żagański
 Iłża	51.1637	21.2370	mazowieckie	radomski
 Imielin	50.1462	19.1857	śląskie	bieruńsko-lędziński
 Inowrocław	52.7965	18.2616	kujawsko-pomorskie	inowrocławski
 Ińsko	53.4357	15.5483	zachodniopomorskie	stargardzki
-Iwaniska	50.7315	21.2807	świętokrzyskie	opatowski
+Iwaniska	50.7315	21.2811	świętokrzyskie	opatowski
 Iwonicz-Zdrój	49.5660	21.7928	podkarpackie	krośnieński
 Izbica	50.8932	23.1583	lubelskie	krasnostawski
 Izbica Kujawska	52.4206	18.7631	kujawsko-pomorskie	włocławski
@@ -252,12 +253,12 @@ Jedlnia-Letnisko	51.4312	21.3314	mazowieckie	radomski
 Jedwabne	53.2856	22.3035	podlaskie	łomżyński
 Jelcz-Laskowice	51.0399	17.3499	dolnośląskie	oławski
 Jelenia Góra	50.9031	15.7346	dolnośląskie	Jelenia Góra
-Jeziorany	53.9765	20.7462	warmińsko-mazurskie	olsztyński
+Jeziorany	53.9763	20.7462	warmińsko-mazurskie	olsztyński
 Jeżów	51.8134	19.9688	łódzkie	brzeziński
 Jędrzejów	50.6403	20.3036	świętokrzyskie	jędrzejowski
-Jordanów	49.6494	19.8303	małopolskie	suski
+Jordanów	49.6492	19.8299	małopolskie	suski
 Józefów	50.4808	23.0551	lubelskie	biłgorajski
-Józefów	52.1333	21.2286	mazowieckie	otwocki
+Józefów	52.1422	21.2302	mazowieckie	otwocki
 Józefów nad Wisłą	51.0412	21.8304	lubelskie	opolski
 Jutrosin	51.6513	17.1692	wielkopolskie	rawicki
 Kaczory	53.1019	16.8848	wielkopolskie	pilski
@@ -273,7 +274,7 @@ Kamień Pomorski	53.9686	14.7727	zachodniopomorskie	kamieński
 Kamieńsk	51.2044	19.4969	łódzkie	radomszczański
 Kamionka	51.4708	22.4624	lubelskie	lubartowski
 Kańczuga	49.9833	22.4117	podkarpackie	przeworski
-Karczew	52.0781	21.2432	mazowieckie	otwocki
+Karczew	52.0758	21.2503	mazowieckie	otwocki
 Kargowa	52.0720	15.8652	lubuskie	zielonogórski
 Karlino	54.0381	15.8792	zachodniopomorskie	białogardzki
 Karpacz	50.7747	15.7546	dolnośląskie	karkonoski
@@ -290,7 +291,7 @@ Kętrzyn	54.0772	21.3748	warmińsko-mazurskie	kętrzyński
 Kęty	49.8837	19.2224	małopolskie	oświęcimski
 Kielce	50.8717	20.6315	świętokrzyskie	Kielce
 Kietrz	50.0796	18.0022	opolskie	głubczycki
-Kisielice	53.6091	19.2590	warmińsko-mazurskie	iławski
+Kisielice	53.6086	19.2637	warmińsko-mazurskie	iławski
 Kleczew	52.3709	18.1730	wielkopolskie	koniński
 Kleszczele	52.5747	23.3264	podlaskie	hajnowski
 Klimontów	50.6565	21.4504	świętokrzyskie	sandomierski
@@ -303,7 +304,7 @@ Knurów	50.2231	18.6669	śląskie	gliwicki
 Knyszyn	53.3127	22.9197	podlaskie	moniecki
 Kobylin	51.7166	17.2267	wielkopolskie	krotoszyński
 Kobyłka	52.3393	21.1960	mazowieckie	wołomiński
-Kock	51.6397	22.4464	lubelskie	lubartowski
+Kock	51.6399	22.4441	lubelskie	lubartowski
 Kolbuszowa	50.2432	21.7741	podkarpackie	kolbuszowski
 Kolno	53.4091	21.9336	podlaskie	kolneński
 Kolonowskie	50.6532	18.3842	opolskie	strzelecki
@@ -311,7 +312,7 @@ Koluszki	51.7450	19.8173	łódzkie	łódzki wschodni
 Kołaczyce	49.8071	21.4336	podkarpackie	jasielski
 Koło	52.2052	18.6351	wielkopolskie	kolski
 Kołobrzeg	54.1798	15.5723	zachodniopomorskie	kołobrzeski
-Koniecpol	50.7727	19.6768	śląskie	częstochowski
+Koniecpol	50.7729	19.6770	śląskie	częstochowski
 Konin	52.2295	18.2450	wielkopolskie	Konin
 Konstancin-Jeziorna	52.0939	21.1176	mazowieckie	piaseczyński
 Konstantynów Łódzki	51.7479	19.3255	łódzkie	pabianicki
@@ -319,8 +320,8 @@ Końskie	51.1916	20.4071	świętokrzyskie	konecki
 Koprzywnica	50.5932	21.5846	świętokrzyskie	sandomierski
 Korfantów	50.4881	17.5955	opolskie	nyski
 Koronowo	53.3101	17.9422	kujawsko-pomorskie	bydgoski
-Korsze	54.1723	21.1407	warmińsko-mazurskie	kętrzyński
-Kosów Lacki	52.5959	22.1470	mazowieckie	sokołowski
+Korsze	54.1697	21.1391	warmińsko-mazurskie	kętrzyński
+Kosów Lacki	52.5939	22.1469	mazowieckie	sokołowski
 Kostrzyn	52.3973	17.2255	wielkopolskie	poznański
 Kostrzyn nad Odrą	52.5873	14.6497	lubuskie	gorzowski
 Koszalin	54.1902	16.1819	zachodniopomorskie	Koszalin
@@ -339,7 +340,7 @@ Kórnik	52.2486	17.0897	wielkopolskie	poznański
 Krajenka	53.2971	16.9904	wielkopolskie	złotowski
 Kraków	50.0618	19.9374	małopolskie	Kraków
 Krapkowice	50.4746	17.9671	opolskie	krapkowicki
-Krasnobród	50.5449	23.2113	lubelskie	zamojski
+Krasnobród	50.5460	23.2118	lubelskie	zamojski
 Krasnystaw	50.9845	23.1733	lubelskie	krasnostawski
 Kraśnik	50.9231	22.2267	lubelskie	kraśnicki
 Krobia	51.7742	16.9846	wielkopolskie	gostyński
@@ -349,13 +350,13 @@ Krośniewice	52.2561	19.1707	łódzkie	kutnowski
 Krotoszyn	51.6957	17.4376	wielkopolskie	krotoszyński
 Kruszwica	52.6762	18.3230	kujawsko-pomorskie	inowrocławski
 Krynica Morska	54.3779	19.4364	pomorskie	nowodworski
-Krynica-Zdrój	49.4214	20.9597	małopolskie	nowosądecki
+Krynica-Zdrój	49.4216	20.9595	małopolskie	nowosądecki
 Krynki	53.2642	23.7721	podlaskie	sokólski
 Krzanowice	50.0182	18.1254	śląskie	raciborski
 Krzepice	50.9708	18.7283	śląskie	kłobucki
 Krzeszowice	50.1351	19.6366	małopolskie	krakowski
 Krzywiń	51.9617	16.8208	wielkopolskie	kościański
-Krzyż Wielkopolski	52.8791	16.0136	wielkopolskie	czarnkowsko-trzcianecki
+Krzyż Wielkopolski	52.8796	16.0139	wielkopolskie	czarnkowsko-trzcianecki
 Książ Wielki	50.4432	20.1397	małopolskie	miechowski
 Książ Wielkopolski	52.0624	17.2392	wielkopolskie	śremski
 Kudowa-Zdrój	50.4409	16.2406	dolnośląskie	kłodzki
@@ -385,19 +386,19 @@ Lipsk	53.7337	23.4036	podlaskie	augustowski
 Lipsko	51.1582	21.6500	mazowieckie	lipski
 Lubaczów	50.1574	23.1224	podkarpackie	lubaczowski
 Lubań	51.1200	15.2894	dolnośląskie	lubański
-Lubartów	51.4577	22.6095	lubelskie	lubartowski
-Lubawa	53.5035	19.7482	warmińsko-mazurskie	iławski
+Lubartów	51.4623	22.6088	lubelskie	lubartowski
+Lubawa	53.5027	19.7498	warmińsko-mazurskie	iławski
 Lubawka	50.7068	15.9999	dolnośląskie	kamiennogórski
 Lubień Kujawski	52.4053	19.1657	kujawsko-pomorskie	włocławski
 Lubin	51.3986	16.2033	dolnośląskie	lubiński
-Lublin	51.2479	22.5680	lubelskie	Lublin
+Lublin	51.2511	22.5751	lubelskie	Lublin
 Lubliniec	50.6688	18.6847	śląskie	lubliniecki
 Lubniewice	52.5122	15.2442	lubuskie	sulęciński
 Lubomierz	51.0128	15.5105	dolnośląskie	lwówecki
 Luboń	52.3459	16.8777	wielkopolskie	poznański
 Lubowidz	53.1208	19.8415	mazowieckie	żuromiński
 Lubraniec	52.5439	18.8357	kujawsko-pomorskie	włocławski
-Lubsko	51.7855	14.9685	lubuskie	żarski
+Lubsko	51.7854	14.9682	lubuskie	żarski
 Lubycza Królewska	50.3406	23.5207	lubelskie	tomaszowski
 Lutomiersk	51.7542	19.2117	łódzkie	pabianicki
 Lututów	51.3713	18.4342	łódzkie	wieruszowski
@@ -416,7 +417,7 @@ Lwówek Śląski	51.1108	15.5850	dolnośląskie	lwówecki
 Łeba	54.7587	17.5559	pomorskie	lęborski
 Łęczna	51.3003	22.8872	lubelskie	łęczyński
 Łęczyca	52.0593	19.1984	łódzkie	łęczycki
-Łęknica	51.5367	14.7426	lubuskie	żarski
+Łęknica	51.5380	14.7378	lubuskie	żarski
 Łobez	53.6394	15.6219	zachodniopomorskie	łobeski
 Łobżenica	53.2603	17.2553	wielkopolskie	pilski
 Łochów	52.5284	21.6853	mazowieckie	węgrowski
@@ -428,13 +429,13 @@ Lwówek Śląski	51.1108	15.5850	dolnośląskie	lwówecki
 Łódź	51.7644	19.4631	łódzkie	Łódź
 Łuków	51.9282	22.3802	lubelskie	łukowski
 Maków Mazowiecki	52.8650	21.1007	mazowieckie	makowski
-Maków Podhalański	49.7303	19.6764	małopolskie	suski
+Maków Podhalański	49.7296	19.6764	małopolskie	suski
 Malbork	54.0356	19.0321	pomorskie	malborski
 Małogoszcz	50.8121	20.2642	świętokrzyskie	jędrzejowski
 Małomice	51.5556	15.4502	lubuskie	żagański
 Margonin	52.9734	17.0943	wielkopolskie	chodzieski
 Marki	52.3344	21.1142	mazowieckie	wołomiński
-Maszewo	53.4978	15.0596	zachodniopomorskie	goleniowski
+Maszewo	53.4963	15.0614	zachodniopomorskie	goleniowski
 Miasteczko Krajeńskie	53.0976	17.0051	wielkopolskie	pilski
 Miasteczko Śląskie	50.4902	18.9222	śląskie	tarnogórski
 Miastko	54.0002	16.9757	pomorskie	bytowski
@@ -452,9 +453,9 @@ Międzyrzec Podlaski	51.9839	22.7830	lubelskie	bialski
 Międzyrzecz	52.4471	15.5785	lubuskie	międzyrzecki
 Międzyzdroje	53.9288	14.4502	zachodniopomorskie	kamieński
 Miękinia	51.1905	16.7362	dolnośląskie	średzki
-Mikołajki	53.8035	21.5718	warmińsko-mazurskie	mrągowski
+Mikołajki	53.8008	21.5760	warmińsko-mazurskie	mrągowski
 Mikołów	50.1683	18.9039	śląskie	mikołowski
-Mikstat	51.5321	17.9730	wielkopolskie	ostrzeszowski
+Mikstat	51.5321	17.9731	wielkopolskie	ostrzeszowski
 Milanówek	52.1248	20.6693	mazowieckie	grodziski
 Milicz	51.5243	17.2727	dolnośląskie	milicki
 Miłakowo	54.0083	20.0695	warmińsko-mazurskie	ostródzki
@@ -474,8 +475,8 @@ Morąg	53.9152	19.9272	warmińsko-mazurskie	ostródzki
 Mordy	52.2113	22.5171	mazowieckie	siedlecki
 Moryń	52.8576	14.3985	zachodniopomorskie	gryfiński
 Mosina	52.2446	16.8506	wielkopolskie	poznański
-Mrągowo	53.8767	21.3042	warmińsko-mazurskie	mrągowski
-Mrocza	53.2455	17.6070	kujawsko-pomorskie	nakielski
+Mrągowo	53.8769	21.3040	warmińsko-mazurskie	mrągowski
+Mrocza	53.2456	17.6076	kujawsko-pomorskie	nakielski
 Mrozy	52.1656	21.8026	mazowieckie	miński
 Mszana Dolna	49.6780	20.0824	małopolskie	limanowski
 Mszczonów	51.9744	20.5126	mazowieckie	żyrardowski
@@ -484,7 +485,7 @@ Muszyna	49.3548	20.8960	małopolskie	nowosądecki
 Mysłowice	50.2121	19.1476	śląskie	Mysłowice
 Myszków	50.5754	19.3260	śląskie	myszkowski
 Myszyniec	53.3804	21.3496	mazowieckie	ostrołęcki
-Myślenice	49.8338	19.9381	małopolskie	myślenicki
+Myślenice	49.8332	19.9390	małopolskie	myślenicki
 Myślibórz	52.9251	14.8677	zachodniopomorskie	myśliborski
 Nakło nad Notecią	53.1386	17.6047	kujawsko-pomorskie	nakielski
 Nałęczów	51.2877	22.2149	lubelskie	puławski
@@ -492,7 +493,7 @@ Namysłów	51.0766	17.7173	opolskie	namysłowski
 Narol	50.3488	23.3269	podkarpackie	lubaczowski
 Nasielsk	52.5901	20.8047	mazowieckie	nowodworski
 Nekla	52.3644	17.4124	wielkopolskie	wrzesiński
-Nidzica	53.3598	20.4259	warmińsko-mazurskie	nidzicki
+Nidzica	53.3616	20.4260	warmińsko-mazurskie	nidzicki
 Niemcza	50.7167	16.8350	dolnośląskie	dzierżoniowski
 Niemodlin	50.6423	17.6194	opolskie	opolski
 Niepołomice	50.0331	20.2164	małopolskie	wielicki
@@ -509,7 +510,7 @@ Nowe Miasteczko	51.6902	15.7308	lubuskie	nowosolski
 Nowe Miasto	52.6578	20.6286	mazowieckie	płoński
 Nowe Miasto Lubawskie	53.4240	19.5923	warmińsko-mazurskie	nowomiejski
 Nowe Miasto nad Pilicą	51.6176	20.5767	mazowieckie	grójecki
-Nowe Skalmierzyce	51.7087	17.9917	wielkopolskie	ostrowski
+Nowe Skalmierzyce	51.7086	17.9900	wielkopolskie	ostrowski
 Nowe Warpno	53.7227	14.2881	zachodniopomorskie	policki
 Nowogard	53.6682	15.1244	zachodniopomorskie	goleniowski
 Nowogrodziec	51.1971	15.3980	dolnośląskie	bolesławiecki
@@ -517,7 +518,7 @@ Nowogród	53.2266	21.8790	podlaskie	łomżyński
 Nowogród Bobrzański	51.8017	15.2468	lubuskie	zielonogórski
 Nowy Dwór Gdański	54.2138	19.1188	pomorskie	nowodworski
 Nowy Dwór Mazowiecki	52.4303	20.7162	mazowieckie	nowodworski
-Nowy Korczyn	50.2997	20.8081	świętokrzyskie	buski
+Nowy Korczyn	50.3011	20.8074	świętokrzyskie	buski
 Nowy Sącz	49.6203	20.7021	małopolskie	Nowy Sącz
 Nowy Staw	54.1361	19.0094	pomorskie	malborski
 Nowy Targ	49.4775	20.0321	małopolskie	nowotarski
@@ -527,23 +528,23 @@ Nysa	50.4737	17.3327	opolskie	nyski
 Oborniki	52.6458	16.8089	wielkopolskie	obornicki
 Oborniki Śląskie	51.2995	16.9140	dolnośląskie	trzebnicki
 Obrzycko	52.7081	16.5268	wielkopolskie	szamotulski
-Odolanów	51.5741	17.6736	wielkopolskie	ostrowski
+Odolanów	51.5745	17.6736	wielkopolskie	ostrowski
 Ogrodzieniec	50.4517	19.5217	śląskie	zawierciański
 Okonek	53.5352	16.8497	wielkopolskie	złotowski
 Olecko	54.0379	22.5027	warmińsko-mazurskie	olecki
 Olesno	50.8766	18.4218	opolskie	oleski
 Oleszyce	50.1681	23.0317	podkarpackie	lubaczowski
 Oleśnica	51.2095	17.3803	dolnośląskie	oleśnicki
-Oleśnica	50.4505	21.0640	świętokrzyskie	staszowski
+Oleśnica	50.4505	21.0650	świętokrzyskie	staszowski
 Olkusz	50.2790	19.5600	małopolskie	olkuski
-Olsztyn	50.7506	19.2674	śląskie	częstochowski
+Olsztyn	50.7507	19.2678	śląskie	częstochowski
 Olsztyn	53.7765	20.4877	warmińsko-mazurskie	Olsztyn
-Olsztynek	53.5833	20.2852	warmińsko-mazurskie	olsztyński
+Olsztynek	53.5836	20.2849	warmińsko-mazurskie	olsztyński
 Olszyna	51.0671	15.3783	dolnośląskie	lubański
 Oława	50.9406	17.2987	dolnośląskie	oławski
 Opalenica	52.3075	16.4131	wielkopolskie	nowotomyski
 Opatowiec	50.2423	20.7238	świętokrzyskie	kazimierski
-Opatów	50.8014	21.4239	świętokrzyskie	opatowski
+Opatów	50.8014	21.4240	świętokrzyskie	opatowski
 Opatówek	51.7395	18.2141	wielkopolskie	kaliski
 Opoczno	51.3768	20.2865	łódzkie	opoczyński
 Opole	50.6677	17.9286	opolskie	Opole
@@ -552,15 +553,15 @@ Orneta	54.1164	20.1311	warmińsko-mazurskie	lidzbarski
 Orzesze	50.1087	18.7926	śląskie	mikołowski
 Orzysz	53.8099	21.9473	warmińsko-mazurskie	piski
 Osieczna	51.9043	16.6776	wielkopolskie	leszczyński
-Osiek	50.5200	21.4428	świętokrzyskie	staszowski
+Osiek	50.5205	21.4428	świętokrzyskie	staszowski
 Ostrołęka	53.0814	21.5715	mazowieckie	Ostrołęka
 Ostroróg	52.6267	16.4508	wielkopolskie	szamotulski
 Ostrowiec Świętokrzyski	50.9439	21.3899	świętokrzyskie	ostrowiecki
 Ostróda	53.6993	19.9607	warmińsko-mazurskie	ostródzki
-Ostrów Lubelski	51.4946	22.8542	lubelskie	lubartowski
+Ostrów Lubelski	51.4974	22.8550	lubelskie	lubartowski
 Ostrów Mazowiecka	52.8025	21.8950	mazowieckie	ostrowski
-Ostrów Wielkopolski	51.6495	17.8167	wielkopolskie	ostrowski
-Ostrzeszów	51.4237	17.9315	wielkopolskie	ostrzeszowski
+Ostrów Wielkopolski	51.6498	17.8175	wielkopolskie	ostrowski
+Ostrzeszów	51.4265	17.9331	wielkopolskie	ostrzeszowski
 Ośno Lubuskie	52.4559	14.8768	lubuskie	słubicki
 Oświęcim	50.0380	19.2209	małopolskie	oświęcimski
 Otmuchów	50.4653	17.1725	opolskie	nyski
@@ -568,11 +569,11 @@ Otwock	52.1088	21.2649	mazowieckie	otwocki
 Otyń	51.8459	15.7084	lubuskie	nowosolski
 Ozimek	50.6788	18.2137	opolskie	opolski
 Ozorków	51.9622	19.2949	łódzkie	zgierski
-Ożarów	50.8861	21.6652	świętokrzyskie	opatowski
+Ożarów	50.8875	21.6665	świętokrzyskie	opatowski
 Ożarów Mazowiecki	52.2105	20.7940	mazowieckie	warszawski zachodni
 Pabianice	51.6650	19.3592	łódzkie	pabianicki
-Pacanów	50.3998	21.0411	świętokrzyskie	buski
-Paczków	50.4643	17.0064	opolskie	nyski
+Pacanów	50.4004	21.0413	świętokrzyskie	buski
+Paczków	50.4640	17.0065	opolskie	nyski
 Pajęczno	51.1469	18.9950	łódzkie	pajęczański
 Pakość	52.8070	18.0877	kujawsko-pomorskie	inowrocławski
 Parczew	51.6407	22.9001	lubelskie	parczewski
@@ -601,7 +602,7 @@ Pionki	51.4757	21.4501	mazowieckie	radomski
 Piotrków Kujawski	52.5511	18.4976	kujawsko-pomorskie	radziejowski
 Piotrków Trybunalski	51.4111	19.6861	łódzkie	Piotrków Trybunalski
 Pisz	53.6300	21.8060	warmińsko-mazurskie	piski
-Piwniczna-Zdrój	49.4410	20.7161	małopolskie	nowosądecki
+Piwniczna-Zdrój	49.4398	20.7136	małopolskie	nowosądecki
 Pleszew	51.8963	17.7857	wielkopolskie	pleszewski
 Płock	52.5453	19.6849	mazowieckie	Płock
 Płońsk	52.6223	20.3701	mazowieckie	płoński
@@ -615,7 +616,7 @@ Polanica-Zdrój	50.4032	16.5113	dolnośląskie	kłodzki
 Polanów	54.1186	16.6843	zachodniopomorskie	koszaliński
 Police	53.5524	14.5721	zachodniopomorskie	policki
 Polkowice	51.5033	16.0683	dolnośląskie	polkowicki
-Połaniec	50.4325	21.2805	świętokrzyskie	staszowski
+Połaniec	50.4327	21.2802	świętokrzyskie	staszowski
 Połczyn-Zdrój	53.7670	16.0909	zachodniopomorskie	świdwiński
 Poniatowa	51.1929	22.0647	lubelskie	opolski
 Poniec	51.7634	16.8087	wielkopolskie	gostyński
@@ -639,7 +640,7 @@ Przedecz	52.3339	18.8990	wielkopolskie	kolski
 Przemków	51.5281	15.7883	dolnośląskie	polkowicki
 Przemyśl	49.7823	22.7751	podkarpackie	Przemyśl
 Przeworsk	50.0587	22.4937	podkarpackie	przeworski
-Przysucha	51.3588	20.6284	mazowieckie	przysuski
+Przysucha	51.3587	20.6287	mazowieckie	przysuski
 Pszczyna	49.9764	18.9586	śląskie	pszczyński
 Pszów	50.0370	18.3962	śląskie	wodzisławski
 Puck	54.7172	18.4076	pomorskie	pucki
@@ -667,7 +668,7 @@ Radzyń Chełmiński	53.3849	18.9361	kujawsko-pomorskie	grudziądzki
 Radzyń Podlaski	51.7850	22.6190	lubelskie	radzyński
 Rajgród	53.7297	22.6916	podlaskie	grajewski
 Rakoniewice	52.1386	16.2733	wielkopolskie	grodziski
-Raszków	51.7185	17.7260	wielkopolskie	ostrowski
+Raszków	51.7182	17.7258	wielkopolskie	ostrowski
 Rawa Mazowiecka	51.7650	20.2522	łódzkie	rawski
 Rawicz	51.6094	16.8584	wielkopolskie	rawicki
 Recz	53.2598	15.5465	zachodniopomorskie	choszczeński
@@ -700,7 +701,7 @@ Sandomierz	50.6797	21.7491	świętokrzyskie	sandomierski
 Sanniki	52.3320	19.8615	mazowieckie	gostyniński
 Sanok	49.5599	22.2022	podkarpackie	sanocki
 Sejny	54.1073	23.3481	podlaskie	sejneński
-Serock	52.5138	21.0695	mazowieckie	legionowski
+Serock	52.5129	21.0695	mazowieckie	legionowski
 Sędziszów	50.5634	20.0520	świętokrzyskie	jędrzejowski
 Sędziszów Małopolski	50.0710	21.7020	podkarpackie	ropczycko-sędziszowski
 Sępopol	54.2681	21.0149	warmińsko-mazurskie	bartoszycki
@@ -720,7 +721,7 @@ Skalbmierz	50.3197	20.3991	świętokrzyskie	kazimierski
 Skała	50.2304	19.8541	małopolskie	krakowski
 Skarszewy	54.0716	18.4398	pomorskie	starogardzki
 Skaryszew	51.3106	21.2523	mazowieckie	radomski
-Skarżysko-Kamienna	51.1155	20.8952	świętokrzyskie	skarżyski
+Skarżysko-Kamienna	51.1130	20.8718	świętokrzyskie	skarżyski
 Skawina	49.9750	19.8264	małopolskie	krakowski
 Skępe	52.8678	19.3563	kujawsko-pomorskie	lipnowski
 Skierniewice	51.9586	20.1411	łódzkie	Skierniewice
@@ -739,7 +740,7 @@ Sobótka	50.8996	16.7445	dolnośląskie	wrocławski
 Sochaczew	52.2293	20.2384	mazowieckie	sochaczewski
 Sochocin	52.6873	20.4722	mazowieckie	płoński
 Sokołów Małopolski	50.2303	22.1200	podkarpackie	rzeszowski
-Sokołów Podlaski	52.4079	22.2499	mazowieckie	sokołowski
+Sokołów Podlaski	52.4080	22.2511	mazowieckie	sokołowski
 Sokółka	53.4063	23.5035	podlaskie	sokólski
 Solec Kujawski	53.0809	18.2264	kujawsko-pomorskie	bydgoski
 Solec nad Wisłą	51.1349	21.7651	mazowieckie	lipski
@@ -751,8 +752,8 @@ Stalowa Wola	50.5762	22.0612	podkarpackie	stalowowolski
 Starachowice	51.0533	21.0702	świętokrzyskie	starachowicki
 Stargard	53.3392	15.0411	zachodniopomorskie	stargardzki
 Starogard Gdański	53.9641	18.5262	pomorskie	starogardzki
-Stary Sącz	49.5642	20.6349	małopolskie	nowosądecki
-Staszów	50.5642	21.1674	świętokrzyskie	staszowski
+Stary Sącz	49.5641	20.6349	małopolskie	nowosądecki
+Staszów	50.5649	21.1670	świętokrzyskie	staszowski
 Stawiski	53.3799	22.1546	podlaskie	kolneński
 Stawiszyn	51.9176	18.1116	wielkopolskie	kaliski
 Stąporków	51.1380	20.5643	świętokrzyskie	konecki
@@ -769,19 +770,19 @@ Strzelce Opolskie	50.5110	18.3005	opolskie	strzelecki
 Strzelin	50.7808	17.0708	dolnośląskie	strzeliński
 Strzelno	52.6280	18.1725	kujawsko-pomorskie	mogileński
 Strzyżów	49.8704	21.7940	podkarpackie	strzyżowski
-Sucha Beskidzka	49.7403	19.5875	małopolskie	suski
+Sucha Beskidzka	49.7417	19.5921	małopolskie	suski
 Suchań	53.2800	15.3174	zachodniopomorskie	stargardzki
-Suchedniów	51.0447	20.8364	świętokrzyskie	skarżyski
+Suchedniów	51.0477	20.8292	świętokrzyskie	skarżyski
 Suchowola	53.5776	23.1058	podlaskie	sokólski
 Sulechów	52.0853	15.6234	lubuskie	zielonogórski
 Sulejów	51.3542	19.8849	łódzkie	piotrkowski
 Sulejówek	52.2415	21.2906	mazowieckie	miński
 Sulęcin	52.4392	15.1154	lubuskie	sulęciński
 Sulmierzyce	51.6061	17.5307	wielkopolskie	krotoszyński
-Sułkowice	49.8411	19.8015	małopolskie	myślenicki
+Sułkowice	49.8422	19.8025	małopolskie	myślenicki
 Supraśl	53.2056	23.3382	podlaskie	białostocki
 Suraż	52.9491	22.9564	podlaskie	białostocki
-Susz	53.7184	19.3388	warmińsko-mazurskie	iławski
+Susz	53.7189	19.3365	warmińsko-mazurskie	iławski
 Suwałki	54.1014	22.9283	podlaskie	Suwałki
 Swarzędz	52.4101	17.0774	wielkopolskie	poznański
 Syców	51.3095	17.7205	dolnośląskie	oleśnicki
@@ -790,7 +791,7 @@ Szamocin	53.0289	17.1217	wielkopolskie	chodzieski
 Szamotuły	52.6117	16.5786	wielkopolskie	szamotulski
 Szczawnica	49.4252	20.4828	małopolskie	nowotarski
 Szczawno-Zdrój	50.8004	16.2509	dolnośląskie	wałbrzyski
-Szczebrzeszyn	50.6950	22.9783	lubelskie	zamojski
+Szczebrzeszyn	50.6949	22.9795	lubelskie	zamojski
 Szczecin	53.4251	14.5508	zachodniopomorskie	Szczecin
 Szczecinek	53.7027	16.7006	zachodniopomorskie	szczecinecki
 Szczekociny	50.6261	19.8186	śląskie	zawierciański
@@ -806,7 +807,7 @@ Szprotawa	51.5651	15.5335	lubuskie	żagański
 Sztum	53.9209	19.0296	pomorskie	sztumski
 Szubin	53.0075	17.7335	kujawsko-pomorskie	nakielski
 Szydłowiec	51.2244	20.8578	mazowieckie	szydłowiecki
-Szydłów	50.5908	21.0065	świętokrzyskie	staszowski
+Szydłów	50.5906	21.0049	świętokrzyskie	staszowski
 Ścinawa	51.4128	16.4262	dolnośląskie	lubiński
 Ślesin	52.3704	18.3064	wielkopolskie	koniński
 Śmigiel	52.0121	16.5252	wielkopolskie	kościański
@@ -824,7 +825,7 @@ Szydłów	50.5908	21.0065	świętokrzyskie	staszowski
 Świerzawa	51.0145	15.8933	dolnośląskie	złotoryjski
 Świętochłowice	50.2920	18.9159	śląskie	Świętochłowice
 Świnoujście	53.9078	14.2475	zachodniopomorskie	Świnoujście
-Tarczyn	51.9801	20.8340	mazowieckie	piaseczyński
+Tarczyn	51.9808	20.8349	mazowieckie	piaseczyński
 Tarnobrzeg	50.5692	21.6775	podkarpackie	Tarnobrzeg
 Tarnogród	50.3608	22.7419	lubelskie	biłgorajski
 Tarnowskie Góry	50.4454	18.8530	śląskie	tarnogórski
@@ -894,7 +895,7 @@ Więcbork	53.3547	17.4896	kujawsko-pomorskie	sępoleński
 Wilamowice	49.9163	19.1527	śląskie	bielski
 Wiskitki	52.0869	20.3829	mazowieckie	żyrardowski
 Wisła	49.6542	18.8608	śląskie	cieszyński
-Wiślica	50.3488	20.6741	świętokrzyskie	buski
+Wiślica	50.3490	20.6745	świętokrzyskie	buski
 Witkowo	52.4401	17.7727	wielkopolskie	gnieźnieński
 Witnica	52.6733	14.8952	lubuskie	gorzowski
 Wleń	51.0168	15.6750	dolnośląskie	lwówecki
@@ -902,7 +903,7 @@ Władysławowo	54.7901	18.4087	pomorskie	pucki
 Włocławek	52.6572	19.0633	kujawsko-pomorskie	Włocławek
 Włodawa	51.5444	23.5540	lubelskie	włodawski
 Włodowice	50.5522	19.4504	śląskie	zawierciański
-Włoszczowa	50.8515	19.9692	świętokrzyskie	włoszczowski
+Włoszczowa	50.8523	19.9676	świętokrzyskie	włoszczowski
 Wodzisław	50.5207	20.1917	świętokrzyskie	jędrzejowski
 Wodzisław Śląski	50.0045	18.4618	śląskie	wodzisławski
 Wojcieszów	50.9508	15.9223	dolnośląskie	złotoryjski
@@ -934,9 +935,9 @@ Zakliczyn	49.8561	20.8097	małopolskie	tarnowski
 Zaklików	50.7559	22.1020	podkarpackie	stalowowolski
 Zakopane	49.2969	19.9500	małopolskie	tatrzański
 Zakroczym	52.4333	20.6113	mazowieckie	nowodworski
-Zalewo	53.8450	19.6058	warmińsko-mazurskie	iławski
+Zalewo	53.8462	19.6056	warmińsko-mazurskie	iławski
 Zambrów	52.9838	22.2448	podlaskie	zambrowski
-Zamość	50.7161	23.2547	lubelskie	Zamość
+Zamość	50.7232	23.2520	lubelskie	Zamość
 Zator	49.9961	19.4369	małopolskie	oświęcimski
 Zawadzkie	50.6060	18.4825	opolskie	strzelecki
 Zawichost	50.8061	21.8596	świętokrzyskie	sandomierski
@@ -955,21 +956,21 @@ Zgorzelec	51.1497	15.0067	dolnośląskie	zgorzelecki
 Zielona Góra	51.9392	15.5038	lubuskie	Zielona Góra
 Zielonka	52.3066	21.1536	mazowieckie	wołomiński
 Ziębice	50.6003	17.0411	dolnośląskie	ząbkowicki
-Złocieniec	53.5305	16.0117	zachodniopomorskie	drawski
+Złocieniec	53.5310	16.0107	zachodniopomorskie	drawski
 Złoczew	51.4181	18.6058	łódzkie	sieradzki
 Złotoryja	51.1247	15.9158	dolnośląskie	złotoryjski
 Złotów	53.3631	17.0388	wielkopolskie	złotowski
 Złoty Stok	50.4430	16.8735	dolnośląskie	ząbkowicki
-Zwierzyniec	50.6140	22.9715	lubelskie	zamojski
+Zwierzyniec	50.6141	22.9742	lubelskie	zamojski
 Zwoleń	51.3555	21.5877	mazowieckie	zwoleński
 Żabno	50.1333	20.8862	małopolskie	tarnowski
 Żagań	51.6175	15.3148	lubuskie	żagański
 Żarki	50.6265	19.3640	śląskie	myszkowski
 Żarów	50.9425	16.4934	dolnośląskie	świdnicki
-Żary	51.6357	15.1382	lubuskie	żarski
+Żary	51.6365	15.1376	lubuskie	żarski
 Żelechów	51.8084	21.8962	mazowieckie	garwoliński
 Żerków	52.0684	17.5633	wielkopolskie	jarociński
-Żmigród	51.4710	16.9077	dolnośląskie	trzebnicki
+Żmigród	51.4667	16.9057	dolnośląskie	trzebnicki
 Żnin	52.8496	17.7208	kujawsko-pomorskie	żniński
 Żory	50.0455	18.6943	śląskie	Żory
 Żukowo	54.3456	18.3645	pomorskie	kartuski

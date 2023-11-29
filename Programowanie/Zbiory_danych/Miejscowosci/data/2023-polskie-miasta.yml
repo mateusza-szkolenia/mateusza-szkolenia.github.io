@@ -59,8 +59,8 @@
   p: żniński
   w: kujawsko-pomorskie
 - gps:
-  - 53.8283
-  - 20.6903
+  - 53.8302
+  - 20.6927
   n: Barczewo
   p: olsztyński
   w: warmińsko-mazurskie
@@ -95,8 +95,8 @@
   p: bełchatowski
   w: łódzkie
 - gps:
-  - 51.175
-  - 22.2818
+  - 51.1746
+  - 22.2819
   n: Bełżyce
   p: lubelski
   w: lubelskie
@@ -203,8 +203,8 @@
   p: biłgorajski
   w: lubelskie
 - gps:
-  - 53.8644
-  - 20.9553
+  - 53.8634
+  - 20.9563
   n: Biskupiec
   p: olsztyński
   w: warmińsko-mazurskie
@@ -245,8 +245,8 @@
   p: koszaliński
   w: zachodniopomorskie
 - gps:
-  - 49.7053
-  - 20.95
+  - 49.7089
+  - 20.9451
   n: Bobowa
   p: gorlicki
   w: małopolskie
@@ -395,8 +395,8 @@
   p: brzeziński
   w: łódzkie
 - gps:
-  - 49.8798
-  - 21.4105
+  - 49.8791
+  - 21.4117
   n: Brzostek
   p: dębicki
   w: podkarpackie
@@ -425,14 +425,14 @@
   p: olkuski
   w: małopolskie
 - gps:
-  - 50.4692
-  - 20.7184
+  - 50.4707
+  - 20.7197
   n: Busko-Zdrój
   p: buski
   w: świętokrzyskie
 - gps:
-  - 51.0144
-  - 22.5347
+  - 51.0149
+  - 22.5351
   n: Bychawa
   p: lubelski
   w: lubelskie
@@ -575,8 +575,8 @@
   p: białostocki
   w: podlaskie
 - gps:
-  - 53.26
-  - 20.9009
+  - 53.2602
+  - 20.897
   n: Chorzele
   p: przasnyski
   w: mazowieckie
@@ -617,8 +617,8 @@
   p: aleksandrowski
   w: kujawsko-pomorskie
 - gps:
-  - 50.2455
-  - 23.1305
+  - 50.2456
+  - 23.1317
   n: Cieszanów
   p: lubaczowski
   w: podkarpackie
@@ -670,6 +670,12 @@
   n: Czarnków
   p: czarnkowsko-trzcianecki
   w: wielkopolskie
+- gps:
+  - 49.4401
+  - 19.853
+  n: Czarny Dunajec
+  p: nowotarski
+  w: małopolskie
 - gps:
   - 49.8338
   - 20.6735
@@ -821,8 +827,8 @@
   p: myśliborski
   w: zachodniopomorskie
 - gps:
-  - 49.8777
-  - 20.0989
+  - 49.8807
+  - 20.0928
   n: Dobczyce
   p: myślenicki
   w: małopolskie
@@ -845,8 +851,8 @@
   p: łobeski
   w: zachodniopomorskie
 - gps:
-  - 53.9862
-  - 20.3898
+  - 53.9893
+  - 20.3953
   n: Dobre Miasto
   p: olsztyński
   w: warmińsko-mazurskie
@@ -965,8 +971,8 @@
   p: sztumski
   w: pomorskie
 - gps:
-  - 50.7282
-  - 16.6514
+  - 50.7291
+  - 16.6488
   n: Dzierżoniów
   p: dzierżoniowski
   w: dolnośląskie
@@ -1158,7 +1164,7 @@
   w: lubelskie
 - gps:
   - 49.6549
-  - 21.16
+  - 21.1598
   n: Gorlice
   p: gorlicki
   w: małopolskie
@@ -1223,8 +1229,8 @@
   p: brodnicki
   w: kujawsko-pomorskie
 - gps:
-  - 51.5082
-  - 18.1148
+  - 51.5083
+  - 18.1145
   n: Grabów nad Prosną
   p: ostrzeszowski
   w: wielkopolskie
@@ -1265,8 +1271,8 @@
   p: Grudziądz
   w: kujawsko-pomorskie
 - gps:
-  - 49.6248
-  - 20.9475
+  - 49.6243
+  - 20.9477
   n: Grybów
   p: nowosądecki
   w: małopolskie
@@ -1319,8 +1325,8 @@
   p: hrubieszowski
   w: lubelskie
 - gps:
-  - 53.5899
-  - 19.5668
+  - 53.5902
+  - 19.5698
   n: Iława
   p: iławski
   w: warmińsko-mazurskie
@@ -1356,7 +1362,7 @@
   w: zachodniopomorskie
 - gps:
   - 50.7315
-  - 21.2807
+  - 21.2811
   n: Iwaniska
   p: opatowski
   w: świętokrzyskie
@@ -1517,7 +1523,7 @@
   p: Jelenia Góra
   w: dolnośląskie
 - gps:
-  - 53.9765
+  - 53.9763
   - 20.7462
   n: Jeziorany
   p: olsztyński
@@ -1535,8 +1541,8 @@
   p: jędrzejowski
   w: świętokrzyskie
 - gps:
-  - 49.6494
-  - 19.8303
+  - 49.6492
+  - 19.8299
   n: Jordanów
   p: suski
   w: małopolskie
@@ -1547,8 +1553,8 @@
   p: biłgorajski
   w: lubelskie
 - gps:
-  - 52.1333
-  - 21.2286
+  - 52.1422
+  - 21.2302
   n: Józefów
   p: otwocki
   w: mazowieckie
@@ -1643,8 +1649,8 @@
   p: przeworski
   w: podkarpackie
 - gps:
-  - 52.0781
-  - 21.2432
+  - 52.0758
+  - 21.2503
   n: Karczew
   p: otwocki
   w: mazowieckie
@@ -1745,8 +1751,8 @@
   p: głubczycki
   w: opolskie
 - gps:
-  - 53.6091
-  - 19.259
+  - 53.6086
+  - 19.2637
   n: Kisielice
   p: iławski
   w: warmińsko-mazurskie
@@ -1823,8 +1829,8 @@
   p: wołomiński
   w: mazowieckie
 - gps:
-  - 51.6397
-  - 22.4464
+  - 51.6399
+  - 22.4441
   n: Kock
   p: lubartowski
   w: lubelskie
@@ -1871,8 +1877,8 @@
   p: kołobrzeski
   w: zachodniopomorskie
 - gps:
-  - 50.7727
-  - 19.6768
+  - 50.7729
+  - 19.677
   n: Koniecpol
   p: częstochowski
   w: śląskie
@@ -1919,14 +1925,14 @@
   p: bydgoski
   w: kujawsko-pomorskie
 - gps:
-  - 54.1723
-  - 21.1407
+  - 54.1697
+  - 21.1391
   n: Korsze
   p: kętrzyński
   w: warmińsko-mazurskie
 - gps:
-  - 52.5959
-  - 22.147
+  - 52.5939
+  - 22.1469
   n: Kosów Lacki
   p: sokołowski
   w: mazowieckie
@@ -2039,8 +2045,8 @@
   p: krapkowicki
   w: opolskie
 - gps:
-  - 50.5449
-  - 23.2113
+  - 50.546
+  - 23.2118
   n: Krasnobród
   p: zamojski
   w: lubelskie
@@ -2099,8 +2105,8 @@
   p: nowodworski
   w: pomorskie
 - gps:
-  - 49.4214
-  - 20.9597
+  - 49.4216
+  - 20.9595
   n: Krynica-Zdrój
   p: nowosądecki
   w: małopolskie
@@ -2135,8 +2141,8 @@
   p: kościański
   w: wielkopolskie
 - gps:
-  - 52.8791
-  - 16.0136
+  - 52.8796
+  - 16.0139
   n: Krzyż Wielkopolski
   p: czarnkowsko-trzcianecki
   w: wielkopolskie
@@ -2315,14 +2321,14 @@
   p: lubański
   w: dolnośląskie
 - gps:
-  - 51.4577
-  - 22.6095
+  - 51.4623
+  - 22.6088
   n: Lubartów
   p: lubartowski
   w: lubelskie
 - gps:
-  - 53.5035
-  - 19.7482
+  - 53.5027
+  - 19.7498
   n: Lubawa
   p: iławski
   w: warmińsko-mazurskie
@@ -2345,8 +2351,8 @@
   p: lubiński
   w: dolnośląskie
 - gps:
-  - 51.2479
-  - 22.568
+  - 51.2511
+  - 22.5751
   n: Lublin
   p: Lublin
   w: lubelskie
@@ -2387,8 +2393,8 @@
   p: włocławski
   w: kujawsko-pomorskie
 - gps:
-  - 51.7855
-  - 14.9685
+  - 51.7854
+  - 14.9682
   n: Lubsko
   p: żarski
   w: lubuskie
@@ -2501,8 +2507,8 @@
   p: łęczycki
   w: łódzkie
 - gps:
-  - 51.5367
-  - 14.7426
+  - 51.538
+  - 14.7378
   n: Łęknica
   p: żarski
   w: lubuskie
@@ -2573,7 +2579,7 @@
   p: makowski
   w: mazowieckie
 - gps:
-  - 49.7303
+  - 49.7296
   - 19.6764
   n: Maków Podhalański
   p: suski
@@ -2609,8 +2615,8 @@
   p: wołomiński
   w: mazowieckie
 - gps:
-  - 53.4978
-  - 15.0596
+  - 53.4963
+  - 15.0614
   n: Maszewo
   p: goleniowski
   w: zachodniopomorskie
@@ -2717,8 +2723,8 @@
   p: średzki
   w: dolnośląskie
 - gps:
-  - 53.8035
-  - 21.5718
+  - 53.8008
+  - 21.576
   n: Mikołajki
   p: mrągowski
   w: warmińsko-mazurskie
@@ -2730,7 +2736,7 @@
   w: śląskie
 - gps:
   - 51.5321
-  - 17.973
+  - 17.9731
   n: Mikstat
   p: ostrzeszowski
   w: wielkopolskie
@@ -2849,14 +2855,14 @@
   p: poznański
   w: wielkopolskie
 - gps:
-  - 53.8767
-  - 21.3042
+  - 53.8769
+  - 21.304
   n: Mrągowo
   p: mrągowski
   w: warmińsko-mazurskie
 - gps:
-  - 53.2455
-  - 17.607
+  - 53.2456
+  - 17.6076
   n: Mrocza
   p: nakielski
   w: kujawsko-pomorskie
@@ -2909,8 +2915,8 @@
   p: ostrołęcki
   w: mazowieckie
 - gps:
-  - 49.8338
-  - 19.9381
+  - 49.8332
+  - 19.939
   n: Myślenice
   p: myślenicki
   w: małopolskie
@@ -2957,8 +2963,8 @@
   p: wrzesiński
   w: wielkopolskie
 - gps:
-  - 53.3598
-  - 20.4259
+  - 53.3616
+  - 20.426
   n: Nidzica
   p: nidzicki
   w: warmińsko-mazurskie
@@ -3059,8 +3065,8 @@
   p: grójecki
   w: mazowieckie
 - gps:
-  - 51.7087
-  - 17.9917
+  - 51.7086
+  - 17.99
   n: Nowe Skalmierzyce
   p: ostrowski
   w: wielkopolskie
@@ -3107,8 +3113,8 @@
   p: nowodworski
   w: mazowieckie
 - gps:
-  - 50.2997
-  - 20.8081
+  - 50.3011
+  - 20.8074
   n: Nowy Korczyn
   p: buski
   w: świętokrzyskie
@@ -3167,7 +3173,7 @@
   p: szamotulski
   w: wielkopolskie
 - gps:
-  - 51.5741
+  - 51.5745
   - 17.6736
   n: Odolanów
   p: ostrowski
@@ -3210,7 +3216,7 @@
   w: dolnośląskie
 - gps:
   - 50.4505
-  - 21.064
+  - 21.065
   n: Oleśnica
   p: staszowski
   w: świętokrzyskie
@@ -3221,8 +3227,8 @@
   p: olkuski
   w: małopolskie
 - gps:
-  - 50.7506
-  - 19.2674
+  - 50.7507
+  - 19.2678
   n: Olsztyn
   p: częstochowski
   w: śląskie
@@ -3233,8 +3239,8 @@
   p: Olsztyn
   w: warmińsko-mazurskie
 - gps:
-  - 53.5833
-  - 20.2852
+  - 53.5836
+  - 20.2849
   n: Olsztynek
   p: olsztyński
   w: warmińsko-mazurskie
@@ -3264,7 +3270,7 @@
   w: świętokrzyskie
 - gps:
   - 50.8014
-  - 21.4239
+  - 21.424
   n: Opatów
   p: opatowski
   w: świętokrzyskie
@@ -3317,7 +3323,7 @@
   p: leszczyński
   w: wielkopolskie
 - gps:
-  - 50.52
+  - 50.5205
   - 21.4428
   n: Osiek
   p: staszowski
@@ -3347,8 +3353,8 @@
   p: ostródzki
   w: warmińsko-mazurskie
 - gps:
-  - 51.4946
-  - 22.8542
+  - 51.4974
+  - 22.855
   n: Ostrów Lubelski
   p: lubartowski
   w: lubelskie
@@ -3359,14 +3365,14 @@
   p: ostrowski
   w: mazowieckie
 - gps:
-  - 51.6495
-  - 17.8167
+  - 51.6498
+  - 17.8175
   n: Ostrów Wielkopolski
   p: ostrowski
   w: wielkopolskie
 - gps:
-  - 51.4237
-  - 17.9315
+  - 51.4265
+  - 17.9331
   n: Ostrzeszów
   p: ostrzeszowski
   w: wielkopolskie
@@ -3413,8 +3419,8 @@
   p: zgierski
   w: łódzkie
 - gps:
-  - 50.8861
-  - 21.6652
+  - 50.8875
+  - 21.6665
   n: Ożarów
   p: opatowski
   w: świętokrzyskie
@@ -3431,14 +3437,14 @@
   p: pabianicki
   w: łódzkie
 - gps:
-  - 50.3998
-  - 21.0411
+  - 50.4004
+  - 21.0413
   n: Pacanów
   p: buski
   w: świętokrzyskie
 - gps:
-  - 50.4643
-  - 17.0064
+  - 50.464
+  - 17.0065
   n: Paczków
   p: nyski
   w: opolskie
@@ -3611,8 +3617,8 @@
   p: piski
   w: warmińsko-mazurskie
 - gps:
-  - 49.441
-  - 20.7161
+  - 49.4398
+  - 20.7136
   n: Piwniczna-Zdrój
   p: nowosądecki
   w: małopolskie
@@ -3695,8 +3701,8 @@
   p: polkowicki
   w: dolnośląskie
 - gps:
-  - 50.4325
-  - 21.2805
+  - 50.4327
+  - 21.2802
   n: Połaniec
   p: staszowski
   w: świętokrzyskie
@@ -3839,8 +3845,8 @@
   p: przeworski
   w: podkarpackie
 - gps:
-  - 51.3588
-  - 20.6284
+  - 51.3587
+  - 20.6287
   n: Przysucha
   p: przysuski
   w: mazowieckie
@@ -4007,8 +4013,8 @@
   p: grodziski
   w: wielkopolskie
 - gps:
-  - 51.7185
-  - 17.726
+  - 51.7182
+  - 17.7258
   n: Raszków
   p: ostrowski
   w: wielkopolskie
@@ -4205,7 +4211,7 @@
   p: sejneński
   w: podlaskie
 - gps:
-  - 52.5138
+  - 52.5129
   - 21.0695
   n: Serock
   p: legionowski
@@ -4325,8 +4331,8 @@
   p: radomski
   w: mazowieckie
 - gps:
-  - 51.1155
-  - 20.8952
+  - 51.113
+  - 20.8718
   n: Skarżysko-Kamienna
   p: skarżyski
   w: świętokrzyskie
@@ -4439,8 +4445,8 @@
   p: rzeszowski
   w: podkarpackie
 - gps:
-  - 52.4079
-  - 22.2499
+  - 52.408
+  - 22.2511
   n: Sokołów Podlaski
   p: sokołowski
   w: mazowieckie
@@ -4511,14 +4517,14 @@
   p: starogardzki
   w: pomorskie
 - gps:
-  - 49.5642
+  - 49.5641
   - 20.6349
   n: Stary Sącz
   p: nowosądecki
   w: małopolskie
 - gps:
-  - 50.5642
-  - 21.1674
+  - 50.5649
+  - 21.167
   n: Staszów
   p: staszowski
   w: świętokrzyskie
@@ -4619,8 +4625,8 @@
   p: strzyżowski
   w: podkarpackie
 - gps:
-  - 49.7403
-  - 19.5875
+  - 49.7417
+  - 19.5921
   n: Sucha Beskidzka
   p: suski
   w: małopolskie
@@ -4631,8 +4637,8 @@
   p: stargardzki
   w: zachodniopomorskie
 - gps:
-  - 51.0447
-  - 20.8364
+  - 51.0477
+  - 20.8292
   n: Suchedniów
   p: skarżyski
   w: świętokrzyskie
@@ -4673,8 +4679,8 @@
   p: krotoszyński
   w: wielkopolskie
 - gps:
-  - 49.8411
-  - 19.8015
+  - 49.8422
+  - 19.8025
   n: Sułkowice
   p: myślenicki
   w: małopolskie
@@ -4691,8 +4697,8 @@
   p: białostocki
   w: podlaskie
 - gps:
-  - 53.7184
-  - 19.3388
+  - 53.7189
+  - 19.3365
   n: Susz
   p: iławski
   w: warmińsko-mazurskie
@@ -4745,8 +4751,8 @@
   p: wałbrzyski
   w: dolnośląskie
 - gps:
-  - 50.695
-  - 22.9783
+  - 50.6949
+  - 22.9795
   n: Szczebrzeszyn
   p: zamojski
   w: lubelskie
@@ -4841,8 +4847,8 @@
   p: szydłowiecki
   w: mazowieckie
 - gps:
-  - 50.5908
-  - 21.0065
+  - 50.5906
+  - 21.0049
   n: Szydłów
   p: staszowski
   w: świętokrzyskie
@@ -4949,8 +4955,8 @@
   p: Świnoujście
   w: zachodniopomorskie
 - gps:
-  - 51.9801
-  - 20.834
+  - 51.9808
+  - 20.8349
   n: Tarczyn
   p: piaseczyński
   w: mazowieckie
@@ -5369,8 +5375,8 @@
   p: cieszyński
   w: śląskie
 - gps:
-  - 50.3488
-  - 20.6741
+  - 50.349
+  - 20.6745
   n: Wiślica
   p: buski
   w: świętokrzyskie
@@ -5417,8 +5423,8 @@
   p: zawierciański
   w: śląskie
 - gps:
-  - 50.8515
-  - 19.9692
+  - 50.8523
+  - 19.9676
   n: Włoszczowa
   p: włoszczowski
   w: świętokrzyskie
@@ -5609,8 +5615,8 @@
   p: nowodworski
   w: mazowieckie
 - gps:
-  - 53.845
-  - 19.6058
+  - 53.8462
+  - 19.6056
   n: Zalewo
   p: iławski
   w: warmińsko-mazurskie
@@ -5621,8 +5627,8 @@
   p: zambrowski
   w: podlaskie
 - gps:
-  - 50.7161
-  - 23.2547
+  - 50.7232
+  - 23.252
   n: Zamość
   p: Zamość
   w: lubelskie
@@ -5735,8 +5741,8 @@
   p: ząbkowicki
   w: dolnośląskie
 - gps:
-  - 53.5305
-  - 16.0117
+  - 53.531
+  - 16.0107
   n: Złocieniec
   p: drawski
   w: zachodniopomorskie
@@ -5765,8 +5771,8 @@
   p: ząbkowicki
   w: dolnośląskie
 - gps:
-  - 50.614
-  - 22.9715
+  - 50.6141
+  - 22.9742
   n: Zwierzyniec
   p: zamojski
   w: lubelskie
@@ -5801,8 +5807,8 @@
   p: świdnicki
   w: dolnośląskie
 - gps:
-  - 51.6357
-  - 15.1382
+  - 51.6365
+  - 15.1376
   n: Żary
   p: żarski
   w: lubuskie
@@ -5819,8 +5825,8 @@
   p: jarociński
   w: wielkopolskie
 - gps:
-  - 51.471
-  - 16.9077
+  - 51.4667
+  - 16.9057
   n: Żmigród
   p: trzebnicki
   w: dolnośląskie

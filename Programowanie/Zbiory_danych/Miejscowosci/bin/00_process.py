@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 URL = 'https://opendata.geoportal.gov.pl/prng/PRNG_MIEJSCOWOSCI_GML.zip'
-zip_fn = 'tmp/PRNG_MIEJSCOWOSCI_GML.zip'
+zip_fn = '../tmp/PRNG_MIEJSCOWOSCI_GML.zip'
 data_fn = 'PRNG_MIEJSCOWOSCI_GML.xml'
 output_fn = 'polskie-miasta'
 
@@ -17,7 +17,7 @@ import yaml
 import zipfile
 
 YEAR = f'{datetime.date.today().year}'
-OUTPUT = f'data/{YEAR}-{output_fn}'
+OUTPUT = f'../data/{YEAR}-{output_fn}'
 
 def znajdz_pole(el, nazwa):
     return [*el.findall(f'.//{{*}}{nazwa}')][0].text
