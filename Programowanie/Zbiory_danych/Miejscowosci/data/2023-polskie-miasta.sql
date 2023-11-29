@@ -1,6 +1,6 @@
 
 -- źródło danych: https://opendata.geoportal.gov.pl/prng/PRNG_MIEJSCOWOSCI_GML.zip
--- 
+-- data pozyskania: 2023-11-29
 
 Begin Transaction;
 

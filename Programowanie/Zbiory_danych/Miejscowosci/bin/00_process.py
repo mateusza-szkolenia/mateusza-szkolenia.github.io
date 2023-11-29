@@ -16,7 +16,8 @@ import xml.etree.ElementTree as ET
 import yaml
 import zipfile
 
-YEAR = f'{datetime.date.today().year}'
+YEAR = f'{datetime.date.today():%Y}'
+TODAY = f'{datetime.date.today():%F}'
 OUTPUT = f'../data/{YEAR}-{output_fn}'
 
 def znajdz_pole(el, nazwa):
@@ -124,12 +125,12 @@ with open(f'{OUTPUT}.csv', 'w') as f:
         f.write(f'{n},{lat:.4f},{lon:.4f},{woj},{powi}\n')
 
 print("Zapis yaml")
-with open(f'{OUTPUT}.yml', 'w') as f:
+with open(f'{OUTPUT}.yaml', 'w') as f:
     yaml.dump(miasta, stream=f, allow_unicode=True)
 
 SQL_TEMPLATE = """
 -- źródło danych: {{URL}}
--- 
+-- data pozyskania: {{TODAY}}
 
 Begin Transaction;
 
@@ -185,10 +186,15 @@ t_params = {
     'wojewodztwa': wojewodztwa,
     'powiaty': powiaty,
     'miasta': miasta,
-    'URL': URL
+    'URL': URL,
+    'TODAY': TODAY
 }
 
 sqlscript = template.render(**t_params)
+
+print("Zapis daty")
+with open(f'{OUTPUT}.date', 'w') as f:
+    f.write(TODAY)
 
 print("Zapis sql")
 with open(f'{OUTPUT}.sql', 'w') as f:
