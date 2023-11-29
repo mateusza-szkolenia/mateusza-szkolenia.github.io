@@ -13,15 +13,17 @@ import jinja2
 import tempfile
 import os
 
-TODAY = datetime.date.today().isoformat()
+TODAY = f'{datetime.date.today():%F}'
 
 LOCAL = tempfile.mktemp('.js')
 
-OUTPUT_SQL = f'../data/{datetime.date.today().year}-dane-gus-populacja.sql'
+OUTPUT_SQL = f'../data/{datetime.date.today():%Y}-dane-gus-populacja.sql'
+OUTPUT_DATE = f'../data/{datetime.date.today():%Y}-dane-gus-populacja.date'
 
 TEMPLATE = """
 -- data source: {{WEB}}
 -- data scrapped from: {{URL}}
+-- data date: {{TODAY}}
 
 Begin;
 Create Table `populacja` (
@@ -88,10 +90,14 @@ template = jinja2.Template(TEMPLATE)
 dane = {
     'WEB': WEB,
     'URL': URL,
-    'rekordy': rekordy
+    'rekordy': rekordy,
+    'TODAY': TODAY
 }
 
 with open(OUTPUT_SQL, 'w') as f:
     f.write(template.render(**dane))
+
+with open(OUTPUT_DATE, 'w') as f:
+    f.write(TODAY)
 
 os.unlink(LOCAL)

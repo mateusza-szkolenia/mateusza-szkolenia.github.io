@@ -5,11 +5,9 @@ cat <<'EOF'
 |-----|-----------------|-------|----------|-------|-------|--------|--------|
 EOF
 
-cd ../
-
 for rok in 2021 2022 2023
 do
-    read -r TODAY < "data/$rok-polskie-miasta.date"
+    read -r TODAY < "../data/$rok-polskie-miasta.date"
 
     printf "| %s | %s | " "$rok" "$TODAY"
     for format in sql db csv txt json yaml

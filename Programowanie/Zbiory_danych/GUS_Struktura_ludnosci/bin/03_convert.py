@@ -1,5 +1,6 @@
 #!/usr/bin/env python3 
 
+import datetime
 import glob
 import sqlite3
 import json
@@ -20,11 +21,15 @@ SQL = '''
         rok, wiek
 '''
 
-for DB in glob.glob("../data/*-dane-gus-populacja.db"):
-    BASENAME = DB.replace('.db', '')
+YEAR = f'{datetime.date.today():%Y}'
+
+# for DB in glob.glob("../data/*-dane-gus-populacja.db"):
+for DB in glob.glob(f"../data/{YEAR}-dane-gus-populacja.db"):
+    BASENAME = DB.removesuffix('.db')
     CSV = f'{BASENAME}.csv'
     JSON = f'{BASENAME}.json'
     TXT = f'{BASENAME}.txt'
+    DATE = f'{BASENAME}.date'
 
     db = sqlite3.connect(DB)
     dbq = db.execute(SQL)

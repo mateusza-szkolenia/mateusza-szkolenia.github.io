@@ -1,6 +1,7 @@
 
 -- data source: https://stat.gov.pl/obszary-tematyczne/ludnosc/ludnosc/ludnosc-piramida/
 -- data scrapped from: https://stat.gov.pl/files/gfx/portalinformacyjny/pl/defaultstronaopisowa/5822/1/1/dane.js
+-- data date: 2023-11-29
 
 Begin;
 Create Table `populacja` (
