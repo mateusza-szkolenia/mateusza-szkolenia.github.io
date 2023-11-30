@@ -5,6 +5,10 @@
 
 ![learning-go-rust.png](learning-go-rust.png)
 
+## `regex.png`
+
+![regex.png](regex.png)
+
 ## `binary-tree.png`
 
 ![binary-tree.png](binary-tree.png)
@@ -32,6 +36,10 @@
 ## `in-scope-out-of-scope.jpg`
 
 ![in-scope-out-of-scope.jpg](in-scope-out-of-scope.jpg)
+
+## `1953-no-escape-from-telephone.jpg`
+
+![1953-no-escape-from-telephone.jpg](1953-no-escape-from-telephone.jpg)
 
 ## `mysql-mongo.jpg`
 
@@ -72,6 +80,10 @@
 ## `excel-incel.jpg`
 
 ![excel-incel.jpg](excel-incel.jpg)
+
+## `it-people.jpg`
+
+![it-people.jpg](it-people.jpg)
 
 ## `netscape-ie.jpg`
 
