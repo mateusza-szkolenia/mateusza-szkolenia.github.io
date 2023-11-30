@@ -23,10 +23,11 @@
 
 ### PPA (Ubuntu)
 * Strona: <https://launchpad.net/ubuntu/+ppas>
-* Przykładowe pakiety:
+* Przykładowe repozytoria/pakiety:
     * [Git](https://launchpad.net/~git-core/+archive/ubuntu/ppa)
     * [PHP](https://launchpad.net/~ondrej/+archive/ubuntu/php)
     * [Python](https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa)
+    * [Mozilla Team (Firefox)](https://launchpad.net/~mozillateam/+archive/ubuntu/ppa)
 
 ### RPM Fusion (Fedora, EL7, EL8, EL9)
 * Strona: <https://rpmfusion.org/>
