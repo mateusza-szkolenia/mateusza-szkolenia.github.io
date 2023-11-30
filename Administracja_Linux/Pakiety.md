@@ -26,6 +26,7 @@
 * Przykładowe pakiety:
     * [Git](https://launchpad.net/~git-core/+archive/ubuntu/ppa)
     * [PHP](https://launchpad.net/~ondrej/+archive/ubuntu/php)
+    * [Python](https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa)
 
 ### RPM Fusion (Fedora, EL7, EL8, EL9)
 * Strona: <https://rpmfusion.org/>
@@ -60,6 +61,13 @@
 
 ### Docker Hub
 * Strona: <https://hub.docker.com/>
+
+### Homebrew
+* Strona: <https://brew.sh/>
+
+### Nix
+* Strona: <https://nixos.org/>
+* Pakiety: <https://search.nixos.org/packages>
 
 ## Agregaty informacji
 
