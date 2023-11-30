@@ -96,6 +96,9 @@ Kod źródłowy z zajęć.
 [Twitter](https://twitter.com/mateusza) •
 [✉️ alx.pl](mailto:m.adamowski@alx.pl)
 
+
+![URL](./style/qr.png)
+
 </section>
 
 </nav>
