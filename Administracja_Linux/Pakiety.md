@@ -28,6 +28,7 @@
     * [PHP](https://launchpad.net/~ondrej/+archive/ubuntu/php)
     * [Python](https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa)
     * [Mozilla Team (Firefox)](https://launchpad.net/~mozillateam/+archive/ubuntu/ppa)
+    * [Chromium](https://launchpad.net/~savoury1/+archive/ubuntu/chromium)
 
 ### RPM Fusion (Fedora, EL7, EL8, EL9)
 * Strona: <https://rpmfusion.org/>
