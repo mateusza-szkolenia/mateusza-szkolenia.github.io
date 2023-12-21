@@ -42,16 +42,6 @@ with urllib.request.urlopen(url) as f:
 print(f"Kurs {waluta}: {resp['rates'][0]['mid']}")
 ```
 
-## Cat as a Service
-
-Dokumentacja: <https://cataas.com/>
-
-### Przykład
-```html
-
-<img src='https://cataas.com/cat/computer'>
-```
-
 ## Random User Generator
 
 Dokumentacja: <https://randomuser.me/>
