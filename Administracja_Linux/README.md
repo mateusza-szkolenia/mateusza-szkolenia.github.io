@@ -70,6 +70,8 @@
 - [XKCD](XKCD.md)
 - [TLDRLegal - skrótowy opis popularnych licencji oprogramowania](https://tldrlegal.com/)
 
+## [Ansible](Ansible/)
+
 ## Materiały do szkoleń w [ALX](https://alx.pl)
 
 - <http://students.alx.pl/zdalnie/admin.html>
