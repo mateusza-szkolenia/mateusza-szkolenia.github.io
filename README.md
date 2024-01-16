@@ -69,7 +69,9 @@ Opisy rozwiązania kilku typowych problemów.
 [Wireguard](https://www.alx.pl/szkolenia/wireguard/) •
 [IPv6](https://www.alx.pl/szkolenia/protokol-ipv6/) •
 [Administrator Linuksa](https://www.alx.pl/pl/administrator-linuksa/) •
-[Linux - essentials](https://www.alx.pl/szkolenia/linux-essentials/) •
+[Linux essentials](https://www.alx.pl/szkolenia/linux-essentials/) •
+[Ansible wstęp](https://www.alx.pl/szkolenia/ansible-automatyzacja/) •
+[Ansible](https://www.alx.pl/szkolenia/ansible-full/) •
 [C/C++](https://www.alx.pl/pl/kurs-cpp-programowanie/) •
 [C](https://www.alx.pl/szkolenia/programowanie-c-podstawy/) •
 [Python scripting](https://www.alx.pl/szkolenia/python-pisanie-drobnych-programow/) •
