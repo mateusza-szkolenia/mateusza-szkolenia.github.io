@@ -5,4 +5,4 @@
 * [Narzędzia online](../Programowanie/Zasoby/Narzedzia.md)
 * [Javascript](../Programowanie/Zasoby/Javascript.md)
 * [Oprogramowanie](../Programowanie/Zasoby/Oprogramowanie.md)
-* [Zasoby_graficzne](Zasoby_graficzne.md)
+* [Zasoby graficzne](Zasoby_graficzne.md)
