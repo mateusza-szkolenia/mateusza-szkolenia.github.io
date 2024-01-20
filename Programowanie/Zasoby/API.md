@@ -54,3 +54,8 @@ fetch('https://randomuser.me/api/')
     .then(u => console.log(u))
 ```
 
+## dummyJSON
+
+Dokumentacja: <https://dummyjson.com/docs>
+CORS: `tak`
+
