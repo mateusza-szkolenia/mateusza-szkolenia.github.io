@@ -11,6 +11,7 @@
 - [busybox init](https://github.com/mirror/busybox/tree/master/init)
 - [busybox runit](https://github.com/mirror/busybox/tree/master/runit)
 - [procd](https://git.openwrt.org/?p=project/procd.git;a=summary) (OpenWRT)
+- [multirun](https://nicolas-van.github.io/multirun/) (Docker)
 - [upstart](https://upstart.ubuntu.com/) *nie rozwijany*
 
 ## Inne
