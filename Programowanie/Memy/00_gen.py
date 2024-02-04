@@ -1,17 +1,11 @@
 #!/usr/bin/env python3
 
-import glob
-import jinja2
+from glob import glob
+from jinja2 import Template
 
 OUTPUT = "README.md"
 
 EXTS = ['png', 'jpg', 'webp', 'jpeg']
-
-def get_pictures():
-    for ext in EXTS:
-        pattern = f'*.{ext}'
-        for filename in glob.glob(pattern):
-            yield filename
 
 TEMPLATE = """# Memy 
 
@@ -19,14 +13,19 @@ TEMPLATE = """# Memy
 ## `{{picture}}`
 
 ![{{picture}}]({{picture}})
+
 {% endfor %}
 """
 
-template = jinja2.Template(TEMPLATE)
+def get_pictures() -> list[str]:
+    for ext in EXTS:
+        yield from glob(f'*.{ext}')
 
-data = {
-    'pictures': get_pictures()
-}
+def main():
+    template = Template(TEMPLATE)
+    data = {'pictures': get_pictures()}
+    with open(OUTPUT, 'w') as readme:
+        readme.write(template.render(**data))
 
-with open(OUTPUT, 'w') as readme:
-    readme.write(template.render(**data))
+if __name__ == '__main__':
+    main()
