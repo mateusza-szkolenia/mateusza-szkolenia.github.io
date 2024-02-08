@@ -18,8 +18,10 @@ TEMPLATE = """# Memy
 """
 
 def get_pictures() -> list[str]:
+    pics = []
     for ext in EXTS:
-        yield from glob(f'*.{ext}')
+        pics.extend(glob(f'*.{ext}'))
+    return sorted(pics)
 
 def main():
     template = Template(TEMPLATE)
