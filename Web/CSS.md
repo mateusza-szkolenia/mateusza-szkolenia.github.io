@@ -4,7 +4,7 @@
 * [Mnóstwo gotowych elementów stron WWW zaimplementowanych w samym CSS](http://youmightnotneedjs.com/)
 * [Pochylony "akordeon" z zakładkami](https://codepen.io/gdeleon101/pen/muFvf)
 * [Filtry grafiki z Instagrama zaimplementowane w CSS](https://picturepan2.github.io/instagram.css/)
- 
+
 ## Narzędzia
 * [Zestawienie informacji o dostępności różnych funkcji w różnych wersjach przeglądarek](https://caniuse.com/)
 
@@ -20,6 +20,7 @@
 * [CSS Only](https://medium.mybridge.co/26-impressive-web-projects-built-with-css-only-4a4c2f773a21)
 * [CSS Zen Garden - strona na której dokładnie ten sam kod HTML został ostylowany różymi CSS - można porównać wygląd. Trochę stara, ale warto spojrzeć.](http://www.csszengarden.com/)
 * [Efekty obrazów z :hover](https://codepen.io/nxworld/full/ZYNOBZ/)
+* [15+ CSS Games](https://freefrontend.com/css-games/)
 
 ## Gry do nauki CSS
 * [Nauka selektorów CSS](https://flukeout.github.io/)
