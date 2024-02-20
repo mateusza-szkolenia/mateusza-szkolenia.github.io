@@ -146,6 +146,11 @@
 ![paas-perl-borat.jpg](paas-perl-borat.jpg)
 
 
+## `pko-tfi-superhaslo.png`
+
+![pko-tfi-superhaslo.png](pko-tfi-superhaslo.png)
+
+
 ## `python-lists.jpg`
 
 ![python-lists.jpg](python-lists.jpg)
@@ -159,6 +164,11 @@
 ## `regex.png`
 
 ![regex.png](regex.png)
+
+
+## `stickers.jpg`
+
+![stickers.jpg](stickers.jpg)
 
 
 ## `the-floor-is-java.jpg`
