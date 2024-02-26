@@ -21,6 +21,11 @@
 ![automate-10-days.jpg](automate-10-days.jpg)
 
 
+## `bash-is-all-i-need.png`
+
+![bash-is-all-i-need.png](bash-is-all-i-need.png)
+
+
 ## `binary-tree.png`
 
 ![binary-tree.png](binary-tree.png)
