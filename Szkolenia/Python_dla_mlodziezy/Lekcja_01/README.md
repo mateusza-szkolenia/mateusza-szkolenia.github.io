@@ -40,7 +40,9 @@
     - ${100.0}^{80}$
     - $4\ 111\ 111\ 111 + 0.299\ 999\ 9$
     - $\frac{10\ 000\ 000\ 000}{3} - 3\ 333\ 333\ 333$
-11. Napisać program obliczający wartość wielomianu $(x-7)(x-3)(x-2)(x+5)$ dla kilku wybranych wartości $x$.
+
+    Co ciekawego można tu zaobserwować?
+11. Napisać program obliczający wartość wielomianu $(x-7)(x-\sqrt{3})(x-\frac{1}{2})^{7}(x+5)$ dla kilku wybranych wartości $x$.
 12. Które z poniższych nazw zmiennych są poprawne w języku Python?
     - `imie = "Mateusz"`
     - `imię = "Mateusz"`
