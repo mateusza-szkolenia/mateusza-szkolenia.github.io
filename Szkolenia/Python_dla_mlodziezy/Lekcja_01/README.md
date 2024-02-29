@@ -41,4 +41,30 @@
     - $4\ 111\ 111\ 111 + 0.299\ 999\ 9$
     - $\frac{10\ 000\ 000\ 000}{3} - 3\ 333\ 333\ 333$
 11. Napisać program obliczający wartość wielomianu $(x-7)(x-3)(x-2)(x+5)$ dla kilku wybranych wartości $x$.
-12. Sprawdzić jak dużą liczbę i jak duży napis można przypisać do zmiennej bez zawieszenia komputera. **OSTROŻNIE**
+12. Które z poniższych nazw zmiennych są poprawne w języku Python?
+    - `imie = "Mateusz"`
+    - `imię = "Mateusz"`
+    - `име = 'Mateusz'`
+    - `rok urodzenia = 1985`
+    - `rok-urodzenia = 1985`
+    - `rok_urodzenia = 1985`
+    - `rokUrodzenia = 1985`
+    - `RokUrodzenia = 1985`
+    - `ROK_URODZENIA = 1985`
+    - `Rok_Urodzenia = 1985`
+    - `rok ur. = 1985`
+    - `rok_ur. = 1985`
+    - `brat1 = "Maciej"`
+    - `brat 2 = "Tomasz"`
+    - `1brat = "Maciej"`
+    - `2gi_brat = "Tomasz"`
+    - `brat_2 = "Tomasz"`
+    - `brat.2 = "Tomasz"`
+    - `ocena :-) = 10`
+    - `_firma = "ALX"`
+    - `.firma = "ALX"`
+    - `-firma = "ALX"`
+    - `szkolenie:python = 10`
+    - `❤system = "Linux"`
+    - `liczba🦷 = 32`
+13. Sprawdzić jak dużą liczbę i jak duży napis można przypisać do zmiennej bez zawieszenia komputera. **OSTROŻNIE**
