@@ -13,11 +13,11 @@
 
 Pierwszy program, wyświetlanie danych, operacje arytmetyczne, operacje na tekście, zmienne.
 
-<!--
 ## [Lekcja 2](Lekcja_02/)
 
 Przypisania wyrażeń, funkcja `input()`, typy danych, konwersja typów, f-stringi.
 
+<!--
 ## [Lekcja 3](Lekcja_03/)
 
 Tworzenie prostych programów liczących, porównania, warunki.
