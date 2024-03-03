@@ -29,9 +29,9 @@
 3. Napisać program wyświetlający wartość liczby ${17}^{123}$
 4. Napisać program pozwalający stwierdzić, która wartość jest większa: ${50}^{50}$ czy ${49}^{51}$ i ile razy.
 5. Napisać program wyliczający przybliżoną wartość liczby $e$ wg wzoru: $e \approx \left ( 1 + {1 \over n} \right )^{n}$ dla różnych wartości $n$, np. `1`, `2`, `3`, `5`, `10`, `100`, `1000`, etc.
-6. Napisać program obliczający rozwiązania równania kwadratowego $ax^2 + bx + c = 0$ na podstawie zmiennych $a, b, c$ i wg wzoru: $x={\frac {-b\pm {\sqrt {b^{2}-4ac}}}{2a}}$ (Dwa wyniki!)
+6. Napisać program obliczający rozwiązania równania kwadratowego[^1] $ax^2 + bx + c = 0$ na podstawie zmiennych $a, b, c$ i wg wzoru: $x={\frac {-b\pm {\sqrt {b^{2}-4ac}}}{2a}}$ (Dwa wyniki!)
 7. Napisać program obliczający jaką godzinę wskazuje zegar 12345 sekund po północy.
-8. Napisać program obliczający ile sekund ma rok przestępny.
+8. Napisać program obliczający ile sekund ma rok przestępny[^2].
 9. Napisać program obliczający ile wiader farby potrzeba do pomalowania ścian prostokątnego pomieszczenia o wymiarach `4m` na `5m` i wysokości `2.5m`. Litr farby wystarcza na `9` metrów kwadratowych a farba sprzedawana jest w wiadrach `2L`. Otwory drzwiowe i okienne mają łącznie `3.5` metra kwadratowego.
 10. Napisać program obliczający wyniki prostych działań arytmetycznych:
     - $0.1 + 0.7$
@@ -70,3 +70,8 @@
     - `❤system = "Linux"`
     - `liczba🦷 = 32`
 13. Sprawdzić jak dużą liczbę i jak duży napis można przypisać do zmiennej bez zawieszenia komputera. **OSTROŻNIE**
+
+[^1]: [Równanie kwadratowe](https://pl.wikipedia.org/wiki/R%C3%B3wnanie_kwadratowe)
+
+[^2]: [Rok przestępny](https://pl.wikipedia.org/wiki/Rok_przest%C4%99pny)
+
