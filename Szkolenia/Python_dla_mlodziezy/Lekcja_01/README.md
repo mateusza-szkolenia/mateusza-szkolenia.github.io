@@ -41,8 +41,8 @@
     - $4\ 111\ 111\ 111 + 0.299\ 999\ 9$
     - $\frac{10\ 000\ 000\ 000}{3} - 3\ 333\ 333\ 333$
 
-    Co ciekawego można tu zaobserwować?
-11. Napisać program obliczający wartość wielomianu $(x-7)(x-\sqrt{3})(x-\frac{1}{2})^{7}(x+5)$ dla kilku wybranych wartości $x$.
+    Co ciekawego[^3] można tu zaobserwować?
+11. Napisać program obliczający wartość wielomianu[^4] $(x-7)(x-\sqrt{3})(x-\frac{1}{2})^{7}(x+5)$ dla kilku wybranych wartości $x$.
 12. Które z poniższych nazw zmiennych są poprawne w języku Python?
     - `imie = "Mateusz"`
     - `imię = "Mateusz"`
@@ -74,4 +74,8 @@
 [^1]: [Równanie kwadratowe](https://pl.wikipedia.org/wiki/R%C3%B3wnanie_kwadratowe)
 
 [^2]: [Rok przestępny](https://pl.wikipedia.org/wiki/Rok_przest%C4%99pny)
+
+[^3]: [IEEE 754 - Standard zapisu liczb zmiennoprzecinkowych](https://pl.wikipedia.org/wiki/IEEE_754)
+
+[^4]: [Wielomian](https://pl.wikipedia.org/wiki/Wielomian)
 
