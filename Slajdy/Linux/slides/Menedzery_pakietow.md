@@ -138,7 +138,7 @@ instalacja pakietu + zależności
 
 ------
 <!-- .slide: data-autofragments -->
-## specyficzne dla języków programowania
+## właściwe dla języków programowania
 
 - `pip` (`Python`)
 - `npm` (`JavaScript, NodeJS`)

@@ -23,13 +23,13 @@
 
 ---
 <!-- .slide: data-auto-animate -->
-## Przykład
+### Przykład
 
 Liczba binarna: `101111`
 
 ---
 <!-- .slide: data-auto-animate -->
-## Przykład
+### Przykład
 
 ```
  1  0  1  1  1  1
@@ -37,7 +37,7 @@ Liczba binarna: `101111`
 
 ---
 <!-- .slide: data-auto-animate -->
-## Przykład
+### Przykład
 
 ```
  1  0  1  1  1  1
@@ -49,7 +49,7 @@ Liczba binarna: `101111`
 
 ---
 <!-- .slide: data-auto-animate -->
-## Przykład
+### Przykład
 ```
  1  0  1  1  1  1
 ```
@@ -60,21 +60,21 @@ Liczba binarna: `101111`
 
 ---
 <!-- .slide: data-auto-animate -->
-## Przykład
+### Przykład
 ```txt
 32 + 8 + 4 + 2 + 1
 ```
 
 ---
 <!-- .slide: data-auto-animate -->
-## Przykład
+### Przykład
 ```txt
 32 + 8 + 4 + 2 + 1 = 47
 ```
 
 ---
 <!-- .slide: data-auto-animate -->
-## Wynik
+### Wynik
 
 `101111` = `47`
 
@@ -91,20 +91,20 @@ Liczba binarna: `101111`
 - `A, B, C, D, E, F`
 
 ---
-## zastosowanie
+### zastosowanie
 
 - wygodny zapis wartości binarnych
 - cztery bity to jedna cyfra szesnastkowa
 
 ---
 <!-- .slide: data-auto-animate -->
-## przykład
+### przykład
 
 liczba binarna: `1011011111000110101`
 
 ---
 <!-- .slide: data-auto-animate -->
-## przykład
+### przykład
 
 ```
 1011011111000110101
@@ -112,7 +112,7 @@ liczba binarna: `1011011111000110101`
 
 ---
 <!-- .slide: data-auto-animate -->
-## przykład
+### przykład
 
 ```txt
 101 1011 1110 0011 0101
@@ -120,7 +120,7 @@ liczba binarna: `1011011111000110101`
 
 ---
 <!-- .slide: data-auto-animate -->
-## przykład
+### przykład
 
 ```
 101 1011 1110 0011 0101
@@ -132,7 +132,7 @@ liczba binarna: `1011011111000110101`
 
 ---
 <!-- .slide: data-auto-animate -->
-## przykład
+### przykład
 
 ```
 101 1011 1110 0011 0101
@@ -161,17 +161,17 @@ liczba binarna: `1011011111000110101`
 - 0, 1, 2, 3, 4, 5, 6, 7
 
 ---
-## zastosowanie
+### zastosowanie
 
 - wygodny zapis wartości binarnych
 - trzy bity to jedna cyfra ósemkowa
 
 ---
-## zapis
+### zapis
 
 `537`
 
-- `0537` (C, Java, Python2)
+- `0537` (C, Java, Python2, YAML, JS)
 - `0o537` (Python3)
 
 ------
@@ -180,7 +180,7 @@ liczba binarna: `1011011111000110101`
 *binary term*
 
 ---
-## Bajt
+### Bajt
 
 8 bitów
 
@@ -196,12 +196,12 @@ liczba binarna: `1011011111000110101`
 Różnica: *2.4%*
 
 ---
-## Dlaczego 1024?
+### Dlaczego 1024?
 
 2<sup>10</sup> = 1024 ≈ 1000
 
 ---
-## 1000 vs 1024
+### 1000 vs 1024
 
 <div style='display: flex; justify-content: space-between;'>
 <div style='width: 45%' class=fragment>
@@ -292,14 +292,27 @@ Brak możliwości precyzyjnego wskazania
 ------
 ## ASCII
 
+American Standard Code for Information Interchange
+
+---
+### Znaki ASCII
+
+- litery `A-Z` i `a-z`
+- cyfry
+- podstawowe znaki interpunkcyjne
+- podstawowe matematyczne 
+- znaki sterujące
+
+Łącznie: 127 znaków (7 bitów)
+
 ------
-## strony kodowe (8-bit)
+## Strony kodowe (8-bit)
 
 ---
-## ISO-8859-x
+### ISO-8859-x
 
 ---
-## Windows-125x
+### Windows-125x
 
 ------
 ## Unicode

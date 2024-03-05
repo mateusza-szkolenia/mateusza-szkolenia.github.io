@@ -288,12 +288,12 @@ GNU is Not Unix
 
 - kernel: **GNU Mach/GNU Hurd**
 - shell: **GNU Bash**
-- polecenia: **GNU Coreutils, grep, tar**
+- polecenia: **GNU Coreutils**, **grep**, **tar**
 - bootloader: **GRUB**
-- kompilatory: **GCC, Make**
-- biblioteki: **readline**
-- narzędzia: **GnuPG**, **Octave**, **Emacs**
-- desktop, aplikacje: **GNOME, GIMP**
+- kompilatory: **GCC**, **Make**
+- biblioteki: **Lib C**, **readline**
+- narzędzia: **GnuPG**, **Octave**, **Emacs**, **GDB**
+- desktop, aplikacje: **GNOME**, **GIMP**
 - [i wiele innych](https://en.wikipedia.org/wiki/List_of_GNU_packages)
 
 <style> #oprogramowanie-gnu { font-size: 1.5em; } </style>
@@ -547,15 +547,16 @@ pakiety:     deb         rpm         apk      xbps
 ---
 # Wersje (wydania)
 
-| rok  | dystrybucja  | kernel | GNOME | GCC  | Python |
-|------|--------------|--------|-------|------|--------|
-| 2015 | RHEL 7       | 3.10   | 3.8   | 4.8  | 2.7    |
-| 2018 | Ubuntu 18.04 | 4.15   | 3.28  | 7.4  | 3.6    |
-| 2019 | RHEL 8       | 4.18   | 3.28  | 8.2  | 3.6    |
-| 2020 | Ubuntu 20.04 | 5.4    | 3.36  | 9.0  | 3.8    |
-| 2022 | Ubuntu 22.04 | 5.15   | 3.42  | 11.0 | 3.10   |
-| 2022 | RHEL 9       | 5.14   | 3.40  | 11.2 | 3.9    |
-| 2022 | Ubuntu 22.10 | 5.19   | 3.43  | 12.2 | 3.10   |
+| rok  | dystrybucja  | kernel | GNOME     | GCC  | Python |
+|------|--------------|--------|-----------|------|--------|
+| 2015 | RHEL 7       | 3.10   | 3.8       | 4.8  | 2.7    |
+| 2018 | Ubuntu 18.04 | 4.15   | 3.28      | 7.4  | 3.6    |
+| 2019 | RHEL 8       | 4.18   | 3.28      | 8.2  | 3.6    |
+| 2020 | Ubuntu 20.04 | 5.4    | 36 (3.36) | 9.0  | 3.8    |
+| 2022 | Ubuntu 22.04 | 5.15   | 42 (3.42) | 11.0 | 3.10   |
+| 2022 | RHEL 9       | 5.14   | 40 (3.40) | 11.2 | 3.9    |
+| 2022 | Ubuntu 22.10 | 5.19   | 43 (3.43) | 12.2 | 3.10   |
+| 2024 | Ubuntu 24.04 | 6.8    | 46 (3.46) | 13.0 | 3.12   |
 
 <style> #wersje-wydania + table { font-size: 0.7em; } </style>
 
