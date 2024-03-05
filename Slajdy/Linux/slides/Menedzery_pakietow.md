@@ -98,13 +98,19 @@ instalacja pakietu + zależności
 ---
 ## narzędzie `APT`
 
-- polecenia: `apt`, `apt-get`, `apt-cache`
+- polecenia:
+  - `apt`
+  - `apt-get`
+  - `apt-cache`
 - pobieranie pakietu wraz z zależnościami
 
 ------
 ## pakiety `.rpm`
 
-- RHEL, CentOS, Fedora, SUSE i pochodne
+- RHEL i klony (CentOS, Rocky, AlmaLinux)
+- Fedora
+- SUSE
+- i inne
 
 ---
 ## narzędzie `rpm`
@@ -140,10 +146,10 @@ instalacja pakietu + zależności
 <!-- .slide: data-autofragments -->
 ## właściwe dla języków programowania
 
-- `pip` (`Python`)
-- `npm` (`JavaScript, NodeJS`)
-- `CPAN` (`perl`)
-- `Composer` (`PHP`)
+- `pip` (Python)
+- `npm` (JavaScript, NodeJS)
+- `CPAN` (perl)
+- `Composer` (PHP)
 
 ------
 ## Repozytoria
