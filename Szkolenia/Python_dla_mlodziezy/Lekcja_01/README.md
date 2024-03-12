@@ -71,6 +71,21 @@
     - `liczba🦷 = 32`
 13. Sprawdzić jak dużą liczbę i jak duży napis można przypisać do zmiennej bez zawieszenia komputera. **OSTROŻNIE**
 
+## Pytania
+
+Bez uruchamiania poniższych poleceń, spróbuj przewidzieć jaki będzie wynik ich wykonania. (Wynikiem może być też komunikat o błędzie.)
+
+1. `print(AL + X)`
+2. `print("AL" + "X")`
+3. `print("10" + "20")`
+4. `print(10 + 20)`
+5. `print("10" + 20)`
+6. `print(2 + 2 * 2)`
+7. `print(20 * "3")`
+8. `print("20" * 30)`
+9. `print("20" * "3")`
+10. `print("Mam " + 20 + " lat")`
+
 [^1]: [Równanie kwadratowe](https://pl.wikipedia.org/wiki/R%C3%B3wnanie_kwadratowe)
 
 [^2]: [Rok przestępny](https://pl.wikipedia.org/wiki/Rok_przest%C4%99pny)
