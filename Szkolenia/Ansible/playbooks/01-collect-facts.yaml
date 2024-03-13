@@ -1,0 +1,64 @@
+#!/usr/bin/env ansible-playbook
+
+---
+- name: Collects all facts
+  vars:
+    facts_dir: "../facts"
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Create dir
+      delegate_to: localhost
+      run_once: true
+      ansible.builtin.file:
+        path: "{{ facts_dir }}"
+        state: directory
+        mode: '0755'
+
+    - name: Collect facts
+      ansible.builtin.setup:
+
+    - name: Collect packages facts
+      ansible.builtin.package_facts:
+      when: ansible_distribution not in ['MacOSX']
+
+    - name: Collect services facts
+      ansible.builtin.service_facts:
+
+    - name: Collect users & group facts
+      ansible.builtin.getent:
+        database: "{{ item }}"
+      when: ansible_distribution not in ['MacOSX']
+      loop:
+        - passwd
+        - group
+
+    - name: Make directory
+      delegate_to: localhost
+      ansible.builtin.file:
+        path: "{{ facts_dir }}/{{ inventory_hostname }}"
+        state: directory
+        mode: '0755'
+
+    - name: Save facts
+      delegate_to: localhost
+      ansible.builtin.copy:
+        dest: "{{ facts_dir }}/{{ inventory_hostname }}/all.yaml"
+        content: "{{ ansible_facts | to_nice_yaml }}"
+        mode: '0644'
+
+    - name: "Save facts file {{ item.filename }}"
+      delegate_to: localhost
+      ansible.builtin.copy:
+        dest: "{{ facts_dir }}/{{ inventory_hostname }}/{{ item.filename }}.yaml"
+        content: "{{ ansible_facts[item.key] | to_nice_yaml }}"
+        mode: '0644'
+      loop:
+        - filename: packages
+          key: packages
+        - filename: users
+          key: getent_passwd
+        - filename: groups
+          key: getent_group
+        - filename: services
+          key: services
