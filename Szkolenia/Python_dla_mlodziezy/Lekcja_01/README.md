@@ -82,7 +82,7 @@ Bez uruchamiania poniższych poleceń, spróbuj przewidzieć jaki będzie wynik 
 5. `print("10" + 20)`
 6. `print(2 + 2 * 2)`
 7. `print(20 * "3")`
-8. `print("20" * 30)`
+8. `print("20" * 3)`
 9. `print("20" * "3")`
 10. `print("Mam " + 20 + " lat")`
 
