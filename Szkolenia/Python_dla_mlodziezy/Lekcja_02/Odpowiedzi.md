@@ -18,7 +18,7 @@
     imie = input("Podaj imię: ")
     nazwisko = input("Podaj nazwisko: ")
 
-    inicjaly = imie[0] + nazwisko[0]
+    inicjaly = imie[0] + "." nazwisko[0] + "."
 
     print(f"Inicjały: {inicjaly}")
     ```
@@ -44,7 +44,7 @@
 
     temp_k = temp_c + 273.15
 
-    print(f"Temperatura {temp_c}°C = {temp_f}°F = {temp_k}K")
+    print(f"Temperatura {temp_c}°C = {temp_f:.1f}°F = {temp_k.2f}K")
     ```
 
 5. Napisać program, który pyta o wagę i wzrost i oblicza BMI.
@@ -55,10 +55,10 @@
 
     bmi = waga / wzrost**2
 
-    print(f"BMI: {bmi}")
+    print(f"BMI: {bmi:.1f}")
     ```
 
-6. Napisać program, który pyta o wzrost w cm i podaje go w jednostkach imperialnych[^3] (stopy i cale).
+6. Napisać program, który pyta o wzrost w cm i podaje go w jednostkach imperialnych (stopy i cale).
 
     ```python
     wzrost = float(input("Podaj wzrost w cm: "))
@@ -67,14 +67,52 @@
 
     wzrost_stopy, wzrost_cale = divmod(wzrost_cale, 12)
 
-    print(f"Wzrost: {wzrost_stopy} ft {wzrost_cale} in")
+    print(f"Wzrost: {wzrost_stopy} ft {wzrost_cale:.0f} in")
     ```
 
-7. Napisać program, który pyta o kwotę w PLN i przelicza ją na USD i EUR (wg dzisiejszego kursu NBP[^4]).
+7. Napisać program, który pyta o kwotę w PLN i przelicza ją na USD i EUR (wg dzisiejszego kursu NBP).
 
-8. Napisać program, który pyta o bok kwadratu[^5] i oblicza jego obwód, pole i przekątną.
-9. Napisać program, który pyta o promień koła[^6] i oblicza jego obwód i pole.
-10. Napisać program, który pyta o boki prostkąta[^7] i oblicza jego obwód, pole i przekątną.
+    ```python
+    kurs_EUR = 4.31
+    kurs_USD = 3.95
+
+    kwota_PLN = float(input("Podaj kwotę w PLN: "))
+
+    kwota_EUR = kwota_PLN / kurs_EUR
+    kwota_USD = kwota_PLN / kurs_USD
+
+    print(f"{kwota_PLN:.2f} PLN = {kwota_USD:.2f} USD = {kwota_EUR:.2f} EUR")
+    ```
+
+8. Napisać program, który pyta o bok kwadratu i oblicza jego obwód, pole i przekątną.
+
+    ```python
+    bok = float(input("Podaj bok kwadratu: "))
+
+    obwod = 4 * bok
+    pole = bok**2
+    przekatna = bok * 2**(1/2)
+
+    print(f"Wymiary kwadratu:")
+    print(f"{obwod = }")
+    print(f"{pole = }")
+    print(f"{przekatna = :.2f}")
+    ```
+
+9. Napisać program, który pyta o promień koła i oblicza jego obwód i pole.
+
+    ```python
+    PI = 3.14159
+
+    promien = float(input("Podaj promień koła: "))
+
+    obwod = 2 * PI * promien
+    pole = PI * promien**2
+
+    print(f"Wymiary koła: {obwod = :.1f} {pole = :.1f}")
+    ```
+
+10. Napisać program, który pyta o boki prostkąta i oblicza jego obwód, pole i przekątną.
 11. Napisać program, który pyta o promień podstawy i wysokość stożka[^8] i oblicza jego powierzchnię całkowitą i objętość.
 12. Napisać program, który pyta o odległość między dwoma miastami, czas podróży i oblicza średnią prędkość[^9].
 13. Napisać program, który pyta o masę i objętość przedmiotu i oblicza jego średnią gęstość[^10].

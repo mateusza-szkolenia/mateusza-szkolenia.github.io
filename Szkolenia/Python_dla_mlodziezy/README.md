@@ -1,5 +1,6 @@
 # Python dla młodzieży
 
+## 
 
 ### Oprogramowanie do zainstalowania
 
@@ -8,6 +9,14 @@
 - [Git](https://gitforwindows.org/)
 - opcjonalnie: [PyCharm Edu](https://www.jetbrains.com/pycharm-edu/)
 
+### Interpretery online
+
+Python w przeglądarce - bez instalacji.
+
+- <https://trinket.io/embed/python3>
+- <https://riju.codes/python>
+- <https://coderpad.io/languages/python-3/>
+- <https://onecompiler.com/python>
 
 ## [Lekcja 1](Lekcja_01/)
 
