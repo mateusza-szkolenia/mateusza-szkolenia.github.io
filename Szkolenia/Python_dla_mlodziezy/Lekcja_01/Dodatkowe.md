@@ -92,10 +92,10 @@ from decimal import Decimal as D
 from fractions import Fraction as F
 
 a = F(3, 4)
-d = D('0.01')
+b = D('0.01')
 
 print(a)
-print(d)
+print(b)
 ```
 
 ### Operacje między różnymi typami
@@ -118,8 +118,50 @@ print(D("0.2") ** 2)    # 0.04
 
 #### Liczby zmiennoprzecinkowe `float`
 
-Wykonanie tych operacji wraz z liczbą typu `float` spowoduje konwersję typu `Fraction` na typ `float` i wykonanie operacji w sposób typowy dla `float`.
+Użycie wartości typu `float` wraz z ułamkiem klasy `Fraction` spowoduje konwersję tego drugiego na typ `float` i wykonanie operacji w sposób typowy dla `float`. (Co potencjalnie wprowadzi niedokładność.)
 
+```python
+from fractions import Fraction
 
+a = Fraction(1, 10)
 
+print(a + 0.7)  # 0.7999999999999999
+```
 
+Użycie wartości typu `float` wraz z ułamkiem dziesiętnym `Decimal` jest niedozwolone. Ma to na celu powstrzymanie programisty przed popełnieniem błędu.
+
+```python
+from decimal import Decimal
+
+a = Decimal("0.1")
+
+print(a + 0.7)  # spowoduje błąd
+```
+
+Konwersja typów musi nastąpić jawnie (w jedną lub drugą stronę):
+
+```python
+from decimal import Decimal
+
+a = Decimal("0.1")
+
+print(float(a) + 0.7)       # 0.7999999999999999
+
+print(a + Decimal(0.7))     # 0.7999999999999999555910790150
+```
+
+Użycie ułamków obu typów w jednej operacji nie jest możliwe i również wymaga jawnej konwersji.
+
+```python
+from decimal import Decimal
+from fractions import Fraction
+
+a = Decimal('0.1')
+b = Fraction(1, 10)
+
+print(a + b)                # niedozwolone
+
+print(float(a) + float(b))  # konwersja obu wartości na float
+
+print(Fraction(a) + b)      # konwersja wartości typu `Decimal` na `Fraction`
+```
