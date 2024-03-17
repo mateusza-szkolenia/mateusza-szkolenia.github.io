@@ -31,7 +31,7 @@
 10. Napisać program, który pyta o boki prostkąta[^7] i oblicza jego obwód, pole i przekątną.
 11. Napisać program, który pyta o promień podstawy i wysokość stożka[^8] i oblicza jego powierzchnię całkowitą i objętość.
 12. Napisać program, który pyta o odległość między dwoma miastami, czas podróży i oblicza średnią prędkość[^9].
-13. Napisać program, który pyat o masę i objętość przedmiotu i oblicza jego średnią gęstość[^10].
+13. Napisać program, który pyta o masę i objętość przedmiotu i oblicza jego średnią gęstość[^10].
 14. Napisać program, który pyta o napięcie w V i prąd w mA i oblicza rezystancję[^11] w kΩ.
 15. Napisać program, który pyta o częstotliwość fali radiowej[^12] w Hz i oblicza jej długość (w próżni).
 16. Napisać program, który pyta o wartości dwóch oporników połączonych równolegle i oblicza ich opór zastępczy[^13].
