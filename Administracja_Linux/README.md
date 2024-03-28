@@ -56,6 +56,7 @@
 - [Neofetch](https://github.com/dylanaraps/neofetch)
 - [Molly Guard](https://manpages.ubuntu.com/manpages/bionic/man8/molly-guard.8.html)
 - [etckeeper](https://github.com/wertarbyte/etckeeper)
+- [Semaphore UI](https://www.semui.co/)
 
 ## Komponenty systemowe
 

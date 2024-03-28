@@ -9,6 +9,7 @@
 * [VanillaJS](http://vanilla-js.com/) 😄
 * [jQuery](https://jquery.com/)
 * [htmx](https://htmx.org/)
+* [alpinejs](https://alpinejs.dev/)
 
 * [Leaflet](https://leafletjs.com/) - osadzanie map
 * [ChartJS](https://www.chartjs.org/) - wykresy i grafy
