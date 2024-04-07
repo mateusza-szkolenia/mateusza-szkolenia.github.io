@@ -32,7 +32,7 @@
 * [TypeScript](https://www.typescriptlang.org/)
 * [Haxe](https://haxe.org/)
 
-## Pozaprzeglądarkowe implementacje JavaScript (ECMAScript)
+## Implementacje JavaScript (ECMAScript)
 
 * [NodeJS](https://nodejs.org/en/)
 * [Bun](https://bun.sh/)
@@ -41,6 +41,7 @@
 * [JerryScript](https://jerryscript.net/) - ES5.1 dla mikrokontrolerów
 * [Boa](https://github.com/boa-dev/boa) - napisany w Rust
 * [Elk](https://github.com/cesanta/elk) - podzbiór ES6 dla mikrokontrolerów
+* [SpiderMonkey](https://spidermonkey.dev/) - silnik Mozilli
 
 * [GNOME JavaScript `gjs`](https://gjs-docs.gnome.org/) - API do automatyzacji aplikacji środowiska GNOME
 * [Windows Scripting Host](https://en.wikipedia.org/wiki/Windows_Script_Host) - API do automatyzacji systemu Windows
