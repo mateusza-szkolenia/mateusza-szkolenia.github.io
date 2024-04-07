@@ -64,10 +64,10 @@ from decimal import Decimal
 
 a = Decimal("0.1")
 b = Decimal("0.7")
-c = Decimal("0.3")
+c = Decimal("0.2")
 
 print(a + b)        # wynik 0.8
-print(a + c)        # wynik 0.4
+print(a + c)        # wynik 0.3
 ```
 
 Użycie wartości typu `float` w konstruktorze ujawni niedokładność typu `float`.
@@ -102,7 +102,7 @@ print(b)
 
 #### Liczby całkowite `int`
 
-Klasy `Fraction` i `Decimal` pozwalają na mnożenie, dzielenie, dodawanie, odejmowanie i potęgowanie przez liczb całkowitą (`int`) - wynik pozostaje oryginalnym typem.
+Klasy `Fraction` i `Decimal` pozwalają na mnożenie, dzielenie, dodawanie, odejmowanie i potęgowanie przez liczb całkowitą (`int`). Działania odbywają się zgodnie z oczekiwaniami, a wynik pozostaje oryginalnym typem.
 
 ```python
 from fractions import Fraction
