@@ -61,6 +61,11 @@
 ![fixing-bugs-on-production.jpg](fixing-bugs-on-production.jpg)
 
 
+## `full-stack-developer.jpg`
+
+![full-stack-developer.jpg](full-stack-developer.jpg)
+
+
 ## `girffriend-no-1.jpg`
 
 ![girffriend-no-1.jpg](girffriend-no-1.jpg)
