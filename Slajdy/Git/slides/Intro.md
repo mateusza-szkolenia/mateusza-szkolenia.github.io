@@ -29,5 +29,53 @@
 # BitKeeper
 
 ------
+# Pierwsze wersje gita
+
+---
+- skrypty
+- narzędzia unix
+
+---
+## "cogito"
+
+---
+## brak kompatybilności z Windows
+
+- znaki końca linii
+- nazwy plików
+- prawa dostępu
+- narzędzia shellowe
+
+---
+## podobne narzędzia
+
+---
+### Mercurial (`hg`)
+
+- C, Python, Rust
+- delta frames
+
+---
+### Bazaar (`bzr`)
+
+- Python
+- Ubuntu
+
+---
+### Fossil
+
+- C, SQLite
+
+---
+### GNU Arch
+
+---
+### Perforce
+
+---
+### Darcs
+
+------
+
 [Koniec](./)
 

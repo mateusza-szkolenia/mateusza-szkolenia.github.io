@@ -4,4 +4,3 @@
 
 - Zainstalować Git-a
 - Założyć konto na GitHub.com
-
