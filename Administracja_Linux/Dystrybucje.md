@@ -13,9 +13,10 @@
 
 * [Rocky Linux](https://rockylinux.org/)
 * [AlmaLinux](https://almalinux.org/)
+* [CentOS](https://www.centos.org/)
+* [CentOS Stream](https://www.centos.org/centos-stream/)
 * [Oracle Linux](https://www.oracle.com/linux/)
 * [EuroLinux](https://en.euro-linux.com/eurolinux/what-is/)
-* [CentOS](https://www.centos.org/)
 
 ## Bazujące na [Ubuntu](https://ubuntu.com/) i [Debianie](https://www.debian.org/):
 
