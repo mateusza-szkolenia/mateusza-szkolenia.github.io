@@ -10,13 +10,10 @@
   - porównania ostre i łagodne (`x < 10` i `x <= 10`)
   - porównania wielokrotne (`1 < x < 20`)
   - porównania z wartością logiczną
-- Operacje na napisach
-  - Sprawdzanie zawierania (`in`)
-  - Liczenie wystąpień (`.count()`)
-  - Sprawdzanie początku i końca (`.startswith()`, `.endswith()`)
-  - Wyciąganie fragmentów (`[]`)
-  - Zmiana wielkości liter (`.upper()`, `.lower()`, `.capitalize()`, `.title()`)
-
+- Podstawowe operacje na napisach
+  - Zmiana wielkości liter (`.upper()`, `.lower()`)
+  - Wyciąganie znaków (`[n]`)
+  
 ## Zadania
 
 1. Napisać program, który zapyta o rok urodzenia i napisze, czy dana osoba jest pełnoletnia.
@@ -40,4 +37,3 @@
 [^2]: [Stany skupienia](https://pl.wikipedia.org/wiki/Stan_skupienia_materii)
 
 [^3]: [Znaki zodiaku](https://kobieta.onet.pl/znaki-zodiaku-daty-urodzin-kolejnosc-znaczenie-wyjasniamy/tbp4gnt)
-
