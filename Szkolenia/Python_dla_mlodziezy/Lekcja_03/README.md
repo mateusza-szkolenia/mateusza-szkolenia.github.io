@@ -2,11 +2,11 @@
 
 ## Tematy
 
-- Instrukcja warunkowa `if`
+- Instrukcja warunkowa `if` (`elif`, `else`)
 - Porównania i operacje logiczne
   - typ `bool()`
   - operacje logiczne `and` i `or`
-  - negacja
+  - negacja `not`
   - porównania ostre i łagodne (`x < 10` i `x <= 10`)
   - porównania wielokrotne (`1 < x < 20`)
   - porównania z wartością logiczną

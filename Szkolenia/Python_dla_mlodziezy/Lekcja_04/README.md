@@ -1,4 +1,4 @@
-# Lekcja 4 i dalsza (do rozdzielenia na dni)
+# Lekcja 4
 
 ## Tematy
 
