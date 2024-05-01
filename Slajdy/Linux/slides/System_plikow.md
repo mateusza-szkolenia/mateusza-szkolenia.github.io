@@ -79,7 +79,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 - może wskazywać na plik lub katalog
 - przypomina "Skrót" z Windows
-- rozmiar: długość stringa ze ścieżką
+- rozmiar: długość napisu ze ścieżką
 
 ---
 <!-- .slide: data-autofragments -->
@@ -275,14 +275,15 @@ Uwaga: *(prawie) wszystko jest plikiem*
 - zamykanie znaczników HTML:  
   `<h1>Tytuł</h1>`
 - znak dzielenia w programowaniu:  
-  `1/3`
+  `1 / 3`
 
 ---
 <!-- .slide: data-autofragments -->
 ### Zastosowanie backslasha `\`
 
 - ścieżki w Windows (oraz Symbian i UEFI)
-- *eskejpowanie*
+- *eskejpowanie*:  
+  `printf("Hello, world.\n");`
 - znaczniki LaTeX-a:  
   `\begin{article}`
 
@@ -471,6 +472,7 @@ Ograniczenia klasycznego FAT:
 <!-- .slide: data-autofragments -->
 ## Alternatywne strumienie danych
 
+- [funkcjonalność NTFS](https://en.wikipedia.org/wiki/NTFS#Alternate_data_stream_%28ADS%29)
 - brak w Linuksie
 
 ------
