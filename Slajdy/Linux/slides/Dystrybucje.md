@@ -391,11 +391,13 @@ Debian 11 (Bullseye)
 - dostępność
 - rodzaje licencji
 - sterowniki
+- wsparcie platform (architektury CPU)
 - system pakietów
 
 ----
 <!-- .slide: data-autofragments -->
 ## Systemy pakietów
+
 - `deb`
 - `RPM`
 - inne
