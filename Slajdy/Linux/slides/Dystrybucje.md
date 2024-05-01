@@ -15,7 +15,7 @@ Trudno powiedzieć...
 
 - *Almost one thousand Linux distributions exist.*
   wg [Wikipedii](https://en.wikipedia.org/wiki/Linux_distribution)
-- ok. 260 aktywnych wg [Distrowatch](https://distrowatch.com/dwres.php?resource=popularity)
+- ok. 270 aktywnych wg [Distrowatch](https://distrowatch.com/dwres.php?resource=popularity)
 - ok. 600 wg [ChatGPT](https://chat.openai.com/)
 
 ---
@@ -214,15 +214,19 @@ Na cześć Rocky'ego McGaugha (twórcy CentOS)
 
 **rolling release**
 
+---
+## Backports
+
 ------
 <!-- .slide: data-autofragments -->
 ## Ubuntu
 
-- nowe wydania 2 razy w roku
-  - kwiecień i październik
-- numeracja: `ROK.MIESIĄC` (np. `23.04`)
+- nowe wydania 2 razy w roku  
+  (kwiecień i październik)
+- numeracja: `ROK.MIESIĄC` (np. `24.04`)
 - nazwy kodowe (gatunki zwierząt + przymiotniki)
-- co dwa lata wydanie LTS (Long Term Support)
+- co dwa lata LTS  
+  (Long Term Support)
 
 ---
 ## Dotychczasowe wydania
@@ -266,9 +270,10 @@ Ubuntu 21.10 (Impish Indri)
 Ubuntu 22.10 (Kinetic Kudu)  
 Ubuntu 23.04 (Lunar Lobster)  
 Ubuntu 23.10 (Mantric Minotaur)  
-⸱⸱⸱  
-*Ubuntu 24.04 LTS (Noble Numbat)*  
-*Ubuntu 24.10 ...*
+**Ubuntu 24.04 LTS (Noble Numbat)**  
+...  
+*Ubuntu 24.10 Oracular Oriole*  
+*Ubuntu 25.04 ...*
 
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
 <!-- .slide: data-background="#5e2750" -->
@@ -284,7 +289,7 @@ Ubuntu 23.10 (Mantric Minotaur)
 - wydania co kilka lat
 - numeracja
   - głównych wydań: 7, 8, 9...
-  - poprawek: 8.1, 8.2, 8.3...
+  - poprawek: 9.1, 9.2, 9.3...
 - długie wsparcie (ok. 10 lat)
 
 ---
@@ -296,7 +301,7 @@ Ubuntu 23.10 (Mantric Minotaur)
 ## Fedora
 
 - wydania średnio dwa razy w roku
-- numeracja: ...35, 36, 37, 38...
+- numeracja: ...37, 38, 39, 40...
 - krótkie wsparcie
 - pole eksperymentalne RHEL
 
