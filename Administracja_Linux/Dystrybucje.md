@@ -28,7 +28,6 @@
 * [Ubuntu Budgie](https://ubuntubudgie.org/)
 * [Ubuntu Studio](https://ubuntustudio.org/)
 * [ParrotOS](https://www.parrotsec.org/)
-* [Wubuntu](https://www.wubuntu.org/)
 
 ## Instalatory sieciowe:
 

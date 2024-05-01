@@ -11,12 +11,22 @@ Trudno powiedzieć...
 
 ---
 <!-- .slide: data-autofragments -->
+# Jak liczyć?
+
+- warianty jednej dystrybucji
+- nowe i powstające
+- zaniechane i porzucone
+- wewnętrzne dystrybucje w firmach
+- brak rejestru
+
+---
+<!-- .slide: data-autofragments -->
 # Ale ile?
 
-- *Almost one thousand Linux distributions exist.*
-  wg [Wikipedii](https://en.wikipedia.org/wiki/Linux_distribution)
-- ok. 270 aktywnych wg [Distrowatch](https://distrowatch.com/dwres.php?resource=popularity)
-- ok. 600 wg [ChatGPT](https://chat.openai.com/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Linux_distribution): *Almost one thousand Linux distributions exist.*
+- [Distrowatch](https://distrowatch.com/dwres.php?resource=popularity): ok. 270 aktywnych
+- [ChatGPT](https://chat.openai.com/): *over 600*
+- [Mateusz](https://mateusza-szkolenia.github.io/Administracja_Linux/Dystrybucje.html): około 50 wartych uwagi
 
 ---
 <!-- .slide: data-autofragments -->
