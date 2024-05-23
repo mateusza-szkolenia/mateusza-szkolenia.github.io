@@ -103,7 +103,7 @@
 ### Chmurowe
 
 * [Photon OS](https://vmware.github.io/photon/)
-* [CBL-Mariner](https://microsoft.github.io/CBL-Mariner/)
+* [Azure Linux (CBL-Mariner)](https://github.com/microsoft/azurelinux)
 
 ## Podsystemy
 
