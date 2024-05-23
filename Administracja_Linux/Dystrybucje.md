@@ -159,6 +159,8 @@
 * [HaikuOS](https://www.haiku-os.org/) - klon BeOS
 * [Plan 9](https://p9f.org/)
 * [TempleOS](https://templeos.org/)
+* [SerenityOS](https://serenityos.org)
+* [Essence](https://nakst.gitlab.io/essence)
 
 # Emulator PC w przeglądarce
 
