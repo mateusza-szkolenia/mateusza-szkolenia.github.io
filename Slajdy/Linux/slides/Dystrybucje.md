@@ -286,7 +286,7 @@ Ubuntu 23.10 (Mantric Minotaur)
 *Ubuntu 25.04 ...*
 
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
-<!-- .slide: data-background="#5e2750" -->
+<!-- .slide: data-background="linear-gradient(151deg, rgba(2,0,36,1) 3%, rgba(85,30,61,1) 43%, rgba(99,33,69,1) 74%, rgba(156,58,47,1) 94%)" -->
 
 ---
 <!-- .slide: data-background="#fff" -->
@@ -323,7 +323,7 @@ Ubuntu 23.10 (Mantric Minotaur)
 <!-- .slide: data-autofragments -->
 ## Debian
 
-- wydania co kilka lat
+- wydania co dwa lata
 - numery + nazwy kodowe
 - nazwy - imiona bohaterów bajki *Toy Story*
 - **Sid** - wydanie eksperymentalne
