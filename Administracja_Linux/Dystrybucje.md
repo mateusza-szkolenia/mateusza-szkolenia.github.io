@@ -28,6 +28,12 @@
 * [Ubuntu Budgie](https://ubuntubudgie.org/)
 * [Ubuntu Studio](https://ubuntustudio.org/)
 * [ParrotOS](https://www.parrotsec.org/)
+* [peppermintOS](https://peppermintos.com/)
+
+## Bazujące na dystrybucjach z rodziny EL i Fedora:
+
+* [Ultramarine](https://ultramarine-linux.org/)
+* [Network Security Toolkit](https://www.networksecuritytoolkit.org)
 
 ## Instalatory sieciowe:
 
@@ -35,18 +41,21 @@
 - [Ubuntu 20.04 LTS - x86-64 `mini.iso`](http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/)
 - [Debian](https://www.debian.org/distrib/netinst)
 
-## Zorientowane na prostotę i lekkość
+## Inne
 
 * [Void Linux](https://voidlinux.org/)
 * [Alpine Linux](https://alpinelinux.org/)
 * [Arch Linux](https://archlinux.org/)
+* [Manjaro](https://manjaro.org/)
 * [NixOS](https://nixos.org)
+* [Damn Small Linux](https://www.damnsmalllinux.org)
+* [Slackware Linux](http://www.slackware.com/)
+* [Gentoo Linux](https://www.gentoo.org/)
+* [Garuda Linux](https://garudalinux.org/)
+* [Bedrock Linux](https://bedrocklinux.org/)
+* [Solus](https://getsol.us/)
 
 *Uwaga! "Prostota" niekoniecznie oznacza "łatwość użytkowania" - często wręcz przeciwnie.*
-
-## Linux bez dystrybucji
-
-* [Linux From Scratch](https://www.linuxfromscratch.org/)
 
 ## LiveCD z dużą ilością narzędzi specjalistycznych
 
@@ -55,14 +64,6 @@
 * [SystemRescue](https://www.system-rescue.org/)
 * [Tails](https://tails.boum.org/)
 * [Knoppix](https://www.knopper.net/knoppix/)
-
-## Inne
-
-* [Slackware Linux](http://www.slackware.com/)
-* [Gentoo Linux](https://www.gentoo.org/)
-* [Garuda Linux](https://garudalinux.org/)
-* [Bedrock Linux](https://bedrocklinux.org/)
-* [Solus](https://getsol.us/)
 
 ## Dedykowane dla konkretnych urządzeń, usług i zastosowań
 
@@ -85,6 +86,7 @@
 
 * [OpenWRT](https://openwrt.org/)
 * [OpenWall](https://www.openwall.com/)
+* [VyOS](https://vyos.io/)
 
 ### Serwery lokalne (medialne)
 
@@ -104,6 +106,10 @@
 
 * [Photon OS](https://vmware.github.io/photon/)
 * [Azure Linux (CBL-Mariner)](https://github.com/microsoft/azurelinux)
+
+## Linux bez dystrybucji
+
+* [Linux From Scratch](https://www.linuxfromscratch.org/)
 
 ## Podsystemy
 
@@ -142,6 +148,7 @@
     * [NetBSD](https://www.netbsd.org/)
     * [DragonflyBSD](https://www.dragonflybsd.org/)
     * [Debian GNU/kFreeBSD](https://www.debian.org/ports/kfreebsd-gnu/)
+    * [GhostBSD](https://ghostbsd.org/)
 * Solaris i pochodne
     * [illumos](https://illumos.org/)
         * [openindiana](https://www.openindiana.org/)
