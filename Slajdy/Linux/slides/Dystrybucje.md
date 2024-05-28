@@ -394,7 +394,7 @@ Debian 11 (Bullseye)
 - wsparcie platform (architektury CPU)
 - system pakietów
 
-----
+---
 <!-- .slide: data-autofragments -->
 ## Systemy pakietów
 
