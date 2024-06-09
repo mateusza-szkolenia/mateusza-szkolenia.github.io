@@ -156,19 +156,21 @@ Tylko wersje od 8.3 wzwyż.
 *Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux®.*
 
 ---
+<!-- .slide: data-background="linear-gradient(90deg, rgba(47,136,188,1) 5%, rgba(253,229,47,1) 9%, rgba(207,78,42,1) 57%, rgba(202,37,42,1) 61%, rgba(202,37,42,1) 75%, rgba(153,39,77,1) 78%, rgba(44,30,85,1) 100%);" -->
 ## kalendarium AlmaLinux
 
 | wersja | RHEL       | AlmaLinux  | opóźnienie |
 |--------|------------|------------|------------|
 | 8.3    | 2020-11-03 | 2021-03-30 |        147 |
-| 8.6    | 2022-05-10 | 2022-05-12 |          2 |
 | 8.7    | 2022-11-09 | 2022-11-10 |          1 |
 | 8.8    | 2023-05-16 | 2023-05-18 |          2 |
-| 8.9    | 2023-11-14 | .......... |            |
+| 8.9    | 2023-11-14 | 2023-11-21 |          7 |
+| 8.10   | 2024-05-22 | 2024-05-28 |          6 |
 | 9.0    | 2022-05-17 | 2022-05-26 |          9 |
-| 9.1    | 2022-11-15 | 2022-11-17 |          2 |
 | 9.2    | 2023-05-10 | 2023-05-10 |          0 |
-| 9.3    | 2023-11-07 | 2023-11-13 |          6 |
+| 9.4    | 2024-04-30 | 2024-05-06 |          6 |
+
+[źródło](https://en.wikipedia.org/wiki/AlmaLinux#Releases)
 
 ---
 ## kalendarium Rocky Linux
@@ -176,13 +178,14 @@ Tylko wersje od 8.3 wzwyż.
 | wersja | RHEL       | Rocky Linux| opóźnienie |
 |--------|------------|------------|------------|
 | 8.3    | 2020-11-03 | ...        |        ... |
-| 8.7    | 2022-11-09 | 2022-11-14 |          5 |
-| 8.8    | 2023-05-16 | 2023-05-20 |          4 |
+| 8.4    | 2021-05-18 | 2021-06-21 |         34 |
 | 8.9    | 2023-11-14 | 2023-11-22 |          8 |
+| 8.10   | 2024-05-22 | 2024-05-30 |          8 |
 | 9.0    | 2022-05-17 | 2022-07-15 |         58 |
-| 9.1    | 2022-11-15 | 2022-11-26 |         11 |
-| 9.2    | 2023-05-10 | 2023-05-16 |          6 |
 | 9.3    | 2023-11-07 | 2023-11-20 |         13 |
+| 9.4    | 2024-04-30 | 2024-05-09 |          9 |
+
+[źródło](https://en.wikipedia.org/wiki/Rocky_Linux#Releases)
 
 ------
 # "Closed source"
@@ -193,6 +196,8 @@ Kod dostępny tylko dla płacących klientów.
 
 ---
 # Przyszłość?
+
+Maj 2024: Rocky Linux i AlmaLinux wydają wersje 8.10 i 9.4.
 
 ...
 

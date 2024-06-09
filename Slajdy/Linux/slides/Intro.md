@@ -47,7 +47,7 @@ PDP-11
 
 ---
 <!-- .slide: data-autofragments -->
-## Cechy UNIXa
+## Cechy UNIX-a
 
 - wielozadaniowość
 - wielodostępność
@@ -56,7 +56,7 @@ PDP-11
 
 ---
 <!-- .slide: data-autofragments -->
-## Filozofia UNIXa
+## Filozofia UNIX-a
 
 - proste programy wykonujące jedno zadanie
 - wynik działania programu łatwy do dalszego przetwarzania
