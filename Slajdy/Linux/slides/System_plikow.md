@@ -455,6 +455,7 @@ Ograniczenia klasycznego FAT:
 - *case insensitive*
 
 ---
+<!-- .slide: data-background="#066" -->
 **Systemy plików w Windows (FAT, NTFS) przechowują obie nazwy: LFN i SFN.**
 
 ---

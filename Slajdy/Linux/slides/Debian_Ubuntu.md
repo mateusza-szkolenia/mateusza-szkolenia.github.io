@@ -34,6 +34,7 @@
 - największa baza pakietów (ok. 51 tys.)
 
 ------
+<!-- .slide: data-autofragments -->
 ## Mark Shuttleworth
 
 <div class='cols cols-2'>
@@ -41,7 +42,7 @@
 
 ![Mark Shuttleworth](img/mark-shuttleworth.jpg)
 
-1973
+1973-
 
 </div>
 <div>
@@ -69,7 +70,7 @@
 ## Ubuntu
 
 - bazuje na Debianie
-- całkowicie darmowy
+- całkowicie darmowe
 - komercyjne wsparcie
 
 ---
@@ -78,6 +79,7 @@
 
 - firma stworzona przez Marka Shuttlewortha
 - wydaje Ubuntu
+- świadczy usługi dodatkowe: [Ubuntu Pro](https://ubuntu.com/pro), [Landscape](https://ubuntu.com/landscape)
 
 ---
 ## Nazwa
