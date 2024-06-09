@@ -68,7 +68,10 @@ RHEL - komercyjne wolne oprogramowanie
 | 7.0    | 2014-06-10 | 2014-07-07 |         27 |
 | 8.0    | 2019-05-07 | 2019-09-24 |        140 |
 
-<style> #centos---kalendarium + table { font-size: 0.55em; } </style>
+<!-- .slide: data-background="linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(156,207,31,1) 5%, rgba(255,255,255,1) 10%, rgba(241,167,17,1) 15%, rgba(255,255,255,1) 20%, rgba(150,24,122,1) 25%, rgba(255,255,255,1) 30%, rgba(33,32,120,1) 35%, rgba(255,255,255,1) 40%)" -->
+
+<style> #centos---kalendarium + table { font-size: 0.55em; color: black; } </style>
+<style> #centos---kalendarium { color: black; } </style>
 
 ------
 <!-- .slide: data-autofragments -->
@@ -110,7 +113,7 @@ Grudzień 2020: "zarząd" fundacji postanawia:
 
 ---
 <!-- .slide: data-background="#fff" -->
-![friendship ended](img/friendship-ended-with-centos.png)
+![friendship ended](img/friendship-ended-with-centos.png) <!-- .element: style="height: 60vh;" -->
 
 ---
 <!-- .slide: data-autofragments -->
@@ -156,7 +159,6 @@ Tylko wersje od 8.3 wzwyż.
 *Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux®.*
 
 ---
-<!-- .slide: data-background="linear-gradient(90deg, rgba(47,136,188,1) 5%, rgba(253,229,47,1) 9%, rgba(207,78,42,1) 57%, rgba(202,37,42,1) 61%, rgba(202,37,42,1) 75%, rgba(153,39,77,1) 78%, rgba(44,30,85,1) 100%);" -->
 ## kalendarium AlmaLinux
 
 | wersja | RHEL       | AlmaLinux  | opóźnienie |
@@ -171,6 +173,12 @@ Tylko wersje od 8.3 wzwyż.
 | 9.4    | 2024-04-30 | 2024-05-06 |          6 |
 
 [źródło](https://en.wikipedia.org/wiki/AlmaLinux#Releases)
+
+<style>
+#kalendarium-almalinux + table { font-size: .7em; }
+</style>
+
+<!-- .slide: data-background="linear-gradient(227deg, rgba(47,136,188,1) 5%, rgba(253,229,47,1) 9%, rgba(207,78,42,1) 57%, rgba(202,37,42,1) 61%, rgba(202,37,42,1) 75%, rgba(153,39,77,1) 78%, rgba(44,30,85,1) 100%)" -->
 
 ---
 ## kalendarium Rocky Linux
@@ -187,17 +195,24 @@ Tylko wersje od 8.3 wzwyż.
 
 [źródło](https://en.wikipedia.org/wiki/Rocky_Linux#Releases)
 
+<style>
+#kalendarium-rocky-linux + table { font-size: .7em; }
+</style>
+
+<!-- .slide: data-background="linear-gradient(120deg, rgba(17,17,20,1) 53%, rgba(0,187,130,1) 82%, rgba(0,187,130,1) 93%, rgba(17,17,20,1) 95%)" -->
 ------
 # "Closed source"
 
-Czerwiec 2023: RedHat podejmuje decyzję o niepublikowaniu kodu źródłowego.
+Czerwiec 2023:  
+RedHat podejmuje decyzję o niepublikowaniu kodu źródłowego.
 
-Kod dostępny tylko dla płacących klientów.
+Kod źródłowy tylko dla płacących klientów.
 
 ---
 # Przyszłość?
 
-Maj 2024: Rocky Linux i AlmaLinux wydają wersje 8.10 i 9.4.
+Maj 2024:  
+Rocky Linux i AlmaLinux wydają wersje 8.10 i 9.4.
 
 ...
 

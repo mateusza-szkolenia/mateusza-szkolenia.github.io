@@ -2,7 +2,7 @@
 
 ---
 <!-- .slide: data-autofragments -->
-# Ile?
+## Ile?
 
 Trudno powiedzieć...
 
@@ -11,7 +11,7 @@ Trudno powiedzieć...
 
 ---
 <!-- .slide: data-autofragments -->
-# Jak liczyć?
+## Jak liczyć?
 
 - warianty jednej dystrybucji
 - nowe i powstające
@@ -21,7 +21,7 @@ Trudno powiedzieć...
 
 ---
 <!-- .slide: data-autofragments -->
-# Ale ile?
+## Ale ile?
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Linux_distribution): *Almost one thousand Linux distributions exist.*
 - [Distrowatch](https://distrowatch.com/dwres.php?resource=popularity): ok. 270 aktywnych
@@ -30,13 +30,15 @@ Trudno powiedzieć...
 
 ---
 <!-- .slide: data-autofragments -->
-# Drzewo
+## Drzewo
 
 <https://upload.wikimedia.org/wikipedia/commons/b/b5/Linux_Distribution_Timeline_21_10_2021.svg>
 
 ---
 <!-- .slide: data-autofragments -->
-# Dlaczego tak dużo?
+
+## Dlaczego tak dużo?
+
 - *A po co?*
 - *A dlaczego?*
 - *A komu to potrzebne?*
@@ -49,7 +51,7 @@ Trudno powiedzieć...
 
 ---
 
-![Buzz](img/buzz_lightyear_distros.jpg) <!-- .element: style="height: 50vh;" -->
+![Buzz](img/buzz_lightyear_distros.jpg) <!-- .element: style="height: 60vh;" -->
 
 ------
 <!-- .slide: data-autofragments -->

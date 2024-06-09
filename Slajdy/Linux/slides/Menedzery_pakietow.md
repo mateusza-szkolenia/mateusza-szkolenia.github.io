@@ -25,7 +25,8 @@
 - skrypty pomocnicze *(pre-install, post-install ...)*
 
 ---
-Uwaga: *Praktycznie każdy plik systemowy pochodzi z jakiegoś pakietu.*
+Uwaga:  
+*Praktycznie każdy plik systemowy pochodzi z jakiegoś pakietu.*
 
 ------
 <!-- .slide: data-autofragments -->
