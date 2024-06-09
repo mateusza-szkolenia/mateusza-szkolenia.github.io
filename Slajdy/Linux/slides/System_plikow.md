@@ -22,6 +22,7 @@
 - obiekty w katalogu mają unikalne nazwy
 
 ---
+<!-- .slide: data-background="#05a" -->
 Uwaga: *(prawie) wszystko jest plikiem*
 
 ---
@@ -260,6 +261,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#05a" -->
 ### Uwagi dot. slasha i backslasha
 
 - w Windows można używać slasha zamiast backslasha
@@ -267,6 +269,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#eee" -->
 ### Zastosowanie slasha `/`
 
 - ścieżki w Linuksie, Uniksach, macOS
@@ -279,6 +282,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#eee" -->
 ### Zastosowanie backslasha `\`
 
 - ścieżki w Windows (oraz Symbian i UEFI)
@@ -289,6 +293,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 ------
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#eee" -->
 ## Rozszerzenia i typy plików
 
 <div style='display: flex; justify-content: space-around; flex-wrap: wrap;'>
@@ -396,6 +401,7 @@ Uwaga: *(prawie) wszystko jest plikiem*
 
 ------
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#eee" -->
 ## Przenośność plików
 
 Ograniczenia w Windows:
@@ -405,6 +411,7 @@ Ograniczenia w Windows:
 
 ------
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#eee" -->
 ## Tłumaczone nazwy katalogów w Windows
 
 <div style='display: flex'>
@@ -423,6 +430,7 @@ Ograniczenia w Windows:
 
 ------
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#066" -->
 ## Nazwy 8.3
 
 Ograniczenia klasycznego FAT:
@@ -435,6 +443,7 @@ Ograniczenia klasycznego FAT:
 
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#066" -->
 ## VFAT i Long File Names
 
 - wprowadzone wraz z Windows 95
@@ -450,6 +459,7 @@ Ograniczenia klasycznego FAT:
 
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#066" -->
 ## Nazwy SFN (8.3) i LFN
 
 <div style='display: flex'>
@@ -470,12 +480,14 @@ Ograniczenia klasycznego FAT:
 
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#066" -->
 ## Alternatywne strumienie danych
 
 - [funkcjonalność NTFS](https://en.wikipedia.org/wiki/NTFS#Alternate_data_stream_%28ADS%29)
 - brak w Linuksie
 
 ------
+<!-- .slide: data-background="#eee" -->
 ## Programy
 
 <div style='display: flex; justify-content: space-around;'>
@@ -493,6 +505,7 @@ Ograniczenia klasycznego FAT:
 </div>
 
 ------
+<!-- .slide: data-background="#eee" -->
 ## Pliki ukryte
 
 <div style='display: flex; justify-content: space-around;'>
@@ -507,6 +520,7 @@ Ograniczenia klasycznego FAT:
 </div>
 
 ------
+<!-- .slide: data-background="#eee" -->
 <!-- .slide: data-autofragments -->
 ## Pliki "ukryte" w Linuksie
 
@@ -520,6 +534,7 @@ Ograniczenia klasycznego FAT:
 * "ukrycie" oznacza zmianę nazwy
 
 ------
+<!-- .slide: data-background="#eee" -->
 <!-- .slide: data-autofragments -->
 ## Znaki końca linii
 
@@ -529,7 +544,7 @@ Ograniczenia klasycznego FAT:
   <p>dwa bajty</p>
   <p>CR LF</p>
   <p>0x0d 0x0a, (13, 10)</p>
-  <p><tt>\r\n</tt></p>
+  <p><code>\r\n</code></p>
   <p>separator linii</p>
 </div>
 <div style='width: 40%; text-align: center;' class=fragment>
@@ -537,7 +552,7 @@ Ograniczenia klasycznego FAT:
   <p>jeden bajt</p>
   <p>LF</p>
   <p>0x0a (10)</p>
-  <p><tt>\n</tt></p>
+  <p><code>\n</code></p>
   <p>na końcu linii</p>
 </div>
 </div>
