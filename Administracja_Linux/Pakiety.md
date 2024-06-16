@@ -30,6 +30,16 @@
     * [Mozilla Team (Firefox)](https://launchpad.net/~mozillateam/+archive/ubuntu/ppa)
     * [Chromium](https://launchpad.net/~savoury1/+archive/ubuntu/chromium)
 
+### The ELRepo Project
+* Strona: <https://elrepo.org/>
+
+### Extra PAckages for Enterprise Linux (EPEL)
+* Strona: <https://docs.fedoraproject.org/en-US/epel/>
+
+### Remi's (EL)
+* Strona: <https://blog.remirepo.net/>
+* Pakiety: PHP
+
 ### RPM Fusion (Fedora, EL7, EL8, EL9)
 * Strona: <https://rpmfusion.org/>
 
