@@ -26,7 +26,7 @@ Trudno powiedzieć...
 - [Wikipedia](https://en.wikipedia.org/wiki/Linux_distribution): *Almost one thousand Linux distributions exist.*
 - [Distrowatch](https://distrowatch.com/dwres.php?resource=popularity): ok. 270 aktywnych
 - [ChatGPT](https://chat.openai.com/): *over 600*
-- [Mateusz](https://mateusza-szkolenia.github.io/Administracja_Linux/Dystrybucje.html): około 50 wartych uwagi
+- [Mateusz](https://mateusza-szkolenia.github.io/Sysadmin/Dystrybucje.html): około 50 wartych uwagi
 
 ---
 <!-- .slide: data-autofragments -->

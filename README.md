@@ -23,7 +23,7 @@ Materiały do kursów web-development. (Głównie frontend, HTML5, CSS)
 <section markdown="1">
 <figure>🐧</figure>
 
-## [Administracja Linux](Administracja_Linux/)
+## [Sysadmin](Sysadmin/)
 
 Materiały do szkoleń z Linuksa (artykuły, ciekawe dystrybucje, tutoriale, systemy pakietów).
 
