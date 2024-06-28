@@ -99,3 +99,6 @@
 ### `Repology`
 * Strona: <https://repology.org/>
 
+### `Code Galaxies`
+* Strona: <https://anvaka.github.io/pm/>
+
