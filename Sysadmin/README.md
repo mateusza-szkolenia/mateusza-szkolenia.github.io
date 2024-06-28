@@ -73,6 +73,8 @@
 
 ## [Ansible](Ansible/)
 
+## [Windows](Windows.md)
+
 ## Materiały do szkoleń w [ALX](https://alx.pl)
 
 - <http://students.alx.pl/zdalnie/admin.html>
