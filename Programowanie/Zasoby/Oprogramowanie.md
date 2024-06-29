@@ -6,6 +6,8 @@
 * [Visual Studio Code](https://code.visualstudio.com/) (Win, Lin, Mac)
 * [Vim](https://www.vim.org/download.php) (Win, Lin, Mac)
 
+* [ImHex](https://github.com/WerWolv/ImHex) (Win, Lin, Mac)
+
 ## Programy graficzne
 
 * [GIMP](https://www.gimp.org/) (Win, Lin, Mac)

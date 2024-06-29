@@ -1,8 +1,8 @@
-# CHAD PRINCIPLES! 
+# CHAD PRINCIPLES!
 
 Każdy zna i słyszał o SOLID, KISS, DRY, DI, HWDP i innych popularnych zestawach dobrych praktyk w programowaniu.
 
-Ale założę się, że nikt na OMD nie zna pryncypiów CHAD dotyczących dobrych praktyk korzystania z systemu kontroli wersji i recenzji kodu. 
+Ale założę się, że nikt na OMD nie zna pryncypiów CHAD dotyczących dobrych praktyk korzystania z systemu kontroli wersji i recenzji kodu.
 
 Do rzeczy!
 
@@ -29,7 +29,7 @@ Bardziej szczegółowe C. Napisz porządnie tę wiadomość. Wiem, że zostałe�
 
 Stosujesz, czy jesteś lamus?
 
-Pozdrawiam cieplutko! 
+Pozdrawiam cieplutko!
 
 --------
 autor: [Grzegorz Pawłowski](https://ohmydev.pl/users/grzegorzpawlowski)
