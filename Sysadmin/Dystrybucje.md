@@ -136,6 +136,7 @@
 
 * [Justin Bieber Linux](https://biebian.sourceforge.net/)
 * [Hannah Montana Linux](https://hannahmontana.sourceforge.net/)
+* [Hotdog Linux](https://hotdoglinux.com/)
 
 # Inne systemy wzorowane i bazujące na UNIX-ie
 
