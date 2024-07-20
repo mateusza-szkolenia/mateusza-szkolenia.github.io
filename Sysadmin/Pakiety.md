@@ -30,6 +30,11 @@
     * [Mozilla Team (Firefox)](https://launchpad.net/~mozillateam/+archive/ubuntu/ppa)
     * [Chromium](https://launchpad.net/~savoury1/+archive/ubuntu/chromium)
 
+### Repozytoria EL
+* Rocky Linux: <https://wiki.rockylinux.org/rocky/repo/#notes-on-unlisted-repositories>
+* Alma Linux: <https://wiki.almalinux.org/repos/AlmaLinux.html>
+* Instalacja: `dnf config-manager --set-enabled crb`
+
 ### The ELRepo Project
 * Strona: <https://elrepo.org/>
 
