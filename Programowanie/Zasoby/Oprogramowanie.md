@@ -40,24 +40,35 @@
 * [Busybox Win-32](https://frippery.org/busybox/)
 * narzędzia z pakietu [Git for Windows](https://git-scm.com/)
 
-
 ## SQLite
 
 * [SQLite](http://sqlite.org/index.html) (Win, Lin, Mac)
 * [SQLiteBrowser](http://sqlitebrowser.org/) (Win, Lin, Mac)
 * [DBeaver](https://dbeaver.io/) (Win, Lin, Mac)
 
-## Narzędzia Online
+# Narzędzia Online
+
+## Współdzielenie kodu online
+
+* [Pastebin](https://pastebin.com/)
+* [Termbin](https://termbin.com/)
+* [GitHub Gist](https://gist.github.com/)
+
+## Uruchamianie kodu online
 
 * [Replit](https://replit.com/)
 * [Riju](https://riju.codes/) [[kod źródłowy na github.com]](https://github.com/radian-software/riju)
-* [Godbolt Compiler Explorer](https://godbolt.org/)
 * [Phoenix](https://phcode.dev/)
 * [JSFiddle](https://jsfiddle.net/)
-* [Pastebin](https://pastebin.com/)
-* [GitHub Gist](https://gist.github.com/)
+* [Sourcehut](https://sourcehut.org/)
 
-## Fonty dla programistów
+## Analiza kodu online
+
+* [Godbolt Compiler Explorer](https://godbolt.org/)
+* [Decompiler Exporer](https://dogbolt.org/)
+
+
+# Fonty dla programistów
 
 * [iosevka](https://typeof.net/Iosevka/)
 * [FiraCode](https://github.com/tonsky/FiraCode#readme)
