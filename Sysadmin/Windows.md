@@ -32,3 +32,7 @@ Strona: <https://github.com/zodiacon/TotalRegistry>
 ## WinSpy++
 
 Strona: <https://github.com/strobejb/winspy>
+
+## `autounattend.xml` generator for Windows 10/11
+
+Strona: <https://schneegans.de/windows/unattend-generator/>
