@@ -229,6 +229,8 @@ Na cześć Rocky'ego McGaugha (twórcy CentOS)
 ---
 ## Backports
 
+Nowsze wersje pakietów, wyprzedzające planowane wydania.
+
 ------
 <!-- .slide: data-autofragments -->
 ## Ubuntu

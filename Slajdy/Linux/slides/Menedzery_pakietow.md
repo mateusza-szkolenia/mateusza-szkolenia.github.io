@@ -11,7 +11,7 @@
 ## Anatomia pakietu
 
 ---
-### Kompresja
+### Skompresowane archiwum
 
 (gzip lub podobna)
 
@@ -71,13 +71,13 @@ Uwaga:
 ---
 ## Aktualizacja stanu
 
-Menedżer pakietów rejestruje stan każdego pakietu.
+Menedżer pakietów śledzi i rejestruje stan każdego pakietu.
 
 ---
 ## Podpisy cyfrowe
 
-- poszczególnych pakietów
-- listy pakietów
+- poszczególnych pakietów (np. rpm)
+- listy pakietów (np. APT/deb)
 
 ------
 ## Instalacja oprogramowania
@@ -104,6 +104,7 @@ instalacja pakietu + zależności
   - `apt-get`
   - `apt-cache`
 - pobieranie pakietu wraz z zależnościami
+- użycie `dpkg` do instalacji
 
 ------
 ## pakiety `.rpm`
@@ -116,11 +117,22 @@ instalacja pakietu + zależności
 ---
 ## narzędzie `rpm`
 
+- sprawdzanie stanu, informacji
+- instalacja, usuwanie
+- weryfikacja podpisów
+- pojedyncze pakiety
+
 ---
 ## narzędzie `yum` / `dnf`
 
-- `yum` (do RHEL 7)
-- `dnf` (od RHEL 8, od Fedory 22)
+- pobieranie list pakietów
+- wyszukiwanie pakietów
+- pobieranie pakietów wraz z zależnościami
+
+## dlaczego `yum` albo `dnf`?
+
+- `yum` (do EL 7)
+- `dnf` (od EL 8, od Fedory 22)
 
 ------
 <!-- .slide: data-autofragments -->
@@ -151,9 +163,24 @@ instalacja pakietu + zależności
 - `npm` (JavaScript, NodeJS)
 - `CPAN` (perl)
 - `Composer` (PHP)
+- `RubyGems `gem` (Ruby)
+- `Cargo` (Rust)
 
 ------
-## Repozytoria
+## repozytoria
+
+- oficjalne
+- społecznościowe
+- niezależne
+- produktowe
+
+------
+## phased updates
+
+Etapowe wdrażanie poprawek pośród użytkowników
+
+- atrybut `Phased-Update-Percentage` w APT
+- dystrybucje: Ubuntu
 
 ------
 [Koniec](./)
