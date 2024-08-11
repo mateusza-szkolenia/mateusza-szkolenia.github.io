@@ -15,3 +15,12 @@ Strona: <https://github.com/massgravel/Microsoft-Activation-Scripts>
 ## Win11Debloat
 
 Strona: <https://github.com/Raphire/Win11Debloat>
+
+## Flare VM
+
+Strona: <https://github.com/mandiant/flare-vm>
+
+## Certify The Web
+
+Kod źródłowy: <https://github.com/webprofusion/certify>  
+Strona: <https://certifytheweb.com/>
