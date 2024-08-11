@@ -24,3 +24,11 @@ Strona: <https://github.com/mandiant/flare-vm>
 
 Kod źródłowy: <https://github.com/webprofusion/certify>  
 Strona: <https://certifytheweb.com/>
+
+## Total Registry
+
+Strona: <https://github.com/zodiacon/TotalRegistry>
+
+## WinSpy++
+
+Strona: <https://github.com/strobejb/winspy>
