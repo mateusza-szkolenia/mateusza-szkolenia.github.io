@@ -94,10 +94,10 @@ Kod źródłowy z zajęć.
 
 ## Kontakt
 
-[LinkedIn](https://www.linkedin.com/in/mateusza/) •
-[Twitter](https://twitter.com/mateusza) •
-[✉️ alx.pl](mailto:m.adamowski@alx.pl)
-
+LinkedIn: [mateusza](https://www.linkedin.com/in/mateusza/)  
+𝕏: [mateusza](https://x.com/mateusza)  
+✉️  alx.pl: [m.adamowski](mailto:m.adamowski@alx.pl)  
+github: [mateusza](https://github.com/mateusza/)
 
 ![URL](./style/qr.png)
 
