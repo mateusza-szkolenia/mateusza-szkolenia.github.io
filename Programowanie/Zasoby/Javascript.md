@@ -10,6 +10,7 @@
 * [jQuery](https://jquery.com/)
 * [htmx](https://htmx.org/)
 * [alpinejs](https://alpinejs.dev/)
+* [datastar](https://data-star.dev/)
 
 * [Leaflet](https://leafletjs.com/) - osadzanie map
 * [ChartJS](https://www.chartjs.org/) - wykresy i grafy
