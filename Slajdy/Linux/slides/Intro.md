@@ -20,7 +20,7 @@ PDP-11
 - język C
 - przeznaczenie:
   - centrale telefoniczne
-  - serwery
+  - _mainframe_ (serwery)
 
 ---
 <!-- .slide: data-autofragments -->
