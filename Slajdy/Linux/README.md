@@ -9,6 +9,7 @@
 * [30: Shell w Linuksie](Shell.html) \[[MD](slides/Shell.md)\]
 * [30: System plików w Linuksie](System_plikow.html) \[[MD](slides/System_plikow.md)\]
 * [30: Uprawnienia w Linuksie](Uprawnienia.html) \[[MD](slides/Uprawnienia.md)\]
+* [31: Zaawansowany Bash](Zaawansowany_Bash.html) \[[MD](slides/Zaawansowany_Bash.md)\]
 * [40: Filesystem Hierarchy Standard](FHS.html) \[[MD](slides/FHS.md)\]
 * [50: Dyski](Dyski.html) \[[MD](slides/Dyski.md)\]
 * [55: FS](FS.html) \[[MD](slides/FS.md)\]
