@@ -99,7 +99,7 @@ PDP-11
 ![MS DOS](img/ms-dos.png)
 
 </div>
-<div>
+<div style='font-size: 0.9em'>
 
 - brak wielozadaniowości
 - brak wielodostępności
@@ -174,7 +174,8 @@ PDP-11
 <div>
 
 - programista
-- aktywista, działacz społeczny
+- aktywista
+- działacz społeczny
 - filozof
 
 </div>
