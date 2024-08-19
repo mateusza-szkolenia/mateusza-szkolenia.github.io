@@ -230,17 +230,26 @@ PDP-11
 <iframe src='assets/mit.html' style='width: 60vw; height: 50vh; outline: .2em solid #dcc; background-color: #eee;'></iframe>
 
 ---
-<!-- .slide: data-autofragments -->
 # Inne wolne licencje
 
 - *public domain*
-- LGPL i AGPL
+- <abbr title="Lesser GPL">LGPL</abbr>
+- <abbr title="Affero GPL">AGPL</abbr>
 - BSD License
 - Creative Commons
 - Apache License
 - Mozilla Public License
 - Unlicense
-- WTFPL (Do What the Fuck You Want To Public License)
+- Apple Public Source License
+- <abbr title='Do What the Fuck You Want To Public License'>WTFPL</abbr>
+- Netscape Public License
+- <abbr title=''>ISC</abbr>
+- Microsoft Public License
+
+<!-- .element: style="column-count: 2; font-size: 0.75em;" -->
+
+Porównanie licencji: [Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses)  
+Opis licencji prostym językiem: [tl;drLegal](https://www.tldrlegal.com/)
 
 <style> #inne-wolne-licencje { font-size: 1.4em; } </style>
 
@@ -314,7 +323,8 @@ GNU is Not Unix
 <div>
 
 - szwedzkojęzyczny Fin
-- w 1991 student Uniwersytetu Helsińskiego
+- student Uniwersytetu Helsińskiego (w 1991)
+- obywatelstwo USA (od 2010)
 
 </div>
 </div>
@@ -330,8 +340,8 @@ GNU is Not Unix
 <!-- .slide: data-autofragments -->
 # Linux (1991)
 
-- inspirowany Miniksem
-  - (ale nie bazujący na nim)
+- inspirowany Miniksem  
+  (ale nie bazujący na nim)
 - główne różnice:
   - architektura kernela
   - licencjonowanie
