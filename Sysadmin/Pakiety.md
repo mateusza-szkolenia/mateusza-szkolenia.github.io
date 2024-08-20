@@ -107,3 +107,16 @@
 ### `Code Galaxies`
 * Strona: <https://anvaka.github.io/pm/>
 
+### `Is XXX Released?`
+* Strona: <https://released.info/>
+* Dystrybucje:
+  * [RedHat](https://is.redhat.released.info/)
+  * [Debian](https://is.debian.released.info/)
+  * [Fedora](https://is.fedora.released.info/)
+  * [Ubuntu](https://is.ubuntu.released.info/)
+* Oprogramowanie:
+  * [Python](https://is.python.released.info/)
+  * [PHP](https://is.php.released.info/)
+  * [Windows](https://is.windows.released.info/)
+  * [macOS](https://is.macos.released.info/)
+
