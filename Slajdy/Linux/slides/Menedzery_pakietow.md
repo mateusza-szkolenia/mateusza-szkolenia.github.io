@@ -106,6 +106,19 @@ instalacja pakietu + zależności
 - pobieranie pakietu wraz z zależnościami
 - użycie `dpkg` do instalacji
 
+---
+## narzędzie `APT`
+
+```
+                 (__) 
+                 (oo) 
+           /------\/ 
+          / |    ||   
+         *  /\---/\ 
+            ~~   ~~   
+..."Have you mooed today?"...
+```
+
 ------
 ## pakiety `.rpm`
 
@@ -129,6 +142,7 @@ instalacja pakietu + zależności
 - wyszukiwanie pakietów
 - pobieranie pakietów wraz z zależnościami
 
+---
 ## dlaczego `yum` albo `dnf`?
 
 - `yum` (do EL 7)

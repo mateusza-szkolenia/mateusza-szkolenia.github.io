@@ -209,6 +209,12 @@ Uwaga: *Nie są to prawdziwe pliki na dysku.*
   - *read-only*
 
 ---
+### scalenie `/bin/` i `/usr/bin`
+
+- Debian: [usrmerge](https://wiki.debian.org/UsrMerge)
+- Fedora: [UsrMove](https://fedoraproject.org/wiki/Features/UsrMove)
+
+---
 ### `/usr/local`
 
 - oprogramowanie zainstalowane spoza pakietów dystrybucji, najczęściej z paczek źródłowych
@@ -260,7 +266,7 @@ Uwaga: *Nie są to prawdziwe pliki na dysku.*
 ### `/lost+found`
 
 - odzyskane fragmenty plików
-- (występuje tylko w systemie plików `ext2/3/4`)
+- (specyficzne dla `ext2,ext3,ext4`)
 
 ------
 ### `/opt`
@@ -272,7 +278,7 @@ Uwaga: *Nie są to prawdziwe pliki na dysku.*
 
 Różne katalogi z "rozszerzeniem" `.d`
 
-- zawierają konfigurację rozbitą na odrębne pliki
+- konfiguracja rozbita na odrębne pliki
 
 ------
 [Koniec](./)
