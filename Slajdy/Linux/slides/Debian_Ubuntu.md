@@ -47,7 +47,9 @@
 </div>
 <div>
 
-- informatyk, przedsiębiorca, milioner
+- informatyk
+- przedsiębiorca
+- milioner
 - obywatelstwo RPA i UK
 - kosmiczny turysta
 - developer Debiana
