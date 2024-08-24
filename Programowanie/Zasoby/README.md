@@ -1,6 +1,7 @@
 # Materiały dodatkowe
 
 * [Semantyczne wersjonowanie](https://semver.org/)
+* [Kalendarzowe wersjonowanie](https://calver.org/)
 
 ## Programowanie
 
