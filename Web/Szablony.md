@@ -6,6 +6,7 @@
 * [Bootstrap](https://getbootstrap.com/)
 * [OpenUI5](http://openui5.org/)
 * [Concrete style](https://concrete.style/)
+* [Shoelace](https://shoelace.style/)
 
 ## Gotowe szablony stron i serwisów
 * [HTML5Up](https://html5up.net/)
