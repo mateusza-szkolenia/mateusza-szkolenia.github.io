@@ -92,7 +92,7 @@
 ------
 ### `/boot`
 
-- kernele
+- kernel
 - pliki potrzebne do uruchomienia systemu
 
 ------
@@ -104,7 +104,7 @@
 ------
 ### `/dev`
 
-- pliki urządzeń
+pliki urządzeń
 
 ------
 ### `/home`
@@ -153,33 +153,34 @@ Uwaga: *Nie są to prawdziwe pliki na dysku.*
 ------
 ### `/tmp`
 
-- pliki tymczasowe
+pliki tymczasowe
 
 ------
 ### `/usr`
 
-- oprogramowanie użytkowe
+- oprogramowanie systemowe
 - luźny odpowiednik `C:\Program Files`
+- _Universal System Resources_
 
 ---
 ### `/usr/share`
 
-- zasoby niezależne od platformy:
-    - grafika, ikony, fonty
-    - słowniki, tłumaczenia
-    - mapy
-    - definicje składni
-    - statyczne bazy danych
+zasoby niezależne od platformy:
+  - grafika, ikony, fonty
+  - słowniki, tłumaczenia
+  - mapy
+  - definicje składni
+  - statyczne bazy danych
 
 ---
 ### `/usr/include`
 
-- nagłówki języka C, C++
+nagłówki języka C, C++
 
 ---
 ### `/usr/src`
 
-- kod źródłowy
+kod źródłowy
 
 ---
 ### `/usr/share/doc`
@@ -217,7 +218,7 @@ Uwaga: *Nie są to prawdziwe pliki na dysku.*
 ---
 ### `/usr/local`
 
-- oprogramowanie zainstalowane spoza pakietów dystrybucji, najczęściej z paczek źródłowych
+Oprogramowanie zainstalowane spoza pakietów dystrybucji, najczęściej z paczek źródłowych
 
 ------
 ### `/var`
@@ -229,7 +230,7 @@ Uwaga: *Nie są to prawdziwe pliki na dysku.*
 ---
 ### `/var/log`
 
-- logi (dzienniki) systemowe
+Logi (dzienniki) systemowe
 
 ---
 ### `/var/lib`
