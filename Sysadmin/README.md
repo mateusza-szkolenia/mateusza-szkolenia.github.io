@@ -34,6 +34,7 @@
 - [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
 - [Bash handbook](https://github.com/denysdovhan/bash-handbook)
 - [Bashism](https://mywiki.wooledge.org/Bashism)
+- [Revisiting Linux CPU scheduling](http://www.uninformativ.de/blog/postings/2024-08-03/0/POSTING-en.html)
 
 ### Bezpieczeństwo
 - [Kompleksowo o hasłach - CERT Polska](https://cert.pl/posts/2022/01/kompleksowo-o-haslach/)
