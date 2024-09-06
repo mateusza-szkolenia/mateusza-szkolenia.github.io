@@ -8,3 +8,6 @@
 - [🔐 Szyfrowany dysk bez wprowadzania hasła](Szyfrowany_dysk_bez_wprowadzania_hasla)
 - [🗃 Obsługa baz BerkeleyDB](Bazy_danych_BerkeleyDB)
 - [🧟 Procesy Zombie](Zombie_process)
+
+## Inne
+- [🖥️ Tester LCD](Tester_LCD)

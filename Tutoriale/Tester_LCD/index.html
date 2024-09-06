@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>LCD Tester</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+    }
+    body {
+        transition: 0.5s;
+        background-size: auto;
+    }
+
+    #buttons {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        transition: opacity 0.5s;
+        opacity: 0;
+        background-color: #80808080;
+    }
+
+    #buttons div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    #buttons div button {
+        padding: 1em 2em;
+        cursor: pointer;
+        border: 0;
+        margin: 1em;
+        background-color: #fff8;
+        border-radius: 0.4em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #buttons button img {
+        width: 32px;
+        image-rendering: pixelated;
+        border: 2px solid #888;
+    }
+
+    #buttons button span {
+        display: none;
+    }
+
+    body:active #buttons {
+        opacity: 1;
+    }
+
+    #buttons:hover {
+        opacity: 1;
+    }
+</style>
+<style id='dynamic-style'>
+</style>
+</head>
+<body class='grid'>
+<div id="buttons">
+</div>
+<script>
+
+function randomColor() {
+    return [0,0,0].map(x => ~~(Math.random()*255))
+}
+
+function char2color(letter) {
+    return ({
+        "b": [0, 0, 0],
+        "w": [255, 255, 255],
+        "g": [127, 127, 127],
+        "R": [255, 0, 0],
+        "G": [0, 255, 0],
+        "B": [0, 0, 255],
+        "Y": [255, 255, 0],
+        "C": [0, 255, 255],
+        "M": [255, 0, 255],
+        "?": randomColor(),
+    }[letter] ?? [16, 16, 16])
+}
+
+function setPixel(imageData, x, y, color) {
+    const rgb = char2color(color);
+    const index = (y * imageData.width + x) * 4;
+    for (const i of [0, 1, 2]) {
+        imageData.data[index + i] = rgb[i];
+    }
+    imageData.data[index + 3] = 255;
+}
+
+function text2b64(pictureText, repeats=1) {
+    const pictureLines = pictureText.split(" ").filter(x => x.length > 0);
+    const height = pictureLines.length;
+    const width = pictureLines[0].length;
+    const imageData = new ImageData(width, height);
+    for (const [y, line] of pictureLines.entries()) {
+        for (const [x, pixel] of [... line].entries()) {
+            setPixel(imageData, x, y, pixel);
+        }
+    }
+    const canvas = document.createElement('canvas');
+    canvas.height = height * repeats;
+    canvas.width = width * repeats;
+    const ctx = canvas.getContext('2d');
+    for (var i=0; i<repeats; i++) {
+        for (var ii=0; ii<repeats; ii++) {
+            ctx.putImageData(imageData, 0 + ii * width, 0 + i * height);
+        }
+    }
+    const b64 = canvas.toDataURL('image/png');
+    return b64;
+}
+
+const BUTTON_SETS = [
+    [
+        {name: "horizontal",    pattern: "bbbb wwww bbbb wwww"},
+        {name: "vertical",      pattern: "bwbw bwbw bwbw bwbw"},
+        {name: "horizontal2",   pattern: "bbbb bbbb wwww wwww"},
+        {name: "vertica2l",     pattern: "bbww bbww bbww bbww"},
+        {name: "diagonal-NE",   pattern: "bbbw bbwb bwbb wbbb"},
+        {name: "diagonal-NW",   pattern: "wbbb bwbb bbwb bbbw"},
+        {name: "diagonal2-NE",  pattern: "bbww bwwb wwbb wbbw"},
+        {name: "diagonal2-NW",  pattern: "wwbb bwwb bbww wbbw"},
+        {name: "grid",          pattern: "bwbw wbwb bwbw wbwb"},
+        {name: "grid2",         pattern: "bbww bbww wwbb wwbb"},
+    ],
+    [
+        {name: "gray",          pattern: "g"},
+        {name: "white",         pattern: "w"},
+        {name: "black",         pattern: "b"},
+        {name: "red",           pattern: "R"},
+        {name: "green",         pattern: "G"},
+        {name: "blue",          pattern: "B"},
+        {name: "yellow",        pattern: "Y"},
+        {name: "cyan",          pattern: "C"},
+        {name: "magenta",       pattern: "M"},
+    ],
+];
+
+for (const buttons of BUTTON_SETS){
+    const btnrow = document.createElement('div');
+    for (const b of buttons) {
+        const btn = document.createElement('button');
+        const btnimg = document.createElement('img');
+        const btnspn = document.createElement('span');
+        const b64 = text2b64(b.pattern, 4);
+        btnimg.src = b64;
+        btnspn.textContent = b.name;
+        btn.className = b.name;
+        btn.append(btnimg);
+        btn.append(btnspn);
+        btnclk = (function() { document.body.className = b.name });
+        btn.addEventListener('click', btnclk);
+        btnrow.append(btn)
+        document.querySelector('#dynamic-style').innerHTML += `
+            body.${b.name} { background-image: url('${b64}'); }
+            body.${b.name} #buttons button.${b.name} { background-color: #0008; color: white; }
+        `
+    }
+    document.querySelector('#buttons').append(btnrow);
+}
+
+</script>
+</body>
+</html>
