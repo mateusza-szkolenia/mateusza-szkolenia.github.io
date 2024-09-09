@@ -127,10 +127,12 @@
 
 * [iSH](https://ish.app/)
 
-## Różne gotowe obrazy maszyn wirtualnych
+## Gotowe obrazy maszyn wirtualnych
 
 * [TurnKey Linux](https://www.turnkeylinux.org/)
 * [Vulnhub](https://www.vulnhub.com/)
+
+* [distrobox](https://github.com/89luca89/distrobox)
 
 ## Dystrybucje żarty
 
