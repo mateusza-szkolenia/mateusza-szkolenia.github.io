@@ -68,6 +68,8 @@ luks-67b5ce62ce1a UUID=67b5ce62ce1a /etc/cryptsetup-keys.d/luks-67b5ce62ce1a.key
 
 ### Umieszczenie kluczy w obrazie `initramfs`
 
+#### `Dracut` (EL)
+
 Dodatkowe pliki, które chcemy umieścić w obrazie `initramfs` definiujemy w konfiguracji narzędzia `dracut`.
 
 Należy utworzyć plik konfiguracyjny np. o nazwie `/etc/dracut.conf.d/szyfrowanie.conf` i zawartości:
@@ -82,6 +84,22 @@ Aby upewnić się, że pliki zostały wrzucone do obrazu, należy posłużyć si
 
 ```console
 $ lsinitrd /boot/initramfs-*.el*.img | grep cryptsetup
+```
+
+#### `initramfs` (Debian, Ubuntu)
+
+W pliku `/etc/cryptsetup-initramfs/conf-hook` zdefiniować:
+
+```
+KEYFILE_PATTERN='/etc/cryptsetup-keys.d/*'
+```
+
+Następnie, należy wymusić przebudowanie obrazu poleceniem: `update-initramfs -k all -u`
+
+Aby upewnić się, że pliki zostały wrzucone do obrazu, należy posłużyć się poleceniem `lsinitramfs`, np.
+
+```console
+$ lsinitramfs /boot/initrd* | grep cryptsetup
 ```
 
 ### Usunięcie klucza
