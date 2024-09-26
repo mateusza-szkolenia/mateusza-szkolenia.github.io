@@ -21,3 +21,5 @@
 * [Vale](https://vale.dev/)
 * [V](https://vlang.io/)
 * [Zig](https://ziglang.org/)
+
+* [Cello](https://libcello.org/)
