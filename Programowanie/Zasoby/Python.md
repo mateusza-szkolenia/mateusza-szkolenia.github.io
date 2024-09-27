@@ -6,3 +6,7 @@
 ## Programy
 
 * [Thonny](https://thonny.org/) - proste IDE dla dzieci
+
+### Mutmut
+
+* [mutmut](https://pypi.org/project/mutmut/) - mutator testów
