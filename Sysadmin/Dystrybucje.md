@@ -154,14 +154,16 @@
     * [GhostBSD](https://ghostbsd.org/)
 * Solaris i pochodne
     * [illumos](https://illumos.org/)
-        * [openindiana](https://www.openindiana.org/)
+        * [OpenIndiana](https://www.openindiana.org/)
         * [OmniOS](https://omnios.org/)
         * [Tribblix](http://www.tribblix.org/)
+        * [SmartOS](https://www.tritondatacenter.com/smartos)
     * [Oracle Solaris](https://www.oracle.com/solaris/)
 * macOS
     * [hackintosh](https://hackintosh.com/)
 * GNU/Hurd
     * [Debian GNU/Hurd](https://www.debian.org/ports/hurd/)
+* [RedoxOS](https://www.redox-os.org/) - klon UNIX-a napisany w języku Rust
 
 # Jeszcze inne systemy operacyjne
 
