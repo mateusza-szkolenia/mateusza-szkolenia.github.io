@@ -30,6 +30,9 @@
     * [Mozilla Team (Firefox)](https://launchpad.net/~mozillateam/+archive/ubuntu/ppa)
     * [Chromium](https://launchpad.net/~savoury1/+archive/ubuntu/chromium)
 
+### Symbole debugowania (Ubuntu)
+* Strona: <https://ubuntu.com/server/docs/debug-symbol-packages>
+
 ### Repozytoria EL
 * Rocky Linux: <https://wiki.rockylinux.org/rocky/repo/#notes-on-unlisted-repositories>
 * Alma Linux: <https://wiki.almalinux.org/repos/AlmaLinux.html>
