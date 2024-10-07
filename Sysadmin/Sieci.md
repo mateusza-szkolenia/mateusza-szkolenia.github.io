@@ -52,3 +52,11 @@
 - [WireGuard AllowedIPs Calculator](https://www.procustodibus.com/blog/2021/03/wireguard-allowedips-calculator/)
 - [ipcalc](https://jodies.de/ipcalc)
 - [Visual Subnet Calculator](https://visualsubnetcalc.com/)
+
+## Monitoring
+
+- [Healthchecks.io](https://healthchecks.io/)
+
+## Powiadomienia
+
+- [ntfy](https://ntfy.sh/)
