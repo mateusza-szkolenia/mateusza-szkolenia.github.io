@@ -11,7 +11,7 @@
 * [Tailscale](https://tailscale.com/)
 * [Surfshark VPN](https://surfshark.com/)
 
-## Aplikacje VPN
+## Protokoły VPN
 
 * [WireGuard](https://www.wireguard.com/)
    * [szkolenie WireGuard w ALX](https://www.alx.pl/szkolenia/wireguard/)
@@ -51,3 +51,4 @@
 
 - [WireGuard AllowedIPs Calculator](https://www.procustodibus.com/blog/2021/03/wireguard-allowedips-calculator/)
 - [ipcalc](https://jodies.de/ipcalc)
+- [Visual Subnet Calculator](https://visualsubnetcalc.com/)
