@@ -4,6 +4,7 @@
 - [sysvinit](https://github.com/slicer69/sysvinit/)
 - [s6](https://skarnet.org/software/s6/)
 - [OpenRC](https://github.com/OpenRC/openrc) (Gentoo, Alpine Linux)
+- [tini](https://github.com/krallin/tini)
 - [runit](http://smarden.org/runit/) (Void Linux, GitLab)
 - [supervisord](http://supervisord.org/)
 - [launchd](https://www.launchd.info/) (Apple macOS)
