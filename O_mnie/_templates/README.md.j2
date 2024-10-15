@@ -1,0 +1,5 @@
+# Linux
+
+{% for slideset in slidesets %}
+* [{{slideset.title}}]({{slideset.html_filename}}) \[[MD](slides/{{slideset.md_filename}})\]
+{%- endfor %}
