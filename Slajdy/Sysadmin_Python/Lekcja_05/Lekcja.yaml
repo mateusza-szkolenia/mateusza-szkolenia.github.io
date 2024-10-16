@@ -1,0 +1,6 @@
+---
+tematy:
+  - Korzystanie z API za pomocą biblioteki `requests`
+  - Korzystanie z API za pomocą biblioteki `pynetbox`
+  - Opakowywanie biblioteki we własne obiekty i funkcje
+  - Korzystanie z modułu `ipaddress`

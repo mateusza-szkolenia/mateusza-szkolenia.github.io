@@ -1,0 +1,109 @@
+<!doctype html>
+
+{%- set author = 'Mateusz Adamowski' -%}
+{%- set lang = 'pl' -%}
+{%- set revealjs_version = '5.1.0' -%}
+{%- set font_awesome_version = '6.6.0' -%}
+{%- set title = "Lekcja " ~ numer_lekcji -%}
+{%- set slides_md_filename = 'Slajdy.md' -%}
+
+<html lang="{{ lang }}">
+
+<head>
+<meta charset="utf-8">
+
+<title>{{ title }}</title>
+
+<meta name="description" content="{{ title }}">
+<meta name="author" content="{{ author }}">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ revealjs_version }}/reset.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ revealjs_version }}/reveal.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ revealjs_version }}/theme/black.min.css" id="theme">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ revealjs_version }}/plugin/highlight/monokai.min.css">
+
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/{{ font_awesome_version }}/css/all.min.css'>
+<style>
+code {
+    color: #ebe;
+}
+
+div.cols {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.cols-2 div {
+    width: 47%;
+}
+
+div.cols div:first-child img {
+    max-height: calc(var(--slide-height) * 0.5);
+}
+
+div.cols div img + p {
+    text-align: center;
+    font-size: 0.4em;
+}
+</style>
+
+</head>
+
+<body>
+<div class="reveal">
+
+<div class="slides">
+<section
+    data-markdown="{{ slides_md_filename }}"
+    data-separator="^------"
+    data-separator-vertical="^---"
+    data-charset="UTF-8">
+</section>
+</div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ revealjs_version }}/reveal.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ revealjs_version }}/plugin/zoom/zoom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ revealjs_version }}/plugin/notes/notes.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ revealjs_version }}/plugin/search/search.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ revealjs_version }}/plugin/markdown/markdown.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/{{ revealjs_version }}/plugin/highlight/highlight.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/{{ font_awesome_version }}/js/all.min.js'></script>
+
+<script>
+    window.setTimeout(
+        () => {
+            [
+                'section[data-autofragments] li',
+                'section[data-autofragments] p',
+            ].forEach(sel => {
+                document
+                    .querySelectorAll(sel)
+                    .forEach(x => x.classList.add('fragment'))
+                });
+            
+            document.querySelectorAll('section[data-autofragments] aside .fragment')
+                .forEach(x => { x.classList.remove('fragment') });
+        },
+        1000
+    );
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+        plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ],
+        markdown: {
+            smartypants: true
+        }
+    });
+</script>
+
+</body>
+</html>

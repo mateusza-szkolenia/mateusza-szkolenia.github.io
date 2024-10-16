@@ -1,0 +1,100 @@
+<!doctype html><html lang="pl">
+
+<head>
+<meta charset="utf-8">
+
+<title>Lekcja 5</title>
+
+<meta name="description" content="Lekcja 5">
+<meta name="author" content="Mateusz Adamowski">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reset.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/black.min.css" id="theme">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/highlight/monokai.min.css">
+
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css'>
+<style>
+code {
+    color: #ebe;
+}
+
+div.cols {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.cols-2 div {
+    width: 47%;
+}
+
+div.cols div:first-child img {
+    max-height: calc(var(--slide-height) * 0.5);
+}
+
+div.cols div img + p {
+    text-align: center;
+    font-size: 0.4em;
+}
+</style>
+
+</head>
+
+<body>
+<div class="reveal">
+
+<div class="slides">
+<section
+    data-markdown="Slajdy.md"
+    data-separator="^------"
+    data-separator-vertical="^---"
+    data-charset="UTF-8">
+</section>
+</div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/zoom/zoom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/notes/notes.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/search/search.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/markdown/markdown.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/plugin/highlight/highlight.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js'></script>
+
+<script>
+    window.setTimeout(
+        () => {
+            [
+                'section[data-autofragments] li',
+                'section[data-autofragments] p',
+            ].forEach(sel => {
+                document
+                    .querySelectorAll(sel)
+                    .forEach(x => x.classList.add('fragment'))
+                });
+            
+            document.querySelectorAll('section[data-autofragments] aside .fragment')
+                .forEach(x => { x.classList.remove('fragment') });
+        },
+        1000
+    );
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+        plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ],
+        markdown: {
+            smartypants: true
+        }
+    });
+</script>
+
+</body>
+</html>

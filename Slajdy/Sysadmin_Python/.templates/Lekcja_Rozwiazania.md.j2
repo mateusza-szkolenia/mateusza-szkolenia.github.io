@@ -1,0 +1,14 @@
+# Lekcja {{ numer_lekcji }}
+
+## Zadania
+
+{% for n, zadanie, rozw in zadania -%}
+{{ n }}. {{ zadanie }}
+
+    ```python
+{% for linia in rozw -%}
+{{ "    " + linia }}
+{%- endfor %}
+    ```
+
+{% endfor %}
