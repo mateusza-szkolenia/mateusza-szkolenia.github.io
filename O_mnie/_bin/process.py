@@ -1,1 +1,0 @@
-../../Slajdy/.common/process.py
