@@ -1,0 +1,6 @@
+---
+tematy:
+  - Przegląd zmian w kolejnych wydaniach Pythona
+  - Przegląd różnic między archaiczną serią 2.x a 3.x
+  - Przenośność kodu
+  - Środowiska wirtualne (`venv`, `virtualenv`)

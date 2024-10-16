@@ -1,0 +1,13 @@
+- ~~Przegląd składni i typów danych~~
+- Przetwarzanie danych tekstowych i CSV
+- Przetwarzanie danych JSON, Yaml, Toml (.ini)
+- Przetwarzanie danych XML (opcjonalnie)
+- ~~Komunikacja z REST API~~
+- Komunikacja z bazami danych SQL (MySQL, Postgres, SQLite)
+- Tworzenie raportów na podstawie szablonów (jinja2)
+- Eksport danych do Excela, PDF
+- Pisanie prostych usług systemowych
+- Pisanie pluginów do telegrafa
+- Pisanie czujek do nagiosa/NRPE
+- ~~Przenoszenie skryptów Bash do Pythona~~
+- ~~Przegląd różnic pomiędzy starszymi wydaniami Pythona~~

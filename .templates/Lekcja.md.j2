@@ -1,0 +1,20 @@
+# Lekcja {{ numer_lekcji }}
+
+## Slajdy
+
+[Pokaz slajdów](Slajdy.html) • [Treść](Slajdy.md)
+
+## Tematy
+{% for temat in lekcja.tematy %}
+- {{ temat }}
+{%- endfor %}
+
+## Zadania
+
+{% for n, zadanie, _ in zadania -%}
+{{ n }}. {{ zadanie }}
+{% endfor %}
+
+## Rozwiązania
+
+[Rozwiązania zadań](Rozwiazania.md)
