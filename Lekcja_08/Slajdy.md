@@ -213,7 +213,7 @@ i zapisanie wyniku do pliku
 - brak problemów z _eskejpowaniem_
 - wydajniejsze operacje na tekstach
 - funkcjonalny system typów
-- wydajność procesów potomnych
+- obciążenie wydajności procesami potomnymi
 
 ---
 ## Prosty skrypt

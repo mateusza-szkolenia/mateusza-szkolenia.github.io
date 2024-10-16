@@ -1,0 +1,19 @@
+# Python dla sysadminów
+
+## Przygotowanie
+
+### Oprogramowanie do zainstalowania
+
+- [Python](https://www.python.org/downloads/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Git](https://gitforwindows.org/)
+
+{% for n, lekcja in lekcje %}
+
+## [Lekcja {{ n }}](Lekcja_{{ "%02d" % n }}/)
+{% for temat in lekcja.lekcja.tematy %}
+- {{ temat }}
+{%- endfor -%}
+
+{% endfor %}
+
