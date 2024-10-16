@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
 
-"""Napisać program podający *uptime* systemu w godzinach, z dokładnością do dziesiątej części."""
+"""Napisać program przetwarzający bazę geolokalizacji IPv4 <https://datahub.io/core/geoip2-ipv4>
 
+Dla wskazanej listy państw stworzyć osobne pliki kompatybilne z narzędziem `ipset` zawierające listy sieci ulokowanych w danym kraju.
 
-PROC_UPTIME = '/proc/uptime'
+Policzyć szacowaną liczbę adresów przydzieloną danemu krajowi i udział w całej przestrzeni adresowej (32-bitowej).
 
-with open(PROC_UPTIME, 'r', encoding='utf-8') as uptime_f:
-    uptime_line = uptime_f.read()
+"""
 
-uptime = float(uptime_line.split(" ")[0])
-
-print(f"Uptime: {uptime / 60 / 60:.1f}h")
