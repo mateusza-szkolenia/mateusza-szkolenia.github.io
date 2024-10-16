@@ -1,3 +1,4 @@
+<!-- .slide: data-background="../assets/fundacja-sysops-devops-polska-bg-gray.png" -->
 Python dla sysadminów
 
 # Lekcja 1
