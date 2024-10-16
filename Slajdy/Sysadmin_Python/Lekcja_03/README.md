@@ -13,17 +13,34 @@
 
 ## Zadania
 
-1. Napisać program przetwarzający bazę geolokalizacji IPv4 <https://datahub.io/core/geoip2-ipv4>
+### Zadanie 1
 
-Dla wskazanej listy państw stworzyć osobne pliki typu `ipset` zawierające listy sieci przypisanych do danego kraju.
+Napisać program przetwarzający bazę polskich miejscowości w formacie YAML lub JSON:
 
-Policzyć szacowaną liczbę adresów przydzieloną danemu krajowi i udział w całej przestrzeni adresowej (32-bitowej).
-2. Napisać program przetwarzający lotnisk <https://datahub.io/core/airport-codes>
+https://mateusza-szkolenia.github.io/Programowanie/Zbiory_danych/Miejscowosci/
+
+Stworzyć klasę, która:
+- opakuje surowy słownik pobrany z JSON lub Yaml
+- będzie potrafiła wyświetlić swoje skłądowe w standardowy sposób
+
+Stworzyć funkcję pomocniczą do liczenia odległości między dwoma współrzędnymi (w linii prostej).
+
+Stworzyć klasę, która będzie zawierać listę miejscowości wczytaną z pliku,
+a także będzie potrafiła filtrować miejscowości wg odległości od danych współrzędnych lub wg nazwy.
+
+Na koniec odnaleźć dwie pary miejscowości:
+- z maksymalną odległością od siebie nawzajem
+- z minimalną odległością od siebie nawzajem
+
+### Zadanie 2
+
+Napisać program przetwarzający lotnisk <https://datahub.io/core/airport-codes>
 
 Dla dwóch wskazanych lotnisk (wg kodów IATA, czyli np. WAW, GDN) podać:
 - informację o lotniskach
 - ich współrzędne
 - przybliżoną odległość w linii prostej między lotniskami (funkcja Haversine)
+
 
 
 ## Rozwiązania

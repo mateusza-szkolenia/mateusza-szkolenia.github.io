@@ -6,16 +6,15 @@
 
 ## Tematy
 
-- Generowanie szablonów Jinja
+- Generowanie danych za pomocą szablonów Jinja
 - Generowanie PDF https://weasyprint.org/
 
 ## Zadania
 
-1. Napisać program wczytujący listę nowych serwerów z pliku
-i przydzielający im adresy z dostępnej puli.
+### Zadanie 1
 
-Przydzielone adresu muszą zostać przypisane w Netboksie
-a następnie musi zostać utworzony plik inventory w formacie ansible
+Napisać program wczytujący listę zaalokowanych adresów z NetBoxa i generujący prosty raport w MarkDown i PDF
+
 
 
 ## Rozwiązania

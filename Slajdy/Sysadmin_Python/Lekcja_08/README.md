@@ -12,13 +12,19 @@
 
 ## Zadania
 
-1. Napisać program tworzący strukturę katalogów z plikami zawierającymi nazwy w różnych alfabetach, spacje itp.
-2. Napisać program tworzący listę wszystkich plików z katalogu /usr (rekurencyjnie).
+### Zadanie 1
+
+Napisać program tworzący strukturę katalogów z plikami zawierającymi nazwy w różnych alfabetach, spacje itp.
+
+### Zadanie 2
+
+Napisać program tworzący listę wszystkich plików z katalogu /usr (rekurencyjnie).
 Dla każdego zwykłego pliku sprawdzić jego rozmiar w bajtach.
 Policzyć sumę rozmiarów, średnią i odchylenie standardowe.
 
 Zaimplementować tę samą funkcjonalność w Bashu (wraz programami pomocniczymi np. do obliczeń).
 Porównać wyniki i czas wykonania.
+
 
 
 ## Rozwiązania

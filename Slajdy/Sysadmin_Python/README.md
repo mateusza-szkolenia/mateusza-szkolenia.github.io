@@ -34,7 +34,6 @@
 
 - Import i eksport danych: CSV
 - Bazy SQL: SQLite, MySQL, Postgresl
-- Eksport danych: jinja2
 - Eksport danych: Excel
 
 ## [Lekcja 5](Lekcja_05/)
@@ -46,12 +45,12 @@
 
 ## [Lekcja 6](Lekcja_06/)
 
-- Generowanie szablonów Jinja
+- Generowanie danych za pomocą szablonów Jinja
 - Generowanie PDF https://weasyprint.org/
 
 ## [Lekcja 7](Lekcja_07/)
 
-- **WORK IN PROGRESS**
+- ...
 
 ## [Lekcja 8](Lekcja_08/)
 

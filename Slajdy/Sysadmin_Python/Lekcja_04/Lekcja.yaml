@@ -2,5 +2,4 @@
 tematy:
  - "Import i eksport danych: CSV"
  - "Bazy SQL: SQLite, MySQL, Postgresl"
- - "Eksport danych: jinja2"
  - "Eksport danych: Excel"

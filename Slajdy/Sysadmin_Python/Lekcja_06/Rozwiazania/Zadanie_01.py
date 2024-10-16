@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 
-"""Napisać program wczytujący listę nowych serwerów z pliku
-i przydzielający im adresy z dostępnej puli.
-
-Przydzielone adresu muszą zostać przypisane w Netboksie
-a następnie musi zostać utworzony plik inventory w formacie ansible"""
+"""Napisać program wczytujący listę zaalokowanych adresów z NetBoxa i generujący prosty raport w MarkDown i PDF"""
 
 ...

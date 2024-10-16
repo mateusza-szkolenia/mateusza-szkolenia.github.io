@@ -3,12 +3,13 @@
 ## Zadania
 
 {% for n, zadanie, rozw in zadania -%}
-{{ n }}. {{ zadanie }}
+### Zadanie {{ n }}
 
-    ```python
+{{ zadanie }}
+
+````````python
 {% for linia in rozw -%}
-{{ "    " + linia }}
+{{ linia }}
 {%- endfor %}
-    ```
-
+````````
 {% endfor %}

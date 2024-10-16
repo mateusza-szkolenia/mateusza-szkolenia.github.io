@@ -6,9 +6,11 @@ Program ma kończyć się kodem błędu, jeśli ilość wolnego miejsca, wyrażo
 
 Przykładowe uruchomienie programu:
 
+````
 $ ./wolne_miejsce.py / 10%
 $ ./wolne_miejsce.py /home 1G
 $ ./wolne_miejsce.py /var/log 100M
+````
 
 """
 
