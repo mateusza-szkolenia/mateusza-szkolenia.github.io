@@ -51,7 +51,7 @@ def load_tasks(lesson_id: int) -> 'Generator[int, str, list[str]]':
         yield n, *task
 
 
-def make_vars(n: int) -> dict:
+def lesson_vars(n: int) -> dict:
     lekcja = load_lesson(n)
     variables = {
         'numer_lekcji': n,
@@ -66,14 +66,19 @@ def make_all():
 
     def render_template(output, template_name, variables):
         template = jinja_env.get_template(template_name)
-        os.chmod(output, 0o644)
+        try:
+            os.chmod(output, 0o644)
+        except FileNotFoundError:
+            pass
         with open(output, 'w', encoding='UTF-8') as output_file:
             output_file.write(template.render(**variables))
         os.chmod(output, 0o444)
 
-    for n_lekcji in range(1, 10):
-        variables = make_vars(n_lekcji)
+    lekcje = [(n, lesson_vars(n)) for n in range(1, 10)]
 
+    render_template('README.md', 'README.md.j2', {'lekcje': lekcje})
+
+    for n_lekcji, lekcja in lekcje:
         lesson_name = f'{lesson_path(n_lekcji)}'
 
         todo = [
@@ -82,11 +87,9 @@ def make_all():
             ('Slajdy.html', 'Slajdy.html.j2'),
         ]
 
-        print(variables)
-
         for output, template_name in todo:
             try:
-                render_template(f'{lesson_name}/{output}', template_name, variables)
+                render_template(f'{lesson_name}/{output}', template_name, lekcja)
             except FileNotFoundError:
                 print(f"{lesson_name}: {template_name} - File Not Found Error")
                 continue
