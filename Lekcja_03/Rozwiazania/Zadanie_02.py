@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
 
-"""Napisać program przetwarzający lotnisk <https://datahub.io/core/airport-codes>
+"""W oparciu o plik z pierwszego zadania, stworzyć program
+zawierający poniższe funkcje:
 
-Dla dwóch wskazanych lotnisk (wg kodów IATA, czyli np. WAW, GDN) podać:
-- informację o lotniskach
-- ich współrzędne
-- przybliżoną odległość w linii prostej między lotniskami (funkcja Haversine)
+1. Funkcja obliczająca przybliżoną odległość między dwoma
+współrzędnymi (Haversine)
+
+2. Funkcja podająca przybliżoną odległość między dwoma
+lotniskami, wczytanymi z pliku.
+
+3. Funkcja podająca listę lotnisk znajdujących się
+we wskazanej odległości od danego lotniska.
+
+Skrypt powinien być jednocześnie samodzielnym programem
+i modułem do zaimportowania z innego skryptu.
 """
 
+import json
 import math
-import csv

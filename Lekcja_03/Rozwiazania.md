@@ -4,13 +4,101 @@
 
 ### Zadanie 1
 
+Napisać program wczytujący bazę lotnisk w formacie JSON
+pobraną ze strony: <https://datahub.io/core/airport-codes>
+
+Znaleźć na liście wszystkie duże lotniska (`"type": "large_airport"`)
+i zapisać je w pliku JSON jako tablicę słowników postaci:
+
+```
+{
+  "name": "Warsaw Chopin Airport",
+  "continent": "EU",
+  "iso_country": "PL",
+  "municipality": "Warsaw",
+  "iata_code": "WAW",
+  "icao_code": "EPWA",
+  "gps": [52.165699, 20.9671]
+}
+```
+
+````````python
+#!/usr/bin/env python3
+
+"""Napisać program wczytujący bazę lotnisk w formacie JSON
+pobraną ze strony: <https://datahub.io/core/airport-codes>
+
+Znaleźć na liście wszystkie duże lotniska (`"type": "large_airport"`)
+i zapisać je w pliku JSON jako tablicę słowników postaci:
+
+```
+{
+  "name": "Warsaw Chopin Airport",
+  "continent": "EU",
+  "iso_country": "PL",
+  "municipality": "Warsaw",
+  "iata_code": "WAW",
+  "icao_code": "EPWA",
+  "gps": [52.165699, 20.9671]
+}
+```
+"""
+
+import json
+import math
+
+...
+
+````````
+### Zadanie 2
+
+W oparciu o plik z pierwszego zadania, stworzyć program
+zawierający poniższe funkcje:
+
+1. Funkcja obliczająca przybliżoną odległość między dwoma
+współrzędnymi (Haversine)
+
+2. Funkcja podająca przybliżoną odległość między dwoma
+lotniskami, wczytanymi z pliku.
+
+3. Funkcja podająca listę lotnisk znajdujących się
+we wskazanej odległości od danego lotniska.
+
+Skrypt powinien być jednocześnie samodzielnym programem
+i modułem do zaimportowania z innego skryptu.
+
+````````python
+#!/usr/bin/env python3
+
+"""W oparciu o plik z pierwszego zadania, stworzyć program
+zawierający poniższe funkcje:
+
+1. Funkcja obliczająca przybliżoną odległość między dwoma
+współrzędnymi (Haversine)
+
+2. Funkcja podająca przybliżoną odległość między dwoma
+lotniskami, wczytanymi z pliku.
+
+3. Funkcja podająca listę lotnisk znajdujących się
+we wskazanej odległości od danego lotniska.
+
+Skrypt powinien być jednocześnie samodzielnym programem
+i modułem do zaimportowania z innego skryptu.
+"""
+
+import json
+import math
+
+````````
+### Zadanie 3
+
 Napisać program przetwarzający bazę polskich miejscowości w formacie YAML lub JSON:
 
 https://mateusza-szkolenia.github.io/Programowanie/Zbiory_danych/Miejscowosci/
 
 Stworzyć klasę, która:
 - opakuje surowy słownik pobrany z JSON lub Yaml
-- będzie potrafiła wyświetlić swoje skłądowe w standardowy sposób
+- będzie potrafiła wyświetlić swoje składowe w standardowy sposób
 
 Stworzyć funkcję pomocniczą do liczenia odległości między dwoma współrzędnymi (w linii prostej).
 
@@ -30,7 +118,7 @@ https://mateusza-szkolenia.github.io/Programowanie/Zbiory_danych/Miejscowosci/
 
 Stworzyć klasę, która:
 - opakuje surowy słownik pobrany z JSON lub Yaml
-- będzie potrafiła wyświetlić swoje skłądowe w standardowy sposób
+- będzie potrafiła wyświetlić swoje składowe w standardowy sposób
 
 Stworzyć funkcję pomocniczą do liczenia odległości między dwoma współrzędnymi (w linii prostej).
 
@@ -43,29 +131,5 @@ Na koniec odnaleźć dwie pary miejscowości:
 
 """
 
-
-````````
-### Zadanie 2
-
-Napisać program przetwarzający lotnisk <https://datahub.io/core/airport-codes>
-
-Dla dwóch wskazanych lotnisk (wg kodów IATA, czyli np. WAW, GDN) podać:
-- informację o lotniskach
-- ich współrzędne
-- przybliżoną odległość w linii prostej między lotniskami (funkcja Haversine)
-
-````````python
-#!/usr/bin/env python3
-
-"""Napisać program przetwarzający lotnisk <https://datahub.io/core/airport-codes>
-
-Dla dwóch wskazanych lotnisk (wg kodów IATA, czyli np. WAW, GDN) podać:
-- informację o lotniskach
-- ich współrzędne
-- przybliżoną odległość w linii prostej między lotniskami (funkcja Haversine)
-"""
-
-import math
-import csv
 
 ````````
