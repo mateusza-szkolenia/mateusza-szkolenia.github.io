@@ -481,7 +481,7 @@ len(x)          # 4
 
 ```python [1|2|1-2|4|5|4-5|7]
 bytes("ŻÓŁW", 'UTF8')           # b'\xc5\xbb\xc3\x93\xc5\x81W'
-len(bytes("ŻÓŁW", 'UTF8'))      # 6
+len(bytes("ŻÓŁW", 'UTF8'))      # 7
 
 bytes("ŻÓŁW", 'ISO8859-2')      # b'\xaf\xd3\xa3W'
 len(bytes("ŻÓŁW", 'ISO8859-2')) # 4
@@ -568,7 +568,7 @@ Testy:
 `isdir`, `isfile`, `exists`
 
 Budowanie ścieżek:  
-`dirname`, `basename`, `commonpath`, `relpatch`
+`dirname`, `basename`, `commonpath`, `relpath`
 
 ------
 ## `glob`
