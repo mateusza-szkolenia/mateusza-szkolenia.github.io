@@ -189,10 +189,23 @@ Odradzane.
 ```
 
 ---
+### operator `%`
+
+```python
+imie = "Ala"
+ile = 2
+"%s ma %d psy" % (imie, ile)
+
+# Ala ma 2 psy
+```
+
+---
 ### metoda `.format`
 
 ```python
-"{} ma {} psy".format("Ala", "ma")
+imie = "Ala"
+ile = 2
+"{} ma {} psy".format(imie, ile)
 
 # Ala ma 2 psy
 ```
