@@ -6,7 +6,8 @@
 
 ## Tematy
 
-- ...
+- Narzędzie `pylint`
+- Narzędzie `pytest`
 
 ## Zadania
 

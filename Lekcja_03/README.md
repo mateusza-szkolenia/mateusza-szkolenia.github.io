@@ -6,6 +6,7 @@
 
 ## Tematy
 
+- Moduł `argparse`
 - Import i eksport danych: JSON, YAML, Pickle, Marshal
 - Podstawy obiektowości
 - Wbudowane dekoratory

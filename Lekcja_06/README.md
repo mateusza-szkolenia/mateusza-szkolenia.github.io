@@ -7,7 +7,7 @@
 ## Tematy
 
 - Generowanie danych za pomocą szablonów Jinja
-- Generowanie PDF https://weasyprint.org/
+- Generowanie PDF <https://weasyprint.org/>
 
 ## Zadania
 

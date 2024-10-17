@@ -25,6 +25,7 @@
 
 ## [Lekcja 3](Lekcja_03/)
 
+- Moduł `argparse`
 - Import i eksport danych: JSON, YAML, Pickle, Marshal
 - Podstawy obiektowości
 - Wbudowane dekoratory
@@ -46,11 +47,12 @@
 ## [Lekcja 6](Lekcja_06/)
 
 - Generowanie danych za pomocą szablonów Jinja
-- Generowanie PDF https://weasyprint.org/
+- Generowanie PDF <https://weasyprint.org/>
 
 ## [Lekcja 7](Lekcja_07/)
 
-- ...
+- Narzędzie `pylint`
+- Narzędzie `pytest`
 
 ## [Lekcja 8](Lekcja_08/)
 
