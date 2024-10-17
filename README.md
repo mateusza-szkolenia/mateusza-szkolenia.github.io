@@ -20,16 +20,17 @@
 ## [Lekcja 2](Lekcja_02/)
 
 - Instrukcje sterujące: wyjątki, warunki, pętle
-- Wyrażenia warunkowe i pętlowe
-- Funkcje
+- Wyrażenia warunkowe
+- Wyrażenia listowe, generatory
+- Funkcje, lambdy
 
 ## [Lekcja 3](Lekcja_03/)
 
 - Moduł `argparse`
-- Import i eksport danych: JSON, YAML, Pickle, Marshal
+- Import i eksport danych: `JSON`, `YAML`, Pickle, Marshal
 - Podstawy obiektowości
 - Wbudowane dekoratory
-- @dataclass
+- `@dataclass`
 
 ## [Lekcja 4](Lekcja_04/)
 

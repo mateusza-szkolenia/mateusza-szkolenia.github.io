@@ -7,8 +7,9 @@
 ## Tematy
 
 - Instrukcje sterujące: wyjątki, warunki, pętle
-- Wyrażenia warunkowe i pętlowe
-- Funkcje
+- Wyrażenia warunkowe
+- Wyrażenia listowe, generatory
+- Funkcje, lambdy
 
 ## Zadania
 
