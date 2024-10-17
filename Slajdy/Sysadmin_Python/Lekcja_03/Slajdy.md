@@ -6,7 +6,7 @@ Python dla sysadminów
 Mateusz Adamowski
 
 ------
-# `CSV`
+# `argparse`
 
 ------
 # `YAML`

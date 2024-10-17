@@ -66,10 +66,11 @@ print(f"Długość danych: {len(dane)}")
 ```
 
 Note:
-- nie koniecznie oznacza to błąd
-- powżyszy kod nie obsłuży innych błędów otwarcia i czytania z pliku:
-  - braku praw dostępu
-  - błąd IO lub OS (np. zbyt długa lista symlinków)
+nie koniecznie oznacza to błąd  
+powżyszy kod nie obsłuży innych błędów otwarcia i czytania z pliku:  
+  braku praw dostępu  
+  błąd IO lub OS (np. zbyt długa lista symlinków)  
+
 ------
 ## Warunki
 
@@ -196,7 +197,7 @@ def funkcja(parametr):
 ```
 
 Note:
-  - twórcy pythona stwierdzili, że wygodnie będzie nie definiować typów parametrów ani typu zwracanego
+twórcy pythona stwierdzili, że wygodnie będzie nie definiować typów parametrów ani typu zwracanego
 
 ---
 ## Opisywanie typów i dokumentacja
@@ -211,7 +212,7 @@ def funkcja(parametr: str) -> int:
 ```
 
 Note:
-  - a jeszcze wygodniej, jakby je jednak podawać.
+a jeszcze wygodniej, jakby je jednak podawać.
 
 ---
 ## Lambdy

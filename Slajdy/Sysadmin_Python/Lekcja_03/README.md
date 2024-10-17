@@ -7,10 +7,10 @@
 ## Tematy
 
 - Moduł `argparse`
-- Import i eksport danych: JSON, YAML, Pickle, Marshal
+- Import i eksport danych: `JSON`, `YAML`, Pickle, Marshal
 - Podstawy obiektowości
 - Wbudowane dekoratory
-- @dataclass
+- `@dataclass`
 
 ## Zadania
 
