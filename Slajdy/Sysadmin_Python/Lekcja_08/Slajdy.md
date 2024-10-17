@@ -17,7 +17,7 @@ Czy i kiedy przepisać skrypt Basha na Pythona?
 
 - _uruchamianie programów_
 - polecenia zorientowane na operacje na plikach
-- `zmienne == nazwy plików`
+- zmienne → nazwy plików
 
 ------
 # Typowe operacje shellowe
@@ -146,32 +146,11 @@ i zapisanie wyniku do pliku
 <pre>
 <code>from subprocess import run</code>
 <code></code>
-<code>process = run(["program", "arg1"])</code>
+<code>process = run(["program", "arg1"]
+                    capture_output=True)</code>
 <code></code>
 <code>with open("wynik", "wb") as output:</code>
 <code>  output.write(process.stdout)</code>
-</pre>
-</div>
-</div>
-
----
-## Usuwanie plików wg maski
-
-<div class="cols cols-2">
-<div>
-<h3>Bash</h3>
-<pre>
-<code>rm -f *.png</code>
-</pre>
-</div>
-<div style='width: 70%'>
-<h3>Python</h3>
-<pre>
-<code>from os import unlink</code>
-<code>from glob import glob</code>
-<code></code>
-<code>for filename in glob("*.png"):</code>
-<code>  unlink(filename)</code>
 </pre>
 </div>
 </div>
@@ -205,12 +184,32 @@ i zapisanie wyniku do pliku
 ## Brak wad
 
 [Pułapki Basha](https://mywiki.wooledge.org/BashPitfalls)
+[The UNIX Haters Book](https://web.mit.edu/~simsong/www/ugh.pdf)
 
 ---
 <!-- .slide: data-autofragments -->
-## Zalety
+## Problemy basha
 
-- brak ograniczeń w długości listy argumentów (`xargs`)
+Problematyczne sytuacje
+
+- spacje i znaki specjalne w nazwach plików
+- bardzo długa lista plików (`xargs`)
+- brak plików pasujących do maski
+
+---
+<!-- .slide: data-autofragments -->
+## Problemy basha
+
+- ubogi aparat arytmetyczny
+- brak zagnieżdżonych tablic
+- konieczność polegania na zewnętrznych programach
+- złe nawyki "programistów"
+
+---
+<!-- .slide: data-autofragments -->
+## Zalety pythona
+
+- brak ograniczeń w długości listy argumentów
 - brak problemów z _eskejpowaniem_
 - wydajniejsze operacje na tekstach
 - funkcjonalny system typów
@@ -290,3 +289,4 @@ napis2 = napis.replace("ala", "Ala").replace("kota", "psa")
 print(napis2)
 ```
 
+---

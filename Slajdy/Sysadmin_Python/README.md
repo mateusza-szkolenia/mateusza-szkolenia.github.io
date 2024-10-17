@@ -27,7 +27,7 @@
 ## [Lekcja 3](Lekcja_03/)
 
 - Moduł `argparse`
-- Import i eksport danych: `JSON`, `YAML`, Pickle, Marshal
+- Import i eksport danych: `JSON`, `YAML`
 - Podstawy obiektowości
 - Wbudowane dekoratory
 - `@dataclass`

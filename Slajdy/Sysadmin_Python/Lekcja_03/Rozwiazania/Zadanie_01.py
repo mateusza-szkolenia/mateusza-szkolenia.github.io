@@ -1,21 +1,25 @@
 #!/usr/bin/env python3
 
-"""Napisać program przetwarzający bazę polskich miejscowości w formacie YAML lub JSON:
+"""Napisać program wczytujący bazę lotnisk w formacie JSON
+pobraną ze strony: <https://datahub.io/core/airport-codes>
 
-https://mateusza-szkolenia.github.io/Programowanie/Zbiory_danych/Miejscowosci/
+Znaleźć na liście wszystkie duże lotniska (`"type": "large_airport"`)
+i zapisać je w pliku JSON jako tablicę słowników postaci:
 
-Stworzyć klasę, która:
-- opakuje surowy słownik pobrany z JSON lub Yaml
-- będzie potrafiła wyświetlić swoje skłądowe w standardowy sposób
-
-Stworzyć funkcję pomocniczą do liczenia odległości między dwoma współrzędnymi (w linii prostej).
-
-Stworzyć klasę, która będzie zawierać listę miejscowości wczytaną z pliku,
-a także będzie potrafiła filtrować miejscowości wg odległości od danych współrzędnych lub wg nazwy.
-
-Na koniec odnaleźć dwie pary miejscowości:
-- z maksymalną odległością od siebie nawzajem
-- z minimalną odległością od siebie nawzajem
-
+```
+{
+  "name": "Warsaw Chopin Airport",
+  "continent": "EU",
+  "iso_country": "PL",
+  "municipality": "Warsaw",
+  "iata_code": "WAW",
+  "icao_code": "EPWA",
+  "gps": [52.165699, 20.9671]
+}
+```
 """
 
+import json
+import math
+
+...
