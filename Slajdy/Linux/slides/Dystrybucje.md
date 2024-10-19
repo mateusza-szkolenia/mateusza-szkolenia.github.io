@@ -285,9 +285,10 @@ Ubuntu 22.10 (Kinetic Kudu)
 Ubuntu 23.04 (Lunar Lobster)  
 Ubuntu 23.10 (Mantric Minotaur)  
 **Ubuntu 24.04 LTS (Noble Numbat)**  
+Ubuntu 24.10 Oracular Oriole*  
 ...  
-*Ubuntu 24.10 Oracular Oriole*  
-*Ubuntu 25.04 ...*
+*Ubuntu 25.04 Plucky Puffin*  
+*Ubuntu 25.10 ...
 
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
 <!-- .slide: data-background="linear-gradient(151deg, rgba(2,0,36,1) 3%, rgba(85,30,61,1) 43%, rgba(99,33,69,1) 74%, rgba(156,58,47,1) 94%)" -->
