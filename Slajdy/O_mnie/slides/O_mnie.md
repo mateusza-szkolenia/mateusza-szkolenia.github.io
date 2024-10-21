@@ -1,9 +1,4 @@
 <!-- .slide: data-autofragments -->
-<!-- .slide: data-background="img/fundacja-sysops-devops-polska-bg-gray.png" -->
-
-------
-<!-- .slide: data-autofragments -->
-<!-- .slide: data-background="img/fundacja-sysops-devops-polska-bg-gray.png" -->
 # Mateusz Adamowski
 <!-- .element: style="font-size: 2em;" -->
 
@@ -15,6 +10,13 @@ ur. 1985
 # Sysadmin
 
 od 2004
+
+------
+_"Pan od komputerów"_
+
+2004-2010
+
+- kilka małych firm i biur
 
 ---
 <!-- .slide: data-autofragments -->
@@ -42,7 +44,7 @@ od 2004
 2022
 
 - RHEL
-- NVidia NGX
+- NVidia NGX (ML, AI)
 
 ---
 <!-- .slide: data-autofragments -->
@@ -52,7 +54,7 @@ od 2022
 
 - VPN (Wireguard, OpenVPN)
 - Debian
-- ansible
+- Ansible
 - GitLab, CI/CD, docker
 
 ------
@@ -91,7 +93,7 @@ od 2009
 
 2019-2021, Józefosław
 
-- Nauczyciel informatyki
+Nauczyciel informatyki
 
 ------
 <!-- .slide: data-autofragments -->
@@ -113,7 +115,7 @@ od 2009
 - Slackware (2000)
 - Ubuntu (od 2004)
 - Debian
-- Rocky Linux
+- EL/Rocky Linux
 
 <small>również: CentOS, Alpine, Void Linux</small>
 
