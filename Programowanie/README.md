@@ -13,3 +13,11 @@ Zasoby pomocnicze dla kursów programistycznych
 ## [Zadania](Zadania) - WIP
 
 ## [Języki programowania](Jezyki_programowania)
+
+# Programiści
+
+- [Nick Chapsas](https://www.youtube.com/@nickchapsas) - `C#`
+- [James Murphy @mcoding](https://www.youtube.com/@mCoding) - `python`
+- [Aleksey Kutepov @tsoding @rexim](https://www.youtube.com/@tsoding) - `C` i różne inne języki
+- [Michael B. Paulson ThePrimeagen](https://www.youtube.com/ThePrimeagen) - `Rust`, `TypeScript` i inne języki
+- [Conner Ardman](https://www.youtube.com/@ConnerArdman) - `JS`
