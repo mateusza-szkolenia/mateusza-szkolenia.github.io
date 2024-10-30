@@ -7,7 +7,8 @@
 
 ## [Programowanie](Programowanie/)
 
-Materiały do kursów programowania. (Python, C, C++, Javascript, SQL, SQLite, MySQL, PostgreSQL)
+Materiały do kursów programowania.  
+_Python, C, C++, Javascript, SQL, SQLite, MySQL, PostgreSQL_
 
 </section>
 
@@ -16,7 +17,8 @@ Materiały do kursów programowania. (Python, C, C++, Javascript, SQL, SQLite, M
 
 ## [Web](Web/)
 
-Materiały do kursów web-development. (Głównie frontend, HTML5, CSS)
+Materiały do kursów web-development.  
+_HTML5, CSS, JS_
 
 </section>
 
@@ -25,7 +27,8 @@ Materiały do kursów web-development. (Głównie frontend, HTML5, CSS)
 
 ## [Sysadmin](Sysadmin/)
 
-Materiały do szkoleń z Linuksa (artykuły, ciekawe dystrybucje, tutoriale, systemy pakietów).
+Materiały do szkoleń z Linuksa.  
+_artykuły, ciekawe dystrybucje, tutoriale, systemy pakietów_
 
 </section>
 
@@ -63,20 +66,8 @@ Opisy rozwiązania kilku typowych problemów.
 
 ## Szkolenia
 
-### [ALX](https://alx.pl)
-
-[Git](https://www.alx.pl/szkolenia/git-intro/) •
-[Wireguard](https://www.alx.pl/szkolenia/wireguard/) •
-[IPv6](https://www.alx.pl/szkolenia/protokol-ipv6/) •
-[Administrator Linuksa](https://www.alx.pl/pl/administrator-linuksa/) •
-[Linux essentials](https://www.alx.pl/szkolenia/linux-essentials/) •
-[Ansible wstęp](https://www.alx.pl/szkolenia/ansible-automatyzacja/) •
-[Ansible](https://www.alx.pl/szkolenia/ansible-full/) •
-[C/C++](https://www.alx.pl/pl/kurs-cpp-programowanie/) •
-[C](https://www.alx.pl/szkolenia/programowanie-c-podstawy/) •
-[Python scripting](https://www.alx.pl/szkolenia/python-pisanie-drobnych-programow/) •
-[Python](https://www.alx.pl/pl/bootcamp-python/) •
-[Python dla młodzieży](https://www.alx.pl/pl/kurs-nauka-programowania-python-dla-mlodziezy/)
+[SysOps/DevOps Polska](Szkolenia/SODO.md) •
+[ALX](Szkolenia/Alx.md)
 
 </section>
 
@@ -96,7 +87,6 @@ Kod źródłowy z zajęć.
 
 LinkedIn: [mateusza](https://www.linkedin.com/in/mateusza/)  
 𝕏: [mateusza](https://x.com/mateusza)  
-✉️  alx.pl: [m.adamowski](mailto:m.adamowski@alx.pl)  
 github: [mateusza](https://github.com/mateusza/)
 
 ![URL](./style/qr.png)
