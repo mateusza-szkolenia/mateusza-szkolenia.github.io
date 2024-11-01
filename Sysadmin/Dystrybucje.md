@@ -6,8 +6,6 @@
 * [Ubuntu](https://ubuntu.com/)
 * [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
 * [Fedora Linux](https://fedoraproject.org/)
-* [SUSE](https://www.suse.com/)
-* [openSUSE](https://www.opensuse.org/)
 
 ## Klony [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
 
@@ -16,7 +14,7 @@
 * [CentOS](https://www.centos.org/)
 * [CentOS Stream](https://www.centos.org/centos-stream/)
 * [Oracle Linux](https://www.oracle.com/linux/)
-* [EuroLinux](https://en.euro-linux.com/eurolinux/what-is/)
+* [EuroLinux](https://euro-linux.com/)
 
 ## Bazujące na [Ubuntu](https://ubuntu.com/) i [Debianie](https://www.debian.org/):
 
@@ -54,8 +52,9 @@
 * [Garuda Linux](https://garudalinux.org/)
 * [Bedrock Linux](https://bedrocklinux.org/)
 * [Solus](https://getsol.us/)
-
-*Uwaga! "Prostota" niekoniecznie oznacza "łatwość użytkowania" - często wręcz przeciwnie.*
+* [SUSE](https://www.suse.com/)
+* [openSUSE](https://www.opensuse.org/)
+* [PLD Linux](https://www.pld-linux.org/)
 
 ## LiveCD z dużą ilością narzędzi specjalistycznych
 
@@ -67,36 +66,29 @@
 
 ## Dedykowane dla konkretnych urządzeń, usług i zastosowań
 
-### Platformy gier
+### Wirtualizacja, routery, firewalle i centrale VoIP
+
+* [Proxmox](https://www.proxmox.com/)
+* [OpenWRT](https://openwrt.org/)
+* [OpenWall](https://www.openwall.com/)
+* [VyOS](https://vyos.io/)
+* [pfSense](https://www.pfsense.org/)
+* [FreePBX](https://www.freepbx.org/)
+
+### Platformy gier i multimediów
 
 * [SteamOS](https://store.steampowered.com/steamos)
 * [RetroPie](https://retropie.org.uk/)
 * [Lakka](https://www.lakka.tv/)
 * [Batocera.linux](https://batocera.org/)
-
-### Platformy multimedialne (smart TV)
-
 * [OSMC](https://osmc.tv/)
-
-### Komputery Apple Macintosh z nowym procesorem Apple M1
-
-* [Asahi Linux](https://asahilinux.org/)
-
-### Routery i firewalle
-
-* [OpenWRT](https://openwrt.org/)
-* [OpenWall](https://www.openwall.com/)
-* [VyOS](https://vyos.io/)
-
-### Serwery lokalne (medialne)
-
 * [ClearOS](https://www.clearos.com/)
 * [OpenMediaVault](https://www.openmediavault.org/)
 * [Snakeoil OS](https://www.snakeoil-os.net/)
 
-### Centrale telefonicza VoIP
+### Komputery Apple Macintosh z nowym procesorem Apple M1
 
-* [FreePBX](https://www.freepbx.org/)
+* [Asahi Linux](https://asahilinux.org/)
 
 ### Nastawione ne ekstremalnie wysoki poziom bezpieczeństwa
 

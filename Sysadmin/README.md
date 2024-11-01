@@ -1,6 +1,6 @@
 # Administracja Linux
 
-## [Dystrybucje](Dystrybucje.md)
+## [Dystrybucje Linuksa i inne systemy operacyjne](Dystrybucje.md)
 
 ## [Pakiety](Pakiety.md)
 
