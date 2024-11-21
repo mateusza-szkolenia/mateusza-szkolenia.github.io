@@ -26,6 +26,8 @@
 - Mark Mitchell, Jeffrey Oldham, and Alex Samuel - *Advanced Linux Programming*
 [[WWW](https://mentorembedded.github.io/advancedlinuxprogramming/)]
 [[PDF](https://mentorembedded.github.io/advancedlinuxprogramming/alp-folder/advanced-linux-programming.pdf)]
+- Rocky Linux Admin Guide
+[[PDF]](https://rocky-linux.github.io/documentation/RockyLinuxAdminGuide.pdf)
 
 ## Artykuły
 
