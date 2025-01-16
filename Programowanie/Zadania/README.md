@@ -1,13 +1,22 @@
 # Zadania
 
-## Advent of Code
-* Strona: <https://adventofcode.com/>
-* Kod do tabeli rankingowej: `624206-ac4d1c83`
+## Zadania online
 
-## [Diagram Voronoia](Diagram_Voronoia)
+### Advent of Code
+Strona: <https://adventofcode.com>  
+Kod do tabeli rankingowej: `624206-ac4d1c83`
 
-## [Zagadki z internetu](Zagadki_internetowe)
+### Exercism
+Strona: <https://exercism.org>
 
-* [Code\_3\_digits](Code_3_digits)
-* [Collatz](Collatz)
-* [Kaprekar](Kaprekar)
+### LeetCode
+Strona: <https://leetcode.com>
+
+### Educative
+Strona: <https://www.educative.io>
+
+
+## Inne
+
+* [Diagram Voronoia](Diagram_Voronoia)
+* [Zagadki z internetu](Zagadki_internetowe)
