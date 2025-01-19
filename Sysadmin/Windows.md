@@ -1,5 +1,9 @@
 # Windows
 
+## Windows inside a Docker container (KVM)
+
+Strona: <https://github.com/dockur/windows>
+
 ## winutil
 
 Strona: <https://github.com/ChrisTitusTech/winutil>
