@@ -581,13 +581,16 @@ Listowanie pasujących nazw plików.
 
 Odpowiedniki poleceń shellowych, które wymagają więcej niż jednej operacji.
 
-Np. rekurencyjne kopiowanie, usuwanie.
+- rekurencyjne kopiowanie, usuwanie.
+- `which`
+- zużycie miejsca
+- rozpakowywanie archiwów `tar`
 
 ------
 <!-- .slide: data-autofragments -->
 ## `sys`
 
-Informacja o "systemie" i Pythonie.
+Informacja o środowisku i Pythonie.
 
 - `sys.argv` - parametry uruchomienia procesu
 - `version` - wersja Pythona
@@ -622,3 +625,25 @@ Wyrażenia regularne.
 ## `datetime`, `time`
 
 Daty, godziny.
+
+------
+## `random`
+
+Generator liczb pseudolosowych.
+
+- `randint(a, b)` - losowa liczba całkowita
+- `choice(populacja)` - losowy element populacji
+- `choices(populacja, k=k)` - 5 losowych próbek populacji
+- `sample(populacja, n)` - losowa próba n elementów populacji
+
+------
+## `collections`
+
+Warianty standardowych typów oferujące dodatkową i zoptymalizowaną funkcjonalność.
+
+- `deque`
+- `defaultdict`
+- `namedtuple`
+- `Counter`
+
+
