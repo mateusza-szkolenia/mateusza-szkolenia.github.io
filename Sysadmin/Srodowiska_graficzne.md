@@ -10,6 +10,7 @@
 * [evilwm](https://github.com/nikolas/evilwm)
 * [Openbox](http://openbox.org/wiki/Main_Page)
 * [Fluxbox](http://fluxbox.org/)
+* [progman](https://github.com/jcs/progman)
 
 ## Dodatki do GNOME
 * [https://extensions.gnome.org/extension/6000/quick-settings-audio-devices-renamer/]

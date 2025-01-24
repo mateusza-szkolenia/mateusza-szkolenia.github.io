@@ -4,7 +4,7 @@
 
 ### Flatpak
 * Strona: <https://flatpak.org/>
-* Repozytorium: <https://flathub.org/>
+* Repozytorium Flathub: <https://flathub.org/>
 
 ### Snap
 * Strona i repozytorium: <https://snapcraft.io/>
@@ -59,10 +59,18 @@
 ### IUS.io (EL7)
 * Strona: <https://ius.io/>
 
+## Telefony i urządzenia mobilne
+
 ### Termux (Android)
 Środowisko Linux z menedżerem pakietów `APT` dla Androida.
 * Strona: <https://termux.dev/>
 * Pakiety: <https://packages.termux.dev/>
+
+### iSH (iPhone)
+Środowisko emulujące Linuxa bazujące na dystrybucji Alpine.
+* App Store: <https://apps.apple.com/us/app/ish-shell/id1436902243>
+* Strona: <https://ish.app/>
+* Źródła: <https://github.com/ish-app/ish/>
 
 ## Inne systemy pakietów i repozytoria
 
