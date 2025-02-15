@@ -66,6 +66,11 @@
 
 ## Dedykowane dla konkretnych urządzeń, usług i zastosowań
 
+### Telefony (smartfony)
+
+* [postmarketOS](https://postmarketos.org)
+* [ubuntu touch](https://www.ubuntu-touch.io/)
+
 ### Wirtualizacja, routery, firewalle i centrale VoIP
 
 * [Proxmox](https://www.proxmox.com/)
