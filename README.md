@@ -44,6 +44,7 @@
 - Korzystanie z API za pomocą biblioteki `pynetbox`
 - Opakowywanie biblioteki we własne obiekty i funkcje
 - Korzystanie z modułu `ipaddress`
+- Korzystanie z modułu `geoip` i bazy `geolite2`
 
 ## [Lekcja 6](Lekcja_06/)
 
