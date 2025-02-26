@@ -142,6 +142,9 @@ Product names, logos, and brands are property of their respective owners in the 
 
 Author of these slides is not affiliated with any of them and they are used for educational purpuses only.
 
+---
+![Mental](img/mental-disorders.png) <!-- .element: style="height: 60vh;" -->
+
 ------
 ## Nazwy
 
