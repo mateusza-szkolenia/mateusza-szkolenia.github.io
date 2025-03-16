@@ -33,6 +33,11 @@
 ### Symbole debugowania (Ubuntu)
 * Strona: <https://ubuntu.com/server/docs/debug-symbol-packages>
 
+### Pacstall (Ubuntu)
+* Kod: <https://github.com/pacstall/pacstall>
+* Strona: <https://ppr.pacstall.dev/>
+* Pakiety: <https://pacstall.dev/packages>
+
 ### Repozytoria EL
 * Rocky Linux: <https://wiki.rockylinux.org/rocky/repo/#notes-on-unlisted-repositories>
 * Alma Linux: <https://wiki.almalinux.org/repos/AlmaLinux.html>
@@ -96,6 +101,9 @@
 ### Nix
 * Strona: <https://nixos.org/>
 * Pakiety: <https://search.nixos.org/packages>
+
+### pkgs
+* Strona: <https://pkgx.sh>
 
 ## Agregaty informacji
 
