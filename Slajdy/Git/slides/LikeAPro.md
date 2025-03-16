@@ -1,8 +1,7 @@
+<!-- .slide: data-background="img/fundacja-sysops-devops-polska-bg-gray.png" -->
 <!-- .slide: data-autofragments -->
 
 # Git - Like a pro!
-
-Mateusz Adamowski  
 
 SysOps/DevOps Meetup #73  
 Warszawa, 2025-03-20
@@ -11,8 +10,9 @@ Warszawa, 2025-03-20
 <!-- .slide: data-autofragments -->
 ## Mateusz Adamowski
 
-- sysadmin od 2005
-- użytkownik Linuksa od 2000
+- sysadmin (od 2005)
+- programista (Python, Bash, JS, C)
+- użytkownik Linuksa (od 2000)
 - szkoleniowiec
 
 ------
@@ -21,7 +21,11 @@ Warszawa, 2025-03-20
 ![Git](img/1280px-Git-logo.svg.png)
 
 ------
-# Historia powstania Gita
+# Historia powstania
+
+---
+
+_cofnijmy się w czasie do 2000_
 
 ---
 <!-- .slide: data-autofragments -->
@@ -33,14 +37,31 @@ Warszawa, 2025-03-20
 - CVS, Subversion
 
 ---
+<!-- .slide: data-autofragments -->
+## CVS (1990)
 
+- brak śledzenia katalogów i zmian nazw
+- tylko praca online
+- blokady
+- fatalna obsługa branchy i tagów
+
+---
 > If you like using CVS, you should be in some kind of mental institution or somewhere else.
 >
 > (Linus Torvalds)
 
 ---
+<!-- .slide: data-autofragments -->
+## Subversion (1995)
 
-> Subversion has been the most pointless project ever started... Subversion used to say, 'CVS done right.' With that slogan there is nowhere you can go. There is no way to do CVS right."
+- centralny serwer
+- branche jako podkatalogi
+- niefektywne przechowywanie
+- brak integralności danych
+- ograniczenia w obsłudze metadanych (`chmod`)
+
+---
+> Subversion has been the most pointless project ever started... Subversion used to say, 'CVS done right.' With that slogan there is nowhere you can go. There is no way to do CVS right.
 >
 > (Linus Torvalds)
 
@@ -117,21 +138,88 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it._
 > (Linus Torvalds)
 
 ---
+<!-- .slide: data-autofragments -->
 ## Windows?
 
-- znaki końca linii
-- nazwy plików
+- inne znaki końca linii
+- nazwy plików, ścieżki
 - prawa dostępu
-- narzędzia shellowe
+- brak narzędzi shellowych
+- wolniejszy system plików i tworzenie procesów
 
 ---
-## BitKeeper?
+## windows problems
 
+<iframe src='assets/faylor-email.html' style='width: 60vw; height: 70vh;'></iframe>
+
+---
+## Git for Windows
+
+![Git for Windows](img/git-for-windows.png)
+
+---
+![Git bash](img/git-bash-windows-bin.png)
+
+---
+<!-- .slide: data-autofragments -->
+## Git Bash (Windows)
+
+- translacja ścieżek Windows na Linux
+- konwersja plików "w locie"
+- narzędzia:
+  - shell (`bash`)
+  - coreutils: `awk`, `sed`, `grep`...
+  - `perl`, `GPG`
+
+---
+<!-- .slide: data-autofragments -->
+## GitHub (2008)
+
+- platforma web
+- hosting free and open source
+
+---
+<!-- .slide: data-autofragments -->
+## GitLab (2011)
+
+- self-hosted GH clone
+- od 2014 też jako usługa
+- GitLab CI (2012, zintegrowane w 2015)
+
+---
+<!-- .slide: data-autofragments -->
+## GitHub Actions (2018)
+
+- CI/CD
+
+---
+<!-- .slide: data-autofragments -->
+## Microsoft?
+
+- własne produkty:
+    - Visual SourceSafe
+    - Team Foundation Server
+    - Source Depot
+- 2017 - [MS używa wewnętrznie gita](https://arstechnica.com/information-technology/2017/02/microsoft-hosts-the-windows-source-in-a-monstrous-300gb-git-repository/)
+- 2018 - zakup GitHuba przez MS
+
+---
+<!-- .slide: data-autofragments -->
+## BitKeeper?
+- 2000 - powstanie
+- 2002 - współpraca z dew. Linuksa
+- 2005 - odebranie licencji dew. Linuksa
 - 2016 - open source (Apache License 2)
 - 2018 - discontinued
 
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8SdAKwgHV48?si=-P48obiEs8icXvie" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ------
 # tig
+
+
 
 ---
 

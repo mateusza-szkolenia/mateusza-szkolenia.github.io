@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>Re: windows problems summary</title>
+<style>
+body {
+    color: #4f4; background-color: #000;
+}
+</style>
+    </head>
+    <body>
+<pre>
+From: Christopher Faylor
+To: Alex Riesen, Git Mailing List
+Subject: Re: windows problems summary
+Date: Thu, 2 Mar 2006 10:23:29 -0500	[thread overview]
+
+On Thu, Mar 02, 2006 at 03:49:24PM +0100, Alex Riesen wrote:
+>This is just to summarize all the problems which make porting to that
+>thing so boring. Maybe if we have them all on one page, it'd be easier
+>to locate the workarounds (it can be one thread, for example).
+>
+>1. opened and mmaped files can't be removed or renamed
+>  (caused workaround with reading index in memory)
+>2. command can safely contain only one argument
+>  (breaks and complicates passing things between processes)
+>3. no fork
+>  (slows down and complicates passing things between processes)
+>4. non-unix permissions model
+>  (breaks x-attr)
+>5. real slow filesystems and caching
+>  (makes everything slow. I noticed I'm trying to avoid git status!).
+>  Caused workaround with manual checkout)
+>6. real slow program startup
+>  (makes everything slow, eventually may cause everything being put
+>  in one super-executable, just to avoid spawning new processes,
+>  with all associated problems. Makes scripting harder)
+>
+>I hope this message can be a start of a big porting thread,
+>even though it is only about windows at the moment.
+
+Are we *really* contemplating porting git to native Windows?
+
+I guess I missed that memo.
+
+cgf
+</pre>
+</body>
+</html>
