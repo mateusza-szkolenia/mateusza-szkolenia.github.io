@@ -25,7 +25,7 @@ Warszawa, 2025-03-20
 
 ---
 <!-- .slide: data-autofragments -->
-# Rok 2000
+## Rok 2000
 
 - dial-up internet
 - _cloud computing_ - nie istnieje
@@ -46,10 +46,12 @@ Warszawa, 2025-03-20
 
 ---
 <!-- .slide: data-autofragments -->
-# Linux
+## Linux
 
 - flagowy projekt free/open source
+- kernel 2.2.x
 - 1.5M LoC
+- rosnąca popularność i zainteresowanie gigantów
 
 ---
 
@@ -57,39 +59,65 @@ Warszawa, 2025-03-20
 >
 > (Linus Torvalds)
 
+------
+<!-- .slide: data-background="#eee" -->
+
+![BitKeeper](img/Bitkeeper-logo.png)
+
+(2002)
 ---
+<!-- .slide: data-autofragments -->
+## BitKeeper
+
+Innowacyjne narzędzie do kontroli wersji firmy BitMover.
+
+- komerycjne (płatne)
+- rozproszone
+- repozytoria "w chmurze"
+- <i class='fab fa-windows'></i> <i class='fab fa-apple'></i> <i class='fab fa-linux'></i>
+- _kontrowersyjne_ licencjonowanie
 
 ---
-# Linus Torvalds
+<!-- .slide: data-autofragments -->
+## Darmowa licencja
+
+- dla developerów FLOSS
+- ograniczona funkcjonalność
+- kontrowersyjne zapisy
+    - zakaz rozszerzania funkcjonalności
+    - niedostępna dla developerów innych VCS
 
 ---
+<!-- .slide: data-autofragments -->
+## Kontrowersje
+
+Flagowy projekt FLOSS zarządzany komercyjnym narzędziem.
+
+vs
+
+_I'll use the best tool for the job and, quite frankly, BitKeeper was it._
+
+---
+## Wycofanie licencji
+
+(2005)
+
+---
+<!-- .slide: data-autofragments -->
+## Powstanie Gita
+
+- napisany w kilka dni przez Linusa Torvaldsa
+- języki: C, shell, perl
+- narzędzia systemowe typu diff, patch
+
+---
+
 > Take CVS as an example of what not to do; if in doubt, make the exact opposite decision
-
----
-> For the first 10 years of kernel maintenance, we literally used tarballs and patches, which is a much superior source control management system than CVS is.
-
----
-
+>
+> (Linus Torvalds)
 
 ---
 
-------
-# BitMover
-
----
-# BitKeeper
-
-------
-# Pierwsze wersje gita
-
----
-- skrypty
-- narzędzia unix
-
----
-## "cogito"
-
----
 ## brak kompatybilności z Windows
 
 - znaki końca linii
@@ -97,34 +125,29 @@ Warszawa, 2025-03-20
 - prawa dostępu
 - narzędzia shellowe
 
----
-## podobne narzędzia
+------
 
----
-### Mercurial (`hg`)
+# tig
 
-- C, Python, Rust
-- delta frames
+------
 
----
-### Bazaar (`bzr`)
+# etckeeper
 
-- Python
-- Ubuntu
+------
 
----
-### Fossil
+# pre-commit
 
-- C, SQLite
+------
 
----
-### GNU Arch
+# git worktree
 
----
-### Perforce
+------
 
----
-### Darcs
+# git filter-branch
+
+------
+
+# Gitea
 
 ------
 

@@ -15,3 +15,12 @@ div.cols div img + p {
     text-align: center;
     font-size: 0.4em;
 }
+
+blockquote {
+    padding: 1em;
+    border-radius: 1em;
+}
+
+blockquote p {
+    padding: 1em;
+}
