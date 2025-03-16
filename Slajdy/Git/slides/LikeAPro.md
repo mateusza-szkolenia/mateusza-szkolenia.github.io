@@ -117,36 +117,47 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it._
 > (Linus Torvalds)
 
 ---
-
-## brak kompatybilności z Windows
+## Windows?
 
 - znaki końca linii
 - nazwy plików
 - prawa dostępu
 - narzędzia shellowe
 
-------
+---
+## BitKeeper?
 
+- 2016 - open source (Apache License 2)
+- 2018 - discontinued
+
+------
 # tig
 
-------
+---
 
+# `tig --author`
+
+---
+
+# `tig katalog/`
+
+---
+
+# `tig --all`
+
+------
 # etckeeper
 
 ------
-
 # pre-commit
 
 ------
-
 # git worktree
 
 ------
-
 # git filter-branch
 
 ------
-
 # Gitea
 
 ------
