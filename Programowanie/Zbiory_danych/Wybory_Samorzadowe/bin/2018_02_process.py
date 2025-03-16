@@ -4,7 +4,7 @@ import os
 
 import sqlite3
 
-ROK=2018
+ROK = 2018
 
 DIR = f"../temp/{ROK}/"
 
@@ -20,22 +20,22 @@ except FileNotFoundError:
 
 con = sqlite3.connect(DB)
 
-con.create_function('upper2', 1, lambda x: x.upper(), deterministic=True)
-con.create_function('pierwsze', 1, lambda x: x.partition(" ")[0], deterministic=True)
+con.create_function("upper2", 1, lambda x: x.upper(), deterministic=True)
+con.create_function("pierwsze", 1, lambda x: x.partition(" ")[0], deterministic=True)
 
 con.executescript(open(SCHEMA).read())
 
 steps = [
-"""
+    """
 Attach Database 'temp.db' As tmp;
 """,
-"""
+    """
 Insert Into typ_komitetu (nazwa)
 Select typ
 From tmp.komitety
 Group By typ;
 """,
-"""
+    """
 Insert Into komitet (sygnatura, nazwa, id_typu)
 Select
     sygnatura,
@@ -43,7 +43,7 @@ Select
     (Select id From typ_komitetu tk Where tk.nazwa = ko.typ)
 From tmp.komitety ko;
 """,
-"""
+    """
 Insert Into kandydat (imiona, imie, nazwisko, wiek, rok_ur, plec, zamieszk, id_komitetu, orig_id)
 Select
     upper2(imiona),
@@ -69,7 +69,7 @@ Select
     rowid
 From tmp.kandydaci_rady ka;
 """,
-"""
+    """
 Insert Into stanowisko (nazwa, szczebel, teryt)
 Select Distinct urzd, 'gmina', teryt
 From tmp.kandydaci_wbp
@@ -77,17 +77,17 @@ Union All
 Select Distinct rada, 'gmina', teryt
 From tmp.kandydaci_rady;
 """,
-"""
+    """
 Update stanowisko
 Set szczebel = 'województwo'
 Where nazwa Like 'Sejmik Wojew%';
 """,
-"""
+    """
 Update stanowisko
 Set szczebel = 'powiat'
 Where nazwa Like 'Rada Powiatu%';
 """,
-"""
+    """
 Insert Into lista (id_stanowiska, id_komitetu, okreg)
 Select
     (Select id From stanowisko Where nazwa = rada),
@@ -103,7 +103,7 @@ Select
 From tmp.kandydaci_wbp
 Group By "Urzd", komitet, ok;
 """,
-"""
+    """
 Insert Into kandydat_lista (id_kandydata, id_listy, pozycja)
 Select
     ka.id,
@@ -124,7 +124,8 @@ Join kandydat ka On (ka.orig_id = ka2.rowid)
 Join komitet ko Using (sygnatura)
 Join stanowisko st On st.nazwa = ka2.Urzd
 Join lista li On (li.id_stanowiska = st.id And li.id_komitetu = ko.id And li.okreg = 0);
-"""]
+""",
+]
 
 for step in steps:
     print(step)

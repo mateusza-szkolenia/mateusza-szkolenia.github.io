@@ -21,7 +21,7 @@ def get_slidesets():
 
 VERSIONS = {
     'revealjs_version': '5.1.0',
-    'font_awesome_version': '6.6.0'
+    'font_awesome_version': '6.7.2'
 }
 
 def main():
