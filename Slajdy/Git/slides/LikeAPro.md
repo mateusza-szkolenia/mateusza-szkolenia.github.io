@@ -240,6 +240,44 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it._
 # pre-commit
 
 ------
+# Podpisywanie commitów
+
+`[SCREENSHOT HERE]`
+
+---
+## Generowanie klucza
+
+(Tylko, jeśli nie mamy)
+
+```
+$ ssh-keygen -t ed25519
+```
+
+---
+# Konfiguracja
+
+```
+$ git config --global user.signingkey "~/.ssh/id_ed25519.pub"
+$ git config --global gpg.format ssh
+$ git config --global commit.gpgsign true
+```
+
+---
+# Upload klucza GitLab
+
+![Klucz](img/gitlab-ssh-key.png)
+
+---
+# Upload klucza GitHub
+
+---
+# Weryfikacja
+
+```
+$ git cat-file -p master
+```
+
+------
 # git worktree
 
 ------
