@@ -12,7 +12,7 @@ Warszawa, 2025-03-20
 
 - sysadmin (od 2005)
 - programista (Python, Bash, JS, C)
-- użytkownik Linuksa (od 2000)
+- miłośnik Linuksa (od 2000)
 - szkoleniowiec
 
 ------
@@ -43,7 +43,7 @@ _cofnijmy się w czasie do 2000_
 - brak śledzenia katalogów i zmian nazw
 - tylko praca online
 - blokady
-- fatalna obsługa branchy i tagów
+- fatalna obsługa gałęzi i tagów
 
 ---
 > If you like using CVS, you should be in some kind of mental institution or somewhere else.
@@ -57,13 +57,17 @@ _cofnijmy się w czasie do 2000_
 - centralny serwer
 - branche jako podkatalogi
 - niefektywne przechowywanie
-- brak integralności danych
-- ograniczenia w obsłudze metadanych (`chmod`)
+- brak kontroli integralności danych
+- ograniczenia w obsłudze metadanych (np. `chmod`)
 
 ---
 > Subversion has been the most pointless project ever started... Subversion used to say, 'CVS done right.' With that slogan there is nowhere you can go. There is no way to do CVS right.
 >
 > (Linus Torvalds)
+
+---
+<!-- .slide: data-background="#eee" -->
+![Tux](img/tux.png) <!-- .element: style="height: 50vh;" -->
 
 ---
 <!-- .slide: data-autofragments -->
@@ -88,6 +92,8 @@ _cofnijmy się w czasie do 2000_
 (2002)
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#eee" -->
+
 ## BitKeeper
 
 Innowacyjne narzędzie do kontroli wersji firmy BitMover.
@@ -110,15 +116,17 @@ Innowacyjne narzędzie do kontroli wersji firmy BitMover.
 
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#211" -->
 ## Kontrowersje
 
 Flagowy projekt FLOSS zarządzany komercyjnym narzędziem.
 
 vs
 
-_I'll use the best tool for the job and, quite frankly, BitKeeper was it._
+_I'll use the best tool for the job and, quite frankly, BitKeeper was it. (Torvalds)_
 
 ---
+<!-- .slide: data-background="#522" -->
 ## Wycofanie licencji
 
 (2005)
@@ -127,7 +135,7 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it._
 <!-- .slide: data-autofragments -->
 ## Powstanie Gita
 
-- napisany w kilka dni przez Linusa Torvaldsa
+- napisany w kilkanaście dni przez Linusa Torvaldsa
 - języki: C, shell, perl
 - narzędzia systemowe typu diff, patch
 
@@ -138,8 +146,18 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it._
 > (Linus Torvalds)
 
 ---
+# Rozwój gita
+
+- konkurencyjne narzędzia
+  - Mercurial (`hg`)
+  - Bazaar (`bzr`)
+  - Fossil (SQLite)
+
+---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#117" -->
 ## Windows?
+<!-- .element: style="background: #fff; color: #117;" -->
 
 - inne znaki końca linii
 - nazwy plików, ścieżki
@@ -153,11 +171,13 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it._
 <iframe src='assets/faylor-email.html' style='width: 60vw; height: 70vh;'></iframe>
 
 ---
+<!-- .slide: data-background="#eee" -->
 ## Git for Windows
 
 ![Git for Windows](img/git-for-windows.png)
 
 ---
+<!-- .slide: data-background="#13a" -->
 ![Git bash](img/git-bash-windows-bin.png)
 
 ---
@@ -206,9 +226,10 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it._
 ---
 <!-- .slide: data-autofragments -->
 ## BitKeeper?
+
 - 2000 - powstanie
 - 2002 - współpraca z dew. Linuksa
-- 2005 - odebranie licencji dew. Linuksa
+- 2005 - odebranie licencji deweloperom Linuksa
 - 2016 - open source (Apache License 2)
 - 2018 - discontinued
 
@@ -236,8 +257,122 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it._
 ------
 # etckeeper
 
+automatyczne wersjonowanie `/etc`
+
+---
+<!-- .slide: data-autofragments -->
+## etckeeper zastosowanie
+
+- serwery
+- stacje robocze
+- możliwość backupowania (push)
+- identyfikacja problemów
+
+---
+<!-- .slide: data-autofragments -->
+## etckeeper
+
+- dostępny w większości dystrybucji
+- integracja z menedżerem pakietów
+- obsługa kilku VCS (ale `git` FTW!)
+
 ------
+## Hooki w gicie
+
+![lshooks](img/ls-hooks.png) <!-- .element: style="height: 40vh;" -->
+
+---
+<!-- .slide: data-autofragments -->
+## Hooki w gicie
+
+- skrypty
+- uruchamiają się przed operacjami
+- (lub po)
+- przechowywane w `.git/hooks/`
+- nie są zawartością repozytorium
+- nie podlegają wersjonowaniu
+- są niewygodne
+
+---
 # pre-commit
+
+![precommit](img/pre-commit.png) <!-- .element: style="height: 40vh;" -->
+
+---
+<!-- .slide: data-autofragments -->
+## Hooki pre-commit
+
+- walidacja plików
+  - składnia
+  - typy plików
+  - rozmiar
+- autoformatowanie i naprawianie plików
+  - znaki końca linii
+  - jednolity styl formatowania
+
+---
+## Instalacja narzędzia
+
+```shell
+$ apt-get install pre-commit
+```
+
+```shell
+$ brew install pre-commit
+```
+
+```shell
+(venv)$ pip install pre-commit
+```
+
+---
+## Dodanie do projektu
+
+`.pre-commit-config.yaml`
+
+```yaml
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+```
+
+---
+## Integracja z repozytorium
+
+```shell
+$ pre-commit install
+```
+<!-- .element: style="font-size: 1em; margin: 1em;" -->
+
+
+(Powoduje stworzenie hooka w `.git/hooks/pre-commit`)
+
+---
+## Uruchomienie (ręczne)
+
+![precommit](img/pre-commit-run.png) <!-- .element: style="height: 50vh;" -->
+
+---
+## Uruchomienie (pełne)
+
+![precommit](img/pre-commit-run.png) <!-- .element: style="height: 50vh;" -->
+
+---
+## Uruchomienie (commit)
+
+![precommit](img/pre-commit-zmiany.png) <!-- .element: style="height: 50vh;" -->
+
+---
+## Więcej hooków
+- [black](https://github.com/psf/black-pre-commit-mirror)
+- [ansible-lint](https://github.com/ansible/ansible-lint)
+- [shellcheck](https://github.com/koalaman/shellcheck-precommit)
+- [pylint](https://pylint.pycqa.org/en/latest/user_guide/installation/pre-commit-integration.html)
 
 ------
 # Podpisywanie commitów
