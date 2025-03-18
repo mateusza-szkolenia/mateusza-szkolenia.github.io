@@ -3,12 +3,14 @@
 
 # Git - Like a pro!
 
+Mateusz Adamowski
+
 SysOps/DevOps Meetup #73  
 Warszawa, 2025-03-20
 
 ---
 <!-- .slide: data-autofragments -->
-## Mateusz Adamowski
+## O mnie
 
 - sysadmin (od 2005)
 - programista (Python, Bash, JS, C)
@@ -117,7 +119,7 @@ Innowacyjne narzędzie do kontroli wersji firmy BitMover.
 ---
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#211" -->
-## Kontrowersje
+## Flame wars
 
 Flagowy projekt FLOSS zarządzany komercyjnym narzędziem.
 
@@ -146,6 +148,7 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it. (Torva
 > (Linus Torvalds)
 
 ---
+<!-- .slide: data-autofragments -->
 # Rozwój gita
 
 - konkurencyjne narzędzia
@@ -240,11 +243,18 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it. (Torva
 ------
 # tig
 
+---
+<!-- .slide: data-background="#393" -->
 
+_live demo_
 
 ---
+## podsumowanie
 
-# `tig --author`
+- `tig --author=Torvalds`
+- `tig plik`
+- `tig katalog/`
+- `tig ab3a83b89ab89`
 
 ---
 
@@ -266,7 +276,9 @@ automatyczne wersjonowanie `/etc`
 - serwery
 - stacje robocze
 - możliwość backupowania (push)
-- identyfikacja problemów
+- identyfikacja niepożądanych zmian
+- przywracanie pochopnych zmian
+- rozliczalność adminów
 
 ---
 <!-- .slide: data-autofragments -->
@@ -274,12 +286,19 @@ automatyczne wersjonowanie `/etc`
 
 - dostępny w większości dystrybucji
 - integracja z menedżerem pakietów
-- obsługa kilku VCS (ale `git` FTW!)
+- obsługa kilku VCS
+- (ale `git` FTW!)
+
+---
+<!-- .slide: data-background="#393" -->
+
+_live demo_
 
 ------
-## Hooki w gicie
+# Hooks
 
-![lshooks](img/ls-hooks.png) <!-- .element: style="height: 40vh;" -->
+---
+![lshooks](img/ls-hooks.png) <!-- .element: style="height: 60vh;" -->
 
 ---
 <!-- .slide: data-autofragments -->
@@ -304,26 +323,25 @@ automatyczne wersjonowanie `/etc`
 
 - walidacja plików
   - składnia
-  - typy plików
+  - nazwy i typy plików
   - rozmiar
 - autoformatowanie i naprawianie plików
   - znaki końca linii
   - jednolity styl formatowania
 
 ---
+<!-- .slide: data-autofragments -->
 ## Instalacja narzędzia
 
 ```shell
 $ apt-get install pre-commit
 ```
+<!-- .element style="font-size: 1.4em;" -->
 
-```shell
-$ brew install pre-commit
-```
+alternatywnie:
 
-```shell
-(venv)$ pip install pre-commit
-```
+- `brew install pre-commit`
+- `pip install pre-commit`
 
 ---
 ## Dodanie do projektu
@@ -342,6 +360,7 @@ repos:
 ```
 
 ---
+<!-- .slide: data-autofragments -->
 ## Integracja z repozytorium
 
 ```shell
@@ -349,8 +368,7 @@ $ pre-commit install
 ```
 <!-- .element: style="font-size: 1em; margin: 1em;" -->
 
-
-(Powoduje stworzenie hooka w `.git/hooks/pre-commit`)
+(Powoduje stworzenie hooka `pre-commit` w `.git/hooks/`)
 
 ---
 ## Uruchomienie (ręczne)
@@ -360,7 +378,7 @@ $ pre-commit install
 ---
 ## Uruchomienie (pełne)
 
-![precommit](img/pre-commit-run.png) <!-- .element: style="height: 50vh;" -->
+![precommit](img/pre-commit-run-a.png) <!-- .element: style="height: 50vh;" -->
 
 ---
 ## Uruchomienie (commit)
@@ -368,28 +386,47 @@ $ pre-commit install
 ![precommit](img/pre-commit-zmiany.png) <!-- .element: style="height: 50vh;" -->
 
 ---
+<!-- .slide: data-autofragments -->
+### Działanie
+
+- walidacja
+- edycja
+
+---
+<!-- .slide: data-autofragments -->
 ## Więcej hooków
-- [black](https://github.com/psf/black-pre-commit-mirror)
-- [ansible-lint](https://github.com/ansible/ansible-lint)
-- [shellcheck](https://github.com/koalaman/shellcheck-precommit)
-- [pylint](https://pylint.pycqa.org/en/latest/user_guide/installation/pre-commit-integration.html)
+- [black](https://github.com/psf/black-pre-commit-mirror) (formatowanie pythona)
+- [ansible-lint](https://github.com/ansible/ansible-lint) (walidacja kodu ansible)
+- [shellcheck](https://github.com/koalaman/shellcheck-precommit) (walidacja kodu skryptów shellowych)
+- [pylint](https://pylint.pycqa.org/en/latest/user_guide/installation/pre-commit-integration.html) (walidacja kodu pythona)
+
+---
+<!-- .slide: data-background="#393" -->
+
+_strona projektu_
 
 ------
 # Podpisywanie commitów
 
-`[SCREENSHOT HERE]`
+~~GPG~~
+----
+
+![sign](img/ssh-sign-1.png)
+
+---
+
+![sign](img/ssh-sign-2.png)
 
 ---
 ## Generowanie klucza
 
-(Tylko, jeśli nie mamy)
-
 ```
 $ ssh-keygen -t ed25519
 ```
+<!-- .element: style="font-size: 1.3em;" -->
 
 ---
-# Konfiguracja
+## Konfiguracja
 
 ```
 $ git config --global user.signingkey "~/.ssh/id_ed25519.pub"
@@ -398,12 +435,14 @@ $ git config --global commit.gpgsign true
 ```
 
 ---
-# Upload klucza GitLab
+### Upload klucza GitLab
 
 ![Klucz](img/gitlab-ssh-key.png)
 
 ---
-# Upload klucza GitHub
+## Upload klucza GitHub
+
+![Klucz](img/github-ssh-key.png)
 
 ---
 # Weryfikacja
@@ -415,13 +454,52 @@ $ git cat-file -p master
 ------
 # git worktree
 
+
+
 ------
 # git filter-branch
 
 ------
 # Gitea
 
+---
+
+![Gitea](img/gitea-web.png)
+
+---
+<!-- .slide: data-autofragments -->
+## Gitea
+
+- alternatywa dla GitLaba i GitHuba
+- self-hosted
+- napisana w Go
+- trywialna instalacja
+- DB: SQLite, MySQL, Postgres
+- obsługuje CI/CD
+
+---
+<!-- .slide: data-background="#393" -->
+
+_live demo_
+
 ------
+# Slajdy?
+
+[mateusza-szkolenia.github.io](https://mateusza-szkolenia.github.io/)
+
+---
+<!-- .slide: data-background="img/fundacja-sysops-devops-polska-bg-gray.png" -->
+<!-- .slide: data-autofragments -->
+# Szkolenia
+
+- **[Python dla administratorów](https://www.sysopspolska.pl/szkolenia/python/)**  
+  15-16 maja 2025
+- **Git**  
+  _(w przygotowaniu)_
+
+`https://www.sysopspolska.pl/szkolenia`
+
+---
 
 [Koniec](./)
 
