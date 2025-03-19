@@ -97,7 +97,7 @@ _cofnijmy się w czasie do 2000_
 ## Linux
 
 - flagowy projekt free/open source
-- kernel 2.2.x
+- kernel 2.2.x, 2.4.x
 - 1.5M LoC
 - rosnąca popularność i zainteresowanie gigantów
 
@@ -111,7 +111,7 @@ _cofnijmy się w czasie do 2000_
 ---
 <!-- .slide: data-auto-animate -->
 
-> Przez pierwszych 10 lat rozwoju kernel używaliśmy po prostu tara i patchów, co jest znacznie lepszym systemem kontroli wersji niż CVS.
+> Przez pierwszych 10 lat rozwoju kernela używaliśmy po prostu archiwów tara i patchy, co jest znacznie lepszym systemem kontroli wersji niż CVS.
 >
 > (Linus Torvalds)
 
