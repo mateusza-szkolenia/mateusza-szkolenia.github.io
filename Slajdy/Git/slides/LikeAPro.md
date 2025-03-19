@@ -48,7 +48,18 @@ _cofnijmy się w czasie do 2000_
 - fatalna obsługa gałęzi i tagów
 
 ---
+
+![Torvalds](img/torvalds.jpg)
+
+---
+<!-- .slide: data-auto-animate -->
 > If you like using CVS, you should be in some kind of mental institution or somewhere else.
+>
+> (Linus Torvalds)
+
+---
+<!-- .slide: data-auto-animate -->
+> Jeśli lubisz używać CVS, powinieneś być w zakładzie psychiatrycznym czy gdzieś.
 >
 > (Linus Torvalds)
 
@@ -61,9 +72,19 @@ _cofnijmy się w czasie do 2000_
 - niefektywne przechowywanie
 - brak kontroli integralności danych
 - ograniczenia w obsłudze metadanych (np. `chmod`)
+- słaba funkcjonalność mergowania
 
 ---
+<!-- .slide: data-auto-animate -->
+
 > Subversion has been the most pointless project ever started... Subversion used to say, 'CVS done right.' With that slogan there is nowhere you can go. There is no way to do CVS right.
+>
+> (Linus Torvalds)
+
+---
+<!-- .slide: data-auto-animate -->
+
+> Subversion to najbardziej bezsensowny projekt, jaki kiedykolwiek rozpoczęto... Motto Subversion brzmiało: „CVS zrobione prawidłowo”. Z tym sloganem nie da się nic osiągnąć. Nie da się zrobić prawidłowo CVS.
 >
 > (Linus Torvalds)
 
@@ -81,8 +102,16 @@ _cofnijmy się w czasie do 2000_
 - rosnąca popularność i zainteresowanie gigantów
 
 ---
+<!-- .slide: data-auto-animate -->
 
 > For the first 10 years of kernel maintenance, we literally used tarballs and patches, which is a much superior source control management system than CVS is.
+>
+> (Linus Torvalds)
+
+---
+<!-- .slide: data-auto-animate -->
+
+> Przez pierwszych 10 lat rozwoju kernel używaliśmy po prostu tara i patchów, co jest znacznie lepszym systemem kontroli wersji niż CVS.
 >
 > (Linus Torvalds)
 
@@ -142,8 +171,16 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it. (Torva
 - narzędzia systemowe typu diff, patch
 
 ---
+<!-- .slide: data-auto-animate -->
 
 > Take CVS as an example of what not to do; if in doubt, make the exact opposite decision
+>
+> (Linus Torvalds)
+
+---
+<!-- .slide: data-auto-animate -->
+
+> Trzeba wziąć CVS jako przykład czego nie robić, a w razie wątpliwości - zrobić odwrotnie.
 >
 > (Linus Torvalds)
 
@@ -172,7 +209,14 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it. (Torva
 ---
 ## Windows problems
 
-<iframe src='assets/faylor-email.html' style='width: 60vw; height: 60vh;'></iframe>
+<iframe src='assets/faylor-email.html' style='width: 60vw; height: 40vh;'></iframe>
+
+---
+<!-- .slide: data-background="#ddd" -->
+
+> Are we *really* contemplating porting git to native Windows?
+> 
+> I guess I missed that memo.
 
 ---
 <!-- .slide: data-background="#eee" -->
@@ -181,7 +225,7 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it. (Torva
 ![Git for Windows](img/git-for-windows.png)
 
 ---
-<!-- .slide: data-background="#13a" -->
+<!-- .slide: data-background="img/bliss.jpg" -->
 ![Git bash](img/git-bash-windows-bin.png)
 
 ---
@@ -200,13 +244,13 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it. (Torva
 ## GitHub (2008)
 
 - platforma web
-- hosting free and open source
+- darmowy hosting projektów FLOSS
 
 ---
 <!-- .slide: data-autofragments -->
 ## GitLab (2011)
 
-- self-hosted GH clone
+- self-hosted
 - od 2014 też jako usługa
 - GitLab CI (2012, zintegrowane w 2015)
 
@@ -232,38 +276,134 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it. (Torva
 ## BitKeeper?
 
 - 2000 - powstanie
-- 2002 - współpraca z dew. Linuksa
+- 2002 - współpraca z deweloperami Linuksa
 - 2005 - odebranie licencji deweloperom Linuksa
 - 2016 - open source (Apache License 2)
 - 2018 - discontinued
 
----
+------
+<!-- .slide: data-background="#121" -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8SdAKwgHV48?si=-P48obiEs8icXvie" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+_przerwa na pytania_
 
 ------
 # tig
 
+text-mode interface for Git
+
 ---
-<!-- .slide: data-background="#393" -->
+<!-- .slide: data-auto-animate -->
+
+![tig](img/tig-putty-1.png)
+
+---
+<!-- .slide: data-auto-animate -->
+
+![tig](img/tig-putty-2.png)
+
+---
+<!-- .slide: data-auto-animate -->
+
+![tig](img/tig-putty-3.png)
+
+---
+<!-- .slide: data-auto-animate -->
+
+![tig](img/tig-putty-4.png)
+
+---
+## instalacja
+
+```shell
+# apt install tig
+```
+<!-- .element style="font-size: 1em;" -->
+
+---
+## tig
+
+Filtrowanie commitów danego autora
+
+```shell
+$ tig --author=Tatham
+```
+<!-- .element style="font-size: 1em;" -->
+
+---
+<!-- .slide: data-auto-animate -->
+
+![tig](img/tig-putty-author.png)
+
+---
+## tig
+
+Filtrowanie commitów dotyczących pliku lub podkatalogu
+
+```shell
+$ tig ścieżka
+```
+<!-- .element style="font-size: 1em;" -->
+
+---
+<!-- .slide: data-auto-animate -->
+
+![tig](img/tig-putty-path.png)
+
+---
+## tig
+
+Pomijanie commitów `merge`
+
+```shell
+$ tig --no-merges
+```
+<!-- .element style="font-size: 1em;" -->
+
+---
+<!-- .slide: data-auto-animate -->
+
+![tig](img/tig-nomerges-1.png)
+
+---
+<!-- .slide: data-auto-animate -->
+
+![tig](img/tig-nomerges-2.png)
+
+---
+## tig
+
+```shell
+$ tig blame plik
+```
+<!-- .element style="font-size: 1em;" -->
+
+---
+<!-- .slide: data-auto-animate -->
+
+![tig](img/tig-blame.png)
+
+---
+
+<!-- .slide: data-background="#401" -->
 
 _live demo_
 
 ---
-## podsumowanie
+## tig
 
-- `tig --author=Torvalds`
-- `tig plik`
-- `tig katalog/`
-- `tig ab3a83b89ab89`
-
----
-
-# `tig katalog/`
+```shell
+$ tig --all
+```
+<!-- .element style="font-size: 1em;" -->
 
 ---
+## tig
 
-# `tig --all`
+```shell
+$ tig commit-id
+```
+<!-- .element style="font-size: 1em;" -->
+
 
 ------
 # etckeeper
@@ -271,11 +411,18 @@ _live demo_
 automatyczne wersjonowanie `/etc`
 
 ---
+## instalacja
+
+```shell
+# apt install etckeeper
+```
+<!-- .element style="font-size: 1em;" -->
+
+---
 <!-- .slide: data-autofragments -->
 ## etckeeper zastosowanie
 
-- serwery
-- stacje robocze
+- serwery, stacje robocze
 - możliwość backupowania (push)
 - identyfikacja niepożądanych zmian
 - przywracanie pochopnych zmian
@@ -287,11 +434,11 @@ automatyczne wersjonowanie `/etc`
 
 - dostępny w większości dystrybucji
 - integracja z menedżerem pakietów
-- obsługa kilku VCS
+- obsługa innych VCS
 - (ale `git` FTW!)
 
 ---
-<!-- .slide: data-background="#393" -->
+<!-- .slide: data-background="#401" -->
 
 _live demo_
 
@@ -336,9 +483,9 @@ _live demo_
 ## Instalacja narzędzia
 
 ```shell
-$ apt-get install pre-commit
+$ apt install pre-commit
 ```
-<!-- .element style="font-size: 1.4em;" -->
+<!-- .element style="font-size: 1em;" -->
 
 alternatywnie:
 
@@ -350,7 +497,7 @@ alternatywnie:
 
 `.pre-commit-config.yaml`
 
-```yaml
+```yaml [1-8|1|2-3|4|5-8|5|6|7|8|1-8]
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
@@ -370,7 +517,7 @@ $ pre-commit install
 ```
 <!-- .element: style="font-size: 1em; margin: 1em;" -->
 
-(Powoduje stworzenie hooka `pre-commit` w `.git/hooks/`)
+Dodaje hook `pre-commit` w `.git/hooks/`
 
 ---
 ## Uruchomienie (ręczne)
@@ -395,27 +542,31 @@ $ pre-commit install
 - edycja
 
 ---
+<!-- .slide: data-background="#302" -->
+
+_zobaczmy stronę projektu_
+
+<https://github.com/pre-commit/pre-commit-hooks>
+
+---
 <!-- .slide: data-autofragments -->
 ## Więcej hooków
+
 - [black](https://github.com/psf/black-pre-commit-mirror) (formatowanie pythona)
 - [ansible-lint](https://github.com/ansible/ansible-lint) (walidacja kodu ansible)
 - [shellcheck](https://github.com/koalaman/shellcheck-precommit) (walidacja kodu skryptów shellowych)
 - [pylint](https://pylint.pycqa.org/en/latest/user_guide/installation/pre-commit-integration.html) (walidacja kodu pythona)
 
----
-<!-- .slide: data-background="#393" -->
-
-_strona projektu_
-
 ------
 # Podpisywanie commitów
 
-~~GPG~~
 ----
+<!-- .slide: data-auto-animate -->
 
 ![sign](img/ssh-sign-1.png)
 
 ---
+<!-- .slide: data-auto-animate -->
 
 ![sign](img/ssh-sign-2.png)
 
@@ -430,8 +581,8 @@ $ ssh-keygen -t ed25519
 ---
 ## Konfiguracja
 
-```
-$ git config --global user.signingkey "~/.ssh/id_ed25519.pub"
+```shell [1-3|1|2|3|1-3]
+$ git config --global user.signingkey ~/.ssh/id_ed25519.pub
 $ git config --global gpg.format ssh
 $ git config --global commit.gpgsign true
 ```
@@ -446,38 +597,65 @@ $ git config --global commit.gpgsign true
 
 ![Klucz](img/github-ssh-key.png)
 
----
-# Weryfikacja
-
-```
-$ git cat-file -p master
-```
-
 ------
+<!-- .slide: data-autofragments -->
 # git worktree
 
-
-------
-# praca z dużym repo
-
-- niepotrzebna historii
-- niepotrzebne podkatalogi
+- osobny katalog dla gałęzi
 
 ---
-# płytki klon
+## stworzenie worktree
 
-Tylko _n_ ostatnich commitów:
+```shell [1-3|1|2|3|1-3]
+$ git branch ABC-10
+$ git worktree add ../ABC-10
+$ cd ../ABC-10
+```
+<!-- .element: style="font-size: 1em;" -->
+
+---
+## usunięcie worktree
+
+```shell [1-2|1|2|1-2]
+$ git worktree list
+$ git worktree remove ../ABC-10
+```
+
+------
+<!-- .slide: data-autofragments -->
+
+# praca z dużymi repo
+<!-- .element: style="font-size: 2em;" -->
+
+- niepotrzebna historia
+- niepotrzebne podkatalogi
+- długi czas klonowania
+- zmarnowane miejsce na dysku
+
+---
+<!-- .slide: data-autofragments -->
+## płytki klon
 
 ```shell
 $ git clone --depth=2 "$REPO"
 ```
+<!-- .element: style="font-size: 1em;" -->
+
+Tylko _n_ ostatnich commitów.
 
 ---
-# rzadki checkout
+## rzadki checkout
 
-```shell
-$ git clone --no-checkout --filter=tree:0 "$REPO"
+_sparse_
+
+```shell [1-5|1|2|3|4|5|1-5]
+$ git clone --no-checkout --filter=tree:0 --depth=2 "$REPO"
+$ cd repo/
+$ git sprase-checkout set --no-cone katalog/
+$ git checkout
+$ git sparse-checkout add inny_katalog/
 ```
+
 
 ------
 # git filter-branch
@@ -501,7 +679,7 @@ $ git clone --no-checkout --filter=tree:0 "$REPO"
 - obsługuje CI/CD
 
 ---
-<!-- .slide: data-background="#393" -->
+<!-- .slide: data-background="#401" -->
 
 _live demo_
 
@@ -518,7 +696,7 @@ _live demo_
 - **[Python dla administratorów](https://www.sysopspolska.pl/szkolenia/python/)**  
   15-16 maja 2025
 - **Git**  
-  _(w przygotowaniu)_
+  _(już wkrótce!)_
 
 `https://www.sysopspolska.pl/szkolenia`
 
