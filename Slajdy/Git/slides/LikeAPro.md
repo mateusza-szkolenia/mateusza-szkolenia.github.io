@@ -142,8 +142,8 @@ Innowacyjne narzędzie do kontroli wersji firmy BitMover.
 - dla developerów FLOSS
 - ograniczona funkcjonalność
 - kontrowersyjne zapisy
-  - zakaz rozszerzania funkcjonalności
   - niedostępna dla developerów innych VCS
+  - zakaz rozszerzania funkcjonalności
 
 ---
 <!-- .slide: data-autofragments -->
@@ -656,9 +656,82 @@ $ git checkout
 $ git sparse-checkout add inny_katalog/
 ```
 
-
 ------
-# git filter-branch
+<!-- .slide: data-autofragments -->
+# monorepo
+
+- duże repozytoria
+- misz-masz małych projektów
+
+---
+<!-- .slide: data-autofragments -->
+Mamy duże repozytorium.
+
+Chcemy wyodrębnić historię jednego podkatalogu
+
+---
+
+```shell
+$ export FILTER_BRANCH_SQUELCH_WARNING=1
+$ git filter-branch --subdirectory-filter crypto/ -- --all
+```
+
+---
+<!-- .slide: data-background="#401" -->
+
+_live demo_
+
+---
+<!-- .slide: data-autofragments -->
+Mamy dwa różne repozytoria.
+
+Chcemy scalić je w jedno.
+
+---
+```shell
+$ git remote add repo2 "$REPO2"
+$ git fetch repo
+$ git merge --allow-unrelated-histories repo2/master
+```
+
+---
+<!-- .slide: data-background="#401" -->
+
+_live demo_
+
+---
+<!-- .slide: data-autofragments -->
+Wrzuciliśmy do repozytorium plik, który nie powinien się tam znaleźć.
+
+Musimy przepisać historię.
+
+---
+
+Znajdujemy commit, w którym dokonaliśmy niepożądanej zmiany.
+
+---
+
+```shell [1-7|1|2|3|4|5|6|7|1-7]
+$ rm niechciany_plik.txt
+$ vim plik.txt
+$ git add .
+$ git commit -m 'FIX'
+$ git rebase -i ZLY_COMMIT
+# przenosimy ostatni commit na drugą pozycję
+# zmieniamy go na "fixup"
+```
+
+---
+<!-- .slide: data-background="#401" -->
+
+_live demo_
+
+---
+# git subtree
+
+```shell
+$ git subtree --prefix "$TREE" pull "$SRC" "$SRC_BRANCH" --squash
+```
 
 ------
 # Gitea
@@ -684,11 +757,6 @@ $ git sparse-checkout add inny_katalog/
 _live demo_
 
 ------
-# Slajdy?
-
-[mateusza-szkolenia.github.io](https://mateusza-szkolenia.github.io/)
-
----
 <!-- .slide: data-background="img/fundacja-sysops-devops-polska-bg-gray.png" -->
 <!-- .slide: data-autofragments -->
 # Szkolenia
@@ -700,7 +768,12 @@ _live demo_
 
 `https://www.sysopspolska.pl/szkolenia`
 
----
+------
+# Slajdy?
+
+[mateusza-szkolenia.github.io](https://mateusza-szkolenia.github.io/)
+
+------
 
 [Koniec](./)
 
