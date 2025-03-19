@@ -113,8 +113,8 @@ Innowacyjne narzędzie do kontroli wersji firmy BitMover.
 - dla developerów FLOSS
 - ograniczona funkcjonalność
 - kontrowersyjne zapisy
-    - zakaz rozszerzania funkcjonalności
-    - niedostępna dla developerów innych VCS
+  - zakaz rozszerzania funkcjonalności
+  - niedostępna dla developerów innych VCS
 
 ---
 <!-- .slide: data-autofragments -->
@@ -155,6 +155,7 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it. (Torva
   - Mercurial (`hg`)
   - Bazaar (`bzr`)
   - Fossil (SQLite)
+  - Monotone
 
 ---
 <!-- .slide: data-autofragments -->
@@ -169,9 +170,9 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it. (Torva
 - wolniejszy system plików i tworzenie procesów
 
 ---
-## windows problems
+## Windows problems
 
-<iframe src='assets/faylor-email.html' style='width: 60vw; height: 70vh;'></iframe>
+<iframe src='assets/faylor-email.html' style='width: 60vw; height: 60vh;'></iframe>
 
 ---
 <!-- .slide: data-background="#eee" -->
@@ -325,6 +326,7 @@ _live demo_
   - składnia
   - nazwy i typy plików
   - rozmiar
+  - sekrety?
 - autoformatowanie i naprawianie plików
   - znaki końca linii
   - jednolity styl formatowania
@@ -455,6 +457,27 @@ $ git cat-file -p master
 # git worktree
 
 
+------
+# praca z dużym repo
+
+- niepotrzebna historii
+- niepotrzebne podkatalogi
+
+---
+# płytki klon
+
+Tylko _n_ ostatnich commitów:
+
+```shell
+$ git clone --depth=2 "$REPO"
+```
+
+---
+# rzadki checkout
+
+```shell
+$ git clone --no-checkout --filter=tree:0 "$REPO"
+```
 
 ------
 # git filter-branch
