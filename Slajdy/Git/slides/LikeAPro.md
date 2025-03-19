@@ -129,9 +129,9 @@ _cofnijmy się w czasie do 2000_
 
 Innowacyjne narzędzie do kontroli wersji firmy BitMover.
 
-- komerycjne (płatne)
+- komercyjne (płatne)
 - rozproszone
-- repozytoria "w chmurze"
+- trzyma repozytoria "w chmurze"
 - <i class='fab fa-windows'></i> <i class='fab fa-apple'></i> <i class='fab fa-linux'></i>
 - _kontrowersyjne_ licencjonowanie
 
