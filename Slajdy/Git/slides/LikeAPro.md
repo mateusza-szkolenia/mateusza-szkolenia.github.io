@@ -558,6 +558,37 @@ _zobaczmy stronę projektu_
 - [shellcheck](https://github.com/koalaman/shellcheck-precommit) (walidacja kodu skryptów shellowych)
 - [pylint](https://pylint.pycqa.org/en/latest/user_guide/installation/pre-commit-integration.html) (walidacja kodu pythona)
 
+---
+## Github Actions
+
+```yaml
+name: pre-commit
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v3
+    - uses: pre-commit/action@v3.0.1
+```
+
+---
+## Gitlab Pipeline
+
+```yaml
+pre-commit:
+  image: docker.io/jfxs/pre-commit:latest
+  stage: test
+  script:
+    - task --taskfile /lint.yml pre-commit DIR=$(pwd)
+```
+
 ------
 # Podpisywanie commitów
 
@@ -733,6 +764,12 @@ _live demo_
 ```shell
 $ git subtree --prefix "$TREE" pull "$SRC" "$SRC_BRANCH" --squash
 ```
+
+---
+<!-- .slide: data-background="#401" -->
+
+_live demo_
+
 
 ------
 # Gitea
