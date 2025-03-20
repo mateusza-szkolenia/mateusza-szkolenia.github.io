@@ -216,7 +216,7 @@ _I'll use the best tool for the job and, quite frankly, BitKeeper was it. (Torva
 <!-- .slide: data-background="#ddd" -->
 
 > Are we *really* contemplating porting git to native Windows?
-> 
+>
 > I guess I missed that memo.
 
 ---
@@ -722,7 +722,7 @@ Chcemy scalić je w jedno.
 ---
 ```shell
 $ git remote add repo2 "$REPO2"
-$ git fetch repo
+$ git fetch repo2
 $ git merge --allow-unrelated-histories repo2/master
 ```
 
@@ -769,7 +769,6 @@ $ git subtree --prefix "$TREE" pull "$SRC" "$SRC_BRANCH" --squash
 <!-- .slide: data-background="#401" -->
 
 _live demo_
-
 
 ------
 # Gitea
