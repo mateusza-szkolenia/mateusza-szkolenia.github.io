@@ -793,8 +793,8 @@ $ vim plik.txt
 $ git add .
 $ git commit -m 'FIX'
 $ git rebase -i ZLY_COMMIT
-# przenosimy ostatni commit na drugą pozycję
-# zmieniamy go na "fixup"
+$ ### przenosimy ostatni commit na drugą pozycję
+$ ### zmieniamy go na "fixup"
 ```
 
 ---
