@@ -1,4 +1,5 @@
-<!-- .slide: data-background="img/fundacja-sysops-devops-polska-bg-gray.png" -->
+<!-- .slide: data-background-image="img/fundacja-sysops-devops-polska-bg-gray.png" -->
+<!-- .slide: data-background-size="contain" -->
 <!-- .slide: data-autofragments -->
 
 # Git - Like a pro!
@@ -757,16 +758,33 @@ $ git subtree --prefix "$TREE" pull "$SRC" "$SRC_BRANCH" --squash
 _live demo_
 
 ------
-<!-- .slide: data-background="img/fundacja-sysops-devops-polska-bg-gray.png" -->
-<!-- .slide: data-autofragments -->
+<!-- .slide: data-background-image="img/fundacja-sysops-devops-polska-bg-gray.png" -->
+<!-- .slide: data-background-size="contain" -->
 # Szkolenia
 
-- **[Python dla administratorów](https://www.sysopspolska.pl/szkolenia/python/)**  
-  15-16 maja 2025
-- **Git**  
-  _(już wkrótce!)_
+<ul id='lista-szkolen'>
+<li class=fragment>
+<a href="https://www.sysopspolska.pl/szkolenia/python/"><b>Python dla administratorów</b></a><br>
+15-16 maja 2025
+</li>
+<li class=fragment>
+<a href="https://www.sysopspolska.pl/szkolenia/"><b>Git</b></a><br>
+<i>(już wkrótce!)</i>
+</li>
+</ul>
 
-`https://www.sysopspolska.pl/szkolenia`
+<p class=fragment><code>https://www.sysopspolska.pl/szkolenia</code></p>
+
+<style>
+#lista-szkolen {
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+#lista-szkolen li {
+    width: 47%;
+}
+</style>
 
 ------
 # Slajdy?
