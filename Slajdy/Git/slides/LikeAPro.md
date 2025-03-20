@@ -321,6 +321,17 @@ text-mode interface for Git
 <!-- .element style="font-size: 1em;" -->
 
 ---
+<!-- .slide: data-autofragments -->
+## nawigacja
+
+- ⬆️ ➡️ ⬇️ ⬅️  - przewijanie historii
+- `shift-O` - otwarcie commitu
+- `h j k l` - przewijanie podglądu
+- `t` - widok drzewa
+- `b` - blame
+- `q` - wyjście
+
+---
 ## tig
 
 Filtrowanie commitów danego autora
@@ -590,25 +601,26 @@ pre-commit:
 ```
 
 ------
+<!-- .slide: data-autofragments -->
 # CODEOWNERS
 
-- Plik definiujący własność kodu
-- Code Review + Approval
+- Plik definiujący właścicieli kodu
+- MR/PR
 - Wspierany przez GitHub i GitLab
 
 ---
 
 ```
 .gitlab-ci              @xxx
-/dir1                   @john
-/apps                   @mateusz
+/dir1/                  @admins
+/apps/                  @mateusz @pawel
 /apps/github            @xteam
 ```
 
 ------
 # Podpisywanie commitów
 
-----
+---
 <!-- .slide: data-auto-animate -->
 
 ![sign](img/ssh-sign-1.png)
@@ -650,6 +662,7 @@ $ git config --global commit.gpgsign true
 # git worktree
 
 - osobny katalog dla gałęzi
+- alternatywa dla `git switch` (`git checkout`)
 
 ---
 ## stworzenie worktree
@@ -689,7 +702,7 @@ $ git clone --depth=2 "$REPO"
 ```
 <!-- .element: style="font-size: 1em;" -->
 
-Tylko _n_ ostatnich commitów.
+Tylko _2_ ostatnie commity.
 
 ---
 ## rzadki checkout
@@ -708,11 +721,13 @@ $ git sparse-checkout add inny_katalog/
 <!-- .slide: data-autofragments -->
 # monorepo
 
-- duże repozytoria
+- duże repozytorium
 - misz-masz małych projektów
 
 ---
 <!-- .slide: data-autofragments -->
+## case
+
 Mamy duże repozytorium.
 
 Chcemy wyodrębnić historię jednego podkatalogu
@@ -730,7 +745,13 @@ $ git filter-branch --subdirectory-filter crypto/ -- --all
 _live demo_
 
 ---
+Alternatywne narzędzie:
+
+<https://github.com/newren/git-filter-repo>
+
+---
 <!-- .slide: data-autofragments -->
+## case
 Mamy dwa różne repozytoria.
 
 Chcemy scalić je w jedno.
@@ -747,13 +768,20 @@ $ git merge --allow-unrelated-histories repo2/master
 
 _live demo_
 
+------
+# Przepisywanie historii
+
 ---
+
 <!-- .slide: data-autofragments -->
+## case
+
 Wrzuciliśmy do repozytorium plik, który nie powinien się tam znaleźć.
 
 Musimy przepisać historię.
 
 ---
+### krok 1
 
 Znajdujemy commit, w którym dokonaliśmy niepożądanej zmiany.
 
@@ -775,6 +803,13 @@ $ git rebase -i ZLY_COMMIT
 _live demo_
 
 ---
+# przepisywanie historii
+
+- projekty jednoosobowe
+- tylko nadzwyczajne sytuacje
+- najlepiej zablokować na serwerze
+
+------
 # git subtree
 
 ```shell
@@ -802,7 +837,7 @@ _live demo_
 - napisana w Go
 - trywialna instalacja
 - DB: SQLite, MySQL, Postgres
-- obsługuje CI/CD
+- obsługuje CI/CD (GitHub Actions)
 
 ---
 <!-- .slide: data-background="#401" -->
@@ -834,7 +869,7 @@ _live demo_
     text-align: center;
 }
 #lista-szkolen li {
-    width: 47%;
+    width: 45%;
 }
 </style>
 
