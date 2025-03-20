@@ -590,6 +590,22 @@ pre-commit:
 ```
 
 ------
+# CODEOWNERS
+
+- Plik definiujący własność kodu
+- Code Review + Approval
+- Wspierany przez GitHub i GitLab
+
+---
+
+```
+.gitlab-ci              @xxx
+/dir1                   @john
+/apps                   @mateusz
+/apps/github            @xteam
+```
+
+------
 # Podpisywanie commitów
 
 ----
