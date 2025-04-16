@@ -438,6 +438,10 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 
 ---
 <!-- .slide: data-background="#fff" -->
+![UNIX dead](img/is-unix-dead.png) <!-- .element: style="height: 50vh;" -->
+
+---
+<!-- .slide: data-background="#fff" -->
 
 ![Meme](img/linux-friends-meme.jpg) <!-- .element: style="height: 50vh;" -->
 

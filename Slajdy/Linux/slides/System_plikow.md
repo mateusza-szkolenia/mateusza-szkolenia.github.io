@@ -243,6 +243,10 @@ Uwaga: *(prawie) wszystko jest plikiem*
 </div>
 </div>
 
+---
+<!-- .slide: data-background="#fff" -->
+![Praca domowa](img/c-drive.png) <!-- .element: style="height: 50vh;" -->
+
 ------
 <!-- .slide: data-autofragments -->
 <!-- .slide: data-background="#eee" -->
