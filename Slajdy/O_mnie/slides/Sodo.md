@@ -1,3 +1,5 @@
+<!-- .slide: data-background-image="img/fundacja-sysops-devops-polska-bg-gray.png" -->
+<!-- .slide: data-background-size="contain" -->
 <!-- .slide: data-autofragments -->
 # Mateusz Adamowski
 <!-- .element: style="font-size: 2em;" -->
@@ -66,7 +68,7 @@ od 2022
 
 ---
 <!-- .slide: data-autofragments -->
-## ALX
+## Firmy szkoleniowe
 
 od 2009
 
