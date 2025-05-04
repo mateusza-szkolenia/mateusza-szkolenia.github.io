@@ -124,6 +124,7 @@
 ### iOS
 
 * [iSH](https://ish.app/)
+* [LibTerm](https://libterm.app/) 
 
 ## Gotowe obrazy maszyn wirtualnych
 
