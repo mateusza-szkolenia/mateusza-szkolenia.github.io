@@ -212,9 +212,21 @@ Kod źródłowy tylko dla płacących klientów.
 # Przyszłość?
 
 Maj 2024:  
-Rocky Linux i AlmaLinux wydają wersje 8.10 i 9.4.
+Rocky Linux i AlmaLinux wydają wersje 8.10 i 9.4
 
-...
+---
+# Przyszłość?
+
+Listopad 2024:  
+Rocky Linux i AlmaLinux wydają wersję 9.5.
+
+---
+# Przyszłość?
+
+2025:  
+Rocky Linux i AlmaLinux zapowiadają wydanie wersji 10.0.
+
+---
 
 ------
 [Powrót do dystrybucji](Dystrybucje.html#/10/1)

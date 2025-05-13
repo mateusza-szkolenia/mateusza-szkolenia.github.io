@@ -11,8 +11,7 @@
 
 * [Rocky Linux](https://rockylinux.org/)
 * [AlmaLinux](https://almalinux.org/)
-* [CentOS](https://www.centos.org/)
-* [CentOS Stream](https://www.centos.org/centos-stream/)
+* [CentOS Stream](https://www.centos.org/)
 * [Oracle Linux](https://www.oracle.com/linux/)
 * [EuroLinux](https://euro-linux.com/)
 
