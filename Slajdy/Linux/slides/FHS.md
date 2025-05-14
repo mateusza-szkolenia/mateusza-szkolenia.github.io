@@ -78,7 +78,7 @@
 </style>
 
 ------
-### `/bin`, `/sbin`
+### `/bin`  ·  `/sbin`
 
 - pliki wykonywalne (polecenia)
 - *binarne*
@@ -119,14 +119,14 @@ pliki urządzeń
 - (celowo poza `/home`)
 
 ------
-### `/lib`, `/lib32`, `/lib64`
+### `/lib` · `/lib32` · `/lib64`
 
 - biblioteki systemowe
 - sterowniki
 - (odpowiedniki DLL i innych)
 
------- 
-### `/mnt`, `/media`
+------
+### `/mnt` · `/media`
 
 - nośniki zewnętrzne
 - dodatkowe partycje
@@ -188,7 +188,7 @@ kod źródłowy
 - dokumentacja
 
 ---
-### `/usr/bin`, `/usr/sbin`
+### `/usr/bin` · `/usr/sbin`
 
 - podobnie jak `/bin`
 
