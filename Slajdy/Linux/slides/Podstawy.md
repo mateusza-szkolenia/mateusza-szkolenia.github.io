@@ -19,7 +19,8 @@
 ------
 ## System binarny
 
-- 2 cyfry: 0 i 1
+2 cyfry:  
+0 i 1
 
 ---
 <!-- .slide: data-auto-animate -->
@@ -55,7 +56,7 @@ Liczba binarna: `101111`
 ```
 
 ```txt
-32  -  8  4  2  1 
+32  -  8  4  2  1
 ```
 
 ---
@@ -81,7 +82,8 @@ Liczba binarna: `101111`
 ------
 ## System dziesiętny
 
-- dziesięć cyfr: 0, 1, 2, ... 9
+dziesięć cyfr:  
+0, 1, 2, ... 9
 
 ------
 ## System szesnastkowy
@@ -157,8 +159,8 @@ liczba binarna: `1011011111000110101`
 ------
 ## System ósemkowy
 
-- osiem cyfr
-- 0, 1, 2, 3, 4, 5, 6, 7
+osiem cyfr:  
+0, 1, 2, 3, 4, 5, 6, 7
 
 ---
 ### zastosowanie
@@ -227,7 +229,7 @@ Różnica: *2.4%*
 <!-- .slide: data-autofragments -->
 ## Megabajt (1MB)
 
-* 1024 × 1024 = 1048576 B? 
+* 1024 × 1024 = 1048576 B?
 * 1000 × 1000 B?
 * 1000 × 1024 B?
 
@@ -245,13 +247,13 @@ Różnica: *7.3%*
 ------
 ## System SI
 
-| jednostka| symbol |wartość  | wartość      |
-|----------|--------|--------:|-------------:|
-| bajt     | B      |     1 B | 1 B          |
-| kilobajt | kB     |  1000 B | 1000 B       |
-| megabajt | MB     | 1000 kB | 1000000 B    |
-| gigabajt | GB     | 1000 MB | 1000000000 B |
-| terabajt | TB     | 1000 GB | 1000000000000 B |
+| jednostka| symbol |wartość  | wartość            |
+|----------|--------|--------:|-------------------:|
+| bajt     | B      |     1 B | 1 B                |
+| kilobajt | kB     |  1000 B | 1000 B             |
+| megabajt | MB     | 1000 kB | 1000000 B          |
+| gigabajt | GB     | 1000 MB | 1000000000 B       |
+| terabajt | TB     | 1000 GB | 1000000000000 B    |
 | petabajt | PB     | 1000 TB | 1000000000000000 B |
 
 <style> #system-si + table { font-size: 0.8em; } </style>
@@ -260,13 +262,13 @@ Różnica: *7.3%*
 <!-- .slide: data-autofragments -->
 ## System "informatyczny"
 
-| jednostka| symbol |wartość   | wartość      |  
-|----------|--------|---------:|-------------:|
-| bajt     | B      |      1 B | 1 B          |
-| kibibajt | kiB    |   1024 B | 1024 B       |
-| mebibajt | MiB    | 1024 kiB | 1048576 B    |
-| gibibajt | GiB    | 1024 MiB | 1073741824 B |
-| tebibajt | TiB    | 1024 GiB | 1099511627776 B |
+| jednostka| symbol |wartość   | wartość            |
+|----------|--------|---------:|-------------------:|
+| bajt     | B      |      1 B | 1 B                |
+| kibibajt | kiB    |   1024 B | 1024 B             |
+| mebibajt | MiB    | 1024 kiB | 1048576 B          |
+| gibibajt | GiB    | 1024 MiB | 1073741824 B       |
+| tebibajt | TiB    | 1024 GiB | 1099511627776 B    |
 | pebibajt | PiB    | 1024 TiB | 1125899906842624 B |
 
 <style> #system-informatyczny + table { font-size: 0.8em; } </style>
@@ -300,7 +302,7 @@ American Standard Code for Information Interchange
 - litery `A-Z` i `a-z`
 - cyfry
 - podstawowe znaki interpunkcyjne
-- podstawowe matematyczne 
+- podstawowe matematyczne
 - znaki sterujące
 
 Łącznie: 127 znaków (7 bitów)
@@ -322,7 +324,7 @@ American Standard Code for Information Interchange
 
 ------
 <!-- .slide: data-autofragments -->
-# Komputer a OS 
+# Komputer a OS
 
 ---
 <!-- .slide: data-autofragments -->
