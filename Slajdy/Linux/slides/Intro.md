@@ -39,6 +39,7 @@ PDP-11
 
 - pionierzy informatyki
 - twórcy m.in. UNIX-a i C
+- laureaci Nagrody Turinga
 
 </div>
 </div>
@@ -47,7 +48,7 @@ PDP-11
 
 ---
 <!-- .slide: data-autofragments -->
-## Cechy UNIX-a
+## Cechy UNIXa
 
 - wielozadaniowość
 - wielodostępność
@@ -56,7 +57,7 @@ PDP-11
 
 ---
 <!-- .slide: data-autofragments -->
-## Filozofia UNIX-a
+## Filozofia UNIXa
 
 - proste programy wykonujące jedno zadanie
 - wynik działania programu łatwy do dalszego przetwarzania
@@ -183,21 +184,33 @@ PDP-11
 
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#f90" -->
 # 4 wolności
 
 - uruchamianie programu w dowolnym celu
-- analiza działania i modyfikacja (*open source*)
+- analiza działania i modyfikacja (→ *open source*)
 - rozpowszechnianie
 - rozpowszechnianie swoich modyfikacji
 
 ---
-<!-- .slide: data-background="#fee" -->
+<!-- .slide: data-background="#000" -->
+<!-- .slide: style="font-family: serif; font-size: 0.9em; color: #3f3;" -->
 ## "copyleft"
 
-> @COPYLEFT ALL WRONGS RESERVED
+<pre style='font-size: 1.2em; padding: 0.5em; font-family: Courier;'>
+@COPYLEFT
+ALL WRONGS RESERVED
+</pre>
 
 ---
-> GNU is not in the public domain. Everyone will be permitted to modify and redistribute GNU, but no distributor will be allowed to restrict its further redistribution. That is to say, proprietary modifications will not be allowed. I want to make sure that all versions of GNU remain free.
+<!-- .slide: data-background="#eee" -->
+<!-- .slide: style="font-family: serif; font-size: 0.9em;" -->
+
+> GNU is not in the public domain. Everyone will be permitted
+> to modify and redistribute GNU, but no distributor will be
+> allowed to restrict its further redistribution. That is to say,
+> proprietary modifications will not be allowed. I want to make
+> sure that all versions of GNU remain free.
 
 ---
 <!-- .slide: data-background="#eee" -->
@@ -230,6 +243,7 @@ PDP-11
 <iframe src='assets/mit.html' style='width: 60vw; height: 50vh; outline: .2em solid #dcc; background-color: #eee;'></iframe>
 
 ---
+<!-- .slide: data-background="#eee" -->
 # Inne wolne licencje
 
 - *public domain*
@@ -261,6 +275,7 @@ Opis licencji prostym językiem: [tl;drLegal](https://www.tldrlegal.com/)
 
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#eee" -->
 # Free Software Foundation (1985)
 
 - Wspieranie ruchu wolnego oprogramowania
@@ -296,12 +311,12 @@ GNU is Not Unix
 <!-- .slide: data-autofragments -->
 # Oprogramowanie GNU
 
-- kernel: **GNU Mach/GNU Hurd**
 - shell: **GNU Bash**
 - polecenia: **GNU Coreutils**, **grep**, **tar**
 - bootloader: **GRUB**
 - kompilatory: **GCC**, **Make**
 - biblioteki: **Lib C**, **readline**
+- kernel: **GNU Mach/GNU Hurd** <!-- .element: style="color: #b11;" -->
 - narzędzia: **GnuPG**, **Octave**, **Emacs**, **GDB**
 - desktop, aplikacje: **GNOME**, **GIMP**
 - [i wiele innych](https://en.wikipedia.org/wiki/List_of_GNU_packages)
@@ -334,7 +349,7 @@ GNU is Not Unix
 ---
 ## My new operating system
 
-<iframe src='assets/torvalds-email.html' style='width: 60vw; height: 70vh;'></iframe>
+<iframe src='assets/torvalds-email.html' style='width: 60vw; height: 40vh;'></iframe>
 
 ---
 <!-- .slide: data-autofragments -->
@@ -419,6 +434,7 @@ Ranking 500 najpotężniejszych **nierozproszonych** komputerów.
 
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#eee" -->
 # Linux na TOP500
 
 - pierwszy raz na liście w 1998
@@ -523,29 +539,30 @@ Również inne Uniksy i Uniksopodobne
 # Komponenty
 
 ```txt
-kernel:      v4.4        v4.9        v5.4     v5.16  
+kernel:      v5.4.x      v5.10.x     v6.6.x   v6.14.x  
 init:        systemd     SysVinit    OpenRC   Runit  
 pulpit:      GNOME       KDE         MATE     XFCE   
 web:         Firefox     Konqueror   Chrome   ...    
 shell:       bash        ash         tcsh     zsh    
-narzędzia:   coreutils   busybox     ...      ...    
+narzędzia:   coreutils   busybox     rust-cu  go-cu  
 pakiety:     deb         rpm         apk      xbps   
+...          ...         ...         ...      ...
 ```
 
-<style> #komponenty + pre { font-size: 0.5em; } </style>
+<style> #komponenty + pre { font-size: 0.5em; line-height: 1.8em; } </style>
 
 ---
 # Wersje (wydania)
 
 | rok  | dystrybucja  | kernel | GNOME     | GCC  | Python |
 |------|--------------|--------|-----------|------|--------|
-| 2015 | RHEL 7       | 3.10   | 3.8       | 4.8  | 2.7    |
-| 2018 | Ubuntu 18.04 | 4.15   | 3.28      | 7.4  | 3.6    |
 | 2019 | RHEL 8       | 4.18   | 3.28      | 8.2  | 3.6    |
 | 2020 | Ubuntu 20.04 | 5.4    | 36 (3.36) | 9.0  | 3.8    |
+| 2021 | Debian 11    | 5.10   | 38 (3.38) | 10.2 | 3.9    |
 | 2022 | Ubuntu 22.04 | 5.15   | 42 (3.42) | 11.0 | 3.10   |
 | 2022 | RHEL 9       | 5.14   | 40 (3.40) | 11.2 | 3.9    |
 | 2022 | Ubuntu 22.10 | 5.19   | 43 (3.43) | 12.2 | 3.10   |
+| 2023 | Debian 12    | 6.1    | 43 (3.43) | 12.2 | 3.11   |
 | 2024 | Ubuntu 24.04 | 6.8    | 46 (3.46) | 13.0 | 3.12   |
 
 <style> #wersje-wydania + table { font-size: 0.7em; } </style>
