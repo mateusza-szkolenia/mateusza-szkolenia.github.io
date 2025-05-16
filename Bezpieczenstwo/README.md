@@ -7,4 +7,6 @@
 
 * <https://age-encryption.org/>
 
+* <https://overthewire.org/wargames/bandit/>
+
 * Passwords: <https://www.youtube.com/watch?v=qgpsIBLvrGY>
