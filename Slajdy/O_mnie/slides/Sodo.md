@@ -18,7 +18,7 @@ _"Pan od komputerów"_
 
 2004-2010
 
-- kilka małych firm i biur
+(kilka małych firm i biur)
 
 ---
 <!-- .slide: data-autofragments -->
