@@ -159,6 +159,14 @@ Tylko wersje od 8.3 wzwyż.
 *Rocky Linux is an open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux®.*
 
 ---
+# AlmaLinux vs RHEL
+
+- CentOS Stream
+- starsze architektury (`x86-64-v2`)
+- porzucone sterowniki
+- pominięte CVE i poprawki bezpieczeństwa
+
+---
 ## kalendarium AlmaLinux
 
 | wersja | RHEL       | AlmaLinux  | opóźnienie |
