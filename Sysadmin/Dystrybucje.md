@@ -91,6 +91,7 @@
 * [Snakeoil OS](https://www.snakeoil-os.net/)
 * [umbrelOS](https://umbrel.com/)
 * [Daphile](https://www.daphile.com/)
+* [EmulationStation](https://es-de.org/)
 
 ### Komputery Apple Macintosh z nowym procesorem Apple M1
 
