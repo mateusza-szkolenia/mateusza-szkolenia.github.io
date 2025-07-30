@@ -60,6 +60,11 @@
 ![fixing-bugs-on-production.jpg](fixing-bugs-on-production.jpg)
 
 
+## `fortinet-blinks-not-protects.jpeg`
+
+![fortinet-blinks-not-protects.jpeg](fortinet-blinks-not-protects.jpeg)
+
+
 ## `full-stack-developer.jpg`
 
 ![full-stack-developer.jpg](full-stack-developer.jpg)
@@ -158,6 +163,11 @@
 ## `no-secrets.jpg`
 
 ![no-secrets.jpg](no-secrets.jpg)
+
+
+## `offer-refusal-windows.jpg`
+
+![offer-refusal-windows.jpg](offer-refusal-windows.jpg)
 
 
 ## `outfits.jpg`
