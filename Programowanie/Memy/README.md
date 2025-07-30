@@ -130,6 +130,11 @@
 ![map-of-internet-1969.jpg](map-of-internet-1969.jpg)
 
 
+## `microsoft-start-menu.jpg`
+
+![microsoft-start-menu.jpg](microsoft-start-menu.jpg)
+
+
 ## `mr-bean.jpg`
 
 ![mr-bean.jpg](mr-bean.jpg)
@@ -148,6 +153,11 @@
 ## `netscape-ie.jpg`
 
 ![netscape-ie.jpg](netscape-ie.jpg)
+
+
+## `no-secrets.jpg`
+
+![no-secrets.jpg](no-secrets.jpg)
 
 
 ## `outfits.jpg`
@@ -178,6 +188,11 @@
 ## `regex.png`
 
 ![regex.png](regex.png)
+
+
+## `rust-is-safe.jpg`
+
+![rust-is-safe.jpg](rust-is-safe.jpg)
 
 
 ## `stickers.jpg`
