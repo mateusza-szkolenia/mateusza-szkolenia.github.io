@@ -152,6 +152,7 @@
     * [DragonflyBSD](https://www.dragonflybsd.org/)
     * [Debian GNU/kFreeBSD](https://www.debian.org/ports/kfreebsd-gnu/)
     * [GhostBSD](https://ghostbsd.org/)
+    * [BSDRP](https://bsdrp.net/)
 * Solaris i pochodne
     * [illumos](https://illumos.org/)
         * [OpenIndiana](https://www.openindiana.org/)
