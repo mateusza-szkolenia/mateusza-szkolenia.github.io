@@ -288,11 +288,12 @@ Ubuntu 22.10 (Kinetic Kudu)
 Ubuntu 23.04 (Lunar Lobster)  
 Ubuntu 23.10 (Mantric Minotaur)  
 **Ubuntu 24.04 LTS (Noble Numbat)**  
-Ubuntu 24.10 Oracular Oriole  
-Ubuntu 25.04 Plucky Puffin  
+Ubuntu 24.10 (Oracular Oriole)  
+Ubuntu 25.04 (Plucky Puffin)  
+Ubuntu 25.10 (Questing Quokka)  
 ...  
-*Ubuntu 25.10 Questing Quokka*  
-*Ubuntu 26.04 LTS ...*
+*Ubuntu 26.04 LTS (Resolute Raccoon)*  
+*Ubuntu 26.10 (S... S...)*  
 
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
 <!-- .slide: data-background="linear-gradient(151deg, rgba(2,0,36,1) 3%, rgba(85,30,61,1) 43%, rgba(99,33,69,1) 74%, rgba(156,58,47,1) 94%)" -->
@@ -307,8 +308,8 @@ Ubuntu 25.04 Plucky Puffin
 
 - wydania co kilka lat
 - numeracja
-  - głównych wydań: 7, 8, 9...
-  - poprawek: 9.1, 9.2, 9.3...
+  - głównych wydań: 8, 9, 10...
+  - poprawek: 9.1, 9.5, 9.6...
 - długie wsparcie (ok. 10 lat)
 
 ---
@@ -320,7 +321,7 @@ Ubuntu 25.04 Plucky Puffin
 ## Fedora
 
 - wydania średnio dwa razy w roku
-- numeracja: ...37, 38, 39, 40...
+- numeracja: ...40, 41, 42, 43...
 - krótkie wsparcie
 - pole eksperymentalne RHEL
 
@@ -363,12 +364,12 @@ Debian 8 (Jessie)
 Debian 9 (Stretch)  
 Debian 10 (Buster)  
 Debian 11 (Bullseye)  
-**Debian 12 (Bookworm)**  
-⸱⸱⸱  
-*Debian 13 (Trixie)*  
+Debian 12 (Bookworm)  
+**Debian 13 (Trixie)**  
 *Debian 14 (Forky)*  
 ⸱⸱⸱  
 *Debian Sid*  
+
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
 
 ---
@@ -412,6 +413,13 @@ Debian 11 (Bullseye)
 - inne
   - specyficzne dla dystrybucji
   - niezależne od dystrybucji
+
+------
+## Jak wybrać?
+
+---
+<!-- .slide: data-background="#fff" -->
+![Choosing](img/choosing-an-os.jpg) <!-- .element: style="height: 60vh;" -->
 
 ------
 [Koniec](./)

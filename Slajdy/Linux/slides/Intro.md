@@ -268,6 +268,14 @@ Opis licencji prostym językiem: [tl;drLegal](https://www.tldrlegal.com/)
 <style> #inne-wolne-licencje { font-size: 1.4em; } </style>
 
 ---
+<!-- .slide: data-background="#933" -->
+
+## ~~Freeware, shareware~~
+
+- brak kodu źródłowego
+- zakaz rozpowszechniania modyfikacji
+
+---
 <!-- .slide: data-background="#fff" -->
 # ![FSF](img/fsf.png) <!-- .element: style="height: 20vh;" -->
 
@@ -299,9 +307,9 @@ GNU is Not Unix
 </div>
 <div>
 
-- system operacyjny
+## System operacyjny <!-- .element: style="font-size: 1.2em;" -->
   - kernel
-  - oprogramowanie
+  - narzędzia systemowe
   - programy użytkowe
 
 </div>
@@ -536,6 +544,14 @@ Również inne Uniksy i Uniksopodobne
 - ...
 
 ---
+<!-- .slide: data-autofragments -->
+# macOS?
+
+- bazuje na Uniksie
+- nie bazuje na Linuksie ani GNU
+- opcjonalne pakiety GNU (np. bash)
+
+---
 # Komponenty
 
 ```txt
@@ -554,16 +570,16 @@ pakiety:     deb         rpm         apk      xbps
 ---
 # Wersje (wydania)
 
-| rok  | dystrybucja  | kernel | GNOME     | GCC  | Python |
-|------|--------------|--------|-----------|------|--------|
-| 2019 | RHEL 8       | 4.18   | 3.28      | 8.2  | 3.6    |
-| 2020 | Ubuntu 20.04 | 5.4    | 36 (3.36) | 9.0  | 3.8    |
-| 2021 | Debian 11    | 5.10   | 38 (3.38) | 10.2 | 3.9    |
-| 2022 | Ubuntu 22.04 | 5.15   | 42 (3.42) | 11.0 | 3.10   |
-| 2022 | RHEL 9       | 5.14   | 40 (3.40) | 11.2 | 3.9    |
-| 2022 | Ubuntu 22.10 | 5.19   | 43 (3.43) | 12.2 | 3.10   |
-| 2023 | Debian 12    | 6.1    | 43 (3.43) | 12.2 | 3.11   |
-| 2024 | Ubuntu 24.04 | 6.8    | 46 (3.46) | 13.0 | 3.12   |
+| rok  | dystrybucja  | kernel | GNOME | GCC  | Python |
+|------|--------------|--------|-------|------|--------|
+| 2022 | Ubuntu 22.04 | 5.15   | 42    | 11.0 | 3.10   |
+| 2022 | RHEL 9       | 5.14   | 40    | 11.2 | 3.9    |
+| 2022 | Ubuntu 22.10 | 5.19   | 43    | 12.2 | 3.10   |
+| 2023 | Debian 12    | 6.1    | 43    | 12.2 | 3.11   |
+| 2024 | Ubuntu 24.04 | 6.8    | 46    | 13.0 | 3.12   |
+| 2025 | RHEL 10      | 6.12   | 47    | 14.0 | 3.12   |
+| 2025 | Debian 13    | 6.12   | 48    | 14.2 | 3.13   |
+| 2025 | Ubuntu 25.10 | 6.17   | 49    | 15.0 | 3.13   |
 
 <style> #wersje-wydania + table { font-size: 0.7em; } </style>
 
