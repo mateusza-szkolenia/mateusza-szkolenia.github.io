@@ -42,6 +42,7 @@
 
 * [ifconfig.pro](http://ifconfig.pro/)
 * [ifconfig.me](http://ifconfig.me/)
+* [Jaki jest mój adres IP?](https://whatismyip.help/pl/)
 
 ## Oprogramowanie serwerowe
 
