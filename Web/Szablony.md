@@ -6,7 +6,7 @@
 * [Bootstrap](https://getbootstrap.com/)
 * [OpenUI5](http://openui5.org/)
 * [Concrete style](https://concrete.style/)
-* [Shoelace](https://shoelace.style/)
+* [Webawesome](https://webawesome.com/)
 * [Raster Simple Grid System](https://rsms.me/raster/)
 
 ### Stylizowane GUI
@@ -17,6 +17,8 @@
 * [PSOne.css](https://micah5.github.io/PSone.css/)
 * [Win95.css](https://alexbsoft.github.io/win95.css/)
 * [BOOTSTRA.386](http://kristopolous.github.io/BOOTSTRA.386/)
+* [System.css](https://sakofchit.github.io/system.css/)
+* [AmberConsole](https://dutchdiederik.github.io/AmberConsole/docs/)
 
 ## Gotowe szablony stron i serwisów
 * [HTML5Up](https://html5up.net/)
