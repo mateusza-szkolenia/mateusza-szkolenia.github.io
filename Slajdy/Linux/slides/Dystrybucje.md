@@ -279,7 +279,7 @@ Ubuntu 18.04 LTS (Bionic Beaver)
 Ubuntu 18.10 (Cosmic Cuttlefish)  
 Ubuntu 19.04 (Disco Dingo)  
 Ubuntu 19.10 (Eoan Ermine)  
-**Ubuntu 20.04 LTS (Focal Fossa)**  
+Ubuntu 20.04 LTS (Focal Fossa)  
 Ubuntu 20.10 (Groovy Gorilla)  
 Ubuntu 21.04 (Hirsute Hippo)  
 Ubuntu 21.10 (Impish Indri)  
@@ -291,9 +291,10 @@ Ubuntu 23.10 (Mantric Minotaur)
 Ubuntu 24.10 (Oracular Oriole)  
 Ubuntu 25.04 (Plucky Puffin)  
 Ubuntu 25.10 (Questing Quokka)  
+**Ubuntu 26.04 LTS (Resolute Raccoon)**  
 ...  
-*Ubuntu 26.04 LTS (Resolute Raccoon)*  
-*Ubuntu 26.10 (S... S...)*  
+*Ubuntu 26.10 (Stonking Stingray)*    
+*Ubuntu 27.04 (T... T...)*  
 
 <!-- .element: style="column-count: 3; font-size: 0.45em;" -->
 <!-- .slide: data-background="linear-gradient(151deg, rgba(2,0,36,1) 3%, rgba(85,30,61,1) 43%, rgba(99,33,69,1) 74%, rgba(156,58,47,1) 94%)" -->
