@@ -20,8 +20,11 @@ def get_slidesets():
         }
 
 VERSIONS = {
-    'revealjs_version': '5.1.0',
-    'font_awesome_version': '6.7.2',
+    # https://cdnjs.com/libraries/reveal.js
+    'revealjs_version': '6.0.2',
+
+    # https://cdnjs.com/libraries/font-awesome
+    'font_awesome_version': '7.3.1',
 }
 
 def main():
