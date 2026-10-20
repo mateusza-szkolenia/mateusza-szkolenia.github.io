@@ -32,9 +32,21 @@ Kraków, 2026-10-23
 Komu to potrzebne?
 
 ---
+<!-- .slide: data-background="#000" -->
+![Error](img/initramfs/error2.jpg)
+
+---
+<!-- .slide: data-background="#000" -->
+![Error](img/initramfs/error3.webp)
+
+---
+<!-- .slide: data-background="#000" -->
+![Error](img/initramfs/error1.jpg)
+
+---
 <!-- .slide: data-autofragments -->
 
-## Czy initramfs (initrd) jest potrzebny?
+## Czy initramfs jest potrzebny?
 
 - Często nie
 - Czasami nie
@@ -42,53 +54,77 @@ Komu to potrzebne?
 Ale po kolei...
 
 ------
-# Bootowanie systemu
+<!-- .slide: data-autofragments -->
+# Start systemu
 
 - UEFI / BIOS
 - GRUB
 - kernel + initrd
+- systemd
 
 ---
+<!-- .slide: data-autofragments -->
 ## BIOS
 
 Umie wczytać MBR  
 (446 bajtów)
 
 ---
+<!-- .slide: data-autofragments -->
 ## UEFI
 
-- Tablica partycji
+- Tablica partycji  
+  (MBR lub GPT)
 - FAT
 
 ---
+<!-- .slide: data-autofragments -->
 ## GRUB
 
 - Tablica partycji
 - FAT, ext4, XFS, ISO-9660
-- *LVM, RAID, LUKS*
+- (...*LVM, RAID, LUKS*...) ?
 
 ---
+<!-- .slide: data-autofragments -->
+## Jak dostać się do dysku systemowego?
+
+- dostanie się do dysku wymaga modułów
+- moduły są na dysku
+
+---
+<!-- .slide: data-autofragments -->
 ## initramfs
 
-- minimalistyczny zestaw plików
+- minimalistyczne środowisko
+- całkowicie w RAM-ie
+- sterowniki i podstawowe narzędzia
 
 ------
 <!-- .slide: data-autofragments -->
 # initrd?
 
 ---
+## ramdisk vs ramfs
 <!-- .slide: data-autofragments -->
 - RD - ramdisk
 - ramfs - RAM filesystem
 
-------
-# Budowa initramfs
+---
+## struktura ramdisk
 
-- cpio
+- urządzenie blokowe
+- ext2
+
+------
+# struktura initramfs
+
+- archiwum cpio
 
 ---
+# cpio?
 
-X-SCREENSHOT-INITRAMFS
+- poprzednik tara
 
 ------
 # Busybox
@@ -104,6 +140,26 @@ X-SCREENSHOT-INITRAMFS
 
 - lsinitramfs
 - unmkinitramfs
+
+------
+
+# initramfs w Debianie
+
+---
+
+# Dodawanie własnych skryptów w Debianie
+
+---
+
+# hook
+
+---
+
+# script
+
+---
+
+
 
 ------
 
@@ -128,6 +184,22 @@ X-SCREENSHOT-INITRAMFS
 # Use case #4 notyfikacje
 
 - curl/wget
+
+------
+
+# Going diskless
+
+------
+
+# dracut
+
+-------
+
+# systemd w initramfs
+
+------
+
+# ukify
 
 ------
 # Slajdy?
