@@ -102,7 +102,7 @@ Umie wczytać MBR
 
 ------
 <!-- .slide: data-autofragments -->
-# initrd?
+## initrd?
 
 ---
 ## ramdisk vs ramfs
@@ -111,39 +111,59 @@ Umie wczytać MBR
 - ramfs - RAM filesystem
 
 ---
-## struktura ramdisk
+<!-- .slide: data-autofragments -->
+## struktura initrd
 
 - urządzenie blokowe
 - ext2
 
 ------
+<!-- .slide: data-autofragments -->
 # struktura initramfs
 
 - archiwum cpio
 
 ---
+<!-- .slide: data-autofragments -->
 # cpio?
 
 - poprzednik tara
 
 ------
+<!-- .slide: data-autofragments -->
 # Busybox
 
-------
-# Budowa initrd
-
-- mkfs
+- lekka implementacja coreutils
+- ... i nie tylko
 
 ------
-
+<!-- .slide: data-autofragments -->
 # Praca z initramfs
 
 - lsinitramfs
 - unmkinitramfs
 
 ------
+<!-- .slide: data-autofragments -->
+# Use case #1: LUKS
 
+- zaszyfrowany dysk
+- jak podać hasło zdalnie?
+
+---
+## dropbear
+
+- serwer SSH w initramfs
+- gotowa integracja w Debianie:  
+  `apt-get install dropbear-initramfs`
+
+------
+<!-- .slide: data-autofragments -->
 # initramfs w Debianie
+
+- `update-initramfs`
+- `/usr/share/initramfs-tools`
+- `/etc/initramfs-tools`
 
 ---
 
@@ -161,11 +181,6 @@ Umie wczytać MBR
 
 
 
-------
-
-# Use case #1: LUKS
-
-- dropbear
 
 ------
 
