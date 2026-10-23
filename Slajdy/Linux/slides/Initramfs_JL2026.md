@@ -609,6 +609,17 @@ ukify build \
 
 ------
 <!-- .slide: data-autofragments -->
+# warsztaty
+
+- kiedy? niedziela, 8:55
+- BYOL - bring your own laptop
+- zainstaluj wcześniej:
+  - Virtualbox
+  - docker
+  - qemu
+
+------
+<!-- .slide: data-autofragments -->
 # Materiały
 
 - materiały i pozostałe slajdy:
