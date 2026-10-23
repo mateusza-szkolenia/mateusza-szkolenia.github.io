@@ -608,15 +608,28 @@ ukify build \
 ```
 
 ------
+<!-- .slide: data-background-image="img/jesien-linuksowa-bg-gray.png" -->
+<!-- .slide: data-background-size="contain" -->
+<!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#d8d8d8" -->
 <!-- .slide: data-autofragments -->
 # warsztaty
 
 - kiedy? niedziela, 8:55
 - BYOL - bring your own laptop
-- zainstaluj wcześniej:
-  - Virtualbox
-  - docker
-  - qemu
+- zainstaluj wcześniej:  
+  Virtualbox, Docker, Qemu
+
+---
+<!-- .slide: data-background-image="img/jesien-linuksowa-bg-gray.png" -->
+<!-- .slide: data-background-size="contain" -->
+<!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#d8d8d8" -->
+<!-- .slide: data-autofragments -->
+# warsztaty
+
+- rozszerzanie initramfs w Debian
+- budowa własnego initramfs
 
 ------
 <!-- .slide: data-autofragments -->
