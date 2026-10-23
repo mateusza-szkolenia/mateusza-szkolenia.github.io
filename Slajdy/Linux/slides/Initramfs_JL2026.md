@@ -111,7 +111,7 @@ BIOS lub UEFI wczytuje bootloader (GRUB)
 
 1. uruchamia się
 2. montuje dysk (`root=`)
-3. uruchamia proces `init` (PID 0)
+3. uruchamia proces `init` (PID 1)
 
 ---
 <!-- .slide: data-autofragments -->
@@ -183,20 +183,36 @@ BIOS lub UEFI wczytuje bootloader (GRUB)
 
 ------
 <!-- .slide: data-autofragments -->
+# cryptroot
+
+- szyfrowany dysk wymaga hasła...
+- **PODAJ HASŁO: ...**
+- ... lokalnie
+
+---
+
+<!-- .slide: data-autofragments -->
 Use case #1:
 
-# LUKS
+# zdalne wprowadzanie hasła
 
-- zaszyfrowany dysk
 - jak podać hasło zdalnie?
+
+---
+<!-- .slide: data-autofragments -->
+## zdalny dostęp do initramfs
+
+- sieć (DHCP lub statyczny IP)
+- serwer SSH
 
 ---
 <!-- .slide: data-autofragments -->
 ## dropbear
 
-- serwer SSH w initramfs
+- mały serwer SSH w initramfs
 - gotowa integracja w Debianie:  
   `apt-get install dropbear-initramfs`
+- (trzeba wrzucić klucze SSH)
 
 ---
 ![dropbear](img/initramfs/dropbear1.png)
@@ -322,6 +338,7 @@ Skrypt jest uruchamiany również w trakcie budowania `initramfs` w celu ustalen
 Parametr: `prereqs`
 
 ------
+<!-- .slide: data-autofragments -->
 Use case #2
 
 # wireguard
@@ -340,6 +357,14 @@ copy_file conffile /etc/initramfs/wg0.conf /conf/wg0.conf
 ```
 
 ---
+<!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#411" -->
+## wg
+
+- nie korzystamy z `wg-quick`
+- część kroków robimy *ręcznie*
+
+---
 ## skrypt (init-premount)
 
 ```sh
@@ -354,6 +379,7 @@ ip route add "$route" dev "$interface"
 ```
 
 ------
+<!-- .slide: data-autofragments -->
 Use case #3
 
 ## wifi
@@ -393,12 +419,13 @@ done
 ```
 
 ------
+<!-- .slide: data-autofragments -->
 
 Use case #4
 
 ## notyfikacje
 
-- `curl` / `wget` mogą wysłać informację o wyniku startu
+- `curl` / `wget` mogą wysłać informację o postępie startu
 - np. błąd montowania rootfs albo gotowość do odblokowania LUKS
 - sieć, DNS i certyfikaty CA muszą być dostępne w initramfs
 
@@ -444,18 +471,19 @@ NTFYSH_TOPIC="jesien_linuksowa_2026"
 ![ntfy](img/initramfs/ntfy1.png)
 
 ------
-
+<!-- .slide: data-autofragments -->
 # Więcej pomysłów
 
 - ntp
 - iptables
+- bootsplash (plymouth)
 
 ------
 
 # Initramfs from scratch
 
 ---
-
+<!-- .slide: data-autofragments -->
 # Budowa własnego initramfs od zera
 
 - `busybox` jako /bin/sh
@@ -486,14 +514,15 @@ find . | cpio --owner=0:0 -H newc -o > ../initrd
 ```
 
 ------
-
+<!-- .slide: data-autofragments -->
 # Diskless?
 
 A gdyby tak nie montować dysku i zostać w RAM-ie na zawsze?
 
 ---
-
-# Diskless (aka LiveCD)
+<!-- .slide: data-autofragments -->
+# Diskless
+## (aka LiveCD)
 
 - docelowy `rootfs` spakowany wewnątrz initramfs
 
@@ -530,14 +559,17 @@ mount -t overlay overlay \
 ```
 
 ---
+<!-- .slide: data-autofragments -->
 # Co dalej?
 
-- kernel i initramfs można wczytać np. przez PXE lub iPXE
-- zastosowania: rescue, serwery usług
+- kernel i initramfs można wczytać też przez PXE lub iPXE
+- zastosowania:
+  - systemy ratunkowe
+  - bezstanowe serwery usług (*stateless*)
 - ograniczenia: pamięć RAM, czas startu i brak trwałego zapisu
 
 ------
-
+<!-- .slide: data-autofragments -->
 # dracut
 
 - generator initramfs używany m.in. w Fedorze i RHEL
@@ -546,17 +578,17 @@ mount -t overlay overlay \
 - budowanie: `dracut -f`
 - zawartość obrazu: `lsinitrd`
 
--------
-
+------
+<!-- .slide: data-autofragments -->
 # systemd w initramfs
 
-- systemd może być PID 1 w initramfs
+- `systemd` może być PID 1 w initramfs
 - funkcjonalność initramfs zaimplementowana jako jednostki systemd
 - po przygotowaniu systemu następuje przejście do właściwego rootfs
 - Ubuntu 26.04
 
 ------
-
+<!-- .slide: data-autofragments -->
 # ukify
 
 - jeden plik EFI może zawierać cały obraz startowy
@@ -564,7 +596,19 @@ mount -t overlay overlay \
 - UKI łączy kernel, initramfs i wiersz poleceń kernela
 - można go podpisać do uruchamiania z Secure Boot
 
+---
+# ukify
+
+```sh
+ukify build \
+    --linux=kernel-x.y.z" \
+    --initrd=initrd-x.y.z.gz" \
+    --cmdline="console=tty0" \
+    --output="mojsystem.efi"
+```
+
 ------
+<!-- .slide: data-autofragments -->
 # Materiały
 
 - materiały i pozostałe slajdy:
