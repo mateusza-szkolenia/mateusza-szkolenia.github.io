@@ -15,4 +15,4 @@
 * [55: FS](FS.html) \[[MD](slides/FS.md)\]
 * [60: Menedżery pakietów](Menedzery_pakietow.html) \[[MD](slides/Menedzery_pakietow.md)\]
 * [70: Edytory](Edytory.html) \[[MD](slides/Edytory.md)\]
-* [Initramfs - tajemniczy etap startu Linuksa](Initramfs_JL2026.html) \[[MD](slides/Initramfs_JL2026.md)\]
+* [Initramfs](Initramfs_JL2026.html) \[[MD](slides/Initramfs_JL2026.md)\]
