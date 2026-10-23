@@ -607,6 +607,15 @@ ukify build \
     --output="mojsystem.efi"
 ```
 
+---
+# kexec
+
+```sh
+kexec -l inny-kernel \
+        --append=...cmdline... \
+        --initrd=inny-initrd
+```
+
 ------
 <!-- .slide: data-background-image="img/jesien-linuksowa-bg-gray.png" -->
 <!-- .slide: data-background-size="contain" -->
