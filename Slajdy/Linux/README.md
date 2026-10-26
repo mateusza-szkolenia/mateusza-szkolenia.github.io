@@ -16,3 +16,4 @@
 * [60: Menedżery pakietów](Menedzery_pakietow.html) \[[MD](slides/Menedzery_pakietow.md)\]
 * [70: Edytory](Edytory.html) \[[MD](slides/Edytory.md)\]
 * [Initramfs](Initramfs_JL2026.html) \[[MD](slides/Initramfs_JL2026.md)\]
+* [Initramfs](Initramfs_SODO2026.html) \[[MD](slides/Initramfs_SODO2026.md)\]
