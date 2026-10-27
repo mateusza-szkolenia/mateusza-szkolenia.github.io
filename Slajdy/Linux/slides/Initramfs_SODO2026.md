@@ -128,7 +128,8 @@ moduły są na dysku
 ## initramfs
 
 - minimalistyczne środowisko
-- całkowicie w RAM-ie
+- przechowywane na osobnej partycji `/boot`
+- ładowane do RAM-u
 - sterowniki i podstawowe narzędzia
 
 ------
