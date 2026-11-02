@@ -10,7 +10,7 @@
 * [DigitalOcean](https://m.do.co/c/b97bdf0b622f) - $100 na próbę
 * [Vultr](https://www.vultr.com/?ref=7128436) - $100 na próbę
 * [Fotbo](https://my.fotbo.com/signup?ref=ENXFYIxD)
-* [Mikr.us](https://mikr.us/)
+* [Mikr.us](https://mikr.us/?r=mateusz)
 
 ## Książki
 
