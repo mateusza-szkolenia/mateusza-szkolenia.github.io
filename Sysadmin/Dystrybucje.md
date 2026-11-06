@@ -15,7 +15,7 @@
 * [Oracle Linux](https://www.oracle.com/linux/)
 * [EuroLinux](https://euro-linux.com/)
 
-## Bazujące na [Ubuntu](https://ubuntu.com/) i [Debianie](https://www.debian.org/):
+## Bazujące na [Debianie](https://www.debian.org/) i [Ubuntu](https://ubuntu.com/):
 
 * [Vanilla OS](https://vanillaos.org/)
 * [elementary OS](https://elementary.io/)
@@ -40,8 +40,8 @@
 
 ## Inne
 
-* [Void Linux](https://voidlinux.org/)
 * [Alpine Linux](https://alpinelinux.org/)
+* [Void Linux](https://voidlinux.org/)
 * [Arch Linux](https://archlinux.org/)
 * [Manjaro](https://manjaro.org/)
 * [NixOS](https://nixos.org)
@@ -60,7 +60,6 @@
 * [GRML](https://grml.org/)
 * [Kali Linux](https://www.kali.org/)
 * [SystemRescue](https://www.system-rescue.org/)
-* [Tails](https://tails.boum.org/)
 * [Knoppix](https://www.knopper.net/knoppix/)
 
 ## Dedykowane dla konkretnych urządzeń, usług i zastosowań
@@ -138,7 +137,6 @@
 
 * [Justin Bieber Linux](https://biebian.sourceforge.net/)
 * [Hannah Montana Linux](https://hannahmontana.sourceforge.net/)
-* [Hotdog Linux](https://hotdoglinux.com/)
 
 # Inne systemy wzorowane i bazujące na UNIX-ie
 
@@ -158,22 +156,24 @@
         * [OpenIndiana](https://www.openindiana.org/)
         * [OmniOS](https://omnios.org/)
         * [Tribblix](http://www.tribblix.org/)
-        * [SmartOS](https://www.tritondatacenter.com/smartos)
     * [Oracle Solaris](https://www.oracle.com/solaris/)
 * macOS
     * [hackintosh](https://hackintosh.com/)
 * GNU/Hurd
     * [Debian GNU/Hurd](https://www.debian.org/ports/hurd/)
+* [SerenityOS](https://serenityos.org)
 * [RedoxOS](https://www.redox-os.org/) - klon UNIX-a napisany w języku Rust
+* [VinixOS](https://vinix-os.org/) - klon UNIX-a napisany w języku V
+* [PureDarwin](https://puredarwin.org/) - klon macOS (z kernelem Darwin)
+* [Ginux](https://github.com/gmkurtzer/ginux) - zamiennik kernela Linuksa napisany w Rust
 
 # Jeszcze inne systemy operacyjne
 
 * [ReactOS](https://reactos.org/) - klon Windows
+* [LibreNT](https://libernt.com/) - klon Windows 11 (NT) - bazuje na ReactOS
 * [HaikuOS](https://www.haiku-os.org/) - klon BeOS
-* [Plan 9](https://p9f.org/)
-* [TempleOS](https://templeos.org/)
-* [SerenityOS](https://serenityos.org)
-* [Essence](https://nakst.gitlab.io/essence)
+* [Plan 9 from Bell Labs](https://p9f.org/) - system operacyjny bardziej uniksowy od jakiegokolwiek Uniksa
+* [TempleOS](https://templeos.org/) - ezoteryczny system operacyjny stworzony przez [Terry'ego Davisa](https://en.wikipedia.org/wiki/Terry_A._Davis)
 
 # Emulator PC w przeglądarce
 
