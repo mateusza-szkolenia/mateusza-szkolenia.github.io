@@ -10,7 +10,7 @@
 Mateusz Adamowski
 <!-- .element: style="font-size: 0.8em;" -->
 
-SysOps/DevOps MeetUp #89 2026  
+SysOps/DevOps MeetUp #89  
 Warszawa, 2026-11-26
 <!-- .element: style="font-size: 0.8em;" -->
 
@@ -29,6 +29,10 @@ Warszawa, 2026-11-26
 # initramfs
 
 Komu to potrzebne?
+
+---
+<!-- .slide: data-background="#eee" -->
+![Tux](img/tux.png) <!-- .element: style="height: 50vh;" -->
 
 ---
 <!-- .slide: data-background="#000" -->
@@ -52,8 +56,9 @@ Często nie
 Ale po kolei...
 
 ------
+<!-- .slide: data-background="#020" -->
 <!-- .slide: data-autofragments -->
-# Start systemu
+# Start systemu x86
 
 - UEFI / BIOS
 - GRUB
@@ -64,7 +69,10 @@ Ale po kolei...
 
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#888" -->
+<!-- .slide: style="font-family: monospace;" -->
 ## BIOS
+<!-- .element: style="color: #fff; background-color: #008;" -->
 
 Umie wczytać MBR  
 (446 bajtów)
@@ -73,20 +81,26 @@ Nie rozumie tablicy partycji, systemów plików
 
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#000" -->
+<!-- .slide: style="font-family: monospace;" -->
 ## UEFI
+<!-- .element: style="color: #ff0; background-color: #004;" -->
 
 - Tablica partycji  
   (MBR lub GPT)
 - FAT
 
 ---
-<!-- .slide: data-background="#4d4" -->
+<!-- .slide: data-background="#030" -->
 
 BIOS lub UEFI wczytuje bootloader (GRUB)
 
 ---
 <!-- .slide: data-autofragments -->
+<!-- .slide: data-background="#312" -->
+<!-- .slide: style="font-family: monospace;" -->
 ## GRUB
+<!-- .element: style="color: #312; background-color: #888;" -->
 
 - Tablica partycji
 - FAT, ext4, XFS, ISO-9660
@@ -94,7 +108,7 @@ BIOS lub UEFI wczytuje bootloader (GRUB)
 <small>(w ograniczonym stopniu też: LVM, RAID, LUKS)</small>
 
 ---
-<!-- .slide: data-background="#4d4" -->
+<!-- .slide: data-background="#030" -->
 <!-- .slide: data-autofragments -->
 
 ## GRUB
@@ -103,7 +117,7 @@ BIOS lub UEFI wczytuje bootloader (GRUB)
 2. ładuje kernel (i initrd)
 
 ---
-<!-- .slide: data-background="#4d4" -->
+<!-- .slide: data-background="#030" -->
 <!-- .slide: data-autofragments -->
 
 ## Kernel
@@ -199,10 +213,10 @@ moduły są na dysku
 
 ```sh
 # ...
-# przygotuj /root
+# przygotuj /newroot
 # ...
 
-exec run-init /root /bin/init "$@"
+exec run-init /newroot /bin/init "$@"
 ```
 
 ------
@@ -232,7 +246,6 @@ Szyfrowany dysk wymaga hasła...
 ... wpisanego lokalnie
 
 ---
-
 <!-- .slide: data-autofragments -->
 Use case #1:
 
@@ -247,7 +260,7 @@ Use case #1:
 # KVM / IPMI
 
 - powolne, niewygodne
-- zróżnicowane  
+- nieustandaryzowane  
   (producenci sprzętu i prowiderzy)
 - trudne w automatyzacji
 
@@ -259,6 +272,7 @@ Use case #1:
 - sieć  
   (DHCP lub statyczny IP)
 - serwer SSH
+- ...VPN?
 
 ---
 <!-- .slide: data-autofragments -->
@@ -278,7 +292,7 @@ Use case #1:
 
 ---
 <!-- .slide: data-autofragments -->
-## Dropbear
+## dropbear
 
 - uwierzytelnianie tylko na klucze
 - warto używać innego portu
@@ -365,19 +379,18 @@ copy_exec /bin/busybox /bin/busybox.full
 ---
 
 ```
-    init-top        (przed załadowaniem modułów)
-        ↓
+    init-top
+        ↓               [ładowanie modułów]
     init-premount
-        ↓
-    local-top
-        ↓
-    local-premount
-        ↓
-    local-bottom    (po zamontowaniu /)
-        ↓
+            ↓
+        local-top
+            ↓
+        local-premount
+            ↓            [montowanie /]
+        local-bottom
+            ↓
     init-bottom
-        ↓
-    *** start normalnego systemu ***
+        ↓                [start systemu]
 ```
 ---
 
@@ -517,7 +530,8 @@ Use case #4
 
 - `curl` / `wget` mogą wysłać informację o postępie startu
 - np. błąd montowania rootfs albo gotowość do odblokowania LUKS
-- sieć, DNS i certyfikaty CA muszą być dostępne w initramfs
+- sieć i DNS muszą działać
+- ...oraz certyfikaty CA jeśli chcemy HTTPS
 
 ---
 <!-- .slide: data-background="#fff" -->
@@ -561,7 +575,7 @@ export NTFYSH_TOPIC
 
 ---
 
-![ntfy](img/initramfs/ntfy1.png)
+![ntfy](img/initramfs/ntfy1.png) <!-- .element: style="width: 70%" -->
 
 ------
 <!-- .slide: data-autofragments -->
@@ -597,7 +611,7 @@ sh
 ---
 ## budowa initramfs
 
-```sh
+```sh [1-2|3-4|5|6]
 mkdir -p initramfs && cd initramfs
 mkdir -p bin
 cp "$SRC/busybox" bin/busybox
@@ -623,13 +637,45 @@ A gdyby tak nie montować dysku i zostać w RAM-ie na zawsze?
 - docelowy `rootfs` spakowany wewnątrz initramfs
 
 ---
+<!-- .slide: data-autofragments -->
+## rootfs
+
+Budujemy za pomocą:
+- `debootstrap` (lub `mmdebstrap`)
+- `dnf --installroot...`
+- `apk --root`
+- `mkosi`
+
+---
+<!-- .slide: data-autofragments -->
+## poprawki rootfs
+
+- wyczyszczenie /etc/machine-id
+- wyczyszczenie kluczy *sshd*
+- wgranie `authorized_keys`
+
+---
+<!-- .slide: data-autofragments -->
+## optymalizacje rootfs
+
+- usunięcie cache APT
+- kompresja list APT
+
+---
+<!-- .slide data-autofragments -->
+## optymalizacje kernela
+
+Usunięcie obsługi:
+
+- wifi?
+- dźwięk?
+- ...
+
+---
 ## przejście do nowego systemu
 
-```
-mount -t proc proc /proc
-memsize="$(sed -ne '/^MemTotal/s/^.*: *\(.*\) kB$/\1/p' /proc/meminfo)"
-umount /proc
-
+```sh
+memsize=1000000
 mkdir -p /newroot
 mount -t tmpfs -o "size=${memsize}k,mode=0755" tmpfs /newroot
 
@@ -639,17 +685,27 @@ exec /bin/run-init /newroot /sbin/init "$@"
 ```
 
 ---
+## memsize?
+
+Można wykryć:
+
+```sh
+mount -t proc proc /proc
+memsize="$(sed -ne '/^MemTotal/s/^.*: *\(.*\) kB$/\1/p' /proc/meminfo)"
+umount /proc
+```
+
+---
 ## A może squashfs?
 
-```
+```sh
 mkdir -p /rootfs-ro
 mount -t squashfs -o loop,ro /rootfs.squashfs /rootfs-ro
-mkdir -p /overlay /newroot
 
-memsize="$(sed -ne '/^MemTotal/s/^.*: *\(.*\) kB$/\1/p' /proc/meminfo)"
+mkdir -p /overlay
 mount -t tmpfs -o "size=${memsize}k,mode=0755" tmpfs /overlay
 
-mkdir -p /overlay/upper /overlay/work
+mkdir -p /overlay/upper /overlay/work /newroot
 mount -t overlay overlay -o \
   lowerdir=/rootfs-ro,upperdir=/overlay/upper,workdir=/overlay/work \
   /newroot
@@ -661,7 +717,7 @@ exec /bin/run-init /newroot /sbin/init "$@"
 <!-- .slide: data-autofragments -->
 # Co dalej?
 
-- kernel i initramfs można wczytać też przez PXE lub iPXE
+- PXE lub iPXE?
 - zastosowania:
   - systemy ratunkowe
   - bezstanowe serwery usług (*stateless*)
@@ -669,7 +725,7 @@ exec /bin/run-init /newroot /sbin/init "$@"
 
 ---
 <!-- .slide: data-autofragments -->
-## Zalety
+## Zalety Golden Image
 
 - bezpieczeństwo
   - utrudnione *persistence* (trwałość)
