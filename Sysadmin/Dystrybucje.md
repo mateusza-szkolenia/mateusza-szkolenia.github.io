@@ -165,12 +165,14 @@
 * [RedoxOS](https://www.redox-os.org/) - klon UNIX-a napisany w języku Rust
 * [VinixOS](https://vinix-os.org/) - klon UNIX-a napisany w języku V
 * [PureDarwin](https://puredarwin.org/) - klon macOS (z kernelem Darwin)
+* [SiliconForest](https://github.com/chriskearney/siliconforest) - fork PureDarwin
 * [Ginux](https://github.com/gmkurtzer/ginux) - zamiennik kernela Linuksa napisany w Rust
 
 # Jeszcze inne systemy operacyjne
 
 * [ReactOS](https://reactos.org/) - klon Windows
 * [LibreNT](https://libernt.com/) - klon Windows 11 (NT) - bazuje na ReactOS
+* [Impossible OS](https://github.com/rizonesoft/impossible-os) - system zgodny z Win32 API
 * [HaikuOS](https://www.haiku-os.org/) - klon BeOS
 * [Plan 9 from Bell Labs](https://p9f.org/) - system operacyjny bardziej uniksowy od jakiegokolwiek Uniksa
 * [TempleOS](https://templeos.org/) - ezoteryczny system operacyjny stworzony przez [Terry'ego Davisa](https://en.wikipedia.org/wiki/Terry_A._Davis)
