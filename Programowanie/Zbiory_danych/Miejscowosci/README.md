@@ -7,6 +7,7 @@
 | 2021 | 2021-12-09 | [[SQL]](data/2021-polskie-miasta.sql) |[[DB]](data/2021-polskie-miasta.db) |[[CSV]](data/2021-polskie-miasta.csv) |[[TXT]](data/2021-polskie-miasta.txt) |[[JSON]](data/2021-polskie-miasta.json) |[[YAML]](data/2021-polskie-miasta.yaml) |
 | 2022 | 2022-06-08 | [[SQL]](data/2022-polskie-miasta.sql) |[[DB]](data/2022-polskie-miasta.db) |[[CSV]](data/2022-polskie-miasta.csv) |[[TXT]](data/2022-polskie-miasta.txt) |[[JSON]](data/2022-polskie-miasta.json) |[[YAML]](data/2022-polskie-miasta.yaml) |
 | 2023 | 2023-11-29 | [[SQL]](data/2023-polskie-miasta.sql) |[[DB]](data/2023-polskie-miasta.db) |[[CSV]](data/2023-polskie-miasta.csv) |[[TXT]](data/2023-polskie-miasta.txt) |[[JSON]](data/2023-polskie-miasta.json) |[[YAML]](data/2023-polskie-miasta.yaml) |
+| 2026 | 2026-11-19 | [[SQL]](data/2026-polskie-miasta.sql) |[[DB]](data/2026-polskie-miasta.db) |[[CSV]](data/2026-polskie-miasta.csv) |[[TXT]](data/2026-polskie-miasta.txt) |[[JSON]](data/2026-polskie-miasta.json) |[[YAML]](data/2026-polskie-miasta.yaml) |
 
 ## Opis formatów
 

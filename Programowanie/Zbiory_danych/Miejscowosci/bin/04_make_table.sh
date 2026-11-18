@@ -5,7 +5,7 @@ cat <<'EOF'
 |-----|-----------------|-------|----------|-------|-------|--------|--------|
 EOF
 
-for rok in 2021 2022 2023
+for rok in 2021 2022 2023 2026
 do
     read -r TODAY < "../data/$rok-polskie-miasta.date"
 
