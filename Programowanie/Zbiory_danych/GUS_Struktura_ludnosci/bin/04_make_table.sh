@@ -5,7 +5,7 @@ cat <<'EOF'
 |-----|-----------------|-------|----------|-------|-------|--------|
 EOF
 
-for rok in 2018 2021 2023
+for rok in 2018 2021 2023 2026
 do
     read -r TODAY < "../data/$rok-dane-gus-populacja.date"
 

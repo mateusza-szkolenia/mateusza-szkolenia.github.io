@@ -7,6 +7,8 @@
 | 2018 | 2018-12-31 |[[SQL]](data/2018-dane-gus-populacja.sql) |[[DB]](data/2018-dane-gus-populacja.db) |[[CSV]](data/2018-dane-gus-populacja.csv) |[[TXT]](data/2018-dane-gus-populacja.txt) |[[JSON]](data/2018-dane-gus-populacja.json) |
 | 2021 | 2021-12-31 |[[SQL]](data/2021-dane-gus-populacja.sql) |[[DB]](data/2021-dane-gus-populacja.db) |[[CSV]](data/2021-dane-gus-populacja.csv) |[[TXT]](data/2021-dane-gus-populacja.txt) |[[JSON]](data/2021-dane-gus-populacja.json) |
 | 2023 | 2023-11-29 |[[SQL]](data/2023-dane-gus-populacja.sql) |[[DB]](data/2023-dane-gus-populacja.db) |[[CSV]](data/2023-dane-gus-populacja.csv) |[[TXT]](data/2023-dane-gus-populacja.txt) |[[JSON]](data/2023-dane-gus-populacja.json) |
+| 2026 | 2026-11-19 |[[SQL]](data/2026-dane-gus-populacja.sql) |[[DB]](data/2026-dane-gus-populacja.db) |[[CSV]](data/2026-dane-gus-populacja.csv) |[[TXT]](data/2026-dane-gus-populacja.txt) |[[JSON]](data/2026-dane-gus-populacja.json) |
+
 
 ## Opis formatów
 
