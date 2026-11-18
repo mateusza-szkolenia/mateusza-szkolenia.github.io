@@ -12,6 +12,8 @@
 * [Fotbo](https://my.fotbo.com/signup?ref=ENXFYIxD)
 * [Mikr.us](https://mikr.us/?r=mateusz)
 
+* [hypervm.sh](https://hypervm.sh/) - 5 minutowe VPS-y
+
 ## Książki
 
 - William Shotts - *The Linux Command Line*
