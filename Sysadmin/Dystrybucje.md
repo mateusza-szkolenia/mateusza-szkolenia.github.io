@@ -168,11 +168,14 @@
 * [SiliconForest](https://github.com/chriskearney/siliconforest) - fork PureDarwin
 * [Ginux](https://github.com/gmkurtzer/ginux) - zamiennik kernela Linuksa napisany w Rust
 
-# Jeszcze inne systemy operacyjne
+# Klony Windows
 
 * [ReactOS](https://reactos.org/) - klon Windows
 * [LibreNT](https://libernt.com/) - klon Windows 11 (NT) - bazuje na ReactOS
-* [Impossible OS](https://github.com/rizonesoft/impossible-os) - system zgodny z Win32 API
+* [Impossible OS](https://impossibleos.co/) - system zgodny z Win32 API
+
+# Jeszcze inne systemy operacyjne
+
 * [HaikuOS](https://www.haiku-os.org/) - klon BeOS
 * [Plan 9 from Bell Labs](https://p9f.org/) - system operacyjny bardziej uniksowy od jakiegokolwiek Uniksa
 * [TempleOS](https://templeos.org/) - ezoteryczny system operacyjny stworzony przez [Terry'ego Davisa](https://en.wikipedia.org/wiki/Terry_A._Davis)
