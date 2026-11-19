@@ -177,6 +177,7 @@
 # Jeszcze inne systemy operacyjne
 
 * [HaikuOS](https://www.haiku-os.org/) - klon BeOS
+* [Vitruvian V\\OS](https://v-os.dev/) - połączenie BeOS z Linuksem
 * [Plan 9 from Bell Labs](https://p9f.org/) - system operacyjny bardziej uniksowy od jakiegokolwiek Uniksa
 * [TempleOS](https://templeos.org/) - ezoteryczny system operacyjny stworzony przez [Terry'ego Davisa](https://en.wikipedia.org/wiki/Terry_A._Davis)
 
