@@ -19,7 +19,7 @@ Warszawa, 2026-11-26
 ## O mnie
 
 - sysadmin (od 2005)
-- programista (Python, Bash, JS, C)
+- programista
 - miłośnik Linuksa (od 2000)
 - szkoleniowiec
 
